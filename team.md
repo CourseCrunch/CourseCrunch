@@ -25,7 +25,7 @@ We will be meeting face to face once a week, directly after our CSC301 Tutorial.
 
 ### Meeting Preparation
 
-Each member should come prepared with a summary of their progress over the sprint and major design decisons that were made. If a group member was unable to compete their sprint on time, and should come to the retro meeting with lessons learnt and an action plan to catch up for the next sprint. Although no formal slides or documents are required, high-levels would be benefical. \
+Each member should come prepared with a summary of their progress over the sprint and major design decisons that were made. If a group member was unable to compete their sprint on time, and should come to the retro meeting with lessons learnt and an action plan to catch up for the next sprint. Although no formal slides or documents are required, high-levels would be benefical. 
 
 If any group member wishes to stop working on a given user story, they must come prepared to transition the user story to another member. At the minimum, this would include notes on the current progress of the user story along with challenges faced, strategies attempted and lessons learnt over the previous sprint.
 
@@ -40,13 +40,13 @@ Commit atomically, and frequently. Don't commit minor changes. Each commit messa
 7) Use the body to explain what and why vs. how
 
 ### Roles and Division of Work
-Roles will assigned sprint by sprint and based on group members skillsets interests, early on, the majority of the teams focus will be defining the backend and high priority endpoints. \
+Roles will assigned sprint by sprint and based on group members skillsets interests, early on, the majority of the teams focus will be defining the backend and high priority endpoints. 
 
 The work done each sprint will be based on the priority of the user stories, each member will aim to take on a sufficent number of stories. The priority system of user stories will be on a range of 1-5, with 5 being large critical stories. Each member will aim for an average of sprint priority 4 through the project, this could be several smaller tickets or one large ticket. If one member has a heavily sprint (i.e., total over 5) then they should follow this with a lighter sprint.
 
 ### Submitting Sprint Deliverables and Software
-1) We wil submit everything required in sprint at least one day before deadline to prevent last moment changes and as a buffer \
-2) Krish and Naaz will submit all the required work \ 
+1) We wil submit everything required in sprint at least one day before deadline to prevent last moment changes and as a buffer 
+2) Krish and Naaz will submit all the required work 
 3) Ritvik and Wan will review the technical and functional deliverables
 
 ### Contingency Planning

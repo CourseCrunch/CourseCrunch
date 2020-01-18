@@ -1,4 +1,4 @@
-# Team - BoundedBytes
+# Team - BoundlessBytes
 Krish Chowdhary - chowd460 \
 Naaz Sibia - sibianaa \
 Ritvik Bhardwaj - bhard118 \

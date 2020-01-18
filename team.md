@@ -38,6 +38,9 @@ Commit atomically, and frequently. Don't commit minor changes. Each commit messa
 7) Use the body to explain what and why vs. how
 
 ### Roles and Division of Work
+Roles will assigned sprint by sprint and based on group members skillsets interests, early on, the majority of the teams focus will be defining the backend and high priority endpoints. \
+
+The work done each sprint will be based on the priority of the user stories, each member will aim to take on a sufficent number of stories. The priority system of user stories will be on a range of 1-5, with 5 being large critical stories. Each member will aim for an average of sprint priority 4 through the project, this could be several smaller tickets or one large ticket. If one member has a heavily sprint (i.e., total over 5) then they should follow this with a lighter sprint.
 
 ### Submitting Sprint Deliverables and Software
 1) Submit everything required in sprint at least one day before deadline to prevent last moment changes and panicking

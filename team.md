@@ -17,7 +17,7 @@ As mentioned above, we are all in a shared group channel on Discord and Messenge
 
 ### Communication Response Times
 
-We are capping internal message response time at 4 hours accross channels, since we are all active on the channel mentioned above there should be very few instances where this cap is reached. 
+We are capping internal message response time at 4 hours across channels, since we are all active on the channel mentioned above there should be very few instances where this cap is reached. 
 
 ### Standups and Other Agile Meetings
 

@@ -1,0 +1,668 @@
+STAC67H3,CMSSC,Regression Analysis STAC67H3-Y-LEC01,Summer,2019,Asidianya,Nnenna,3.4,3.6,3.6,4.2,4.1,3.2,3.3,2.9,3.5,125,28
+STAB23H3,CMSSC,Intro to Stats for Social Sci STAB23H3-Y-LEC01,Summer,2019,Aslemand,Asal,3.6,3.5,3.8,3.8,3.9,3.1,2.9,3.1,3.4,85,15
+STAB22H3,CMSSC,Statistics I STAB22H3-Y-LEC01,Summer,2019,Aslemand,Asal,2.9,3.2,3.2,3.5,3.6,3,3,3.1,3.1,159,32
+MATA23H3,CMSSC,Linear Algebra I MATA23H3-Y-LEC01,Summer,2019,Attarwala,Abbas,3.7,3.8,4.2,4.2,4.1,3.8,3.5,3.2,3.7,32,19
+CSCC63H3,CMSSC,Computability & Complexity CSCC63H3-Y-LEC01,Summer,2019,Cheng,Nick,4.2,3.9,4.5,4.1,4.2,3.9,3.7,3.4,3.7,75,16
+CSCB36H3,CMSSC,Intro to Theory of Computation CSCB36H3-Y-LEC01,Summer,2019,Cheng,Nick,4,3.9,4.1,3.8,3.8,3.4,3.1,3.4,3.2,87,28
+CSCB63H3,CMSSC,Design & Analysis Data Structs CSCB63H3-Y-LEC01,Summer,2019,Corlett,Eric,4.1,4.1,3.3,4.2,4.1,3.4,3.6,3.5,3.6,66,26
+CSCA48H3,CMSSC,Intro to Computer Science II CSCA48H3-Y-LEC01,Summer,2019,Estrada,Francisco,4,4.3,4,4.1,4.1,3.8,3.8,4,3.4,101,16
+CSCB58H3,CMSSC,Computer Organization CSCB58H3-Y-LEC01,Summer,2019,Harrington,Brian,4.2,4.5,4.4,4,4,4,3.8,4.1,3.6,81,55
+CSCD03H3,CMSSC,Social Impact of Info Technol CSCD03H3-Y-LEC30,Summer,2019,Harrington,Brian,4.2,4.5,4.7,4.2,4.2,4.1,4.4,3.7,4.1,36,17
+MATB41H3,CMSSC,Tech of Calc Several Variab I MATB41H3-Y-LEC01,Summer,2019,Jie,Xiao,4.1,4.3,4.5,4.4,4.3,4.2,3.8,3,4.2,243,74
+MATB24H3,CMSSC,Linear Algebra II MATB24H3-Y-LEC01,Summer,2019,Karimian Pour,Camelia,3.6,3.8,3.5,3.8,3.7,3.3,3,4.2,3,113,38
+MATB24H3,CMSSC,Linear Algebra II MATB24H3-Y-LEC02,Summer,2019,Karimian Pour,Camelia,3.6,3.3,3.6,3.5,3.7,3.2,3,4.2,2.6,82,22
+MATA36H3,CMSSC,Calculus II for Physical Sci MATA36H3-Y-LEC01,Summer,2019,Kaveh,Kiumars,3.6,3.6,3.7,4.1,4,3.1,2.9,3.6,3.4,87,18
+STAB52H3,CMSSC,An Introduction to Probability STAB52H3-Y-LEC02,Summer,2019,Khan,Mohammad,3.6,3.4,3.8,3.6,3.7,3.3,2.9,3.3,3.1,80,20
+CSCC43H3,CMSSC,Introduction to Databases CSCC43H3-Y-LEC01,Summer,2019,Koudas,Nick,3.5,3.7,3.1,3.7,3.7,3.2,3.4,3.7,3.5,70,17
+CSCC24H3,CMSSC,Principles of Programming Lang CSCC24H3-Y-LEC01,Summer,2019,Lai,Albert,3.5,3.2,2.3,3.6,3.6,2.5,2.5,3.5,2.4,61,15
+CSCB09H3,CMSSC,Software Tools & Systems Prog CSCB09H3-Y-LEC01,Summer,2019,Lai,Albert,3.2,3,2,3.3,3.4,2,2.8,3.3,2.4,134,62
+CSCC69H3,CMSSC,Operating Systems CSCC69H3-Y-LEC30,Summer,2019,Meraji,Sina,3.9,4,3.5,3.1,3.1,2.9,3.3,4.4,2.7,62,16
+CSCC10H3,CMSSC,Human-Computer Interaction CSCC10H3-Y-LEC01,Summer,2019,Nizam,Naureen,3.5,3.7,4,3.8,3.8,3.6,3.5,3.3,3.9,83,37
+MATA37H3,CMSSC,Calculus II for Mathematic Sci MATA37H3-Y-LEC01,Summer,2019,Smith,Kathleen,4.2,4.2,4.6,4,4.1,3.9,3.5,3.8,3.7,139,20
+MATC01H3,CMSSC,Groups and Symmetry MATC01H3-Y-LEC01,Summer,2019,Smith,Kathleen,4.3,4.1,4.5,4.2,4.1,4.1,3.8,3.4,3.8,71,20
+STAB52H3,CMSSC,An Introduction to Probability STAB52H3-Y-LEC01,Summer,2019,Soltanifar,Mohsen,2.9,3.1,2.3,3.1,3.2,2.2,2.4,3.7,2,108,30
+MATA22H3,CMSSC,Linear Algebra I Math Sciences MATA22H3-Y-LEC01,Summer,2019,Ye,Kaidi,3.9,3.9,4,3.8,4,3.5,3.4,3.5,3,209,32
+CSCA08H3,CMSSC,Intro to Computer Science I CSCA08H3-S-LEC01,Winter,2019,Tafliovich,Anya,4,4.1,4,4.1,4.1,3.6,4.1,3.6,3.9,134,25
+CSCA08H3,CMSSC,Intro to Computer Science I CSCA08H3-S-LEC02,Winter,2019,Tafliovich,Anya,3.7,3.7,3.8,3.5,3.6,3.1,3.3,3.6,3.4,116,29
+CSCA48H3,CMSSC,Intro to Computer Science II CSCA48H3-S-LEC01,Winter,2019,Estrada,Francisco,4.1,4,4.1,3.7,3.7,3.3,4,3.7,3.5,133,41
+CSCA48H3,CMSSC,Intro to Computer Science II CSCA48H3-S-LEC02,Winter,2019,Estrada,Francisco,4,4.1,4.1,3.8,3.6,3.7,3.8,3.6,3.7,151,45
+CSCA48H3,CMSSC,Intro to Computer Science II CSCA48H3-S-LEC03,Winter,2019,Ahmadzadeh,Marzieh,3.5,3.9,3.1,3.7,3.2,2.8,3.2,3.4,3.1,110,29
+CSCA48H3,CMSSC,Intro to Computer Science II CSCA48H3-S-LEC04,Winter,2019,Ahmadzadeh,Marzieh,3.8,3.8,3,3.3,3.1,2.9,3.4,3.6,3.4,80,17
+CSCB09H3,CMSSC,Software Tools & Systems Prog CSCB09H3-S-LEC01,Winter,2019,Nizam,Naureen,3,3.2,2.3,3.4,3.5,2.4,2.9,3.2,2.8,100,16
+CSCB09H3,CMSSC,Software Tools & Systems Prog CSCB09H3-S-LEC30,Winter,2019,Nizam,Naureen,3.2,2.7,2.4,3.1,3.1,2.2,2.2,3.7,2.2,49,14
+CSCB58H3,CMSSC,Computer Organization CSCB58H3-S-LEC02,Winter,2019,Gabel,Moshe,4,3.9,3.9,3.6,3.6,3.6,3.2,3.9,3.3,118,19
+CSCB58H3,CMSSC,Computer Organization CSCB58H3-S-LEC30,Winter,2019,Gabel,Moshe,4.6,4.6,4.7,4.4,4.7,4.2,4.8,4.3,4.2,49,10
+CSCB63H3,CMSSC,Design & Analysis Data Structs CSCB63H3-S-LEC01,Winter,2019,Bretscher,Anna,4,4,3.6,3.2,3.4,2.8,3.4,4.1,2.7,112,25
+CSCB63H3,CMSSC,Design & Analysis Data Structs CSCB63H3-S-LEC02,Winter,2019,Bretscher,Anna,4.3,4.1,3.9,3.8,4,3.5,3.3,3.4,3.4,73,16
+CSCC24H3,CMSSC,Principles of Programming Lang CSCC24H3-S-LEC01,Winter,2019,Lai,Albert,3.5,3.2,2.6,3.8,3.8,2.7,3,3.3,2.8,160,43
+CSCC63H3,CMSSC,Computability & Complexity CSCC63H3-S-LEC01,Winter,2019,Corlett,Eric,3.6,3.4,3,3.9,3.6,2.6,2.7,3.6,2.6,108,28
+CSCC69H3,CMSSC,Operating Systems CSCC69H3-S-LEC30,Winter,2019,Meraji,Sina,3.7,3.6,3.5,3.4,2.9,2.8,2.9,4,2.7,103,24
+CSCD01H3,CMSSC,Engineering Large Software Sys CSCD01H3-S-LEC01,Winter,2019,Tafliovich,Anya,3.3,3.4,3.5,3.2,3.2,3.2,3.2,3.1,3.2,84,27
+CSCD01H3,CMSSC,Engineering Large Software Sys CSCD01H3-S-LEC02,Winter,2019,Tafliovich,Anya,3.2,3.6,3.3,3.6,3.4,2.9,3,3.1,2.9,39,15
+CSCD03H3,CMSSC,Social Impact of Info Technol CSCD03H3-S-LEC01,Winter,2019,Bettridge,Joseph,4,4.3,4.5,3.9,3.9,4,4.2,3.7,3.2,51,17
+CSCD43H3,CMSSC,Database System Technology CSCD43H3-S-LEC01,Winter,2019,Koudas,Nick,3.6,3.8,3.4,3.2,3.4,2.8,2.6,3.8,2.8,25,5
+CSCD70H3,CMSSC,Compiler Optimization CSCD70H3-S-LEC01,Winter,2019,Pekhimenko,Gennady,4.9,4.6,4.8,4.8,4.8,4.2,4.3,3.4,4.3,16,13
+CSCD84H3,CMSSC,Artificial Intelligence CSCD84H3-S-LEC01,Winter,2019,Estrada,Francisco,4.7,4.7,4.7,4.4,4.1,4.3,4.6,3.6,4.2,54,37
+MATA02H3,CMSSC,The Magic of Numbers MATA02H3-S-LEC01,Winter,2019,Chrysostomou,Sophie,3.5,3.5,3.7,3.8,4,3.2,2.8,3.3,3.4,138,35
+MATA22H3,CMSSC,Linear Algebra I Math Sciences MATA22H3-S-LEC01,Winter,2019,Chrysostomou,Sophie,3.8,3.8,3.3,3.8,3.7,3.1,3.3,3.7,3,236,54
+MATA22H3,CMSSC,Linear Algebra I Math Sciences MATA22H3-S-LEC02,Winter,2019,Najafi Ivaki,Mohammad,3.6,3.6,2.9,3.8,3.7,2.9,3,3.6,2.9,180,35
+MATA22H3,CMSSC,Linear Algebra I Math Sciences MATA22H3-S-LEC03,Winter,2019,Chrysostomou,Sophie,3.5,3.6,3.4,3.7,3.7,3,2.9,3.8,2.9,175,42
+MATA29H3,CMSSC,Calculus I for Life Sciences MATA29H3-S-LEC01,Winter,2019,Breuss,Natalia,3.3,2.7,3.1,3.3,3.6,2.6,2.2,3.3,2.7,61,13
+MATA31H3,CMSSC,Calculus I for Math Sciences MATA31H3-S-LEC01,Winter,2019,Shahbazi,Zohreh,4,4.2,4.5,4.1,4.3,3.9,3.2,3,4.1,75,22
+MATA32H3,CMSSC,Calculus for Management I MATA32H3-S-LEC01,Winter,2019,Chowdhury,Fazle,2.5,2.5,2.7,2.6,2.5,2.2,2,4.1,2.2,151,22
+MATA35H3,CMSSC,Calculus II for Biological Sci MATA35H3-S-LEC01,Winter,2019,Breuss,Natalia,3.5,3.5,3.5,3.8,3.9,3.3,2.7,3.5,3.2,147,35
+MATA36H3,CMSSC,Calculus II for Physical Sci MATA36H3-S-LEC01,Winter,2019,Jie,Xiao,4,4.1,4.2,4.1,4.1,3.9,3.6,3.1,3.8,271,91
+MATA36H3,CMSSC,Calculus II for Physical Sci MATA36H3-S-LEC30,Winter,2019,Jie,Xiao,4.1,4.3,4.3,4.3,4.3,3.9,4,3.4,3.7,62,20
+MATA37H3,CMSSC,Calculus II for Mathematic Sci MATA37H3-S-LEC01,Winter,2019,Smith,Kathleen,4.4,4.5,4.7,4.4,4.4,4.1,4,4,3.9,145,48
+MATA37H3,CMSSC,Calculus II for Mathematic Sci MATA37H3-S-LEC02,Winter,2019,Smith,Kathleen,4.4,4.5,4.9,4.3,4.2,4.2,3.8,3.5,3.9,95,23
+MATA37H3,CMSSC,Calculus II for Mathematic Sci MATA37H3-S-LEC03,Winter,2019,Smith,Kathleen,4.4,4.6,4.9,4.6,4.4,4.4,3.9,4,3.8,125,33
+MATA37H3,CMSSC,Calculus II for Mathematic Sci MATA37H3-S-LEC30,Winter,2019,Smith,Kathleen,4.6,4.9,5,4.1,4.6,4.9,4.4,3.9,3.9,39,8
+MATB42H3,CMSSC,Tech of Calc Several Variab II MATB42H3-S-LEC01,Winter,2019,Breuss,Natalia,3.7,3.7,3.4,3.8,3.7,3.4,3.4,3.4,3.2,285,53
+MATB43H3,CMSSC,Introduction to Analysis MATB43H3-S-LEC01,Winter,2019,Randecker,Anja,4,4,4.2,3.7,3.8,3.6,3.3,3.4,3.5,101,29
+MATB61H3,CMSSC,Linear Programming & Optimizat MATB61H3-S-LEC01,Winter,2019,Jiang,Xiamei,3.2,3.5,3.1,3.6,3.6,2.8,2.9,3.2,3.1,149,34
+MATC15H3,CMSSC,Introduction to Number Theory MATC15H3-S-LEC01,Winter,2019,Friedlander,John,3.5,3.7,3.6,3.6,3.7,3.2,3.4,2.7,3.5,98,33
+MATC37H3,CMSSC,Introduction to Real Analysis MATC37H3-S-LEC01,Winter,2019,Haslhofer,Robert,4.5,4.8,4.8,4.8,4.7,4.8,4.2,3.3,4.7,16,6
+MATC44H3,CMSSC,Introduction to Combinatorics MATC44H3-S-LEC01,Winter,2019,Aretakis,Stefanos,4.4,4.1,4.3,4.4,4.3,4,3.8,3.3,4.4,86,25
+MATC44H3,CMSSC,Introduction to Combinatorics MATC44H3-S-LEC02,Winter,2019,Aretakis,Stefanos,4.2,4.5,4.6,4.5,4.4,4.4,3.9,2.9,4.3,83,20
+MATC44H3,CMSSC,Introduction to Combinatorics MATC44H3-S-LEC03,Winter,2019,Aretakis,Stefanos,4.4,4.4,4.3,4.5,4.5,4.2,3.9,3.1,4.3,83,23
+MATC46H3,CMSSC,Differential Equations II MATC46H3-S-LEC01,Winter,2019,Jiang,Xiamei,3.2,3.2,2.8,3.4,3.3,2.7,2.7,3.4,2.6,127,36
+MATC58H3,CMSSC,Intro to Mathematical Biology MATC58H3-S-LEC01,Winter,2019,Jiang,Xiamei,4.2,3.8,3.8,4.4,4.2,4.2,4,2.8,4.2,24,7
+MATD01H3,CMSSC,Fields and Groups MATD01H3-S-LEC01,Winter,2019,Randecker,Anja,3.9,3.6,4.2,4,4,3.6,3.3,4.3,2.8,38,23
+MATD26H3,CMSSC,Geometric Analysis and Relat MATD26H3-S-LEC01,Winter,2019,Aretakis,Stefanos,4.4,4.5,4.9,4.6,4.6,4.6,4.3,2.7,4.6,31,14
+MATD34H3,CMSSC,Complex Variables II MATD34H3-S-LEC01,Winter,2019,Tiozzo,Giulio,4.5,4.4,4.4,4.4,4.2,4,4,3.1,3.8,29,17
+STAA57H3,CMSSC,Introduction to Data Science STAA57H3-S-LEC01,Winter,2019,Damouras,Sotirios,3.9,3.8,4,4.1,3.8,3.5,3.7,3.5,3.6,55,42
+STAB22H3,CMSSC,Statistics I STAB22H3-S-LEC01,Winter,2019,Hasler,Caren,3.2,3.4,3.7,3.4,3.5,3,2.8,2.9,3.4,313,76
+STAB22H3,CMSSC,Statistics I STAB22H3-S-LEC01,Winter,2019,Samarakoon,Mahinda,3.2,3.4,2.8,3.4,3.5,3,2.8,2.9,3.4,313,76
+STAB22H3,CMSSC,Statistics I STAB22H3-S-LEC02,Winter,2019,Hasler,Caren,3.1,3.5,4.3,3.8,3.8,3.3,2.8,2.7,3.8,275,48
+STAB22H3,CMSSC,Statistics I STAB22H3-S-LEC02,Winter,2019,Samarakoon,Mahinda,3.1,3.5,3.2,3.8,3.8,3.3,2.8,2.7,3.8,275,48
+STAB23H3,CMSSC,Intro to Stats for Social Sci STAB23H3-S-LEC01,Winter,2019,Asidianya,Nnenna,2.9,3.2,3.1,3.3,3.6,2.7,2.5,3.3,2.6,194,42
+STAB41H3,CMSSC,Financial Derivatives STAB41H3-S-LEC01,Winter,2019,Damouras,Sotirios,4.1,4.3,4.3,4,4.3,3.8,4.2,3.2,3.7,61,39
+STAB57H3,CMSSC,An Introduction to Statistics STAB57H3-S-LEC01,Winter,2019,Samarakoon,Mahinda,4.2,4.1,4.2,4.3,4.2,3.7,3.8,3.6,3.7,99,23
+STAB57H3,CMSSC,An Introduction to Statistics STAB57H3-S-LEC02,Winter,2019,Samarakoon,Mahinda,3.8,4,4.1,4.1,4,3.7,3.5,3,3.4,181,28
+STAC63H3,CMSSC,Probability Models STAC63H3-S-LEC01,Winter,2019,Sun,Qiang,2.5,2.4,2.1,2.6,2.4,1.9,2.4,3.2,1.8,62,26
+STAC67H3,CMSSC,Regression Analysis STAC67H3-S-LEC01,Winter,2019,Hasler,Caren,3.9,3.9,4,3.8,3.7,3.4,3.6,3.2,3.3,167,46
+STAC70H3,CMSSC,Statistics and Finance I STAC70H3-S-LEC01,Winter,2019,Wong,Ting,4.4,4.5,4.4,4.4,4.3,4.1,4.3,3.8,3.5,34,13
+STAD29H3,CMSSC,Stats for Life & Social Scient STAD29H3-S-LEC01,Winter,2019,Butler,Kenneth,4.6,4.7,4.9,4.5,4.5,4.5,4.4,3.7,4.6,59,14
+STAD70H3,CMSSC,Statistics and Finance II STAD70H3-S-LEC01,Winter,2019,Damouras,Sotirios,4.1,4.1,4.1,3.7,3.9,3.7,3.8,3.2,3.7,19,19
+ACTB40H3,CMSSC,Fundamentals Investment & Cred ACTB40H3-F-LEC01,Fall,2018,Culli,Gjergji,3.7,3.9,3.6,4,4.2,3.6,3.6,2.9,3.8,169,34
+CSCA08H3,CMSSC,Intro to Computer Science I CSCA08H3-F-LEC01,Fall,2018,Tafliovich,Anya,3.9,4.1,4.4,4.4,4.4,4,3.8,3.1,4,141,49
+CSCA08H3,CMSSC,Intro to Computer Science I CSCA08H3-F-LEC02,Fall,2018,Tafliovich,Anya,3.8,3.9,3.9,4.4,4.4,3.7,3.7,3.2,4.2,135,36
+CSCA08H3,CMSSC,Intro to Computer Science I CSCA08H3-F-LEC03,Fall,2018,Mahdaviani,Kaveh,3.8,4.1,4.7,4,4,3.9,3.4,3.2,4.1,129,29
+CSCA08H3,CMSSC,Intro to Computer Science I CSCA08H3-F-LEC04,Fall,2018,Mahdaviani,Kaveh,4,4.2,4.3,4.2,4.2,3.9,3.6,3.3,4,125,27
+CSCA08H3,CMSSC,Intro to Computer Science I CSCA08H3-F-LEC05,Fall,2018,Tafliovich,Anya,3.8,3.9,4.4,4.2,4.4,3.9,3.7,2.9,4,140,51
+CSCA20H3,CMSSC,Introduction to Programming CSCA20H3-F-LEC01,Fall,2018,Szeto,David,3.7,3.7,3.7,3.7,3.6,3.2,3.3,3.8,3.1,152,48
+CSCA20H3,CMSSC,Introduction to Programming CSCA20H3-F-LEC02,Fall,2018,Szeto,David,3.9,3.8,3.9,4,3.8,3.4,3.6,3.9,3.4,161,54
+CSCA67H3,CMSSC,Discrete Mathematics CSCA67H3-F-LEC01,Fall,2018,Bretscher,Anna,3.7,3.3,3.5,3.4,3.4,2.6,3.1,3.6,2.5,201,59
+CSCA67H3,CMSSC,Discrete Mathematics CSCA67H3-F-LEC01,Fall,2018,Pancer,Richard,3.7,3.3,2.9,3.4,3.4,2.6,3.1,3.6,2.5,201,59
+CSCA67H3,CMSSC,Discrete Mathematics CSCA67H3-F-LEC02,Fall,2018,Bretscher,Anna,3.9,3.7,3.2,3.5,3.4,2.7,3.2,3.8,2.4,165,46
+CSCA67H3,CMSSC,Discrete Mathematics CSCA67H3-F-LEC02,Fall,2018,Pancer,Richard,3.9,3.7,2.8,3.5,3.4,2.7,3.2,3.8,2.4,165,46
+CSCA67H3,CMSSC,Discrete Mathematics CSCA67H3-F-LEC03,Fall,2018,Bretscher,Anna,3.9,3.8,3.8,3.7,3.8,2.9,3.4,3.8,2.9,233,57
+CSCA67H3,CMSSC,Discrete Mathematics CSCA67H3-F-LEC03,Fall,2018,Pancer,Richard,3.9,3.8,3,3.7,3.8,2.9,3.4,3.8,2.9,233,57
+CSCB36H3,CMSSC,Intro to Theory of Computation CSCB36H3-F-LEC01,Fall,2018,Cheng,Nick,4.3,4.2,4.1,3.8,3.8,3.6,3.4,3,3.5,76,23
+CSCB36H3,CMSSC,Intro to Theory of Computation CSCB36H3-F-LEC02,Fall,2018,Cheng,Nick,4.1,4.3,4.3,3.9,4.1,3.8,3.9,3.2,3.9,73,20
+CSCC10H3,CMSSC,Human-Computer Interaction CSCC10H3-F-LEC01,Fall,2018,Nizam,Naureen,3.1,3.3,3.8,3.6,3.8,3.3,3.5,3.2,3.5,112,24
+CSCC11H3,CMSSC,Intro to Machine Learning CSCC11H3-F-LEC01,Fall,2018,Fleet,David,4.5,4.1,4.5,3.7,3.7,3.6,4.2,4.4,3.2,96,22
+CSCC37H3,CMSSC,Intro to Numerical Algorithms CSCC37H3-F-LEC01,Fall,2018,Pancer,Richard,3.2,3.3,3,3.3,3.2,2.7,2.9,3.1,2.7,247,57
+CSCC43H3,CMSSC,Introduction to Databases CSCC43H3-F-LEC01,Fall,2018,Ahmadzadeh,Marzieh,3.4,3.6,3.2,3.2,3.2,2.9,3.3,4,2.8,78,39
+CSCC46H3,CMSSC,Social and Information Network CSCC46H3-F-LEC01,Fall,2018,Anderson,Ashton,4.1,4,4.1,4,4.3,4,4.1,3,4.2,53,16
+CSCC73H3,CMSSC,Algorithm Design and Analysis CSCC73H3-F-LEC01,Fall,2018,Bretscher,Anna,3.8,3.8,3.6,4,3.7,3.2,3.4,3.8,3.2,167,45
+CSCC85H3,CMSSC,Intro to Embedded Systems CSCC85H3-F-LEC01,Fall,2018,Estrada,Francisco,4.5,4.5,4.8,4.4,4.3,4.2,4.4,4.7,3.5,23,19
+CSCD03H3,CMSSC,Social Impact of Info Technol CSCD03H3-F-LEC01,Fall,2018,Hirst,Graeme,3.9,4.2,4.2,4.2,4.1,4.1,4.1,3.5,4,50,20
+CSCD18H3,CMSSC,Computer Graphics CSCD18H3-F-LEC01,Fall,2018,Estrada,Francisco,4.7,4.7,4.7,4.4,4.4,4.2,4.5,4.3,4.1,21,15
+CSCD58H3,CMSSC,Computer Networks CSCD58H3-F-LEC01,Fall,2018,Shirali-Shahreza,Sajad,3,3.4,3,2.9,2.6,2.4,2.9,3.3,2,29,12
+MATA29H3,CMSSC,Calculus I for Life Sciences MATA29H3-F-LEC01,Fall,2018,Jiang,Xiamei,3.2,3.2,2.9,3.2,3.5,2.8,2.4,3,2.9,182,56
+MATA29H3,CMSSC,Calculus I for Life Sciences MATA29H3-F-LEC02,Fall,2018,Jiang,Xiamei,2.7,2.7,2.2,3.1,3.2,2.3,2.2,3.3,2.4,91,40
+MATA30H3,CMSSC,Calculus I for Physical Sci MATA30H3-F-LEC30,Fall,2018,Jie,Xiao,3.8,4,4.1,3.9,3.9,3.7,3.1,3.1,3.6,150,51
+MATA31H3,CMSSC,Calculus I for Math Sciences MATA31H3-F-LEC01,Fall,2018,Breuss,Natalia,4,4,4,4.1,4.3,3.7,3.2,3.6,3.6,138,24
+MATA31H3,CMSSC,Calculus I for Math Sciences MATA31H3-F-LEC02,Fall,2018,Breuss,Natalia,4.1,4.2,4.4,4.2,4.3,4,3.8,3.8,3.6,138,32
+MATA31H3,CMSSC,Calculus I for Math Sciences MATA31H3-F-LEC03,Fall,2018,Breuss,Natalia,3.9,3.9,4,4.1,4.2,3.4,3.3,3.7,3.4,156,38
+MATA31H3,CMSSC,Calculus I for Math Sciences MATA31H3-F-LEC04,Fall,2018,Breuss,Natalia,4.1,4.2,4.4,4.3,4.3,3.9,3.6,3.7,3.8,147,42
+MATA32H3,CMSSC,Calculus for Management I MATA32H3-F-LEC01,Fall,2018,Grinnell,Raymond,4.1,4.2,4.6,4.3,4.1,3.9,3.6,3.3,3.9,290,67
+MATA32H3,CMSSC,Calculus for Management I MATA32H3-F-LEC02,Fall,2018,Grinnell,Raymond,4,4.1,4.5,4.1,4.1,3.8,3.4,3.5,3.9,251,74
+MATA32H3,CMSSC,Calculus for Management I MATA32H3-F-LEC03,Fall,2018,Smith,Kathleen,3.9,4.1,4.6,4,4,3.9,3.5,3.5,3.7,94,34
+MATA67H3,CMSSC,Discrete Mathematics MATA67H3-F-LEC01,Fall,2018,Bretscher,Anna,4,4.4,4.2,4,4.2,3.2,3.8,3.6,3.4,17,5
+MATA67H3,CMSSC,Discrete Mathematics MATA67H3-F-LEC01,Fall,2018,Pancer,Richard,4,4.4,3.2,4,4.2,3.2,3.8,3.6,3.4,17,5
+MATB24H3,CMSSC,Linear Algebra II MATB24H3-F-LEC01,Fall,2018,Chrysostomou,Sophie,3,3.2,2.8,3.1,3.1,2.7,2.4,3.8,2.5,178,39
+MATB24H3,CMSSC,Linear Algebra II MATB24H3-F-LEC30,Fall,2018,Chrysostomou,Sophie,3.6,3.5,3.3,3.5,3.4,2.7,2.6,3.7,2.5,124,33
+MATB41H3,CMSSC,Tech of Calc Several Variab I MATB41H3-F-LEC01,Fall,2018,Jiang,Xiamei,2.7,2.5,1.8,3,2.9,1.7,2.3,3.8,2,248,59
+MATB41H3,CMSSC,Tech of Calc Several Variab I MATB41H3-F-LEC02,Fall,2018,Jiang,Xiamei,3.2,3.2,2.6,3.4,3.4,2.4,2.5,3.6,2.6,116,29
+MATB44H3,CMSSC,Differential Equations I MATB44H3-F-LEC01,Fall,2018,Najafi Ivaki,Mohammad,3.4,3.6,3.3,3.8,3.7,3.3,3.1,2.9,3.3,179,46
+MATC01H3,CMSSC,Groups and Symmetry MATC01H3-F-LEC01,Fall,2018,Chrysostomou,Sophie,3.8,3.8,3.5,3.8,3.5,3.5,3.2,3.4,3.4,89,23
+MATC09H3,CMSSC,Intro to Mathematical Logic MATC09H3-F-LEC01,Fall,2018,Grinnell,Raymond,4.4,4.3,4.8,4.4,4.2,4.2,3.9,3.3,4.1,30,15
+MATC27H3,CMSSC,Introduction to Topology MATC27H3-F-LEC01,Fall,2018,Smith,Kathleen,4.6,4.7,5,4.7,4.7,4.9,4.4,3.1,4.6,20,7
+MATC32H3,CMSSC,Graph Theory and Algorithms MATC32H3-F-LEC01,Fall,2018,Virag,Balint,3.4,3.2,2.4,2.7,3,2.3,2.5,3.7,2.1,56,19
+MATC34H3,CMSSC,Complex Variables MATC34H3-F-LEC01,Fall,2018,Jeffrey,Lisa,3.5,3.6,3.2,3.9,3.8,3.1,3,3.3,3.3,117,32
+MATC63H3,CMSSC,Differential Geometry MATC63H3-F-LEC01,Fall,2018,Jeffrey,Lisa,3.2,3.4,3.2,3.5,3.9,3.1,3.1,2.9,3.4,21,10
+MATC90H3,CMSSC,Beginnings of Mathematics MATC90H3-F-LEC01,Fall,2018,Grinnell,Raymond,4.9,4.7,4.9,4.7,4.7,4.6,4.5,3.3,4.7,34,15
+MATD02H3,CMSSC,Plane Geomet & Their Transform MATD02H3-F-LEC01,Fall,2018,Shahbazi,Zohreh,4.5,4.2,4.8,4.6,4.6,4.2,4.1,3.6,4.4,45,11
+MATD16H3,CMSSC,Coding Theory and Cryptography MATD16H3-F-LEC01,Fall,2018,Scherk,John,4.8,4.8,5,4.8,5,5,4.6,2.4,5,11,5
+STAB22H3,CMSSC,Statistics I STAB22H3-F-LEC01,Fall,2018,Hasler,Caren,3.5,3.8,4,4,3.9,3.6,3.1,2.7,4.1,320,111
+STAB22H3,CMSSC,Statistics I STAB22H3-F-LEC02,Fall,2018,Hasler,Caren,3.4,3.7,4,3.8,3.9,3.5,3,2.7,3.9,255,101
+STAB23H3,CMSSC,Intro to Stats for Social Sci STAB23H3-F-LEC01,Fall,2018,Aslemand,Asal,3.1,3.3,3.4,3.7,3.8,3,2.7,3.7,3.1,152,43
+STAB52H3,CMSSC,An Introduction to Probability STAB52H3-F-LEC01,Fall,2018,Samarakoon,Mahinda,3.8,3.8,4,4.1,3.8,3.8,3.6,2.9,3.8,144,32
+STAB52H3,CMSSC,An Introduction to Probability STAB52H3-F-LEC02,Fall,2018,Samarakoon,Mahinda,4.4,4.2,4.3,4,4.2,4,3.9,3.2,3.8,155,34
+STAB52H3,CMSSC,An Introduction to Probability STAB52H3-F-LEC30,Fall,2018,Samarakoon,Mahinda,3.9,4.1,3.9,3.8,3.8,3.5,4.1,3.7,3.5,109,19
+STAB57H3,CMSSC,An Introduction to Statistics STAB57H3-F-LEC01,Fall,2018,Shams,Shahriar,4.2,4.2,4.3,4.4,4.4,4.2,3.9,2.9,4,152,50
+STAC32H3,CMSSC,Appli of Statistical Methods STAC32H3-F-LEC01,Fall,2018,Butler,Kenneth,4.2,4.4,4.6,4.4,4.4,4.1,4.1,3.4,4.5,180,37
+STAC50H3,CMSSC,Data Collection STAC50H3-F-LEC01,Fall,2018,Wang,Linbo,3.4,3.2,3.2,3.4,3.3,3,3,3.1,3.2,128,43
+STAC50H3,CMSSC,Data Collection STAC50H3-F-LEC02,Fall,2018,Wang,Linbo,4.1,4.1,4.2,4.2,4.2,3.7,3.9,2.6,4.1,58,17
+STAC51H3,CMSSC,Categorical Data Analysis STAC51H3-F-LEC01,Fall,2018,Samarakoon,Mahinda,4.2,4.2,4.3,4.3,4.2,3.9,4.1,3.6,4,115,33
+STAC67H3,CMSSC,Regression Analysis STAC67H3-F-LEC01,Fall,2018,Hasler,Caren,3.8,3.8,4.1,3.7,3.6,3.7,3.6,3.2,3.6,113,48
+STAD37H3,CMSSC,Multivariate Analysis STAD37H3-F-LEC01,Fall,2018,Kang,So-hee,4.2,4.2,4.1,4.2,4.1,3.6,3.8,3.7,3.8,83,25
+STAD57H3,CMSSC,Time Series Analysis STAD57H3-F-LEC01,Fall,2018,Virag,Balint,3.1,2.8,3,2.6,3.1,2.8,3.6,3.4,2.9,21,8
+STAD68H3,CMSSC,Machine Learn & Data Mining STAD68H3-F-LEC01,Fall,2018,Roy,Daniel,4.4,4.7,4.7,4.1,4.2,4.2,4.4,3.4,4.2,21,15
+STAB52H3,CMSSC,An Introduction to Probability STAB52H3-Y-LEC01,Summer,2018,Samarakoon,Mahinda,3.8,3.8,3.8,3.7,3.8,3.3,3.3,3.1,3.4,166,45
+STAB52H3,CMSSC,An Introduction to Probability STAB52H3-Y-LEC02,Summer,2018,Samarakoon,Mahinda,3.9,3.9,4.1,3.9,4,3.8,3.6,2.9,3.4,104,23
+MATA33H3,CMSSC,Calculus for Management II MATA33H3-Y-LEC01,Summer,2018,Grinnell,Raymond,4,4.1,4.5,4.1,3.9,4,3.3,3.9,3.3,154,37
+MATA37H3,CMSSC,Calculus II for Mathematic Sci MATA37H3-Y-LEC01,Summer,2018,Smith,Kathleen,4.3,4.6,4.7,4.6,4.2,4.1,3.7,4.1,3.4,156,23
+MATA36H3,CMSSC,Calculus II for Physical Sci MATA36H3-Y-LEC01,Summer,2018,Smith,Kathleen,4.1,4.5,4.6,4.3,4.3,4.2,3.7,3.6,3.7,113,26
+CSCC63H3,CMSSC,Computability & Complexity CSCC63H3-Y-LEC01,Summer,2018,Cheng,Nick,4.2,4.2,4.2,4,4.1,3.9,3.4,3.1,3.8,59,19
+CSCB58H3,CMSSC,Computer Organization CSCB58H3-Y-LEC01,Summer,2018,Shirali-Shahreza,Sajad,3.4,3.7,3.2,3.3,3.5,2.7,2.8,4.3,2.5,68,37
+CSCB63H3,CMSSC,Design & Analysis Data Structs CSCB63H3-Y-LEC01,Summer,2018,Lai,Albert,3.5,3.4,2.8,3.5,3.9,2.9,3,3.2,3.1,72,18
+MATC01H3,CMSSC,Groups and Symmetry MATC01H3-Y-LEC01,Summer,2018,Smith,Kathleen,4.2,4.3,4.9,4.4,4.3,4.2,4.1,3.2,4.3,51,14
+CSCC10H3,CMSSC,Human-Computer Interaction CSCC10H3-Y-LEC01,Summer,2018,Nizam,Naureen,3.4,3.7,3.1,3.7,3.6,3.4,3.7,3.4,3.7,75,19
+STAB23H3,CMSSC,Intro to Stats for Social Sci STAB23H3-Y-LEC01,Summer,2018,Asidianya,Nnenna,3.1,3.1,3.8,3.4,3.6,3.4,2.8,3.3,3.2,71,13
+CSCB36H3,CMSSC,Intro to Theory of Computation CSCB36H3-Y-LEC01,Summer,2018,Cheng,Nick,4,3.9,4.2,4,3.6,3.6,3.4,2.7,3.3,138,33
+MATA23H3,CMSSC,Linear Algebra I MATA23H3-Y-LEC01,Summer,2018,Grinnell,Raymond,3.7,4.3,4.6,4.5,4.3,4.2,3.7,3.4,3.7,28,15
+MATA22H3,CMSSC,Linear Algebra I Math Sciences MATA22H3-Y-LEC01,Summer,2018,Chrysostomou,Sophie,3.9,4,3.4,3.8,3.7,3.4,3.2,3.7,3.1,177,46
+MATA22H3,CMSSC,Linear Algebra I Math Sciences MATA22H3-Y-LEC01,Summer,2018,Grinnell,Raymond,3.9,4,4.4,3.8,3.7,3.4,3.2,3.7,3.1,177,46
+MATB24H3,CMSSC,Linear Algebra II MATB24H3-Y-LEC01,Summer,2018,Czimek,Stefan,3.6,3.8,3.9,3.9,4,3.6,3.4,3.2,3.5,162,45
+MATB24H3,CMSSC,Linear Algebra II MATB24H3-Y-LEC02,Summer,2018,Czimek,Stefan,4.4,4.4,4.4,4.3,4.3,4.1,4.1,3.4,3.9,79,17
+CSCC69H3,CMSSC,Operating Systems CSCC69H3-Y-LEC30,Summer,2018,Meraji,Sina,3.5,3.8,3.4,3.3,3.1,2.9,3.3,4.5,3,51,16
+CSCC24H3,CMSSC,Principles of Programming Lang CSCC24H3-Y-LEC01,Summer,2018,Lai,Albert,3.1,2.9,2.2,3.1,3,2.2,2.4,3.6,2.4,41,17
+CSCB09H3,CMSSC,Software Tools & Systems Prog CSCB09H3-Y-LEC30,Summer,2018,Nizam,Naureen,3.7,3.5,3,3.7,3.7,2.9,3.3,3.4,3,139,43
+STAB22H3,CMSSC,Statistics I STAB22H3-Y-LEC01,Summer,2018,Soltanifar,Mohsen,2.7,2.7,2.1,2.9,3,2.2,2.2,3.3,2.5,152,38
+MATB41H3,CMSSC,Tech of Calc Several Variab I MATB41H3-Y-LEC30,Summer,2018,Glynn-Adey,Parker,4.3,4.4,4.7,4.3,4.3,4.4,3.9,3.3,4.1,180,69
+CSCA08H3,CMSSC,Intro to Computer Science I CSCA08H3-S-LEC01,Winter,2018,Ahmadzadeh,Marzieh,3.7,3.7,3,3.4,3.6,2.9,3.1,4.2,2.3,135,27
+CSCA08H3,CMSSC,Intro to Computer Science I CSCA08H3-S-LEC30,Winter,2018,Ahmadzadeh,Marzieh,3.7,3.9,3.7,4,3.8,3.4,3.9,3.8,3,108,26
+CSCA48H3,CMSSC,Intro to Computer Science II CSCA48H3-S-LEC01,Winter,2018,Ahmadzadeh,Marzieh,3.7,3.8,3.3,4.1,4,3.4,4,3.4,3.7,67,24
+CSCA48H3,CMSSC,Intro to Computer Science II CSCA48H3-S-LEC02,Winter,2018,Ahmadzadeh,Marzieh,4.1,4.2,3.7,4,4.1,3.5,4,3.2,4,82,19
+CSCA48H3,CMSSC,Intro to Computer Science II CSCA48H3-S-LEC03,Winter,2018,Ahmadzadeh,Marzieh,4.2,4.2,3.2,4,4.2,3.7,3.9,3.6,3.6,142,34
+CSCA48H3,CMSSC,Intro to Computer Science II CSCA48H3-S-LEC04,Winter,2018,Ahmadzadeh,Marzieh,3.9,3.9,3,3.8,3.7,3.6,3.6,3.4,3.4,124,33
+MATA33H3,CMSSC,Calculus for Management II MATA33H3-S-LEC30,Winter,2018,Aretakis,Stefanos,3.7,3.7,3.5,3.7,3.7,3.3,2.9,3.8,3,123,35
+MATC44H3,CMSSC,Introduction to Combinatorics MATC44H3-S-LEC01,Winter,2018,Aretakis,Stefanos,4.3,4.4,4.4,4.4,4.4,4.2,4.1,3.1,4.4,162,110
+STAB27H3,CMSSC,Statistics II STAB27H3-S-LEC01,Winter,2018,Asidianya,Nnenna,4,4.3,3.4,4,3.9,3.8,4,3.4,3.8,80,27
+CSCD01H3,CMSSC,Engineering Large Software Sys CSCD01H3-S-LEC30,Winter,2018,Bettridge,Joseph,2.5,2.7,2.2,2.3,2.4,2.1,2.5,4.2,2.2,106,29
+CSCB63H3,CMSSC,Design & Analysis Data Structs CSCB63H3-S-LEC01,Winter,2018,Bretscher,Anna,4.1,4,4.2,3.9,3.9,3.5,3.5,3.5,3.5,119,35
+STAD29H3,CMSSC,Stats for Life & Social Scient STAD29H3-S-LEC01,Winter,2018,Butler,Kenneth,4.7,4.9,4.8,4.7,4.7,4.7,4.6,3.9,4.7,53,12
+CSCA48H3,CMSSC,Intro to Computer Science II CSCA48H3-S-LEC01,Winter,2018,Cheng,Nick,3.7,3.8,3.1,4.1,4,3.4,4,3.4,3.7,67,24
+CSCA48H3,CMSSC,Intro to Computer Science II CSCA48H3-S-LEC02,Winter,2018,Cheng,Nick,4.1,4.2,3.7,4,4.1,3.5,4,3.2,4,82,19
+CSCA48H3,CMSSC,Intro to Computer Science II CSCA48H3-S-LEC03,Winter,2018,Cheng,Nick,4.2,4.2,4,4,4.2,3.7,3.9,3.6,3.6,142,34
+CSCA48H3,CMSSC,Intro to Computer Science II CSCA48H3-S-LEC04,Winter,2018,Cheng,Nick,3.9,3.9,4,3.8,3.7,3.6,3.6,3.4,3.4,124,33
+MATA29H3,CMSSC,Calculus I for Life Sciences MATA29H3-S-LEC01,Winter,2018,Breuss,Natalia,3,3.2,3.1,3.4,3.2,3,2.8,3.3,2.9,46,13
+MATA35H3,CMSSC,Calculus II for Biological Sci MATA35H3-S-LEC01,Winter,2018,Breuss,Natalia,3.4,3.6,3.5,3.8,3.7,3,2.6,3.8,2.8,144,40
+MATA02H3,CMSSC,The Magic of Numbers MATA02H3-S-LEC01,Winter,2018,Chrysostomou,Sophie,3.5,3.7,3.7,4,4,3.4,3,3.3,3.5,104,35
+MATA22H3,CMSSC,Linear Algebra I Math Sciences MATA22H3-S-LEC01,Winter,2018,Chrysostomou,Sophie,3.5,3.5,3.1,3.5,3.3,2.7,2.8,3.4,2.5,262,64
+MATA22H3,CMSSC,Linear Algebra I Math Sciences MATA22H3-S-LEC03,Winter,2018,Chrysostomou,Sophie,3.3,3.3,3,3.2,3.1,2.3,2.5,3.7,2.7,133,39
+MATC15H3,CMSSC,Introduction to Number Theory MATC15H3-S-LEC01,Winter,2018,Friedlander,John,3.8,3.8,3.3,3.4,3.5,3.2,3.2,3,3,84,19
+MATA36H3,CMSSC,Calculus II for Physical Sci MATA36H3-S-LEC01,Winter,2018,Gianniotis,Panagiotis,3.3,3.4,3.4,3.4,3.4,3.1,2.8,3,3.1,266,56
+MATA33H3,CMSSC,Calculus for Management II MATA33H3-S-LEC02,Winter,2018,Grinnell,Raymond,3.9,4,4.5,4,3.9,3.6,3.1,3.7,3.4,278,90
+MATC90H3,CMSSC,Beginnings of Mathematics MATC90H3-S-LEC01,Winter,2018,Grinnell,Raymond,4.7,4.6,4.6,4.4,4.5,4.3,4.3,3.4,4.3,45,19
+MATD11H3,CMSSC,Topics in Mathematics MATD11H3-S-LEC01,Winter,2018,Grinnell,Raymond,4.8,4.8,4.8,4.8,4.7,4.8,4.7,4.2,3.8,7,6
+CSCA08H3,CMSSC,Intro to Computer Science I CSCA08H3-S-LEC01,Winter,2018,Harrington,Brian,3.7,3.7,3.8,3.4,3.6,2.9,3.1,4.2,2.3,135,27
+CSCA08H3,CMSSC,Intro to Computer Science I CSCA08H3-S-LEC30,Winter,2018,Harrington,Brian,3.7,3.9,4.1,4,3.8,3.4,3.9,3.8,3,108,26
+CSCB58H3,CMSSC,Computer Organization CSCB58H3-S-LEC01,Winter,2018,Harrington,Brian,4.2,4.3,4.4,3.9,3.9,3.9,3.5,3.7,3.5,65,28
+CSCB58H3,CMSSC,Computer Organization CSCB58H3-S-LEC02,Winter,2018,Harrington,Brian,4.1,4.2,4.4,3.7,3.8,3.6,3.6,4.1,3.3,82,37
+CSCD58H3,CMSSC,Computer Networks CSCD58H3-S-LEC01,Winter,2018,Harrington,Brian,3.7,4,4,3.3,3.2,3.3,3.4,3.9,3.2,57,46
+STAB22H3,CMSSC,Statistics I STAB22H3-S-LEC02,Winter,2018,Hasler,Caren,3.5,3.6,4.1,3.9,3.9,3.5,3,2.8,3.9,291,109
+STAC67H3,CMSSC,Regression Analysis STAC67H3-S-LEC01,Winter,2018,Hasler,Caren,4.2,4.2,4.5,4.3,4.2,3.9,4,3.2,4,110,61
+MATA36H3,CMSSC,Calculus II for Physical Sci MATA36H3-S-LEC01,Winter,2018,Haslhofer,Robert,3.3,3.4,3.7,3.4,3.4,3.1,2.8,3,3.1,266,56
+MATC37H3,CMSSC,Introduction to Real Analysis MATC37H3-S-LEC01,Winter,2018,Haslhofer,Robert,4.6,4.6,4.3,4.4,4.2,4.4,4.1,3.3,3.9,14,11
+CSCD03H3,CMSSC,Social Impact of Info Technol CSCD03H3-S-LEC01,Winter,2018,Hirst,Graeme,4.2,4.4,4.6,3.8,3.9,4,4.3,3.6,4.3,49,13
+MATD34H3,CMSSC,Complex Variables II MATD34H3-S-LEC01,Winter,2018,Jeffrey,Lisa,3.4,3.2,4.2,3.6,3.6,3,3,3,3.6,21,5
+STAB27H3,CMSSC,Statistics II STAB27H3-S-LEC01,Winter,2018,Kang,So-hee,4,4.3,4.3,4,3.9,3.8,4,3.4,3.8,80,27
+CSCB63H3,CMSSC,Design & Analysis Data Structs CSCB63H3-S-LEC02,Winter,2018,Lai,Albert,3.9,3.9,2.9,4.1,3.9,2.9,3.9,3.3,3.7,70,15
+CSCC24H3,CMSSC,Principles of Programming Lang CSCC24H3-S-LEC01,Winter,2018,Lai,Albert,3.4,3.2,2.7,3.5,3.4,2.5,2.8,3.7,2.6,124,53
+STAD70H3,CMSSC,Statistics and Finance II STAD70H3-S-LEC01,Winter,2018,Lou,Shuwen,4.3,4.5,4.7,4.7,4.7,4.3,4.3,2.7,4.5,11,6
+CSCC69H3,CMSSC,Operating Systems CSCC69H3-S-LEC30,Winter,2018,Meraji,Sina,3.7,3.9,3.4,3.4,3.1,2.9,3.3,4.2,2.8,85,33
+CSCC63H3,CMSSC,Computability & Complexity CSCC63H3-S-LEC01,Winter,2018,Molloy,Michael,4.3,4.6,4.1,4.3,3.9,3.8,4.1,3.3,3.9,54,14
+MATA32H3,CMSSC,Calculus for Management I MATA32H3-S-LEC01,Winter,2018,Moore,Eric,3.2,3.1,2.8,3.4,3.3,2.4,2.4,3.9,2.5,164,32
+MATA33H3,CMSSC,Calculus for Management II MATA33H3-S-LEC01,Winter,2018,Moore,Eric,3.6,3.5,3.2,3.5,3.3,3,2.8,3.8,3.1,100,28
+MATB42H3,CMSSC,Tech of Calc Several Variab II MATB42H3-S-LEC01,Winter,2018,Moore,Eric,3.4,3.5,3.3,3.7,3.7,3.1,3.1,3.7,3.2,217,51
+MATA22H3,CMSSC,Linear Algebra I Math Sciences MATA22H3-S-LEC02,Winter,2018,Najafi Ivaki,Mohammad,2.9,2.9,2.2,3,3,2.5,2.4,3.3,2.4,213,54
+CSCC10H3,CMSSC,Human-Computer Interaction CSCC10H3-S-LEC01,Winter,2018,Nizam,Naureen,2.8,3.4,3.6,3.7,3.8,3.1,3.2,3.2,3.3,111,33
+CSCD37H3,CMSSC,Analysis Numerical Algorithms CSCD37H3-S-LEC01,Winter,2018,Pancer,Richard,3.9,4.4,3.9,4,4.1,3.9,3.6,3.5,3.7,20,10
+CSCD70H3,CMSSC,Compiler Optimization CSCD70H3-S-LEC01,Winter,2018,Pekhimenko,Gennady,4.4,4.6,3.8,4.4,4,4,3.6,3.6,4.1,9,8
+MATD01H3,CMSSC,Fields and Groups MATD01H3-S-LEC01,Winter,2018,Randecker,Anja,3,2.9,3.4,3.4,3.4,2.9,2.8,4.2,2.6,19,11
+STAB41H3,CMSSC,Financial Derivatives STAB41H3-S-LEC01,Winter,2018,Randecker,Anja,3.5,3.5,3.7,3.7,3.4,3.2,3.4,3.2,3.3,39,10
+CSCB09H3,CMSSC,Software Tools & Systems Prog CSCB09H3-S-LEC30,Winter,2018,Rosenthal,Alan,4.2,4.2,4.1,4.3,4.3,4,3.8,4,3.8,82,23
+CSCB09H3,CMSSC,Software Tools & Systems Prog CSCB09H3-S-LEC31,Winter,2018,Rosenthal,Alan,3.9,4.3,3.9,4.5,4.3,4,3.8,3.6,3.4,63,16
+STAB22H3,CMSSC,Statistics I STAB22H3-S-LEC01,Winter,2018,Samarakoon,Mahinda,3.4,3.6,3.5,3.7,3.7,3.3,3.1,2.8,3.8,313,76
+STAB57H3,CMSSC,An Introduction to Statistics STAB57H3-S-LEC01,Winter,2018,Samarakoon,Mahinda,3.4,3.3,3.4,3.3,3.3,3.1,3.1,3.3,3,152,34
+STAB57H3,CMSSC,An Introduction to Statistics STAB57H3-S-LEC02,Winter,2018,Samarakoon,Mahinda,3.7,3.7,3.9,3.6,3.8,3.3,3.4,3.2,3.1,124,27
+CSCC09H3,CMSSC,Programming on the Web CSCC09H3-S-LEC01,Winter,2018,Sans,Thierry,4.8,4.8,4.9,4.9,4.9,4.8,4.7,4.1,4.6,53,16
+CSCC09H3,CMSSC,Programming on the Web CSCC09H3-S-LEC02,Winter,2018,Sans,Thierry,4.2,4.6,4.4,4.3,4.4,3.9,3.9,4.3,3.8,42,10
+MATB43H3,CMSSC,Introduction to Analysis MATB43H3-S-LEC01,Winter,2018,Scherk,John,3.6,3.4,3.5,3.3,3.4,3.2,3.1,2.8,3,58,20
+MATA37H3,CMSSC,Calculus II for Mathematic Sci MATA37H3-S-LEC01,Winter,2018,Smith,Kathleen,4.3,4.4,4.7,4.3,4.2,4.1,3.7,3.9,3.5,176,40
+MATA37H3,CMSSC,Calculus II for Mathematic Sci MATA37H3-S-LEC02,Winter,2018,Smith,Kathleen,4.3,4.3,4.6,4.1,3.8,3.9,3.5,4,3.6,150,46
+MATA37H3,CMSSC,Calculus II for Mathematic Sci MATA37H3-S-LEC30,Winter,2018,Smith,Kathleen,4.2,4.1,4.6,4.1,3.9,3.7,3.6,3.9,3.2,118,21
+STAC70H3,CMSSC,Statistics and Finance I STAC70H3-S-LEC01,Winter,2018,Virag,Balint,4.1,3.9,4.1,4.4,4.1,3.8,3.6,3.4,4.1,20,8
+ACTB40H3,CMSSC,Fundamentals Investment & Cred ACTB40H3-F-LEC01,Fall,2017,Damouras,Sotirios,3.8,4.1,4.1,3.9,3.9,3.5,3.9,3.2,3.4,86,42
+CSCA08H3,CMSSC,Intro to Computer Science I CSCA08H3-F-LEC01,Fall,2017,Harrington,Brian,3.9,3.9,4.3,3.5,3.4,3.3,3.4,4,3,124,91
+CSCA08H3,CMSSC,Intro to Computer Science I CSCA08H3-F-LEC02,Fall,2017,Harrington,Brian,4.2,4.1,4.3,3.8,3.6,3.6,3.5,3.9,3.2,125,84
+CSCA08H3,CMSSC,Intro to Computer Science I CSCA08H3-F-LEC03,Fall,2017,Harrington,Brian,4.1,4,4.4,3.8,3.5,3.3,3.7,3.9,3.5,120,66
+CSCA08H3,CMSSC,Intro to Computer Science I CSCA08H3-F-LEC04,Fall,2017,Harrington,Brian,4,3.9,4.4,3.8,3.5,3.3,3.6,3.9,3.1,129,74
+CSCA08H3,CMSSC,Intro to Computer Science I CSCA08H3-F-LEC30,Fall,2017,Harrington,Brian,4,3.9,4.1,3.6,3.3,3.2,3.5,4,2.9,87,40
+CSCA20H3,CMSSC,Introduction to Programming CSCA20H3-F-LEC01,Fall,2017,Bretscher,Anna,3.6,3.7,3.5,3.6,3.8,3,3.2,3.7,3.1,163,48
+CSCA20H3,CMSSC,Introduction to Programming CSCA20H3-F-LEC02,Fall,2017,Bretscher,Anna,3.9,3.7,3.7,3.8,3.9,3.3,3.4,4.2,2.9,129,42
+CSCA67H3,CMSSC,Discrete Mathematics CSCA67H3-F-LEC01,Fall,2017,Bretscher,Anna,3.8,3.8,3.6,3.8,3.7,3.3,3.1,3.3,3.2,211,83
+CSCA67H3,CMSSC,Discrete Mathematics CSCA67H3-F-LEC01,Fall,2017,Pancer,Richard,3.8,3.8,3.7,3.8,3.7,3.3,3.1,3.3,3.2,211,83
+CSCA67H3,CMSSC,Discrete Mathematics CSCA67H3-F-LEC02,Fall,2017,Bretscher,Anna,4.2,4.2,3.9,4.1,3.9,3.7,3.7,3.4,3.5,232,70
+CSCA67H3,CMSSC,Discrete Mathematics CSCA67H3-F-LEC02,Fall,2017,Pancer,Richard,4.2,4.2,4,4.1,3.9,3.7,3.7,3.4,3.5,232,70
+CSCA67H3,CMSSC,Discrete Mathematics CSCA67H3-F-LEC03,Fall,2017,Bretscher,Anna,3.9,3.6,3.9,3.8,3.6,3.3,3.2,3.4,3.4,235,61
+CSCA67H3,CMSSC,Discrete Mathematics CSCA67H3-F-LEC03,Fall,2017,Pancer,Richard,3.9,3.6,3.7,3.8,3.6,3.3,3.2,3.4,3.4,235,61
+CSCB07H3,CMSSC,Software Design CSCB07H3-F-LEC30,Fall,2017,Bettridge,Joseph,3,3,2.5,2.8,3,2.3,3.1,4.4,2.2,63,23
+CSCB07H3,CMSSC,Software Design CSCB07H3-F-LEC31,Fall,2017,Bettridge,Joseph,3.7,3.6,3.3,3.2,3.2,2.7,3.5,4.4,2.6,82,35
+CSCB36H3,CMSSC,Intro to Theory of Computation CSCB36H3-F-LEC01,Fall,2017,Cheng,Nick,4,4.1,4,4,3.8,3.2,3.3,2.9,3,74,23
+CSCB36H3,CMSSC,Intro to Theory of Computation CSCB36H3-F-LEC02,Fall,2017,Cheng,Nick,4.1,4,4,4,4.2,3.6,3.2,2.9,3.5,86,28
+CSCC01H3,CMSSC,Intro to Software Engineering CSCC01H3-F-LEC01,Fall,2017,Sans,Thierry,3,3.2,3.2,3.4,3.6,2.8,3.4,3.7,3.2,53,26
+CSCC01H3,CMSSC,Intro to Software Engineering CSCC01H3-F-LEC02,Fall,2017,Sans,Thierry,3.1,3.1,3.1,3.4,3.5,2.9,3,3.6,3.1,67,22
+CSCC11H3,CMSSC,Intro to Machine Learning CSCC11H3-F-LEC01,Fall,2017,Estrada,Francisco,4.3,4.3,4.2,4,3.9,3.6,3.9,3.8,3.6,78,58
+CSCC37H3,CMSSC,Intro to Numerical Algorithms CSCC37H3-F-LEC01,Fall,2017,Pancer,Richard,3.4,3.3,3.5,3.6,3.6,3.1,2.9,3.2,3,228,91
+CSCC73H3,CMSSC,Algorithm Design and Analysis CSCC73H3-F-LEC01,Fall,2017,Hadzilacos,Vassos,4.4,4.5,4.6,4.2,4,3.9,4.1,4.2,3.7,102,49
+CSCC85H3,CMSSC,Intro to Embedded Systems CSCC85H3-F-LEC01,Fall,2017,Estrada,Francisco,4.5,4.1,4.4,3.8,3.4,3.6,3.7,4.8,3.1,42,31
+CSCD03H3,CMSSC,Social Impact of Info Technol CSCD03H3-F-LEC01,Fall,2017,Hirst,Graeme,3.4,3.5,4,3.9,4.2,3.7,3.1,3.3,3.2,38,14
+CSCD18H3,CMSSC,Computer Graphics CSCD18H3-F-LEC01,Fall,2017,Estrada,Francisco,4.5,4.7,4.4,4.4,4.2,4,4.4,4.6,3.8,19,16
+CSCD27H3,CMSSC,Computer and Network Security CSCD27H3-F-LEC01,Fall,2017,Sans,Thierry,4.4,4.4,4.1,4,4.1,3.8,4.1,3.8,4,103,42
+MATA29H3,CMSSC,Calculus I for Life Sciences MATA29H3-F-LEC01,Fall,2017,Scott,Geoffrey,3.6,3.9,4.6,4,4.1,4.1,3,3,3.9,152,61
+MATA29H3,CMSSC,Calculus I for Life Sciences MATA29H3-F-LEC02,Fall,2017,Scott,Geoffrey,4.1,4.2,4.8,4,4,4.1,3.4,3.2,4.1,61,20
+MATA30H3,CMSSC,Calculus I for Physical Sci MATA30H3-F-LEC01,Fall,2017,Chrysostomou,Sophie,3.4,3.4,3.5,3.6,3.5,3.1,2.8,3.5,3.1,173,79
+MATA30H3,CMSSC,Calculus I for Physical Sci MATA30H3-F-LEC30,Fall,2017,Chrysostomou,Sophie,3.4,3.7,3.5,3.5,3.6,3.1,2.8,3.4,3.1,161,59
+MATA32H3,CMSSC,Calculus for Management I MATA32H3-F-LEC01,Fall,2017,Moore,Eric,3.4,3.5,2.7,3.5,3.6,2.7,2.7,3.6,2.9,246,92
+MATA32H3,CMSSC,Calculus for Management I MATA32H3-F-LEC02,Fall,2017,Grinnell,Raymond,4.1,4.3,4.7,4.3,4.3,4,3.6,3.7,3.9,212,109
+MATA32H3,CMSSC,Calculus for Management I MATA32H3-F-LEC03,Fall,2017,Buchweitz,Ragnar-Olaf,3.8,4.1,3.8,4,4.1,3.5,3.4,3.4,3.6,176,72
+MATA67H3,CMSSC,Discrete Mathematics MATA67H3-F-LEC01,Fall,2017,Bretscher,Anna,3.8,3.8,4.1,4.4,4.3,3.6,3.5,3.3,3.8,16,8
+MATA67H3,CMSSC,Discrete Mathematics MATA67H3-F-LEC01,Fall,2017,Pancer,Richard,3.8,3.8,3.8,4.4,4.3,3.6,3.5,3.3,3.8,16,8
+MATA67H3,CMSSC,Discrete Mathematics MATA67H3-F-LEC02,Fall,2017,Bretscher,Anna,3.5,3.5,3.4,3.4,3.5,3,2.9,4,2.9,22,8
+MATA67H3,CMSSC,Discrete Mathematics MATA67H3-F-LEC02,Fall,2017,Pancer,Richard,3.5,3.5,2.9,3.4,3.5,3,2.9,4,2.9,22,8
+MATA67H3,CMSSC,Discrete Mathematics MATA67H3-F-LEC03,Fall,2017,Bretscher,Anna,3.1,3,2.9,3,3.1,2.7,2.6,3.3,1.9,36,8
+MATA67H3,CMSSC,Discrete Mathematics MATA67H3-F-LEC03,Fall,2017,Pancer,Richard,3.1,3,3.3,3,3.1,2.7,2.6,3.3,1.9,36,8
+MATB41H3,CMSSC,Tech of Calc Several Variab I MATB41H3-F-LEC01,Fall,2017,Moore,Eric,3.6,3.6,3.3,3.9,3.8,3.1,3.1,3.8,3.1,330,100
+MATB41H3,CMSSC,Tech of Calc Several Variab I MATB41H3-F-LEC02,Fall,2017,Moore,Eric,3.7,3.8,3.6,4.1,4,3.4,3.3,3.7,3.3,190,50
+MATB44H3,CMSSC,Differential Equations I MATB44H3-F-LEC01,Fall,2017,Goldstein,Michael,3.7,3.9,3.5,3.9,4,3.6,3.4,2.8,3.7,171,50
+MATC01H3,CMSSC,Groups and Symmetry MATC01H3-F-LEC01,Fall,2017,Chrysostomou,Sophie,3.6,3.8,4,3.8,3.8,3.2,3.3,3.4,3.1,90,29
+MATC09H3,CMSSC,Intro to Mathematical Logic MATC09H3-F-LEC01,Fall,2017,Grinnell,Raymond,4.7,4.8,4.9,4.9,4.7,4.5,4.2,3.7,4.5,26,18
+MATC27H3,CMSSC,Introduction to Topology MATC27H3-F-LEC01,Fall,2017,Smith,Kathleen,4.8,4.6,5,4.4,4.2,4.6,4.6,4,4.2,12,5
+MATC32H3,CMSSC,Graph Theory and Algorithms MATC32H3-F-LEC01,Fall,2017,de Thanhoffer de Volcsey,Louis,4,4,3.9,4,4,3.6,3.7,3,3.7,52,30
+MATC34H3,CMSSC,Complex Variables MATC34H3-F-LEC01,Fall,2017,Tiozzo,Giulio,3.7,3.7,3.8,3.7,3.7,3.4,3.3,3.4,3.3,84,44
+MATC63H3,CMSSC,Differential Geometry MATC63H3-F-LEC01,Fall,2017,Jeffrey,Lisa,3.7,3.8,3.9,4.1,4.3,3.8,4.1,3.3,3.7,13,9
+MATD02H3,CMSSC,Plane Geomet & Their Transform MATD02H3-F-LEC01,Fall,2017,Shahbazi,Zohreh,4.4,4.6,4.3,4.5,4.5,4.3,4,3.3,4.3,35,21
+STAB22H3,CMSSC,Statistics I STAB22H3-F-LEC01,Fall,2017,Soltanifar,Mohsen,3,3.2,2.6,3.3,3.3,2.6,2.7,3.3,2.7,275,106
+STAB22H3,CMSSC,Statistics I STAB22H3-F-LEC02,Fall,2017,Asidianya,Nnenna,2.9,2.8,2.9,3,3,2.5,2.2,3.2,2.7,249,92
+STAB23H3,CMSSC,Intro to Stats for Social Sci STAB23H3-F-LEC01,Fall,2017,Aslemand,Asal,3.7,4.1,4.5,4.4,4.5,4.1,3.6,3.2,4.2,164,48
+STAB52H3,CMSSC,An Introduction to Probability STAB52H3-F-LEC01,Fall,2017,Damouras,Sotirios,3.9,3.8,3.8,3.8,3.7,3.3,3.4,3.5,3.2,159,98
+STAB52H3,CMSSC,An Introduction to Probability STAB52H3-F-LEC02,Fall,2017,Damouras,Sotirios,3.8,3.9,3.7,3.6,3.6,3.4,3.3,3.3,3.1,120,58
+STAB52H3,CMSSC,An Introduction to Probability STAB52H3-F-LEC03,Fall,2017,Damouras,Sotirios,3.5,3.7,3.6,3.5,3.6,2.9,3.2,3.4,2.9,89,55
+STAB57H3,CMSSC,An Introduction to Statistics STAB57H3-F-LEC01,Fall,2017,de Thanhoffer de Volcsey,Louis,3,2.8,2.8,2.7,2.8,2.5,2.8,3,2.6,97,27
+STAC32H3,CMSSC,Appli of Statistical Methods STAC32H3-F-LEC01,Fall,2017,Butler,Kenneth,4.4,4.5,4.5,4.5,4.5,4.3,4.4,3.4,4.4,169,63
+STAC50H3,CMSSC,Data Collection STAC50H3-F-LEC01,Fall,2017,Samarakoon,Mahinda,3.6,3.7,3.7,3.8,3.8,3.3,3.5,3.4,3.6,124,47
+STAC51H3,CMSSC,Categorical Data Analysis STAC51H3-F-LEC30,Fall,2017,Samarakoon,Mahinda,4.1,4,4,4.1,4.2,3.7,3.7,3.3,3.9,107,41
+STAC62H3,CMSSC,Stochastic Processes STAC62H3-F-LEC01,Fall,2017,Tomal,Jabed,3.7,3.7,3.6,3.7,3.9,3.1,3.3,3.6,3.1,118,94
+STAC67H3,CMSSC,Regression Analysis STAC67H3-F-LEC01,Fall,2017,Tomal,Jabed,3.7,3.8,3.8,4,4,3.5,3.5,3.4,3.8,67,30
+STAD37H3,CMSSC,Multivariate Analysis STAD37H3-F-LEC01,Fall,2017,Kang,So-hee,3.7,3.8,4.1,3.9,3.9,3.5,3.5,3.8,3.6,66,53
+STAB57H3,CMSSC,An Introduction to Statistics STAB57H3-S-LEC01,Winter,2017,Tomal,Jabed,3.6,3.6,3.7,3.9,3.9,3.2,3.3,3.2,3.3,114,48
+CSCD37H3,CMSSC,Analysis Numerical Algorithms CSCD37H3-S-LEC01,Winter,2017,Pancer,Richard,4,4.2,4.3,4.1,3.7,3.9,3.5,3.2,3.2,26,10
+MATA32H3,CMSSC,Calculus for Management I MATA32H3-S-LEC01,Winter,2017,Moore,Eric,3.2,3.3,3.2,3.7,3.6,3,2.4,3.8,2.8,187,39
+MATA33H3,CMSSC,Calculus for Management II MATA33H3-S-LEC01,Winter,2017,Glynn-Adey,Parker,4.2,4.4,4.5,4.2,4.2,4.2,3.5,3.6,3.8,90,39
+MATA33H3,CMSSC,Calculus for Management II MATA33H3-S-LEC02,Winter,2017,Grinnell,Raymond,4.1,4,4.4,4.2,4,3.8,3.2,3.6,3.4,254,104
+MATA33H3,CMSSC,Calculus for Management II MATA33H3-S-LEC30,Winter,2017,Grinnell,Raymond,4.1,4.2,4.5,4.2,4.3,4,3.6,3.5,3.9,152,49
+MATA29H3,CMSSC,Calculus I for Life Sciences MATA29H3-S-LEC01,Winter,2017,Breuss,Natalia,4.6,4.4,4.4,4.2,4.2,4.4,3.8,3.4,4,45,5
+MATA31H3,CMSSC,Calculus I for Math Sciences MATA31H3-S-LEC01,Winter,2017,Shahbazi,Zohreh,3.6,3.6,4.1,4.2,4.1,3.6,3.5,2.9,3.3,104,16
+MATA30H3,CMSSC,Calculus I for Physical Sci MATA30H3-S-LEC01,Winter,2017,Chrysostomou,Sophie,3.2,3.6,3.9,3.8,3.6,3.1,2.7,3.5,2.8,96,17
+MATA35H3,CMSSC,Calculus II for Biological SciMATA35H3-S-LEC01,Winter,2017,Breuss,Natalia,3.4,3.4,3.4,4,3.9,3.2,2.5,3.5,3,204,51
+MATA37H3,CMSSC,Calculus II for Mathematic SciMATA37H3-S-LEC01,Winter,2017,Smith,Kathleen,4.1,4.1,4.5,3.9,4,3.9,3.4,3.7,3.1,210,73
+MATA37H3,CMSSC,Calculus II for Mathematic SciMATA37H3-S-LEC02,Winter,2017,Smith,Kathleen,4.2,4.4,4.7,4.3,4.1,4,3.5,3.5,3.7,176,52
+MATA37H3,CMSSC,Calculus II for Mathematic SciMATA37H3-S-LEC30,Winter,2017,Smith,Kathleen,4.4,4.4,4.6,4.2,4.1,4,3.6,3.8,3.4,164,43
+MATA36H3,CMSSC,Calculus II for Physical Sci MATA36H3-S-LEC01,Winter,2017,de Thanhoffer de Volcsey,Louis,3.2,3.2,2.3,3.1,3.2,2.4,2.6,3.4,2.3,243,66
+MATC16H3,CMSSC,Coding Theory and CryptographyMATC16H3-S-LEC01,Winter,2017,de Thanhoffer de Volcsey,Louis,4,4,3.8,4,4.2,3.8,3.8,3.2,4,13,5
+MATD34H3,CMSSC,Complex Variables II MATD34H3-S-LEC01,Winter,2017,Tiozzo,Giulio,3.8,4.1,3.8,4.1,4.1,3.8,3.6,3.6,3.4,13,8
+CSCC63H3,CMSSC,Computability & Complexity CSCC63H3-S-LEC01,Winter,2017,Bretscher,Anna,3.4,3.6,3.5,3.9,3.6,3.3,3,3.3,2.9,114,29
+CSCD58H3,CMSSC,Computer Networks CSCD58H3-S-LEC01,Winter,2017,Lim,Joseph,3.3,3.5,3,3.6,3.1,2.7,3,3.4,2.9,53,17
+CSCB58H3,CMSSC,Computer Organization CSCB58H3-S-LEC01,Winter,2017,Harrington,Brian,4,4.1,4.3,3.4,3.2,3.4,3.6,3.7,3.1,147,91
+CSCB63H3,CMSSC,Design & Analysis Data StructsCSCB63H3-S-LEC01,Winter,2017,Hadzilacos,Vassos,4.3,4.2,4.2,4,4,3.9,4.1,3.9,3.6,118,49
+MATC46H3,CMSSC,Differential Equations II MATC46H3-S-LEC01,Winter,2017,Goldstein,Michael,3.8,3.8,4,4.2,4.1,3.8,3.6,3.1,3.9,125,53
+MATD01H3,CMSSC,Fields and Groups MATD01H3-S-LEC01,Winter,2017,Buchweitz,Ragnar-Olaf,3.7,3.5,3.9,3.7,3.2,3.3,3.2,3,3.1,26,17
+STAB41H3,CMSSC,Financial Derivatives STAB41H3-S-LEC01,Winter,2017,Damouras,Sotirios,3.9,4.1,4.1,3.9,4.1,3.6,4.2,3.2,4.1,35,17
+CSCA08H3,CMSSC,Intro to Computer Science I CSCA08H3-S-LEC01,Winter,2017,Dema,Ilir,4.2,4.2,4,4,4.1,3.6,3.8,3.9,3.7,145,28
+CSCA48H3,CMSSC,Intro to Computer Science II CSCA48H3-S-LEC01,Winter,2017,Cheng,Nick,3.7,3.7,3.3,3.8,3.5,2.7,3.3,3.7,2.8,107,25
+CSCA48H3,CMSSC,Intro to Computer Science II CSCA48H3-S-LEC02,Winter,2017,Cheng,Nick,3.5,3.7,3.2,3.4,3.3,3,3.4,3.6,3,130,39
+CSCA48H3,CMSSC,Intro to Computer Science II CSCA48H3-S-LEC03,Winter,2017,Cheng,Nick,3.7,3.7,3.1,3.5,3.1,2.8,3.3,3.6,2.9,119,40
+CSCA48H3,CMSSC,Intro to Computer Science II CSCA48H3-S-LEC04,Winter,2017,Cheng,Nick,4.3,4.1,3.4,3.5,3.4,3.2,3.7,4.1,3.1,63,19
+CSCB20H3,CMSSC,Intro to Databases & Web AppliCSCB20H3-S-LEC01,Winter,2017,Bretscher,Anna,3.5,3.5,3,3.7,3.4,2.8,3.3,3.6,3.1,132,38
+STAB23H3,CMSSC,Intro to Stats for Social Sci STAB23H3-S-LEC01,Winter,2017,Aslemand,Asal,3.4,3.7,4,4.1,4.2,3.6,2.9,3.4,3.5,208,47
+MATB43H3,CMSSC,Introduction to Analysis MATB43H3-S-LEC01,Winter,2017,Grinnell,Raymond,4,4,4,3.7,3.5,3.4,3.7,4.3,2.8,51,23
+MATC44H3,CMSSC,Introduction to Combinatorics MATC44H3-S-LEC01,Winter,2017,Aretakis,Stefanos,4.7,4.7,4.6,4.5,4.7,4.6,4.4,3.1,4.7,109,48
+COPD11H3,CMSSC,Job Search Comp: Work Term 1 COPD11H3-S-LEC02,Winter,2017,Jairam,Cynthia,3,3.3,3.6,3.4,3.6,3.1,3.2,2.9,2.9,32,11
+COPD12H3,CMSSC,Job Search Comp: Work Term 2 COPD12H3-S-LEC02,Winter,2017,Jairam,Cynthia,2.7,3,2.5,3.7,3.7,3.7,3,3.3,2.5,22,7
+COPD12H3,CMSSC,Job Search Comp: Work Term 2 COPD12H3-S-LEC02,Winter,2017,Lott,Andrea,2.7,3,4,3.7,3.7,3.7,3,3.3,2.5,22,7
+COPD12H3,CMSSC,Job Search Comp: Work Term 2 COPD12H3-S-LEC03,Winter,2017,Jairam,Cynthia,3.2,3.3,3.4,3.2,3.2,2.8,2.8,1.7,3.2,13,6
+COPD12H3,CMSSC,Job Search Comp: Work Term 2 COPD12H3-S-LEC03,Winter,2017,Lott,Andrea,3.2,3.3,4.3,3.2,3.2,2.8,2.8,1.7,3.2,13,6
+MATA23H3,CMSSC,Linear Algebra I MATA23H3-S-LEC01,Winter,2017,Chrysostomou,Sophie,3.2,3.1,2.8,3.4,3.3,2.7,2.6,2.9,2.7,283,65
+MATA23H3,CMSSC,Linear Algebra I MATA23H3-S-LEC03,Winter,2017,Chrysostomou,Sophie,3.3,3.5,3,3.5,3.5,2.9,2.9,3.2,3.1,256,68
+COPD01H3,CMSSC,Navigating the World of Work COPD01H3-S-LEC01,Winter,2017,Jairam,Cynthia,2.6,3.2,2.7,3.4,3.4,2.9,3.1,2.5,3,279,84
+COPD01H3,CMSSC,Navigating the World of Work COPD01H3-S-LEC01,Winter,2017,Klassen,Sarah,2.6,3.2,3.2,3.4,3.4,2.9,3.1,2.5,3,279,84
+COPD01H3,CMSSC,Navigating the World of Work COPD01H3-S-LEC60,Winter,2017,Jairam,Cynthia,2.5,2.9,2.8,3.2,3.3,3,2.8,2.8,3.1,55,19
+COPD01H3,CMSSC,Navigating the World of Work COPD01H3-S-LEC60,Winter,2017,Klassen,Sarah,2.5,2.9,2.8,3.2,3.3,3,2.8,2.8,3.1,55,19
+CSCC69H3,CMSSC,Operating Systems CSCC69H3-S-LEC30,Winter,2017,Meraji,Sina,2.8,3.2,3.1,3.3,2.7,2.6,2.7,4.1,2.6,83,22
+CSCC09H3,CMSSC,Programming on the Web CSCC09H3-S-LEC01,Winter,2017,Sans,Thierry,4.3,4.2,3.8,4.2,4.1,3.6,4.1,4.6,3.7,102,92
+STAC67H3,CMSSC,Regression Analysis STAC67H3-S-LEC01,Winter,2017,Hasler,Caren,4.1,4.3,4.4,4.2,4.1,3.9,3.8,3.1,3.9,79,42
+CSCD03H3,CMSSC,Social Impact of Info Technol CSCD03H3-S-LEC30,Winter,2017,Harrington,Brian,3.9,3.8,4.1,3.9,4,3.8,4.1,3.6,4,36,15
+CSCB09H3,CMSSC,Software Tools & Systems Prog CSCB09H3-S-LEC01,Winter,2017,Schroeder,Bianca,4,4,3.7,3.9,3.8,3.4,3.5,3.8,3.3,109,51
+CSCB09H3,CMSSC,Software Tools & Systems Prog CSCB09H3-S-LEC02,Winter,2017,Schroeder,Bianca,4.1,3.9,3.8,3.7,4,3.7,3.3,3.9,3.3,42,16
+STAC58H3,CMSSC,Statistical Inference STAC58H3-S-LEC01,Winter,2017,Evans,Michael,3.6,3.6,3.6,4,3.9,3.6,3.9,3.3,3.3,45,7
+STAC70H3,CMSSC,Statistics and Finance I STAC70H3-S-LEC01,Winter,2017,Damouras,Sotirios,4.5,4.4,4.7,4.6,4.2,3.9,4.4,3.1,3.9,20,14
+STAD70H3,CMSSC,Statistics and Finance II STAD70H3-S-LEC01,Winter,2017,Damouras,Sotirios,3.9,4,4.3,4.1,4.3,3.4,3.8,2.8,2.9,14,13
+STAB22H3,CMSSC,Statistics I STAB22H3-S-LEC01,Winter,2017,Samarakoon,Mahinda,3.5,3.8,3.9,4.2,4.2,3.8,3.3,2.8,4,335,66
+STAB22H3,CMSSC,Statistics I STAB22H3-S-LEC02,Winter,2017,Hasler,Caren,3.5,3.9,4.2,3.8,3.9,3.6,3,2.8,3.8,298,66
+STAB27H3,CMSSC,Statistics II STAB27H3-S-LEC01,Winter,2017,Kang,So-hee,4.1,4.2,4.5,4.2,4.2,4,3.7,3.4,3.9,117,69
+STAD29H3,CMSSC,Stats for Life & Social ScientSTAD29H3-S-LEC01,Winter,2017,Butler,Kenneth,4.5,4.4,4.6,4.6,4.6,4.4,4.2,3.5,4.5,44,16
+MATB42H3,CMSSC,Tech of Calc Several Variab IIMATB42H3-S-LEC01,Winter,2017,Moore,Eric,3.8,3.9,3.8,4.2,4.2,3.5,3.5,4,3.5,186,52
+MATA02H3,CMSSC,The Magic of Numbers MATA02H3-S-LEC01,Winter,2017,Buchweitz,Ragnar-Olaf,3,2.9,2.8,3.3,3.3,2.6,2.2,3,2.7,104,53
+CSCD90H3,CMSSC,The Startup Sandbox CSCD90H3-S-LEC01,Winter,2017,Sans,Thierry,3.4,3.2,3.4,3.2,3.2,3.2,2.8,3.4,3.2,11,5
+CSCC73H3,CMSSC,Algorithm Design and Analysis CSCC73H3-F-LEC01,Fall,2016,Hadzilacos,Vassos,4.6,4.5,4.3,4.2,4.1,3.9,4,4.1,3.6,97,42
+STAB52H3,CMSSC,An Introduction to Probability STAB52H3-F-LEC01,Fall,2016,Damouras,Sotirios,3.5,3.2,3.3,2.9,2.8,2.6,2.7,3.6,2.5,125,68
+STAB52H3,CMSSC,An Introduction to Probability STAB52H3-F-LEC02,Fall,2016,Damouras,Sotirios,3.1,3,3,2.6,2.4,2.3,2.6,3.4,2.2,87,44
+STAB57H3,CMSSC,An Introduction to Statistics STAB57H3-F-LEC01,Fall,2016,Tomal,Jabed,3.7,3.6,3.6,4,3.8,3.2,3.4,3.2,3.3,84,59
+STAC32H3,CMSSC,Appli of Statistical Methods STAC32H3-F-LEC01,Fall,2016,Butler,Kenneth,4.3,4.3,4.5,4.5,4.4,4.1,4.1,3.6,4.2,122,48
+MATA32H3,CMSSC,Calculus for Management I MATA32H3-F-LEC01,Fall,2016,Moore,Eric,3.7,3.9,3.1,4.1,4,3.2,3.1,3.6,3.2,225,84
+MATA32H3,CMSSC,Calculus for Management I MATA32H3-F-LEC02,Fall,2016,Cheng,Nick,3.7,3.7,4.1,3.6,3.7,3.3,2.9,3.9,3.1,168,76
+MATA32H3,CMSSC,Calculus for Management I MATA32H3-F-LEC03,Fall,2016,Grinnell,Raymond,4.1,4.3,4.6,4.1,4.1,3.8,3.5,3.6,3.8,240,127
+MATA29H3,CMSSC,Calculus I for Life Sciences MATA29H3-F-LEC01,Fall,2016,Glynn-Adey,Parker,3.7,3.7,4.6,3.8,3.9,3.6,2.9,3.3,3.7,185,71
+MATA29H3,CMSSC,Calculus I for Life Sciences MATA29H3-F-LEC02,Fall,2016,Breuss,Natalia,3.1,3.1,3,3.5,3.6,2.6,2.1,3.3,3,72,23
+MATA29H3,CMSSC,Calculus I for Life Sciences MATA29H3-F-LEC03,Fall,2016,Breuss,Natalia,3.7,3.9,3.7,4.4,4.3,3.5,2.9,3,3.6,97,34
+MATA31H3,CMSSC,Calculus I for Math Sciences MATA31H3-F-LEC01,Fall,2016,Glynn-Adey,Parker,4,4.2,4.4,3.9,3.9,3.7,3.4,3.7,3.4,186,69
+MATA31H3,CMSSC,Calculus I for Math Sciences MATA31H3-F-LEC02,Fall,2016,Breuss,Natalia,3.8,3.8,3.5,4,3.9,3.4,2.9,3.6,3,181,72
+MATA31H3,CMSSC,Calculus I for Math Sciences MATA31H3-F-LEC03,Fall,2016,Breuss,Natalia,3.9,4,3.5,3.9,3.9,3.3,3.1,3.5,3.3,181,61
+MATA31H3,CMSSC,Calculus I for Math Sciences MATA31H3-F-LEC04,Fall,2016,Glynn-Adey,Parker,3.8,3.8,4.4,3.8,3.9,3.5,3,3.5,3.2,154,66
+MATA30H3,CMSSC,Calculus I for Physical Sci MATA30H3-F-LEC31,Fall,2016,Chrysostomou,Sophie,3.5,3.8,3.8,4.1,3.9,3.3,3,3.4,3.2,174,56
+STAC51H3,CMSSC,Categorical Data Analysis STAC51H3-F-LEC30,Fall,2016,Samarakoon,Mahinda,3.8,3.9,4.1,4.1,4.3,3.8,3.4,3.2,3.6,54,20
+MATC34H3,CMSSC,Complex Variables MATC34H3-F-LEC01,Fall,2016,Goldstein,Michael,3.9,4,4.1,4.3,4.3,3.9,3.7,3.2,3.8,66,39
+CSCD27H3,CMSSC,Computer and Network Security CSCD27H3-F-LEC01,Fall,2016,Sans,Thierry,4.6,4.6,4.8,4.5,4.5,4.3,4.5,3.2,4.7,104,67
+CSCD18H3,CMSSC,Computer Graphics CSCD18H3-F-LEC01,Fall,2016,Garfinkiel,Edy,4,4,3.8,3.8,4,3.8,3.8,4.2,3.4,16,6
+STAC50H3,CMSSC,Data Collection STAC50H3-F-LEC01,Fall,2016,Hasler,Caren,4.2,4.3,4.5,4.4,4.4,4.2,4,3,4.4,105,57
+MATB44H3,CMSSC,Differential Equations I MATB44H3-F-LEC01,Fall,2016,Bell,Jordan,3.8,3.8,3.5,4.2,4.1,3.6,3.4,3,3.6,146,47
+MATC63H3,CMSSC,Differential Geometry MATC63H3-F-LEC01,Fall,2016,Jeffrey,Lisa,4.3,4.8,4,5,5,4.3,3.3,3,3.8,9,5
+CSCA67H3,CMSSC,Discrete Mathematics CSCA67H3-F-LEC01,Fall,2016,Bretscher,Anna,3.6,3.4,3.1,3.5,3.6,2.9,3,3.6,2.8,232,74
+CSCA67H3,CMSSC,Discrete Mathematics CSCA67H3-F-LEC01,Fall,2016,Pancer,Richard,3.6,3.4,3.7,3.5,3.6,2.9,3,3.6,2.8,232,74
+CSCA67H3,CMSSC,Discrete Mathematics CSCA67H3-F-LEC02,Fall,2016,Bretscher,Anna,3.6,3.5,2.8,3.5,3.4,2.8,2.8,3.7,2.6,243,73
+CSCA67H3,CMSSC,Discrete Mathematics CSCA67H3-F-LEC02,Fall,2016,Pancer,Richard,3.6,3.5,3.7,3.5,3.4,2.8,2.8,3.7,2.6,243,73
+CSCA67H3,CMSSC,Discrete Mathematics CSCA67H3-F-LEC03,Fall,2016,Bretscher,Anna,3.7,3.7,3.2,3.6,3.5,3.1,3.1,3.5,2.9,274,85
+CSCA67H3,CMSSC,Discrete Mathematics CSCA67H3-F-LEC03,Fall,2016,Pancer,Richard,3.7,3.7,3.7,3.6,3.5,3.1,3.1,3.5,2.9,274,85
+MATA67H3,CMSSC,Discrete Mathematics MATA67H3-F-LEC01,Fall,2016,Bretscher,Anna,3.6,3.9,3.6,3.7,3.4,3.3,3.1,3.6,3.3,23,7
+MATA67H3,CMSSC,Discrete Mathematics MATA67H3-F-LEC01,Fall,2016,Pancer,Richard,3.6,3.9,4.1,3.7,3.4,3.3,3.1,3.6,3.3,23,7
+MATA67H3,CMSSC,Discrete Mathematics MATA67H3-F-LEC02,Fall,2016,Bretscher,Anna,3.3,3.6,3.3,3.3,3,2.4,3,3.3,2.3,29,10
+MATA67H3,CMSSC,Discrete Mathematics MATA67H3-F-LEC02,Fall,2016,Pancer,Richard,3.3,3.6,3.4,3.3,3,2.4,3,3.3,2.3,29,10
+MATA67H3,CMSSC,Discrete Mathematics MATA67H3-F-LEC03,Fall,2016,Bretscher,Anna,4,4,3.8,4,4,3.1,3.6,3.8,2.9,29,8
+MATA67H3,CMSSC,Discrete Mathematics MATA67H3-F-LEC03,Fall,2016,Pancer,Richard,4,4,3.6,4,4,3.1,3.6,3.8,2.9,29,8
+ACTB40H3,CMSSC,Fundamentals Investment & Cred ACTB40H3-F-LEC01,Fall,2016,Samarakoon,Mahinda,3.5,3.6,3.5,3.7,3.9,3.1,3.6,2.9,3.3,105,20
+MATC32H3,CMSSC,Graph Theory and Algorithms MATC32H3-F-LEC01,Fall,2016,Smith,Kathleen,4.3,4.5,4.7,4.4,4.2,4.7,4.1,2.8,4.1,42,18
+MATC01H3,CMSSC,Groups and Symmetry MATC01H3-F-LEC01,Fall,2016,Chrysostomou,Sophie,3.8,3.6,3.6,3.9,4,3.5,3.4,3.4,3.4,57,20
+CSCC10H3,CMSSC,Human-Computer Interaction CSCC10H3-F-LEC01,Fall,2016,Nizam,Naureen,3.5,3.9,4,3.7,3.9,3.6,3.6,3.1,3.8,75,27
+CSCA08H3,CMSSC,Intro to Computer Science I CSCA08H3-F-LEC01,Fall,2016,Harrington,Brian,3.8,4.2,4.4,3.9,3.9,3.8,3.7,3.6,3.7,145,104
+CSCA08H3,CMSSC,Intro to Computer Science I CSCA08H3-F-LEC02,Fall,2016,Harrington,Brian,3.9,4.1,4.4,3.9,3.9,3.8,3.7,3.5,3.8,129,94
+CSCA08H3,CMSSC,Intro to Computer Science I CSCA08H3-F-LEC03,Fall,2016,Harrington,Brian,4.2,4.2,4.6,4.1,4.1,3.8,3.9,3.7,3.7,130,82
+CSCA08H3,CMSSC,Intro to Computer Science I CSCA08H3-F-LEC04,Fall,2016,Sans,Thierry,4.1,4.2,4.2,3.9,4.1,3.9,4,3.7,3.5,133,71
+CSCA08H3,CMSSC,Intro to Computer Science I CSCA08H3-F-LEC30,Fall,2016,Harrington,Brian,4.1,4.3,4.5,4,4.1,3.7,3.9,3.7,3.8,138,80
+CSCC11H3,CMSSC,Intro to Machine Learning CSCC11H3-F-LEC01,Fall,2016,Cao,Yanshuai,3.5,3.2,3.3,3.7,4,3.3,3.7,4.7,3.2,25,6
+MATC09H3,CMSSC,Intro to Mathematical Logic MATC09H3-F-LEC01,Fall,2016,Grinnell,Raymond,4.7,4.4,4.4,4.4,4.3,4.4,4.3,3.9,3.8,14,10
+CSCC37H3,CMSSC,Intro to Numerical Algorithms CSCC37H3-F-LEC01,Fall,2016,Pancer,Richard,3.5,3.5,3.5,3.5,3.3,3,2.6,3.4,2.7,168,45
+CSCC01H3,CMSSC,Intro to Software Engineering CSCC01H3-F-LEC01,Fall,2016,Tafliovich,Anya,3,2.8,2.7,2.7,2.6,2.3,2.9,4.3,2.4,79,27
+CSCC01H3,CMSSC,Intro to Software Engineering CSCC01H3-F-LEC02,Fall,2016,Tafliovich,Anya,2.6,2.7,2.5,2.6,2.9,2.2,2.5,4,2.5,61,15
+STAB23H3,CMSSC,Intro to Stats for Social Sci STAB23H3-F-LEC01,Fall,2016,Aslemand,Asal,4.2,4.3,4.8,4.5,4.4,4.5,3.7,3.3,4.1,117,39
+CSCB36H3,CMSSC,Intro to Theory of Computation CSCB36H3-F-LEC01,Fall,2016,Hadzilacos,Vassos,4.4,4.2,4.2,4.1,4.1,3.9,3.4,3.5,3.5,124,53
+CSCC43H3,CMSSC,Introduction to Databases CSCC43H3-F-LEC30,Fall,2016,Meraji,Sina,3.6,3.8,3.4,4.1,4.2,3.3,3.3,2.6,3.5,73,18
+MATC15H3,CMSSC,Introduction to Number Theory MATC15H3-F-LEC01,Fall,2016,Chrysostomou,Sophie,4.8,4.7,4.2,4.4,4.3,4.4,4.4,3.9,4,37,10
+CSCA20H3,CMSSC,Introduction to Programming CSCA20H3-F-LEC01,Fall,2016,Bretscher,Anna,3.9,3.8,3.8,3.9,3.9,3.5,3.5,4,3.3,153,43
+CSCA20H3,CMSSC,Introduction to Programming CSCA20H3-F-LEC02,Fall,2016,Bretscher,Anna,3.8,3.8,3.7,4,4.1,3.2,3.2,4,3.3,154,41
+MATC27H3,CMSSC,Introduction to Topology MATC27H3-F-LEC01,Fall,2016,Smith,Kathleen,4.8,4.7,4.9,4.7,4.3,4.2,4,3.4,4.1,15,9
+MATD02H3,CMSSC,Plane Geomet & Their Transform MATD02H3-F-LEC01,Fall,2016,Shahbazi,Zohreh,4.1,4.1,4.3,4.2,4,4.1,3.9,3.1,4,26,19
+STAC67H3,CMSSC,Regression Analysis STAC67H3-F-LEC01,Fall,2016,Hasler,Caren,4.2,4.4,4.7,4.4,4.5,4.3,3.8,3,4.3,84,39
+CSCD03H3,CMSSC,Social Impact of Info Technol CSCD03H3-F-LEC30,Fall,2016,Hirst,Graeme,3.9,4.1,4.1,4,3.9,3.9,4,3.5,3.9,45,16
+CSCB07H3,CMSSC,Software Design CSCB07H3-F-LEC01,Fall,2016,Tafliovich,Anya,3.5,3.7,3.4,3.9,3.7,3.1,3.6,4.1,3,109,43
+CSCB07H3,CMSSC,Software Design CSCB07H3-F-LEC02,Fall,2016,Tafliovich,Anya,3.8,4,3.8,4.3,4.1,3.4,4.1,4,4.1,66,20
+STAB22H3,CMSSC,Statistics I STAB22H3-F-LEC01,Fall,2016,Samarakoon,Mahinda,3.4,3.7,3.7,3.9,3.9,3.4,2.9,2.8,3.7,319,81
+STAB22H3,CMSSC,Statistics I STAB22H3-F-LEC02,Fall,2016,Hasler,Caren,3.5,3.7,3.7,3.8,3.9,3.5,3.1,2.8,3.6,285,82
+MATB41H3,CMSSC,Tech of Calc Several Variab I MATB41H3-F-LEC01,Fall,2016,Moore,Eric,3.6,3.7,3.2,4,3.9,3.2,3.4,3.8,3.1,300,103
+MATB41H3,CMSSC,Tech of Calc Several Variab I MATB41H3-F-LEC02,Fall,2016,Moore,Eric,3.6,3.8,3.6,4.1,4.1,3.3,2.9,4.2,2.9,82,17
+STAD57H3,CMSSC,Time Series Analysis STAD57H3-F-LEC01,Fall,2016,Damouras,Sotirios,4.3,4.2,4.3,4,3.9,3.6,4.3,3.2,3.8,12,12
+CSCA48H3,CMSSC,Intro to Computer Science II CSCA48H3-Y-LEC01,Summer,2016,Harrington,Brian,4.2,4.2,4.5,3.9,4.1,3.9,4.1,3.8,3.5,53,29
+CSCB09H3,CMSSC,Software Tools & Systems Prog CSCB09H3-Y-LEC01,Summer,2016,Rosenthal,Alan,4.1,3.9,3.9,4.3,4.2,3.5,4.2,3.8,3.7,75,19
+CSCB09H3,CMSSC,Software Tools & Systems Prog CSCB09H3-Y-LEC30,Summer,2016,Rosenthal,Alan,2.8,3.3,2.9,3.4,3.3,2.8,2.9,4.3,2.5,45,9
+CSCB36H3,CMSSC,Intro to Theory of Computation CSCB36H3-Y-LEC01,Summer,2016,Cheng,Nick,3.8,3.8,4,4.1,3.9,3.5,3.4,3.3,3.4,117,41
+CSCB63H3,CMSSC,Design & Analysis Data Structs CSCB63H3-Y-LEC01,Summer,2016,Lai,Albert,3.6,4,3.8,3.9,3.8,3.3,3.7,3.4,3.8,48,13
+CSCC43H3,CMSSC,Introduction to Databases CSCC43H3-Y-LEC01,Summer,2016,Koudas,Nick,3.5,3.9,3.1,3.5,3.6,3.1,3.4,3.3,3.5,67,17
+CSCC63H3,CMSSC,Computability & Complexity CSCC63H3-Y-LEC01,Summer,2016,Cheng,Nick,3.9,3.5,3.9,3.5,3.8,3,3.1,3.5,2.9,73,18
+CSCC69H3,CMSSC,Operating Systems CSCC69H3-Y-LEC30,Summer,2016,Meraji,Sina,4.1,4.1,3.6,3.9,3.7,3.3,3.5,4,3,51,12
+MATA23H3,CMSSC,Linear Algebra I MATA23H3-Y-LEC01,Summer,2016,Grinnell,Raymond,4.4,4.3,4.4,4.3,4.4,3.9,3.9,3.8,3.9,126,31
+MATA33H3,CMSSC,Calculus for Management II MATA33H3-Y-LEC01,Summer,2016,Grinnell,Raymond,3.6,3.7,3.9,3.5,3.4,3.3,2.4,4.1,2.7,121,23
+MATA35H3,CMSSC,Calculus II for Biological Sci MATA35H3-Y-LEC01,Summer,2016,Zhang,Shuangjian,3.4,3.8,3.8,4.1,3.9,3.6,3.2,3.3,3.3,63,17
+MATA36H3,CMSSC,Calculus II for Physical Sci MATA36H3-Y-LEC01,Summer,2016,Smith,Kathleen,4,4.2,4.5,4,4,4,3.1,3.5,3.3,99,19
+MATA37H3,CMSSC,Calculus II for Mathematic Sci MATA37H3-Y-LEC01,Summer,2016,Smith,Kathleen,4.1,4,4.5,3.8,3.7,3.7,3.6,3.7,3.2,148,33
+STAB22H3,CMSSC,Statistics I STAB22H3-Y-LEC01,Summer,2016,Samarakoon,Mahinda,3.8,3.9,3.9,4.1,4,3.6,3.3,2.9,3.9,226,41
+STAB23H3,CMSSC,Intro to Stats for Social Sci STAB23H3-Y-LEC01,Summer,2016,Aslemand,Asal,3.5,3.4,4.2,3.7,3.9,3.5,3,3.1,3.6,71,14
+STAB52H3,CMSSC,An Introduction to Probability STAB52H3-Y-LEC01,Summer,2016,Samarakoon,Mahinda,3.7,3.7,3.9,3.8,3.8,3.6,3.2,3.1,3.2,177,54
+CSCA48H3,CMSSC,Intro to Computer Science II CSCA48H3-S-LEC01,Winter,2016,Cheng,Nick,4.2,4.1,3.6,4,3.8,3.6,4,4,3.6,127,46
+CSCA48H3,CMSSC,Intro to Computer Science II CSCA48H3-S-LEC01,Winter,2016,Harrington,Brian,4.2,4.1,4.1,4,3.8,3.6,4,4,3.6,127,46
+CSCA48H3,CMSSC,Intro to Computer Science II CSCA48H3-S-LEC02,Winter,2016,Cheng,Nick,4.2,4.2,3.5,4.2,4.2,3.7,3.9,3.9,3.6,167,57
+CSCA48H3,CMSSC,Intro to Computer Science II CSCA48H3-S-LEC02,Winter,2016,Harrington,Brian,4.2,4.2,4,4.2,4.2,3.7,3.9,3.9,3.6,167,57
+CSCA48H3,CMSSC,Intro to Computer Science II CSCA48H3-S-LEC03,Winter,2016,Cheng,Nick,4,4.1,3.7,3.9,4,3.5,3.9,4,3.6,168,55
+CSCA48H3,CMSSC,Intro to Computer Science II CSCA48H3-S-LEC03,Winter,2016,Harrington,Brian,4,4.1,3.9,3.9,4,3.5,3.9,4,3.6,168,55
+CSCB09H3,CMSSC,Software Tools & Systems Prog CSCB09H3-S-LEC01,Winter,2016,Schroeder,Bianca,3.9,4,3.6,4,4,3.4,3.7,3.9,3.3,142,45
+CSCB09H3,CMSSC,Software Tools & Systems Prog CSCB09H3-S-LEC02,Winter,2016,Nizam,Naureen,4.2,4,3.8,3.9,3.7,3.2,3.6,3.9,3.5,58,11
+CSCB20H3,CMSSC,Intro to Databases & Web Appli CSCB20H3-S-LEC01,Winter,2016,Bretscher,Anna,3.4,3.5,3.8,3.7,3.8,3.2,3.8,4,3.2,70,13
+CSCB58H3,CMSSC,Computer Organization CSCB58H3-S-LEC01,Winter,2016,Estrada,Francisco,4.2,4.2,4.5,4.2,4,4,3.8,3.5,3.9,120,52
+CSCB63H3,CMSSC,Design & Analysis Data Structs CSCB63H3-S-LEC01,Winter,2016,Pancer,Richard,3.5,3.5,3.2,3.6,3.7,3,3.3,3.3,3.1,158,47
+CSCC24H3,CMSSC,Principles of Programming Lang CSCC24H3-S-LEC01,Winter,2016,Tafliovich,Anya,4,4,4.1,4.2,4,3.5,3.5,3.4,3.7,101,26
+CSCC43H3,CMSSC,Introduction to Databases CSCC43H3-S-LEC30,Winter,2016,Tanbeer,Syed,2.9,3.3,3.2,3.4,3.3,2.8,3.3,3.2,3.2,70,34
+CSCC63H3,CMSSC,Computability & Complexity CSCC63H3-S-LEC01,Winter,2016,Molloy,Michael,4.1,4.3,4.3,4,4,3.9,3.6,3.4,3.5,72,26
+CSCC69H3,CMSSC,Operating Systems CSCC69H3-S-LEC30,Winter,2016,Meraji,Sina,3.9,4,3,3.8,3.7,3.3,3.3,4.2,3.1,58,10
+CSCD01H3,CMSSC,Engineering Large Software Sys CSCD01H3-S-LEC01,Winter,2016,Tafliovich,Anya,3.8,3.9,4,3.6,3.6,3.5,4,3.7,3.9,54,12
+CSCD03H3,CMSSC,Social Impact of Info Technol CSCD03H3-S-LEC30,Winter,2016,Harrington,Brian,2.7,3,3.1,2.7,2.7,2.6,2.6,3.6,2.3,49,8
+CSCD37H3,CMSSC,Analysis Numerical Algorithms CSCD37H3-S-LEC01,Winter,2016,Pancer,Richard,3.3,3.1,3.6,3.4,3.5,3.1,2.8,3.1,2.9,35,9
+CSCD71H3,CMSSC,Topics in Computer Science CSCD71H3-S-LEC01,Winter,2016,Kontozopoulos,Helen,3.3,3.8,3.3,3.3,3.5,3.2,3.8,4.2,3,16,6
+CSCD84H3,CMSSC,Artificial Intelligence CSCD84H3-S-LEC01,Winter,2016,Estrada,Francisco,4.3,4.2,4.4,4.2,4.2,3.8,4.1,4.1,3.5,26,13
+MATA02H3,CMSSC,The Magic of Numbers MATA02H3-S-LEC01,Winter,2016,Chrysostomou,Sophie,3.7,3.3,3.3,4.1,4.3,3.3,2.8,3.4,3.1,69,18
+MATA23H3,CMSSC,Linear Algebra I MATA23H3-S-LEC02,Winter,2016,Chrysostomou,Sophie,3.7,4,4.1,4.2,4.1,3.7,3.3,3.4,3.5,295,73
+MATA30H3,CMSSC,Calculus I for Bio and Phy Sci MATA30H3-S-LEC01,Winter,2016,Chrysostomou,Sophie,3.8,3.6,3.9,3.8,3.9,3.8,3.2,3.8,3.3,137,19
+MATA30H3,CMSSC,Calculus I for Bio and Phy Sci MATA30H3-Y-LEC01,Winter,2016,Chrysostomou,Sophie,3.1,3.4,3.5,3.8,3.8,2.7,2.3,3.4,3.2,116,28
+MATA31H3,CMSSC,Calculus I for Math Sciences MATA31H3-S-LEC01,Winter,2016,Shahbazi,Zohreh,3.9,3.9,4.1,4.2,4.2,3.9,3.1,3,3.5,108,14
+MATA32H3,CMSSC,Calculus for Management I MATA32H3-S-LEC01,Winter,2016,Grinnell,Raymond,3.9,3.9,4.2,3.6,3.6,3.6,3,3.8,2.9,181,37
+MATA33H3,CMSSC,Calculus for Management II MATA33H3-S-LEC01,Winter,2016,Grinnell,Raymond,4.1,3.9,4.3,3.9,4,3.7,3.1,3.7,3.3,119,37
+MATA33H3,CMSSC,Calculus for Management II MATA33H3-S-LEC02,Winter,2016,Grinnell,Raymond,3.9,4.2,4.5,4.1,4.1,3.7,3.1,3.5,3.5,239,82
+MATA33H3,CMSSC,Calculus for Management II MATA33H3-S-LEC30,Winter,2016,Glynn-Adey,Parker,3.8,4,4.5,4.2,4,3.6,3.4,3.6,3.2,76,20
+MATA35H3,CMSSC,Calculus II for Biological Sci MATA35H3-S-LEC01,Winter,2016,Breuss,Natalia,3.6,3.8,3.9,4.2,4.1,3.4,2.9,3.8,3,157,38
+MATA36H3,CMSSC,Calculus II for Physical Sci MATA36H3-S-LEC01,Winter,2016,de Thanhoffer de Volcsey,Louis,3.1,3.1,2.7,3.3,3.1,2.3,2.6,3.4,2.4,214,68
+MATA37H3,CMSSC,Calculus II for Mathematic Sci MATA37H3-S-LEC01,Winter,2016,Smith,Kathleen,4.1,4.3,4.6,4,3.8,3.9,3.2,3.8,2.8,150,56
+MATA37H3,CMSSC,Calculus II for Mathematic Sci MATA37H3-S-LEC02,Winter,2016,Smith,Kathleen,4,4.1,4.3,4,3.7,3.6,3,3.8,2.9,88,33
+MATA37H3,CMSSC,Calculus II for Mathematic Sci MATA37H3-S-LEC30,Winter,2016,Smith,Kathleen,4.4,4.4,4.8,4.3,4,4,3.8,3.9,3.2,86,32
+MATB42H3,CMSSC,Tech of Calc Several Variab II MATB42H3-S-LEC01,Winter,2016,Breuss,Natalia,3.3,3.2,3.2,3.4,3.3,3,3,3.8,2.9,166,54
+MATB43H3,CMSSC,Introduction to Analysis MATB43H3-S-LEC01,Winter,2016,Scherk,John,4.4,4.5,4.3,4.6,4.5,4.4,4.2,3.4,4.1,39,11
+MATC15H3,CMSSC,Introduction to Number Theory MATC15H3-S-LEC01,Winter,2016,Friedlander,John,3.1,3.4,3.2,3.3,3.4,2.9,3.2,3.7,2.6,63,20
+MATC27H3,CMSSC,Introduction to Topology MATC27H3-S-LEC01,Winter,2016,Jeffrey,Lisa,3.9,3.6,3.7,4.1,4.3,3.6,3.7,3.7,3.7,16,8
+MATC37H3,CMSSC,Introduction to Real Analysis MATC37H3-S-LEC01,Winter,2016,Grinnell,Raymond,4.8,4.8,5,4.6,4.4,4.8,4.4,4,4.2,6,5
+MATC46H3,CMSSC,Differential Equations II MATC46H3-S-LEC01,Winter,2016,Goldstein,Michael,3.7,3.7,3.8,4,4,3.6,3.3,3,3.6,90,35
+MATD01H3,CMSSC,Fields and Groups MATD01H3-S-LEC01,Winter,2016,Smith,Kathleen,4.5,4.6,4.9,4.8,4.7,4.5,4.3,3.3,4.2,33,12
+MATD02H3,CMSSC,Plane Geomet & Their Transform MATD02H3-S-LEC01,Winter,2016,Shahbazi,Zohreh,4.3,4.5,4.6,4.5,4.3,4.1,3.9,3.1,4.2,27,10
+STAB22H3,CMSSC,Statistics I STAB22H3-S-LEC01,Winter,2016,Samarakoon,Mahinda,3.8,4,4,4,4.1,3.7,3.4,2.9,4.1,282,51
+STAB22H3,CMSSC,Statistics I STAB22H3-S-LEC02,Winter,2016,Samarakoon,Mahinda,3.5,3.8,4,3.8,3.9,3.8,3,2.7,4,304,71
+STAB22H3,CMSSC,Statistics I STAB22H3-S-LEC03,Winter,2016,Aslemand,Asal,3.3,3.8,3.8,4,3.9,3.5,2.9,3,3.4,281,73
+STAB27H3,CMSSC,Statistics II STAB27H3-S-LEC01,Winter,2016,Kang,So-hee,4,4.1,4.4,4.2,4.1,3.8,3.6,3.2,3.8,134,93
+STAB41H3,CMSSC,Financial Derivatives STAB41H3-S-LEC01,Winter,2016,Damouras,Sotirios,4.2,4.3,3.9,3.9,3.9,3.8,4,3.3,3.8,38,16
+STAC51H3,CMSSC,Categorical Data Analysis STAC51H3-S-LEC01,Winter,2016,Samarakoon,Mahinda,4.1,4.1,4.1,4.2,4.2,3.7,4,3,4.3,88,24
+STAC58H3,CMSSC,Statistical Inference STAC58H3-S-LEC01,Winter,2016,Evans,Michael,4.1,4.1,4.5,4.1,4.1,3.9,4.4,3.1,4,23,9
+STAD29H3,CMSSC,Stats for Life & Social Scient STAD29H3-S-LEC01,Winter,2016,Butler,Kenneth,4.4,4.5,4.7,4.8,4.7,4.5,4,3.4,4.3,34,13
+STAD70H3,CMSSC,Statistics and Finance II STAD70H3-S-LEC01,Winter,2016,Damouras,Sotirios,4.4,4.6,4.3,4.3,4.6,4.1,4.1,3.1,3.4,16,9
+ACTB40H3,CMSSC,Fundamentals Investment & Cred ACTB40H3-F-LEC01,Fall,2015,Damouras,Sotirios,4.4,4.4,4.1,4.2,4.4,3.7,3.9,3.5,4,100,28
+CSCA08H3,CMSSC,Intro to Computer Science I CSCA08H3-F-LEC01,Fall,2015,Harrington,Brian,4.1,4.3,4.6,4.2,4.1,4.1,3.9,3.6,4,174,91
+CSCA08H3,CMSSC,Intro to Computer Science I CSCA08H3-F-LEC02,Fall,2015,Harrington,Brian,4.2,4.3,4.6,4.3,4.2,4,4,3.7,3.9,174,94
+CSCA08H3,CMSSC,Intro to Computer Science I CSCA08H3-F-LEC03,Fall,2015,Harrington,Brian,4.3,4.4,4.7,4.2,4.2,4.1,3.9,3.6,4.1,150,81
+CSCA08H3,CMSSC,Intro to Computer Science I CSCA08H3-F-LEC30,Fall,2015,Harrington,Brian,4.1,4.1,4.5,4.1,4,3.8,3.8,3.6,3.9,142,60
+CSCA20H3,CMSSC,Introduction to Programming CSCA20H3-F-LEC01,Fall,2015,Bretscher,Anna,3.2,3.3,3.5,3.6,3.4,3.1,3,3.5,3.1,125,35
+CSCA20H3,CMSSC,Introduction to Programming CSCA20H3-F-LEC02,Fall,2015,Bretscher,Anna,3.4,3.5,3.5,3.9,3.8,3,3.5,4,3.2,125,28
+CSCA67H3,CMSSC,Discrete Mathematics CSCA67H3-F-LEC01,Fall,2015,Bretscher,Anna,4,3.8,3.7,3.9,3.9,3.5,3.3,3.5,3.1,234,80
+CSCA67H3,CMSSC,Discrete Mathematics CSCA67H3-F-LEC02,Fall,2015,Bretscher,Anna,3.8,3.8,3.6,3.9,4,3.4,3.3,3.5,3.2,219,74
+CSCA67H3,CMSSC,Discrete Mathematics CSCA67H3-F-LEC03,Fall,2015,Bretscher,Anna,3.9,4,4.1,4.1,4.1,3.3,3.3,3.4,3.1,108,34
+CSCA67H3,CMSSC,Discrete Mathematics CSCA67H3-F-LEC01,Fall,2015,Pancer,Richard,4,3.8,3.7,3.9,3.9,3.5,3.3,3.5,3.1,234,80
+CSCA67H3,CMSSC,Discrete Mathematics CSCA67H3-F-LEC02,Fall,2015,Pancer,Richard,3.8,3.8,3.9,3.9,4,3.4,3.3,3.5,3.2,219,74
+CSCA67H3,CMSSC,Discrete Mathematics CSCA67H3-F-LEC03,Fall,2015,Pancer,Richard,3.9,4,3.5,4.1,4.1,3.3,3.3,3.4,3.1,108,34
+CSCB07H3,CMSSC,Software Design CSCB07H3-F-LEC01,Fall,2015,Tafliovich,Anya,4.3,4.2,3.9,4.1,4,3.6,4.1,4.3,3.7,120,36
+CSCB07H3,CMSSC,Software Design CSCB07H3-F-LEC02,Fall,2015,Tafliovich,Anya,4.2,4.1,4.1,3.9,3.9,3.6,3.8,3.8,3.7,114,21
+CSCB36H3,CMSSC,Intro to Theory of Computation CSCB36H3-F-LEC01,Fall,2015,Cheng,Nick,3.8,3.7,3.9,3.9,3.9,3.4,3.4,3.2,3.1,153,37
+CSCC01H3,CMSSC,Intro to Software Engineering CSCC01H3-F-LEC01,Fall,2015,Tafliovich,Anya,3.2,3.2,3.1,2.8,2.9,2.6,3.2,4.6,2.8,75,27
+CSCC09H3,CMSSC,Programming on the Web CSCC09H3-F-LEC01,Fall,2015,Rosselet,Alan,4.1,4.3,4.4,4.4,4.2,3.9,4.1,3.9,4.1,59,21
+CSCC11H3,CMSSC,Intro to Machine Learning CSCC11H3-F-LEC01,Fall,2015,Brubaker,Marcus,4.3,3.8,3.7,3.8,3.7,3.5,4,4.5,3.3,19,6
+CSCC37H3,CMSSC,Intro to Numerical Algorithms CSCC37H3-F-LEC01,Fall,2015,Pancer,Richard,2.7,2.9,2.7,3,2.9,2.2,2.3,2.8,2.2,71,24
+CSCC37H3,CMSSC,Intro to Numerical Algorithms CSCC37H3-F-LEC02,Fall,2015,Pancer,Richard,2.9,3.7,2.8,3.4,3.6,2.8,2.6,3.3,2.6,74,17
+CSCC73H3,CMSSC,Algorithm Design and Analysis CSCC73H3-F-LEC01,Fall,2015,Hadzilacos,Vassos,4.6,4.3,4.3,4.1,4.1,3.8,3.8,4,3.4,73,31
+CSCC85H3,CMSSC,Intro to Embedded Systems CSCC85H3-F-LEC01,Fall,2015,Estrada,Francisco,4.6,4.4,4.6,4.3,4.2,4.3,4.4,4.8,3.7,49,31
+CSCD03H3,CMSSC,Social Impact of Info Technol CSCD03H3-F-LEC30,Fall,2015,Harrington,Brian,3.6,3.4,3.4,3.3,3.3,3.2,3.6,3.8,3.1,38,10
+CSCD18H3,CMSSC,Computer Graphics CSCD18H3-F-LEC01,Fall,2015,Estrada,Francisco,4.7,4.4,4.6,4.7,4.9,4.1,4.1,3.9,4.4,9,7
+CSCD27H3,CMSSC,Computer and Network Security CSCD27H3-F-LEC01,Fall,2015,Rosselet,Alan,4.3,4.3,4.2,4.2,4,4.1,4.2,3.8,4.1,69,20
+CSCD43H3,CMSSC,Database System Technology CSCD43H3-F-LEC30,Fall,2015,Koudas,Nick,3.3,3.5,3,3.5,3.3,2.5,2.5,3.5,2.5,18,5
+MATA30H3,CMSSC,Calculus I for Bio and Phy Sci MATA30H3-F-LEC01,Fall,2015,Chrysostomou,Sophie,3.5,3.6,3.9,3.9,3.8,3.3,2.6,3.6,3.4,286,81
+MATA30H3,CMSSC,Calculus I for Bio and Phy Sci MATA30H3-F-LEC30,Fall,2015,Chrysostomou,Sophie,3.9,4.1,4,4.3,4.2,3.7,3.4,3.5,3.8,157,31
+MATA30H3,CMSSC,Calculus I for Bio and Phy Sci MATA30H3-Y-LEC01,Fall,2015,Chrysostomou,Sophie,3.2,3.1,3,3.5,3.5,3,2.4,3.7,2.7,176,33
+MATA30H3,CMSSC,Calculus I for Bio and Phy Sci MATA30H3-F-LEC31,Fall,2015,de Thanhoffer de Volcsey,Louis,4.3,4.5,4.6,3.9,3.7,3.9,3.5,3.6,3.8,72,14
+MATA31H3,CMSSC,Calculus I for Math Sciences MATA31H3-F-LEC01,Fall,2015,Breuss,Natalia,3.5,3.3,2.5,3.7,3.3,2.5,2.4,3.6,2.6,184,76
+MATA31H3,CMSSC,Calculus I for Math Sciences MATA31H3-F-LEC02,Fall,2015,Breuss,Natalia,3.6,3.6,3,3.8,3.8,2.9,2.7,3.7,2.6,188,81
+MATA31H3,CMSSC,Calculus I for Math Sciences MATA31H3-F-LEC03,Fall,2015,Breuss,Natalia,3.4,3.5,3,3.9,3.9,3,2.8,3.8,2.8,136,52
+MATA32H3,CMSSC,Calculus for Management I MATA32H3-F-LEC01,Fall,2015,Grinnell,Raymond,4,4.3,4.7,4.2,4.2,3.8,3.4,3.6,4,185,110
+MATA32H3,CMSSC,Calculus for Management I MATA32H3-F-LEC02,Fall,2015,Grinnell,Raymond,4,4.1,4.7,4.2,4.2,4,3.3,3.6,3.8,183,93
+MATA32H3,CMSSC,Calculus for Management I MATA32H3-F-LEC03,Fall,2015,Haslhofer,Robert,3.6,4,3,3.7,4,3,2.9,3.7,3.5,109,45
+MATA32H3,CMSSC,Calculus for Management I MATA32H3-F-LEC30,Fall,2015,Moore,Eric,3.4,3.8,3.5,4.1,4.1,3.4,3.3,3.5,3.5,86,20
+MATA67H3,CMSSC,Discrete Mathematics MATA67H3-F-LEC01,Fall,2015,Bretscher,Anna,4.1,4.3,4,4.1,4,3.6,3.9,3,4,31,10
+MATA67H3,CMSSC,Discrete Mathematics MATA67H3-F-LEC02,Fall,2015,Bretscher,Anna,4,4.2,3.9,4.1,4.1,4,3.9,3.4,4.1,43,8
+MATA67H3,CMSSC,Discrete Mathematics MATA67H3-F-LEC03,Fall,2015,Bretscher,Anna,3.8,3.8,3.5,3.8,4,3.5,3.7,3.3,3,19,6
+MATA67H3,CMSSC,Discrete Mathematics MATA67H3-F-LEC01,Fall,2015,Pancer,Richard,4.1,4.3,3.1,4.1,4,3.6,3.9,3,4,31,10
+MATA67H3,CMSSC,Discrete Mathematics MATA67H3-F-LEC02,Fall,2015,Pancer,Richard,4,4.2,4.1,4.1,4.1,4,3.9,3.4,4.1,43,8
+MATA67H3,CMSSC,Discrete Mathematics MATA67H3-F-LEC03,Fall,2015,Pancer,Richard,3.8,3.8,3.8,3.8,4,3.5,3.7,3.3,3,19,6
+MATB24H3,CMSSC,Linear Algebra II MATB24H3-F-LEC02,Fall,2015,Jiang,Xiamei,3.4,3.4,3.2,3.7,3.6,3.1,3.1,3.6,2.9,171,42
+MATB24H3,CMSSC,Linear Algebra II MATB24H3-F-LEC01,Fall,2015,Moore,Eric,3.3,3.6,3.5,3.9,3.8,3.3,3.2,3.5,2.9,191,40
+MATB41H3,CMSSC,Tech of Calc Several Variab I MATB41H3-F-LEC01,Fall,2015,Moore,Eric,3.5,3.7,3.2,3.9,3.9,3.3,3.4,3.9,3.1,329,77
+MATB44H3,CMSSC,Differential Equations I MATB44H3-F-LEC01,Fall,2015,Jeffrey,Lisa,3.7,3.9,3.1,4.2,4.1,3.3,3.5,3.3,3.5,111,36
+MATC01H3,CMSSC,Groups and Symmetry MATC01H3-F-LEC01,Fall,2015,Smith,Kathleen,4.3,4.4,4.5,4.4,4.4,4.2,3.8,3.2,4.1,48,20
+MATC09H3,CMSSC,Intro to Mathematical Logic MATC09H3-F-LEC01,Fall,2015,Grinnell,Raymond,4.8,4.4,4.8,4.6,4.3,4.2,4,3.6,4.3,14,9
+MATC34H3,CMSSC,Complex Variables MATC34H3-F-LEC01,Fall,2015,Goldstein,Michael,3.4,3.5,3.6,3.9,3.7,3.4,3,3.1,3.3,55,35
+MATC44H3,CMSSC,Introduction to Combinatorics MATC44H3-F-LEC01,Fall,2015,Rayan,Steven,4.1,4.1,4.4,4.4,4.5,4,3.9,2.8,4.2,61,17
+MATC90H3,CMSSC,Beginnings of Mathematics MATC90H3-F-LEC01,Fall,2015,Virag,Balint,3.6,3.8,3.4,3.4,3.7,3.3,3.3,3,3.1,35,12
+STAB22H3,CMSSC,Statistics I STAB22H3-F-LEC03,Fall,2015,Aslemand,Asal,3.2,3.3,3.6,3.6,3.8,3.3,2.8,2.7,3.4,220,52
+STAB22H3,CMSSC,Statistics I STAB22H3-F-LEC01,Fall,2015,Samarakoon,Mahinda,3.6,3.8,3.4,3.8,3.9,3.3,3.3,2.9,3.8,316,54
+STAB22H3,CMSSC,Statistics I STAB22H3-F-LEC02,Fall,2015,Samarakoon,Mahinda,3.4,3.6,3.4,3.8,3.8,3.3,2.8,3.2,3.4,280,55
+STAB52H3,CMSSC,An Introduction to Probability STAB52H3-F-LEC02,Fall,2015,Stewart,Andrew,3,3.3,3,2.6,2.6,2.3,2.6,3.6,2.3,79,21
+STAB52H3,CMSSC,An Introduction to Probability STAB52H3-F-LEC01,Fall,2015,Virag,Balint,3,2.9,2.2,3,2.9,2,2.7,3.6,2.3,103,25
+STAC32H3,CMSSC,Appli of Statistical Methods STAC32H3-F-LEC01,Fall,2015,Butler,Kenneth,4,4.3,4.5,4.5,4.4,4,4.1,3.4,4.3,104,44
+STAC50H3,CMSSC,Data Collection STAC50H3-F-LEC01,Fall,2015,Samarakoon,Mahinda,3.8,3.9,3.7,4,4.1,3.5,3.7,3.1,3.5,89,33
+STAC62H3,CMSSC,Stochastic Processes STAC62H3-F-LEC01,Fall,2015,Evans,Michael,3.6,3.2,2.9,2.9,2.8,2.8,2.9,3.6,2.3,31,12
+STAC63H3,CMSSC,Probability Models STAC63H3-F-LEC30,Fall,2015,Roy,Daniel,4.3,4.1,4.4,4.1,4,3.9,3.9,2.9,3.9,31,16
+STAC67H3,CMSSC,Regression Analysis STAC67H3-F-LEC30,Fall,2015,Tomal,Jabed,3.8,3.8,3.7,3.8,3.9,3.4,3.4,3.9,3.6,62,52
+STAD37H3,CMSSC,Multivariate Analysis STAD37H3-F-LEC01,Fall,2015,Kang,So-hee,3.9,4,4.2,4.2,4.1,3.7,3.8,3.8,3.7,45,39
+STAD57H3,CMSSC,Time Series Analysis STAD57H3-F-LEC01,Fall,2015,Damouras,Sotirios,4.2,4.4,4.4,4.6,4.4,4.2,4.2,3.2,3.6,10,5
+STAB52H3,CMSSC,An Introduction to Probability STAB52H3-Y-LEC01,Summer,2015,Cao,Danny,3.9,4.1,4.2,4,3.9,3.8,3.4,3.4,3.6,119,37
+MATA33H3,CMSSC,Calculus for Management II MATA33H3-Y-LEC01,Summer,2015,Pavlov,Alexander,3.3,3.8,2.6,4,3.8,2.9,2.2,3.7,2.4,141,19
+MATA35H3,CMSSC,Calculus II for Biological Sci MATA35H3-Y-LEC01,Summer,2015,Smith,Kathleen,4.1,4.5,5,4.1,4.2,4.1,3.3,3.5,3.9,55,19
+MATA37H3,CMSSC,Calculus II for Mathematic Sci MATA37H3-Y-LEC01,Summer,2015,Smith,Kathleen,4,4.1,4.6,4.4,4.1,3.9,3.5,3.9,3,86,23
+MATA36H3,CMSSC,Calculus II for Physical Sci MATA36H3-Y-LEC01 (Chrysostomou),Summer,2015,Chrysostomou,Sophie,3.4,3.5,3.1,3.7,3.5,2.9,3.1,3.4,2.9,87,22
+MATA36H3,CMSSC,Calculus II for Physical Sci MATA36H3-Y-LEC01 (Grinnel),Summer,2015,Grinnell,Raymond,4.2,4.4,4.6,4.3,4.3,4.4,3.6,3.6,4.3,109,11
+CSCC63H3,CMSSC,Computability & Complexity CSCC63H3-Y-LEC01,Summer,2015,Cheng,Nick,4.5,4.6,4.4,4.4,4.2,4.3,3.9,2.8,3.9,55,13
+CSCB58H3,CMSSC,Computer Organization CSCB58H3-Y-LEC01,Summer,2015,Estrada,Francisco,4.7,4.7,4.9,4.4,4.3,4.6,4.5,3.4,4.4,103,30
+CSCB63H3,CMSSC,Design & Analysis Data Structs CSCB63H3-Y-LEC01,Summer,2015,Lai,Albert,3.8,4.1,3.6,4.3,4.3,3.7,3.7,3.3,3.8,46,14
+CSCB36H3,CMSSC,Intro to Theory of Computation CSCB36H3-Y-LEC01,Summer,2015,Cheng,Nick,4.1,4,4.1,4.1,4,3.5,3.7,3.5,3,78,14
+CSCA20H3,CMSSC,Introduction to Programming CSCA20H3-Y-LEC01,Summer,2015,Tafliovich,Anya,3.9,3.9,3.7,3.9,4,3.5,3.5,3.8,3.2,99,54
+MATA23H3,CMSSC,Linear Algebra I MATA23H3-Y-LEC01 (Chrysostomou),Summer,2015,Chrysostomou,Sophie,3.3,3.6,2.9,3.5,3.7,3,2.8,3.2,3,102,20
+MATA23H3,CMSSC,Linear Algebra I MATA23H3-Y-LEC01 (Grinnell),Summer,2015,Grinnell,Raymond,4.1,4.3,4.6,4,4.1,4.1,3.8,3.2,3.6,147,20
+CSCC69H3,CMSSC,Operating Systems CSCC69H3-Y-LEC30,Summer,2015,Meraji,Sina,3.8,3.4,3,2.4,2.4,2.4,2.4,4.6,2.2,35,6
+STAB22H3,CMSSC,Statistics I STAB22H3-Y-LEC01 (Kang),Summer,2015,Kang,So-hee,3.3,3.7,3.8,3.5,3.6,3.1,3.4,3.2,3.5,160,22
+STAB22H3,CMSSC,Statistics I STAB22H3-Y-LEC01 (Samarakoon),Summer,2015,Samarakoon,Mahinda,3.1,3.3,2.8,3.6,3.3,2.7,2.7,3.2,2.6,141,15
+STAB22H3,CMSSC,Statistics I STAB22H3-Y-LEC02 (Kang),Summer,2015,Kang,So-hee,3.4,4,4.2,3.9,3.9,3.7,3,3,3.5,269,46
+STAB22H3,CMSSC,Statistics I STAB22H3-Y-LEC02 (Samarakoon),Summer,2015,Samarakoon,Mahinda,3.3,3.3,3,3.5,3.5,2.8,2.8,3.2,3,234,41
+MATA02H3,CMSSC,The Magic of Numbers MATA02H3-Y-LEC01,Summer,2015,Grover,Parnesh,2.9,3.3,3.1,3.7,4,2.9,2.5,3,3.4,79,30
+CSCA48H3,CMSSC,Intro to Computer Science II CSCA48H3-S-LEC01,Winter,2015,Bretscher,Anna,4.2,4.3,3.9,4.1,4,3.8,4.1,3.8,3.6,200,61
+CSCA48H3,CMSSC,Intro to Computer Science II CSCA48H3-S-LEC02,Winter,2015,Bretscher,Anna,4,4.2,3.5,4,4,3.4,3.8,4,3.5,179,63
+MATA33H3,CMSSC,Calculus for Management II MATA33H3-S-LEC01,Winter,2015,Buchweitz,Ragnar-Olaf,3.5,3.7,3.1,4,3.7,3.1,2.9,3.4,3.3,142,26
+STAD29H3,CMSSC,Stats for Life & Social Scient STAD29H3-S-LEC01,Winter,2015,Butler,Kenneth,4.3,4.3,4.3,4.3,4.3,3.9,4.1,3.5,3.9,22,8
+MATA31H3,CMSSC,Calculus I for Math Sciences MATA31H3-S-LEC01,Winter,2015,Cheredeko,Natalia,3.8,4.2,3.9,4.1,4,3.7,3.5,3.7,3.3,76,20
+MATA35H3,CMSSC,Calculus II for Biological Sci MATA35H3-S-LEC01,Winter,2015,Cheredeko,Natalia,3.5,3.8,3.7,4,3.9,3.2,2.7,3.7,3,171,52
+MATC46H3,CMSSC,Differential Equations II MATC46H3-S-LEC01,Winter,2015,Cheredeko,Natalia,2.9,3.1,3.2,3.4,3.6,2.7,2.9,3.4,3,69,19
+STAB22H3,CMSSC,Statistics I STAB22H3-S-LEC01,Winter,2015,Chilina,Olga,3.3,3.6,3.6,3.6,3.6,3.2,2.8,3.3,3,275,46
+STAB22H3,CMSSC,Statistics I STAB22H3-S-LEC02,Winter,2015,Chopra,Srishta,3.1,3.3,3.8,3.4,3.4,2.9,2.7,3.3,3,271,60
+STAB22H3,CMSSC,Statistics I STAB22H3-S-LEC03,Winter,2015,Chopra,Srishta,3.4,3.6,3.9,3.8,3.7,3.4,3.1,3.4,3.6,272,50
+MATA30H3,CMSSC,Calculus I for Bio and Phy Sci MATA30H3-S-LEC01,Winter,2015,Chrysostomou,Sophie,3.5,3.6,3.5,3.8,3.6,3.3,2.3,3.8,2.8,128,24
+MATA30H3,CMSSC,Calculus I for Bio and Phy Sci MATA30H3-Y-LEC01,Winter,2015,Chrysostomou,Sophie,3.4,3.7,3.7,3.9,3.8,3.3,2.5,3.5,3.2,124,36
+STAB41H3,CMSSC,Financial Derivatives STAB41H3-S-LEC01,Winter,2015,Damouras,Sotirios,4.1,4.2,4.3,4.1,4.1,3.7,3.7,3.1,3.6,36,21
+STAC70H3,CMSSC,Statistics and Finance STAC70H3-S-LEC01,Winter,2015,Damouras,Sotirios,4.3,4.1,4.1,4.1,3.9,3.4,3.7,3.6,3.1,27,20
+STAD70H3,CMSSC,Statistics and Finance II STAD70H3-S-LEC01,Winter,2015,Damouras,Sotirios,4.2,4.2,4.1,4.2,4.3,3.8,4.2,3.9,4,10,10
+CSCB58H3,CMSSC,Computer Organization CSCB58H3-S-LEC01,Winter,2015,Estrada,Francisco,4.4,4.4,4.7,4.2,4.1,4.2,3.9,3.3,4.2,118,77
+CSCD84H3,CMSSC,Artificial Intelligence CSCD84H3-S-LEC01,Winter,2015,Estrada,Francisco,4.7,4.5,4.8,4.6,4.5,4.3,4.3,3.7,4.5,32,24
+STAC58H3,CMSSC,Statistical Inference STAC58H3-S-LEC01,Winter,2015,Evans,Michael,3.6,3.6,3.9,4.1,4,3.6,3.1,3.5,3.4,33,14
+MATA33H3,CMSSC,Calculus for Management II MATA33H3-S-LEC02,Winter,2015,Grinnell,Raymond,3.9,4.1,4.5,4.1,4.1,3.8,3.1,3.6,3.6,317,91
+MATC37H3,CMSSC,Introduction to Real Analysis MATC37H3-S-LEC01,Winter,2015,Grinnell,Raymond,4.8,4.8,4.6,4.5,4.6,4.3,4.1,3.9,4.3,15,8
+CSCB63H3,CMSSC,Design & Analysis Data Structs CSCB63H3-S-LEC01,Winter,2015,Hadzilacos,Vassos,4.2,4.1,4,4,3.9,3.7,3.6,4.1,3.3,92,37
+CSCA48H3,CMSSC,Intro to Computer Science II CSCA48H3-S-LEC01,Winter,2015,Harrington,Brian,4.2,4.3,4.5,4.1,4,3.8,4.1,3.8,3.6,200,61
+CSCA48H3,CMSSC,Intro to Computer Science II CSCA48H3-S-LEC02,Winter,2015,Harrington,Brian,4,4.2,4.3,4,4,3.4,3.8,4,3.5,179,63
+CSCD03H3,CMSSC,Social Impact of Info Technol CSCD03H3-S-LEC30,Winter,2015,Harrington,Brian,4.1,4.2,4.4,4.1,4.4,3.8,3.7,3.7,3.8,32,11
+MATD34H3,CMSSC,Complex Variables II MATD34H3-S-LEC01,Winter,2015,Jeffrey,Lisa,3.7,3.4,3.4,3.7,3.9,3.3,3.8,3.7,3,13,7
+STAB27H3,CMSSC,Statistics II STAB27H3-S-LEC01,Winter,2015,Kang,So-hee,4,4.1,4.3,4.3,4.2,3.7,3.5,3.2,3.7,107,75
+CSCC69H3,CMSSC,Operating Systems CSCC69H3-S-LEC30,Winter,2015,Meraji,Sina,3.4,3.2,2.6,2.7,2.6,2.6,2.7,3.8,2.1,60,13
+CSCC63H3,CMSSC,Computability & Complexity CSCC63H3-S-LEC01,Winter,2015,Molloy,Michael,4.1,4,4,3.9,3.8,3.5,3.4,3.5,3.2,45,13
+MATA23H3,CMSSC,Linear Algebra I MATA23H3-S-LEC01,Winter,2015,Moore,Eric,3.5,3.7,3.2,3.9,4,3.2,3,3.4,3.1,317,81
+MATA23H3,CMSSC,Linear Algebra I MATA23H3-S-LEC02,Winter,2015,Moore,Eric,3.6,3.7,3.5,4.2,3.9,3.3,3.3,3.2,3.6,294,63
+MATB42H3,CMSSC,Tech of Calc Several Variab II MATB42H3-S-LEC01,Winter,2015,Moore,Eric,3.7,3.8,3.5,4,4,3.3,3.3,3.7,3.2,103,36
+CSCB20H3,CMSSC,Intro to Databases & Web Appli CSCB20H3-S-LEC01,Winter,2015,Pancer,Richard,2.3,1.9,2,1.9,1.7,1.5,1.7,3.3,1.4,83,29
+CSCD37H3,CMSSC,Analysis Numerical Algorithms CSCD37H3-S-LEC01,Winter,2015,Pancer,Richard,3.8,4,4,4.2,4.4,3.8,3.2,3.6,3.6,20,7
+CSCC43H3,CMSSC,Introduction to Databases CSCC43H3-S-LEC30,Winter,2015,Papangelis,Emmanouil,4.2,4.5,4.5,4.6,4.3,4.2,4.3,2.9,4.5,68,14
+MATD01H3,CMSSC,Fields and Groups MATD01H3-S-LEC01,Winter,2015,Rayan,Steven,4.4,4.6,4.6,4,4.3,4.3,4.1,3.5,4.3,34,18
+CSCB09H3,CMSSC,Software Tools & Systems Prog CSCB09H3-S-LEC01,Winter,2015,Rosenthal,Alan,3.3,3.4,2.7,3.7,3.6,2.6,3.1,4,2.7,147,57
+STAD68H3,CMSSC,Machine Learn & Data Mining STAD68H3-S-LEC30,Winter,2015,Roy,Daniel,4,3.8,4,4.6,4.2,4,4,3.6,4,7,5
+MATB43H3,CMSSC,Introduction to Analysis MATB43H3-S-LEC01,Winter,2015,Scherk,John,4.1,4,4.3,3.7,4,3.5,3.9,3.4,3.6,29,7
+MATD02H3,CMSSC,Plane Geomet & Their Transform MATD02H3-S-LEC01,Winter,2015,Shahbazi,Zohreh,4.3,4,4.3,3.7,3.9,4,3.9,3.4,4.1,28,8
+MATA37H3,CMSSC,Calculus II for Mathematic Sci MATA37H3-S-LEC01,Winter,2015,Smith,Kathleen,4,4,4.6,4,3.9,3.9,3.5,3.8,2.9,223,76
+MATA37H3,CMSSC,Calculus II for Mathematic Sci MATA37H3-S-LEC30,Winter,2015,Smith,Kathleen,3.8,4,4.4,4,4,3.8,3.5,3.7,3.2,92,31
+MATC32H3,CMSSC,Graph Theory and Algorithms MATC32H3-S-LEC01,Winter,2015,Smith,Kathleen,4,4.1,4.4,4,4.1,3.8,4,3.1,3.6,76,25
+CSCC24H3,CMSSC,Principles of Programming Lang CSCC24H3-S-LEC01,Winter,2015,Tafliovich,Anya,3.8,3.9,3.8,3.8,3.7,3.4,3.2,3.5,3.2,66,44
+CSCD01H3,CMSSC,Engineering Large Software Sys CSCD01H3-S-LEC01,Winter,2015,Tafliovich,Anya,3.8,4,4,3.5,3.5,3.7,3.7,3.5,3.4,53,39
+STAB22H3,CMSSC,Statistics I STAB22H3-F-LEC01,Fall,2014,Aslemand,Asal,3.2,3.3,2.9,3.3,3.3,2.8,2.7,3,3.1,294,80
+CSCA20H3,CMSSC,Introduction to Programming CSCA20H3-F-LEC01,Fall,2014,Bretscher,Anna,3.8,3.7,3.7,4,4,3.1,3.2,3.8,2.9,103,29
+CSCA20H3,CMSSC,Introduction to Programming CSCA20H3-F-LEC02,Fall,2014,Bretscher,Anna,3.8,3.7,3.7,3.7,3.8,3.1,3.3,3.9,2.9,106,27
+CSCA67H3,CMSSC,Discrete Math Comp Scientists CSCA67H3-F-LEC01,Fall,2014,Bretscher,Anna,3.2,2.8,3.2,2.9,2.9,2.3,2.7,3,2.4,271,113
+CSCC11H3,CMSSC,Intro to Machine Learning CSCC11H3-F-LEC01,Fall,2014,Brubaker,Marcus,4.2,4.1,4.3,3.8,4,3.7,3.9,3.8,3.8,32,18
+MATA32H3,CMSSC,Calculus for Management I MATA32H3-F-LEC03,Fall,2014,Buchweitz,Ragnar-Olaf,3.4,3.4,3.4,3.6,3.4,3,2.4,3.5,3.5,64,21
+STAB22H3,CMSSC,Statistics I STAB22H3-F-LEC02,Fall,2014,Butler,Kenneth,2.9,3.1,3.2,3.4,3.2,2.7,2.6,2.9,3.1,265,82
+STAC32H3,CMSSC,Appli of Statistical Methods STAC32H3-F-LEC01,Fall,2014,Butler,Kenneth,3.7,3.9,3.8,4,3.9,3.4,3.6,3.7,3.6,76,36
+STAB22H3,CMSSC,Statistics I STAB22H3-F-LEC03,Fall,2014,Chopra,Srishta,3.1,3.2,3.4,3.3,3.4,2.8,2.5,3,3,213,57
+MATA30H3,CMSSC,Calculus I for Bio and Phy Sci MATA30H3-F-LEC01,Fall,2014,Chrysostomou,Sophie,3.4,3.6,3.4,3.7,3.8,3.2,2.6,3.5,3.2,267,92
+MATA30H3,CMSSC,Calculus I for Bio and Phy Sci MATA30H3-F-LEC30,Fall,2014,Chrysostomou,Sophie,3.7,3.7,3.7,4,3.8,3.3,2.9,3.2,3.5,113,54
+ACTB40H3,CMSSC,Fundamentals Investment & Cred ACTB40H3-F-LEC01,Fall,2014,Damouras,Sotirios,3.8,4.2,4,4.2,4.2,3.5,3.7,3.1,3.7,83,47
+STAD57H3,CMSSC,Time Series Analysis STAD57H3-F-LEC01,Fall,2014,Damouras,Sotirios,3.8,3.9,4.1,3.9,3.3,3,4.3,3.2,3.2,9,9
+CSCC85H3,CMSSC,Intro to Embedded Systems CSCC85H3-F-LEC01,Fall,2014,Estrada,Francisco,4.2,3.9,4.4,4,3.8,3.8,3.7,4.7,3.1,41,31
+CSCD18H3,CMSSC,Computer Graphics CSCD18H3-F-LEC01,Fall,2014,Estrada,Francisco,4.4,4.6,4.6,4.4,4.3,4.1,4,4.9,4,9,9
+STAC62H3,CMSSC,Stochastic Processes STAC62H3-F-LEC01,Fall,2014,Feng,Zi,3.7,3.2,3.5,3.5,3.7,2.8,3.2,3.9,2.5,35,18
+MATC34H3,CMSSC,Complex Variables MATC34H3-F-LEC01,Fall,2014,Goldstein,Michael,3.7,3.4,3.2,3.7,3.5,3.1,3.1,3.1,3,40,21
+MATA32H3,CMSSC,Calculus for Management I MATA32H3-F-LEC01,Fall,2014,Grinnell,Raymond,3.9,4,4.3,3.9,3.9,3.6,3.1,3.6,3.5,269,111
+MATA32H3,CMSSC,Calculus for Management I MATA32H3-F-LEC02,Fall,2014,Grinnell,Raymond,4,4.1,4.5,4,3.9,3.7,3.4,3.6,3.6,243,97
+MATC09H3,CMSSC,Intro to Mathematical Logic MATC09H3-F-LEC01,Fall,2014,Grinnell,Raymond,4.6,4.5,4.9,4.4,4.8,4.4,3.9,3.5,4.1,25,17
+MATC90H3,CMSSC,Beginnings of Mathematics MATC90H3-F-LEC30,Fall,2014,Grinnell,Raymond,4.5,4.4,4.7,4.4,4.5,4.3,4.4,3.3,4.3,43,21
+CSCB36H3,CMSSC,Intro to Theory of Computation CSCB36H3-F-LEC01,Fall,2014,Hadzilacos,Vassos,4.2,4,4,4.1,4.1,3.7,3.8,3.8,3.5,101,38
+CSCC73H3,CMSSC,Algorithm Design and Analysis CSCC73H3-F-LEC01,Fall,2014,Hadzilacos,Vassos,3.9,4,3.9,3.6,3.7,3.6,3.3,3.6,3.1,57,32
+CSCA08H3,CMSSC,Intro to Computer Science I CSCA08H3-F-LEC01,Fall,2014,Harrington,Brian,4,4.2,4.6,4.3,4.4,4.1,4,3.7,3.8,196,108
+CSCA08H3,CMSSC,Intro to Computer Science I CSCA08H3-F-LEC02,Fall,2014,Harrington,Brian,3.9,4.1,4.5,4.1,4.2,3.9,3.9,3.7,3.8,172,106
+CSCA08H3,CMSSC,Intro to Computer Science I CSCA08H3-F-LEC03,Fall,2014,Harrington,Brian,4.2,4.3,4.5,4.3,4.3,3.8,3.9,4,4,115,36
+CSCD58H3,CMSSC,Computer Networks CSCD58H3-F-LEC01,Fall,2014,Harrington,Brian,3.3,3.3,3.3,2.4,3,2.7,2.7,3.1,2.7,18,8
+CSCD03H3,CMSSC,Social Impact of Info Technol CSCD03H3-F-LEC30,Fall,2014,Hirst,Graeme,4,3.8,3.8,3.8,3.8,4,4.2,3,3.8,23,6
+MATC63H3,CMSSC,Differential Geometry MATC63H3-F-LEC01,Fall,2014,Jeffrey,Lisa,4.2,4.1,4,4.1,4.2,3.9,4,3.3,3.6,18,10
+STAC50H3,CMSSC,Data Collection STAC50H3-F-LEC01,Fall,2014,Kang,So-hee,3.7,3.9,4.1,4,4.1,3.5,3.6,3.3,3.6,72,64
+STAD37H3,CMSSC,Multivariate Analysis STAD37H3-F-LEC01,Fall,2014,Kang,So-hee,4.1,4.2,4.6,4.3,4.5,3.9,3.7,3.3,3.9,27,22
+MATB24H3,CMSSC,Linear Algebra II MATB24H3-F-LEC01,Fall,2014,Moore,Eric,3.6,3.7,3,3.8,3.7,2.7,2.9,3.7,2.8,150,37
+MATB41H3,CMSSC,Tech of Calc Several Variab I MATB41H3-F-LEC01,Fall,2014,Moore,Eric,3.3,3.4,2.9,3.6,3.7,2.8,2.8,3.9,2.7,225,82
+CSCA67H3,CMSSC,Discrete Math Comp Scientists CSCA67H3-F-LEC02,Fall,2014,Pancer,Richard,3.1,2.6,2.7,2.8,2.8,2.2,2.5,3.1,2.2,213,80
+CSCC37H3,CMSSC,Intro to Numerical Algorithms CSCC37H3-F-LEC01,Fall,2014,Pancer,Richard,2.9,3.2,2.8,3.4,3.2,2.7,2.5,3,2.6,122,35
+CSCC09H3,CMSSC,Programming on the Web CSCC09H3-F-LEC01,Fall,2014,Rosselet,Alan,3.7,4.1,4.1,4,4.1,3.6,3.6,4.2,3.6,36,13
+CSCD27H3,CMSSC,Computer and Network Security CSCD27H3-F-LEC01,Fall,2014,Rosselet,Alan,4.7,4.5,4.8,4.7,4.7,4.4,4.5,3.6,4.7,52,19
+MATC16H3,CMSSC,Coding Theory and Cryptography MATC16H3-F-LEC01,Fall,2014,Scherk,John,4,4.1,4.4,4.3,4.2,4.1,4.2,2.9,4.4,19,12
+MATA31H3,CMSSC,Calculus I for Math Sciences MATA31H3-F-LEC01,Fall,2014,Shahbazi,Zohreh,3.7,3.9,3.8,4.1,4,3.4,3.1,3.6,3.5,262,106
+MATA30H3,CMSSC,Calculus I for Bio and Phy Sci MATA30H3-F-LEC31,Fall,2014,Smith,Kathleen,4.1,4.3,4.8,3.9,4,4.1,3.2,3,4,105,49
+MATC01H3,CMSSC,Groups and Symmetry MATC01H3-F-LEC01,Fall,2014,Smith,Kathleen,4.2,4.3,4.7,4,4.1,4.2,3.6,3.5,3.8,41,20
+CSCB07H3,CMSSC,Software Design CSCB07H3-F-LEC01,Fall,2014,Tafliovich,Anya,4.3,4.3,4.2,4.1,3.9,4,4,4.1,4,81,50
+CSCB07H3,CMSSC,Software Design CSCB07H3-F-LEC02,Fall,2014,Tafliovich,Anya,4.2,4.2,4.1,4,4,4,3.8,3.8,3.6,97,49
+CSCC01H3,CMSSC,Intro to Software Engineering CSCC01H3-F-LEC01,Fall,2014,Tafliovich,Anya,3.4,3.5,3.3,3.1,3.5,3.1,3.2,4.4,2.8,77,61
+STAB52H3,CMSSC,An Introduction to Probability STAB52H3-F-LEC01,Fall,2014,Tomal,Jabed,3,3,2.8,3,3.1,2.6,2.7,3.2,2.5,176,54
+STAC67H3,CMSSC,Regression Analysis STAC67H3-F-LEC01,Fall,2014,Tomal,Jabed,3.8,3.9,3.5,3.9,3.9,3.3,3.6,3.5,3.4,77,35

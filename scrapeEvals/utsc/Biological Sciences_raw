@@ -1,0 +1,391 @@
+BIOB10H3,BIOSC,Cell Biology BIOB10H3-F-LEC01,Summer,2019,Ashok,Aarthi,4,4.3,4.3,3.2,3.4,3.6,3.7,3.8,3.5,241,53
+BIOB34H3,BIOSC,Animal Physiology BIOB34H3-Y-LEC30,Summer,2019,Brown,Jason,4.5,4.4,4.7,3.6,3.8,4.1,4.2,3.6,3.9,96,18
+BIOC13H3,BIOSC,Biochem II: Bioenerg&Metabolis BIOC13H3-Y-LEC30,Summer,2019,Brown,Jason,4.6,4.7,4.7,3.8,3.9,4.2,4.4,3.5,4.2,53,15
+BIOC12H3,BIOSC,Biochem I: Proteins & Enzymes BIOC12H3-Y-LEC01,Summer,2019,Brunt,Shelley,3.6,3.7,3,3.4,3.5,3.1,3.3,2.8,3.3,96,27
+BIOC17H3,BIOSC,Microbiology BIOC17H3-Y-LEC01,Summer,2019,Brunt,Shelley,3.6,4.1,3.7,4.1,4.2,3.4,3.9,3.7,3.5,86,17
+BIOC23H3,BIOSC,Practical Approach to Biochem BIOC23H3-Y-LEC01,Summer,2019,Brunt,Shelley,4.4,4.4,3.8,4,4,3.8,3.8,4.4,3.8,31,5
+BIOB52H3,BIOSC,Ecology & Evolutionary Bio Lab BIOB52H3-Y-LEC01,Summer,2019,Keir,Karolyn,4.2,4.3,4.2,3.8,3.5,3.8,4.7,4.5,3.5,11,6
+BIOB33H3,BIOSC,Human Development and Anatomy BIOB33H3-Y-LEC01,Summer,2019,Soros-Pottroff,Connie,3.7,4.2,3.6,3.5,3.6,3.6,3.7,4.4,3.4,66,14
+BIOA02H3,BIOSC,Life on Earth Form Func Int BIOA02H3-Y-LEC01,Summer,2019,Soros-Pottroff,Connie,4.1,4.2,4.6,4,4.2,3.9,4.1,3,4,51,9
+BIOD33H3,BIOSC,Comparative Animal Physiology BIOD33H3-Y-LEC01,Summer,2019,Reid,Stephen,4.6,4.4,4.8,4.4,4.3,3.9,4.3,3.7,4.1,43,9
+BIOB51H3,BIOSC,Evolutionary Biology BIOB51H3-Y-LEC01,Summer,2019,Williams,Karen,2.6,2.7,1.9,2.1,2.6,2,2.2,3.6,1.9,73,21
+BIOC15H3,BIOSC,Genetics BIOC15H3-Y-LEC01,Summer,2019,Williams,Karen,3.8,3.6,2.6,3.4,3.3,2.8,3.7,4.3,3,36,12
+BIOA01H3,BIOSC,Life on Earth:Unify Principles BIOA01H3-Y-LEC01,Summer,2019,Williams,Karen,3.5,3.2,2.2,3.2,3.5,2.5,2.9,3.8,2.5,50,13
+BIOB50H3,BIOSC,Ecology BIOB50H3-Y-LEC01,Summer,2019,Zigouris,Joanna,3.1,3.4,3.7,3.6,3.6,3,3.1,3.4,3.1,112,24
+BIOA02H3,BIOSC,Life on Earth Form Func Int BIOA02H3-S-LEC01,Winter,2019,Reid,Stephen,4.1,4.3,3.8,4,4.1,3.6,4,3.6,4.1,269,46
+BIOA02H3,BIOSC,Life on Earth Form Func Int BIOA02H3-S-LEC01,Winter,2019,Stehlik,Ivana,4.1,4.3,4.5,4,4.1,3.6,4,3.6,4.1,269,46
+BIOA02H3,BIOSC,Life on Earth Form Func Int BIOA02H3-S-LEC01,Winter,2019,Sturge,Rachel,4.1,4.3,3.7,4,4.1,3.6,4,3.6,4.1,269,46
+BIOA02H3,BIOSC,Life on Earth Form Func Int BIOA02H3-S-LEC02,Winter,2019,Reid,Stephen,3.9,4.1,3.7,3.7,3.7,3.5,3.8,3.7,3.6,444,79
+BIOA02H3,BIOSC,Life on Earth Form Func Int BIOA02H3-S-LEC02,Winter,2019,Stehlik,Ivana,3.9,4.1,4.2,3.7,3.7,3.5,3.8,3.7,3.6,444,79
+BIOA02H3,BIOSC,Life on Earth Form Func Int BIOA02H3-S-LEC02,Winter,2019,Sturge,Rachel,3.9,4.1,3.7,3.7,3.7,3.5,3.8,3.7,3.6,444,79
+BIOA02H3,BIOSC,Life on Earth Form Func Int BIOA02H3-S-LEC60,Winter,2019,Reid,Stephen,3.8,4.1,4,3.7,3.7,3.6,3.5,3.4,3.7,119,22
+BIOA02H3,BIOSC,Life on Earth Form Func Int BIOA02H3-S-LEC60,Winter,2019,Stehlik,Ivana,3.8,4.1,4.3,3.7,3.7,3.6,3.5,3.4,3.7,119,22
+BIOA02H3,BIOSC,Life on Earth Form Func Int BIOA02H3-S-LEC60,Winter,2019,Sturge,Rachel,3.8,4.1,3.8,3.7,3.7,3.6,3.5,3.4,3.7,119,22
+BIOB11H3,BIOSC,Molec Cellular & Genetic Proc BIOB11H3-S-LEC01,Winter,2019,Riggs,Charles,3.5,3.7,3.2,3.4,3.2,2.9,3.1,3.6,2.9,391,94
+BIOB12H3,BIOSC,Cell and Molecular Biology Lab BIOB12H3-S-LEC01,Winter,2019,Mott,Glenn,4.2,4.3,4.4,4,4.1,4,4,3.7,3.9,117,32
+BIOB32H3,BIOSC,Animal Physiology Laboratory BIOB32H3-S-LEC01,Winter,2019,Brown,Jason,4.5,4.6,4.6,4.1,4,4.1,3.9,3.5,4,189,49
+BIOB35H3,BIOSC,Essentials of Human Physiology BIOB35H3-S-LEC01,Winter,2019,Brown,Jason,4.5,4.4,4.2,3,3,3.4,3.9,3.6,3.2,86,26
+BIOB38H3,BIOSC,Plants and Society BIOB38H3-S-LEC01,Winter,2019,Stehlik,Ivana,4.2,4.4,4.6,4.3,4.2,4.1,4.1,3.2,4,177,57
+BIOB51H3,BIOSC,Evolutionary Biology BIOB51H3-S-LEC01,Winter,2019,Andrade,Maydianne,4.1,4.3,4.6,4.2,4.1,3.9,3.9,3.3,4,424,123
+BIOC10H3,BIOSC,Proteins from Life to Death BIOC10H3-S-LEC01,Winter,2019,Ashok,Aarthi,4.5,4.7,4.9,4.2,4.5,4.2,4.4,4.3,4.4,34,13
+BIOC13H3,BIOSC,Biochem II: Bioenerg&Metabolis BIOC13H3-S-LEC01,Winter,2019,Gonzales-Vigil,Eliana,3.9,4.1,4.1,3.7,3.7,3.5,3.8,3.6,3.8,160,67
+BIOC14H3,BIOSC,Genes  Environment & Behaviour BIOC14H3-S-LEC01,Winter,2019,McGowan,Patrick,3.4,3.5,3.4,3.3,3.3,3.1,3.1,3.2,3.2,281,54
+BIOC16H3,BIOSC,Evolution Genetic & Genomics BIOC16H3-S-LEC01,Winter,2019,Williams,Karen,3.6,3.8,3.2,3,3.2,2.8,2.4,3.6,2.6,20,5
+BIOC17H3,BIOSC,Microbiology BIOC17H3-S-LEC01,Winter,2019,Terebiznik,Mauricio,3.2,3.6,3.1,3.6,3.5,3,3.2,3.8,3,142,29
+BIOC23H3,BIOSC,Practical Approach to Biochem BIOC23H3-S-LEC01,Winter,2019,Brunt,Shelley,3.4,3.9,3.3,3.8,4,3.2,3.4,4.2,3.3,88,19
+BIOC34H3,BIOSC,Human Physiology II: Lecture BIOC34H3-S-LEC01,Winter,2019,Reid,Stephen,4.3,4.3,4,3.9,3.8,3.8,3.9,4.1,3.6,249,55
+BIOC34H3,BIOSC,Human Physiology II: Lecture BIOC34H3-S-LEC60,Winter,2019,Reid,Stephen,4.2,4.6,4,3.9,4,3.6,3.8,4,3.9,83,16
+BIOC39H3,BIOSC,Immunology BIOC39H3-S-LEC01,Winter,2019,Soares,Fraser,3.9,4.2,3.9,3.3,3.4,3.3,3.7,3.9,3.2,226,59
+BIOC40H3,BIOSC,Plant Physiology BIOC40H3-S-LEC01,Winter,2019,Vanlerberghe,Greg,3.2,3.2,3.5,2.8,2.8,3,3,3.7,2.7,51,7
+BIOC54H3,BIOSC,Animal Behaviour BIOC54H3-S-LEC01,Winter,2019,Persaud,Kamini,4.2,4.2,4.2,3.7,3.7,3.8,3.9,3,4.1,104,37
+BIOC60H3,BIOSC,Winter Ecology BIOC60H3-S-LEC01,Winter,2019,Stehlik,Ivana,4.1,4.2,4.2,4,3.8,3.7,3.4,3.6,3.6,39,13
+BIOC62H3,BIOSC,Role of Zoo and Aqua in Conser BIOC62H3-S-LEC01,Winter,2019,Sturge,Rachel,4.6,4.7,4.8,4.6,4.5,4.5,4.7,3.1,4.5,54,22
+BIOD12H3,BIOSC,Protein Homeostasis BIOD12H3-S-LEC01,Winter,2019,Zhao,Rongmin,3.5,3.5,3.4,3.6,3.3,3,3.3,3.3,3,16,8
+BIOD17H3,BIOSC,Seminars Cellular Microbiology BIOD17H3-S-LEC01,Winter,2019,Terebiznik,Mauricio,4,3.5,2.9,3.3,3.3,2.6,3.3,4.3,2.7,31,12
+BIOD19H3,BIOSC,Epigenetics in Hlth & Disease BIOD19H3-S-LEC01,Winter,2019,McGowan,Patrick,4.6,4.7,4.8,4.7,4.8,4.6,4.4,3,4.8,40,12
+BIOD25H3,BIOSC,Genomics BIOD25H3-S-LEC01,Winter,2019,Riggs,Charles,3.9,4,4.1,4.1,4.4,3.6,3.7,3.9,3.4,16,7
+BIOD29H3,BIOSC,Pathobiology of Human Disease BIOD29H3-S-LEC01,Winter,2019,Ashok,Aarthi,4.8,4.7,4.3,4.2,4.3,4.1,4.5,4.7,3.6,33,18
+BIOD43H3,BIOSC,Animal Movement and Exercise BIOD43H3-S-LEC01,Winter,2019,Welch Jr.,Kenneth,3,3.1,3,3,3.2,2.6,2.9,3.8,2.4,49,9
+BIOD53H3,BIOSC,Topics in Behavioural Ecology BIOD53H3-S-LEC01,Winter,2019,Scott,Catherine,4.6,4.6,4.8,4.7,4.6,4.4,4.4,3.2,4.8,21,20
+BIOD54H3,BIOSC,Applied Conservation Biology BIOD54H3-S-LEC01,Winter,2019,MacIvor,James,3.7,4.1,4.1,3.9,3.6,3.7,4,2.9,4,17,7
+BIOA01H3,BIOSC,Life on Earth:Unify Principles BIOA01H3-F-LEC01,Fall,2018,Ashok,Aarthi,4.2,4.2,4.4,3.9,3.9,3.6,3.8,3.6,3.9,336,93
+BIOA01H3,BIOSC,Life on Earth:Unify Principles BIOA01H3-F-LEC01,Fall,2018,Brunt,Shelley,4.2,4.2,3.7,3.9,3.9,3.6,3.8,3.6,3.9,336,93
+BIOA01H3,BIOSC,Life on Earth:Unify Principles BIOA01H3-F-LEC01,Fall,2018,Fitzpatrick,Mark,4.2,4.2,3.8,3.9,3.9,3.6,3.8,3.6,3.9,336,93
+BIOA01H3,BIOSC,Life on Earth:Unify Principles BIOA01H3-F-LEC02,Fall,2018,Ashok,Aarthi,4,4.1,4.3,3.7,3.7,3.5,3.6,3.6,3.8,465,118
+BIOA01H3,BIOSC,Life on Earth:Unify Principles BIOA01H3-F-LEC02,Fall,2018,Brunt,Shelley,4,4.1,3.5,3.7,3.7,3.5,3.6,3.6,3.8,465,118
+BIOA01H3,BIOSC,Life on Earth:Unify Principles BIOA01H3-F-LEC02,Fall,2018,Fitzpatrick,Mark,4,4.1,3.7,3.7,3.7,3.5,3.6,3.6,3.8,465,118
+BIOA01H3,BIOSC,Life on Earth:Unify Principles BIOA01H3-F-LEC60,Fall,2018,Ashok,Aarthi,3.7,3.7,4.1,3.6,3.5,3.2,3.2,4,3.1,82,22
+BIOA01H3,BIOSC,Life on Earth:Unify Principles BIOA01H3-F-LEC60,Fall,2018,Brunt,Shelley,3.7,3.7,3.9,3.6,3.5,3.2,3.2,4,3.1,82,22
+BIOA01H3,BIOSC,Life on Earth:Unify Principles BIOA01H3-F-LEC60,Fall,2018,Fitzpatrick,Mark,3.7,3.7,3.8,3.6,3.5,3.2,3.2,4,3.1,82,22
+BIOA11H3,BIOSC,Intro to the Biology of Humans BIOA11H3-F-LEC01,Fall,2018,Ashok,Aarthi,3.9,4.1,4.2,3.6,3.7,3.8,3.6,3,3.9,159,44
+BIOB10H3,BIOSC,Cell Biology BIOB10H3-F-LEC01,Fall,2018,Ashok,Aarthi,3.5,3.7,3.5,3.1,3.1,3,3.1,3.6,2.9,450,127
+BIOB33H3,BIOSC,Human Development and Anatomy BIOB33H3-F-LEC01,Fall,2018,Soros-Pottroff,Connie,4,4.2,4,3.8,3.8,3.7,4,4,3.5,185,50
+BIOB34H3,BIOSC,Animal Physiology BIOB34H3-F-LEC01,Fall,2018,Brown,Jason,4.4,4.2,4.3,3,2.9,3.3,3.8,3.3,3.3,397,134
+BIOB50H3,BIOSC,Ecology BIOB50H3-F-LEC01,Fall,2018,Sturge,Rachel,3.2,3.7,3.5,3.6,3.7,3.2,3.2,3,3.4,449,120
+BIOB52H3,BIOSC,Ecology & Evolutionary Bio Lab BIOB52H3-F-LEC01,Fall,2018,Lovejoy,Nathan,4,3.8,3.9,3.8,3.5,3.4,3.3,4.5,3,32,12
+BIOC12H3,BIOSC,Biochem I: Proteins & Enzymes BIOC12H3-F-LEC01,Fall,2018,Zhao,Rongmin,3.4,3.3,2.9,3,3.2,2.6,2.9,3.7,2.7,129,33
+BIOC15H3,BIOSC,Genetics BIOC15H3-F-LEC01,Fall,2018,Williams,Karen,3,2.8,2,2.7,2.9,1.8,2.6,4.3,1.9,81,36
+BIOC20H3,BIOSC,Principles of Virology BIOC20H3-F-LEC01,Fall,2018,Guzzo,Christina,4.3,4.5,4.5,4,4.1,4,4.1,3.4,4.2,207,102
+BIOC32H3,BIOSC,Human Physiology I BIOC32H3-F-LEC01,Fall,2018,Brown,Jason,4.3,4.4,4.6,3.6,3.4,3.8,4,3.5,3.7,395,114
+BIOC37H3,BIOSC,Plants: Life on the Edge BIOC37H3-F-LEC01,Fall,2018,Stehlik,Ivana,4,4,3.9,3.6,3.4,3.7,3.7,3.1,3.6,21,7
+BIOC50H3,BIOSC,Macroevolution BIOC50H3-F-LEC01,Fall,2018,Weir,Jason,4.2,4.4,4.1,3.5,3.7,3.8,4.1,2.6,4.2,39,11
+BIOC52H3,BIOSC,Ecology Field Course BIOC52H3-F-LEC01,Fall,2018,Stehlik,Ivana,4.5,4.5,4.6,4.6,4.6,4.3,4.4,4.1,4.6,15,12
+BIOC58H3,BIOSC,Bio Consequences Global Change BIOC58H3-F-LEC01,Fall,2018,Sturge,Rachel,4.4,4.4,4.3,4.4,4.5,4.2,4.5,3.5,4.2,119,33
+BIOC59H3,BIOSC,Advanced Population Ecology BIOC59H3-F-LEC01,Fall,2018,Boonstra,Rudy,4.2,4.3,4.2,4,4,3.7,4,4.7,3.4,20,9
+BIOC61H3,BIOSC,Community Ecol & Environ Biol BIOC61H3-F-LEC01,Fall,2018,Sturge,Rachel,3.9,4.1,4.1,4.1,4,3.7,3.8,3.3,3.7,52,21
+BIOC63H3,BIOSC,Conservation Biology BIOC63H3-F-LEC01,Fall,2018,Sturge,Rachel,4.2,4.4,4.6,4.3,4.5,4.2,4.1,3.6,4.4,48,21
+BIOD23H3,BIOSC,Special Topics in Cell Biology BIOD23H3-F-LEC01,Fall,2018,Harrison,Rene,4.6,4.8,5,4.5,4.9,4.7,4.5,2.9,4.9,23,11
+BIOD26H3,BIOSC,Fungal Biology & Pathogenesis BIOD26H3-F-LEC01,Fall,2018,Brunt,Shelley,4.1,4.2,3.9,4.1,4.2,3.7,3.6,3.8,4,49,18
+BIOD27H3,BIOSC,Molecular Endocrinology BIOD27H3-F-LEC01,Fall,2018,Brown,Jason,4.6,4.7,4.9,4,4.2,4.4,4.3,4.1,4.1,37,15
+BIOD33H3,BIOSC,Comparative Animal Physiology BIOD33H3-F-LEC01,Fall,2018,Reid,Stephen,3.7,3.8,3.8,3.3,3.8,3.2,3.3,3.6,3.3,48,12
+BIOD59H3,BIOSC,Models in Ecology and Conserva BIOD59H3-F-LEC01,Fall,2018,Molnar,Peter,4.3,4.4,4.1,4.6,4.4,3.6,3.3,3.4,4,17,7
+BIOD65H3,BIOSC,Pathologies of Nervous System BIOD65H3-F-LEC01,Fall,2018,Chow,Ari,4.7,4.5,4.7,4.2,4.4,4.2,4.2,3.3,4.5,40,13
+BIOD66H3,BIOSC,Cause&Consequence Biodiversity BIOD66H3-F-LEC01,Fall,2018,Cadotte,Marc,4.4,4.9,4.9,4.1,4.4,4.4,4.3,2.7,4.9,10,7
+NROC34H3,BIOSC,Neuroethology NROC34H3-F-LEC01,Fall,2018,Thiele,Tod,3.6,3.5,3,3.4,3.5,2.8,3.2,3.3,2.9,75,20
+BIOB34H3,BIOSC,Animal Physiology BIOB34H3-Y-LEC30,Summer,2018,Brown,Jason,4.3,4.3,4.5,3.6,3.5,3.8,4.1,2.9,3.7,98,30
+BIOC12H3,BIOSC,Biochem I: Proteins & Enzymes BIOC12H3-Y-LEC01,Summer,2018,Brown,Jason,4.4,4.5,4.8,4.1,4.2,4.3,4.3,3.3,4.4,94,27
+BIOC13H3,BIOSC,Biochem II: Bioenerg&Metabolis BIOC13H3-Y-LEC30,Summer,2018,Brown,Jason,4.4,4.5,4.6,4.2,4.1,4.2,4.1,4,4.3,58,18
+BIOB10H3,BIOSC,Cell Biology BIOB10H3-F-LEC01,Summer,2018,Harrison,Rene,4.3,4.5,4.7,3.7,3.8,4.1,4,3,4.2,288,56
+BIOD33H3,BIOSC,Comparative Animal Physiology BIOD33H3-Y-LEC01,Summer,2018,Reid,Stephen,2.8,3.3,2.3,2.4,2.6,1.9,2.3,3.9,2.2,43,11
+BIOB50H3,BIOSC,Ecology BIOB50H3-Y-LEC01,Summer,2018,Sturge,Rachel,3.7,4.1,4.2,4,3.9,3.7,3.7,3,4,139,25
+BIOB51H3,BIOSC,Evolutionary Biology BIOB51H3-Y-LEC01,Summer,2018,Williams,Karen,2.5,2.5,2.2,2.4,2.4,1.8,2.4,3.7,2.1,64,18
+BIOC15H3,BIOSC,Genetics BIOC15H3-Y-LEC01,Summer,2018,Williams,Karen,3.1,3.6,2.6,3.1,3.1,2.6,3.1,4.4,2.7,43,11
+BIOB33H3,BIOSC,Human Development and Anatomy BIOB33H3-Y-LEC01,Summer,2018,Soros-Pottroff,Connie,3.2,3.3,3.2,3.2,3.3,2.7,2.7,4.1,2.7,77,14
+BIOA02H3,BIOSC,Life on Earth Form Func Int BIOA02H3-Y-LEC01,Summer,2018,Sturge,Rachel,4,4.3,4.4,4.1,4,3.9,3.6,3.3,4,44,10
+BIOA01H3,BIOSC,Life on Earth:Unify Principles BIOA01H3-Y-LEC01,Summer,2018,Williams,Karen,3.4,3.6,2.9,3.3,3.3,2.8,3.2,3.8,2.9,66,14
+BIOC17H3,BIOSC,Microbiology BIOC17H3-Y-LEC01,Summer,2018,Terebiznik,Mauricio,4,4,3.1,3.6,3.4,3.2,3.3,3.4,3.3,90,21
+BIOB51H3,BIOSC,Evolutionary Biology BIOB51H3-S-LEC01,Winter,2018,Andrade,Maydianne,4.2,4.3,4.6,4.2,4.1,4,3.9,3.2,4,406,100
+BIOC10H3,BIOSC,Proteins from Life to Death BIOC10H3-S-LEC01,Winter,2018,Ashok,Aarthi,4.7,4.7,4.6,4.4,4.3,4.6,4.3,4.1,4.1,32,7
+BIOD29H3,BIOSC,Pathobiology of Human Disease BIOD29H3-S-LEC01,Winter,2018,Ashok,Aarthi,4.7,4.5,4.4,4.5,4.5,3.9,4.3,4,3.7,35,12
+BIOC13H3,BIOSC,Biochem II: Bioenerg&Metabolis BIOC13H3-S-LEC01,Winter,2018,Brown,Jason,4.6,4.7,4.7,4.2,4.1,4.4,4.4,3.4,4,161,55
+BIOD27H3,BIOSC,Molecular Endocrinology BIOD27H3-S-LEC01,Winter,2018,Brown,Jason,4.7,4.8,5,4.6,4.3,4.9,4.3,3.7,4.8,30,9
+BIOC16H3,BIOSC,Evolution Genetic & Genomics BIOC16H3-S-LEC01,Winter,2018,Fitzpatrick,Mark,4.6,4.8,4.6,4.4,4.2,4.6,3.6,3.2,4.4,18,5
+BIOD23H3,BIOSC,Special Topics in Cell Biology BIOD23H3-S-LEC01,Winter,2018,Guzzo,Christina,4.7,4.8,5,4.7,4.7,4.9,4.9,3.3,4.8,38,15
+BIOD54H3,BIOSC,Applied Conservation Biology BIOD54H3-S-LEC01,Winter,2018,MacIvor,James,4.8,4.2,5,4.4,5,4.6,4.8,3.2,4.6,18,5
+BIOD45H3,BIOSC,Animal Communication BIOD45H3-S-LEC01,Winter,2018,Mason,Andrew,3.8,3.8,3.4,3.7,3.8,3.3,3.4,3.1,3.2,25,9
+BIOC14H3,BIOSC,Genes Environment & Behaviour BIOC14H3-S-LEC01,Winter,2018,McGowan,Patrick,3.4,3.4,3.4,3.2,3.4,3,3.5,3.4,3.3,240,48
+BIOD19H3,BIOSC,Epigenetics in Hlth & Disease BIOD19H3-S-LEC01,Winter,2018,McGowan,Patrick,4.4,4.6,4.5,4.8,4.8,4.5,4.3,2.8,4.8,38,14
+BIOC54H3,BIOSC,Animal Behaviour BIOC54H3-S-LEC01,Winter,2018,Persaud,Kamini,3.4,3.5,3.4,2.7,3,2.8,3.3,3.1,2.8,79,16
+BIOA02H3,BIOSC,Life on Earth Form Func Int BIOA02H3-S-LEC01,Winter,2018,Reid,Stephen,3.9,4.1,3.5,3.8,3.8,3.7,3.8,3.5,3.9,289,72
+BIOA02H3,BIOSC,Life on Earth Form Func Int BIOA02H3-S-LEC02,Winter,2018,Reid,Stephen,3.9,4,3.5,3.8,3.7,3.5,3.8,3.6,3.7,470,110
+BIOA02H3,BIOSC,Life on Earth Form Func Int BIOA02H3-S-LEC60,Winter,2018,Reid,Stephen,4.2,4.1,4.1,3.7,3.7,3.4,3.5,3.8,3.5,112,24
+BIOC34H3,BIOSC,Human Physiology II: Lecture BIOC34H3-S-LEC01,Winter,2018,Reid,Stephen,4.2,4.3,3.9,3.9,3.8,3.5,4.1,4.1,3.4,250,62
+BIOC34H3,BIOSC,Human Physiology II: Lecture BIOC34H3-S-LEC60,Winter,2018,Reid,Stephen,4.1,4.2,3.8,3.9,3.7,3.5,3.7,4.1,3.4,128,37
+BIOD08H3,BIOSC,Theoretical Neuroscience BIOD08H3-S-LEC01,Winter,2018,Richards,Blake,4.8,4.8,4.8,3.8,3.8,4.2,4.5,3.2,4.5,13,6
+BIOB11H3,BIOSC,Molec Cellular & Genetic Proc BIOB11H3-S-LEC01,Winter,2018,Riggs,Charles,3.8,4,3.9,3.7,3.7,3.5,3.4,3.6,3.3,372,77
+BIOA02H3,BIOSC,Life on Earth Form Func Int BIOA02H3-S-LEC01,Winter,2018,Stehlik,Ivana,3.9,4.1,4.4,3.8,3.8,3.7,3.8,3.5,3.9,289,72
+BIOA02H3,BIOSC,Life on Earth Form Func Int BIOA02H3-S-LEC02,Winter,2018,Stehlik,Ivana,3.9,4,4.3,3.8,3.7,3.5,3.8,3.6,3.7,470,110
+BIOA02H3,BIOSC,Life on Earth Form Func Int BIOA02H3-S-LEC60,Winter,2018,Stehlik,Ivana,4.2,4.1,4,3.7,3.7,3.4,3.5,3.8,3.5,112,24
+BIOB38H3,BIOSC,Plants and Society BIOB38H3-S-LEC01,Winter,2018,Stehlik,Ivana,4.5,4.5,4.6,4.1,4,4.3,4.5,3,4.4,129,23
+BIOB38H3,BIOSC,Plants and Society BIOB38H3-S-LEC60,Winter,2018,Stehlik,Ivana,3.9,4.3,4.4,4.1,4.2,3.9,3.8,3.3,4,55,18
+BIOC60H3,BIOSC,Winter Ecology BIOC60H3-S-LEC01,Winter,2018,Stehlik,Ivana,4.4,4.6,4.5,4,4.1,4.3,4.4,3.3,4.3,44,21
+BIOD30H3,BIOSC,Addressing Global Problems BIOD30H3-S-LEC30,Winter,2018,Stronghill,Patti,4.6,4.4,4.6,5,4.8,4.4,4.4,3.6,4.6,12,5
+BIOA02H3,BIOSC,Life on Earth Form Func Int BIOA02H3-S-LEC01,Winter,2018,Sturge,Rachel,3.9,4.1,4.1,3.8,3.8,3.7,3.8,3.5,3.9,289,72
+BIOA02H3,BIOSC,Life on Earth Form Func Int BIOA02H3-S-LEC02,Winter,2018,Sturge,Rachel,3.9,4,3.8,3.8,3.7,3.5,3.8,3.6,3.7,470,110
+BIOA02H3,BIOSC,Life on Earth Form Func Int BIOA02H3-S-LEC60,Winter,2018,Sturge,Rachel,4.2,4.1,4.2,3.7,3.7,3.4,3.5,3.8,3.5,112,24
+BIOC62H3,BIOSC,Role of Zoos in Conservation BIOC62H3-S-LEC01,Winter,2018,Sturge,Rachel,4.4,4.6,4.6,4.5,4.6,4.5,4.7,3.1,4.6,52,18
+BIOC17H3,BIOSC,Microbiology BIOC17H3-S-LEC01,Winter,2018,Terebiznik,Mauricio,3.8,3.9,3.3,3.8,3.7,3.4,3.8,3.5,3.7,169,37
+BIOD17H3,BIOSC,Seminars Cellular Microbiology BIOD17H3-S-LEC01,Winter,2018,Terebiznik,Mauricio,4.4,4.7,3.8,4.1,4.2,3.9,4.1,4.1,3.6,33,9
+BIOD65H3,BIOSC,Pathologies of Nervous System BIOD65H3-S-LEC01,Winter,2018,Thiele,Tod,4,4.3,4.1,3.6,3.5,3.5,3.3,3.2,3.8,36,19
+BIOC39H3,BIOSC,Immunology BIOC39H3-S-LEC01,Winter,2018,Treanor,Bebhinn,4.2,4.2,3.9,3.7,3.8,3.6,4,4,3.4,245,66
+BIOC40H3,BIOSC,Plant Physiology BIOC40H3-S-LEC01,Winter,2018,Vanlerberghe,Greg,3.2,3.8,3.4,3.4,3.1,2.8,2.8,3.1,2.6,53,11
+BIOC23H3,BIOSC,Practical Approach to Biochem BIOC23H3-S-LEC01,Winter,2018,Zhao,Rongmin,3.5,3.8,3.4,3.7,3.8,3.3,3.1,4.1,2.8,91,21
+BIOA01H3,BIOSC,Life on Earth:Unify Principles BIOA01H3-F-LEC01,Fall,2017,Ashok,Aarthi,3.8,4,4.1,3.7,3.6,3.3,3.5,3.6,3.6,329,125
+BIOA01H3,BIOSC,Life on Earth:Unify Principles BIOA01H3-F-LEC01,Fall,2017,Brunt,Shelley,3.8,4,3.4,3.7,3.6,3.3,3.5,3.6,3.6,329,125
+BIOA01H3,BIOSC,Life on Earth:Unify Principles BIOA01H3-F-LEC01,Fall,2017,Fitzpatrick,Mark,3.8,4,3.7,3.7,3.6,3.3,3.5,3.6,3.6,329,125
+BIOA01H3,BIOSC,Life on Earth:Unify Principles BIOA01H3-F-LEC02,Fall,2017,Ashok,Aarthi,3.8,4,4,3.7,3.7,3.5,3.6,3.5,3.8,470,172
+BIOA01H3,BIOSC,Life on Earth:Unify Principles BIOA01H3-F-LEC02,Fall,2017,Fitzpatrick,Mark,3.8,4,3.9,3.7,3.7,3.5,3.6,3.5,3.8,470,172
+BIOA01H3,BIOSC,Life on Earth:Unify Principles BIOA01H3-F-LEC02,Fall,2017,Brunt,Shelley,3.8,4,3.3,3.7,3.7,3.5,3.6,3.5,3.8,470,172
+BIOA01H3,BIOSC,Life on Earth:Unify Principles BIOA01H3-F-LEC60,Fall,2017,Ashok,Aarthi,3.7,4.1,4.2,3.6,3.5,3.2,3.5,3.8,3.4,76,22
+BIOA01H3,BIOSC,Life on Earth:Unify Principles BIOA01H3-F-LEC60,Fall,2017,Brunt,Shelley,3.7,4.1,3.7,3.6,3.5,3.2,3.5,3.8,3.4,76,22
+BIOA01H3,BIOSC,Life on Earth:Unify Principles BIOA01H3-F-LEC60,Fall,2017,Fitzpatrick,Mark,3.7,4.1,4.1,3.6,3.5,3.2,3.5,3.8,3.4,76,22
+BIOA11H3,BIOSC,Intro to the Biology of Humans BIOA11H3-F-LEC01,Fall,2017,Ashok,Aarthi,4.1,4.3,4.3,4,3.9,4,4.1,3.2,4,128,45
+BIOB10H3,BIOSC,Cell Biology BIOB10H3-F-LEC01,Fall,2017,Ashok,Aarthi,3.6,3.8,3.8,3,3.2,3.2,3.1,3.6,3.2,415,101
+BIOB33H3,BIOSC,Human Development and Anatomy BIOB33H3-F-LEC01,Fall,2017,Soros-Pottroff,Connie,4.1,4.2,3.8,3.8,3.7,3.5,3.8,4,3.7,179,41
+BIOB34H3,BIOSC,Animal Physiology BIOB34H3-F-LEC01,Fall,2017,Brown,Jason,4.5,4.3,4.4,3.3,3,3.4,3.8,3.4,3.5,371,104
+BIOB50H3,BIOSC,Ecology BIOB50H3-F-LEC01,Fall,2017,Molnar,Peter,3.2,3.5,3.1,3.1,3.3,2.9,3.1,3.2,3.1,360,80
+BIOB52H3,BIOSC,Ecology & Evolutionary Bio Lab BIOB52H3-F-LEC01,Fall,2017,Zigouris,Joanna,4.6,4.7,4.9,4.6,4.3,4.5,4.8,3.3,4.4,34,16
+BIOC12H3,BIOSC,Biochem I: Proteins & Enzymes BIOC12H3-F-LEC01,Fall,2017,Zhao,Rongmin,3.4,3.3,2.7,2.5,2.7,2.5,2.9,3.5,2.4,154,56
+BIOC15H3,BIOSC,Genetics BIOC15H3-F-LEC01,Fall,2017,Hasenkampf,Clare,4,4.2,4.2,4,4,3.7,3.8,4.1,3.6,102,55
+BIOC32H3,BIOSC,Human Physiology I BIOC32H3-F-LEC01,Fall,2017,Nash,Joanne,3.1,3.2,2.3,2.4,2.6,2.3,2.8,3.1,2.6,458,111
+BIOC37H3,BIOSC,Plants: Life on the Edge BIOC37H3-F-LEC01,Fall,2017,Stehlik,Ivana,4.4,4.6,5,4,4.2,4.2,4.1,3.6,4.3,34,12
+BIOC50H3,BIOSC,Macroevolution BIOC50H3-F-LEC01,Fall,2017,Bongard,Cynthia,2.5,2.3,2.4,2.6,2.7,2.3,2.4,3.1,2.1,46,11
+BIOC52H3,BIOSC,Ecology Field Course BIOC52H3-F-LEC01,Fall,2017,Stehlik,Ivana,4.5,4.6,4.9,4.5,4.8,4.8,4.5,4.1,4.5,15,8
+BIOC58H3,BIOSC,Bio Consequences Global Change BIOC58H3-F-LEC01,Fall,2017,Sturge,Rachel,3.8,4.2,3.9,3.7,3.7,3.7,4,3.8,3.7,120,33
+BIOC59H3,BIOSC,Advanced Population Ecology BIOC59H3-F-LEC01,Fall,2017,Boonstra,Rudy,4.2,4.2,4.2,3.4,3,4,4,5,3,14,5
+BIOC61H3,BIOSC,Community Ecol & Environ Biol BIOC61H3-F-LEC01,Fall,2017,Sturge,Rachel,3.9,4.1,4,3.9,3.9,3.6,3.3,3.2,3.3,50,17
+BIOC63H3,BIOSC,Conservation Biology BIOC63H3-F-LEC01,Fall,2017,Sturge,Rachel,4.1,4.4,4.3,3.7,4.1,3.8,3.9,3.8,4.1,48,18
+BIOD21H3,BIOSC,Advanced Molecular Biology Lab BIOD21H3-F-LEC01,Fall,2017,Gazzarrini,Sonia,2.7,2.3,1.5,2.5,1.8,1.5,2.2,4.7,1.3,28,7
+BIOD23H3,BIOSC,Special Topics in Cell Biology BIOD23H3-F-LEC01,Fall,2017,Harrison,Rene,4.7,5,5,4.7,4.7,4.6,4.3,3.2,4.4,24,9
+BIOD26H3,BIOSC,Fungal Biology & Pathogenesis BIOD26H3-F-LEC01,Fall,2017,Brunt,Shelley,3.9,4.3,3.9,4.1,4.2,3.6,3.7,3.9,3.5,57,17
+BIOD33H3,BIOSC,Comparative Animal Physiology BIOD33H3-F-LEC01,Fall,2017,Brown,Jason,4.7,4.8,4.9,4.4,4.3,4.5,4.4,3.3,4.7,50,16
+BIOD59H3,BIOSC,Models in Ecology and Conserva BIOD59H3-F-LEC01,Fall,2017,Molnar,Peter,3.9,4.3,4.1,3.4,3.3,3.9,3.3,3.7,3.3,14,8
+BIOD65H3,BIOSC,Pathologies of Nervous System BIOD65H3-F-LEC01,Fall,2017,Nash,Joanne,3.1,2.4,2.5,2.9,2.9,2.2,2.9,3.8,2.5,40,10
+NROC34H3,BIOSC,Neuroethology NROC34H3-F-LEC01,Fall,2017,Thiele,Tod,4.1,4.1,3.9,3.5,3.6,3.5,3.6,3.4,3,87,25
+BIOD30H3,BIOSC,Addressing Global Problems BIOD30H3-S-LEC01,Winter,2017,Hasenkampf,Clare,4.2,4.6,4.4,4,3.8,4,3.6,4.6,3,5,5
+BIOC54H3,BIOSC,Animal Behaviour BIOC54H3-S-LEC01,Winter,2017,Sturge,Rachel,3.8,4.2,4.2,3.7,4.2,4,3.6,3.2,4.1,90,17
+BIOD43H3,BIOSC,Animal Movement and Exercise BIOD43H3-S-LEC01,Winter,2017,Brown,Jason,4.9,5,5,4.7,4.7,4.9,4.8,3.4,4.7,60,13
+BIOB32H3,BIOSC,Animal Physiology Laboratory BIOB32H3-S-LEC01,Winter,2017,Brown,Jason,4.5,4.4,4.7,4.1,4.1,4.3,4,3.1,4.4,191,59
+BIOC13H3,BIOSC,Biochem II: Bioenerg&MetabolisBIOC13H3-S-LEC01,Winter,2017,Brown,Jason,4.6,4.7,4.7,4.1,4,4.3,4.3,3.4,4,196,53
+BIOD66H3,BIOSC,Cause&Consequence BiodiversityBIOD66H3-S-LEC01,Winter,2017,Cadotte,Marc,4.6,4.4,4.6,4.6,4.6,4.2,4.2,3.3,4.1,26,9
+BIOD98Y3,BIOSC,Directed Research in Biology BIOD98Y3-Y-LEC01,Winter,2017,Stehlik,Ivana,4.9,4.9,4.6,4.8,4.8,4.8,4.5,4.4,4.6,35,10
+BIOD19H3,BIOSC,Epigenetics in Hlth & Disease BIOD19H3-S-LEC01,Winter,2017,Ashbrook,David,3.8,3.9,4.1,4.3,4.3,3.7,3.9,3,4.4,38,10
+BIOC16H3,BIOSC,Evolution Genetic & Genomics BIOC16H3-S-LEC01,Winter,2017,Fitzpatrick,Mark,4.5,4.3,4.1,3.9,4,3.8,3.6,3.5,3.7,23,10
+BIOB51H3,BIOSC,Evolutionary Biology BIOB51H3-S-LEC01,Winter,2017,Andrade,Maydianne,4.1,4.3,4.6,4.1,4,4,3.8,3.3,4,453,169
+BIOD25H3,BIOSC,Genomics BIOD25H3-S-LEC01,Winter,2017,Riggs,Charles,4.2,4.6,3.8,4,3.6,3.2,3.9,3.5,3.2,22,10
+BIOC33H3,BIOSC,Human Physiology II: Lec & LabBIOC33H3-S-LEC01,Winter,2017,Reid,Stephen,4,4.4,3.9,3.6,3.7,3.6,3.6,4,3.5,121,31
+BIOC34H3,BIOSC,Human Physiology II: Lecture BIOC34H3-S-LEC01,Winter,2017,Reid,Stephen,4.2,4.5,4.4,4.2,4.1,4,4.1,3.4,3.9,63,16
+BIOC34H3,BIOSC,Human Physiology II: Lecture BIOC34H3-S-LEC60,Winter,2017,Reid,Stephen,4.1,4.3,4,4,4,3.8,3.8,3.7,3.8,268,67
+BIOC39H3,BIOSC,Immunology BIOC39H3-S-LEC01,Winter,2017,Treanor,Bebhinn,4.3,4.4,4,3.8,3.9,3.9,4,3.8,3.6,247,76
+BIOA02H3,BIOSC,Life on Earth: FormFunc.& IntBIOA02H3-S-LEC01,Winter,2017,Reid,Stephen,4,4.3,3.9,3.9,3.9,3.7,3.7,3.4,3.7,300,74
+BIOA02H3,BIOSC,Life on Earth: FormFunc.& IntBIOA02H3-S-LEC01,Winter,2017,Stehlik,Ivana,4,4.3,4.2,3.9,3.9,3.7,3.7,3.4,3.7,300,74
+BIOA02H3,BIOSC,Life on Earth: FormFunc.& IntBIOA02H3-S-LEC01,Winter,2017,Sturge,Rachel,4,4.3,4.1,3.9,3.9,3.7,3.7,3.4,3.7,300,74
+BIOA02H3,BIOSC,Life on Earth: FormFunc.& IntBIOA02H3-S-LEC02,Winter,2017,Reid,Stephen,4,4.1,3.7,3.7,3.7,3.5,3.8,3.6,3.7,468,94
+BIOA02H3,BIOSC,Life on Earth: FormFunc.& IntBIOA02H3-S-LEC02,Winter,2017,Stehlik,Ivana,4,4.1,4,3.7,3.7,3.5,3.8,3.6,3.7,468,94
+BIOA02H3,BIOSC,Life on Earth: FormFunc.& IntBIOA02H3-S-LEC02,Winter,2017,Sturge,Rachel,4,4.1,4,3.7,3.7,3.5,3.8,3.6,3.7,468,94
+BIOA02H3,BIOSC,Life on Earth: FormFunc.& IntBIOA02H3-S-LEC60,Winter,2017,Reid,Stephen,3.7,3.9,4.1,3.7,3.6,3.5,3.3,3.7,3.3,114,16
+BIOA02H3,BIOSC,Life on Earth: FormFunc.& IntBIOA02H3-S-LEC60,Winter,2017,Stehlik,Ivana,3.7,3.9,4.1,3.7,3.6,3.5,3.3,3.7,3.3,114,16
+BIOA02H3,BIOSC,Life on Earth: FormFunc.& IntBIOA02H3-S-LEC60,Winter,2017,Sturge,Rachel,3.7,3.9,3.4,3.7,3.6,3.5,3.3,3.7,3.3,114,16
+BIOC17H3,BIOSC,Microbiology BIOC17H3-S-LEC01,Winter,2017,Terebiznik,Mauricio,3.5,3.7,3.1,3.2,3.4,2.9,3.3,3.7,2.9,179,45
+BIOB11H3,BIOSC,Molec Cellular & Genetic Proc BIOB11H3-S-LEC01,Winter,2017,Riggs,Charles,3.7,4,3.6,3.4,3.4,3.3,3.2,3.5,3.2,429,116
+BIOD65H3,BIOSC,Pathologies of Nervous System BIOD65H3-S-LEC01,Winter,2017,Thiele,Tod,4.4,4.3,4.4,4.1,4.1,3.9,4.2,3.4,4.2,31,19
+BIOC31H3,BIOSC,Plant Devlpmnt & BiotechnologyBIOC31H3-S-LEC01,Winter,2017,Gazzarrini,Sonia,3.7,4.4,3,3.5,3.3,2.8,3.7,3.7,3.2,24,7
+BIOC40H3,BIOSC,Plant Physiology BIOC40H3-S-LEC01,Winter,2017,Vanlerberghe,Greg,4.5,4.8,4.4,4.4,4.6,4.3,4.4,3.5,3.9,38,8
+BIOB38H3,BIOSC,Plants and Society BIOB38H3-S-LEC01,Winter,2017,Stehlik,Ivana,4,4.2,4.4,3.8,3.8,3.8,4,3,3.9,204,61
+BIOC23H3,BIOSC,Practical Approach to Biochem BIOC23H3-S-LEC01,Winter,2017,Zhao,Rongmin,3.3,3.5,3.2,3.5,3.7,3.1,3.2,4.2,2.8,106,28
+BIOC62H3,BIOSC,Role of Zoos in Conservation BIOC62H3-S-LEC01,Winter,2017,Sturge,Rachel,3.9,4.1,4.2,4,3.9,4,4.2,3.2,4,51,10
+BIOD17H3,BIOSC,Seminars Cellular MicrobiologyBIOD17H3-S-LEC01,Winter,2017,Terebiznik,Mauricio,3.7,3.8,3.4,3.1,3.4,3.2,3.3,3.9,2.9,35,14
+BIOD62H3,BIOSC,Species and Speciation BIOD62H3-S-LEC01,Winter,2017,Stehlik,Ivana,4.5,4.8,4.8,4.4,4.4,4.4,4.2,3.5,4.7,18,13
+BIOD53H3,BIOSC,Topics in Behavioural Ecology BIOD53H3-S-LEC01,Winter,2017,McCann,Sean,4.8,4.9,4.8,5,5,4.8,4.6,3,5,16,8
+BIOC51H3,BIOSC,Tropical Biodiversity Field BIOC51H3-S-LEC01,Winter,2017,Lovejoy,Nathan,5,5,5,4.9,4.8,4.9,5,3.4,5,9,8
+BIOD21H3,BIOSC,Advanced Molecular Biology Lab BIOD21H3-F-LEC01,Fall,2016,Gazzarrini,Sonia,4.1,4.1,4.3,4.1,4.1,3.5,4,4,3.1,30,10
+BIOC59H3,BIOSC,Advanced Population Ecology BIOC59H3-F-LEC01,Fall,2016,Boonstra,Rudy,4.4,4.4,4.4,3.8,4.2,3.6,4.4,4.4,3.6,11,5
+BIOB34H3,BIOSC,Animal Physiology BIOB34H3-F-LEC01,Fall,2016,Richards,Blake,3.7,3.8,3.8,3,3.1,3.1,3.2,3.8,3.1,416,126
+BIOC58H3,BIOSC,Bio Consequences Global Change BIOC58H3-F-LEC01,Fall,2016,Sturge,Rachel,3.9,4.2,4,3.9,3.9,3.8,4.1,3.7,3.9,104,33
+BIOC12H3,BIOSC,Biochem I: Proteins & Enzymes BIOC12H3-F-LEC01,Fall,2016,Zhao,Rongmin,3.6,4,3.5,3.3,3.5,3.2,3.3,3.2,3.2,192,48
+BIOB10H3,BIOSC,Cell Biology BIOB10H3-F-LEC01,Fall,2016,Ashok,Aarthi,3.8,4,3.9,3.3,3.4,3.3,3.5,3.5,3.3,445,136
+BIOC61H3,BIOSC,Community Ecol & Environ Biol BIOC61H3-F-LEC01,Fall,2016,MacIvor,James,4.3,4.4,4.8,4.3,4.6,4.3,4.6,3.2,4.6,34,18
+BIOD33H3,BIOSC,Comparative Animal Physiology BIOD33H3-F-LEC01,Fall,2016,Brown,Jason,4.8,4.9,4.9,4.6,4.8,4.6,4.6,3.3,4.7,52,14
+BIOC63H3,BIOSC,Conservation Biology BIOC63H3-F-LEC01,Fall,2016,Molnar,Peter,4.1,4.2,4.2,3.5,3.3,3.7,4.1,3.1,4.1,43,19
+BIOB52H3,BIOSC,Ecology & Evolutionary Bio Lab BIOB52H3-F-LEC01,Fall,2016,Lovejoy,Nathan,4.4,4.6,4.2,4.3,4.5,4.3,4.1,3.4,4.3,39,14
+BIOB50H3,BIOSC,Ecology BIOB50H3-F-LEC01,Fall,2016,Molnar,Peter,3.2,3.5,3.2,3.2,3.3,3,3.2,3.3,3,459,127
+BIOC52H3,BIOSC,Ecology Field Course BIOC52H3-F-LEC01,Fall,2016,Stehlik,Ivana,4.9,4.8,5,4.9,4.8,4.8,4.9,4.1,4.9,16,13
+BIOC65H3,BIOSC,Environmental Toxicology BIOC65H3-F-LEC01,Fall,2016,Kronzucker,Herbert,4.5,4.7,4.3,3.6,3.6,3.8,4.4,3.1,4.1,76,24
+BIOD19H3,BIOSC,Epigenetics in Hlth & Disease BIOD19H3-F-LEC01,Fall,2016,McGowan,Patrick,3.9,3.9,4.2,3.9,4.1,3.7,3.9,3,4.2,40,13
+BIOD26H3,BIOSC,Fungal Biology & Pathogenesis BIOD26H3-F-LEC01,Fall,2016,Brunt,Shelley,4.3,4.6,4.3,4.2,4.3,4.1,4,3.8,4,53,20
+BIOC15H3,BIOSC,Genetics BIOC15H3-F-LEC01,Fall,2016,Hasenkampf,Clare,4.3,4.5,4.4,4,3.8,3.8,3.9,4.1,3.5,114,45
+BIOB33H3,BIOSC,Human Development and Anatomy BIOB33H3-F-LEC01,Fall,2016,Soros-Pottroff,Connie,4.1,4.1,3.9,3.6,3.6,3.3,3.8,3.9,3.4,219,54
+BIOC32H3,BIOSC,Human Physiology I BIOC32H3-F-LEC01,Fall,2016,Nash,Joanne,3.2,3.3,3,2.9,3.1,2.9,3,3.1,3.1,435,109
+BIOA11H3,BIOSC,Intro to the Biology of Humans BIOA11H3-F-LEC01,Fall,2016,Ashok,Aarthi,4.6,4.4,4.3,3.8,3.8,4,4,3.3,4.2,86,21
+BIOA01H3,BIOSC,Life on Earth:Unify Principles BIOA01H3-F-LEC01,Fall,2016,Ashok,Aarthi,4,3.9,4.2,3.8,3.8,3.6,3.6,3.6,3.6,335,103
+BIOA01H3,BIOSC,Life on Earth:Unify Principles BIOA01H3-F-LEC01,Fall,2016,Brunt,Shelley,4,3.9,3.9,3.8,3.8,3.6,3.6,3.6,3.6,335,103
+BIOA01H3,BIOSC,Life on Earth:Unify Principles BIOA01H3-F-LEC01,Fall,2016,Fitzpatrick,Mark,4,3.9,3.3,3.8,3.8,3.6,3.6,3.6,3.6,335,103
+BIOA01H3,BIOSC,Life on Earth:Unify Principles BIOA01H3-F-LEC02,Fall,2016,Ashok,Aarthi,3.9,4.1,4.3,3.8,3.8,3.5,3.8,3.5,3.8,467,139
+BIOA01H3,BIOSC,Life on Earth:Unify Principles BIOA01H3-F-LEC02,Fall,2016,Brunt,Shelley,3.9,4.1,3.9,3.8,3.8,3.5,3.8,3.5,3.8,467,139
+BIOA01H3,BIOSC,Life on Earth:Unify Principles BIOA01H3-F-LEC02,Fall,2016,Fitzpatrick,Mark,3.9,4.1,3.3,3.8,3.8,3.5,3.8,3.5,3.8,467,139
+BIOA01H3,BIOSC,Life on Earth:Unify Principles BIOA01H3-F-LEC60,Fall,2016,Ashok,Aarthi,3.7,3.8,4.1,3.8,3.8,3.1,3.4,3.7,3.6,94,17
+BIOA01H3,BIOSC,Life on Earth:Unify Principles BIOA01H3-F-LEC60,Fall,2016,Brunt,Shelley,3.7,3.8,3.8,3.8,3.8,3.1,3.4,3.7,3.6,94,17
+BIOA01H3,BIOSC,Life on Earth:Unify Principles BIOA01H3-F-LEC60,Fall,2016,Fitzpatrick,Mark,3.7,3.8,2.9,3.8,3.8,3.1,3.4,3.7,3.6,94,17
+BIOC50H3,BIOSC,Macroevolution BIOC50H3-F-LEC01,Fall,2016,Weir,Jason,4.5,4.6,4.2,3.7,3.7,4.2,4.4,3.2,4,48,17
+NROC34H3,BIOSC,Neuroethology NROC34H3-F-LEC01,Fall,2016,Thiele,Tod,4,4.2,4.1,3.9,3.6,3.7,3.7,3.6,3.2,95,29
+BIOD48H3,BIOSC,Ornithology BIOD48H3-F-LEC01,Fall,2016,Weir,Jason,4.7,4.6,4.4,4.3,4.2,4.3,4.6,3.3,4.7,24,9
+BIOD65H3,BIOSC,Pathologies of Nervous System BIOD65H3-F-LEC01,Fall,2016,Nash,Joanne,4,3.9,3,3.8,3.8,3.4,4,4,3.7,26,9
+BIOC37H3,BIOSC,Plants: Life on the Edge BIOC37H3-F-LEC01,Fall,2016,Stehlik,Ivana,4.6,4.8,4.5,4.3,4.3,4.3,4.4,3.2,4.5,41,19
+BIOD35H3,BIOSC,Sports Science BIOD35H3-F-LEC01,Fall,2016,Sprenger,Heather,4.4,4.6,4.6,4.2,4.3,4.2,4.1,3.3,5,36,9
+BIOA01H3,BIOSC,Life on Earth:Unify Principles BIOA01H3-Y-LEC01,Summer,2016,Williams,Karen,2.5,2.3,1.9,2.4,2.4,1.9,2.2,3.6,2,62,12
+BIOA02H3,BIOSC,Life on Earth: FormFunc.& Int BIOA02H3-Y-LEC01,Summer,2016,Soros-Pottroff,Connie,3.3,3.4,3.4,3.3,3.5,3,3.1,3.1,3,76,21
+BIOB10H3,BIOSC,Cell Biology BIOB10H3-F-LEC01,Summer,2016,Harrison,Rene,4.1,4.3,4.6,3.6,3.7,3.9,3.7,3.2,3.9,207,104
+BIOB11H3,BIOSC,Molec Cellular & Genetic Proc BIOB11H3-S-LEC01,Summer,2016,Riggs,Charles,3.5,3.7,3.3,3.7,3.6,3,3.1,3.8,2.9,220,59
+BIOB33H3,BIOSC,Human Development and Anatomy BIOB33H3-Y-LEC01,Summer,2016,Soros-Pottroff,Connie,3.4,3.5,3.2,3.1,3.1,3,3,3.7,3.3,88,11
+BIOB34H3,BIOSC,Animal Physiology BIOB34H3-Y-LEC01,Summer,2016,Richards,Blake,3.7,3.6,3.4,2.7,3.1,3.1,3.2,3.9,2.8,92,18
+BIOB50H3,BIOSC,Ecology BIOB50H3-Y-LEC01,Summer,2016,Marushia,Robin,3.9,4,4.1,3.4,3.3,3.5,3.4,2.7,3.6,138,36
+BIOB51H3,BIOSC,Evolutionary Biology BIOB51H3-Y-LEC01,Summer,2016,Williams,Karen,2.6,3,2.7,3.1,3.1,2.4,2.7,3.3,2.5,80,23
+BIOB52H3,BIOSC,Ecology & Evolutionary Bio Lab BIOB52H3-Y-LEC01,Summer,2016,Marushia,Robin,4,4.2,3.5,3.8,3.7,4.3,3.7,3.7,3.5,16,6
+BIOC12H3,BIOSC,Biochem I: Proteins & Enzymes BIOC12H3-Y-LEC01,Summer,2016,Brunt,Shelley,3.4,3.7,3.4,3.2,3.4,3,3.2,2.9,3.3,91,17
+BIOC13H3,BIOSC,Biochem II: Bioenerg&Metabolis BIOC13H3-Y-LEC30,Summer,2016,Brown,Jason,4.5,4.5,4.6,4.1,3.9,4.3,4.4,3.5,4.1,64,17
+BIOC15H3,BIOSC,Genetics BIOC15H3-Y-LEC01,Summer,2016,Hasenkampf,Clare,4.3,4.3,4.5,4.3,4.3,3.8,3.9,4.1,3.8,57,31
+BIOC17H3,BIOSC,Microbiology BIOC17H3-Y-LEC01,Summer,2016,Brunt,Shelley,3.8,4.2,4,4.1,4,3.6,4,3.6,3.6,92,23
+BIOC23H3,BIOSC,Practical Approach to Biochem BIOC23H3-Y-LEC01,Summer,2016,Brunt,Shelley,4.3,4.5,4.4,4.5,4.4,3.8,4.1,4.1,3.4,33,8
+BIOD33H3,BIOSC,Comparative Animal Physiology BIOD33H3-Y-LEC01,Summer,2016,Brown,Jason,4.6,4.8,4.9,4.7,4.5,4.9,4.6,3.1,4.9,49,13
+BIOA02H3,BIOSC,Life on Earth: FormFunc.& Int BIOA02H3-S-LEC01,Winter,2016,Marushia,Robin,3.8,4.1,4.1,3.2,3.1,3.1,3.5,3.5,3.6,293,64
+BIOA02H3,BIOSC,Life on Earth: FormFunc.& Int BIOA02H3-S-LEC01,Winter,2016,Soros-Pottroff,Connie,3.8,4.1,3.4,3.2,3.1,3.1,3.5,3.5,3.6,293,64
+BIOA02H3,BIOSC,Life on Earth: FormFunc.& Int BIOA02H3-S-LEC02,Winter,2016,Marushia,Robin,3.7,3.8,4.2,3.3,3.3,3.2,3.4,3.4,3.6,460,121
+BIOA02H3,BIOSC,Life on Earth: FormFunc.& Int BIOA02H3-S-LEC02,Winter,2016,Soros-Pottroff,Connie,3.7,3.8,3.4,3.3,3.3,3.2,3.4,3.4,3.6,460,121
+BIOA02H3,BIOSC,Life on Earth: FormFunc.& Int BIOA02H3-S-LEC60,Winter,2016,Marushia,Robin,3.8,3.9,4.1,3.4,3.2,3.3,3.4,3.5,3.3,163,34
+BIOA02H3,BIOSC,Life on Earth: FormFunc.& Int BIOA02H3-S-LEC60,Winter,2016,Soros-Pottroff,Connie,3.8,3.9,3.2,3.4,3.2,3.3,3.4,3.5,3.3,163,34
+BIOA11H3,BIOSC,Intro to the Biology of Humans BIOA11H3-S-LEC30,Winter,2016,Wong,Christine,4.3,4.6,4.2,3.6,3.8,3.5,3.5,2.6,3.7,78,13
+BIOB11H3,BIOSC,Molec Cellular & Genetic Proc BIOB11H3-S-LEC01,Winter,2016,Riggs,Charles,3.5,3.7,3.2,3,3,2.9,3,3.7,2.6,381,101
+BIOB11H3,BIOSC,Molec Cellular & Genetic Proc BIOB11H3-S-LEC60,Winter,2016,Riggs,Charles,3.6,3.8,3.4,3.1,3.2,3.2,3.3,3.9,3.1,65,17
+BIOB32H3,BIOSC,Animal Physiology Laboratory BIOB32H3-S-LEC01,Winter,2016,Welch Jr.,Kenneth,3.2,3.2,2.8,3,3,2.6,2.9,3.8,2.8,173,37
+BIOB38H3,BIOSC,Plants and Society BIOB38H3-S-LEC01,Winter,2016,Soros-Pottroff,Connie,3.3,3.7,3.4,3.2,3.5,3.1,3.4,3,3.2,192,35
+BIOB51H3,BIOSC,Evolutionary Biology BIOB51H3-S-LEC01,Winter,2016,Andrade,Maydianne,4.2,4.3,4.5,4,3.9,3.8,3.7,3.4,3.9,462,114
+BIOB51H3,BIOSC,Evolutionary Biology BIOB51H3-S-LEC60,Winter,2016,Andrade,Maydianne,4.3,4.5,4.6,4,4,4,4.1,3.3,4.1,111,29
+BIOC13H3,BIOSC,Biochem II: Bioenerg&Metabolis BIOC13H3-S-LEC01,Winter,2016,Brown,Jason,4.3,4.4,4.8,4.1,4,4.3,4.2,3.8,3.8,145,48
+BIOC16H3,BIOSC,Evolution Genetic & Genomics BIOC16H3-S-LEC01,Winter,2016,Champigny,Marc,3.2,3.3,3.4,2.8,3,3.1,2.7,3.1,2.7,24,9
+BIOC17H3,BIOSC,Microbiology BIOC17H3-S-LEC01,Winter,2016,Terebiznik,Mauricio,3.7,4,3.5,3.9,4,3.6,3.7,3.8,3.7,165,38
+BIOC23H3,BIOSC,Practical Approach to Biochem BIOC23H3-S-LEC01,Winter,2016,Zhao,Rongmin,3.4,3.9,3.4,3.8,3.7,3.2,3.4,4,3.2,87,27
+BIOC31H3,BIOSC,Plant Devlpmnt & Biotechnology BIOC31H3-S-LEC01,Winter,2016,Gazzarrini,Sonia,4.2,4.2,4.3,4,3.9,3.8,3.9,3,3.8,39,10
+BIOC33H3,BIOSC,Human Physiology II: Lec & Lab BIOC33H3-S-LEC01,Winter,2016,Brown,Jason,4.7,4.8,4.9,4.4,4.4,4.6,4.6,3.5,4.5,125,31
+BIOC34H3,BIOSC,Human Physiology II: Lecture BIOC34H3-S-LEC01,Winter,2016,Brown,Jason,4.8,4.9,4.9,4.4,4.3,4.6,4.6,3.5,4.4,65,16
+BIOC34H3,BIOSC,Human Physiology II: Lecture BIOC34H3-S-LEC60,Winter,2016,Brown,Jason,4.4,4.6,4.6,4.3,4.1,4.1,4.4,3.8,4.1,227,57
+BIOC39H3,BIOSC,Immunology BIOC39H3-S-LEC01,Winter,2016,Treanor,Bebhinn,4.1,4.2,3.9,3.3,3.3,3.5,3.8,3.9,3.3,244,64
+BIOC54H3,BIOSC,Animal Behaviour BIOC54H3-S-LEC01,Winter,2016,Williams,Karen,3,3.4,2.7,3.2,3.3,2.5,3.1,3.3,2.6,95,23
+BIOC59H3,BIOSC,Advanced Population Ecology BIOC59H3-S-LEC01,Winter,2016,Boonstra,Rudy,4.8,4.7,5,4.5,4.7,4.7,4.7,4,4.2,13,6
+BIOC62H3,BIOSC,Role of Zoos in Conservation BIOC62H3-S-LEC01,Winter,2016,Marushia,Robin,4.1,4.6,4,4.1,3.9,3.8,4.2,3.3,3.8,57,18
+BIOD17H3,BIOSC,Seminars Cellular Microbiology BIOD17H3-S-LEC01,Winter,2016,Terebiznik,Mauricio,5,5,4.5,4.8,5,4.3,4.7,4.7,4.3,28,6
+BIOD19H3,BIOSC,Epigenetics in Hlth & Disease BIOD19H3-S-LEC01,Winter,2016,Herrera Monroy,Santiago,4.5,4.6,4.6,4.6,4.8,4.5,4.4,3.1,4.7,40,22
+BIOD25H3,BIOSC,Genomics BIOD25H3-S-LEC01,Winter,2016,Riggs,Charles,3.9,3.8,3.7,3.4,3.6,3,3.4,3.1,2.6,20,9
+BIOD26H3,BIOSC,Fungal Biology & Pathogenesis BIOD26H3-S-LEC01,Winter,2016,Brunt,Shelley,4.2,4.3,4.1,4.4,4,4,4.1,3.4,3.6,51,12
+BIOD43H3,BIOSC,Animal Movement and Exercise BIOD43H3-S-LEC01,Winter,2016,Welch Jr.,Kenneth,3.9,4.1,4.2,3.8,3.5,3.4,3.8,3.9,3.4,55,13
+BIOD52H3,BIOSC,Special Topics in Biodiversity BIOD52H3-S-LEC01,Winter,2016,Lovejoy,Nathan,5,4.8,4.8,4.8,4.8,4.8,5,3.7,5,8,6
+BIOD54H3,BIOSC,Applied Conservation Biology BIOD54H3-S-LEC01,Winter,2016,Mandrak,Nicholas,3.8,3.8,4,3.8,3.8,3.2,3.6,3.6,3.8,18,5
+BIOA01H3,BIOSC,Life on Earth:Unify Principles BIOA01H3-F-LEC01,Fall,2015,Andrade,Maydianne,4,3.9,4.5,3.8,3.9,3.6,3.6,3.3,3.8,339,65
+BIOA01H3,BIOSC,Life on Earth:Unify Principles BIOA01H3-F-LEC02,Fall,2015,Andrade,Maydianne,3.9,4,4.5,3.8,3.8,3.7,3.7,3.7,3.8,480,97
+BIOA01H3,BIOSC,Life on Earth:Unify Principles BIOA01H3-F-LEC60,Fall,2015,Andrade,Maydianne,4,4.3,4.5,3.6,3.6,3.3,3.6,3.7,3.6,138,26
+BIOA01H3,BIOSC,Life on Earth:Unify Principles BIOA01H3-F-LEC01,Fall,2015,Sauer,Monica,4,3.9,4,3.8,3.9,3.6,3.6,3.3,3.8,339,65
+BIOA01H3,BIOSC,Life on Earth:Unify Principles BIOA01H3-F-LEC02,Fall,2015,Sauer,Monica,3.9,4,4.2,3.8,3.8,3.7,3.7,3.7,3.8,480,97
+BIOA01H3,BIOSC,Life on Earth:Unify Principles BIOA01H3-F-LEC60,Fall,2015,Sauer,Monica,4,4.3,4,3.6,3.6,3.3,3.6,3.7,3.6,138,26
+BIOA01H3,BIOSC,Life on Earth:Unify Principles BIOA01H3-F-LEC01,Fall,2015,Williams,Karen,4,3.9,3.2,3.8,3.9,3.6,3.6,3.3,3.8,339,65
+BIOA01H3,BIOSC,Life on Earth:Unify Principles BIOA01H3-F-LEC02,Fall,2015,Williams,Karen,3.9,4,3.1,3.8,3.8,3.7,3.7,3.7,3.8,480,97
+BIOA01H3,BIOSC,Life on Earth:Unify Principles BIOA01H3-F-LEC60,Fall,2015,Williams,Karen,4,4.3,3.3,3.6,3.6,3.3,3.6,3.7,3.6,138,26
+BIOA11H3,BIOSC,Intro to the Biology of Humans BIOA11H3-F-LEC30,Fall,2015,Wong,Christine,3.8,3.9,3.9,4,4,3.6,4.1,3.1,4.3,85,16
+BIOB10H3,BIOSC,Cell Biology BIOB10H3-F-LEC01,Fall,2015,Sauer,Monica,4,4.2,4.4,4.2,4.2,4,3.5,3.2,4,492,119
+BIOB10H3,BIOSC,Cell Biology BIOB10H3-F-LEC60,Fall,2015,Sauer,Monica,3.9,4.2,4.1,4.1,4,3.7,3.4,3.2,3.7,96,24
+BIOB33H3,BIOSC,Human Development and Anatomy BIOB33H3-F-LEC01,Fall,2015,Soros-Pottroff,Connie,3.2,3.6,3.1,3.1,3.2,2.9,3.2,3.8,2.7,193,53
+BIOB34H3,BIOSC,Animal Physiology BIOB34H3-F-LEC01,Fall,2015,Richards,Blake,3.8,3.9,3.9,3.3,3.3,3.2,3.4,3.7,3.2,487,119
+BIOB50H3,BIOSC,Ecology BIOB50H3-F-LEC01,Fall,2015,Marushia,Robin,2.9,3.3,3.4,2.7,2.7,2.7,2.6,3,2.5,485,110
+BIOB52H3,BIOSC,Ecology & Evolutionary Bio Lab BIOB52H3-F-LEC01,Fall,2015,Lovejoy,Nathan,4,4.4,4.2,4.3,4.1,3.9,3.9,3.2,4,53,24
+BIOC12H3,BIOSC,Biochem I: Proteins & Enzymes BIOC12H3-F-LEC01,Fall,2015,Zhao,Rongmin,3.3,3.6,2.8,2.8,2.9,2.7,2.8,3.4,2.5,159,56
+BIOC15H3,BIOSC,Genetics BIOC15H3-F-LEC01,Fall,2015,Hasenkampf,Clare,4.3,4.5,4.7,4.2,4.3,4,3.9,3.9,3.8,170,50
+BIOC32H3,BIOSC,Human Physiology I BIOC32H3-F-LEC01,Fall,2015,Brown,Jason,4.8,4.7,4.8,4.4,4.3,4.5,4.4,3.3,4.5,462,144
+BIOC50H3,BIOSC,Macroevolution BIOC50H3-F-LEC01,Fall,2015,Weir,Jason,4.4,4.8,4.7,4.6,4.6,4.5,4.4,3.4,4.1,50,21
+BIOC61H3,BIOSC,Community Ecol & Environ Biol BIOC61H3-F-LEC01,Fall,2015,Marushia,Robin,3.6,3.9,3.8,3.6,3.6,3.3,3.8,3.4,3.6,51,18
+BIOC63H3,BIOSC,Conservation Biology BIOC63H3-F-LEC01,Fall,2015,Molnar,Peter,4.2,4.3,4.3,4.1,4.1,4,4.3,3.2,4.4,49,18
+BIOC65H3,BIOSC,Environmental Toxicology BIOC65H3-F-LEC01,Fall,2015,Kronzucker,Herbert,4.9,4.9,4.7,4.4,4.3,4.6,4.8,3.2,4.7,65,22
+BIOD21H3,BIOSC,Advanced Molecular Biology Lab BIOD21H3-F-LEC01,Fall,2015,Gazzarrini,Sonia,4,4,3.9,3.6,3.1,3.2,3.6,4,3.6,20,9
+BIOD23H3,BIOSC,Special Topics in Cell Biology BIOD23H3-F-LEC01,Fall,2015,Harrison,Rene,4.8,4.9,5,4.8,5,4.8,4.6,2.9,4.9,22,11
+BIOD26H3,BIOSC,Fungal Biology & Pathogenesis BIOD26H3-F-LEC01,Fall,2015,Brunt,Shelley,3.8,4.4,4.1,4.3,4.3,4,3.8,3.3,3.9,57,11
+BIOD33H3,BIOSC,Comparative Animal Physiology BIOD33H3-F-LEC01,Fall,2015,Brown,Jason,4.7,4.8,5,4.7,4.8,4.9,4.8,3.2,5,52,10
+BIOD35H3,BIOSC,Sports Science BIOD35H3-F-LEC01,Fall,2015,Sprenger,Heather,4.7,4.6,4.3,3.9,4,4.3,4.4,3.1,4.4,36,9
+BIOD48H3,BIOSC,Ornithology & Herpetology BIOD48H3-F-LEC01,Fall,2015,Weir,Jason,4.7,4.7,4.7,4.7,4.7,4.3,4.7,3.2,4.8,18,6
+BIOD65H3,BIOSC,Pathologies of Nervous System BIOD65H3-F-LEC01,Fall,2015,Yong-Kee,Christopher,3.9,4.1,4.1,4.1,4.3,3.9,4.1,4.6,3.9,39,14
+BIOB34H3,BIOSC,Animal Physiology BIOB34H3-Y-LEC30,Summer,2015,Brown,Jason,4.7,4.8,4.8,4,4.2,4.5,4.3,2.9,4.6,109,30
+BIOC12H3,BIOSC,Biochem I: Proteins & Enzymes BIOC12H3-Y-LEC01,Summer,2015,Brunt,Shelley,3.4,3.9,3.5,3.5,3.6,3.4,3.2,3.2,3.3,90,27
+BIOC13H3,BIOSC,Biochem II: Bioenerg&Metabolis BIOC13H3-Y-LEC30,Summer,2015,Brown,Jason,4.2,4.5,4.5,4.3,4.1,4.3,4.2,3.6,4.2,66,29
+BIOB12H3,BIOSC,Cell and Molecular Biology Lab BIOB12H3-Y-LEC01,Summer,2015,Bawa,Daman,3.9,4.3,4.1,4.3,4.3,3.7,3.5,3.5,4,54,15
+BIOB10Y3,BIOSC,Cell Bio & Molec Genetic Procs BIOB10Y3-Y-LEC01,Summer,2015,Sauer,Monica,3.6,4,3.7,3.2,3.2,3.3,3.1,3.5,3.3,214,39
+BIOD33H3,BIOSC,Comparative Animal Physiology BIOD33H3-Y-LEC01,Summer,2015,Brown,Jason,4.7,4.7,4.6,4.4,4.3,4.5,4.5,3.2,4.7,40,14
+BIOD33H3,BIOSC,Comparative Animal Physiology BIOD33H3-Y-LEC02,Summer,2015,Brown,Jason,4.6,4.7,4.6,4.2,4.2,4.3,4.1,3.4,4.2,31,13
+BIOB50H3,BIOSC,Ecology BIOB50H3-Y-LEC01,Summer,2015,Marushia,Robin,3.3,3.4,3.6,2.9,3.1,3,3,3.2,2.9,103,21
+BIOB51H3,BIOSC,Evolutionary Biology BIOB51H3-Y-LEC01,Summer,2015,Gorton,Penelope,3.6,4,4.1,3.3,3.2,3.4,3.3,3.3,3.4,88,26
+BIOC15H3,BIOSC,Genetics BIOC15H3-Y-LEC01,Summer,2015,Williams,Karen,2.5,2.4,1.9,3,2.4,1.7,2.5,4.4,1.5,45,13
+BIOB33H3,BIOSC,Human Development and Anatomy BIOB33H3-Y-LEC01,Summer,2015,Soros-Pottroff,Connie,3.5,3.9,3.6,3.2,3.3,3.4,3.6,3.9,3.3,111,20
+BIOA02H3,BIOSC,Life on Earth: FormFunc.& Int BIOA02H3-Y-LEC01,Summer,2015,Soros-Pottroff,Connie,3.6,3.6,3.8,3.5,3.2,3.5,3.6,3.3,3.4,70,14
+BIOA01H3,BIOSC,Life on Earth:Unify Principles BIOA01H3-Y-LEC01,Summer,2015,Williams,Karen,2.5,2.4,1.9,2.5,2.4,1.8,2.1,3.4,1.9,68,23
+BIOC17H3,BIOSC,Microbiology BIOC17H3-Y-LEC01,Summer,2015,Brunt,Shelley,3.8,4,3.7,3.9,3.6,3.3,3.8,3.7,3.3,86,16
+BIOB11H3,BIOSC,Molec Cellular & Genetic Proc BIOB11H3-S-LEC01,Summer,2015,Bawa,Daman,3.8,4.3,4.6,3.2,3.7,4.4,3.7,3.8,3.8,51,9
+BIOC23H3,BIOSC,Practical Approach to Biochem BIOC23H3-Y-LEC01,Summer,2015,Brunt,Shelley,3.3,3.3,2.1,3.6,3.4,2.6,3,4.1,2.5,27,8
+BIOB51H3,BIOSC,Evolutionary Biology BIOB51H3-S-LEC01,Winter,2015,Andrade,Maydianne,4,4.1,4.4,4,4,3.9,3.8,3.1,4,480,128
+BIOD53H3,BIOSC,Topics in Behavioural Ecology BIOD53H3-S-LEC01,Winter,2015,Andrade,Maydianne,4.7,4.9,5,4.7,4.9,5,4.7,3.3,5,10,7
+BIOC13H3,BIOSC,Biochem II: Bioenerg&Metabolis BIOC13H3-S-LEC01,Winter,2015,Brown,Jason,4.6,4.6,4.7,4,4,4.2,4,3.4,4,151,46
+BIOC23H3,BIOSC,Practical Approach to Biochem BIOC23H3-S-LEC01,Winter,2015,Brunt,Shelley,3.5,3.7,3.6,3.6,3.5,3.1,2.9,3.9,3.1,82,23
+BIOD26H3,BIOSC,Fungal Biology & Pathogenesis BIOD26H3-S-LEC01,Winter,2015,Brunt,Shelley,4.4,4.4,4.2,4.3,4.5,4,4.1,3.3,4.3,37,11
+BIOC62H3,BIOSC,Role of Zoos in Conservation BIOC62H3-S-LEC01,Winter,2015,Campbell,Malcolm,4.6,4.8,4.7,4,4.2,4.6,4.6,3.4,4.7,46,10
+BIOC16H3,BIOSC,Evolution Genetic & Genomics BIOC16H3-S-LEC01,Winter,2015,Champigny,Marc,3.4,3.2,4.4,3.2,3.4,3.6,3.4,3.2,3.6,16,6
+BIOC31H3,BIOSC,Plant Devlpmnt & Biotechnology BIOC31H3-S-LEC01,Winter,2015,Gazzarrini,Sonia,4.2,4.3,3.7,3.7,3.8,3.7,3.7,3.4,3.2,39,9
+BIOC51H3,BIOSC,Tropical Biodiversity Field BIOC51H3-S-LEC01,Winter,2015,Lovejoy,Nathan,4.7,4.7,5,4.3,4.3,4.8,4.2,2.7,5,6,6
+BIOC54H3,BIOSC,Animal Behaviour BIOC54H3-S-LEC01,Winter,2015,MacLeod,Emily,4.3,4.5,4.4,4.2,3.9,4.4,4.1,3,4.5,80,21
+BIOA02H3,BIOSC,Life on Earth: FormFunc.& Int BIOA02H3-S-LEC01,Winter,2015,Marushia,Robin,4,4.1,4.3,3.6,3.6,3.7,3.8,3.6,3.9,326,60
+BIOA02H3,BIOSC,Life on Earth: FormFunc.& Int BIOA02H3-S-LEC02,Winter,2015,Marushia,Robin,4.3,4.3,4.4,3.8,3.8,3.7,4,3.4,3.9,488,110
+BIOA02H3,BIOSC,Life on Earth: FormFunc.& Int BIOA02H3-S-LEC60,Winter,2015,Marushia,Robin,4,4.2,4.3,3.6,3.8,3.7,3.7,3.4,3.5,152,35
+BIOC14H3,BIOSC,Genes Environment & Behaviour BIOC14H3-S-LEC01,Winter,2015,McGowan,Patrick,4.3,4.2,4.1,3.9,4,4,4,3.2,4.3,164,57
+BIOD19H3,BIOSC,Epigenetics in Hlth & Disease BIOD19H3-S-LEC01,Winter,2015,McGowan,Patrick,4.2,3.9,3.9,4.1,4.1,4,4.1,3.8,3.9,38,9
+BIOA02H3,BIOSC,Life on Earth: FormFunc.& Int BIOA02H3-S-LEC01,Winter,2015,Reid,Stephen,4,4.1,3.3,3.6,3.6,3.7,3.8,3.6,3.9,326,60
+BIOA02H3,BIOSC,Life on Earth: FormFunc.& Int BIOA02H3-S-LEC02,Winter,2015,Reid,Stephen,4.3,4.3,3.5,3.8,3.8,3.7,4,3.4,3.9,488,110
+BIOA02H3,BIOSC,Life on Earth: FormFunc.& Int BIOA02H3-S-LEC60,Winter,2015,Reid,Stephen,4,4.2,3.5,3.6,3.8,3.7,3.7,3.4,3.5,152,35
+BIOC33H3,BIOSC,Human Physiology II: Lec & Lab BIOC33H3-S-LEC01,Winter,2015,Reid,Stephen,4.3,4.5,4.2,3.9,3.8,4.1,4.1,3.9,3.9,135,36
+BIOC34H3,BIOSC,Human Physiology II: Lecture BIOC34H3-S-LEC01,Winter,2015,Reid,Stephen,4.3,4.7,4.2,3.8,3.5,3.9,3.9,4.3,3.4,64,10
+BIOC34H3,BIOSC,Human Physiology II: Lecture BIOC34H3-S-LEC60,Winter,2015,Reid,Stephen,4.5,4.5,4.4,4.1,4.2,3.9,3.9,3.8,3.9,243,36
+BIOB11H3,BIOSC,Molec Cellular & Genetic Proc BIOB11H3-S-LEC01,Winter,2015,Riggs,Charles,3.6,4,3.6,3.5,3.5,3.3,3.4,3.5,3.2,401,106
+BIOD25H3,BIOSC,Genomics BIOD25H3-S-LEC01,Winter,2015,Riggs,Charles,3.8,3.4,4,3.8,3.8,3.4,4,3.8,3,13,5
+BIOD27H3,BIOSC,Molecular Endocrinology BIOD27H3-S-LEC01,Winter,2015,Sauer,Monica,4.1,4.4,4.4,4.1,3.6,3.9,4,3.9,4,25,7
+BIOA02H3,BIOSC,Life on Earth: FormFunc.& Int BIOA02H3-S-LEC01,Winter,2015,Stehlik,Ivana,4,4.1,4.3,3.6,3.6,3.7,3.8,3.6,3.9,326,60
+BIOA02H3,BIOSC,Life on Earth: FormFunc.& Int BIOA02H3-S-LEC02,Winter,2015,Stehlik,Ivana,4.3,4.3,4.5,3.8,3.8,3.7,4,3.4,3.9,488,110
+BIOA02H3,BIOSC,Life on Earth: FormFunc.& Int BIOA02H3-S-LEC60,Winter,2015,Stehlik,Ivana,4,4.2,4.2,3.6,3.8,3.7,3.7,3.4,3.5,152,35
+BIOB38H3,BIOSC,Plants and Society BIOB38H3-S-LEC01,Winter,2015,Stehlik,Ivana,4.2,4.3,4.5,3.8,3.7,4,4,3,4,222,94
+BIOC60H3,BIOSC,Winter Ecology BIOC60H3-S-LEC01,Winter,2015,Stehlik,Ivana,4.5,4.7,4.6,4.3,4.2,4.4,4.5,3.4,4.5,38,31
+BIOC17H3,BIOSC,Microbiology BIOC17H3-S-LEC01,Winter,2015,Terebiznik,Mauricio,3.3,3.6,3.2,3.4,3.4,2.9,3.1,3.7,3,158,36
+BIOD17H3,BIOSC,Seminars Cellular Microbiology BIOD17H3-S-LEC01,Winter,2015,Terebiznik,Mauricio,3.9,3.7,4,3.2,3.2,3.6,3.6,4,3.4,27,9
+BIOC39H3,BIOSC,Immunology BIOC39H3-S-LEC01,Winter,2015,Treanor,Bebhinn,4.3,4.4,4.1,3.6,3.6,3.8,4.1,3.7,3.7,204,49
+BIOC39H3,BIOSC,Immunology BIOC39H3-S-LEC60,Winter,2015,Treanor,Bebhinn,4,4.1,3.9,3.4,3.3,3.5,3.9,4.1,3.6,38,8
+BIOD37H3,BIOSC,Biology of Plant Stress BIOD37H3-S-LEC01,Winter,2015,Vanlerberghe,Greg,4.2,4.6,4.4,4.6,4.6,4.4,3.6,3,4,10,5
+BIOA01H3,BIOSC,Life on Earth:Unify Principles BIOA01H3-F-LEC01,Fall,2014,Andrade,Maydianne,4.1,4.1,4.6,3.6,3.7,3.7,3.9,3.6,4,349,91
+BIOA01H3,BIOSC,Life on Earth:Unify Principles BIOA01H3-F-LEC02,Fall,2014,Andrade,Maydianne,3.9,4,4.4,3.4,3.5,3.6,3.6,3.6,3.7,471,135
+BIOA01H3,BIOSC,Life on Earth:Unify Principles BIOA01H3-F-LEC60,Fall,2014,Andrade,Maydianne,3.9,4.1,4.7,3.5,3.6,3.5,3.6,3.5,3.9,152,43
+BIOC58H3,BIOSC,Bio Consequences Global Change BIOC58H3-F-LEC01,Fall,2014,Boonstra,Rudy,3.3,3.7,3.6,3.1,3.1,3.2,3.2,3.8,2.8,45,18
+BIOC12H3,BIOSC,Biochem I: Proteins & Enzymes BIOC12H3-F-LEC01,Fall,2014,Brunt,Shelley,3.6,3.9,3.5,3.6,3.5,3.3,3.1,3.2,3.3,139,37
+BIOD26H3,BIOSC,Fungal Biology & Pathogenesis BIOD26H3-F-LEC01,Fall,2014,Brunt,Shelley,4.2,4.7,4.4,4.4,4.3,4.1,4.1,3.6,4.6,55,18
+BIOD21H3,BIOSC,Advanced Molecular Biology Lab BIOD21H3-F-LEC01,Fall,2014,Gazzarrini,Sonia,3.6,3.9,4,3.4,3.5,3.5,3.9,4.1,3.4,25,8
+BIOC61H3,BIOSC,Community Ecol & Environ Biol BIOC61H3-F-LEC01,Fall,2014,Halas,Dominik,3.9,4.1,4.2,3.7,3.8,3.9,3.4,3.3,4.1,33,14
+BIOD23H3,BIOSC,Special Topics in Cell Biology BIOD23H3-F-LEC01,Fall,2014,Harrison,Rene,4.8,4.8,5,4.6,4.7,4.6,4.8,3.2,4.7,23,12
+BIOC15H3,BIOSC,Genetics BIOC15H3-F-LEC01,Fall,2014,Hasenkampf,Clare,4.2,4.2,4.4,4,4,4,3.8,3.9,3.9,151,45
+BIOC65H3,BIOSC,Environmental Toxicology BIOC65H3-F-LEC01,Fall,2014,Kronzucker,Herbert,4.7,4.5,4.5,3.9,4,4,4.5,3.3,4.1,65,15
+BIOB52H3,BIOSC,Ecology & Evolutionary Bio Lab BIOB52H3-F-LEC01,Fall,2014,McCusker,Megan,3.7,3.9,3.6,4.2,4.1,3.7,3.9,3.4,4.2,39,18
+BIOC32H3,BIOSC,Human Physiology I BIOC32H3-F-LEC01,Fall,2014,Nash,Joanne,3.2,3.2,2.6,2.6,2.6,2.4,2.8,3.3,2.5,370,142
+BIOD65H3,BIOSC,Pathologies of Nervous System BIOD65H3-F-LEC01,Fall,2014,Nash,Joanne,4.2,4.4,4.2,4.3,4.4,4.3,4.1,3.9,4.1,34,21
+BIOB50H3,BIOSC,Ecology BIOB50H3-F-LEC01,Fall,2014,Patankar,Rajit,3.4,3.8,3.6,3.3,3.5,3.3,3.4,3,3.5,477,177
+BIOD33H3,BIOSC,Comparative Animal Physiology BIOD33H3-F-LEC01,Fall,2014,Reid,Stephen,4.3,4.6,4.1,3.4,3.5,3.6,3.5,4.2,3.8,54,16
+BIOB34H3,BIOSC,Animal Physiology BIOB34H3-F-LEC01,Fall,2014,Richards,Blake,4.3,4.4,4.7,4.1,4.3,4.4,4.2,3.1,4.5,478,161
+BIOA01H3,BIOSC,Life on Earth:Unify Principles BIOA01H3-F-LEC01,Fall,2014,Sauer,Monica,4.1,4.1,4.1,3.6,3.7,3.7,3.9,3.6,4,349,91
+BIOA01H3,BIOSC,Life on Earth:Unify Principles BIOA01H3-F-LEC02,Fall,2014,Sauer,Monica,3.9,4,3.9,3.4,3.5,3.6,3.6,3.6,3.7,471,135
+BIOA01H3,BIOSC,Life on Earth:Unify Principles BIOA01H3-F-LEC60,Fall,2014,Sauer,Monica,3.9,4.1,4.1,3.5,3.6,3.5,3.6,3.5,3.9,152,43
+BIOB10H3,BIOSC,Cell Biology BIOB10H3-F-LEC01,Fall,2014,Sauer,Monica,3.5,3.8,3.7,3.4,3.4,3.3,3.2,3.3,3.2,479,151
+BIOB33H3,BIOSC,Human Development and Anatomy BIOB33H3-F-LEC01,Fall,2014,Soros-Pottroff,Connie,3.4,3.5,2.6,2.8,3,2.5,2.9,4.2,2.7,206,64
+BIOC37H3,BIOSC,Plants: Life on the Edge BIOC37H3-F-LEC01,Fall,2014,Stehlik,Ivana,4.7,4.7,4.7,4.4,4.4,4.7,4.7,3.1,4.7,20,10
+BIOC52H3,BIOSC,Ecology Field Course BIOC52H3-F-LEC01,Fall,2014,Stehlik,Ivana,4.2,4.3,4.8,4.5,4.6,4.2,4.2,3.9,4.5,14,10
+BIOC63H3,BIOSC,Conservation Biology BIOC63H3-F-LEC01,Fall,2014,Stehlik,Ivana,4.4,4.4,4.5,3.9,3.9,4.4,4.7,2.9,4.6,47,23
+BIOA01H3,BIOSC,Life on Earth:Unify Principles BIOA01H3-F-LEC01,Fall,2014,Treanor,Bebhinn,4.1,4.1,3.8,3.6,3.7,3.7,3.9,3.6,4,349,91
+BIOA01H3,BIOSC,Life on Earth:Unify Principles BIOA01H3-F-LEC02,Fall,2014,Treanor,Bebhinn,3.9,4,3.6,3.4,3.5,3.6,3.6,3.6,3.7,471,135
+BIOA01H3,BIOSC,Life on Earth:Unify Principles BIOA01H3-F-LEC60,Fall,2014,Treanor,Bebhinn,3.9,4.1,4,3.5,3.6,3.5,3.6,3.5,3.9,152,43
+BIOC50H3,BIOSC,Macroevolution BIOC50H3-F-LEC01,Fall,2014,Weir,Jason,3.7,3.9,3.9,3.5,3.5,3.5,3.3,3.7,3.2,48,13
+BIOD48H3,BIOSC,Ornithology & Herpetology BIOD48H3-F-LEC01,Fall,2014,Weir,Jason,4.2,4.5,4.5,4.2,4.1,4.1,4.3,2.9,4.5,20,13

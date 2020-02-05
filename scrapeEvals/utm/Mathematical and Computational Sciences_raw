@@ -1,0 +1,771 @@
+CSC108H5,MCS,Intro to Comp Prog CSC108H5-F-LEC0101,Petersen,Andrew,Fall,2019,4.0,4.1,4.0,3.8,3.5,3.4,3.3,3.5,N/A,3.7,146,58
+CSC108H5,MCS,Intro to Comp Prog CSC108H5-F-LEC0102,Petersen,Andrew,Fall,2019,4.0,4.2,4.3,3.9,3.7,3.7,3.4,3.7,N/A,3.9,137,58
+CSC108H5,MCS,Intro to Comp Prog CSC108H5-F-LEC0103,Vrbik,Paul,Fall,2019,3.8,3.9,4.3,4.1,4.0,3.8,3.1,3.6,N/A,3.7,150,52
+CSC108H5,MCS,Intro to Comp Prog CSC108H5-F-LEC0105,Maccio,Vincent,Fall,2019,3.9,4.1,4.2,4.0,3.8,3.6,3.2,3.7,N/A,3.6,139,45
+CSC108H5,MCS,Intro to Comp Prog CSC108H5-F-LEC0106,Liut,Michael,Fall,2019,3.7,3.9,4.0,3.6,3.7,3.5,3.2,3.3,N/A,3.4,116,40
+CSC108H5,MCS,Intro to Comp Prog CSC108H5-F-LEC0107,Liut,Michael,Fall,2019,3.4,3.7,3.8,3.4,3.1,2.9,3.6,3.1,N/A,2.8,86,24
+CSC108H5,MCS,Intro to Comp Prog CSC108H5-F-LEC0108,Vrbik,Paul,Fall,2019,4.2,4.2,4.3,3.9,3.7,3.6,3.4,3.6,N/A,3.7,125,36
+CSC207H5,MCS,Software Design CSC207H5-F-LEC0101,Rosenbloom,Arnold,Fall,2019,3.7,3.9,3.3,3.7,3.7,3.0,3.9,3.2,N/A,3.6,123,40
+CSC207H5,MCS,Software Design CSC207H5-F-LEC0102,Zhang,Yueli,Fall,2019,4.0,4.0,3.5,3.7,3.5,3.0,4.2,3.4,N/A,3.5,107,27
+CSC207H5,MCS,Software Design CSC207H5-F-LEC0103,Zhang,Yueli,Fall,2019,3.7,3.7,3.6,3.5,3.4,3.0,4.2,2.9,N/A,3.3,109,29
+CSC207H5,MCS,Software Design CSC207H5-F-LEC0104,Dema,Ilir,Fall,2019,3.3,3.6,3.4,3.3,3.0,2.3,4.1,2.6,N/A,3.1,70,14
+CSC236H5,MCS,Intro Theory Computation CSC236H5-F-LEC0101,Dema,Ilir,Fall,2019,3.4,3.3,2.8,3.3,3.4,2.6,3.9,2.6,N/A,2.9,101,26
+CSC236H5,MCS,Intro Theory Computation CSC236H5-F-LEC0102,Zhang,Yueli,Fall,2019,4.0,4.0,4.1,3.4,3.4,3.4,3.7,2.9,N/A,3.6,112,24
+CSC236H5,MCS,Intro Theory Computation CSC236H5-F-LEC0103,Sharmin,Sadia,Fall,2019,3.8,3.8,4.1,3.3,3.1,3.5,3.5,3.1,N/A,3.3,114,30
+CSC236H5,MCS,Intro Theory Computation CSC236H5-F-LEC0104,Sharmin,Sadia,Fall,2019,4.1,3.8,4.7,3.4,3.1,3.3,3.4,2.9,N/A,2.7,90,17
+CSC290H5,MCS,Communication Skills for CSC CSC290H5-F-LEC0101,Zhang,Lisa,Fall,2019,3.3,3.5,4.2,3.2,3.4,3.2,3.2,2.9,N/A,2.8,90,27
+CSC290H5,MCS,Communication Skills for CSC CSC290H5-F-LEC0102,Zhang,Lisa,Fall,2019,3.1,3.5,3.9,3.3,3.5,3.2,3.1,3.1,N/A,2.7,89,34
+CSC324H5,MCS,Princpl Progr Languages CSC324H5-F-LEC0101,Zhang,Lisa,Fall,2019,4.3,4.1,4.4,3.9,3.9,3.8,3.9,3.4,N/A,3.4,68,28
+CSC324H5,MCS,Princpl Progr Languages CSC324H5-F-LEC0102,Zhang,Lisa,Fall,2019,4.0,4.1,4.3,3.9,3.7,3.8,3.7,3.5,N/A,3.4,65,31
+CSC343H5,MCS,Intro Database CSC343H5-F-LEC0101,Liut,Michael,Fall,2019,3.7,3.6,3.6,3.6,3.7,2.9,3.1,3.3,N/A,3.5,87,28
+CSC347H5,MCS,Intro to Information Security CSC347H5-F-LEC0101,Alaca,Furkan,Fall,2019,4.4,4.4,4.6,4.3,4.3,4.2,3.3,4.3,N/A,4.1,54,19
+CSC347H5,MCS,Intro to Information Security CSC347H5-F-LEC0102,Alaca,Furkan,Fall,2019,4.6,4.7,4.9,4.6,4.6,4.5,3.3,4.5,N/A,4.4,58,28
+CSC367H5,MCS,Parallel Programming CSC367H5-F-LEC0101,Simion,Bogdan,Fall,2019,4.3,4.6,4.5,4.6,4.5,4.2,4.3,3.9,N/A,4.1,54,18
+CSC369H5,MCS,Operating Systems CSC369H5-F-LEC0101,Simion,Bogdan,Fall,2019,4.2,4.6,4.2,4.4,4.3,3.8,4.7,3.7,N/A,4.2,68,16
+CSC369H5,MCS,Operating Systems CSC369H5-F-LEC0102,Simion,Bogdan,Fall,2019,4.2,4.5,4.3,4.3,4.4,4.1,4.5,3.4,N/A,3.6,45,16
+CSC373H5,MCS,Algorithm Design and Analysis CSC373H5-F-LEC0101,Maccio,Vincent,Fall,2019,4.7,4.5,4.8,4.3,4.1,4.4,3.0,4.4,N/A,4.2,71,23
+CSC373H5,MCS,Algorithm Design and Analysis CSC373H5-F-LEC0102,Maccio,Vincent,Fall,2019,4.6,4.6,4.8,4.4,4.2,4.5,3.0,4.4,N/A,4.0,51,21
+CSC376H5,MCS,Fundamentals of Robot Design CSC376H5-F-LEC0101,Burgner-Kahrs,Jessica,Fall,2019,4.6,4.7,4.5,4.6,4.5,3.9,3.9,3.5,N/A,3.6,17,11
+CSC409H5,MCS,Scalable Computing CSC409H5-F-LEC0101,Rosenbloom,Arnold,Fall,2019,4.2,4.3,4.2,4.2,4.2,3.9,3.9,3.9,N/A,3.9,39,13
+CSC411H5,MCS,Machine Learn & Data Mining CSC411H5-F-LEC0101,Bonner,Anthony,Fall,2019,4.0,3.5,2.7,3.9,3.9,2.7,4.0,3.0,N/A,3.4,53,19
+CSC411H5,MCS,Machine Learn & Data Mining CSC411H5-F-LEC0102,Bonner,Anthony,Fall,2019,3.8,4.1,2.6,4.2,4.0,2.6,3.6,2.9,N/A,3.4,50,21
+CSC420H5,MCS,Intro. to Image Understanding CSC420H5-F-LEC0101,Fidler,Sanja,Fall,2019,4.3,4.3,4.2,4.4,4.5,3.9,3.3,4.2,N/A,4.1,38,13
+CSC477H5,MCS,Intro to Mobile Robotics CSC477H5-F-LEC0101,Shkurti,Florian,Fall,2019,4.6,4.6,4.7,4.4,4.1,4.5,3.1,4.4,N/A,4.1,15,11
+MAT102H5,MCS,Intro to Mathem Proofs MAT102H5-F-LEC0101,Tvalavadze,Marina,Fall,2019,3.8,3.5,3.6,3.2,3.2,2.8,3.8,2.8,N/A,3.2,96,28
+MAT102H5,MCS,Intro to Mathem Proofs MAT102H5-F-LEC0102,Fuchs,Shay,Fall,2019,3.9,3.9,4.5,3.6,3.6,3.3,4.1,2.7,N/A,3.3,107,46
+MAT102H5,MCS,Intro to Mathem Proofs MAT102H5-F-LEC0103,Askaripour,Nadya,Fall,2019,4.1,4.1,4.0,3.8,3.8,3.3,3.9,3.0,N/A,3.4,99,36
+MAT102H5,MCS,Intro to Mathem Proofs MAT102H5-F-LEC0104,Tvalavadze,Marina,Fall,2019,4.1,4.0,3.9,3.2,3.4,3.1,4.3,2.8,N/A,3.1,108,31
+MAT102H5,MCS,Intro to Mathem Proofs MAT102H5-F-LEC0105,Wang,Xinli,Fall,2019,3.7,3.9,4.0,3.5,3.4,3.4,3.6,3.0,N/A,3.2,105,34
+MAT102H5,MCS,Intro to Mathem Proofs MAT102H5-F-LEC0106,Burazin,Andrijana,Fall,2019,3.5,3.6,4.3,3.3,3.6,3.4,3.9,2.8,N/A,3.3,99,19
+MAT102H5,MCS,Intro to Mathem Proofs MAT102H5-F-LEC0107,Pawliuk,Micheal,Fall,2019,4.2,3.8,4.4,3.7,3.6,3.7,3.6,2.8,N/A,3.3,87,22
+MAT132H5,MCS,Differential Calculus Life Sci MAT132H5-F-LEC0101,Rennet,Alexander,Fall,2019,3.4,3.4,4.3,3.4,3.4,3.2,3.6,3.0,N/A,2.6,126,87
+MAT132H5,MCS,Differential Calculus Life Sci MAT132H5-F-LEC0102,Vrbik,Paul,Fall,2019,3.5,3.5,4.0,3.7,3.7,3.3,3.9,3.0,N/A,2.8,121,53
+MAT132H5,MCS,Differential Calculus Life Sci MAT132H5-F-LEC0103,Fuchs,Shay,Fall,2019,3.7,3.8,4.2,3.7,3.6,3.5,3.8,3.3,N/A,3.0,127,77
+MAT132H5,MCS,Differential Calculus Life Sci MAT132H5-F-LEC0105,Tvalavadze,Marina,Fall,2019,3.1,2.9,3.0,3.1,3.3,2.5,3.6,2.6,N/A,2.3,89,38
+MAT132H5,MCS,Differential Calculus Life Sci MAT132H5-F-LEC0106,Mousavidehshikh,Ali,Fall,2019,3.8,3.7,4.5,3.6,3.7,3.5,3.6,3.2,N/A,2.9,127,80
+MAT135H5,MCS,Differential Calculus MAT135H5-F-LEC0102,Gamse,Elisheva,Fall,2019,4.0,4.1,4.4,4.0,4.1,3.8,3.2,3.7,N/A,3.3,126,36
+MAT135H5,MCS,Differential Calculus MAT135H5-F-LEC0103,Burazin,Andrijana,Fall,2019,4.1,4.3,4.7,4.3,4.3,4.1,3.1,4.0,N/A,3.5,128,41
+MAT135H5,MCS,Differential Calculus MAT135H5-F-LEC0104,Gamse,Elisheva,Fall,2019,3.4,3.1,4.0,4.0,4.0,3.4,2.9,3.5,N/A,3.2,127,36
+MAT135H5,MCS,Differential Calculus MAT135H5-F-LEC0106,Kudriashov,Iurii,Fall,2019,3.3,3.2,2.6,3.6,3.5,2.6,3.1,3.3,N/A,3.1,122,41
+MAT135H5,MCS,Differential Calculus MAT135H5-F-LEC0107,Wesslen,Maria,Fall,2019,3.9,4.2,4.6,4.2,4.3,4.1,3.0,4.1,N/A,3.4,132,51
+MAT135H5,MCS,Differential Calculus MAT135H5-F-LEC0108,Stern,Daniel,Fall,2019,3.6,3.6,3.9,3.9,4.2,3.4,2.8,3.8,N/A,2.9,125,35
+MAT135H5,MCS,Differential Calculus MAT135H5-F-LEC0109,Setayesh,Iman,Fall,2019,3.8,3.8,4.1,3.9,4.0,3.4,3.1,3.5,N/A,3.3,121,37
+MAT135H5,MCS,Differential Calculus MAT135H5-F-LEC0110,Murray,Scott,Fall,2019,3.3,3.4,3.8,3.4,3.8,3.3,3.1,3.7,N/A,3.0,121,44
+MAT135H5,MCS,Differential Calculus MAT135H5-F-LEC0111,Shen,Shiyu,Fall,2019,3.2,3.4,3.1,3.8,3.8,3.0,3.3,3.1,N/A,2.7,116,38
+MAT135H5,MCS,Differential Calculus MAT135H5-F-LEC0113,Askaripour,Nadya,Fall,2019,3.5,3.7,3.9,3.7,3.8,3.5,3.1,3.5,N/A,3.1,126,44
+MAT135H5,MCS,Differential Calculus MAT135H5-F-LEC0114,Wang,Xinli,Fall,2019,3.5,3.7,3.9,3.8,3.9,3.5,3.0,3.4,N/A,3.4,121,30
+MAT202H5,MCS,Intro to Discrete Mathematics MAT202H5-F-LEC0101,Yusun,Timothy,Fall,2019,4.3,4.5,4.7,4.3,4.3,4.1,2.9,4.1,N/A,3.8,88,36
+MAT223H5,MCS,Linear Algebra I MAT223H5-F-LEC0101,Gamse,Elisheva,Fall,2019,3.5,3.8,3.6,3.7,3.7,3.1,3.6,3.5,N/A,3.4,116,26
+MAT223H5,MCS,Linear Algebra I MAT223H5-F-LEC0103,Thind,Jaimal,Fall,2019,3.6,3.9,4.1,3.9,3.8,3.5,3.4,3.9,N/A,3.5,112,32
+MAT223H5,MCS,Linear Algebra I MAT223H5-F-LEC0104,Pawliuk,Micheal,Fall,2019,3.5,3.4,3.6,3.5,3.6,3.2,3.6,3.4,N/A,3.4,101,18
+MAT223H5,MCS,Linear Algebra I MAT223H5-F-LEC0105,Herman,Jonathan,Fall,2019,4.1,4.4,4.7,4.4,4.3,4.2,3.2,4.1,N/A,3.9,117,49
+MAT224H5,MCS,Linear Algebra II MAT224H5-F-LEC0101,Weiss,William,Fall,2019,3.4,3.1,3.3,3.1,3.4,2.6,3.2,2.7,N/A,2.7,102,27
+MAT232H5,MCS,Calculus of Several Variables MAT232H5-F-LEC0101,Pawliuk,Micheal,Fall,2019,3.6,3.6,4.0,3.5,3.7,3.4,2.8,3.5,N/A,3.3,102,26
+MAT232H5,MCS,Calculus of Several Variables MAT232H5-F-LEC0102,Weiss,William,Fall,2019,3.7,4.0,3.7,3.7,3.7,3.6,2.9,3.4,N/A,3.9,82,27
+MAT232H5,MCS,Calculus of Several Variables MAT232H5-F-LEC0103,Glynn-Adey,Parker,Fall,2019,3.6,3.8,4.3,3.5,3.4,3.5,2.9,3.3,N/A,3.1,101,50
+MAT232H5,MCS,Calculus of Several Variables MAT232H5-F-LEC0104,Zhang,Lei,Fall,2019,3.7,3.7,2.8,3.0,3.0,3.2,2.5,3.2,N/A,2.9,75,18
+MAT233H5,MCS,Calculus of Several Variables MAT233H5-F-LEC0101,Yusun,Timothy,Fall,2019,4.2,4.3,4.7,4.4,4.2,4.0,3.4,3.7,N/A,3.9,60,18
+MAT236H5,MCS,Vector Calculus MAT236H5-F-LEC0101,De Simoi,Jacopo,Fall,2019,3.7,3.8,3.4,3.6,3.7,3.3,3.5,3.2,N/A,3.2,63,17
+MAT244H5,MCS,Differential Equations I MAT244H5-F-LEC0101,Goncharuk,Nataliia,Fall,2019,3.4,3.6,3.0,3.6,3.8,3.0,3.3,2.9,N/A,3.0,107,29
+MAT247H5,MCS,Algebra II MAT247H5-F-LEC0101,Thind,Jaimal,Fall,2019,4.9,4.6,4.8,4.3,4.6,4.5,4.2,3.9,N/A,4.3,18,13
+MAT301H5,MCS,Groups and Symmetries MAT301H5-F-LEC0101,Mousavidehshikh,Ali,Fall,2019,3.9,3.9,4.4,3.9,3.8,3.4,3.5,3.3,N/A,3.3,71,29
+MAT301H5,MCS,Groups and Symmetries MAT301H5-F-LEC0102,Mousavidehshikh,Ali,Fall,2019,4.1,4.2,4.4,4.3,4.2,3.9,3.4,3.4,N/A,4.0,55,21
+MAT309H5,MCS,Intro to Math Logic MAT309H5-F-LEC0101,Rennet,Alexander,Fall,2019,5.0,5.0,5.0,4.7,4.8,4.3,4.0,4.2,N/A,5.0,9,6
+MAT315H5,MCS,Intro to Number Theory MAT315H5-F-LEC0101,Shankar,Arul,Fall,2019,4.2,4.0,4.4,4.5,4.2,4.2,3.1,4.1,N/A,4.1,38,11
+MAT332H5,MCS,Intro Nonlin Dynamics & Chaos MAT332H5-F-LEC0101,Akurugodage,Buddhima,Fall,2019,4.3,4.6,4.5,4.5,4.5,4.0,3.9,3.8,N/A,3.8,23,22
+MAT334H5,MCS,Complex Variables MAT334H5-F-LEC0102,Yampolsky,Michael,Fall,2019,4.1,4.3,4.3,4.3,4.3,3.6,3.4,3.2,N/A,3.7,50,12
+MAT337H5,MCS,Introduction to Real Analysis MAT337H5-F-LEC0101,Liokumovich,Yevgeny,Fall,2019,4.1,4.2,4.3,4.3,4.1,4.1,3.8,3.6,N/A,4.1,36,16
+MAT344H5,MCS,Intro Combinatorics MAT344H5-F-LEC0101,Shankar,Arul,Fall,2019,3.6,3.5,3.7,3.5,3.2,3.2,3.3,3.1,N/A,3.3,89,21
+MAT382H5,MCS,Mathematics for Teachers MAT382H5-F-LEC0101,Wesslen,Maria,Fall,2019,4.4,4.9,5.0,4.7,4.8,4.9,3.0,4.9,N/A,4.0,22,9
+MAT388H5,MCS,Topics in Mathematics MAT388H5-F-LEC0101,Yampolsky,Michael,Fall,2019,3.8,3.5,3.1,3.6,3.4,2.8,2.8,3.5,N/A,2.9,58,13
+MAT402H5,MCS,Classical Geometries MAT402H5-F-LEC0101,Groechenig,Michael,Fall,2019,3.8,3.9,3.4,3.8,3.4,3.1,3.8,3.2,N/A,3.4,43,16
+MAT406H5,MCS,Math Intro to Game Theory MAT406H5-F-LEC0101,Binder,Ilia,Fall,2019,4.6,4.5,4.5,4.3,4.4,4.2,3.6,3.5,N/A,3.8,16,11
+STA215H5,MCS,Intro to Applied Statistics STA215H5-F-LEC0101,Thinniyam,Ramya,Fall,2019,2.6,2.7,2.4,2.9,2.7,2.2,3.2,2.0,N/A,1.8,220,86
+STA215H5,MCS,Intro to Applied Statistics STA215H5-F-LEC0102,Weir,Alison,Fall,2019,3.0,3.4,3.3,3.6,3.5,2.8,3.0,2.8,N/A,2.6,174,57
+STA215H5,MCS,Intro to Applied Statistics STA215H5-F-LEC0103,Thinniyam,Ramya,Fall,2019,2.8,3.3,3.1,3.3,3.2,2.7,3.2,2.6,N/A,2.4,217,83
+STA218H5,MCS,Statistics for Management STA218H5-F-LEC0101,Nosedal Sanchez,Alvaro,Fall,2019,4.4,4.7,4.9,4.6,4.7,4.4,3.3,4.4,N/A,4.0,47,14
+STA220H5,MCS,The Practice of Statistics I STA220H5-F-LEC0101,Fraser,Olga,Fall,2019,2.8,3.3,2.9,3.7,3.9,2.7,3.4,2.8,N/A,2.7,42,11
+STA220H5,MCS,The Practice of Statistics I STA220H5-F-LEC0102,Fraser,Olga,Fall,2019,3.1,3.7,3.4,3.6,3.7,3.2,2.9,3.9,N/A,2.3,30,10
+STA256H5,MCS,Probability and Statistics I STA256H5-F-LEC0101,Brunner,Lawrence,Fall,2019,3.6,3.6,3.6,3.5,3.5,3.0,3.2,2.8,N/A,3.0,227,47
+STA256H5,MCS,Probability and Statistics I STA256H5-F-LEC0102,Al Labadi,Luai,Fall,2019,3.4,3.3,3.6,3.3,3.1,2.7,3.8,2.6,N/A,2.8,221,47
+STA256H5,MCS,Probability and Statistics I STA256H5-F-LEC0103,Thinniyam,Ramya,Fall,2019,3.2,3.3,2.9,2.9,3.0,2.6,3.7,2.5,N/A,2.8,209,55
+STA258H5,MCS,Statistics with Prob STA258H5-F-LEC0101,Weir,Alison,Fall,2019,3.4,3.9,3.1,3.4,3.2,2.7,3.0,2.8,N/A,3.4,128,18
+STA302H5,MCS,Regression Analysis STA302H5-F-LEC0101,Nosedal Sanchez,Alvaro,Fall,2019,3.8,3.9,4.0,3.5,3.5,3.4,2.9,3.3,N/A,3.5,101,20
+STA304H5,MCS,Surveys  Sampl & Observat Data STA304H5-F-LEC0101,Al Labadi,Luai,Fall,2019,4.1,4.3,4.5,4.2,4.3,4.0,2.9,4.1,N/A,4.1,121,31
+STA304H5,MCS,Surveys  Sampl & Observat Data STA304H5-F-LEC0102,Al Labadi,Luai,Fall,2019,3.8,4.1,4.3,4.4,4.2,3.9,3.0,4.1,N/A,3.9,123,26
+STA314H5,MCS,Intro to Statistical Learning STA314H5-F-LEC0101,Volgushev,Stanislav,Fall,2019,4.3,4.2,4.0,4.4,3.9,3.3,3.1,3.8,N/A,4.7,84,10
+STA348H5,MCS,Intro Stochastic Processes STA348H5-F-LEC0101,Weir,Alison,Fall,2019,4.2,4.5,4.5,3.7,4.0,4.0,2.8,3.8,N/A,4.2,27,6
+MAT224H5,MCS,Linear Algebra II MAT224H5-S-LEC0101,Loseu,Ivan,Winter,2019,3.7,3.7,4,3.5,3.7,3.1,3.4,3.1,N/A,3.1,77,17
+MAT224H5,MCS,Linear Algebra II MAT224H5-S-LEC0102,Loseu,Ivan,Winter,2019,3.8,3.9,4.2,3.9,3.9,3.5,3.1,3.6,N/A,2.9,73,16
+CSC363H5,MCS,Comput Complex & Comput CSC363H5-S-LEC0101,Maccio,Vincent,Winter,2019,4.4,4.5,4.7,4.4,4.2,4.2,2.9,3.8,N/A,3.5,84,21
+CSC363H5,MCS,Comput Complex & Comput CSC363H5-S-LEC0102,Maccio,Vincent,Winter,2019,4.2,4.4,4.4,3.7,3.9,4.1,3,3.5,N/A,3.8,68,14
+MAT134Y5,MCS,Calculus for Life Sciences MAT134Y5-Y-LEC0105,Mousavidehshikh,Ali,Winter,2019,3.2,3.1,3.8,2.9,3,2.6,4.1,2.3,N/A,2,91,53
+MAT301H5,MCS,Groups and Symmetries MAT301H5-S-LEC0101,Mousavidehshikh,Ali,Winter,2019,4,4.1,4.2,3.7,3.7,3.3,4,3.4,N/A,3.2,55,13
+MAT301H5,MCS,Groups and Symmetries MAT301H5-S-LEC0102,Mousavidehshikh,Ali,Winter,2019,3.9,3.5,3.6,3.7,3.8,3.6,3.6,3.5,N/A,3.4,66,11
+MAT102H5,MCS,Intro to Mathem Proofs MAT102H5-S-LEC0105,Mousavidehshikh,Ali,Winter,2019,4.4,4.3,4.6,4.2,4.2,4.1,3.4,3.6,N/A,3.5,111,38
+STA457H5,MCS,Applied Time Series Anls STA457H5-S-LEC0101,Nosedal Sanchez,Alvaro,Winter,2019,4.1,4,4.6,4.2,4.2,4,3,3.9,N/A,3.8,27,9
+MAT102H5,MCS,Intro to Mathem Proofs MAT102H5-S-LEC0102,Pawliuk,Micheal,Winter,2019,4.1,4.1,4.5,4.2,4.1,4.2,3.4,3.6,N/A,3.6,73,16
+MAT223H5,MCS,Linear Algebra I MAT223H5-S-LEC0103,Pawliuk,Micheal,Winter,2019,4,4,4.2,3.7,3.9,3.7,3.3,3.4,N/A,3.4,110,20
+MAT224H5,MCS,Linear Algebra II MAT224H5-S-LEC0103,Pawliuk,Micheal,Winter,2019,4.4,4.4,4.4,4.3,4.1,4.1,3.6,3.9,N/A,4.6,36,7
+MAT134Y5,MCS,Calculus for Life Sciences MAT134Y5-Y-LEC0102,Rennet,Alexander,Winter,2019,2.9,2.7,3.6,2.7,2.8,2.2,4,1.9,N/A,1.8,102,58
+MAT344H5,MCS,Intro Combinatorics MAT344H5-S-LEC0101,Rennet,Alexander,Winter,2019,4.5,4.5,4.4,4,4,4.3,3.3,3.7,N/A,3.8,54,32
+MAT223H5,MCS,Linear Algebra I MAT223H5-S-LEC0101,Rennet,Alexander,Winter,2019,3.7,3.9,4.2,3.9,4,3.7,3.3,3.6,N/A,3.5,117,40
+CSC309H5,MCS,Programming on the Web CSC309H5-S-LEC0101,Rosenbloom,Arnold,Winter,2019,4.5,4.6,4.1,4.7,4.6,3.9,4.5,3.5,N/A,4.4,55,12
+CSC309H5,MCS,Programming on the Web CSC309H5-S-LEC0102,Rosenbloom,Arnold,Winter,2019,4.6,4.1,3.8,4.6,4.3,3.7,4.8,3.6,N/A,4,32,11
+CSC263H5,MCS,Data Struct Analys CSC263H5-S-LEC0102,Sachdeva,Sushant,Winter,2019,4.4,4.4,4.5,3.8,3.8,3.4,3.7,3.4,N/A,3.8,37,19
+CSC108H5,MCS,Intro to Comp Prog CSC108H5-S-LEC0101,Sharmin,Sadia,Winter,2019,4.5,4.4,4.7,4.4,4.5,4.3,3.2,4.1,N/A,4.1,154,41
+CSC108H5,MCS,Intro to Comp Prog CSC108H5-S-LEC0102,Sharmin,Sadia,Winter,2019,4.2,4.4,4.7,4.5,4.4,4.3,3.1,4.2,N/A,4.1,156,36
+CSC148H5,MCS,Intro to Comp Science CSC148H5-S-LEC0103,Sharmin,Sadia,Winter,2019,3.8,3.7,3.6,3.4,3.3,3,3.6,3,N/A,3.5,138,45
+CSC148H5,MCS,Intro to Comp Science CSC148H5-S-LEC0101,Simion,Bogdan,Winter,2019,4.3,4.3,4.1,4,3.7,3.7,3.5,3.6,N/A,3.9,109,49
+CSC148H5,MCS,Intro to Comp Science CSC148H5-S-LEC0102,Simion,Bogdan,Winter,2019,4,4.2,4.1,3.9,3.5,3.5,3.7,3.6,N/A,3.8,136,54
+CSC148H5,MCS,Intro to Comp Science CSC148H5-S-LEC0105,Simion,Bogdan,Winter,2019,3.9,4.3,4.2,4,4,3.7,3.7,3.5,N/A,4,137,41
+MAT302H5,MCS,Intro Algebraic Cryptography MAT302H5-S-LEC0101,Tanase,Raluca,Winter,2019,4.2,4.5,4.3,4.3,4.2,3.7,3.1,4.1,N/A,4.1,39,15
+MAT240H5,MCS,Algebra I MAT240H5-S-LEC0101,Thind,Jaimal,Winter,2019,4.7,4.6,4.3,4.4,4.3,4.1,4.8,3.8,N/A,4.3,38,16
+MAT137Y5,MCS,Calculus MAT137Y5-Y-LEC0101,Thind,Jaimal,Winter,2019,4.4,4.5,4.8,3.9,3.8,3.8,3.9,3.1,N/A,4,51,17
+MAT223H5,MCS,Linear Algebra I MAT223H5-S-LEC0104,Thind,Jaimal,Winter,2019,4,4,4.6,3.9,4,3.9,3.3,3.6,N/A,3.5,126,44
+STA305H5,MCS,Experimental Design STA305H5-S-LEC0101,Thinniyam,Ramya,Winter,2019,3.6,4.4,5,4.1,4.4,3.9,3,4.4,N/A,3.8,33,8
+STA305H5,MCS,Experimental Design STA305H5-S-LEC0102,Thinniyam,Ramya,Winter,2019,4.2,4.5,4.5,4.3,4.5,3.9,3.2,4.1,N/A,3.9,62,13
+MAT134Y5,MCS,Calculus for Life Sciences MAT134Y5-Y-LEC0104,Tvalavadze,Marina,Winter,2019,2.9,2.5,2.8,2.7,2.6,2,4.1,2.1,N/A,1.8,84,32
+MAT102H5,MCS,Intro to Mathem Proofs MAT102H5-S-LEC0104,Tvalavadze,Marina,Winter,2019,3.8,4.1,3.7,3.8,3.8,3.5,3.5,2.9,N/A,3.2,113,25
+MAT134Y5,MCS,Calculus for Life Sciences MAT134Y5-Y-LEC0101,Vrbik,Paul,Winter,2019,3.5,3.2,4,3.2,3.3,2.7,3.8,2.4,N/A,2.3,83,33
+CSC209H5,MCS,Soft Tools & Sys Prog CSC209H5-S-LEC0102,Vrbik,Paul,Winter,2019,4.4,4.3,4.3,4.1,3.9,3.8,4.4,3.8,N/A,4,73,24
+CSC209H5,MCS,Soft Tools & Sys Prog CSC209H5-S-LEC0104,Vrbik,Paul,Winter,2019,4.6,4.6,4.1,4.5,4.4,4.1,4.6,4,N/A,4.1,60,15
+MAT102H5,MCS,Intro to Mathem Proofs MAT102H5-S-LEC0101,Wang,Xinli,Winter,2019,4,3.9,4,3.8,3.6,3.6,3.5,3,N/A,3,113,32
+MAT223H5,MCS,Linear Algebra I MAT223H5-S-LEC0102,Wang,Xinli,Winter,2019,3.6,3.7,4.1,3.4,3.6,3.3,3.4,3.2,N/A,3.2,112,30
+STA310H5,MCS,Bayesian Statis in Foren Sci STA310H5-S-LEC0101,Weir,Alison,Winter,2019,3.1,3.2,3,2.8,3,2.6,3.2,2.7,N/A,2.9,113,23
+STA107H5,MCS,Intro Probability & Modelling STA107H5-S-LEC0102,Weir,Alison,Winter,2019,2.9,3,2.8,3,2.9,2.5,2.7,2.7,N/A,2.8,202,37
+STA258H5,MCS,Statistics with Prob STA258H5-S-LEC0101,Weir,Alison,Winter,2019,2.8,3,2.7,2.5,2.6,2.4,3.4,2.7,N/A,2.8,86,18
+MAT135Y5,MCS,Calculus MAT135Y5-Y-LEC0107,Wesslen,Maria,Winter,2019,4,4.4,4.4,4.1,4.2,4.1,3.5,3.8,N/A,3.6,115,35
+MAT202H5,MCS,Intro to Discrete Mathematics MAT202H5-S-LEC0101,Xiao,Stanley,Winter,2019,3.4,2.9,2.8,2.8,3,2.3,3.5,2.5,N/A,2.7,63,19
+STA107H5,MCS,Intro Probability & Modelling STA107H5-S-LEC0103,Yu,Dengdeng,Winter,2019,3.7,3.6,4,3.7,3.7,3.5,2.8,3.7,N/A,3.7,156,25
+MAT133Y5,MCS,Cal Lin Alg Commerce MAT133Y5-Y-LEC0105,Yusun,Timothy,Winter,2019,3.9,3.8,4.6,3.5,3.4,3.2,3.9,3,N/A,2.9,92,28
+MAT135Y5,MCS,Calculus MAT135Y5-Y-LEC0105,Yusun,Timothy,Winter,2019,3.8,4,4.4,3.8,3.7,3.7,3.3,3.4,N/A,3.4,116,42
+CSC290H5,MCS,Communication Skills for CSC CSC290H5-S-LEC0101,Zhang,Lisa,Winter,2019,2.9,3.2,3.7,3.1,3.3,2.9,3.5,2.8,N/A,2.7,112,44
+CSC338H5,MCS,Numerical Methods CSC338H5-S-LEC0101,Zhang,Lisa,Winter,2019,3.7,3.9,4.3,4.2,4.1,3.6,3.4,3.1,N/A,3.1,60,34
+MAT236H5,MCS,Vector Calculus MAT236H5-S-LEC0101,Zhang,Lei,Winter,2019,3.7,3.8,3.8,3.9,3.9,3.3,3.3,3.3,N/A,3.5,67,23
+MAT311H5,MCS,Partial Diff Equatns MAT311H5-S-LEC0101,Zhang,Ke,Winter,2019,4.2,3.8,4.2,4,4.3,3.8,3.2,3.8,N/A,3.7,36,9
+CSC358H5,MCS,Computer Networks Principles CSC358H5-S-LEC0101,Zhang,Yueli,Winter,2019,4.1,4.1,3.9,3.9,3.9,3.6,3.9,3.1,N/A,3.9,74,15
+CSC258H5,MCS,Computer Organization CSC258H5-S-LEC0101,Zhang,Yueli,Winter,2019,4.1,4.3,4.3,4.2,4.3,4.1,3.2,3.8,N/A,4,162,34
+CSC258H5,MCS,Computer Organization CSC258H5-S-LEC0102,Zhang,Yueli,Winter,2019,4.3,4.3,4.2,4.5,4.4,4.1,3.4,3.9,N/A,3.9,159,40
+CSC263H5,MCS,Data Struct Analys CSC263H5-S-LEC0101,Zingaro,Daniel,Winter,2019,4.3,4.3,4.3,3.9,3.9,3.4,3.9,3.8,N/A,3.9,96,37
+CSC263H5,MCS,Data Struct Analys CSC263H5-S-LEC0103,Zingaro,Daniel,Winter,2019,4.2,4.1,4.1,3.9,3.6,3.8,3.5,3.5,N/A,3.9,60,13
+MAT232H5,MCS,Calculus of Several Variables MAT232H5-F-LEC0102,Glynn-Adey,Parker,Fall,2018,3.9,4,4.6,4.1,4.1,4.1,3,3.7,N/A,3.4,93,48
+CSC347H5,MCS,Intro to Information Security CSC347H5-F-LEC0101,Alaca,Furkan,Fall,2018,4.4,4.3,4.4,4.5,4.4,4.1,3.4,4.2,N/A,4,73,35
+CSC207H5,MCS,Software Design CSC207H5-F-LEC0102,Alaca,Furkan,Fall,2018,3.5,3.7,4,3.2,3.1,3,3.6,2.9,N/A,3.4,82,22
+MAT233H5,MCS,Calculus of Several Variables MAT233H5-F-LEC0101,Askaripour,Nadya,Fall,2018,4.4,4.3,4.6,4.5,4.4,4.2,3.6,3.9,N/A,4.2,39,11
+MAT402H5,MCS,Classical Geometries MAT402H5-F-LEC0101,Bibilo,Yulia,Fall,2018,2.8,3.1,3.2,3.6,3.4,2.8,3.3,2.6,N/A,2.4,55,19
+MAT337H5,MCS,Introduction to Real Analysis MAT337H5-F-LEC0101,Binder,Ilia,Fall,2018,3.7,3.5,4.3,3.3,3.3,2.9,4.2,2.7,N/A,2.8,24,12
+MAT406H5,MCS,Math Intro to Game Theory MAT406H5-F-LEC0101,Binder,Ilia,Fall,2018,4.6,4.6,4.7,4.2,4.2,3.8,4.4,3.9,N/A,4,20,9
+CSC411H5,MCS,Machine Learn & Data Mining CSC411H5-F-LEC0101,Bonner,Anthony,Fall,2018,3.8,3.7,3.2,4,3.8,2.9,3.8,3.2,N/A,3.5,82,33
+STA256H5,MCS,Probability and Statistics I STA256H5-F-LEC0101,Brunner,Lawrence,Fall,2018,3.7,3.7,3.8,3.7,3.6,3.2,3.4,2.9,N/A,2.9,165,44
+STA215H5,MCS,Intro to Applied Statistics STA215H5-F-LEC0101,Caetano,Samantha-Jo,Fall,2018,4,4.3,4.7,4.3,4.4,4.1,3.1,4,N/A,3.3,205,104
+STA215H5,MCS,Intro to Applied Statistics STA215H5-F-LEC0103,Caetano,Samantha-Jo,Fall,2018,3.8,4.1,4.6,4.2,4.1,4,3,3.9,N/A,3.2,198,81
+CSC108H5,MCS,Intro to Comp Prog CSC108H5-F-LEC0104,Dema,Ilir,Fall,2018,3.6,3.7,3.3,3.4,3.5,3.1,3,3.5,N/A,3.4,163,53
+CSC236H5,MCS,Intro Theory Computation CSC236H5-F-LEC0101,Dema,Ilir,Fall,2018,3.6,3.6,2.7,3.2,3,2.7,3.5,2.7,N/A,2.9,112,33
+CSC236H5,MCS,Intro Theory Computation CSC236H5-F-LEC0102,Dema,Ilir,Fall,2018,3.4,3.6,2.8,3.1,3.1,2.4,3.6,2.4,N/A,3,112,32
+CSC108H5,MCS,Intro to Comp Prog CSC108H5-F-LEC0106,Dema,Ilir,Fall,2018,3.1,3,3.2,3.1,3.4,2.8,2.9,3.1,N/A,3.1,106,26
+CSC333H5,MCS,Forensic Computing CSC333H5-F-LEC0101,Duquette,Ryan,Fall,2018,4.6,4.6,4.4,4.3,4.6,4.6,2.7,4.5,N/A,4.1,28,11
+STA304H5,MCS,Surveys Sampl & Observat Data STA304H5-F-LEC0101,Entezari,Reihaneh,Fall,2018,1.8,2,1.5,2.4,2.4,1.7,2.8,2.2,N/A,1.9,114,34
+STA304H5,MCS,Surveys Sampl & Observat Data STA304H5-F-LEC0102,Entezari,Reihaneh,Fall,2018,2,2.2,1.8,2.5,2.6,1.8,3,2,N/A,1.8,61,16
+STA220H5,MCS,The Practice of Statistics I STA220H5-F-LEC0101,Fraser,Olga,Fall,2018,3.2,3.3,3.3,3.4,3.6,3.1,3,3.1,N/A,2.8,33,12
+STA220H5,MCS,The Practice of Statistics I STA220H5-F-LEC0102,Fraser,Olga,Fall,2018,2.7,2.9,2.5,3.3,3.6,2.8,3.2,3.2,N/A,2.3,32,10
+MAT102H5,MCS,Intro to Mathem Proofs MAT102H5-F-LEC0103,Fuchs,Shay,Fall,2018,4.4,4.4,4.6,4.1,4.1,3.9,3.8,3.1,N/A,3.4,122,58
+MAT102H5,MCS,Intro to Mathem Proofs MAT102H5-F-LEC0102,Fuchs,Shay,Fall,2018,4.2,4.3,4.4,4,3.9,3.7,3.4,3.3,N/A,3.5,113,47
+MAT223H5,MCS,Linear Algebra I MAT223H5-F-LEC0105,Herman,Jonathan,Fall,2018,4.1,4.3,4.3,4,4.1,3.9,3.5,3.9,N/A,3.6,114,26
+MAT223H5,MCS,Linear Algebra I MAT223H5-F-LEC0104,Holden,Tyler,Fall,2018,4.4,4.5,4.7,4.2,3.9,4.2,3.2,4,N/A,3.6,102,39
+MAT202H5,MCS,Intro to Discrete Mathematics MAT202H5-F-LEC0101,Leguil,Martin,Fall,2018,2.8,2.8,2.5,2.7,2.5,2.2,3.7,2.5,N/A,2.7,69,22
+CSC108H5,MCS,Intro to Comp Prog CSC108H5-F-LEC0105,Liut,Michael,Fall,2018,3.7,3.7,3.7,3.8,3.7,3.3,3,3.6,N/A,3.7,142,57
+CSC343H5,MCS,Intro Database CSC343H5-F-LEC0101,Liut,Michael,Fall,2018,3.3,3.9,3.4,4,3.9,3.1,3,3.2,N/A,2.9,86,28
+CSC108H5,MCS,Intro to Comp Prog CSC108H5-F-LEC0103,Maccio,Vincent,Fall,2018,3.9,4,4.3,3.8,3.8,3.7,3,3.9,N/A,3.9,163,63
+CSC373H5,MCS,Algorithm Design and Analysis CSC373H5-F-LEC0102,Maccio,Vincent,Fall,2018,4.5,4.4,4.7,4.1,4.2,4.3,3.1,4,N/A,3.7,63,24
+CSC373H5,MCS,Algorithm Design and Analysis CSC373H5-F-LEC0101,Maccio,Vincent,Fall,2018,4.5,4.5,4.4,4,4.2,4,3,4,N/A,3.8,68,21
+MAT301H5,MCS,Groups and Symmetries MAT301H5-F-LEC0101,Mousavidehshikh,Ali,Fall,2018,4,4.1,4.1,3.8,3.9,3.7,3.7,3.3,N/A,3.6,87,39
+STA218H5,MCS,Statistics for Management STA218H5-F-LEC0101,Nosedal Sanchez,Alvaro,Fall,2018,4,4.3,4.8,4,4.2,4.2,3.3,4,N/A,3.8,51,23
+STA302H5,MCS,Regression Analysis STA302H5-F-LEC0101,Nosedal Sanchez,Alvaro,Fall,2018,3.6,3.6,4,3,3,2.8,3.3,3,N/A,3.5,82,23
+MAT244H5,MCS,Differential Equations I MAT244H5-F-LEC0102,Radu,Remus,Fall,2018,4,4.1,4.3,4.4,4.4,4.1,3.3,4.1,N/A,3.8,86,30
+MAT244H5,MCS,Differential Equations I MAT244H5-F-LEC0101,Radu,Remus,Fall,2018,3.5,3.8,4,4,4,3.3,3.3,3.1,N/A,3.1,78,23
+MAT344H5,MCS,Intro Combinatorics MAT344H5-F-LEC0101,Rennet,Alexander,Fall,2018,3.9,3.9,3.8,3.3,3.1,3.1,4,3.1,N/A,3.5,63,15
+CSC207H5,MCS,Software Design CSC207H5-F-LEC0101,Rosenbloom,Arnold,Fall,2018,4.1,4.3,3.9,3.8,3.5,3.2,3.8,3.5,N/A,3.8,124,56
+CSC409H5,MCS,Scalable Computing CSC409H5-F-LEC0101,Rosenbloom,Arnold,Fall,2018,4.3,4.3,4,3.9,3.7,3.1,3.6,4,N/A,4.3,23,7
+MAT315H5,MCS,Intro to Number Theory MAT315H5-F-LEC0101,Shankar,Arul,Fall,2018,3.6,3.8,4.3,4,3.9,3.6,3,3.5,N/A,3.4,32,8
+CSC236H5,MCS,Intro Theory Computation CSC236H5-F-LEC0104,Sharmin,Sadia,Fall,2018,3.5,3.6,4.2,2.9,2.6,2.7,3.9,2.6,N/A,2.8,103,29
+CSC369H5,MCS,Operating Systems CSC369H5-F-LEC0102,Simion,Bogdan,Fall,2018,4.3,4.6,4.3,4.4,4,4,4.8,3.7,N/A,3.8,55,24
+CSC369H5,MCS,Operating Systems CSC369H5-F-LEC0101,Simion,Bogdan,Fall,2018,4.2,4.7,4.6,4.3,4.3,3.9,4.3,3.9,N/A,3.3,44,11
+CSC398H5,MCS,Topics in Computer Science CSC398H5-F-LEC0101,Simion,Bogdan,Fall,2018,4.7,5,4.6,4.8,4.7,4.3,4.4,4.6,N/A,4.4,15,9
+MAT334H5,MCS,Complex Variables MAT334H5-F-LEC0101,Tanase,Raluca,Fall,2018,3.4,3.7,3.6,3.2,3.6,3.3,3.1,3.2,N/A,2.9,45,10
+MAT223H5,MCS,Linear Algebra I MAT223H5-F-LEC0103,Thind,Jaimal,Fall,2018,4.2,4.4,4.5,4.2,4.2,4,3.6,3.8,N/A,3.4,114,25
+MAT247H5,MCS,Algebra II MAT247H5-F-LEC0101,Thind,Jaimal,Fall,2018,4.6,4.7,4.7,4.6,4.7,4.6,3.7,3.9,N/A,4.6,13,7
+MAT102H5,MCS,Intro to Mathem Proofs MAT102H5-F-LEC0101,Tvalavadze,Marina,Fall,2018,3.9,3.9,3.6,3.8,3.7,3.3,3.8,2.8,N/A,3.1,115,33
+MAT232H5,MCS,Calculus of Several Variables MAT232H5-F-LEC0103,Vo,Huan,Fall,2018,3.9,4.1,3.9,3.6,3.4,3.4,3.3,3.6,N/A,3.4,88,23
+STA314H5,MCS,Intro to Statistical Learning STA314H5-F-LEC0101,Volgushev,Stanislav,Fall,2018,4.2,4.3,3.5,4.2,4.1,3.6,3.3,3.8,N/A,4.2,63,19
+CSC108H5,MCS,Intro to Comp Prog CSC108H5-F-LEC0102,Vrbik,Paul,Fall,2018,4,4.1,4.6,4.2,4.3,4.1,3,4,N/A,4.2,164,77
+CSC108H5,MCS,Intro to Comp Prog CSC108H5-F-LEC0101,Vrbik,Paul,Fall,2018,4,4,4.3,3.9,3.8,3.6,3,3.8,N/A,3.8,161,68
+MAT102H5,MCS,Intro to Mathem Proofs MAT102H5-F-LEC0107,Wang,Xinli,Fall,2018,3.9,4.2,4.1,4,4,3.7,3.4,3.3,N/A,3.1,109,55
+MAT102H5,MCS,Intro to Mathem Proofs MAT102H5-F-LEC0106,Wang,Xinli,Fall,2018,4,3.8,3.7,3.5,3.4,3.2,3.6,3,N/A,3.4,111,42
+MAT223H5,MCS,Linear Algebra I MAT223H5-F-LEC0102,Wang,Xinli,Fall,2018,3.8,4,3.8,3.8,3.9,3.5,3.7,3.2,N/A,3.1,115,25
+STA215H5,MCS,Intro to Applied Statistics STA215H5-F-LEC0102,Weir,Alison,Fall,2018,3.1,3.5,3.1,3.7,3.6,3.1,3,3.2,N/A,2.7,187,81
+STA258H5,MCS,Statistics with Prob STA258H5-F-LEC0101,Weir,Alison,Fall,2018,3.8,4,3.6,3.7,3.7,3.5,3.4,3.1,N/A,3.7,95,16
+STA348H5,MCS,Intro Stochastic Processes STA348H5-F-LEC0101,Weir,Alison,Fall,2018,4.3,4.5,4.3,4.3,4.5,4.3,3,4,N/A,4,25,6
+MAT224H5,MCS,Linear Algebra II MAT224H5-F-LEC0101,Weiss,William,Fall,2018,3.5,3.4,3.3,3.6,3.6,3,3.2,2.7,N/A,2.6,72,26
+MAT232H5,MCS,Calculus of Several Variables MAT232H5-F-LEC0101,Weiss,William,Fall,2018,2.8,3,2.4,3.4,3.7,2.9,3.4,2.8,N/A,3,78,14
+MAT382H5,MCS,Mathematics for Teachers MAT382H5-F-LEC0101,Wesslen,Maria,Fall,2018,4.7,4.8,5,5,4.9,4.9,2.7,4.8,N/A,3.9,24,10
+CSC318H5,MCS,Design of Intrcv Comput Media CSC318H5-F-LEC0101,Wigdor,Daniel,Fall,2018,2.5,2.7,2,2.5,2.7,2,3.8,2.3,N/A,2.5,50,28
+MAT102H5,MCS,Intro to Mathem Proofs MAT102H5-F-LEC0104,Wolske,Zackary,Fall,2018,3.8,3.7,3.4,4,4.1,3.4,3.7,3.1,N/A,3.1,106,32
+MAT334H5,MCS,Complex Variables MAT334H5-F-LEC0102,Yampolsky,Michael,Fall,2018,3.3,3.5,3.5,3.5,4.5,2.3,2.8,2.2,N/A,2.7,37,6
+STA256H5,MCS,Probability and Statistics I STA256H5-F-LEC0103,Yoon,Thomas,Fall,2018,3.3,3,2.5,3.1,3.1,2.3,3.6,2.3,N/A,2.6,153,51
+MAT102H5,MCS,Intro to Mathem Proofs MAT102H5-F-LEC0105,Yusun,Timothy,Fall,2018,4,4.2,4.7,4,4.1,4,3.6,3.4,N/A,4,112,46
+CSC290H5,MCS,Communication Skills for CSC CSC290H5-F-LEC0101,Zhang,Lisa,Fall,2018,3.2,3.7,4.4,3.7,3.9,3.6,3,3.5,N/A,3.2,93,28
+CSC324H5,MCS,Princpl Progr Languages CSC324H5-F-LEC0102,Zhang,Lisa,Fall,2018,3.8,3.9,4.3,3.6,3.9,3.5,3.8,3.1,N/A,3.1,47,22
+CSC290H5,MCS,Communication Skills for CSC CSC290H5-F-LEC0102,Zhang,Lisa,Fall,2018,3.2,3.6,4.3,3.8,3.9,3.6,2.9,3.4,N/A,3.1,82,22
+MAT236H5,MCS,Vector Calculus MAT236H5-F-LEC0101,Zhang,Ke,Fall,2018,4.1,4,3.9,4,4,3.7,3.5,3.6,N/A,3.6,52,12
+CSC207H5,MCS,Software Design CSC207H5-F-LEC0103,Zhang,Yueli,Fall,2018,4,4.1,4.2,3.8,4,3.2,3.7,3.3,N/A,3.8,119,39
+CSC236H5,MCS,Intro Theory Computation CSC236H5-F-LEC0103,Zhang,Yueli,Fall,2018,4.1,4,4,3.1,3,3,3.7,2.6,N/A,3.2,97,29
+CSC207H5,MCS,Software Design CSC207H5-F-LEC0104,Zhang,Yueli,Fall,2018,3.8,4,4.2,3.8,3.6,3.2,3.7,3.4,N/A,3.6,63,27
+CSC324H5,MCS,Princpl Progr Languages CSC324H5-F-LEC0101,Zingaro,Daniel,Fall,2018,4.3,4.3,4.5,4.1,4.1,3.9,3.8,3.5,N/A,3.4,71,36
+STA256H5,MCS,Probability and Statistics I STA256H5-F-LEC0102,Zou,Nan,Fall,2018,3.2,3.2,2.8,3.1,3.5,2.7,3.6,2.6,N/A,2.5,141,37
+MAT134Y5,MCS,Calculus for Life Sciences MAT134Y5-Y-LEC0102,Glynn-Adey,Parker,Summer,2018,2.9,3.3,3.8,3.3,3.3,2.8,3.8,2.3,N/A,2,47,19
+MAT135Y5,MCS,Calculus MAT135Y5-Y-LEC0102,Alexander,John,Summer,2018,3.6,3.9,3.7,3.7,3.4,2.9,4.1,3.1,N/A,3.3,67,15
+MAT133Y5,MCS,Cal Lin Alg Commerce MAT133Y5-Y-LEC0101,Askaripour,Nadya,Summer,2018,3.9,4.4,4.6,4.3,4.2,4.1,3.3,3.8,N/A,3,81,26
+MAT135Y5,MCS,Calculus MAT135Y5-Y-LEC0101,Burazin,Andrijana,Summer,2018,3.8,4.2,4.2,3.4,3.5,3.5,4.2,3.1,N/A,3.3,91,27
+MAT102H5,MCS,Intro to Mathem Proofs MAT102H5-Y-LEC0101,Fuchs,Shay,Summer,2018,4.2,4.6,4.4,4.4,4.1,3.9,3.6,3.2,N/A,3.6,63,30
+MAT102H5,MCS,Intro to Mathem Proofs MAT102H5-Y-LEC0102,Fuchs,Shay,Summer,2018,4.6,4.4,4.9,4.6,4.5,4.4,3.2,3.5,N/A,3.9,44,14
+MAT223H5,MCS,Linear Algebra I MAT223H5-Y-LEC0101,Madill,Blake,Summer,2018,4.3,4.5,4.9,4.4,4.4,4.6,3,4.1,N/A,3.7,68,35
+MAT224H5,MCS,Linear Algebra II MAT224H5-Y-LEC0101,Mousavidehshikh,Ali,Summer,2018,4.4,4.5,4.7,4.4,4.1,4.1,3.4,3.5,N/A,3.5,33,20
+MAT301H5,MCS,Groups and Symmetries MAT301H5-Y-LEC0101,Mousavidehshikh,Ali,Summer,2018,4.2,4.5,4.5,4,4.2,4,3.4,3.4,N/A,3.5,56,27
+CSC148H5,MCS,Intro to Comp Science CSC148H5-Y-LEC0101,Sharmin,Sadia,Summer,2018,4.3,4.5,4.9,4.5,4.3,4.3,3.4,4.1,N/A,4.2,87,32
+CSC148H5,MCS,Intro to Comp Science CSC148H5-Y-LEC0102,Sharmin,Sadia,Summer,2018,4.2,4.4,4.8,4.5,4.4,4.2,3,4.2,N/A,4.2,66,17
+MAT134Y5,MCS,Calculus for Life Sciences MAT134Y5-Y-LEC0101,Thind,Jaimal,Summer,2018,3.4,3.8,4.6,3.6,3.7,3.5,4.2,2.5,N/A,2.3,82,38
+MAT223H5,MCS,Linear Algebra I MAT223H5-Y-LEC0102,Yang,Jonguk,Summer,2018,4,4,4.3,4.1,4.2,4.1,3.4,3.4,N/A,3.3,37,10
+STA256H5,MCS,Probability and Statistics I STA256H5-S-LEC0101,Yoon,Thomas,Summer,2018,2.7,2.9,2.4,2.5,2.4,2.1,3.6,2.1,N/A,2.4,141,56
+MAT232H5,MCS,Calculus of Several Variables MAT232H5-Y-LEC0101,Zhang,Lei,Summer,2018,3.8,3.9,3.3,3.8,3.7,3.2,3.3,3,N/A,3.2,67,32
+STA215H5,MCS,Intro to Applied Statistics STA215H5-F-LEC0101,Dedic,Julia,Summer,2018,3.7,4,4.5,4.3,4.4,4.1,2.9,4.1,N/A,3.5,155,86
+STA107H5,MCS,Intro Probability & Modelling STA107H5-F-LEC0101,Weir,Alison,Summer,2018,3.9,4.1,4.3,4.2,4.2,3.8,3.2,3.5,N/A,3.8,66,19
+MAT240H5,MCS,Algebra I MAT240H5-S-LEC0101,Thind,Jaimal,Winter,2018,4.2,4.4,4.4,4.1,4.2,4,4,3.6,N/A,4,46,23
+MAT157Y5,MCS,Analysis I MAT157Y5-Y-LEC0101,Karshon,Yael,Winter,2018,4.9,4.9,4.8,4.2,4.2,4.4,3.2,4.2,N/A,4.8,17,9
+STA313H5,MCS,Applications of Stat. Models STA313H5-S-LEC0101,Kong,Dehan,Winter,2018,4.4,4.3,4.4,4.2,4.3,4.1,2.7,4.2,N/A,4.4,43,21
+STA310H5,MCS,Bayesian Statis in Foren Sci STA310H5-S-LEC0101,Weir,Alison,Winter,2018,3.8,3.8,3.7,3.5,3.6,3.2,3.2,3.6,N/A,3.4,106,19
+MAT133Y5,MCS,Cal Lin Alg Commerce MAT133Y5-Y-LEC0101,Glynn-Adey,Parker,Winter,2018,3.6,3.6,3.8,3.3,3.4,3.3,3.7,2.6,N/A,2.8,124,46
+MAT133Y5,MCS,Cal Lin Alg Commerce MAT133Y5-Y-LEC0102,Holden,Tyler,Winter,2018,4,4.1,4.5,3.8,4,3.8,3.4,3.4,N/A,3.2,126,65
+MAT133Y5,MCS,Cal Lin Alg Commerce MAT133Y5-Y-LEC0103,Holden,Tyler,Winter,2018,3.9,3.9,4.4,3.6,3.9,3.7,3.4,3.3,N/A,3.2,122,71
+MAT133Y5,MCS,Cal Lin Alg Commerce MAT133Y5-Y-LEC0105,Holden,Tyler,Winter,2018,3.7,3.8,4.1,3.4,3.7,3.2,3.4,3.4,N/A,2.9,111,44
+MAT134Y5,MCS,Calculus for Life Sciences MAT134Y5-Y-LEC0101,Mousavidehshikh,Ali,Winter,2018,3.6,3.7,4.3,3.5,3.4,3.1,3.8,2.6,N/A,2.4,86,56
+MAT134Y5,MCS,Calculus for Life Sciences MAT134Y5-Y-LEC0102,Glynn-Adey,Parker,Winter,2018,3.4,3.4,4.2,3.1,2.9,2.8,3.8,2.6,N/A,2.5,79,49
+MAT134Y5,MCS,Calculus for Life Sciences MAT134Y5-Y-LEC0103,Askaripour,Nadya,Winter,2018,3.3,3.4,3.2,3.3,3.2,2.9,4,2.4,N/A,2.4,92,54
+MAT134Y5,MCS,Calculus for Life Sciences MAT134Y5-Y-LEC0104,Fuchs,Shay,Winter,2018,3.8,3.9,4.2,3.8,3.7,3.4,4,3,N/A,2.7,97,57
+MAT134Y5,MCS,Calculus for Life Sciences MAT134Y5-Y-LEC0105,Glynn-Adey,Parker,Winter,2018,3.5,3.6,4.2,3.1,3.3,2.9,3.9,2.5,N/A,2.5,79,52
+MAT135Y5,MCS,Calculus MAT135Y5-Y-LEC0101,Askaripour,Nadya,Winter,2018,3.6,3.5,3.9,3.3,3.3,3.1,3.7,3,N/A,3,103,30
+MAT135Y5,MCS,Calculus MAT135Y5-Y-LEC0102,Thind,Jaimal,Winter,2018,3.9,4.2,4.6,4,3.9,3.7,3.5,3.5,N/A,3.6,97,24
+MAT135Y5,MCS,Calculus MAT135Y5-Y-LEC0103,Thind,Jaimal,Winter,2018,3.6,3.6,4.1,3.4,3.3,3.2,3.7,3.2,N/A,2.9,107,40
+MAT135Y5,MCS,Calculus MAT135Y5-Y-LEC0104,Askaripour,Nadya,Winter,2018,3.5,3.5,3.7,3.2,3.2,2.9,3.8,2.6,N/A,2.7,109,49
+MAT135Y5,MCS,Calculus MAT135Y5-Y-LEC0105,Madill,Blake,Winter,2018,4.3,4.4,4.7,4.1,4.1,3.9,3.6,3.6,N/A,3.6,97,29
+MAT135Y5,MCS,Calculus MAT135Y5-Y-LEC0106,Madill,Blake,Winter,2018,4.1,4.3,4.9,4.1,3.8,3.9,3.6,3.5,N/A,3.3,116,60
+MAT135Y5,MCS,Calculus MAT135Y5-Y-LEC0107,Wang,Xinli,Winter,2018,3.5,3.6,3.5,3.5,3.5,2.9,3.6,2.9,N/A,2.6,123,36
+MAT135Y5,MCS,Calculus MAT135Y5-Y-LEC0108,Tvalavadze,Marina,Winter,2018,3.7,4,2.8,3.7,3.7,3.2,3.5,3.2,N/A,3.1,66,15
+MAT135Y5,MCS,Calculus MAT135Y5-Y-LEC0109,Burazin,Andrijana,Winter,2018,3.8,4,4.7,4,3.9,3.7,3.6,3.2,N/A,3.4,99,26
+MAT135Y5,MCS,Calculus MAT135Y5-Y-LEC0110,Askaripour,Nadya,Winter,2018,3.5,3.8,4.3,3.6,3.8,3.7,3.4,2.6,N/A,2.7,38,12
+MAT137Y5,MCS,Calculus MAT137Y5-Y-LEC0101,Mousavidehshikh,Ali,Winter,2018,4.6,4.3,4.4,3.6,3.7,3.6,3.8,3.1,N/A,3.6,39,17
+MAT137Y5,MCS,Calculus MAT137Y5-Y-LEC0103,Holden,Tyler,Winter,2018,4.3,4.1,4.5,4,3.9,3.8,3.8,3.5,N/A,3.7,59,36
+MAT232H5,MCS,Calculus of Several Variables MAT232H5-S-LEC0101,Zhang,Lei,Winter,2018,3.9,3.9,2.9,3.5,3.7,3.1,2.8,3.5,N/A,2.9,90,12
+MAT232H5,MCS,Calculus of Several Variables MAT232H5-S-LEC0102,Tanase,Raluca,Winter,2018,3.8,3.8,3.4,3.8,3.8,3.2,3.3,3.5,N/A,3.4,103,28
+MAT402H5,MCS,Classical Geometries MAT402H5-S-LEC0101,Fortier Bourque,Maxime,Winter,2018,4.6,4.7,4.3,4.6,4.4,4.2,3.1,3.9,N/A,3.9,44,9
+CSC290H5,MCS,Communication Skills for CSC CSC290H5-S-LEC0101,Lim,Joseph,Winter,2018,2.1,2.7,2.4,2.8,3,2.2,2.3,2.3,N/A,1.8,60,19
+MAT334H5,MCS,Complex Variables MAT334H5-S-LEC0101,Yampolsky,Michael,Winter,2018,3.4,3.4,3.2,3.5,3.4,3.1,2.8,2.8,N/A,3,62,19
+MAT334H5,MCS,Complex Variables MAT334H5-S-LEC0102,De Simoi,Jacopo,Winter,2018,3,3.2,3.2,3.2,3.2,3,3.4,3.6,N/A,3.4,55,7
+CSC363H5,MCS,Comput Complex & Comput CSC363H5-S-LEC0101,Maccio,Vincent,Winter,2018,4.2,4,4.6,4,3.7,3.9,3,3.3,N/A,3.1,86,27
+CSC363H5,MCS,Comput Complex & Comput CSC363H5-S-LEC0102,Maccio,Vincent,Winter,2018,4.3,4,4.6,4.1,4.1,4.1,3.3,3.6,N/A,3.4,44,8
+CSC423H5,MCS,Computer Forensics CSC423H5-S-LEC0101,Duquette,Ryan,Winter,2018,3.9,4.5,4.5,4,4,4.1,2.9,4.2,N/A,3.5,22,13
+CSC358H5,MCS,Computer Networks Principles CSC358H5-S-LEC0101,Lim,Joseph,Winter,2018,2.9,2.9,2.1,2.6,2.8,2.2,4.5,1.9,N/A,2,57,21
+CSC258H5,MCS,Computer Organization CSC258H5-S-LEC0101,Petersen,Andrew,Winter,2018,3.9,4,4.2,3.8,3.6,3.4,3.5,3.1,N/A,3.3,120,30
+CSC258H5,MCS,Computer Organization CSC258H5-S-LEC0102,Petersen,Andrew,Winter,2018,3.7,3.7,3.7,3.6,3.3,3.3,3.8,3.1,N/A,3.3,115,24
+CSC263H5,MCS,Data Struct Analys CSC263H5-S-LEC0101,Sachdeva,Sushant,Winter,2018,4.5,4.4,4.4,3.9,3.9,3.8,3.7,3.6,N/A,3.9,81,20
+CSC263H5,MCS,Data Struct Analys CSC263H5-S-LEC0102,Zhang,Yueli,Winter,2018,4.4,4.4,4.5,4.5,4.1,3.8,3.4,4.3,N/A,4.3,98,26
+STA305H5,MCS,Experimental Design STA305H5-S-LEC0101,Hamdi,Samir,Winter,2018,3,2.9,2.8,2.9,2.9,2.5,3.1,2.7,N/A,2.7,63,27
+STA305H5,MCS,Experimental Design STA305H5-S-LEC0102,Hamdi,Samir,Winter,2018,3.5,3.7,3.6,3.6,3.5,3.4,3.3,3.3,N/A,3.3,48,16
+MAT301H5,MCS,Groups and Symmetries MAT301H5-S-LEC0102,Mousavidehshikh,Ali,Winter,2018,4.1,4,4.6,4,4.1,3.8,3.4,3.4,N/A,3.7,88,33
+MAT302H5,MCS,Intro Algebraic Cryptography MAT302H5-S-LEC0101,George,William,Winter,2018,4.7,4.7,4.8,4.6,4.4,4.4,2.9,4,N/A,4,37,9
+CSC384H5,MCS,Intro Artificial Intel CSC384H5-S-LEC0101,Dema,Ilir,Winter,2018,3.8,3.7,3.3,3.6,4,3.4,3.1,3.8,N/A,3.4,77,13
+MAT344H5,MCS,Intro Combinatorics MAT344H5-S-LEC0101,Shankar,Arul,Winter,2018,3.8,3.7,4.4,3.8,3.7,3.8,3.1,3.1,N/A,3.2,81,22
+CSC343H5,MCS,Intro Database CSC343H5-S-LEC0101,Liut,Michael,Winter,2018,3.9,4.2,4,4.4,4.3,3.8,2.8,4,N/A,3.6,62,11
+STA107H5,MCS,Intro Probability & Modelling STA107H5-S-LEC0101,Weir,Alison,Winter,2018,3.6,3.6,3.5,3.2,3.2,3,2.8,3,N/A,3.4,168,47
+STA107H5,MCS,Intro Probability & Modelling STA107H5-S-LEC0102,Yu,Dengdeng,Winter,2018,3.6,3.5,3.6,3.6,3.6,3,3,2.7,N/A,3,119,23
+STA107H5,MCS,Intro Probability & Modelling STA107H5-S-LEC0103,Caetano,Samantha-Jo,Winter,2018,3.4,3.1,3.9,3,3,2.8,3.1,2.5,N/A,2.7,113,32
+CSC108H5,MCS,Intro to Comp Prog CSC108H5-S-LEC0101,Sharmin,Sadia,Winter,2018,3.8,4,4.3,3.9,3.9,3.7,3.3,3.6,N/A,3.6,117,35
+CSC108H5,MCS,Intro to Comp Prog CSC108H5-S-LEC0102,Sharmin,Sadia,Winter,2018,4,4,4.4,4,4.1,3.8,3.4,3.7,N/A,3.9,129,26
+CSC148H5,MCS,Intro to Comp Science CSC148H5-S-LEC0101,Zhang,Yueli,Winter,2018,3.8,3.9,3.8,3.2,3.3,3.3,3.4,3.2,N/A,3.4,95,37
+CSC148H5,MCS,Intro to Comp Science CSC148H5-S-LEC0102,Zhang,Yueli,Winter,2018,4.3,4.3,4.4,4,4,3.9,3.4,3.5,N/A,4.1,133,42
+CSC148H5,MCS,Intro to Comp Science CSC148H5-S-LEC0103,Zingaro,Daniel,Winter,2018,4.4,4.2,4.2,4,3.7,3.6,3.3,3.7,N/A,3.8,148,50
+CSC148H5,MCS,Intro to Comp Science CSC148H5-S-LEC0104,Maccio,Vincent,Winter,2018,3.9,4.3,4.5,3.7,3.7,3.7,3.2,4,N/A,3.8,109,25
+MAT202H5,MCS,Intro to Discrete Mathematics MAT202H5-S-LEC0101,Tvalavadze,Marina,Winter,2018,3.8,3.8,3.8,4,3.9,3.3,3,3.5,N/A,3.5,142,31
+MAT102H5,MCS,Intro to Mathem Proofs MAT102H5-S-LEC0101,Madill,Blake,Winter,2018,4.4,4.5,4.7,4.2,4.2,4.1,3.7,3.4,N/A,3.9,128,43
+MAT102H5,MCS,Intro to Mathem Proofs MAT102H5-S-LEC0102,Fuchs,Shay,Winter,2018,4.3,4.3,4.3,4.1,4.1,4,3.5,3.6,N/A,3.9,117,36
+MAT102H5,MCS,Intro to Mathem Proofs MAT102H5-S-LEC0103,Fuchs,Shay,Winter,2018,4.4,4.5,4.5,4.5,4.5,4.1,3.2,3.5,N/A,3.7,96,20
+MAT102H5,MCS,Intro to Mathem Proofs MAT102H5-S-LEC0104,Mousavidehshikh,Ali,Winter,2018,4.4,4.2,4.3,4,3.8,3.8,3.4,3.6,N/A,3.5,113,25
+CSC301H5,MCS,Intro to Software Engineering CSC301H5-S-LEC0101,Dema,Ilir,Winter,2018,3.3,3.7,3.7,3.5,3.7,3.6,3.6,3.9,N/A,3.5,107,19
+CSC420H5,MCS,Intro. to Image Understanding CSC420H5-S-LEC0101,Fidler,Sanja,Winter,2018,4.6,4.3,3.8,4.1,4.1,3.5,3.5,4.1,N/A,4.1,58,15
+MAT378H5,MCS,Introduction to Real Analysis MAT378H5-S-LEC0101,Radu,Remus,Winter,2018,4,4.1,4.1,4.1,4,3.7,3.7,3.1,N/A,3.6,43,12
+MAT378H5,MCS,Introduction to Real Analysis MAT378H5-S-LEC0102,Thind,Jaimal,Winter,2018,3.9,3.9,4.1,3.9,4,3.7,3.4,3.3,N/A,3.9,56,12
+MAT223H5,MCS,Linear Algebra I MAT223H5-S-LEC0101,Thind,Jaimal,Winter,2018,4.2,4.5,4.3,4.5,4.4,4.1,3.1,4.3,N/A,3.8,119,29
+MAT223H5,MCS,Linear Algebra I MAT223H5-S-LEC0102,Yusun,Timothy,Winter,2018,4.1,4.3,4.6,4,4,4,3.2,3.8,N/A,3.6,125,38
+MAT223H5,MCS,Linear Algebra I MAT223H5-S-LEC0103,Tvalavadze,Marina,Winter,2018,3.9,4,3.8,3.8,3.9,3.5,3.3,3.4,N/A,3.2,121,30
+MAT223H5,MCS,Linear Algebra I MAT223H5-S-LEC0104,Esentepe,Bulent,Winter,2018,3.9,4.1,4.1,3.9,3.9,3.7,3.1,3.4,N/A,3.3,121,40
+MAT224H5,MCS,Linear Algebra II MAT224H5-S-LEC0101,Yusun,Timothy,Winter,2018,4.3,4.2,4.6,4.2,4.4,4,3.6,3.2,N/A,3.6,45,20
+MAT224H5,MCS,Linear Algebra II MAT224H5-S-LEC0102,Zhang,Ke,Winter,2018,3.4,3.2,3.1,3.3,3.3,3,3.4,3,N/A,3.3,60,22
+STA441H5,MCS,Methods of Applied Statistics STA441H5-S-LEC0101,Brunner,Lawrence,Winter,2018,4.5,4.5,4.3,4.5,4.5,4.2,3.9,4,N/A,4.2,43,13
+CSC338H5,MCS,Numerical Methods CSC338H5-S-LEC0101,Bonner,Anthony,Winter,2018,3.6,3.9,3.6,4.1,4.2,3.5,2.9,3.3,N/A,3.1,44,13
+MAT311H5,MCS,Partial Diff Equatns MAT311H5-S-LEC0101,Leguil,Martin,Winter,2018,3.3,3.2,3.1,3.3,3.2,2.9,3.7,2,N/A,3.2,43,10
+STA260H5,MCS,Probability and Statistics II STA260H5-S-LEC0101,Nosedal Sanchez,Alvaro,Winter,2018,3.8,4,4.1,3.7,3.8,3.5,3.4,3.5,N/A,3.3,120,34
+STA260H5,MCS,Probability and Statistics II STA260H5-S-LEC0102,Caetano,Samantha-Jo,Winter,2018,3.6,3.5,3.8,3.4,3.4,3.3,3.3,3.4,N/A,3.3,84,12
+CSC309H5,MCS,Programming on the Web CSC309H5-S-LEC0101,Rosenbloom,Arnold,Winter,2018,4.2,4.1,2.6,4,3.9,2.5,4.3,2.9,N/A,3.5,50,13
+CSC309H5,MCS,Programming on the Web CSC309H5-S-LEC0102,Rosenbloom,Arnold,Winter,2018,4,4.4,3.5,4.4,4.3,3.6,4.5,3.8,N/A,3.8,49,10
+CSC209H5,MCS,Soft Tools & Sys Prog CSC209H5-S-LEC0101,Petersen,Andrew,Winter,2018,4.2,4.2,3.9,3.8,3.7,3.4,4.5,3,N/A,3.4,100,25
+CSC209H5,MCS,Soft Tools & Sys Prog CSC209H5-S-LEC0102,Dema,Ilir,Winter,2018,4.2,4.1,3,3.8,3.1,2.9,4.3,2.9,N/A,3.1,79,15
+CSC209H5,MCS,Soft Tools & Sys Prog CSC209H5-S-LEC0103,Dema,Ilir,Winter,2018,3.8,4.2,3.4,3.5,3.5,2.9,4.5,3,N/A,3.7,77,20
+STA258H5,MCS,Statistics with Prob STA258H5-S-LEC0101,Weir,Alison,Winter,2018,3.3,3.6,3.6,3.6,3.1,3,3.1,2.8,N/A,3.2,44,10
+STA258H5,MCS,Statistics with Prob STA258H5-S-LEC0102,Nosedal Sanchez,Alvaro,Winter,2018,3.5,3.8,3.9,3.2,3.2,3.2,3.6,2.9,N/A,3.3,97,28
+STA221H5,MCS,The Practice of Statistics II STA221H5-S-LEC0101,Fraser,Olga,Winter,2018,2.8,3.7,3.1,3.6,3.7,3,3.1,3,N/A,3.1,21,9
+CSC498H5,MCS,Topics in Computer Science CSC498H5-S-LEC9999,Zingaro,Daniel,Winter,2018,4.5,4.3,4.7,4.2,3.8,4.2,3.7,4.3,N/A,4,16,6
+MAT247H5,MCS,Algebra II MAT247H5-F-LEC0101,Thind,Jaimal,Fall,2017,4.7,4.7,4.9,4.4,4.6,4.6,3.7,4.1,N/A,4.4,15,7
+CSC373H5,MCS,Algorithm Design and Analysis CSC373H5-F-LEC0101,Maccio,Vincent,Fall,2017,4.2,4,4.3,4,3.8,3.8,3.3,3.5,N/A,3.5,96,34
+STA312H5,MCS,Applied Statistical Modelling STA312H5-F-LEC0101,Volgushev,Stanislav,Fall,2017,3.5,3.6,3.4,3.6,3.4,3,3.5,3.2,N/A,3.4,116,27
+MAT232H5,MCS,Calculus of Several Variables MAT232H5-F-LEC0102,Feizmohammadi,Ali,Fall,2017,3.5,3.4,3.1,3.4,3.3,2.7,3.7,2.7,N/A,2.8,97,39
+MAT233H5,MCS,Calculus of Several Variables MAT233H5-F-LEC0101,Yusun,Timothy,Fall,2017,4.2,4.3,4.7,4.3,4.3,4.1,3.3,4,N/A,4,55,30
+CSC290H5,MCS,Communication Skills for CSC CSC290H5-F-LEC0101,McCash,Nathania,Fall,2017,2.6,3,3.6,2.8,3.1,2.9,2.5,2.8,N/A,2.5,86,43
+CSC290H5,MCS,Communication Skills for CSC CSC290H5-F-LEC0102,Lim,Joseph,Fall,2017,2.6,3,3.4,2.9,3.1,2.8,2.7,2.9,N/A,2.5,69,26
+MAT334H5,MCS,Complex Variables MAT334H5-F-LEC0101,Tanase,Raluca,Fall,2017,2.9,2.8,2.5,2.8,2.5,2.2,3.7,2.2,N/A,2.3,60,23
+MAT334H5,MCS,Complex Variables MAT334H5-F-LEC0102,Leguil,Martin,Fall,2017,3.2,3.1,3.3,3.7,3.3,2.4,3.4,2.3,N/A,2.8,60,11
+MAT244H5,MCS,Differential Equations I MAT244H5-F-LEC0101,Zhang,Lei,Fall,2017,3.4,3.6,3.2,3.5,3.6,3.2,3.6,3.5,N/A,3.4,57,13
+MAT244H5,MCS,Differential Equations I MAT244H5-F-LEC0102,Thind,Jaimal,Fall,2017,3.6,3.8,4.1,4,3.8,3.6,3.7,3.5,N/A,3.4,107,33
+MAT301H5,MCS,Groups and Symmetries MAT301H5-F-LEC0101,Mousavidehshikh,Ali,Fall,2017,3.7,3.7,4.2,3.5,3.5,3.3,3.8,3.2,N/A,3.4,61,22
+MAT344H5,MCS,Intro Combinatorics MAT344H5-F-LEC0101,Rennet,Alexander,Fall,2017,3.3,3.2,3.4,2.9,2.9,2.8,4,2.6,N/A,2.7,67,26
+CSC343H5,MCS,Intro Database CSC343H5-F-LEC0101,Dema,Ilir,Fall,2017,3.6,3.9,3.6,3.9,4,3.7,2.9,4,N/A,3.4,79,24
+MAT332H5,MCS,Intro Nonlin Dynamics & Chaos MAT332H5-F-LEC0101,Radu,Remus,Fall,2017,4.1,4.4,4.3,4.4,4.3,4.4,2.9,4,N/A,3.9,20,7
+STA348H5,MCS,Intro Stochastic Processes STA348H5-F-LEC0101,Weir,Alison,Fall,2017,3.8,3.5,3.5,3.5,3.8,3.1,3.1,2.8,N/A,3.5,35,13
+CSC236H5,MCS,Intro Theory Computation CSC236H5-F-LEC0101,Zingaro,Daniel,Fall,2017,4.3,4.3,4.4,3.9,3.8,3.8,3.7,3.3,N/A,3.6,121,63
+CSC236H5,MCS,Intro Theory Computation CSC236H5-F-LEC0102,Zingaro,Daniel,Fall,2017,4.3,3.9,4.1,3.8,3.6,3.6,3.9,3.3,N/A,3.5,124,45
+CSC236H5,MCS,Intro Theory Computation CSC236H5-F-LEC0103,Sharmin,Sadia,Fall,2017,4.2,4,4.8,4.3,3.8,3.8,3.6,3.4,N/A,3.4,37,10
+STA215H5,MCS,Intro to Applied Statistics STA215H5-F-LEC0101,Caetano,Samantha-Jo,Fall,2017,3.5,4,4.3,3.7,3.8,3.6,3.1,3.4,N/A,3.1,152,82
+STA215H5,MCS,Intro to Applied Statistics STA215H5-F-LEC0102,Weir,Alison,Fall,2017,2.8,3,2.8,3,3.2,2.5,3,2.8,N/A,2.3,208,98
+STA215H5,MCS,Intro to Applied Statistics STA215H5-F-LEC0103,Caetano,Samantha-Jo,Fall,2017,3.1,3.7,4.2,3.5,3.4,3.5,3.3,3.3,N/A,2.9,177,84
+CSC108H5,MCS,Intro to Comp Prog CSC108H5-F-LEC0101,Petersen,Andrew,Fall,2017,4.1,4.3,4.4,4.2,4.2,4,3.3,4,N/A,4,145,81
+CSC108H5,MCS,Intro to Comp Prog CSC108H5-F-LEC0102,Petersen,Andrew,Fall,2017,4.1,4.2,4.5,4,4,3.8,3.5,3.6,N/A,3.9,148,53
+CSC108H5,MCS,Intro to Comp Prog CSC108H5-F-LEC0103,Maccio,Vincent,Fall,2017,3.7,3.9,4.3,3.7,3.7,3.5,3.2,3.5,N/A,3.8,172,84
+CSC108H5,MCS,Intro to Comp Prog CSC108H5-F-LEC0104,Maccio,Vincent,Fall,2017,3.5,3.9,4,3.6,3.7,3.4,3.3,3.4,N/A,3.6,156,70
+CSC108H5,MCS,Intro to Comp Prog CSC108H5-F-LEC0105,Hamdi,Samir,Fall,2017,3.3,3.4,2.4,3.7,3.9,2.6,3.4,3,N/A,3.3,134,33
+MAT202H5,MCS,Intro to Discrete Mathematics MAT202H5-F-LEC0101,Tvalavadze,Marina,Fall,2017,3.6,3.8,4.1,4.3,4,3.5,3.1,3.8,N/A,3.6,74,20
+CSC347H5,MCS,Intro to Information Security CSC347H5-F-LEC0101,Rosenbloom,Arnold,Fall,2017,4.4,4.1,3.8,4,3.8,3.6,4,3.4,N/A,4,56,25
+MAT309H5,MCS,Intro to Math Logic MAT309H5-F-LEC0101,Rennet,Alexander,Fall,2017,4.3,3.8,4.5,3.6,3.8,3.8,3.9,3.4,N/A,3.4,17,8
+MAT102H5,MCS,Intro to Mathem Proofs MAT102H5-F-LEC0101,Tvalavadze,Marina,Fall,2017,4,3.8,3.4,3.7,3.5,3.3,3.5,3,N/A,3.2,93,27
+MAT102H5,MCS,Intro to Mathem Proofs MAT102H5-F-LEC0102,Tvalavadze,Marina,Fall,2017,3.6,3.8,3.4,3.6,3.7,3.3,3.4,3.2,N/A,3.5,103,43
+MAT102H5,MCS,Intro to Mathem Proofs MAT102H5-F-LEC0103,Madill,Blake,Fall,2017,4.5,4.5,4.9,4.3,4.3,4.1,3.5,3.6,N/A,3.7,122,76
+MAT102H5,MCS,Intro to Mathem Proofs MAT102H5-F-LEC0104,Madill,Blake,Fall,2017,4.2,4.2,4.7,4,4,4.1,3.4,3.3,N/A,3.7,110,47
+MAT102H5,MCS,Intro to Mathem Proofs MAT102H5-F-LEC0105,Mousavidehshikh,Ali,Fall,2017,4,3.9,4.4,3.7,3.7,3.9,3.7,3.2,N/A,3.5,74,36
+MAT102H5,MCS,Intro to Mathem Proofs MAT102H5-F-LEC0106,Mousavidehshikh,Ali,Fall,2017,4.4,4.1,4.4,4.1,3.8,3.6,3.5,3.2,N/A,3.7,112,68
+MAT315H5,MCS,Intro to Number Theory MAT315H5-F-LEC0101,Shankar,Arul,Fall,2017,4.4,4.5,4.7,4.7,4.8,4.5,2.9,4.3,N/A,3.3,41,12
+MAT405H5,MCS,Introduction to Topology MAT405H5-F-LEC0101,Fuchs,Shay,Fall,2017,4,4,3.9,4,3.9,3.8,3.6,3.5,N/A,3.6,21,8
+MAT223H5,MCS,Linear Algebra I MAT223H5-F-LEC0101,Rennet,Alexander,Fall,2017,3.6,3.8,4,3.3,3.2,3.1,3.5,3.1,N/A,3.1,92,34
+MAT223H5,MCS,Linear Algebra I MAT223H5-F-LEC0102,Briggs,Benjamin,Fall,2017,3.7,3.4,3.4,3.3,3.2,3,3.2,2.8,N/A,3.3,72,23
+MAT223H5,MCS,Linear Algebra I MAT223H5-F-LEC0103,Burazin,Andrijana,Fall,2017,3.7,3.7,3.9,2.9,2.8,3,3.5,2.7,N/A,2.8,84,27
+MAT223H5,MCS,Linear Algebra I MAT223H5-F-LEC0104,Wang,Xinli,Fall,2017,3.7,3.8,4.1,3.1,3,2.9,3.4,2.6,N/A,2.9,66,23
+MAT223H5,MCS,Linear Algebra I MAT223H5-F-LEC0105,Glynn-Adey,Parker,Fall,2017,3.6,3.7,4.1,3.3,3.2,3.1,3.4,2.9,N/A,3.1,89,42
+MAT224H5,MCS,Linear Algebra II MAT224H5-F-LEC0101,Gamse,Elisheva,Fall,2017,3.8,4.1,4.2,4,4.1,3.8,3.4,3.3,N/A,3.5,69,30
+CSC411H5,MCS,Machine Learn & Data Mining CSC411H5-F-LEC0101,Bonner,Anthony,Fall,2017,4,4.3,3.5,4.2,4.1,3.5,3.2,3.8,N/A,3.8,63,34
+MAT406H5,MCS,Math Intro to Game Theory MAT406H5-F-LEC0101,Binder,Ilia,Fall,2017,4.3,4.3,4.5,4.4,4.3,3.9,3.4,3.9,N/A,3.6,23,15
+CSC369H5,MCS,Operating Systems CSC369H5-F-LEC0101,Zhang,Yueli,Fall,2017,4.7,4.5,4.9,4.4,4.2,4.2,4.3,3.6,N/A,3.7,52,13
+CSC369H5,MCS,Operating Systems CSC369H5-F-LEC0102,Zhang,Yueli,Fall,2017,4.3,4.5,4.8,4.3,4.3,4.3,4.3,3.8,N/A,3.7,50,18
+CSC324H5,MCS,Princpl Progr Languages CSC324H5-F-LEC0101,Dema,Ilir,Fall,2017,3.8,4.2,3.9,4.1,4,3.5,3.5,3.3,N/A,2.9,60,22
+CSC324H5,MCS,Princpl Progr Languages CSC324H5-F-LEC0102,Dema,Ilir,Fall,2017,4.1,3.9,4.4,4.2,4.1,4,3.5,3.5,N/A,3.3,56,13
+STA256H5,MCS,Probability and Statistics I STA256H5-F-LEC0101,Weir,Alison,Fall,2017,3.3,3.5,3.1,3.2,3.2,2.9,3.1,3.1,N/A,2.9,174,65
+STA256H5,MCS,Probability and Statistics I STA256H5-F-LEC0103,Nosedal Sanchez,Alvaro,Fall,2017,4,4.1,4.4,3.8,3.8,3.7,3.1,3.7,N/A,3.6,185,67
+STA302H5,MCS,Regression Analysis STA302H5-F-LEC0101,Brunner,Lawrence,Fall,2017,4.1,4.1,4.3,4.2,4.1,3.7,3.5,3.4,N/A,3.5,85,23
+CSC207H5,MCS,Software Design CSC207H5-F-LEC0101,Rosenbloom,Arnold,Fall,2017,4.1,4.4,3.7,4.3,4.3,3.9,3.7,4,N/A,4.1,109,49
+CSC207H5,MCS,Software Design CSC207H5-F-LEC0102,Zhang,Yueli,Fall,2017,4.5,4.6,4.3,4.5,4.3,4.1,3.6,4.1,N/A,4.5,122,43
+CSC207H5,MCS,Software Design CSC207H5-F-LEC0103,Sharmin,Sadia,Fall,2017,4.1,4.2,4.5,4,4.1,3.6,3.4,3.8,N/A,3.8,111,41
+STA218H5,MCS,Statistics for Management STA218H5-F-LEC0101,Nosedal Sanchez,Alvaro,Fall,2017,3.8,3.8,4.5,3.8,3.8,3.8,3.6,3.6,N/A,3.2,59,32
+STA258H5,MCS,Statistics with Prob STA258H5-F-LEC0101,Thinniyam,Ramya,Fall,2017,3.7,4,4.2,4,3.8,3.8,3.3,3.8,N/A,3.8,117,26
+STA304H5,MCS,Surveys Sampl & Observat Data STA304H5-F-LEC0101,Thinniyam,Ramya,Fall,2017,3.9,4,4.1,4,4,3.6,3.1,3.6,N/A,3.6,126,33
+STA304H5,MCS,Surveys Sampl & Observat Data STA304H5-F-LEC0102,Thinniyam,Ramya,Fall,2017,3.7,3.9,4.1,4,4.1,3.9,2.9,3.7,N/A,3.4,71,17
+STA220H5,MCS,The Practice of Statistics I STA220H5-F-LEC0101,Fraser,Olga,Fall,2017,3.6,3.5,3.1,3.6,3.3,3.1,3.3,3.2,N/A,3.1,72,19
+STA220H5,MCS,The Practice of Statistics I STA220H5-F-LEC0102,Fraser,Olga,Fall,2017,3.7,3.8,3.3,3.7,3.4,3.4,3.4,3.3,N/A,2.8,27,9
+MAT133Y5,MCS,Cal Lin Alg Commerce MAT133Y5-Y-LEC0101,Askaripour,Nadya,Summer,2017,3.9,4.4,4.9,4.4,4.3,4.3,3.4,4,N/A,3.4,55,14
+MAT133Y5,MCS,Cal Lin Alg Commerce MAT133Y5-Y-LEC0102,Laptyeva,Nataliya,Summer,2017,4.7,4.8,4.5,4.5,4.8,4.7,3.8,4.3,N/A,4.2,21,6
+MAT134Y5,MCS,Calculus for Life Sciences MAT134Y5-Y-LEC0101,Mousavidehshikh,Ali,Summer,2017,4.2,4.4,4.9,3.9,4.1,4.2,3.6,3.3,N/A,3,39,24
+MAT134Y5,MCS,Calculus for Life Sciences MAT134Y5-Y-LEC0102,Mazzeo,Elio,Summer,2017,3.7,4.1,4.5,4,4.1,3.8,3.3,3.4,N/A,3.1,122,67
+MAT135Y5,MCS,Calculus MAT135Y5-Y-LEC0101,Burazin,Andrijana,Summer,2017,3.4,3.7,4.3,3.4,3.3,3.3,3.4,2.9,N/A,3,107,30
+MAT135Y5,MCS,Calculus MAT135Y5-Y-LEC0102,Alexander,John,Summer,2017,3.6,3.4,3.2,3.4,3,2.9,3.8,2.6,N/A,2.6,48,13
+MAT232H5,MCS,Calculus of Several Variables MAT232H5-Y-LEC0101,Burazin,Andrijana,Summer,2017,3.7,4,4.3,4.1,4.2,3.8,3.3,3.5,N/A,3.3,88,30
+STA107H5,MCS,Intro Probability & Modelling STA107H5-S-LEC0101,Xie,Shengkun,Summer,2017,3.7,3.8,3.6,3.8,4.1,3.4,2.6,3.8,N/A,3.3,47,15
+CSC148H5,MCS,Intro to Comp Science CSC148H5-Y-LEC0101,Sharmin,Sadia,Summer,2017,4.2,4.4,4.7,4.1,4.3,4.2,3.5,3.8,N/A,3.9,103,31
+MAT102H5,MCS,Intro to Mathem Proofs MAT102H5-Y-LEC0101,Mousavidehshikh,Ali,Summer,2017,4.4,4.3,4.8,4.1,4,4.2,3.2,3.6,N/A,3.7,78,42
+MAT102H5,MCS,Intro to Mathem Proofs MAT102H5-Y-LEC0102,Askaripour,Nadya,Summer,2017,4.1,4.2,3.7,4,4.1,3.5,3.5,3.7,N/A,3.3,48,24
+MAT223H5,MCS,Linear Algebra I MAT223H5-Y-LEC0101,Yang,Jonguk,Summer,2017,3.4,3.9,3.9,3.6,3.5,3.4,3.3,3.2,N/A,3.1,89,26
+MAT224H5,MCS,Linear Algebra II MAT224H5-Y-LEC0101,Kolpakov,Aleksandr,Summer,2017,3.6,3.8,3.6,4.1,4.1,3.4,3.1,3.4,N/A,3.3,46,12
+STA256H5,MCS,Probability and Statistics I STA256H5-S-LEC0101,Xie,Shengkun,Summer,2017,3.3,3,2.4,2.6,2.7,2.3,3.2,2.5,N/A,2.9,150,43
+STA215H5,MCS,Intro to Applied Statistics STA215H5-F-LEC0101,Nosedal Sanchez,Alvaro,Summer,2017,3.9,4.3,4.6,4.4,4.4,4.3,2.9,4.2,N/A,3.4,150,60
+CSC108H5,MCS,Intro to Comp Prog CSC108H5-S-LEC0101,Sharmin,Sadia,Winter,2017,4.1,4.3,4.4,4.2,4,4,3.8,3.8,N/A,4.1,127,26
+CSC148H5,MCS,Intro to Comp Science CSC148H5-S-LEC0101,Sabie,Samar,Winter,2017,4.3,4.2,4,3.9,3.8,3.6,3.4,3.8,N/A,4,124,50
+CSC148H5,MCS,Intro to Comp Science CSC148H5-S-LEC0102,Chaturvedi,Ritu,Winter,2017,4.2,4.3,3.6,3.9,4,3.7,3.4,3.5,N/A,4.1,128,41
+CSC148H5,MCS,Intro to Comp Science CSC148H5-S-LEC0103,Zingaro,Daniel,Winter,2017,4.2,4.2,4.6,3.9,3.8,3.8,3.3,3.7,N/A,4,199,68
+CSC209H5,MCS,Soft Tools & Sys Prog CSC209H5-S-LEC0101,Petersen,Andrew,Winter,2017,3.9,3.9,3.8,3.7,3.5,3.2,4.3,3.2,N/A,3.3,74,22
+CSC209H5,MCS,Soft Tools & Sys Prog CSC209H5-S-LEC0102,Chaturvedi,Ritu,Winter,2017,3.4,3.4,3.1,3,2.6,2.1,4.2,2.4,N/A,2.5,68,24
+CSC209H5,MCS,Soft Tools & Sys Prog CSC209H5-S-LEC0103,Chaturvedi,Ritu,Winter,2017,3.1,3.3,2.7,2.9,2.4,1.9,4.3,2.5,N/A,3.2,33,13
+CSC258H5,MCS,Computer Organization CSC258H5-S-LEC0101,Zhang,Yueli,Winter,2017,4,4.2,4.1,4,3.9,3.7,3.3,3.5,N/A,3.3,134,32
+CSC258H5,MCS,Computer Organization CSC258H5-S-LEC0102,Zhang,Yueli,Winter,2017,4,4.1,4.4,4.1,4.1,4,3.3,3.5,N/A,3.7,98,22
+CSC263H5,MCS,Data Struct Analys CSC263H5-S-LEC0101,Zingaro,Daniel,Winter,2017,4.3,4.2,4,3.9,3.6,3.6,3.5,3.3,N/A,3.5,95,26
+CSC263H5,MCS,Data Struct Analys CSC263H5-S-LEC0102,Zhang,Yueli,Winter,2017,4.4,4.2,4.4,4,3.8,3.9,3.8,3.7,N/A,4,80,22
+CSC290H5,MCS,Communication Skills for CSC CSC290H5-S-LEC0101,McCash,Nathania,Winter,2017,3.6,3.8,4.6,3.8,3.8,4.3,2.8,3.8,N/A,3.3,31,12
+CSC301H5,MCS,Intro to Software Engineering CSC301H5-S-LEC0101,Dema,Ilir,Winter,2017,2.7,2.8,3.4,2.9,2.9,2.7,3.3,3.1,N/A,2.8,84,20
+CSC309H5,MCS,Programming on the Web CSC309H5-S-LEC0101,Rosenbloom,Arnold,Winter,2017,3.9,4.1,3.4,4.1,3.9,3.5,4.2,3.5,N/A,3.8,78,25
+CSC338H5,MCS,Numerical Methods CSC338H5-S-LEC0101,Bonner,Anthony,Winter,2017,3.2,3.3,3.2,3.1,3.1,2.8,3.3,2.8,N/A,3.1,43,18
+CSC358H5,MCS,Computer Networks Principles CSC358H5-S-LEC0101,Lim,Joseph,Winter,2017,2.1,2.2,1.7,1.9,1.9,1.7,3.1,1.8,N/A,2.1,49,14
+CSC363H5,MCS,Comput Complex & Comput CSC363H5-S-LEC0101,Rosenbloom,Arnold,Winter,2017,4.5,4.4,4.3,4,4,3.9,3.8,3.3,N/A,3.9,46,13
+CSC420H5,MCS,Intro. to Image Understanding CSC420H5-S-LEC0101,Fidler,Sanja,Winter,2017,3.2,3.4,2.2,3.7,3.7,2.3,3.9,2.6,N/A,3,45,13
+CSC423H5,MCS,Computer Forensics CSC423H5-S-LEC0101,Duquette,Ryan,Winter,2017,3.7,4.1,4.4,4.1,4,3.8,2.7,4,N/A,3.7,39,15
+CSC488H5,MCS,Compilers and Interpreters CSC488H5-S-LEC0101,Petersen,Andrew,Winter,2017,4.7,4.9,4.9,4.5,4.6,4.8,3.7,4.6,N/A,4.2,25,10
+MAT102H5,MCS,Intro to Mathem Proofs MAT102H5-S-LEC0101,Tvalavadze,Marina,Winter,2017,3.8,3.8,3.6,4,4,3.6,3.3,3.5,N/A,3.7,136,40
+MAT102H5,MCS,Intro to Mathem Proofs MAT102H5-S-LEC0102,Mousavidehshikh,Ali,Winter,2017,4.4,4.3,4.6,3.9,4,3.9,3.3,3.3,N/A,3.6,165,67
+MAT102H5,MCS,Intro to Mathem Proofs MAT102H5-S-LEC0104,Mousavidehshikh,Ali,Winter,2017,4.3,4.3,4.6,4,3.9,3.9,3.3,3.6,N/A,3.7,124,52
+MAT133Y5,MCS,Cal Lin Alg Commerce MAT133Y5-Y-LEC0101,Wilk,Any,Winter,2017,3.6,4.1,4.2,3.9,3.9,3.9,3.6,3.6,N/A,3.4,120,36
+MAT133Y5,MCS,Cal Lin Alg Commerce MAT133Y5-Y-LEC0102,Laptyeva,Nataliya,Winter,2017,3.5,3.6,2.8,3.6,3.4,2.8,3.8,2.9,N/A,2.6,112,41
+MAT133Y5,MCS,Cal Lin Alg Commerce MAT133Y5-Y-LEC0103,Wilk,Any,Winter,2017,3.6,3.8,3.8,3.8,3.8,3.5,3.5,3.3,N/A,3,96,25
+MAT133Y5,MCS,Cal Lin Alg Commerce MAT133Y5-Y-LEC0105,Wilk,Any,Winter,2017,3.7,3.9,4,4,4.1,3.5,3.4,3.7,N/A,3.5,122,39
+MAT134Y5,MCS,Calculus for Life Sciences MAT134Y5-Y-LEC0101,Mousavidehshikh,Ali,Winter,2017,3.4,3.4,4.6,2.8,2.8,2.7,3.5,2.2,N/A,2.1,90,53
+MAT134Y5,MCS,Calculus for Life Sciences MAT134Y5-Y-LEC0102,Thind,Jaimal,Winter,2017,3.4,3.3,4.2,3,2.9,2.9,3.8,2.6,N/A,2.6,103,68
+MAT134Y5,MCS,Calculus for Life Sciences MAT134Y5-Y-LEC0103,Holden,Tyler,Winter,2017,3.8,3.9,4.1,3.5,3.7,3.5,3.4,2.9,N/A,2.9,87,56
+MAT134Y5,MCS,Calculus for Life Sciences MAT134Y5-Y-LEC0104,Holden,Tyler,Winter,2017,3.7,3.5,4.1,3,3,3.2,3.4,2.7,N/A,2.8,80,49
+MAT134Y5,MCS,Calculus for Life Sciences MAT134Y5-Y-LEC0105,Askaripour,Nadya,Winter,2017,2.7,2.8,2.9,2.6,2.6,2.4,3.6,1.9,N/A,1.9,70,43
+MAT135Y5,MCS,Calculus MAT135Y5-Y-LEC0101,Burazin,Andrijana,Winter,2017,3.7,4,4.3,4.1,4,3.7,3.3,3.6,N/A,3.2,128,40
+MAT135Y5,MCS,Calculus MAT135Y5-Y-LEC0102,Wesslen,Maria,Winter,2017,3.9,4,4.7,3.8,3.9,3.9,3.3,3.8,N/A,3.6,130,44
+MAT135Y5,MCS,Calculus MAT135Y5-Y-LEC0103,Rennet,Alexander,Winter,2017,3.8,3.9,4.4,3.9,3.9,3.6,3.4,3.7,N/A,3.3,153,52
+MAT135Y5,MCS,Calculus MAT135Y5-Y-LEC0104,Askaripour,Nadya,Winter,2017,3.5,3.8,3.8,3.7,3.8,3.4,3.6,3.2,N/A,2.8,128,52
+MAT135Y5,MCS,Calculus MAT135Y5-Y-LEC0105,Tvalavadze,Marina,Winter,2017,3.4,3.9,3.9,4,3.8,3.5,3.4,3.2,N/A,3,86,26
+MAT135Y5,MCS,Calculus MAT135Y5-Y-LEC0106,Rennet,Alexander,Winter,2017,3.9,3.9,4.6,3.8,3.7,3.7,3.4,3.5,N/A,3.2,129,54
+MAT135Y5,MCS,Calculus MAT135Y5-Y-LEC0107,Burazin,Andrijana,Winter,2017,3.9,4,4.4,3.9,3.8,3.7,3.3,3.7,N/A,3.1,127,44
+MAT135Y5,MCS,Calculus MAT135Y5-Y-LEC0108,Askaripour,Nadya,Winter,2017,3.6,3.9,3.9,3.5,3.4,3.3,3.4,3.4,N/A,2.9,119,36
+MAT137Y5,MCS,Calculus MAT137Y5-Y-LEC0101,Mousavidehshikh,Ali,Winter,2017,4.3,4.4,4.5,3.9,4.1,3.8,3.6,3.4,N/A,3.6,60,35
+MAT137Y5,MCS,Calculus MAT137Y5-Y-LEC0102,Holden,Tyler,Winter,2017,4.5,4.7,4.8,4.3,4.3,4.3,3.9,3.8,N/A,3.9,50,27
+MAT202H5,MCS,Intro to Discrete Mathematics MAT202H5-S-LEC0101,Tvalavadze,Marina,Winter,2017,4.2,4.4,4.5,4.3,4.3,4.2,2.9,4.3,N/A,4,150,43
+MAT223H5,MCS,Linear Algebra I MAT223H5-S-LEC0101,Wang,Xinli,Winter,2017,3.6,3.7,3.6,3.7,3.8,3.3,3.5,3.4,N/A,3.1,125,39
+MAT223H5,MCS,Linear Algebra I MAT223H5-S-LEC0102,Thind,Jaimal,Winter,2017,4.1,4.3,4.5,4.3,4.1,4.1,3.3,3.9,N/A,3.5,132,69
+MAT223H5,MCS,Linear Algebra I MAT223H5-S-LEC0103,Holden,Tyler,Winter,2017,4.1,4.2,4.2,3.8,3.8,3.8,3.4,3.6,N/A,3.4,127,55
+MAT224H5,MCS,Linear Algebra II MAT224H5-S-LEC0101,Kolpakov,Aleksandr,Winter,2017,3.3,3.3,3.1,3.5,3.6,2.7,3.5,2.7,N/A,2.9,110,31
+MAT232H5,MCS,Calculus of Several Variables MAT232H5-S-LEC0101,Bell,Jordan,Winter,2017,3.3,3.7,3.5,3.7,3.8,3.3,3,3.1,N/A,3.3,63,13
+MAT232H5,MCS,Calculus of Several Variables MAT232H5-S-LEC0102,Vo,Huan,Winter,2017,3.3,3.7,3.8,3.8,3.6,3.2,3.3,3,N/A,3.2,96,28
+MAT240H5,MCS,Algebra I MAT240H5-S-LEC0101,Thind,Jaimal,Winter,2017,3.9,3.6,3.9,3.6,3.4,3.1,4.1,3.1,N/A,3.4,53,14
+MAT301H5,MCS,Groups and Symmetries MAT301H5-S-LEC0102,Mousavidehshikh,Ali,Winter,2017,4,4,4.3,4.1,3.7,3.8,3.2,3.6,N/A,3.7,60,13
+MAT302H5,MCS,Intro Algebraic Cryptography MAT302H5-S-LEC0101,Foo,Timothy,Winter,2017,4.5,4.2,3.8,4.2,4,4.3,2.5,4.7,N/A,3.8,24,6
+MAT311H5,MCS,Partial Diff Equatns MAT311H5-S-LEC0101,Hurth,Tobias,Winter,2017,4.4,4.3,4.2,4.4,4.2,4.1,3.4,3.6,N/A,3.6,34,12
+MAT334H5,MCS,Complex Variables MAT334H5-S-LEC0101,Gamse,Elisheva,Winter,2017,3.7,3.8,3.9,4.3,4.1,3.5,2.9,3.6,N/A,3.1,90,16
+MAT344H5,MCS,Intro Combinatorics MAT344H5-S-LEC0101,Rennet,Alexander,Winter,2017,3.8,4,4.1,3.6,3.3,3.1,4,2.7,N/A,3.4,77,12
+MAT378H5,MCS,Introduction to Real Analysis MAT378H5-S-LEC0101,Dudko,Artem,Winter,2017,4.3,4.3,4,3.6,3.3,3.2,4.1,2.6,N/A,3,71,13
+MAT378H5,MCS,Introduction to Real Analysis MAT378H5-S-LEC0102,Rennet,Alexander,Winter,2017,4.5,4.5,4.5,4,4.3,4.2,3.7,3.7,N/A,3.8,33,6
+MAT392H5,MCS,Ideas of Mathematics MAT392H5-S-LEC0101,Wesslen,Maria,Winter,2017,4.4,4.3,4.8,4.6,4.6,4.3,3.3,4.1,N/A,3.8,37,16
+STA107H5,MCS,Intro Probability & Modelling STA107H5-S-LEC0101,Weir,Alison,Winter,2017,3.4,3.4,3.3,3.2,3.2,3.1,2.6,3.1,N/A,3.3,129,38
+STA107H5,MCS,Intro Probability & Modelling STA107H5-S-LEC0102,Scicluna,Matthew,Winter,2017,3.2,3.3,2.5,3.1,3.1,2.6,3,2.8,N/A,2.9,60,24
+STA107H5,MCS,Intro Probability & Modelling STA107H5-S-LEC0103,Volgushev,Stanislav,Winter,2017,3.1,3.1,2.8,3.1,3.1,2.7,2.7,3,N/A,2.9,145,39
+STA221H5,MCS,The Practice of Statistics II STA221H5-S-LEC0101,Fraser,Olga,Winter,2017,3.8,4.3,4.3,4.2,4.2,3.7,3,3.7,N/A,3.5,33,6
+STA258H5,MCS,Statistics with Prob STA258H5-S-LEC0101,Weir,Alison,Winter,2017,3.8,3.7,3.8,3.6,3.6,3.2,2.8,3,N/A,3.5,56,12
+STA258H5,MCS,Statistics with Prob STA258H5-S-LEC0102,Nosedal Sanchez,Alvaro,Winter,2017,4,4.2,4.4,3.8,3.8,3.8,2.8,3.6,N/A,3.8,92,27
+STA260H5,MCS,Probability and Statistics II STA260H5-S-LEC0101,Al Labadi,Luai,Winter,2017,4.3,4.2,4.5,4.3,4.3,4.1,3.4,4,N/A,4,112,22
+STA260H5,MCS,Probability and Statistics II STA260H5-S-LEC0102,Nosedal Sanchez,Alvaro,Winter,2017,4.3,4.3,4.6,4.4,4.1,4.1,3.3,3.6,N/A,3.8,112,32
+STA305H5,MCS,Experimental Design STA305H5-S-LEC0101,Thinniyam,Ramya,Winter,2017,4.4,4.4,4.5,4.3,4.3,4.1,3,4.3,N/A,4.1,63,17
+STA305H5,MCS,Experimental Design STA305H5-S-LEC0102,Al Labadi,Luai,Winter,2017,4.2,4.5,4.8,4.7,4.6,4.3,3.2,4.4,N/A,3.7,64,13
+STA310H5,MCS,Bayesian Statis in Foren Sci STA310H5-S-LEC0101,Weir,Alison,Winter,2017,3.3,3.3,3.4,3.2,3.3,3.2,2.9,3.1,N/A,3,117,21
+STA431H5,MCS,Structural Equation Models STA431H5-S-LEC0101,Brunner,Lawrence,Winter,2017,4.6,4.4,4.8,4.8,4.6,4.4,3.2,4.4,N/A,3.2,18,6
+STA437H5,MCS,Appl Multivariate Stat STA437H5-S-LEC0101,Kong,Dehan,Winter,2017,4.1,4.3,4.6,4.5,4.5,4.4,2.9,4,N/A,4,31,9
+CSC108H5,MCS,Intro to Comp Prog CSC108H5-F-LEC0102,Petersen,Andrew,Fall,2016,4.2,4.1,4.6,4.2,4.1,4,3.2,4.1,N/A,4.1,156,72
+CSC108H5,MCS,Intro to Comp Prog CSC108H5-F-LEC0103,Chaturvedi,Ritu,Fall,2016,3.3,3.4,3.1,3.3,3.2,2.8,3.1,3.3,N/A,3.5,135,42
+CSC108H5,MCS,Intro to Comp Prog CSC108H5-F-LEC0104,Dema,Ilir,Fall,2016,3.6,3.7,3.6,3.7,3.6,3.1,3.3,3.4,N/A,3.4,125,41
+CSC108H5,MCS,Intro to Comp Prog CSC108H5-F-LEC0105,Chaturvedi,Ritu,Fall,2016,3.7,3.9,3.3,3.5,3.4,3.1,3.2,3.2,N/A,3.7,132,45
+CSC207H5,MCS,Software Design CSC207H5-F-LEC0101,Sharmin,Sadia,Fall,2016,3.8,3.9,4.3,3.8,3.8,3.4,3.8,3.3,N/A,3.6,112,36
+CSC207H5,MCS,Software Design CSC207H5-F-LEC0102,Rosenbloom,Arnold,Fall,2016,3.9,3.9,3.3,3.6,3.6,3.2,3.8,3.2,N/A,3.6,76,27
+CSC207H5,MCS,Software Design CSC207H5-F-LEC0103,Rosenbloom,Arnold,Fall,2016,4.3,4.3,3.8,4.1,3.9,3.6,3.9,3.6,N/A,4,109,29
+CSC236H5,MCS,Intro Theory Computation CSC236H5-F-LEC0101,Zhang,Yueli,Fall,2016,4.4,4.4,4.4,4.3,4.5,4.2,3.5,3.7,N/A,3.8,157,45
+CSC236H5,MCS,Intro Theory Computation CSC236H5-F-LEC0102,Zhang,Yueli,Fall,2016,4.2,4.3,4.2,4.2,4,3.9,3.4,3.8,N/A,3.6,122,40
+CSC290H5,MCS,Communication Skills for CSC CSC290H5-F-LEC0101,McCash,Nathania,Fall,2016,3.5,3.6,4.7,3.9,4,3.8,3.2,3.5,N/A,3.3,38,21
+CSC324H5,MCS,Princpl Progr Languages CSC324H5-F-LEC0101,Bonner,Anthony,Fall,2016,3.9,4.1,3.6,4.2,3.7,3.4,3.2,3.1,N/A,3.2,90,25
+CSC343H5,MCS,Intro Database CSC343H5-F-LEC0101,Chaturvedi,Ritu,Fall,2016,3.1,3.5,3.2,3.5,3.5,3.1,3.1,3.2,N/A,3,98,28
+CSC347H5,MCS,Intro to Information Security CSC347H5-F-LEC0101,Rosenbloom,Arnold,Fall,2016,4.7,4.7,4,4.4,4.4,3.7,3.9,4.3,N/A,4,48,12
+CSC369H5,MCS,Operating Systems CSC369H5-F-LEC0101,Zhang,Yueli,Fall,2016,4.6,4.5,4.6,4.4,4.3,4.4,4.3,4.2,N/A,4,64,20
+CSC373H5,MCS,Algorithm Design and Analysis CSC373H5-F-LEC0101,Zingaro,Daniel,Fall,2016,4.8,4.3,4.6,4.1,4.2,4,3.9,3.7,N/A,4,66,21
+MAT102H5,MCS,Intro to Mathem Proofs MAT102H5-F-LEC0101,Holden,Tyler,Fall,2016,4.5,4.3,4.8,4.1,4.1,4,3.7,3.4,N/A,3.7,124,68
+MAT102H5,MCS,Intro to Mathem Proofs MAT102H5-F-LEC0102,Tvalavadze,Marina,Fall,2016,4.1,3.8,3.8,3.4,3.6,3.2,3.6,3,N/A,3.3,99,29
+MAT102H5,MCS,Intro to Mathem Proofs MAT102H5-F-LEC0103,Mousavidehshikh,Ali,Fall,2016,4.4,4.4,4.8,4.1,4,4.1,3.5,3.3,N/A,3.8,128,60
+MAT102H5,MCS,Intro to Mathem Proofs MAT102H5-F-LEC0104,Mousavidehshikh,Ali,Fall,2016,4.3,4.1,4.6,3.8,3.9,3.5,3.3,3.2,N/A,3.5,121,62
+MAT102H5,MCS,Intro to Mathem Proofs MAT102H5-F-LEC0105,Tvalavadze,Marina,Fall,2016,4,4.1,3.4,3.9,3.7,3.4,3.5,3,N/A,3,92,29
+MAT202H5,MCS,Intro to Discrete Mathematics MAT202H5-F-LEC0101,Tvalavadze,Marina,Fall,2016,4.1,4.2,4.4,4.5,4,4.2,3,4.1,N/A,4,105,23
+MAT223H5,MCS,Linear Algebra I MAT223H5-F-LEC0101,Thind,Jaimal,Fall,2016,3.9,4.2,4.2,4,4.1,3.8,3.4,3.9,N/A,3.5,114,33
+MAT223H5,MCS,Linear Algebra I MAT223H5-F-LEC0102,Thind,Jaimal,Fall,2016,4,4.3,4.6,4.3,4.3,4.2,3.4,3.8,N/A,3.6,121,50
+MAT223H5,MCS,Linear Algebra I MAT223H5-F-LEC0103,Yang,Jonguk,Fall,2016,4.2,4.4,4.3,4.3,4,4,3.3,3.8,N/A,3.8,88,26
+MAT223H5,MCS,Linear Algebra I MAT223H5-F-LEC0104,Wang,Xinli,Fall,2016,3.7,4,3.9,4,3.9,3.5,3.6,3.5,N/A,3.2,120,36
+MAT224H5,MCS,Linear Algebra II MAT224H5-F-LEC0101,Gamse,Elisheva,Fall,2016,3.4,3.1,3.1,3,3.1,2.5,3.8,2.6,N/A,2.9,66,17
+MAT232H5,MCS,Calculus of Several Variables MAT232H5-F-LEC0101,Weiss,William,Fall,2016,3.2,3.2,2.9,3.7,3.7,2.9,3.1,3.2,N/A,2.9,124,50
+MAT232H5,MCS,Calculus of Several Variables MAT232H5-F-LEC0102,Weiss,William,Fall,2016,3.4,3.7,3.5,3.9,4,3.3,2.9,3.4,N/A,3.3,119,38
+MAT233H5,MCS,Calculus of Several Variables MAT233H5-F-LEC0101,Mazzeo,Elio,Fall,2016,3.2,3.1,2.6,3.3,3.2,2.6,3.6,2.7,N/A,3,54,21
+MAT244H5,MCS,Differential Equations I MAT244H5-F-LEC0101,Yampolsky,Michael,Fall,2016,3.8,3.7,3.7,3.9,3.9,3.5,2.8,3.9,N/A,3.4,86,22
+MAT244H5,MCS,Differential Equations I MAT244H5-F-LEC0102,Hurth,Tobias,Fall,2016,3.7,3.7,4,3.5,3.6,3.4,2.8,3.4,N/A,3.2,84,23
+MAT301H5,MCS,Groups and Symmetries MAT301H5-F-LEC0101,Wesslen,Maria,Fall,2016,4.4,4.5,4.7,4.4,4.4,4.4,3.3,4,N/A,4,71,23
+MAT309H5,MCS,Intro to Math Logic MAT309H5-F-LEC0101,Rennet,Alexander,Fall,2016,4.7,4.6,4.4,4.7,4.6,4.1,3.7,3.9,N/A,4.4,16,10
+MAT315H5,MCS,Intro to Number Theory MAT315H5-F-LEC0101,Shankar,Arul,Fall,2016,4.5,4.5,4.6,4.8,4.4,4.5,2.9,4.4,N/A,4.1,26,8
+MAT332H5,MCS,Intro Nonlin Dynamics & Chaos MAT332H5-F-LEC0101,De Simoi,Jacopo,Fall,2016,4.3,4.3,4.5,4.1,4.3,3.9,3.1,3.5,N/A,3.5,16,12
+MAT334H5,MCS,Complex Variables MAT334H5-F-LEC0101,Dudko,Artem,Fall,2016,3.8,3.9,3.8,4.2,4,3.6,3.4,3.6,N/A,3.5,69,14
+MAT334H5,MCS,Complex Variables MAT334H5-F-LEC0102,Adams,Joseph,Fall,2016,3.6,3.6,3.6,3.4,3.4,3.1,3.4,3.1,N/A,3.1,69,20
+MAT344H5,MCS,Intro Combinatorics MAT344H5-F-LEC0101,Rennet,Alexander,Fall,2016,4,4.2,4.3,4.1,3.7,3.7,3.6,3.6,N/A,3.8,64,18
+MAT382H5,MCS,Mathematics for Teachers MAT382H5-F-LEC0101,Wesslen,Maria,Fall,2016,4.4,4.6,5,4.4,4.4,4.6,3.4,4.3,N/A,4.3,22,10
+MAT402H5,MCS,Classical Geometries MAT402H5-F-LEC0101,Karshon,Yael,Fall,2016,3.7,4.1,4,3.9,3.8,3.6,3.5,3.3,N/A,3.2,51,13
+MAT406H5,MCS,Math Intro to Game Theory MAT406H5-F-LEC0101,Binder,Ilia,Fall,2016,4,4.1,4.4,4,4,3.7,3.1,3.6,N/A,3.4,22,7
+STA215H5,MCS,Intro to Applied Statistics STA215H5-F-LEC0101,Thinniyam,Ramya,Fall,2016,3,3.2,3.5,3.1,3.2,2.8,3.5,2.7,N/A,2.4,188,79
+STA215H5,MCS,Intro to Applied Statistics STA215H5-F-LEC0102,Weir,Alison,Fall,2016,2.9,3.2,3.2,2.8,3,2.7,3.2,2.6,N/A,2.3,144,57
+STA215H5,MCS,Intro to Applied Statistics STA215H5-F-LEC0103,Thinniyam,Ramya,Fall,2016,3,3.3,3.7,3.2,3.2,3,3.5,2.5,N/A,2.5,175,62
+STA218H5,MCS,Statistics for Management STA218H5-F-LEC0101,Xie,Shengkun,Fall,2016,1.7,1.8,1.3,1.7,1.6,1.3,3.8,1.3,N/A,1.5,40,26
+STA220H5,MCS,The Practice of Statistics I STA220H5-F-LEC0101,Fraser,Olga,Fall,2016,3.3,3.6,3.2,3.9,3.7,2.9,3.5,3.4,N/A,3.3,67,25
+STA220H5,MCS,The Practice of Statistics I STA220H5-F-LEC0102,Fraser,Olga,Fall,2016,3.3,3.9,3.3,3.9,3.9,3.9,3.4,3.1,N/A,2.7,33,9
+STA256H5,MCS,Probability and Statistics I STA256H5-F-LEC0101,Nosedal Sanchez,Alvaro,Fall,2016,4.2,4.3,4.7,4,4.3,4,3.1,3.9,N/A,4,138,46
+STA256H5,MCS,Probability and Statistics I STA256H5-F-LEC0102,Xie,Shengkun,Fall,2016,2.5,2.6,1.7,2.3,2.4,1.8,3.3,2,N/A,2,107,37
+STA256H5,MCS,Probability and Statistics I STA256H5-F-LEC0103,Nosedal Sanchez,Alvaro,Fall,2016,4.1,4.1,4.6,3.6,3.7,4,3.2,3.5,N/A,3.4,147,41
+STA258H5,MCS,Statistics with Prob STA258H5-F-LEC0101,Thinniyam,Ramya,Fall,2016,3.9,3.8,3.7,4,4.1,3.5,3.4,3.6,N/A,3.7,121,26
+STA302H5,MCS,Regression Analysis STA302H5-F-LEC0101,Brunner,Lawrence,Fall,2016,4.4,4.2,4.4,4.1,4.1,4.1,3.4,3.6,N/A,3.7,28,9
+STA302H5,MCS,Regression Analysis STA302H5-F-LEC0201,Xie,Shengkun,Fall,2016,2.6,2.5,2.3,2.4,2.6,2.2,3.3,2.1,N/A,2.3,61,16
+STA304H5,MCS,Surveys Sampl & Observat Data STA304H5-F-LEC0101,Weir,Alison,Fall,2016,4,4.1,4.1,4.1,4,3.6,3.1,3.7,N/A,3.6,117,23
+STA304H5,MCS,Surveys Sampl & Observat Data STA304H5-F-LEC0102,Al Labadi,Luai,Fall,2016,4.1,4.4,4.7,4.2,4.4,4.2,3,4.2,N/A,3.8,116,37
+STA312H5,MCS,Applied Statistical Modelling STA312H5-F-LEC0101,Al Labadi,Luai,Fall,2016,4,4.2,4.5,4.4,4.5,4,3,4.3,N/A,4,86,28
+CSC148H5,MCS,Intro to Comp Science CSC148H5-S-LEC0101,Zingaro,Daniel,Summer,2016,3.9,4,4.2,3.5,3.4,3.4,3.7,3.1,N/A,3.6,109,40
+MAT102H5,MCS,Intro to Mathem Proofs MAT102H5-Y-LEC0101,Mousavidehshikh,Ali,Summer,2016,3.9,3.8,4.5,3.6,3.8,3.6,3.4,2.8,N/A,2.9,72,26
+MAT133Y5,MCS,Cal Lin Alg Commerce MAT133Y5-Y-LEC0101,Rennet,Alexander,Summer,2016,3.8,3.6,4.1,3.4,3.3,3.6,3.9,2.8,N/A,2.6,61,16
+MAT134Y5,MCS,Calculus for Life Sciences MAT134Y5-Y-LEC0101,Thind,Jaimal,Summer,2016,3.5,3.7,4.6,3.8,3.7,3.3,4.2,2.8,N/A,2.2,83,28
+MAT134Y5,MCS,Calculus for Life Sciences MAT134Y5-Y-LEC0102,Zaman,Saiful,Summer,2016,2.7,3.1,3.6,2.9,2.8,2.6,4.1,2,N/A,1.7,75,10
+MAT135Y5,MCS,Calculus MAT135Y5-Y-LEC0101,Alexander,John,Summer,2016,3.1,3.6,3.2,3.4,3.6,2.9,3.5,3.2,N/A,2.5,79,22
+MAT135Y5,MCS,Calculus MAT135Y5-Y-LEC0102,Burazin,Andrijana,Summer,2016,3.9,3.9,4.3,3.5,3.4,3.3,4.1,3.3,N/A,3.4,58,15
+MAT223H5,MCS,Linear Algebra I MAT223H5-Y-LEC0101,Yang,Jonguk,Summer,2016,4.2,4.5,4.6,3.8,4.2,4.1,2.7,3.9,N/A,3.8,73,27
+MAT224H5,MCS,Linear Algebra II MAT224H5-Y-LEC0101,Eskandari,Payman,Summer,2016,4.1,4.6,4.4,4.6,4.6,4.1,3.3,3.9,N/A,3.3,32,8
+MAT232H5,MCS,Calculus of Several Variables MAT232H5-Y-LEC0101,Fuchs,Shay,Summer,2016,3.6,3.9,4.1,3.9,3.9,3.5,3.3,3.2,N/A,3.3,56,13
+STA220H5,MCS,The Practice of Statistics I STA220H5-S-LEC0101,Lokku,Armend,Summer,2016,3.8,4.2,4.6,4.4,4.7,4.1,3.3,3.8,N/A,3.2,41,12
+CSC108H5,MCS,Intro to Comp Prog CSC108H5-F-LEC0101,Sadia,Sharmin,Summer,2016,4.1,4.1,4.4,4,3.9,3.8,3.3,3.5,N/A,3.5,96,34
+CSC318H5,MCS,Design of Intrcv Comput Media CSC318H5-F-LEC0101,Daniel,Wigdor,Summer,2016,3.6,4.3,3.8,3.9,3.9,3.6,4.4,3.3,N/A,3.8,30,9
+STA215H5,MCS,Intro to Applied Statistics STA215H5-F-LEC0101,Alvaro,Nosedal Sanchez,Summer,2016,4.1,4.3,4.7,4.3,4.3,4.1,3,3.9,N/A,3.3,112,41
+CSC148H5,MCS,Intro to Comp Science CSC148H5-S-LEC0102,Zingaro,Daniel,Winter,2016,4.4,4.6,4.8,4.2,4.2,4.2,3.3,3.9,N/A,3.9,141,53
+CSC148H5,MCS,Intro to Comp Science CSC148H5-S-LEC0103,Sharmin,Sadia,Winter,2016,4.3,4.6,4.7,4.1,4.3,4.5,3.5,4.1,N/A,4,70,24
+CSC209H5,MCS,Soft Tools & Sys Prog CSC209H5-S-LEC0101,Rosenthal,Alan,Winter,2016,3.2,3.2,2.6,3.2,3.3,2.5,3.7,2.8,N/A,2.9,137,38
+CSC258H5,MCS,Computer Organization CSC258H5-S-LEC0101,Zhang,Yueli,Winter,2016,4.3,4.3,4.2,4.6,4.3,3.9,3.6,4,N/A,4.1,144,37
+CSC263H5,MCS,Data Struct Analys CSC263H5-S-LEC0101,Zhang,Yueli,Winter,2016,4.4,4.4,4.2,4.2,4.2,3.9,3.5,3.8,N/A,4.1,105,30
+CSC290H5,MCS,Communication Skills for CSC CSC290H5-S-LEC0101,McCash,Nathania,Winter,2016,2.7,2.8,3.9,3.1,3.2,2.9,2.7,2.9,N/A,2.4,115,54
+CSC290H5,MCS,Communication Skills for CSC CSC290H5-S-LEC0102,Lim,Joseph,Winter,2016,2.2,2.6,3,3.2,3.2,2.6,2.7,2.6,N/A,2.6,66,21
+CSC309H5,MCS,Programming on the Web CSC309H5-S-LEC0101,Zhang,Yueli,Winter,2016,4.2,4.4,4.3,4.4,4.4,3.9,3.8,4.2,N/A,4,45,14
+CSC321H5,MCS,Intr Neu Ntwrk & Mchn Learn CSC321H5-S-LEC0101,Bonner,Anthony,Winter,2016,2.8,1.7,1.7,1.9,1.9,1.5,3.1,1.6,N/A,2.4,36,14
+CSC363H5,MCS,Comput Complex & Comput CSC363H5-S-LEC0101,Robere,Robert,Winter,2016,4.2,4.2,4.1,3.6,3.5,3.8,3.8,2.5,N/A,3.4,35,12
+CSC427H5,MCS,Computer Security CSC427H5-S-LEC0101,Rosenbloom,Arnold,Winter,2016,4.6,4.8,4.6,4.4,4.6,4.6,2.6,4.6,N/A,4.8,22,5
+CSC490H5,MCS,Capstone Design Course CSC490H5-S-LEC0101,Sharmin,Sadia,Winter,2016,4.2,4.1,3.7,4.2,4.2,4,4.2,4,N/A,4.2,22,10
+CSC498H5,MCS,Topics in Computer Science CSC498H5-S-LEC0101,Zingaro,Daniel,Winter,2016,4.5,4.5,4.8,4.1,4.3,4.4,3.5,4.8,N/A,4.1,17,8
+MAT102H5,MCS,Intro to Mathem Proofs MAT102H5-S-LEC0101,Thind,Jaimal,Winter,2016,4,4,4.7,4,4.1,3.8,3.8,3,N/A,3.5,133,29
+MAT102H5,MCS,Intro to Mathem Proofs MAT102H5-S-LEC0102,Tvalavadze,Marina,Winter,2016,4,3.9,3.5,3.8,3.8,3.4,3.4,3.3,N/A,3.4,145,34
+MAT102H5,MCS,Intro to Mathem Proofs MAT102H5-S-LEC0103,Thind,Jaimal,Winter,2016,4.3,4.5,4.6,4.3,4,4,3.3,3.7,N/A,4.1,124,33
+MAT133Y5,MCS,Cal Lin Alg Commerce MAT133Y5-Y-LEC0101,Rennet,Alexander,Winter,2016,3.9,4.2,4.6,4.2,4.2,4,3.5,3.7,N/A,3.4,95,28
+MAT133Y5,MCS,Cal Lin Alg Commerce MAT133Y5-Y-LEC0102,Vagharshakyan,Armen,Winter,2016,3,3.1,2.9,3.5,3.6,3.2,3.4,3,N/A,2.7,132,27
+MAT133Y5,MCS,Cal Lin Alg Commerce MAT133Y5-Y-LEC0103,Rennet,Alexander,Winter,2016,4,4,4.5,4,4.2,3.8,3.3,3.4,N/A,3.5,115,26
+MAT133Y5,MCS,Cal Lin Alg Commerce MAT133Y5-Y-LEC0104,Wilk,Any,Winter,2016,3.8,3.9,3.5,4,4.2,3.5,3.5,3.4,N/A,3.2,149,38
+MAT133Y5,MCS,Cal Lin Alg Commerce MAT133Y5-Y-LEC0105,Wilk,Any,Winter,2016,3.6,3.7,3.6,4,4.1,3.5,3.4,3.4,N/A,2.9,143,24
+MAT134Y5,MCS,Calculus for Life Sciences MAT134Y5-Y-LEC0101,Burazin,Andrijana,Winter,2016,3.1,3.5,3.6,3,3,2.4,3.9,2.5,N/A,2.2,61,22
+MAT134Y5,MCS,Calculus for Life Sciences MAT134Y5-Y-LEC0102,Yu,Guowei,Winter,2016,2.8,3.1,2.3,2.8,2.8,2.3,3.6,2.4,N/A,2,84,36
+MAT134Y5,MCS,Calculus for Life Sciences MAT134Y5-Y-LEC0103,Fuchs,Shay,Winter,2016,3.4,3.4,4.2,3,3.1,2.9,3.8,2.7,N/A,2.4,124,60
+MAT135Y5,MCS,Calculus MAT135Y5-Y-LEC0101,Tvalavadze,Marina,Winter,2016,3.7,3.9,3.8,4.1,4,3.6,3.4,3.5,N/A,3.5,119,21
+MAT135Y5,MCS,Calculus MAT135Y5-Y-LEC0103,Wesslen,Maria,Winter,2016,3.9,4.2,4.6,3.9,3.9,3.9,3.4,3.7,N/A,3.2,173,127
+MAT135Y5,MCS,Calculus MAT135Y5-Y-LEC0104,Wesslen,Maria,Winter,2016,3.9,4,4.6,3.8,3.8,3.8,3.4,3.6,N/A,3.1,142,98
+MAT135Y5,MCS,Calculus MAT135Y5-Y-LEC0106,Askaripour,Nadya,Winter,2016,4.1,4.2,4.1,4.2,4.1,3.9,3.6,3.8,N/A,3.5,126,31
+MAT137Y5,MCS,Calculus MAT137Y5-Y-LEC0101,Hurth,Tobias,Winter,2016,4.6,4.6,4.6,4.5,4.3,4.1,3.5,3.6,N/A,3.6,43,11
+MAT137Y5,MCS,Calculus MAT137Y5-Y-LEC0102,Fortier Bourque,Maxime,Winter,2016,4.2,3.9,3.9,4,3.8,3.7,3.7,3.5,N/A,4.1,43,10
+MAT202H5,MCS,Intro to Discrete Mathematics MAT202H5-S-LEC0101,Tvalavadze,Marina,Winter,2016,4.2,4,4.3,3.9,4,3.8,3.1,3.9,N/A,3.8,124,18
+MAT223H5,MCS,Linear Algebra I MAT223H5-S-LEC0101,Wesslen,Maria,Winter,2016,3.9,3.9,4.4,4,3.8,3.8,3.3,3.7,N/A,3,114,51
+MAT223H5,MCS,Linear Algebra I MAT223H5-S-LEC0102,Thind,Jaimal,Winter,2016,3.8,3.7,4,4,3.8,3.4,3.4,3.7,N/A,3.4,128,22
+MAT223H5,MCS,Linear Algebra I MAT223H5-S-LEC0103,Mazzeo,Elio,Winter,2016,3.6,3.7,3.7,3.9,3.8,3.4,3.3,3.4,N/A,3.2,117,23
+MAT224H5,MCS,Linear Algebra II MAT224H5-S-LEC0101,Zhang,Ke,Winter,2016,3.1,3.2,3.3,3.2,3.2,2.7,3.5,2.7,N/A,2.9,87,28
+MAT232H5,MCS,Calculus of Several Variables MAT232H5-S-LEC0101,Weiss,William,Winter,2016,3.4,3.6,3,3.8,3.6,3.1,3,3.2,N/A,3.2,115,27
+MAT236H5,MCS,Vector Calculus MAT236H5-S-LEC0101,Lukic,Milivoje,Winter,2016,4.2,4.4,4.7,4.6,4.7,4.4,3.1,4.4,N/A,4,138,29
+MAT247H5,MCS,Algebra II MAT247H5-S-LEC0101,Thind,Jaimal,Winter,2016,4.5,4.6,4.9,4.8,4.5,4.5,3.4,4.5,N/A,4.5,14,8
+MAT301H5,MCS,Groups and Symmetries MAT301H5-S-LEC0101,Mousavidehshikh,Ali,Winter,2016,3.8,3.6,3.8,3.8,3.8,3.3,3.4,2.9,N/A,3.2,66,24
+MAT302H5,MCS,Intro Algebraic Cryptography MAT302H5-S-LEC0101,George,William,Winter,2016,4.2,4.4,3.8,4.8,4.8,4.4,3.4,4,N/A,4,21,5
+MAT311H5,MCS,Partial Diff Equatns MAT311H5-S-LEC0101,Burazin,Andrijana,Winter,2016,3.4,2.8,2.8,3.6,3.6,2.9,3.6,2.9,N/A,2.9,33,10
+MAT315H5,MCS,Intro to Number Theory MAT315H5-S-LEC0101,Eskandari,Payman,Winter,2016,4.4,4.4,4.9,4.5,4.5,4.1,3.8,4,N/A,4.1,24,8
+MAT334H5,MCS,Complex Variables MAT334H5-S-LEC0101,Graham,Ian,Winter,2016,2.9,2.7,2.2,3.1,3.4,2.5,3.4,2.4,N/A,2.2,68,15
+MAT334H5,MCS,Complex Variables MAT334H5-S-LEC0102,Kolpakov,Aleksandr,Winter,2016,4,4,4,4.3,4.3,3.7,3.1,4,N/A,3.9,77,8
+MAT344H5,MCS,Intro Combinatorics MAT344H5-S-LEC0101,Rennet,Alexander,Winter,2016,3.7,3.9,4.1,3.9,3.9,3.7,3.1,3.5,N/A,3.1,72,17
+MAT344H5,MCS,Intro Combinatorics MAT344H5-S-LEC0102,Sokic,Miodrag,Winter,2016,3.5,3.7,2.7,3.9,3.7,3.1,2.9,3.7,N/A,3.3,74,21
+MAT378H5,MCS,Introduction to Analysis MAT378H5-S-LEC0101,Fuchs,Shay,Winter,2016,4.3,4.1,4.4,4.1,4.1,4,3.8,3,N/A,3.6,65,14
+STA107H5,MCS,Intro Probability & Modelling STA107H5-S-LEC0101,Weir,Alison,Winter,2016,3.2,3.3,3,3.4,3.3,2.8,2.8,3.4,N/A,3.3,144,31
+STA221H5,MCS,The Practice of Statistics II STA221H5-S-LEC0101,Fraser,Olga,Winter,2016,3.7,4.1,4,4.1,4,3.9,3.3,3.7,N/A,3,36,11
+STA258H5,MCS,Statistics with Prob STA258H5-S-LEC0101,Weir,Alison,Winter,2016,2.7,2.6,2.2,2.4,2.5,2.2,3.3,2.4,N/A,2.6,198,26
+STA260H5,MCS,Probability and Statistics II STA260H5-S-LEC0101,Nosedal Sanchez,Alvaro,Winter,2016,3.4,3.5,3.7,3.3,3.3,3,3.1,3.1,N/A,3.2,198,25
+STA305H5,MCS,Experimental Design STA305H5-S-LEC0101,Thinniyam,Ramya,Winter,2016,4,4.3,4.3,4.1,4.3,3.9,3,4,N/A,4,93,31
+STA310H5,MCS,Applied Bayesian Statistics STA310H5-S-LEC0101,Weir,Alison,Winter,2016,3.3,3.5,3.2,3.6,3.6,2.8,2.8,3.2,N/A,3.2,54,12
+STA312H5,MCS,Applied Statistical Modelling STA312H5-S-LEC0101,Thinniyam,Ramya,Winter,2016,4.4,4.6,4.5,4.1,4.4,4.1,3.1,3.9,N/A,4.3,70,22
+STA441H5,MCS,Methods of Applied Statistics STA441H5-S-LEC0101,Brunner,Lawrence,Winter,2016,4.5,4.2,4.1,4.4,4.5,4,4.2,3.9,N/A,4.3,32,12
+STA457H5,MCS,Applied Time Series Anls STA457H5-S-LEC0101,Nosedal Sanchez,Alvaro,Winter,2016,3.7,3.7,4,3.7,4,3.7,2.9,3.5,N/A,3.8,35,13
+CSC108H5,MCS,Intro to Comp Prog CSC108H5-F-LEC0101,Rosenbloom,Arnold,Fall,2015,3.6,3.8,4,3.9,3.8,3.5,3.3,3.6,N/A,3.7,141,44
+CSC108H5,MCS,Intro to Comp Prog CSC108H5-F-LEC0102,Tong,Tiffany,Fall,2015,4,4,4.4,3.9,3.9,3.7,3.3,3.6,N/A,3.9,129,45
+CSC108H5,MCS,Intro to Comp Prog CSC108H5-F-LEC0103,Dema,Ilir,Fall,2015,4.2,4.4,3.8,4,4.1,3.7,3.1,3.7,N/A,4.1,96,25
+CSC108H5,MCS,Intro to Comp Prog CSC108H5-F-LEC0104,Dema,Ilir,Fall,2015,3.6,3.5,3.4,3.6,3.7,3.1,3.1,3.6,N/A,3.5,105,30
+CSC108H5,MCS,Intro to Comp Prog CSC108H5-F-LEC0105,Sharmin,Sadia,Fall,2015,3.8,3.7,4.3,3.6,3.6,3.3,3.2,3.4,N/A,3.4,76,20
+CSC236H5,MCS,Intro Theory Computation CSC236H5-F-LEC0101,Zingaro,Daniel,Fall,2015,4,4,3.9,3.6,3.4,3.4,3.7,3.3,N/A,3.3,106,31
+CSC236H5,MCS,Intro Theory Computation CSC236H5-F-LEC0102,Sharmin,Sadia,Fall,2015,4.5,4.2,4.3,4.5,4.3,3.6,3.9,2.8,N/A,3.5,56,12
+CSC290H5,MCS,Communication Skills for CSC CSC290H5-F-LEC0101,McCash,Nathania,Fall,2015,2.6,2.8,3.8,3.1,3.1,2.8,3.3,2.6,N/A,2.3,96,35
+CSC290H5,MCS,Communication Skills for CSC CSC290H5-F-LEC0201,Lim,Joseph,Fall,2015,2.5,2.8,3.4,3,3,2.8,2.8,2.6,N/A,2.4,90,33
+CSC324H5,MCS,Princpl Progr Languages CSC324H5-F-LEC0101,Attarwala,Abbas,Fall,2015,4.5,4.5,4.8,4.4,4.3,4.4,3.4,4.3,N/A,4.2,70,32
+CSC343H5,MCS,Intro Database CSC343H5-F-LEC0101,Zilio,Danny,Fall,2015,3.2,3.3,2.6,3.4,3.3,2.9,3.6,3.5,N/A,3.1,57,17
+CSC347H5,MCS,Intro to Information Security CSC347H5-F-LEC0101,Rosenbloom,Arnold,Fall,2015,4.3,3.9,3.5,3.5,3.2,3.2,4.2,3.3,N/A,3.7,50,15
+CSC369H5,MCS,Operating Systems CSC369H5-F-LEC0101,Zhang,Yueli,Fall,2015,4,4,4.4,4.2,4,3.5,4.5,3.4,N/A,3.5,58,20
+CSC373H5,MCS,Algorithm Design and Analysis CSC373H5-F-LEC0101,Zingaro,Daniel,Fall,2015,4,3.6,4,3.7,3.6,3.2,3.7,3.4,N/A,3.4,54,21
+CSC423H5,MCS,Computer Forensics CSC423H5-F-LEC0101,Duquette,Ryan,Fall,2015,4.8,4.6,4.9,4.6,4.8,4.4,2.9,4.9,N/A,4.2,16,9
+MAT102H5,MCS,Intro to Mathem Proofs MAT102H5-F-LEC0101,Fuchs,Shay,Fall,2015,4.3,4.2,4.4,4.2,3.8,3.7,3.7,3.2,N/A,3.4,119,41
+MAT102H5,MCS,Intro to Mathem Proofs MAT102H5-F-LEC0102,Tvalavadze,Marina,Fall,2015,3.7,3.7,2.8,3.7,3.4,2.9,3.9,2.5,N/A,2.9,108,34
+MAT102H5,MCS,Intro to Mathem Proofs MAT102H5-F-LEC0103,Mousavidehshikh,Ali,Fall,2015,4.3,4,4.4,4,3.7,3.7,3.7,2.9,N/A,3.1,83,31
+MAT102H5,MCS,Intro to Mathem Proofs MAT102H5-F-LEC0104,Mousavidehshikh,Ali,Fall,2015,4.3,4.4,4.6,4.1,4,3.8,3.4,3.4,N/A,3.7,89,37
+MAT202H5,MCS,Intro to Discrete Mathematics MAT202H5-F-LEC0101,Tvalavadze,Marina,Fall,2015,4,4.1,4.2,3.9,4.1,3.5,3.1,3.6,N/A,3.3,105,17
+MAT212H5,MCS,Model Diff Equat - LifeSci&Med MAT212H5-F-LEC0101,Zhang,Ke,Fall,2015,4.2,4.2,4.2,4.6,4.5,4.2,2.9,4.3,N/A,3.7,17,10
+MAT223H5,MCS,Linear Algebra I MAT223H5-F-LEC0101,Thind,Jaimal,Fall,2015,4.2,4.3,4.3,4.4,4.4,4.2,3.2,4.2,N/A,3.8,102,20
+MAT223H5,MCS,Linear Algebra I MAT223H5-F-LEC0102,Yang,Jonguk,Fall,2015,3.6,4,3.9,4,3.9,3.7,3.1,3.4,N/A,3.5,104,14
+MAT223H5,MCS,Linear Algebra I MAT223H5-F-LEC0103,Lukic,Milivoje,Fall,2015,3.6,3.9,3.7,3.9,4,3.4,3.2,3.4,N/A,3.1,113,25
+MAT223H5,MCS,Linear Algebra I MAT223H5-F-LEC0104,Rennet,Alexander,Fall,2015,3.9,4.1,4.2,4.1,4.2,3.8,3,3.9,N/A,3.7,82,23
+MAT224H5,MCS,Linear Algebra II MAT224H5-F-LEC0101,Tvalavadze,Marina,Fall,2015,3.9,4.2,4.5,4.1,4.2,3.7,3.1,3.9,N/A,3.8,61,12
+MAT232H5,MCS,Calculus of Several Variables MAT232H5-F-LEC0101,Weiss,William,Fall,2015,3.4,3.6,3,4,4,3.1,2.9,3.3,N/A,2.9,124,38
+MAT232H5,MCS,Calculus of Several Variables MAT232H5-F-LEC0102,Kolpakov,Aleksandr,Fall,2015,3.6,3.8,3.1,4.2,4.1,3.2,2.8,3.7,N/A,3.3,95,26
+MAT233H5,MCS,Calculus of Several Variables MAT233H5-F-LEC0101,De Simoi,Jacopo,Fall,2015,3.8,3.9,3.9,4.1,4,3.8,3.2,3.6,N/A,3.6,73,19
+MAT240H5,MCS,Algebra I MAT240H5-F-LEC0101,Thind,Jaimal,Fall,2015,3.9,3.8,3.8,3.5,3.5,3.4,3.4,3.3,N/A,3.8,32,8
+MAT244H5,MCS,Differential Equations I MAT244H5-F-LEC0101,Yampolsky,Michael,Fall,2015,4.1,4.2,4.2,4.3,4.3,3.9,3.2,3.9,N/A,3.9,74,14
+MAT244H5,MCS,Differential Equations I MAT244H5-F-LEC0102,Thind,Jaimal,Fall,2015,3.8,3.8,4.2,3.8,3.9,3.6,3.5,3.6,N/A,3.7,81,19
+MAT301H5,MCS,Groups and Symmetries MAT301H5-F-LEC0101,Wesslen,Maria,Fall,2015,4.5,4.5,4.8,4.6,4.4,4.1,3.2,3.8,N/A,3.6,80,22
+MAT309H5,MCS,Intro to Math Logic MAT309H5-F-LEC0101,Rennet,Alexander,Fall,2015,2.9,2.7,3.3,2.4,2.6,2.6,2.9,1.9,N/A,2.4,21,7
+MAT332H5,MCS,Intro Nonlin Dynamics & Chaos MAT332H5-F-LEC0101,Yampolsky,Michael,Fall,2015,3.1,3,3.4,3.1,3.3,2.9,3.1,2.7,N/A,3,22,7
+MAT334H5,MCS,Complex Variables MAT334H5-F-LEC0101,Gorbovickis,Igors,Fall,2015,3.7,3.8,3.8,3.7,3.2,3.3,3.3,2.7,N/A,2.6,72,10
+MAT344H5,MCS,Intro Combinatorics MAT344H5-F-LEC0101,Khanin,Konstantin,Fall,2015,3.6,3.8,3.4,3.3,3.5,3.1,3.1,2.9,N/A,2.6,67,8
+MAT382H5,MCS,Mathematics for Teachers MAT382H5-F-LEC0101,Wesslen,Maria,Fall,2015,4.2,4.4,4.6,4.3,4.1,4.2,3.2,4.1,N/A,4.2,24,14
+MAT402H5,MCS,Classical Geometries MAT402H5-F-LEC0101,Karshon,Yael,Fall,2015,3.8,4,3.7,3.7,3.7,3.6,4.1,3.6,N/A,3.6,35,11
+MAT406H5,MCS,Math Intro to Game Theory MAT406H5-F-LEC0101,Binder,Ilia,Fall,2015,3.9,4.1,3.9,3.9,3.8,3.6,3.6,3.3,N/A,3.8,33,13
+STA215H5,MCS,Intro to Applied Statistics STA215H5-F-LEC0101,Thinniyam,Ramya,Fall,2015,3,3.4,3.5,3.4,3.4,3,3.4,2.9,N/A,2.5,283,115
+STA215H5,MCS,Intro to Applied Statistics STA215H5-F-LEC0102,Thinniyam,Ramya,Fall,2015,2.9,3.3,3.4,3.3,3.3,2.9,3.4,2.8,N/A,2.3,232,80
+STA218H5,MCS,Statistics for Management STA218H5-F-LEC0101,Nosedal Sanchez,Alvaro,Fall,2015,3.7,4.3,4.3,4.5,4.6,4.1,3.2,4,N/A,3.3,58,18
+STA220H5,MCS,The Practice of Statistics I STA220H5-F-LEC0101,Fraser,Olga,Fall,2015,2.9,3.4,2.5,3.5,3.7,2.7,3.4,2.8,N/A,2.4,112,31
+STA220H5,MCS,The Practice of Statistics I STA220H5-F-LEC0102,Fraser,Olga,Fall,2015,3.3,3.9,2.8,3.5,3.8,3.3,3.6,3.3,N/A,2.7,60,12
+STA256H5,MCS,Probability and Statistics I STA256H5-F-LEC0101,Nosedal Sanchez,Alvaro,Fall,2015,3.3,3.5,3.6,3.2,3.2,3,3.1,3,N/A,3,235,52
+STA256H5,MCS,Probability and Statistics I STA256H5-F-LEC0102,Thinniyam,Ramya,Fall,2015,3.9,4.1,3.9,3.5,3.6,3.4,3.2,3.2,N/A,3.3,87,18
+STA258H5,MCS,Statistics with Prob STA258H5-F-LEC0101,Thinniyam,Ramya,Fall,2015,4,3.8,3.6,3.7,3.6,3.2,3.3,3.2,N/A,3,61,13
+STA302H5,MCS,Regression Analysis STA302H5-F-LEC0101,Brunner,Lawrence,Fall,2015,3.6,3.8,3.8,3.8,3.8,3.3,3.9,3,N/A,3.6,75,25
+STA313H5,MCS,Applications of Stat. Models STA313H5-F-LEC0101,Nosedal Sanchez,Alvaro,Fall,2015,3.9,4.1,4.5,4.5,4.6,4.1,2.8,4.1,N/A,3.8,83,22
+STA348H5,MCS,Intro Stochastic Processes STA348H5-F-LEC0101,Weir,Alison,Fall,2015,4.2,3.8,3.5,3.7,3.8,3.5,2.8,3.2,N/A,3.3,21,6
+STA413H5,MCS,Estimation and Testing STA413H5-F-LEC0101,Weir,Alison,Fall,2015,4,3.8,3.8,3.7,3.7,3.6,3.1,3.8,N/A,3.8,30,10
+CSC318H5,MCS,Design of Intrcv Comput Media CSC318H5-S-LEC0101,Wigdor,Daniel,Summer,2015,3.2,3.4,3.4,3,3.2,3,3.4,3.8,N/A,2.6,31,5
+MAT102H5,MCS,Intro to Mathem Proofs MAT102H5-Y-LEC0101,Rennet,Alexander,Summer,2015,3.8,4.1,4.6,4,3.8,4.1,3.9,3.4,N/A,4,83,8
+MAT133Y5,MCS,Cal Lin Alg Commerce MAT133Y5-Y-LEC0101,Tvalavadze,Marina,Summer,2015,4.2,4.4,4.6,4.4,4.5,4.6,3.2,4.4,N/A,3.9,136,20
+MAT134Y5,MCS,Calculus for Life Sciences MAT134Y5-Y-LEC0101,Thind,Jaimal,Summer,2015,3.4,3.5,4.1,3.7,3.6,3,4,2.5,N/A,2.5,143,29
+MAT135Y5,MCS,Calculus MAT135Y5-Y-LEC0101,Wesslen,Maria,Summer,2015,3.8,4.1,4.6,3.9,3.7,3.8,3.6,3.4,N/A,3.1,135,41
+MAT135Y5,MCS,Calculus MAT135Y5-Y-LEC0102,Alexander,John,Summer,2015,3.9,4,3.6,4.2,3.6,3.5,3.7,3.3,N/A,3.3,90,19
+MAT223H5,MCS,Linear Algebra I MAT223H5-Y-LEC0101 (B),Askaripour,Nadya,Summer,2015,3.4,3.3,3.3,3.8,3.6,3.1,2.9,2.8,N/A,2.9,66,19
+MAT232H5,MCS,Calculus of Several Variables MAT232H5-Y-LEC0101,Fuchs,Shay,Summer,2015,4.4,4.4,4.7,4.1,4.3,4.2,3.2,3.9,N/A,4,49,18
+STA107H5,MCS,Intro Probability & Modelling STA107H5-S-LEC0101,Thinniyam,Ramya,Summer,2015,3.8,4.1,4.2,3.6,3.7,3.6,3.3,3.4,N/A,3.5,86,14
+STA220H5,MCS,The Practice of Statistics I STA220H5-S-LEC0101,Thinniyam,Ramya,Summer,2015,3.7,4,4.2,4.2,4.2,3.7,3.6,3.4,N/A,3.1,79,28
+CSC148H5,MCS,Intro to Comp Science CSC148H5-F-LEC0101,Attarwala,Abbas,Summer,2015,4.2,4.1,4.3,3.7,3.7,3.8,3.3,3.6,N/A,3.5,92,36
+MAT223H5,MCS,Linear Algebra I MAT223H5-Y-LEC0101 (Kinzebulatov),Kinzebulatov,Damir,Summer,2015,3.5,4,4.1,4.3,4,3.7,2.9,3.7,N/A,3.6,73,26
+STA256H5,MCS,Probability and Statistics I STA256H5-F-LEC0101,Nosedal Sanchez,Alvaro,Summer,2015,4.3,4.5,4.8,4.5,4.5,4.4,3.1,4.3,N/A,3.8,145,38
+CSC108H5,MCS,Intro to Comp Prog CSC108H5-S-LEC0101,Zingaro,Daniel,Winter,2015,4,3.8,4.2,3.8,3.9,3.6,3.5,3.6,N/A,3.7,118,25
+CSC148H5,MCS,Intro to Comp Science CSC148H5-S-LEC0101,Tong,Tiffany,Winter,2015,3.5,3.6,2.8,3.5,3.6,2.8,3.3,3,N/A,3.4,101,30
+CSC209H5,MCS,Soft Tools & Sys Prog CSC209H5-S-LEC0101,Zingaro,Daniel,Winter,2015,3.8,3.7,3.9,3.5,3.4,3.2,3.8,3,N/A,3.6,93,22
+CSC258H5,MCS,Computer Organization CSC258H5-S-LEC0101,Petersen,Andrew,Winter,2015,4,4.2,4,4,4,3.6,3.6,3.4,N/A,3.3,105,27
+CSC263H5,MCS,Data Struct Analys CSC263H5-S-LEC0101,Fraser,Maia,Winter,2015,3.5,3.7,3.9,4.1,4,3.7,2.9,3.4,N/A,3.3,78,26
+CSC290H5,MCS,Communication Skills for CSC CSC290H5-S-LEC0101,McCash,Nathania,Winter,2015,2.6,3.2,3.6,3.3,3.4,3.1,3.1,3,N/A,2.7,108,38
+CSC309H5,MCS,Programming on the Web CSC309H5-S-LEC0101,Rosenbloom,Arnold,Winter,2015,4.1,3.8,3.5,4,3.9,3.4,4.2,3.5,N/A,3.7,59,27
+CSC321H5,MCS,Intr Neu Ntwrk & Mchn Learn CSC321H5-S-LEC0101,Bonner,Anthony,Winter,2015,2.4,2.1,2.7,2.2,2.2,2.1,2.4,2.1,N/A,2.6,18,11
+CSC363H5,MCS,Comput Complex & Comput CSC363H5-S-LEC0101,Rackoff,Charles,Winter,2015,4.6,4.1,3.3,4.3,4.3,3.6,3.3,3.2,N/A,3.2,29,11
+CSC427H5,MCS,Computer Security CSC427H5-S-LEC0101,Rosenbloom,Arnold,Winter,2015,3.9,3.8,4.1,3.8,4,3.8,2.7,4.1,N/A,4,43,17
+MAT102H5,MCS,Intro to Mathem Proofs MAT102H5-S-LEC0101,Mousavidehshikh,Ali,Winter,2015,4.2,4.1,4.4,3.9,4,3.5,3.4,3.4,N/A,3.4,106,29
+MAT102H5,MCS,Intro to Mathem Proofs MAT102H5-S-LEC0102,De Simoi,Jacopo,Winter,2015,4.4,4.3,4.1,4.2,4.4,4.2,3.4,3,N/A,3.4,105,12
+MAT102H5,MCS,Intro to Mathem Proofs MAT102H5-S-LEC0103,Thind,Jaimal,Winter,2015,4.4,4.3,4.8,4.5,4.4,4.3,3.3,3.9,N/A,4,123,39
+MAT133Y5,MCS,Cal Lin Alg Commerce MAT133Y5-Y-LEC0101,Wilk,Any,Winter,2015,3.3,3.5,3.4,3.6,3.5,3.3,3.9,3,N/A,2.7,139,37
+MAT133Y5,MCS,Cal Lin Alg Commerce MAT133Y5-Y-LEC0102,Vougalter,Vitali,Winter,2015,3.2,3.3,2.7,3.6,3.5,2.8,3.4,3,N/A,2.6,106,28
+MAT133Y5,MCS,Cal Lin Alg Commerce MAT133Y5-Y-LEC0103,Hazard,Peter,Winter,2015,3.6,3.4,3.3,3.4,3.8,2.7,3.9,3.1,N/A,2.9,92,15
+MAT133Y5,MCS,Cal Lin Alg Commerce MAT133Y5-Y-LEC0104,Wilk,Any,Winter,2015,3.6,3.6,4,3.9,3.7,3.3,3.5,3.3,N/A,3.1,138,35
+MAT134Y5,MCS,Calculus for Life Sciences MAT134Y5-Y-LEC0102,Korman,Jonathan,Winter,2015,3.1,3.1,3.3,3,3,2.6,3.5,2.2,N/A,2.3,94,41
+MAT134Y5,MCS,Calculus for Life Sciences MAT134Y5-Y-LEC0103,Fuchs,Shay,Winter,2015,3.3,3.3,3.9,3,3,2.8,3.7,2.6,N/A,2.5,122,49
+MAT134Y5,MCS,Calculus for Life Sciences MAT134Y5-Y-LEC0104,Yu,Guowei,Winter,2015,3.2,2.9,2.1,3,2.8,2.4,3.9,2.4,N/A,2.5,59,22
+MAT134Y5,MCS,Calculus for Life Sciences MAT134Y5-Y-LEC0105,Hill,Peter,Winter,2015,3.3,3,2.3,3.2,3.4,2.5,3.7,2.5,N/A,2.2,81,32
+MAT135Y5,MCS,Calculus MAT135Y5-Y-LEC0101,Korman,Jonathan,Winter,2015,3,3.1,3,3,2.8,2.3,3.7,2.3,N/A,2.6,92,32
+MAT135Y5,MCS,Calculus MAT135Y5-Y-LEC0102,Thind,Jaimal,Winter,2015,4.1,4.2,4.6,3.9,3.9,3.8,3.6,3.3,N/A,3.4,155,48
+MAT135Y5,MCS,Calculus MAT135Y5-Y-LEC0103,Mazzeo,Elio,Winter,2015,3.8,4,4.2,4,3.7,3.6,3.6,3.3,N/A,3,98,33
+MAT135Y5,MCS,Calculus MAT135Y5-Y-LEC0104,Zhang,Jianlu,Winter,2015,3.4,3.4,3,3.3,3.2,2.6,3.5,2.6,N/A,2.8,99,33
+MAT135Y5,MCS,Calculus MAT135Y5-Y-LEC0105,Mazzeo,Elio,Winter,2015,3.6,3.9,4.5,3.5,3.4,3.4,3.6,2.9,N/A,2.8,117,47
+MAT135Y5,MCS,Calculus MAT135Y5-Y-LEC0106,Vougalter,Vitali,Winter,2015,3.5,3.6,2.8,3.7,3.5,3.2,3.6,2.9,N/A,3.1,101,12
+MAT137Y5,MCS,Calculus MAT137Y5-Y-LEC0101,Tvalavadze,Marina,Winter,2015,4.2,4.4,4,4.2,4.4,3.9,3.5,2.8,N/A,3.6,50,11
+MAT202H5,MCS,Intro to Discrete Mathematics MAT202H5-S-LEC0101,Tvalavadze,Marina,Winter,2015,4.4,4.3,4.7,4.5,4.5,4.2,3,4,N/A,4,145,32
+MAT223H5,MCS,Linear Algebra I MAT223H5-S-LEC0101,Weiss,William,Winter,2015,3.3,3.3,3,3.1,3.2,2.9,3.1,3.1,N/A,3.1,139,30
+MAT223H5,MCS,Linear Algebra I MAT223H5-S-LEC0102,Kinzebulatov,Damir,Winter,2015,2.9,3.3,2.9,3.4,3.5,2.8,3,3.1,N/A,3.1,118,26
+MAT224H5,MCS,Linear Algebra II MAT224H5-S-LEC0101,Gorbovickis,Igors,Winter,2015,3.2,3.4,3.6,3.4,3.5,2.9,3.4,3,N/A,2.9,126,32
+MAT232H5,MCS,Calculus of Several Variables MAT232H5-S-LEC0101,Weiss,William,Winter,2015,3.3,3.5,3.3,3.9,3.9,3.2,3,3.4,N/A,3.1,108,25
+MAT236H5,MCS,Vector Calculus MAT236H5-S-LEC0101,Hurth,Tobias,Winter,2015,3.6,3.7,3.7,3.6,3.5,3.3,3.3,3.4,N/A,3.2,110,31
+MAT301H5,MCS,Groups and Symmetries MAT301H5-S-LEC0101,Rennet,Alexander,Winter,2015,3.4,3.6,3.9,3.1,2.8,2.7,3.2,3,N/A,2.9,49,13
+MAT302H5,MCS,Intro Algebraic Cryptography MAT302H5-S-LEC0101,Burko,Robert,Winter,2015,4.5,4.5,4.2,3.7,3.7,4,3.3,3.7,N/A,4.2,19,6
+MAT311H5,MCS,Partial Diff Equatns MAT311H5-S-LEC0101,Rifkind,Benjamin,Winter,2015,3.5,3.3,3.1,3.7,3.7,3.1,3.5,3.1,N/A,3.3,36,15
+MAT315H5,MCS,Intro to Number Theory MAT315H5-S-LEC0101,Eskandari,Payman,Winter,2015,4.6,4.5,4.7,4.6,4.7,4.5,3.3,4.5,N/A,3.9,21,13
+MAT334H5,MCS,Complex Variables MAT334H5-S-LEC0101,Zhang,Ke,Winter,2015,3.6,3.6,3.4,3.6,3.6,3.1,3.2,3.3,N/A,2.8,79,21
+MAT378H5,MCS,Introduction to Analysis MAT378H5-S-LEC0101,Fuchs,Shay,Winter,2015,3.7,3.2,3.6,3.2,3.3,2.9,3.7,2.8,N/A,3.2,56,20
+MAT402H5,MCS,Classical Geometries MAT402H5-S-LEC0101,Halacheva,Iva,Winter,2015,3.2,3.1,3.1,2.8,2.9,2.2,3.4,2.9,N/A,2.6,34,14
+STA107H5,MCS,Intro Probability & Modelling STA107H5-S-LEC0101,Thinniyam,Ramya,Winter,2015,3.7,3.8,4.2,3.7,3.8,3.5,3,3.7,N/A,3.6,124,37
+STA107H5,MCS,Intro Probability & Modelling STA107H5-S-LEC0102,Thinniyam,Ramya,Winter,2015,3.3,3.5,3.6,3.4,3.4,3,2.7,3.2,N/A,3,143,21
+STA221H5,MCS,The Practice of Statistics II STA221H5-S-LEC0101,Fraser,Olga,Winter,2015,3.3,3.5,2.9,3.4,3.6,3.1,3.4,3.2,N/A,2.9,58,23
+STA258H5,MCS,Statistics with Prob STA258H5-S-LEC0101,Thinniyam,Ramya,Winter,2015,3.7,3.9,3.7,3.7,3.8,3.3,3.3,3.6,N/A,3.4,156,38
+STA260H5,MCS,Probability and Statistics II STA260H5-S-LEC0101,Nosedal Sanchez,Alvaro,Winter,2015,3.9,4.1,4.5,3.9,3.9,3.7,3,3.9,N/A,3.8,130,37
+STA305H5,MCS,Experimental Design STA305H5-S-LEC0101,Burkett,Craig,Winter,2015,3.4,3.1,2.8,3.1,3.3,3,3.5,2.6,N/A,3.3,43,16
+STA312H5,MCS,Applied Statistical Modelling STA312H5-S-LEC0101,Burkett,Craig,Winter,2015,3.8,3.9,3.4,4.2,4.2,3.5,3.9,3.2,N/A,3.8,36,13
+STA431H5,MCS,Structural Equation Models STA431H5-S-LEC0101,Brunner,Lawrence,Winter,2015,4.8,4.6,4.1,5,5,4.8,3.9,4.1,N/A,4.4,29,8
+STA437H5,MCS,Appl Multivariate Stat STA437H5-S-LEC0101,Nosedal Sanchez,Alvaro,Winter,2015,4.9,4.8,5,4.9,4.9,4.8,3.1,4.9,N/A,4.7,25,12
+CSC108H5,MCS,Intro to Comp Prog CSC108H5-F-LEC0102,Petersen,Andrew,Fall,2014,4,4,4.4,4,4.1,3.9,3.6,3.6,N/A,3.9,145,33
+CSC108H5,MCS,Intro to Comp Prog CSC108H5-F-LEC0101,Zingaro,Daniel,Fall,2014,4.1,4,4.7,4.1,4,4,3.2,4.1,N/A,4.1,147,73
+CSC236H5,MCS,Intro Theory Computation CSC236H5-F-LEC0101,Zingaro,Daniel,Fall,2014,4.1,4,4.3,4,3.8,3.6,3.8,3.4,N/A,3.3,119,40
+CSC301H5,MCS,Intro to Software Engineering CSC301H5-F-LEC0101,Freund,Yoav,Fall,2014,4,4.1,4.3,4,3.9,3.8,3.6,3.9,N/A,3.9,56,22
+CSC324H5,MCS,Princpl Progr Languages CSC324H5-F-LEC0101,Bonner,Anthony,Fall,2014,3.7,3.7,3.4,3.9,3.9,3.1,3.6,3.2,N/A,3,59,29
+CSC343H5,MCS,Intro Database CSC343H5-F-LEC0101,Chow,Andy,Fall,2014,2.8,2.4,1.8,2.9,2.7,1.9,3.8,2.3,N/A,2.5,48,25
+CSC347H5,MCS,Intro to Information Security CSC347H5-F-LEC0101,Rosenbloom,Arnold,Fall,2014,4.4,4.2,3.9,3.8,3.8,3.7,3.7,3.6,N/A,4.1,52,18
+CSC369H5,MCS,Operating Systems CSC369H5-F-LEC0101,Petersen,Andrew,Fall,2014,4.5,4.5,4.3,4,3.8,3.7,4.4,3.2,N/A,3.9,52,21
+CSC373H5,MCS,Algorithm Design and Analysis CSC373H5-F-LEC0101,Rosenbloom,Arnold,Fall,2014,3.9,3.9,4,3.8,3.7,3.4,3.4,3.5,N/A,3.1,49,25
+CSC490H5,MCS,Capstone Design Course CSC490H5-F-LEC0101,Wigdor,Daniel,Fall,2014,3.6,3.1,2.4,3.1,3.2,2.8,4.7,2.9,N/A,3.4,21,14
+MAT102H5,MCS,Intro to Mathem Proofs MAT102H5-F-LEC0102,Fraser,Maia,Fall,2014,3.8,3.6,3.6,3.7,3.7,3.2,3.5,2.4,N/A,3.1,102,34
+MAT102H5,MCS,Intro to Mathem Proofs MAT102H5-F-LEC0101,Fuchs,Shay,Fall,2014,4.2,4.2,4.7,3.9,3.9,3.7,3.4,3.1,N/A,N/A,120,81
+MAT102H5,MCS,Intro to Mathem Proofs MAT102H5-F-LEC0103,Mousavidehshikh,Ali,Fall,2014,3.9,3.5,3.5,3.8,3.8,3.2,3.7,2.7,N/A,3.3,101,23
+MAT212H5,MCS,Model Diff Equat - LifeSci&Med MAT212H5-F-LEC0101,Lukic,Milivoje,Fall,2014,4.3,4.6,4.7,4.9,4.7,4.4,2.7,4.6,N/A,4.1,26,7
+MAT223H5,MCS,Linear Algebra I MAT223H5-F-LEC0102,Eskandari,Payman,Fall,2014,4,4.1,4.3,4.3,4.2,3.9,3.3,3.7,N/A,3.6,142,30
+MAT223H5,MCS,Linear Algebra I MAT223H5-F-LEC0101,Lukic,Milivoje,Fall,2014,4,4.3,4.1,4.3,4.3,3.9,3,4,N/A,3.7,139,30
+MAT224H5,MCS,Linear Algebra II MAT224H5-F-LEC0101,Khanin,Konstantin,Fall,2014,3,3.3,3.4,3.5,3.5,3.1,3.3,2.9,N/A,2.3,66,15
+MAT232H5,MCS,Calculus of Several Variables MAT232H5-F-LEC0101,De Simoi,Jacopo,Fall,2014,3.7,3.8,3.5,4,4,3.4,3.2,3.5,N/A,3.4,150,39
+MAT233H5,MCS,Calculus of Several Variables MAT233H5-F-LEC0101,Hurth,Tobias,Fall,2014,4.4,4.1,4.4,4.5,4.4,4.2,3.1,3.6,N/A,3.7,67,16
+MAT244H5,MCS,Differential Equations I MAT244H5-F-LEC0101,Khanin,Konstantin,Fall,2014,4,3.9,3.4,3.8,4,3.4,3,3.4,N/A,3.3,115,31
+MAT301H5,MCS,Groups and Symmetries MAT301H5-F-LEC0101,Gorbovickis,Igors,Fall,2014,4,4.1,4.2,3.9,4.1,3.7,2.9,3.6,N/A,3.8,32,11
+MAT309H5,MCS,Intro to Math Logic MAT309H5-F-LEC0101,Rennet,Alexander,Fall,2014,3.7,3.3,4.3,2.9,2.7,3.2,2.9,3.2,N/A,3.1,16,9
+MAT332H5,MCS,Intro Nonlin Dynamics & Chaos MAT332H5-F-LEC0101,Zhang,Ke,Fall,2014,4.2,4.3,4.2,4.2,4.2,3.9,3.2,3.6,N/A,3.6,26,13
+MAT334H5,MCS,Complex Variables MAT334H5-F-LEC0101,Graham,Ian,Fall,2014,3,3.1,2.2,3.7,3.8,2.4,3.4,2.5,N/A,2.8,69,23
+MAT344H5,MCS,Intro Combinatorics MAT344H5-F-LEC0101,Tvalavadze,Marina,Fall,2014,4,4.2,4.3,4.3,4.2,4,3.1,3.8,N/A,3.6,120,42
+MAT402H5,MCS,Classical Geometries MAT402H5-F-LEC0101,Dalvit,Ester,Fall,2014,3.2,3.2,3.1,3.2,3,2.5,4.2,2.2,N/A,2.5,35,21
+MAT405H5,MCS,Introduction to Topology MAT405H5-F-LEC0101,Fuchs,Shay,Fall,2014,4.4,4.8,4.7,4.5,4.4,4.3,3.4,4,N/A,N/A,15,15
+MAT406H5,MCS,Math Intro to Game Theory MAT406H5-F-LEC0101,Binder,Ilia,Fall,2014,4.8,4.7,4.8,4.8,4.7,4.7,3.8,4.5,N/A,4.6,35,13
+STA215H5,MCS,Intro to Applied Statistics STA215H5-F-LEC0101,Burkett,Craig,Fall,2014,3.5,3.7,3.5,3.4,3.4,3.1,3.3,3,N/A,2.6,328,108
+STA215H5,MCS,Intro to Applied Statistics STA215H5-F-LEC0102,Burkett,Craig,Fall,2014,3,3.3,3.6,3,3,2.9,3,2.8,N/A,2.4,127,26
+STA218H5,MCS,Statistics for Management STA218H5-F-LEC0101,Trippen,Gerhard,Fall,2014,4.5,4.1,4.7,4.5,4.4,4.2,3.7,3.9,N/A,3.9,45,13
+STA220H5,MCS,The Practice of Statistics I STA220H5-F-LEC0101,Fraser,Olga,Fall,2014,3.1,3.5,2.6,3.9,3.7,3,3.5,3.1,N/A,2.5,163,42
+STA220H5,MCS,The Practice of Statistics I STA220H5-F-LEC0102,Fraser,Olga,Fall,2014,2.7,3.3,2.9,3.4,3.4,2.7,3.8,2.7,N/A,2.3,106,35
+STA256H5,MCS,Probability and Statistics I STA256H5-F-LEC0101,Weir,Alison,Fall,2014,3.5,3.6,3.5,3.4,3.4,2.9,3.1,3.1,N/A,2.8,232,50
+STA302H5,MCS,Regression Analysis STA302H5-F-LEC0101,Brunner,Lawrence,Fall,2014,3,2.7,2.6,3,2.9,2.4,4.4,2.3,N/A,2.8,77,23
+STA304H5,MCS,Surveys Sampl & Observat Data STA304H5-F-LEC0101,Thinniyam,Ramya,Fall,2014,4,4.2,4.3,4.3,4.3,4,3.2,4.2,N/A,4.1,81,31
+STA348H5,MCS,Intro Stochastic Processes STA348H5-F-LEC0101,Kinzebulatov,Damir,Fall,2014,3.2,2.7,3.3,3,2.8,2.3,2.4,2.5,N/A,2.9,23,10
+MAT311H5,MCS,Partial Diff Equatns MAT311H5-LEC0101,De Simoi,Jacopo,Fall,2013,4.1,4.1,4.4,4.1,4.1,3.8,4,3.5,4.4,N/A,45,17
+CSC148H5,MCS,Intro to Comp Science CSC148H5-LEC0101,Zingaro,Daniel,Winter,2014,4.1,4,4.2,3.9,3.8,3.7,3.7,3.5,4.7,N/A,183,60
+CSC209H5,MCS,Soft Tools & Sys Prog CSC209H5-LEC0101,Zingaro,Daniel,Winter,2014,3.4,3.4,3.6,3.3,3.3,2.8,4,3.2,4.7,N/A,77,26
+MAT133Y5,MCS,Cal Lin Alg Commerce MAT133Y5-LEC0104,Wilk,Any,Winter,2014,4,4,4.3,4,3.9,3.5,3.6,3.5,4.7,N/A,134,30
+MAT133Y5,MCS,Cal Lin Alg Commerce MAT133Y5-LEC0105,Wilk,Any,Winter,2014,3.8,4,4.2,3.9,4,3.7,3.1,3.9,4.3,N/A,165,46
+MAT406H5,MCS,Math Intro to Game Theory MAT406H5-LEC0101,Binder,Ilia,Winter,2014,4.3,4.1,3.9,4.6,4.5,3.9,3.3,3.9,4.1,N/A,33,15
+MAT135Y5,MCS,Calculus MAT135Y5-LEC0101,Alexander,John,Summer,2014,3.7,3.7,4.2,3.6,3.5,3.1,4.2,3.1,4.5,N/A,147,19
+MAT102H5,MCS,Intro to Mathem Proofs MAT102H5-LEC0101,De Simoi,Jacopo,Summer,2014,3.6,3.6,3.4,3.6,3.6,3.3,3.7,3,4.9,N/A,48,17
+MAT134Y5,MCS,Calculus for Life Sciences MAT134Y5-LEC0101,Eskandari,Payman,Summer,2014,3.4,3.6,4.1,4,3.9,3.5,3.9,3.1,4.9,N/A,130,50
+MAT133Y5,MCS,Cal Lin Alg Commerce MAT133Y5-LEC0101,Malagon-Lopez,Jose,Summer,2014,3.6,4.1,3.7,4.1,3.7,3.5,3.5,3.6,4.9,N/A,79,11
+MAT135Y5,MCS,Calculus MAT135Y5-LEC0101,Malagon-Lopez,Jose,Summer,2014,3.7,3.7,3.8,3.6,3.5,3.1,4.2,3.1,4.5,N/A,147,19
+MAT223H5,MCS,Linear Algebra I MAT223H5-LEC0101,Mousavidehshikh,Ali,Summer,2014,4.2,4.6,4.4,4.4,4.4,4.4,3.2,4.2,4.7,N/A,66,25
+CSC399Y5,MCS,Research Opportunity Program CSC399Y5-LEC0101,Petersen,Andrew,Summer,2014,5,5,5,4.5,4.5,5,4,5,5,N/A,2,2
+MAT133Y5,MCS,Cal Lin Alg Commerce MAT133Y5-LEC0101,Thind,Jaimal,Summer,2014,3.6,4.1,4.2,4.1,3.7,3.5,3.5,3.6,4.9,N/A,79,11
+MAT134Y5,MCS,Calculus for Life Sciences MAT134Y5-LEC0101,Wesslen,Maria,Summer,2014,3.4,3.6,4.4,4,3.9,3.5,3.9,3.1,4.9,N/A,130,50
+CSC318H5,MCS,Design of Intrcv Comput Media CSC318H5-S -LEC0101,Wigdor,Daniel,Summer,2014,3.8,4.1,4.1,3.6,3.6,3.6,4,3.8,4.9,N/A,23,13
+STA220H5,MCS,The Practice of Statistics I STA220H5-LEC0101,Burkett,Craig,Summer,2014,3.2,3.6,3.6,3.3,3.2,2.9,3.4,2.9,5,N/A,124,35
+STA107H5,MCS,Intro Probability & Modelling STA107H5-LEC0101,Weir,Alison,Summer,2014,4.4,4.5,4.8,4.6,4.6,3.9,2.9,3.9,5,N/A,43,8
+STA256H5,MCS,Probability and Statistics I STA256H5-LEC0101,Weir,Alison,Summer,2014,3.5,3.6,3.6,3.7,3.7,3.3,3.2,3.6,4.7,N/A,89,29

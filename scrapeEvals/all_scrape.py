@@ -27,8 +27,8 @@ schools = {
             'data': '{"strUiCultureIn":"en-US","datasourceId":"5180","blockId":"2390","subjectColId":"1","subjectValue":"%s","detailValue":"____[-1]____","gridId":"fbvGrid","pageActuelle":1,"strOrderBy":["col_1","asc"],"strFilter":["","","ddlFbvColumnSelectorLvl1",""],"sortCallbackFunc":"__getFbvGrid","userid":"8ImF_6RW3lO1rIudLcxUIvUBUnJK_n45Hz_u","pageSize":2000}'},
     'sw': {'subject':'{"strUiCulture":"en-US","datasourceId":"6610","colId":"6","ddlId":"ddlFbvSubjectsValues","maxItemsParPage":"1000","pageCourante":1,"strFiltre":"","boolPleaseSelect":"true","boolAll":"true","intBlocId":"2470","clearHTML":"false","userid":"8ImF_6RW3lO1rIudLcxUIvUBUnJK_n45Hz_u"}', 
             'data': '{"strUiCultureIn":"en-US","datasourceId":"6610","blockId":"2470","subjectColId":"6","subjectValue":"%s","detailValue":"____[-1]____","gridId":"fbvGrid","pageActuelle":1,"strOrderBy":["col_6","asc"],"strFilter":["","","ddlFbvColumnSelectorLvl1",""],"sortCallbackFunc":"__getFbvGrid","userid":"8ImF_6RW3lO1rIudLcxUIvUBUnJK_n45Hz_u","pageSize":2000}'},
-    'info': {'subject':'{"strUiCulture":"en-US","datasourceId":"7380","colId":"6","ddlId":"ddlFbvSubjectsValues","maxItemsParPage":"1000","pageCourante":1,"strFiltre":"","boolPleaseSelect":"true","boolAll":"true","intBlocId":"2400","clearHTML":"false","userid":"8ImF_6RW3lO1rIudLcxUIvUBUnJK_n45Hz_u"}', 
-            'data': '{"strUiCultureIn":"en-US","datasourceId":"7380","blockId":"2400","subjectColId":"6","subjectValue":"%s","detailValue":"____[-1]____","gridId":"fbvGrid","pageActuelle":1,"strOrderBy":["col_6","asc"],"strFilter":["","","ddlFbvColumnSelectorLvl1",""],"sortCallbackFunc":"__getFbvGrid","userid":"8ImF_6RW3lO1rIudLcxUIvUBUnJK_n45Hz_u","pageSize":2000}'},
+    'info': {'subject':'{"strUiCulture":"en-US","datasourceId":"7380","colId":"6","ddlId":"ddlFbvSubjectsValues","maxItemsParPage":"1000","pageCourante":1,"strFiltre":"","boolPleaseSelect":"true","boolAll":"true","intBlocId":"2400","clearHTML":"false","userid":"exvFBeH63YWTrOkmJc90xv_q0lJl7c4IPoau"}', 
+            'data': '{"strUiCultureIn":"en-US","datasourceId":"7380","blockId":"2400","subjectColId":"6","subjectValue":"%s","detailValue":"____[-1]____","gridId":"fbvGrid","pageActuelle":1,"strOrderBy":["col_6","asc"],"strFilter":["","","ddlFbvColumnSelectorLvl1",""],"sortCallbackFunc":"__getFbvGrid","userid":"exvFBeH63YWTrOkmJc90xv_q0lJl7c4IPoau","pageSize":2000}'},
 }
 
 #departments = 'Anthropology,Biology,Chemical and Physical Sciences,Concurrent Teacher Education Program,Economics,English and Drama,French,Geography,Historical Studies,Institute for Management and Innovation,Institute of Communication and Culture,Language Studies,Management,Mathematical and Computational Sciences,Philosophy,Political Science,Psychology,Sociology,utmONE,Visual Studies'
@@ -37,7 +37,7 @@ schools = {
 #data = '{"strUiCultureIn": "en-US","datasourceId": "4520","blockId": "2480","subjectColId": "1","subjectValue": "'
 #second = '","detailValue": "____[-1]____", "gridId": "fbvGrid","pageActuelle": 1,"strOrderBy": ["col_1","asc"],"strFilter": ["","","ddlFbvColumnSelectorLvl1",""],"sortCallbackFunc": "__getFbvGrid","userid": "YieFNIJw38oVrv55lcluAvIbMYJxAf4UhqAu","pageSize": "1000"}'
 
-cc = re.compile(r"sk='([A-Z0-9]*)'")
+cc = re.compile(r"'([A-Za-z]{3}\d\d\d(?:\d(?:H|Y)|(?:(?:H|Y)\d)))'")
 searcher = re.compile(r'"value": "([A-Za-z ]*)"')
 header = re.compile(r'<a [^>]*>(?:<span[^<]*<\/span>)?([^<]+)')
 
@@ -67,9 +67,9 @@ def scrape_header(school,department):
 
 def scrape_school(school, department, dump_s, header):
     r = requests.post('https://course-evals.utoronto.ca/BPI/fbview-WebService.asmx/getFbvGrid', data=json.loads(dump_s))
-    scraped = r.text.replace('&lt;','<').replace('&gt;','>').replace('&amp;','&').split('\n')
-    lim = bound(scraped)+1
-    scraped = scraped[lim:]
+    scraped = r.text.replace('&lt;','<').replace('&gt;','>').replace('&amp;','&')
+    lim = bound(scraped)+6
+    scraped = scraped[lim:].split('\n')
     chunks = [scraped[x:x+2] for x in range(0, len(scraped), 2)]
     pth = '{0}/{1}_raw'.format(school, department)
     with open(pth, 'w') as f:
@@ -78,18 +78,19 @@ def scrape_school(school, department, dump_s, header):
             try:
                 f.write(parse(i[0],i[1]))
             except:
+                pprint.pprint(i)
                 break
 
 def scrape_helper(school):
     departments = getsubjects(school)
     helper = scrape_header(school, departments[0])
-    pth = 'school'+'.csv'
     for department in departments:
         dump = schools[school]['data'] % department
         print(school, department)
         scrape_school(school, department, dump, helper)
 
 for school in schools:
+    if school == 'info': continue
     if not os.path.exists(school):
         os.makedirs(school)
     scrape_helper(school)

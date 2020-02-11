@@ -1,3 +1,4 @@
+Division,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Instructor generated enthusiasm,Course Workload,I would recommend this course,Number of Students Invited,Number of Respondents
 CIN378Y0,CINE,ARTSC,Aspects of National Cinema CIN378Y0-S-LEC3001,Banning,Kass,Summer,2018,3.7,4,3.6,3.6,3.8,3.4,3.9,3.9,2.9,20,18
 CIN376Y0,CINE,ARTSC,Chinese Cinemas CIN376Y0-F-LEC3001,Testa,Bart,Summer,2018,4.2,4.3,4.2,4.1,4,3.9,4.3,3.8,3.5,35,23
 CIN105Y1,CINE,ARTSC,Intro to Film Study CIN105Y1-Y-LEC0101,Wright,Benjamin,Summer,2018,4.4,4.7,4.7,4.4,4.3,4.4,4.7,3.1,4.5,39,18
@@ -143,11 +144,18 @@ CIN378H1,CINE,ARTSC,Aspects of a Nat'l Cinema CIN378H1-F-LEC0101,Babey,Chris,Fal
 CIN451H1,CINE,ARTSC,Adv Theory Criticism CIN451H1-F-LEC5101,Birdwise,Scott,Fall,2014,4.6,4.6,4.6,4.8,4.8,4.4,4.6,3.3,4.3,19,15
 CIN452H1,CINE,ARTSC,Adv Theory Criticism CIN452H1-F-LEC0101,Wright,Benjamin,Fall,2014,4.6,4.7,4.7,4.5,4.5,4.4,4.8,3.1,4.7,15,10
 CIN470H1,CINE,ARTSC,Adv Hist & Nation CIN470H1-F-LEC0101,Banning,Kass,Fall,2014,4.6,4.6,4.6,4.5,4.5,4.1,4.7,3.5,4.3,17,11
+CIN412H1,CINE-ARTSC,ARTSC,Adv Genre & Modes CIN412H1-F-LEC0101,Testa,Bart,Fall,2019,4.8,4.4,4.3,4.4,4.3,3.9,4.3,4.0,3.9,19,8
+CIN430H1,CINE-ARTSC,ARTSC,Adv Soc Cultural CIN430H1-F-LEC0101,Richmond,Scott,Fall,2019,5.0,4.6,4.9,4.5,4.5,4.4,5.0,3.5,4.1,18,8
+CIN450H1,CINE-ARTSC,ARTSC,Adv Theory Criticism CIN450H1-F-LEC0101,Cramer,Lauren,Fall,2019,4.9,4.9,5.0,4.9,4.9,5.0,4.9,3.0,4.8,15,9
+CIN216H1,CINE-ARTSC,ARTSC,Crime Film Traditions CIN216H1-F-LEC0101,Wright,Benjamin,Fall,2019,4.2,4.2,4.3,4.0,4.1,3.9,4.3,2.8,4.1,180,66
+CIN322H1,CINE-ARTSC,ARTSC,Cult Cinema CIN322H1-F-LEC0101,Wright,Benjamin,Fall,2019,4.3,4.3,4.5,4.3,4.4,4.2,4.4,2.8,4.2,39,14
+CIN211H1,CINE-ARTSC,ARTSC,Science Fiction Film CIN211H1-F-LEC0101,Testa,Bart,Fall,2019,3.8,4.1,3.6,3.7,3.7,3.5,3.6,3.2,3.7,156,56
+CIN340H1,CINE-ARTSC,ARTSC,Special Topics CIN340H1-F-LEC0101,McFadden,Daniel,Fall,2019,4.7,4.7,4.9,4.5,4.6,4.6,4.8,3.2,4.6,36,19
 CIN240H1,CINE-ARTSC,ARTSC,Special Topics in Cinema CIN240H1-F-LEC0101,Marshall,Patrick,Summer,2019,4.4,4.5,4.6,4.4,4.6,4.4,4.7,3.2,4.4,35,15
-CIN340H1,CINE-ARTSC,ARTSC,Special Topics CIN340H1-F-LEC0101,Nunoda,Erin,Summer,2019,4.7,4.9,4.9,4.7,4.7,4.8,5.0,3.1,4.7,27,15
+CIN340H1,CINE-ARTSC,ARTSC,Special Topics CIN340H1-F-LEC0101,Nunoda,Erin,Summer,2019,4.7,4.9,4.9,4.7,4.7,4.8,5,3.1,4.7,27,15
 CIN360H1,CINE-ARTSC,ARTSC,Special Topics CIN360H1-F-LEC5101,Tufenk,Muge,Summer,2019,4.1,4.3,4.3,4.2,4.5,3.8,4.3,3.1,3.9,29,16
-CIN380H1,CINE-ARTSC,ARTSC,Special Topics CIN380H1-S-LEC0101,Teymouri,Ramtin,Summer,2019,5.0,5.0,5.0,5.0,5.0,4.8,5.0,2.6,4.8,15,5
-CIN105Y1,CINE-ARTSC,ARTSC,Intro to Film Study CIN105Y1-Y-LEC0101,Wright,Benjamin,Summer,2019,4.7,4.8,5.0,4.6,4.7,4.4,4.8,3.2,4.4,33,9
+CIN380H1,CINE-ARTSC,ARTSC,Special Topics CIN380H1-S-LEC0101,Teymouri,Ramtin,Summer,2019,5,5,5,5,5,4.8,5,2.6,4.8,15,5
+CIN105Y1,CINE-ARTSC,ARTSC,Intro to Film Study CIN105Y1-Y-LEC0101,Wright,Benjamin,Summer,2019,4.7,4.8,5,4.6,4.7,4.4,4.8,3.2,4.4,33,9
 CIN369H1,CINE-ARTSC,ARTSC,Crit Writing on Film CIN369H1-S-LEC0101,Anderson,Jason,Winter,2019,3.78,3.9,4.3,4.2,4.1,3.8,4.9,3.6,3.9,13,9
 CIN451H1,CINE-ARTSC,ARTSC,Adv Theory Criticism CIN451H1-S-LEC0101,Cahill,James,Winter,2019,4.64,4.7,4.7,4.5,4.6,4.4,4.5,3.2,4.5,15,11
 CIN330Y1,CINE-ARTSC,ARTSC,Feminist Approaches CIN330Y1-Y-LEC0101,Columpar,Corinn,Winter,2019,4.69,4.7,4.7,4.6,4.5,4.6,4.8,3.4,4.5,35,30

@@ -1,3 +1,4 @@
+Division,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Instructor generated enthusiasm,Course Workload,I would recommend this course,Number of Students Invited,Number of Respondents
 BCH210H1,BCH,ARTSC,Biochemistry I BCH210H1-F-LEC0101,Andreopoulos,Stavroula,Summer,2018,3.5,4,3.5,3.3,3.4,3.2,3.5,4,2.8,156,52
 BCH210H1,BCH,ARTSC,Biochemistry I BCH210H1-F-LEC0101,Patterson,Sian,Summer,2018,3.5,4,3.8,3.3,3.4,3.2,3.8,4,2.8,156,52
 BCB420H1,BCH,ARTSC,Systems Biology BCB420H1-S-LEC0101,Steipe,Boris,Winter,2018,2.4,2.1,2.4,2.6,2.4,2.1,3.1,3.5,1.9,22,8
@@ -235,7 +236,20 @@ BCH422H1,BCH,ARTSC,Membrane Proteins BCH422H1-F-LEC0101,Prive,Gil,Fall,2014,4.1,
 BCH425H1,BCH,ARTSC,Structural Biology BCH425H1-F-LEC0101,Rubinstein,John,Fall,2014,4,3.8,4.3,4,4.2,3.5,3.5,3.3,3.5,23,6
 BCH441H1,BCH,ARTSC,Bioinformatics BCH441H1-F-LEC0101,Steipe,Boris,Fall,2014,3.7,3.8,4.4,4.2,3.9,3.8,4.7,3.2,3.9,25,9
 BCH448H1,BCH,ARTSC,S&F of the Nucleus BCH448H1-F-LEC0101,Palazzo,Alexander,Fall,2014,4,3.9,4.3,4,3.9,4,4.5,3.6,4,34,8
-BCH210H1,BCH-ARTSC,ARTSC,Biochemistry I BCH210H1-F-LEC0101,Andreopoulos,Stavroula,Summer,2019,3.8,4.0,3.6,3.2,3.3,3.3,3.7,4.0,2.9,158,48
+BCH370H1,BCH-ARTSC,ARTSC,Biochem Lab Techniq BCH370H1-F-LEC0101,Khan-Trottier,Ahlia,Fall,2019,3.9,3.9,4.0,3.6,3.6,3.4,3.9,4.8,2.9,52,16
+BCH210H1,BCH-ARTSC,ARTSC,Biochemistry I BCH210H1-F-LEC0101,Melnyk,Roman,Fall,2019,3.6,3.8,4.2,2.9,2.8,2.7,4.0,3.9,2.6,914,324
+BCH210H1,BCH-ARTSC,ARTSC,Biochemistry I BCH210H1-F-LEC0101,Patterson,Sian,Fall,2019,3.6,3.8,3.5,2.9,2.8,2.7,3.5,3.9,2.6,914,324
+BCH210H1,BCH-ARTSC,ARTSC,Biochemistry I BCH210H1-F-LEC0101,Reithmeier,Reinhart,Fall,2019,3.6,3.8,3.8,2.9,2.8,2.7,4.0,3.9,2.6,914,324
+BCH441H1,BCH-ARTSC,ARTSC,Bioinformatics BCH441H1-F-LEC5101,Steipe,Boris,Fall,2019,4.0,4.4,3.3,4.1,4.1,3.2,3.5,4.6,2.9,46,14
+BCH422H1,BCH-ARTSC,ARTSC,Membrane Proteins BCH422H1-F-LEC0101,Ernst,Oliver,Fall,2019,3.8,4.0,3.8,2.5,2.8,3.2,4.0,3.8,3.0,36,6
+BCH422H1,BCH-ARTSC,ARTSC,Membrane Proteins BCH422H1-F-LEC0101,Manolson,Morris,Fall,2019,3.8,4.0,4.6,2.5,2.8,3.2,4.6,3.8,3.0,36,6
+BCH422H1,BCH-ARTSC,ARTSC,Membrane Proteins BCH422H1-F-LEC0101,Pomes,Regis,Fall,2019,3.8,4.0,3.3,2.5,2.8,3.2,3.5,3.8,3.0,36,6
+BCH422H1,BCH-ARTSC,ARTSC,Membrane Proteins BCH422H1-F-LEC0101,Prive,Gil,Fall,2019,3.8,4.0,4.0,2.5,2.8,3.2,3.5,3.8,3.0,36,6
+BCH428H1,BCH-ARTSC,ARTSC,Micro Comm Genomics BCH428H1-F-LEC0101,Ensminger,Alexander,Fall,2019,4.6,4.6,4.6,4.3,4.3,4.0,4.1,2.9,4.3,22,7
+BCH428H1,BCH-ARTSC,ARTSC,Micro Comm Genomics BCH428H1-F-LEC0101,Parkinson,John,Fall,2019,4.6,4.6,4.6,4.3,4.3,4.0,4.1,2.9,4.3,22,7
+BCH448H1,BCH-ARTSC,ARTSC,S&F of the Nucleus BCH448H1-F-LEC0101,Palazzo,Alexander,Fall,2019,4.5,4.3,4.6,3.8,3.9,3.8,4.7,4.1,3.7,38,12
+BCH448H1,BCH-ARTSC,ARTSC,S&F of the Nucleus BCH448H1-F-LEC0101,Wilde,Andrew,Fall,2019,4.5,4.3,4.0,3.8,3.9,3.8,4.1,4.1,3.7,38,12
+BCH210H1,BCH-ARTSC,ARTSC,Biochemistry I BCH210H1-F-LEC0101,Andreopoulos,Stavroula,Summer,2019,3.8,4,3.6,3.2,3.3,3.3,3.7,4,2.9,158,48
 BCH426H1,BCH-ARTSC,ARTSC,Signalling Pathways BCH426H1-S-LEC0101,Adeli,Khosrow,Winter,2019,3.6,4,4.3,3.1,2.9,3.1,4.2,3.5,3,49,15
 BCH311H1,BCH-ARTSC,ARTSC,Biochemistry II BCH311H1-S-LEC0101,Andreopoulos,Stavroula,Winter,2019,3.65,3.9,3.3,3.1,3,2.9,3.5,3.9,2.6,481,139
 BCH426H1,BCH-ARTSC,ARTSC,Signalling Pathways BCH426H1-S-LEC0101,Attisano,Liliana,Winter,2019,3.6,4,3.8,3.1,2.9,3.1,3.7,3.5,3,49,15

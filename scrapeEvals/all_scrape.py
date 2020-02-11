@@ -4,6 +4,7 @@ import json
 import re
 from html.parser import HTMLParser
 import threading
+import pprint
 
 class courseparse(HTMLParser):
     def __init__(self,out,attrs):
@@ -38,6 +39,7 @@ schools = {
 
 cc = re.compile(r"sk='([A-Z0-9]*)'")
 searcher = re.compile(r'"value": "([A-Za-z ]*)"')
+header = re.compile(r'<a [^>]*>(?:<span[^<]*<\/span>)?([^<]+)')
 
 def parse(header,body):
     code = cc.search(header).group(1)
@@ -54,7 +56,16 @@ def getsubjects(school):
     r = requests.post('https://course-evals.utoronto.ca/BPI/fbview-WebService.asmx/getSubjectsValues', data=json.loads(payload))
     return searcher.findall(r.text)
 
-def scrape_school(school, department, dump_s):
+def scrape_header(school,department):
+    departments = getsubjects(school)
+    dump = (schools[school]['data'] % department).replace('2000','5')
+    r = requests.post('https://course-evals.utoronto.ca/BPI/fbview-WebService.asmx/getFbvGrid', data=json.loads(dump))
+    scraped = r.text.replace('&lt;','<').replace('&gt;','>').replace('&amp;','&')
+    lim = bound(scraped)+1
+    scraped = scraped[:lim]
+    return ['Code']+[i.strip().replace(',','') for i in header.findall(scraped)]
+
+def scrape_school(school, department, dump_s, header):
     r = requests.post('https://course-evals.utoronto.ca/BPI/fbview-WebService.asmx/getFbvGrid', data=json.loads(dump_s))
     scraped = r.text.replace('&lt;','<').replace('&gt;','>').replace('&amp;','&').split('\n')
     lim = bound(scraped)+1
@@ -62,6 +73,7 @@ def scrape_school(school, department, dump_s):
     chunks = [scraped[x:x+2] for x in range(0, len(scraped), 2)]
     pth = '{0}/{1}_raw'.format(school, department)
     with open(pth, 'w') as f:
+        f.write(','.join(header) + '\n')
         for i in chunks:
             try:
                 f.write(parse(i[0],i[1]))
@@ -70,10 +82,12 @@ def scrape_school(school, department, dump_s):
 
 def scrape_helper(school):
     departments = getsubjects(school)
+    helper = scrape_header(school, departments[0])
+    pth = 'school'+'.csv'
     for department in departments:
         dump = schools[school]['data'] % department
         print(school, department)
-        scrape_school(school, department, dump)
+        scrape_school(school, department, dump, helper)
 
 for school in schools:
     if not os.path.exists(school):

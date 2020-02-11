@@ -1,3 +1,4 @@
+Code,Dept,Division,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Instructor generated enthusiasm,Course Workload,I would recommend this course,Number of Students Invited,Number of Respondents
 SDS256H1,SDST,ARTSC,Soc. Sci of Sexuality SDS256H1-S-LEC0101,Kojima,Dai,Summer,2018,4.4,4.7,4.6,4.3,4.5,4.4,4.8,2.9,4.2,16,10
 SDS255H1,SDST,ARTSC,History & Sexualities SDS255H1-F-LEC0101,Rayter,Scott,Summer,2018,4.8,4.8,4.7,4.5,4.8,4.4,4.8,3.3,4.3,22,10
 JNS450H1,SDST,ARTSC,Sexuality & Disability JNS450H1-S-LEC0101,Erickson,Loree,Winter,2018,4.7,4.3,4.3,4.1,4.7,4,4.6,3.7,4.1,12,7
@@ -73,6 +74,15 @@ SDS354H1,SDST,ARTSC,Theor Sexuality I SDS354H1-F-LEC0101,Basile,Elena,Fall,2014,
 SDS365H1,SDST,ARTSC,Sexuality & Law SDS365H1-F-LEC0101,Cossman,Brenda,Fall,2014,4.3,4.3,4.1,3.3,3.4,3.9,4.5,3.1,4.2,41,16
 SDS377H1,SDST,ARTSC,Lesbian Studies SDS377H1-F-LEC0101,Smith,Victoria,Fall,2014,4.1,4.5,4.2,4.2,4.5,3.9,4.6,2.9,4.5,21,14
 SDS470H1,SDST,ARTSC,Sexual Represent'n SDS470H1-F-LEC0101,Matte,Nicholas,Fall,2014,3.8,3.8,3,3.5,3.3,3,4.5,4,3.5,11,5
+SDS255H1,SDST-ARTSC,ARTSC,History & Sexualities SDS255H1-F-LEC0101,Rayter,Scott,Fall,2019,4.4,4.5,4.2,4.1,4.3,4.0,4.2,3.4,4.1,60,34
+JSU237H1,SDST-ARTSC,ARTSC,Intro to HIV/AIDS JSU237H1-F-LEC0101,Gaspar,Mark,Fall,2019,4.3,4.7,4.4,4.0,4.1,4.3,4.2,2.9,4.4,48,18
+JSU237H1,SDST-ARTSC,ARTSC,Intro to HIV/AIDS JSU237H1-F-LEC0101,Rayter,Scott,Fall,2019,4.3,4.7,4.4,4.0,4.1,4.3,4.6,2.9,4.4,48,18
+JSU237H1,SDST-ARTSC,ARTSC,Intro to HIV/AIDS JSU237H1-F-LEC0101,Rousseau,Rodney,Fall,2019,4.3,4.7,4.4,4.0,4.1,4.3,4.4,2.9,4.4,48,18
+SDS381H1,SDST-ARTSC,ARTSC,Intro Trans Studies SDS381H1-F-LEC0201,Ware,Syrus,Fall,2019,5.0,4.6,4.9,4.7,5.0,4.9,5.0,3.0,5.0,22,7
+SDS465H1,SDST-ARTSC,ARTSC,Queer Mig and Refugee Politics SDS465H1-F-LEC0101,Minai,Naveen,Fall,2019,4.7,4.7,4.9,4.0,4.2,4.7,5.0,3.1,4.9,12,9
+SDS345H1,SDST-ARTSC,ARTSC,Sex & the Epidemic SDS345H1-F-LEC0101,Brennan,David,Fall,2019,4.9,4.9,4.8,4.4,4.6,4.6,5.0,2.6,4.8,23,14
+SDS365H1,SDST-ARTSC,ARTSC,Sexuality & Law SDS365H1-F-LEC0101,Cossman,Brenda,Fall,2019,4.6,4.8,4.6,4.3,4.1,4.3,4.7,3.2,4.1,38,10
+SDS199H1,SDST-ARTSC,ARTSC,Sexuality at the Intersections SDS199H1-F-LEC0101,Kojima,Dai,Fall,2019,4.8,4.9,4.9,4.7,4.7,4.8,4.9,2.8,4.8,28,18
 SDS255H1,SDST-ARTSC,ARTSC,History & Sexualities SDS255H1-F-LEC0101,Rayter,Scott,Summer,2019,4.6,4.7,4.9,4.3,4.3,4.3,4.9,3.1,4.3,22,9
 SDS455H1,SDST-ARTSC,ARTSC,Special Topics: Sexualities SDS455H1-S-LEC0101,Anderson,David,Winter,2019,4.89,4.9,5,4.9,5,5,5,3,5,13,9
 SDS355H1,SDST-ARTSC,ARTSC,Theor Sexuality II SDS355H1-S-LEC0101,Basile,Elena,Winter,2019,4.44,4.1,4.4,4.6,4.8,4.1,4.1,3,3.9,27,9

@@ -1,3 +1,4 @@
+Code,Dept,Division,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Instructor generated enthusiasm,Course Workload,I would recommend this course,Number of Students Invited,Number of Respondents
 LMP300Y1,LMP,ARTSC,Intro Pathobiology LMP300Y1-Y-LEC0101,Templeton,Douglas,Winter,2018,2.9,2.9,3.2,2.4,2.2,2.3,3.8,4,2.1,25,9
 LMP301H1,LMP,ARTSC,Introd Clin Biochem LMP301H1-S-LEC0101,Colantonio,David,Winter,2018,3.5,3.4,3.7,2.8,3,2.9,4,3.5,2.8,126,41
 LMP301H1,LMP,ARTSC,Introd Clin Biochem LMP301H1-S-LEC0101,Fu,Lei,Winter,2018,3.5,3.4,3,2.8,3,2.9,2.9,3.5,2.8,126,41
@@ -87,6 +88,12 @@ LMP402H1,LMP,ARTSC,Inflamm Infection LMP402H1-F-LEC0101,Cybulsky,Myron,Fall,2014
 LMP402H1,LMP,ARTSC,Inflamm Infection LMP402H1-F-LEC0101,Fish,Jason,Fall,2014,4.2,4.4,4.1,4.1,4.3,4,4,3.4,4,33,17
 LMP402H1,LMP,ARTSC,Inflamm Infection LMP402H1-F-LEC0101,Girardin,Stephen,Fall,2014,4.2,4.4,3.9,4.1,4.3,4,4.3,3.4,4,33,17
 LMP402H1,LMP,ARTSC,Inflamm Infection LMP402H1-F-LEC0101,Mogridge,Jeremy,Fall,2014,4.2,4.4,4.3,4.1,4.3,4,4.5,3.4,4,33,17
+LMP402H1,LMP-ARTSC,ARTSC,Inflamm Infection LMP402H1-F-LEC0101,Cybulsky,Myron,Fall,2019,4.9,5.0,4.7,4.4,4.6,4.6,4.7,3.0,4.9,19,7
+LMP402H1,LMP-ARTSC,ARTSC,Inflamm Infection LMP402H1-F-LEC0101,Mogridge,Jeremy,Fall,2019,4.9,5.0,5.0,4.4,4.6,4.6,4.9,3.0,4.9,19,7
+LMP410H1,LMP-ARTSC,ARTSC,Neuropathobiology LMP410H1-F-LEC0101,Robertson,Janice,Fall,2019,4.7,4.6,4.4,4.3,4.4,4.4,4.3,3.1,4.0,13,9
+LMP410H1,LMP-ARTSC,ARTSC,Neuropathobiology LMP410H1-F-LEC0101,Schmitt-Ulms,Gerold,Fall,2019,4.7,4.6,4.8,4.3,4.4,4.4,4.8,3.1,4.0,13,9
+LMP363H1,LMP-ARTSC,ARTSC,Princ Pathobiology 1 LMP363H1-F-LEC0101,Butany,Jagdish,Fall,2019,3.9,4.0,3.7,3.5,3.5,3.4,3.7,3.7,3.4,64,16
+LMP363H1,LMP-ARTSC,ARTSC,Princ Pathobiology 1 LMP363H1-F-LEC0101,Krizova,Adriana,Fall,2019,3.9,4.0,3.3,3.5,3.5,3.4,3.4,3.7,3.4,64,16
 LMP415H1,LMP-ARTSC,ARTSC,Forensic Pathobiol LMP415H1-S-LEC0101,Bellis,Magdaleni,Winter,2019,4.71,4.9,4.1,3.9,3.7,4.1,4.4,3.1,4.6,29,7
 LMP406H1,LMP-ARTSC,ARTSC,Cardiovasc Pathobiol LMP406H1-S-LEC0101,Bendeck,Michelle,Winter,2019,4.14,4.4,3.9,3.4,3.6,3.9,4,2.8,4.2,18,7
 LMP365H1,LMP-ARTSC,ARTSC,Neoplasia LMP365H1-S-LEC0101,Elsholtz,Harry,Winter,2019,4.67,4.6,4.2,4.4,4.3,4.5,4.3,3.5,4.3,16,10

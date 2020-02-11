@@ -1,3 +1,4 @@
+Code,Dept,Division,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Instructor generated enthusiasm,Course Workload,I would recommend this course,Number of Students Invited,Number of Respondents
 WGS373H1,WGSI,ARTSC,Gender & Violence WGS373H1-S-LEC5101,Singh,Aarzoo,Summer,2018,2.8,2.8,3.6,2.7,2.6,2.2,3,2.9,2.6,31,9
 WGS271Y1,WGSI,ARTSC,Gender in Pop Culture WGS271Y1-Y-LEC0101,Zisman Newman,Laine,Summer,2018,4.7,4.5,4.5,4.7,4.7,4.6,4.9,2.9,4.6,28,20
 WGS397H1,WGSI,ARTSC,Politics of Girlhood WGS397H1-F-LEC0101,Erickson,Loree,Summer,2018,4,3.8,3.7,3.8,4,3.4,3.5,3.9,3.6,32,12
@@ -171,8 +172,17 @@ WGS367H1,WGSI,ARTSC,Pol of Gender & Health WGS367H1-F-LEC0101,Larkin,June,Fall,2
 WGS369H1,WGSI,ARTSC,Post-Colonialism WGS369H1-F-LEC0101,Trimble,Sarah,Fall,2014,4.7,4.8,4.9,4.5,4.7,4.7,4.9,3.1,4.7,49,32
 WGS385H1,WGSI,ARTSC,Gender & Neoliberal WGS385H1-F-LEC5101,Pourtavaf,Leila,Fall,2014,3.2,3.3,2.8,3.1,3.3,2.7,3.2,3.4,2.5,38,20
 WGS435H1,WGSI,ARTSC,Adv Top Women & Gender WGS435H1-F-LEC0101,Weiman-Kelman,Zohar,Fall,2014,4.8,4.8,4.9,4.9,4.7,4.8,4.8,3.1,4.7,18,10
-WGS334H1,WGSI-ARTSC,ARTSC,Spe Top Women & Gender WGS334H1-F-LEC0101,Newman,Laine,Summer,2019,4.9,4.9,5.0,4.8,4.8,4.9,5.0,3.0,4.9,12,10
-WGS271Y1,WGSI-ARTSC,ARTSC,Gender in Pop Culture WGS271Y1-Y-LEC0101,Fazekas,Angela,Summer,2019,4.3,4.6,4.9,4.6,4.4,4.7,4.9,3.0,4.9,36,9
+WGS370H1,WGSI-ARTSC,ARTSC,Activist Realities WGS370H1-F-LEC0101,Patrick,Darren,Fall,2019,4.1,3.8,4.2,3.8,4.0,4.0,4.7,3.7,4.1,47,23
+WGS434H1,WGSI-ARTSC,ARTSC,Adv Top Women & Gender WGS434H1-F-LEC0101,Merrill,Andrew,Fall,2019,4.4,4.6,4.6,4.3,4.5,4.4,4.9,3.1,4.7,19,7
+WGS273H1,WGSI-ARTSC,ARTSC,Environ (In) Justice WGS273H1-F-LEC0101,Patrick,Darren,Fall,2019,4.3,4.4,4.1,3.9,4.1,4.0,4.6,3.5,4.1,73,38
+WGS374H1,WGSI-ARTSC,ARTSC,Fem St. in Sexuality WGS374H1-F-LEC0101,Erickson,Loree,Fall,2019,3.7,3.8,3.6,3.4,3.7,3.6,3.9,3.1,3.4,35,9
+WGS380H1,WGSI-ARTSC,ARTSC,Feminist Graphic Novels WGS380H1-F-LEC0101,Taylor,Judith,Fall,2019,4.5,4.8,4.5,4.4,4.5,4.3,4.6,3.1,4.5,54,26
+WGS373H1,WGSI-ARTSC,ARTSC,Gender & Violence WGS373H1-F-LEC5101,Gross,Zoe,Fall,2019,4.4,4.4,4.6,4.2,4.3,4.1,4.7,3.5,4.0,50,38
+WGS160Y1,WGSI-ARTSC,ARTSC,Intro Wom & Gender Stu WGS160Y1-Y-LEC5101,Larkin,June,Fall,2019,4.6,4.7,4.7,4.4,4.4,4.4,4.8,3.0,4.5,220,74
+WGS369H1,WGSI-ARTSC,ARTSC,Post-Colonialism WGS369H1-F-LEC0101,Singh,Aarzoo,Fall,2019,4.9,4.7,4.8,4.3,4.5,4.4,5.0,3.1,4.5,53,34
+WGS260H1,WGSI-ARTSC,ARTSC,Texts Theories Hist WGS260H1-F-LEC0101,Murphy,Michelle,Fall,2019,4.3,4.3,4.5,4.2,4.2,4.0,4.5,3.5,4.0,74,29
+WGS334H1,WGSI-ARTSC,ARTSC,Spe Top Women & Gender WGS334H1-F-LEC0101,Newman,Laine,Summer,2019,4.9,4.9,5,4.8,4.8,4.9,5,3,4.9,12,10
+WGS271Y1,WGSI-ARTSC,ARTSC,Gender in Pop Culture WGS271Y1-Y-LEC0101,Fazekas,Angela,Summer,2019,4.3,4.6,4.9,4.6,4.4,4.7,4.9,3,4.9,36,9
 WGS373H1,WGSI-ARTSC,ARTSC,Gender & Violence WGS373H1-S-LEC5101,Hassan,Huda,Summer,2019,4.8,4.6,4.7,4.8,4.8,4.6,4.7,3.5,4.4,36,15
 WGS260H1,WGSI-ARTSC,ARTSC,Texts Theories Hist WGS260H1-S-LEC0101,Diaz,Robert,Winter,2019,3.71,3.6,3.9,3.6,3.8,3.5,3.8,3.1,3.6,74,24
 WGS434H1,WGSI-ARTSC,ARTSC,Adv Top Women & Gender WGS434H1-S-LEC0101,Georgis,Dina,Winter,2019,4.6,4.8,4.8,4.8,5,4.8,4.8,3.4,4.6,16,5

@@ -1,3 +1,4 @@
+Code,Course - Department,Course - Division,Course - Course Name,Term,Year,Instructor - Last Name,Instructor - First Name,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,APSC01,APSC02,APSC03,APSC04,APSC05,APSC06,APSC07,LEC01,InvitedCount,RespondentCount
 MAT187H1,AE1,APSC,CALCULUS 2 MAT187H1-F-LEC0101,Summer,2019,Parnell-Hendrickson,Sa'diyya,4.1,4.1,4.4,3.9,4.1,3.7,3.7,4,2.9,4.2,3.9,4.6,4.4,4.6,61,18
 APS162H1,AE1,APSC,CALCULUS FOR ENGINEERS I APS162H1-S-LEC0101,Summer,2019,Parnell-Hendrickson,Sa'diyya,4.1,4,3.6,3.8,3.3,3.3,3.9,3.6,1.8,3.7,3.5,4.1,3.8,4.3,83,16
 MIE100H1,AE1,APSC,DYNAMICS MIE100H1-F-LEC0101,Summer,2019,Sinclair,Leslie,4.4,4.3,4.4,3.9,4.2,3.6,4,4,2.9,3.8,3.5,4.6,4.3,4.3,58,11

@@ -54,7 +54,7 @@ def bound(scraped):
 def getsubjects(school):
     payload = schools[school]['subject']
     r = requests.post('https://course-evals.utoronto.ca/BPI/fbview-WebService.asmx/getSubjectsValues', data=json.loads(payload))
-    return searcher.findall(r.text)
+    return [i.strip() for i in searcher.findall(r.text) if i.strip()]
 
 def scrape_header(school,department):
     departments = getsubjects(school)

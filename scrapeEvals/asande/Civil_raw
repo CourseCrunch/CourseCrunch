@@ -1,3 +1,4 @@
+Code,Course - Department,Course - Division,Course - Course Name,Term,Year,Instructor - Last Name,Instructor - First Name,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,APSC01,APSC02,APSC03,APSC04,APSC05,APSC06,APSC07,LEC01,InvitedCount,RespondentCount
 CIV510H1,CIVIL,APSC,SOLID MECHANICS II CIV510H1-S-LEC0101,Winter,2019,Abouhussien,Ahmed,3.8,4.2,4.7,4.7,4.7,4.5,4,3.8,3.2,3.8,4.2,4.3,4.2,4.7,15,6
 CIV380H1,CIVIL,APSC,SUSTAINABLE ENERGY SYSTEMS CIV380H1-S-LEC0101,Winter,2019,Alavy Ghahfarrokhy,Seyed,3,3.3,3.4,3.2,3.3,2.9,3.1,3.8,3.8,3.1,2.8,3.6,3.3,3.3,93,24
 CIV214H1,CIVIL,APSC,STRUCTURAL ANALYS.I CIV214H1-S-LEC0101,Winter,2019,Bentz,Evan,4.3,4.1,4.1,4,3.7,3.6,4,4,2.7,3.8,3.2,4,4.1,3.9,103,45

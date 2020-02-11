@@ -1,15 +1,6 @@
-class Welcome extends React.Component {
-    render() {
-      return <h1>Hello, {this.props.name}</h1>;
-    }
-  }
-
-
+import NavBar from '../components/NavBar/NavBar';
 const Index = () => (
-    <div>
-        <h1>Welcome to Course Cruch</h1>
-        <Welcome name = "Sara"/>
-    </div>
+  <NavBar isLoggedIn = {true}/>
 );
 
 export default Index;

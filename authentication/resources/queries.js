@@ -1,13 +1,14 @@
 const bcrypt = require('bcrypt');
 const uuidv4 = require('uuid/v4');
+require('dotenv').config();
 const Pool = require('pg').Pool;
 const pool = new Pool({
-	user: 'admin',
-	host: 'localhost',
-	database: 'BBAUTHDB',
-	password: 'Dova64g1s!PenCIl',
-	port: 5432
-})
+	user: process.env.PGUSER,
+	host: process.env.PGHOST,
+	database: process.env.PGDATABASE,
+	password: process.env.PGPASSWORD,
+	port: process.env.PGPORT
+});
 
 const checkUserExists = (email, callBack) => {
 	pool.query('SELECT 1 FROM CC_CREDENTIALS WHERE EMAIL = $1', [email], (error, results)  => {

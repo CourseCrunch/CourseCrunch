@@ -1,3 +1,4 @@
+Code,Dept,Division,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Instructor generated enthusiasm,Course Workload,I would recommend this course,Number of Students Invited,Number of Respondents
 BIO271H1,CSB,ARTSC,Animal Physiology II BIO271H1-S-LEC0101,Chung,Jason,Summer,2018,4.1,4.3,4.6,3.8,3.7,4.1,4.3,3,4.2,29,13
 BIO130H1,CSB,ARTSC,Molecular & Cell Bio BIO130H1-S-LEC0101,Yip,Kenneth,Summer,2018,4.2,4.5,4.8,4.2,4.1,4.3,4.8,3.3,4,66,23
 BIO270H1,CSB,ARTSC,Animal Physiology I BIO270H1-F-LEC0101,Chung,Jason,Summer,2018,3.8,4.1,4.7,4,4.1,4.3,4.6,2.9,4.3,50,19
@@ -380,11 +381,44 @@ CSB460H1,CSB,ARTSC,Plant Signal Trans CSB460H1-F-LEC0101,Berleth,Thomas,Fall,201
 CSB460H1,CSB,ARTSC,Plant Signal Trans CSB460H1-F-LEC0101,McCourt,Peter,Fall,2014,4,4.2,4.6,3.3,3.5,3.7,4.1,2.8,3.6,23,11
 CSB475H1,CSB,ARTSC,Plant Metabolomics CSB475H1-F-LEC5101,Nambara,Eiji,Fall,2014,4.2,4,3.8,4,3.4,3.8,4.2,3.2,4,21,5
 CSB483H1,CSB,ARTSC,Seminar in Dev Bio CSB483H1-F-LEC5101,Winklbauer,Rudolf,Fall,2014,4.4,4.7,4.8,4.8,4.7,4.7,4.8,3.3,5,20,9
-CSB346H1,CSB-ARTSC,ARTSC,Respiration Neurobiology CSB346H1-F-LEC5101,Fraigne,Jimmy,Summer,2019,3.8,4.2,4.1,3.7,3.6,3.6,4.1,3.0,3.6,66,26
+BIO255H1,CSB-ARTSC,ARTSC,Advanced Genes to Organisms BIO255H1-F-LEC0101,Desveaux,Darrell,Fall,2019,4.8,4.9,4.1,4.3,4.4,4.1,3.9,3.8,4.6,19,8
+BIO255H1,CSB-ARTSC,ARTSC,Advanced Genes to Organisms BIO255H1-F-LEC0101,Yip,Kenneth,Fall,2019,4.8,4.9,4.8,4.3,4.4,4.1,5.0,3.8,4.6,19,8
+BIO255H1,CSB-ARTSC,ARTSC,Advanced Genes to Organisms BIO255H1-F-LEC5101,Yip,Kenneth,Fall,2019,5.0,5.0,5.0,5.0,4.8,5.0,5.0,3.8,4.5,18,5
+CSB343H1,CSB-ARTSC,ARTSC,Animal Energetics CSB343H1-F-LEC0101,Buck,Leslie,Fall,2019,3.4,3.5,3.4,2.7,2.6,2.4,3.5,3.1,2.3,64,30
+BIO270H1,CSB-ARTSC,ARTSC,Animal Physiology I BIO270H1-F-LEC0101,Garside,Christopher,Fall,2019,3.6,3.6,3.7,3.3,3.2,3.1,4.3,3.4,3.2,196,70
+BCB410H1,CSB-ARTSC,ARTSC,Appl Bioinformatics BCB410H1-F-LEC0101,Silva,Anjali,Fall,2019,2.5,2.8,2.8,3.3,3.5,2.5,2.3,3.5,2.0,22,5
+CSB328H1,CSB-ARTSC,ARTSC,Developmental Bio CSB328H1-F-LEC0101,Schwartz,Carol,Fall,2019,4.5,4.5,4.3,4.0,4.1,4.1,4.4,3.0,4.2,117,47
+CSB325H1,CSB-ARTSC,ARTSC,Endocrine Physiology CSB325H1-F-LEC0101,Lovejoy,David,Fall,2019,3.5,3.6,3.1,3.1,3.4,2.7,3.6,3.4,2.7,64,24
+CSB458H1,CSB-ARTSC,ARTSC,Epigenetics CSB458H1-F-LEC5101,Saltzman,Arneet,Fall,2019,4.6,4.5,4.6,4.2,4.4,4.1,4.7,3.6,4.3,23,23
+CSB349H1,CSB-ARTSC,ARTSC,Eukaryotic Gene Expression CSB349H1-F-LEC0101,Calarco,John,Fall,2019,3.7,3.9,3.6,3.5,3.4,3.0,3.6,4.1,2.7,221,119
+CSB349H1,CSB-ARTSC,ARTSC,Eukaryotic Gene Expression CSB349H1-F-LEC0101,Moeder,Wolfgang,Fall,2019,3.7,3.9,3.2,3.5,3.4,3.0,3.4,4.1,2.7,221,119
+BIO230H1,CSB-ARTSC,ARTSC,Genes to Organisms BIO230H1-F-LEC0101,Desveaux,Darrell,Fall,2019,4.0,4.3,3.8,3.8,3.8,3.8,3.9,3.5,3.8,773,289
+BIO230H1,CSB-ARTSC,ARTSC,Genes to Organisms BIO230H1-F-LEC0101,Yip,Kenneth,Fall,2019,4.0,4.3,4.7,3.8,3.8,3.8,4.7,3.5,3.8,773,289
+BIO230H1,CSB-ARTSC,ARTSC,Genes to Organisms BIO230H1-F-LEC5101,Yip,Kenneth,Fall,2019,4.1,4.4,4.8,4.0,4.0,4.1,4.8,3.5,4.0,333,120
+CSB196H1,CSB-ARTSC,ARTSC,Genes  Genomes and Us CSB196H1-F-LEC0101,Bruce,Ashley,Fall,2019,4.5,4.6,4.8,4.7,4.6,4.4,4.4,2.2,4.8,20,16
+CSB345H1,CSB-ARTSC,ARTSC,Intro Sleep Biology CSB345H1-F-LEC0101,Stephenson,Richard,Fall,2019,4.5,4.6,3.9,3.5,3.5,3.8,4.2,3.2,3.9,138,40
+CSB327H1,CSB-ARTSC,ARTSC,Matrix Dynamic Pathologies CSB327H1-F-LEC0101,Ringuette,Maurice,Fall,2019,4.0,4.2,4.0,3.6,3.5,3.4,4.2,3.2,3.3,129,38
+CSB452H1,CSB-ARTSC,ARTSC,Mol Plant-Microb Interactions CSB452H1-F-LEC0101,Lumba,Shelley,Fall,2019,5.0,4.7,4.6,4.6,4.6,4.9,5.0,3.1,4.9,24,7
+CSB452H1,CSB-ARTSC,ARTSC,Mol Plant-Microb Interactions CSB452H1-F-LEC0101,Yoshioka,Keiko,Fall,2019,5.0,4.7,4.9,4.6,4.6,4.9,4.9,3.1,4.9,24,7
+CSB201H1,CSB-ARTSC,ARTSC,Molec Bio  Biotech & You CSB201H1-F-LEC9901,Neumann,Melody,Fall,2019,4.5,4.5,4.4,4.5,4.3,4.4,4.5,2.9,4.3,91,29
+CSB201H1,CSB-ARTSC,ARTSC,Molec Bio  Biotech & You CSB201H1-F-LEC9901,Yip,Kenneth,Fall,2019,4.5,4.5,4.6,4.5,4.3,4.4,4.7,2.9,4.3,91,29
+CSB350H1,CSB-ARTSC,ARTSC,Molecular Plant Lab CSB350H1-F-LEC0101,Christendat,Dinesh,Fall,2019,4.7,4.7,4.2,4.2,4.3,4.4,4.2,3.7,4.3,39,27
+CSB350H1,CSB-ARTSC,ARTSC,Molecular Plant Lab CSB350H1-F-LEC0101,Nambara,Eiji,Fall,2019,4.7,4.7,4.2,4.2,4.3,4.4,4.1,3.7,4.3,39,27
+CSB454H1,CSB-ARTSC,ARTSC,Pathogenic Effector Biology CSB454H1-F-LEC0101,Desveaux,Darrell,Fall,2019,4.9,4.7,4.9,4.2,4.2,4.5,4.9,2.9,4.4,31,14
+CSB340H1,CSB-ARTSC,ARTSC,Plant Development CSB340H1-F-LEC0101,Berleth,Thomas,Fall,2019,3.8,4.2,3.9,4.1,4.4,4.0,3.9,2.6,3.8,43,14
+CSB460H1,CSB-ARTSC,ARTSC,Plant Signal Transduction CSB460H1-F-LEC0101,Berleth,Thomas,Fall,2019,3.8,3.8,3.6,3.6,3.8,3.5,4.0,3.1,3.3,18,8
+CSB450H1,CSB-ARTSC,ARTSC,Proteomics in Systems Biology CSB450H1-F-LEC0101,Christendat,Dinesh,Fall,2019,4.1,4.4,4.4,4.4,4.3,3.9,4.3,4.0,3.6,14,8
+CSB435H1,CSB-ARTSC,ARTSC,Regul Networks In Molec Bio CSB435H1-F-LEC5101,Moses,Alan,Fall,2019,4.2,4.2,3.9,3.8,3.6,3.9,4.1,3.3,3.3,17,10
+CSB483H1,CSB-ARTSC,ARTSC,Seminar in Dev Bio CSB483H1-F-LEC5101,Winklbauer,Rudolf,Fall,2019,4.6,4.5,4.5,4.4,4.4,4.4,4.8,2.8,4.4,25,8
+CSB426H1,CSB-ARTSC,ARTSC,Stress Reproduction CSB426H1-F-LEC0101,Lovejoy,David,Fall,2019,3.0,2.9,3.0,2.5,2.6,2.2,3.6,3.3,1.9,24,11
+CSB490H1,CSB-ARTSC,ARTSC,Team Learn: Cell and Molec Bio CSB490H1-F-LEC0101,Christendat,Dinesh,Fall,2019,4.6,4.4,4.2,4.6,4.5,4.5,4.4,3.6,4.5,18,11
+CSB490H1,CSB-ARTSC,ARTSC,Team Learn: Cell and Molec Bio CSB490H1-F-LEC0101,Neumann,Melody,Fall,2019,4.6,4.4,4.7,4.6,4.5,4.5,4.6,3.6,4.5,18,11
+CSB445H1,CSB-ARTSC,ARTSC,Topics in Sleep Research CSB445H1-F-LEC0101,Stephenson,Richard,Fall,2019,4.7,4.4,4.4,4.4,4.4,4.1,4.6,3.1,4.2,18,10
+CSB346H1,CSB-ARTSC,ARTSC,Respiration Neurobiology CSB346H1-F-LEC5101,Fraigne,Jimmy,Summer,2019,3.8,4.2,4.1,3.7,3.6,3.6,4.1,3,3.6,66,26
 BIO270H1,CSB-ARTSC,ARTSC,Animal Physiology I BIO270H1-F-LEC0101,Gonzalez-Santos,Juana,Summer,2019,3.7,3.7,3.7,3.6,3.5,3.5,4.2,3.1,3.7,48,13
-BIO230H1,CSB-ARTSC,ARTSC,Genes to Organisms BIO230H1-F-LEC0101,Yip,Kenneth,Summer,2019,4.2,4.4,4.7,3.9,4.0,3.9,4.7,3.5,3.9,131,55
+BIO230H1,CSB-ARTSC,ARTSC,Genes to Organisms BIO230H1-F-LEC0101,Yip,Kenneth,Summer,2019,4.2,4.4,4.7,3.9,4,3.9,4.7,3.5,3.9,131,55
 BIO130H1,CSB-ARTSC,ARTSC,Molecular & Cell Bio BIO130H1-F-LEC0101,Yip,Kenneth,Summer,2019,4.6,4.8,4.8,4.5,4.6,4.6,4.8,3.5,4.2,73,20
-BIO271H1,CSB-ARTSC,ARTSC,Animal Physiology II BIO271H1-S-LEC0101,Gonzalez-Santos,Juana,Summer,2019,4.6,4.6,5.0,4.6,4.6,4.8,4.8,3.0,4.2,26,5
+BIO271H1,CSB-ARTSC,ARTSC,Animal Physiology II BIO271H1-S-LEC0101,Gonzalez-Santos,Juana,Summer,2019,4.6,4.6,5,4.6,4.6,4.8,4.8,3,4.2,26,5
 CSB351Y1,CSB-ARTSC,ARTSC,Introductory Virology CSB351Y1-Y-LEC0101,AbouHaidar,Mounir,Winter,2019,4.13,4.2,3.6,3,3.2,3.3,4.4,3.3,3.1,92,32
 CSB457H1,CSB-ARTSC,ARTSC,Post-transcriptional Gene Reg CSB457H1-S-LEC5101,Calarco,John,Winter,2019,4.5,4.6,4.6,4.4,4.7,4.6,4.7,3.2,4.8,19,10
 CSB492H1,CSB-ARTSC,ARTSC,CSB Advanced Topics CSB492H1-S-LEC0101,Chang,Belinda,Winter,2019,4.33,4.2,4.3,4,4,4,4.2,4,4.4,29,6

@@ -1,3 +1,4 @@
+Code,Dept,Division,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Instructor generated enthusiasm,Course Workload,I would recommend this course,Number of Students Invited,Number of Respondents
 WDW102Y1,WDW,ARTSC,Contemporary Canada WDW102Y1-F-LEC0101,Lapointe,Michael,Summer,2018,4.7,4.7,4.7,4.5,4.7,4.6,4.9,4.1,4.7,22,16
 WDW102Y1,WDW,ARTSC,Contemporary Canada WDW102Y1-F-LEC5101,Voltan,Kathryn,Summer,2018,4.1,4.1,4.8,4.5,4.5,4.4,4.9,3.6,4.3,11,8
 ABP100Y1,WDW,ARTSC,Intro to Academic Studies ABP100Y1-Y-LEC0101,Shook,Cheryl,Winter,2018,3.7,4.5,4.9,4.4,4.6,4.5,4.8,2.2,4.3,25,12
@@ -161,8 +162,17 @@ WDW151H1,WDW,ARTSC,Order and Disorder I WDW151H1-F-LEC0101,Fischer,Beth,Fall,201
 WDW151H1,WDW,ARTSC,Order and Disorder I WDW151H1-F-LEC0201,Fischer,Beth,Fall,2014,4.9,4.9,5,4.5,4.5,4.8,4.9,2.8,4.9,25,13
 WDW151H1,WDW,ARTSC,Order and Disorder I WDW151H1-F-LEC0301,Fischer,Beth,Fall,2014,4,4.2,4.6,4.3,4.3,4.2,4.6,3,4.2,24,15
 WDW151H1,WDW,ARTSC,Order and Disorder I WDW151H1-F-LEC2001,Taylor,Kerry,Fall,2014,5,4.9,4.9,4,4,4.9,4.9,3.4,4.9,24,7
+WDW235H1,WDW-ARTSC,ARTSC,Digital Humanities WDW235H1-F-LEC0101,Bolintineanu,Ioana,Fall,2019,4.4,4.7,4.9,4.4,4.5,4.5,4.9,2.8,4.6,47,27
+WDW235H1,WDW-ARTSC,ARTSC,Digital Humanities WDW235H1-F-LEC0201,Price,Matthew,Fall,2019,3.7,3.5,4.2,4.1,4.1,3.8,4.2,2.9,4.0,36,11
+WDW199H1,WDW-ARTSC,ARTSC,Indigenous Knowledge WDW199H1-F-LEC0101,Johnson,Jon,Fall,2019,4.4,4.7,4.9,4.0,4.1,4.6,5.0,3.3,4.6,14,7
+WDW197H1,WDW-ARTSC,ARTSC,Jane Austen on Film WDW197H1-F-LEC0101,Moritz,Theresa,Fall,2019,4.4,4.5,4.6,4.3,4.6,4.4,4.8,2.7,4.3,21,13
+WDW151H1,WDW-ARTSC,ARTSC,Order and Disorder I WDW151H1-F-LEC0101,Fischer,Beth,Fall,2019,4.7,4.7,5.0,4.6,4.7,4.8,5.0,3.3,4.7,25,19
+WDW151H1,WDW-ARTSC,ARTSC,Order and Disorder I WDW151H1-F-LEC0201,Fischer,Beth,Fall,2019,4.4,4.7,4.7,4.3,4.3,4.4,4.8,3.0,4.6,30,27
+WDW151H1,WDW-ARTSC,ARTSC,Order and Disorder I WDW151H1-F-LEC0301,Bjorge,Mikhail,Fall,2019,4.1,4.0,4.4,4.0,4.1,3.9,4.6,2.8,4.1,22,8
+WDW151H1,WDW-ARTSC,ARTSC,Order and Disorder I WDW151H1-F-LEC2000,Johnson,Jon,Fall,2019,4.8,4.9,4.8,4.7,4.7,4.8,4.9,3.7,4.8,22,12
+WDW153H1,WDW-ARTSC,ARTSC,Pop Culture Today I WDW153H1-F-LEC0201,MacDonald,Brock,Fall,2019,4.4,4.7,4.9,4.3,4.6,4.5,4.9,2.4,4.9,23,15
 WDW102Y1,WDW-ARTSC,ARTSC,Contemporary Canada WDW102Y1-F-LEC0101,Lapointe,Michael,Summer,2019,4.3,4.7,4.9,4.4,4.4,4.6,4.8,3.8,4.5,17,14
-WDW102Y1,WDW-ARTSC,ARTSC,Contemporary Canada WDW102Y1-F-LEC5101,Voltan,Kathryn,Summer,2019,4.2,4.8,5.0,4.8,5.0,4.6,5.0,3.4,4.8,17,5
+WDW102Y1,WDW-ARTSC,ARTSC,Contemporary Canada WDW102Y1-F-LEC5101,Voltan,Kathryn,Summer,2019,4.2,4.8,5,4.8,5,4.6,5,3.4,4.8,17,5
 WDW335H1,WDW-ARTSC,ARTSC,Book to Map to Video WDW335H1-S-LEC0101,Bolintineanu,Ioana,Winter,2019,4.67,4.9,5,4.8,4.9,4.8,5,3,4.9,19,9
 WDW236H1,WDW-ARTSC,ARTSC,Virtual Worlds WDW236H1-S-LEC0101,Bolintineanu,Ioana,Winter,2019,4.43,4.4,5,4.4,4.6,4.6,5,2.9,4.6,44,22
 WDW152H1,WDW-ARTSC,ARTSC,Order and Disorder II WDW152H1-S-LEC0201,Fischer,Beth,Winter,2019,4,3.7,4.2,3.5,3.3,3.6,4.2,3.3,3.8,19,10

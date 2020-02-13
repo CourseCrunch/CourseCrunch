@@ -1,3 +1,4 @@
+Code,Dept,Division,Course,Term,Year,Last Name,First Name,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Overall rating of instructor teaching,Number Invited,Number of Survey Responses
 AER1601H,AER,SGS,AEROSPACE ENGINEERING AND OPER AER1601H-F-LEC0101,Fall,2019,Armstrong,Stephen,4.3,4.3,4.5,4.3,4.3,4.3,4.3,31,20
 AER1513H,AER,SGS,STATE ESTIMATION FOR AEROSPACE AER1513H-F-LEC0101,Fall,2019,Barfoot,Tim,4.5,4.6,4.6,4.9,4.6,4.4,4.7,38,16
 AER1311H,AER,SGS,UNSTEADY GASDYNAMICS AER1311H-F-LEC0101,Fall,2019,Gottlieb,James,4.3,4.8,4.8,4.5,4.6,4.4,4.5,11,8

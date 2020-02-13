@@ -1,3 +1,4 @@
+Code,Dept,Division,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Instructor generated enthusiasm,Course Workload,I would recommend this course,Number of Students Invited,Number of Respondents
 IMC392Y1,OTC,ARTSC,Exploring New Ventures IMC392Y1-Y-LEC0101,Eisenstein,Alon,Summer,2018,3.7,3.9,4.4,4.1,4.3,4.1,4.4,2.3,4.6,12,11
 IMC391H1,OTC,ARTSC,Exploring New Ventures IMC391H1-S-LEC0101,Eisenstein,Alon,Winter,2018,3.8,4,3.3,2.8,3.2,3.3,3.7,2.7,4,19,6
 IMC391H1,OTC,ARTSC,Exploring New Ventures IMC391H1-F-LEC0101,Eisenstein,Alon,Fall,2017,4.4,5,4.8,4,4.4,4.6,4.8,3,4,8,5
@@ -7,7 +8,7 @@ IMC200H1,OTC,ARTSC,Innovation & Entrepr IMC200H1-F-LEC0101,Plant,Charles,Fall,20
 IMC200H1,OTC,ARTSC,Innovation & Entrepr IMC200H1-F-LEC0101,Plant,Charles,Fall,2015,4,4,4.3,3.9,4,4,4.2,2.2,4.4,385,92
 IMC200H1,OTC,ARTSC,Innovation & Entrenp IMC200H1-LEC0101,Goh,M,Fall,2013,3.5,3.7,3.8,3.4,3.4,3.5,4,1.7,3.9,192,69
 IMC200H1,OTC,ARTSC,Innovation & Entrenp IMC200H1-F-LEC0101,Goh,M,Fall,2014,3.5,3.7,3.8,3.7,3.7,3.7,3.9,2.1,4.2,348,106
-IMC392Y1,OTC-ARTSC,ARTSC,Exploring New Ventures IMC392Y1-Y-LEC0101,Eisenstein,Alon,Summer,2019,3.7,3.9,4.3,4.1,4.1,4.0,4.6,2.6,4.3,25,10
+IMC392Y1,OTC-ARTSC,ARTSC,Exploring New Ventures IMC392Y1-Y-LEC0101,Eisenstein,Alon,Summer,2019,3.7,3.9,4.3,4.1,4.1,4,4.6,2.6,4.3,25,10
 IMC391H1,OTC-ARTSC,ARTSC,Exploring New Ventures IMC391H1-S-LEC0101,Eisenstein,Alon,Winter,2019,4.06,4.3,4.4,4.1,4.2,4.3,4.4,2.8,4.8,48,20
 IMC392Y1,OTC-ARTSC,ARTSC,Exploring New Ventures IMC392Y1-Y-LEC0101,Eisenstein,Alon,Winter,2019,4,3.9,4,3.9,4,4.1,4.1,3.5,4.6,24,8
 IMC391H1,OTC-ARTSC,ARTSC,Exploring New Ventures IMC391H1-F-LEC0101,Eisenstein,Alon,Fall,2018,4.3,4.5,4.5,4.1,4.1,4.4,4.8,3,4.5,10,8

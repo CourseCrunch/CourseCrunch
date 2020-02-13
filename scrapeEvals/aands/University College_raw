@@ -1,3 +1,4 @@
+Code,Dept,Division,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Instructor generated enthusiasm,Course Workload,I would recommend this course,Number of Students Invited,Number of Respondents
 COG250Y1,UC,ARTSC,Cognitive Science COG250Y1-Y-LEC0101,Lewis,Cory,Summer,2018,4.8,5,4.9,4.6,4.6,4.8,5,2.9,4.7,34,11
 CDN221H1,UC,ARTSC,Cult & Media in Can CDN221H1-F-LEC0101,Salutin,Rick,Summer,2018,4.3,4.5,4.7,4.6,4.5,4.5,4.8,3,4.3,47,12
 HST250H1,UC,ARTSC,Intro Health Std Rsh Mtds HST250H1-F-LEC0101,Schluter,Daniel,Summer,2018,3.8,3.9,4,4,4.3,3.3,4,3.1,3.9,19,8
@@ -281,8 +282,26 @@ UNI330H1,UC,ARTSC,Population Health UNI330H1-F-LEC0101,Harvey,Bart,Fall,2014,3.6
 UNI368H1,UC,ARTSC,Canada's Borders UNI368H1-F-LEC0101,Gilbert,Emily,Fall,2014,4.6,4.7,4.9,4.5,4.6,4.6,4.9,3,4.7,33,16
 UNI411H1,UC,ARTSC,Pol Eco of Health UNI411H1-F-LEC5101,Vahid Shahidi,Faraz,Fall,2014,4.5,4.6,4.6,4.5,4.4,4.4,5,3.6,4.7,28,19
 UNI440H1,UC,ARTSC,Health & Pharmaceuticals UNI440H1-F-LEC0101,Olivieri,Nancy,Fall,2014,4.2,4.5,3.6,3.4,3.6,3.3,4.4,3.5,3.5,41,20
+HST308H1,UC-ARTSC,ARTSC,Aging and Health HST308H1-F-LEC0101,Mirza,Raza,Fall,2019,4.8,4.9,4.5,4.7,4.7,4.7,4.9,3.3,4.7,30,24
+CDN307H1,UC-ARTSC,ARTSC,Asian Cultures CDN307H1-F-LEC0101,Tan,Serene,Fall,2019,4.1,4.0,4.0,4.0,4.0,3.9,4.0,2.9,3.7,25,7
+CDN335H1,UC-ARTSC,ARTSC,Black Canadian Studies CDN335H1-F-LEC0101,Hudson,Audreylee,Fall,2019,4.7,4.6,4.6,4.3,4.4,4.6,4.7,2.9,4.6,11,7
+CDN267H1,UC-ARTSC,ARTSC,Canadian Nationalisms CDN267H1-F-LEC0101,Mar,Lisa,Fall,2019,3.8,4.0,4.5,4.3,4.5,3.9,4.6,2.8,4.2,46,25
+HST410H1,UC-ARTSC,ARTSC,Case Studies in Health Policy HST410H1-F-LEC0101,Deber,Raisa,Fall,2019,3.8,3.9,3.7,3.9,4.2,3.5,3.7,3.1,3.6,32,17
+HST410H1,UC-ARTSC,ARTSC,Case Studies in Health Policy HST410H1-F-LEC0101,Rackow,Valerie,Fall,2019,3.8,3.9,3.9,3.9,4.2,3.5,3.7,3.1,3.6,32,17
+CDN390H1,UC-ARTSC,ARTSC,Chinese Canadian CDN390H1-F-LEC0101,Mar,Lisa,Fall,2019,4.3,4.2,4.7,4.0,4.2,4.2,4.7,3.3,4.3,27,12
+UNI101H1,UC-ARTSC,ARTSC,Citizenship in the CDN City UNI101H1-F-LEC0101,Micallef,Shawn,Fall,2019,3.4,3.7,4.2,3.5,4.0,3.4,4.4,2.2,3.1,26,10
+COG250Y1,UC-ARTSC,ARTSC,Cognitive Science COG250Y1-Y-LEC0101,Lewis,Cory,Fall,2019,4.6,4.4,4.5,3.8,3.9,4.0,4.6,3.1,3.9,202,74
+COG260H1,UC-ARTSC,ARTSC,Data Computation and Mind COG260H1-F-LEC0101,Xu,Yang,Fall,2019,4.5,4.3,4.5,4.4,4.4,4.2,4.7,3.0,4.4,38,31
+HST405H1,UC-ARTSC,ARTSC,Global Migration and Health HST405H1-F-LEC0101,Cortinois,Andrea,Fall,2019,4.0,4.1,3.7,3.4,3.4,3.6,3.7,3.2,3.5,22,14
+UNI103H1,UC-ARTSC,ARTSC,Gradients of Health UNI103H1-F-LEC0101,Schluter,Daniel,Fall,2019,3.2,3.6,3.2,3.8,3.8,3.0,4.2,4.6,2.8,11,6
+HST440H1,UC-ARTSC,ARTSC,Health & Pharmaceuticals HST440H1-F-LEC0101,Olivieri,Nancy,Fall,2019,3.6,3.7,2.8,3.2,3.2,2.7,3.7,3.3,3.0,39,20
+HST250H1,UC-ARTSC,ARTSC,Intro Health Std Rsh Mtds HST250H1-F-LEC0101,Schluter,Daniel,Fall,2019,2.4,3.1,3.0,3.3,3.5,2.8,3.3,3.2,2.8,62,24
+HST209H1,UC-ARTSC,ARTSC,Intro to Health HST209H1-F-LEC0101,Lombardo,Anthony,Fall,2019,4.3,4.6,4.5,4.2,4.3,4.0,4.6,3.1,4.2,72,29
+UNI102H1,UC-ARTSC,ARTSC,Performing the City I UNI102H1-F-LEC0101,Verdecchia,Guillermo,Fall,2019,3.4,3.4,3.9,2.9,2.7,2.9,4.6,4.1,3.1,22,14
+UNI104H1,UC-ARTSC,ARTSC,Sex in the City UNI104H1-F-LEC0101,Lesk,Andrew,Fall,2019,3.5,4.0,3.7,3.5,4.0,3.7,3.7,2.7,4.2,11,7
+CDN218H1,UC-ARTSC,ARTSC,Voices in Cdn Writing CDN218H1-F-LEC0101,Lesk,Andrew,Fall,2019,3.8,4.0,4.0,3.8,4.2,3.7,4.0,3.2,3.7,14,7
 HST209H1,UC-ARTSC,ARTSC,Intro to Health HST209H1-F-LEC0101,Lombardo,Anthony,Summer,2019,4.3,4.5,4.7,4.5,4.3,4.3,4.7,3.3,4.3,29,6
-CDN221H1,UC-ARTSC,ARTSC,Cult & Media in Can CDN221H1-F-LEC0101,Salutin,Rick,Summer,2019,4.0,4.1,4.1,4.1,4.2,3.9,4.5,2.8,4.1,40,12
+CDN221H1,UC-ARTSC,ARTSC,Cult & Media in Can CDN221H1-F-LEC0101,Salutin,Rick,Summer,2019,4,4.1,4.1,4.1,4.2,3.9,4.5,2.8,4.1,40,12
 COG250Y1,UC-ARTSC,ARTSC,Cognitive Science COG250Y1-Y-LEC0101,Lewis,Cory,Summer,2019,4.8,4.8,4.9,4.7,4.7,4.7,4.8,3.5,4.5,40,19
 HST307H1,UC-ARTSC,ARTSC,Spe Topcs in Health I HST307H1-S-LEC0101,Amri,Michelle,Winter,2019,4.45,4.6,4.2,4.4,4.5,4.2,4.6,3.3,4.2,23,20
 HST373H1,UC-ARTSC,ARTSC,Epidemiology HST373H1-S-LEC0101,Bethell,Jennifer,Winter,2019,3.71,4.2,4.2,4.2,4.2,3.8,4.1,3.2,3.6,50,21

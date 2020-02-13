@@ -1,3 +1,4 @@
+Code,Dept,Division,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Instructor generated enthusiasm,Course Workload,I would recommend this course,Number of Students Invited,Number of Respondents
 AST201H1,AST,ARTSC,Stars & Galaxies AST201H1-S-LEC5101,Shelton,Ian,Summer,2018,3.9,4.1,3.9,3.9,3.9,3.7,3.9,3,3.8,159,40
 AST251H1,AST,ARTSC,Life on Other Worlds AST251H1-F-LEC5101,Shelton,Ian,Summer,2018,4.3,4.6,4,3.8,3.9,3.6,4.3,2.8,3.7,73,20
 AST101H1,AST,ARTSC,Sun & its Neighbours AST101H1-F-LEC5101,Souami,Damya,Summer,2018,3.9,4.1,3.5,3.7,3.6,3.3,4.2,3.1,3.7,186,35
@@ -86,8 +87,17 @@ AST101H1,AST,ARTSC,Sun & its Neighbours AST101H1-F-LEC0101,Netterfield,C.,Fall,2
 AST101H1,AST,ARTSC,Sun & its Neighbours AST101H1-F-LEC0101,Reid,Michael,Fall,2014,4.2,4.4,4.6,4.1,4.1,4,4.7,2.8,4.5,1356,461
 AST210H1,AST,ARTSC,Great Moments in Ast AST210H1-F-LEC0101,Mochnacki,Stefan,Fall,2014,3.7,3.7,3,3.3,3.4,2.9,3.3,3.1,2.9,96,39
 AST221H1,AST,ARTSC,Stars and Planets AST221H1-F-LEC0101,Matzner,Christopher,Fall,2014,4.3,4.3,4,3.6,3.1,3.6,4.3,3.5,3.5,41,22
-AST251H1,AST-ARTSC,ARTSC,Life on Other Worlds AST251H1-F-LEC5101,Shelton,Ian,Summer,2019,4.1,3.9,3.9,3.7,3.8,3.7,3.8,3.0,3.9,81,25
-AST101H1,AST-ARTSC,ARTSC,Sun & its Neighbours AST101H1-F-LEC5101,Souami,Damya,Summer,2019,3.2,3.5,3.2,3.1,3.0,2.8,3.7,3.8,2.7,130,31
+AST199H1,AST-ARTSC,ARTSC,Astronomy at the Frontier AST199H1-F-LEC0101,Yee,Howard,Fall,2019,3.6,3.9,3.5,3.6,3.8,3.1,3.6,2.5,3.3,22,12
+AST198H1,AST-ARTSC,ARTSC,Great Astronomical Issues AST198H1-F-LEC0101,Neilson,Hilding,Fall,2019,2.9,3.4,2.6,2.8,3.0,2.5,3.0,3.4,1.9,15,8
+AST325H1,AST-ARTSC,ARTSC,Intro Practical Ast AST325H1-F-LEC0101,Moon,Dae-Sik,Fall,2019,4.1,4.1,3.2,4.2,4.1,3.6,3.5,4.1,3.4,26,12
+AST325H1,AST-ARTSC,ARTSC,Intro Practical Ast AST325H1-F-LEC0101,Sivanandam,Suresh,Fall,2019,4.1,4.1,3.4,4.2,4.1,3.6,3.6,4.1,3.4,26,12
+AST301H1,AST-ARTSC,ARTSC,Observational Astronomy AST301H1-F-LEC0101,Drout,Maria,Fall,2019,4.7,4.7,5.0,4.7,4.9,4.9,5.0,3.9,4.7,40,13
+AST301H1,AST-ARTSC,ARTSC,Observational Astronomy AST301H1-F-LEC0101,Reid,Michael,Fall,2019,4.7,4.7,5.0,4.7,4.9,4.9,5.0,3.9,4.7,40,13
+AST221H1,AST-ARTSC,ARTSC,Stars and Planets AST221H1-F-LEC0101,Friesen,Rachel,Fall,2019,4.2,4.1,4.1,4.1,4.0,3.7,4.2,3.7,3.8,75,40
+AST101H1,AST-ARTSC,ARTSC,Sun & its Neighbours AST101H1-F-LEC0101,Hlozek,Renee,Fall,2019,3.9,4.3,4.3,4.0,4.0,3.9,4.4,2.9,4.1,1369,351
+AST101H1,AST-ARTSC,ARTSC,Sun & its Neighbours AST101H1-F-LEC0101,Webb,Jeremy,Fall,2019,3.9,4.3,4.2,4.0,4.0,3.9,4.2,2.9,4.1,1369,351
+AST251H1,AST-ARTSC,ARTSC,Life on Other Worlds AST251H1-F-LEC5101,Shelton,Ian,Summer,2019,4.1,3.9,3.9,3.7,3.8,3.7,3.8,3,3.9,81,25
+AST101H1,AST-ARTSC,ARTSC,Sun & its Neighbours AST101H1-F-LEC5101,Souami,Damya,Summer,2019,3.2,3.5,3.2,3.1,3,2.8,3.7,3.8,2.7,130,31
 AST201H1,AST-ARTSC,ARTSC,Stars & Galaxies AST201H1-S-LEC5101,Shelton,Ian,Summer,2019,3.8,4.2,3.7,3.6,3.8,3.6,3.9,2.9,3.8,169,17
 AST222H1,AST-ARTSC,ARTSC,Galaxies & Cosmology AST222H1-S-LEC0101,Bovy,Jo,Winter,2019,4.17,4,3.8,3.8,3.8,3.5,3.8,3.4,3.6,47,25
 AST201H1,AST-ARTSC,ARTSC,Stars & Galaxies AST201H1-S-LEC0101,Gaensler,Bryan,Winter,2019,4.17,4.4,4.5,4.2,4.2,4.2,4.4,2.8,4.4,1387,325

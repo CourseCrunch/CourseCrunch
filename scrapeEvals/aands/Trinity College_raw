@@ -1,3 +1,4 @@
+Code,Dept,Division,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Instructor generated enthusiasm,Course Workload,I would recommend this course,Number of Students Invited,Number of Respondents
 TRN305Y1,TRIN,ARTSC,Basic Principles Law TRN305Y1-F-LEC0101,Cameron,Hilary,Summer,2018,5,5,4.8,4.8,4.6,4.7,5,4.1,4.6,15,10
 TRN125Y1,TRIN,ARTSC,Issues in Health Sci TRN125Y1-Y-LEC0101,Rojas,Olga,Winter,2018,3.8,3.9,3.7,3.2,3.5,3.4,4,2.6,3.5,17,11
 TRN136Y1,TRIN,ARTSC,Can Hlth Policy Global Context TRN136Y1-Y-LEC0101,Boehm,Leslie,Winter,2018,4.7,4.8,4.8,4.5,4.3,4.6,4.6,3.6,4.9,14,13
@@ -174,7 +175,18 @@ TRN303H1,TRIN,ARTSC,Ethics and Society TRN303H1-F-LEC0101,Sherman,James,Fall,201
 TRN409H1,TRIN,ARTSC,Topics Internat Stud TRN409H1-F-LEC0101,Cunningham,Jack,Fall,2014,5,4.8,4.8,4.8,5,4.6,4.2,3,4.8,5,5
 TRN409H1,TRIN,ARTSC,Topics Internat Stud TRN409H1-F-LEC0101,English,John,Fall,2014,5,4.8,4.8,4.8,5,4.6,4.2,3,4.8,5,5
 TRN412H1,TRIN,ARTSC,Sem Ethics Soc & Law TRN412H1-F-LEC0101,Duncan,John,Fall,2014,4.8,4.8,4.8,4.2,4.3,4.4,4.8,3.3,4.6,21,16
-TRN305Y1,TRIN-ARTSC,ARTSC,Basic Principles Law TRN305Y1-F-LEC0101,Cameron,Hilary,Summer,2019,4.7,4.7,5.0,4.8,4.5,4.7,5.0,3.3,4.8,10,6
+TRN193H1,TRIN-ARTSC,ARTSC,Canadian Health Policy TRN193H1-F-LEC0101,Boehm,Leslie,Fall,2019,4.3,4.2,4.7,4.5,4.0,4.2,4.5,3.0,4.0,17,6
+TRN199H1,TRIN-ARTSC,ARTSC,Classical Social Theory TRN199H1-F-LEC0101,Zeitlin,Irving,Fall,2019,3.6,4.1,3.2,4.0,4.3,3.6,3.9,2.9,3.1,13,9
+TRN303H1,TRIN-ARTSC,ARTSC,Ethics and Society TRN303H1-F-LEC0101,Ewing,Connor,Fall,2019,4.8,4.7,4.7,4.4,4.2,4.3,4.9,3.8,4.3,25,17
+TRN303H1,TRIN-ARTSC,ARTSC,Ethics and Society TRN303H1-F-LEC0201,Davis,Simone,Fall,2019,4.3,4.5,4.8,4.2,4.2,4.4,4.6,3.1,4.5,18,13
+TRN308H1,TRIN-ARTSC,ARTSC,International Experience II TRN308H1-F-LEC0101,Davis,Simone,Fall,2019,4.8,4.7,4.8,4.0,4.5,4.5,4.8,3.5,4.2,8,6
+TRN203H1,TRIN-ARTSC,ARTSC,Limits & Possibilities TRN203H1-F-LEC0101,Duncan,John,Fall,2019,4.1,3.9,4.0,3.3,3.4,3.4,4.3,3.7,3.2,71,40
+TRN194H1,TRIN-ARTSC,ARTSC,Literature & Wicked Problems TRN194H1-F-LEC0101,Stevenson,Sheryl,Fall,2019,4.3,4.0,4.8,3.5,3.5,4.0,4.8,3.0,3.5,8,6
+TRN410H1,TRIN-ARTSC,ARTSC,Research Critical Cases in IR TRN410H1-F-LEC0101,Dirks,John,Fall,2019,3.5,3.4,3.6,3.7,3.8,3.2,3.7,3.9,3.1,68,38
+TRN198H1,TRIN-ARTSC,ARTSC,The Viking Phenomenon TRN198H1-F-LEC0101,Herold,Jonathan,Fall,2019,4.4,4.7,4.3,4.3,4.1,4.1,4.7,3.2,4.0,15,9
+TRN409H1,TRIN-ARTSC,ARTSC,Topics Internat Stud TRN409H1-F-LEC0101,Cunningham,Stewart,Fall,2019,4.8,5.0,4.6,4.6,4.2,4.6,4.5,3.6,4.4,9,5
+TRN409H1,TRIN-ARTSC,ARTSC,Topics Internat Stud TRN409H1-F-LEC0101,Donaghy,Greg,Fall,2019,4.8,5.0,4.8,4.6,4.2,4.6,5.0,3.6,4.4,9,5
+TRN305Y1,TRIN-ARTSC,ARTSC,Basic Principles Law TRN305Y1-F-LEC0101,Cameron,Hilary,Summer,2019,4.7,4.7,5,4.8,4.5,4.7,5,3.3,4.8,10,6
 TRN321H1,TRIN-ARTSC,ARTSC,Selected Topics TRN321H1-F-LEC5101,Davis,Simone,Summer,2019,4.5,4.4,4.6,4.3,4.5,4.4,4.8,3.2,4.7,11,10
 TRN421Y1,TRIN-ARTSC,ARTSC,Conflict States in Global Pol TRN421Y1-Y-LEC0101,Bareebe,Gerald,Winter,2019,3.64,3.7,4.4,3.4,3.3,3.2,4.2,4.2,2.9,12,11
 TRN235H1,TRIN-ARTSC,ARTSC,Cdn Health Policy TRN235H1-S-LEC0101,Boehm,Leslie,Winter,2019,5,4.8,4,4.8,4.4,4.2,4.6,2.8,4.2,18,5

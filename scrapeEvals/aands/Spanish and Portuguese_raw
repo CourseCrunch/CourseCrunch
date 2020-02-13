@@ -1,3 +1,4 @@
+Code,Dept,Division,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Instructor generated enthusiasm,Course Workload,I would recommend this course,Number of Students Invited,Number of Respondents
 SPA220Y1,SPA,ARTSC,Intermediate Spanish SPA220Y1-Y-LEC0101 (B),Villalobos Graillet,Jose,Summer,2018,4.7,4.8,4.6,4.7,4.6,4.8,4.7,3,4.8,17,11
 SPA100Y1,SPA,ARTSC,Span for Beginners SPA100Y1-Y-LEC0101 (B),Rinaldi da Silva,Natalia,Summer,2018,4.3,4.8,4.3,4.3,4.3,4.5,4.3,3,4.8,27,5
 SPA100Y1,SPA,ARTSC,Span for Beginners SPA100Y1-Y-LEC5101 (B),Maldonado Castaneda,Daniela,Summer,2018,4.4,4.8,5,4.4,4.6,4.6,5,3.4,4.6,13,5
@@ -303,9 +304,25 @@ SPA454H1,SPA,ARTSC,Cervantes SPA454H1-F-LEC0101,Davidson,Robert,Fall,2014,4,4.3,
 SPA467H1,SPA,ARTSC,Topics Sp Am Culture SPA467H1-F-LEC0101,Batiz Zuk,Martha,Fall,2014,4.8,4.9,5,4.9,4.9,4.9,4.9,3.2,4.9,23,14
 SPA482H1,SPA,ARTSC,20C Sp Am Narrative SPA482H1-F-LEC0101,Rivas,Victor,Fall,2014,4.5,4.3,4.2,3.8,3.8,3.8,4.7,3.7,3.8,7,6
 SPA486H1,SPA,ARTSC,Caribbean Identities SPA486H1-F-LEC0101,Rodriguez,Nestor,Fall,2014,4.8,5,4.8,4.8,4.9,4.6,5,3.1,4.9,15,13
-SPA100Y1,SPA-ARTSC,ARTSC,Span for Beginners SPA100Y1-Y-LEC0101 (A),Cruz,Ailen,Summer,2019,4.0,4.3,4.4,4.1,4.0,3.9,4.3,2.8,4.3,26,8
+SPA198H1,SPA-ARTSC,ARTSC,A History of Love in the West SPA198H1-F-LEC0101,Munjic,Sanda,Fall,2019,3.6,4.0,4.0,3.2,3.8,3.0,4.8,3.4,2.6,5,5
+SPA420H1,SPA-ARTSC,ARTSC,Advanced Grammar SPA420H1-F-LEC0101,Alvarez Lopez,Yadira,Fall,2019,4.5,4.8,4.9,4.5,4.5,4.5,4.7,3.5,4.1,18,13
+SPA320Y1,SPA-ARTSC,ARTSC,Advanced Spanish SPA320Y1-Y-LEC0201,Iglesias,Yolanda,Fall,2019,3.7,3.5,3.5,3.4,3.3,2.9,3.9,3.6,3.1,39,24
+SPA320Y1,SPA-ARTSC,ARTSC,Advanced Spanish SPA320Y1-Y-LEC0301,Munjic,Sanda,Fall,2019,3.9,4.2,3.8,3.3,3.4,3.1,4.0,3.4,3.1,13,10
+SPA320Y1,SPA-ARTSC,ARTSC,Advanced Spanish SPA320Y1-Y-LEC5101,Sarabia,Rosa,Fall,2019,3.9,3.9,4.3,3.7,3.9,3.6,4.4,2.9,3.8,38,15
+SPA196H1,SPA-ARTSC,ARTSC,Class and Work in the Americas SPA196H1-F-LEC0101,Jagoe,Eva-Lynn,Fall,2019,4.6,4.9,4.9,4.8,5.0,4.9,5.0,2.6,4.9,15,8
+SPA322H1,SPA-ARTSC,ARTSC,Intro Hispanic Ling SPA322H1-F-LEC0101,Pettibone,Erin,Fall,2019,4.2,4.1,4.0,3.6,4.0,3.9,4.4,3.8,3.6,16,11
+SPA258H1,SPA-ARTSC,ARTSC,Intro Lit Studies SPA258H1-F-LEC5101,Hanashiro Avila,Nae,Fall,2019,4.2,4.2,4.9,3.9,4.0,3.9,4.7,3.4,3.6,22,9
+LAS200H1,SPA-ARTSC,ARTSC,Latin America: C19th History LAS200H1-F-LEC0101,Rivas,Victor,Fall,2019,4.7,4.6,4.7,4.8,4.8,4.9,4.8,3.3,4.8,29,10
+SPA381H1,SPA-ARTSC,ARTSC,Nation  Identity & Modernity SPA381H1-F-LEC0101,Rodriguez,Nestor,Fall,2019,4.5,4.5,4.3,4.2,4.5,4.2,4.2,3.0,4.1,22,13
+SPA354H1,SPA-ARTSC,ARTSC,Parody and Comedy SPA354H1-F-LEC0101,Batiz Zuk,Martha,Fall,2019,4.8,5.0,5.0,4.5,4.5,4.7,4.8,2.7,4.8,7,6
+SPA100Y1,SPA-ARTSC,ARTSC,Span for Beginners SPA100Y1-Y-LEC0401,Swanson,Ross,Fall,2019,4.4,4.6,4.9,4.4,4.5,4.5,4.9,2.7,4.4,53,34
+SPA100Y1,SPA-ARTSC,ARTSC,Span for Beginners SPA100Y1-Y-LEC5101,Porras Vielma,Jesus,Fall,2019,4.3,4.5,4.6,4.5,4.7,4.3,4.7,2.5,4.6,59,24
+SPA100Y1,SPA-ARTSC,ARTSC,Span for Beginners SPA100Y1-Y-LEC5102,Cruz,Ailen,Fall,2019,4.3,4.7,5.0,4.8,4.8,4.8,5.0,2.4,4.6,60,19
+SPA100Y1,SPA-ARTSC,ARTSC,Span for Beginners SPA100Y1-Y-LEC5201,Swanson,Ross,Fall,2019,4.4,4.4,4.6,4.5,4.6,4.5,4.8,2.8,4.4,56,42
+SPA439H1,SPA-ARTSC,ARTSC,Topics Span Studies SPA439H1-F-LEC5101,Davidson,Robert,Fall,2019,4.2,4.0,4.2,3.6,4.2,4.0,4.6,2.4,4.2,5,5
+SPA100Y1,SPA-ARTSC,ARTSC,Span for Beginners SPA100Y1-Y-LEC0101 (A),Cruz,Ailen,Summer,2019,4,4.3,4.4,4.1,4,3.9,4.3,2.8,4.3,26,8
 SPA100Y1,SPA-ARTSC,ARTSC,Span for Beginners SPA100Y1-Y-LEC0101 (B),Machado Araujo,Vanina,Summer,2019,4.3,4.9,4.7,3.9,4.3,4.4,4.9,3.3,4.7,24,7
-SPA258H1,SPA-ARTSC,ARTSC,Intro Lit Studies SPA258H1-S-LEC5101,Maldonado Castaneda,Daniela,Summer,2019,4.8,4.5,4.8,4.7,4.5,4.7,5.0,3.3,4.3,8,6
+SPA258H1,SPA-ARTSC,ARTSC,Intro Lit Studies SPA258H1-S-LEC5101,Maldonado Castaneda,Daniela,Summer,2019,4.8,4.5,4.8,4.7,4.5,4.7,5,3.3,4.3,8,6
 PRT364H1,SPA-ARTSC,ARTSC,Portuguese in the World PRT364H1-S-LEC0101,Alves dos Santos Rato,Anabela,Winter,2019,4.14,4.3,4.7,4.3,4.3,4.3,4.7,3,4.3,13,7
 PRT221H1,SPA-ARTSC,ARTSC,Portuguese Pronunciation PRT221H1-S-LEC0101,Alves dos Santos Rato,Anabela,Winter,2019,4.57,5,5,4.7,4.7,4.7,4.9,3.1,4.9,11,7
 SPA386H1,SPA-ARTSC,ARTSC,Lit Mex Revolution SPA386H1-S-LEC0101,Antebi,Susan,Winter,2019,4,4.3,4.7,4.2,4.7,4,4.3,3.2,4,12,6

@@ -31,12 +31,6 @@ schools = {
             'data': '{"strUiCultureIn":"en-US","datasourceId":"7380","blockId":"2400","subjectColId":"6","subjectValue":"%s","detailValue":"____[-1]____","gridId":"fbvGrid","pageActuelle":1,"strOrderBy":["col_6","asc"],"strFilter":["","","ddlFbvColumnSelectorLvl1",""],"sortCallbackFunc":"__getFbvGrid","userid":"exvFBeH63YWTrOkmJc90xv_q0lJl7c4IPoau","pageSize":2000}'},
 }
 
-#departments = 'Anthropology,Biology,Chemical and Physical Sciences,Concurrent Teacher Education Program,Economics,English and Drama,French,Geography,Historical Studies,Institute for Management and Innovation,Institute of Communication and Culture,Language Studies,Management,Mathematical and Computational Sciences,Philosophy,Political Science,Psychology,Sociology,utmONE,Visual Studies'
-#departments = departments.strip().split(',')
-
-#data = '{"strUiCultureIn": "en-US","datasourceId": "4520","blockId": "2480","subjectColId": "1","subjectValue": "'
-#second = '","detailValue": "____[-1]____", "gridId": "fbvGrid","pageActuelle": 1,"strOrderBy": ["col_1","asc"],"strFilter": ["","","ddlFbvColumnSelectorLvl1",""],"sortCallbackFunc": "__getFbvGrid","userid": "YieFNIJw38oVrv55lcluAvIbMYJxAf4UhqAu","pageSize": "1000"}'
-
 cc = re.compile(r"'([A-Za-z]{3}\d\d\d(?:\d(?:H|Y)|(?:(?:H|Y)\d)))'")
 searcher = re.compile(r'"value": "([A-Za-z ]*)"')
 header = re.compile(r'<a [^>]*>(?:<span[^<]*<\/span>)?([^<]+)')

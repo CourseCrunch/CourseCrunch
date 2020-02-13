@@ -28,8 +28,8 @@ const validatePW = (email, password, callBack) => {
             console.log(error);
             return callBack('error');
         }else {
-            var hash = results.rows[0].HASH;
-            bcrypt.compare(password, hash, (valid_err, hash) => {
+            var pw_hash = results.rows[0].HASH;
+            bcrypt.compare(password, pw_hash, (valid_err, hash) => {
                 if (valid_err){
 
                     console.log(valid_err);

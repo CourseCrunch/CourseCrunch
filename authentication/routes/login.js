@@ -12,12 +12,13 @@ router.use(bodyParser.urlencoded({
 
 router.get('/', function(req, res) {
     try{
+        
         const {email, password} = req.body;
 
         dbReq.checkUserExists(email, function(response){
             if(response.length == 0){
 
-                res.status(406).send("This email does not exist.");
+                res.status(406).send("There is no account associated with this email.");
 
             }else{
 

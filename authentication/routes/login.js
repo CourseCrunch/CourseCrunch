@@ -15,7 +15,15 @@ router.get('/', function(req, res) {
         
         const {email, password} = req.body;
 
-        dbReq.checkUserExists(email, function(response){
+        //Sanitize like the Romans
+        const san_email = emptyString(validator.trim(validator.escape(validator.normalizeEmail(email + ''))));
+        const san_password = emptyString(validator.trim(validator.escape(password + '')));
+
+        if(!(validator.isEmail(san_email)) || !(san_email.length < 200)){
+			res.status(406).send('Please enter a valid email');
+        }
+
+        dbReq.checkUserExists(san_email, function(response){
             if(response.length == 0){
 
                 res.status(406).send("There is no account associated with this email.");
@@ -24,7 +32,7 @@ router.get('/', function(req, res) {
 
                 try{
 
-                    dbReq.validatePW(email, password, function(resp){
+                    dbReq.validatePW(san_email, san_password, function(resp){
                         if(resp == "Invalid Password"){
 
                             res.status(406).send("Invalid Password for the given email.");

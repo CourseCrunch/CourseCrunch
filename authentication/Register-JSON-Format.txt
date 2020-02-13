@@ -1,0 +1,7 @@
+{
+	"fname": "__name__",
+	"lname": "__name__",
+	"email": "__email__",
+	"program": "__program__",
+	"password": "__password__"
+}

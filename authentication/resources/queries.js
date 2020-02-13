@@ -10,6 +10,18 @@ const pool = new Pool({
 	port: process.env.PGPORT
 });
 
+//Taken from Robert's queries.js, will unify both files later.
+const checkUserExists = (email, callBack) => {
+	pool.query('SELECT 1 FROM CC_CREDENTIALS WHERE EMAIL = $1', [email], (error, results)  => {
+		if (error) {
+			console.log(error);
+			return callBack('error');
+		} else {
+			return callBack(results.rows);
+		}
+	});
+}
+
 const validatePW = (email, password, callBack) => {
     pool.query('SELECT HASH FROM CC_CREDENTIALS WHERE EMAIL = $1', [email], (error, results) => {
         if (error) {
@@ -30,7 +42,7 @@ const validatePW = (email, password, callBack) => {
                 }else if(hash){
 
                     return callBack("Valid Password.");
-                    
+
                 }
             });
         }

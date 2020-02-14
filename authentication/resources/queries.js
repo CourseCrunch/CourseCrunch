@@ -30,20 +30,29 @@ const validatePW = (email, password, callBack) => {
         }else {
             console.log(results.rows[0]);
             var pw_hash = results.rows[0].HASH;
-            bcrypt.compare(password, pw_hash, (valid_err, hash) => {
-                if (valid_err){
+            bcrypt.hash(password, 10, (bcrypt_err, user_pw_hash) => {
+                if(bcrypt_err){
 
-                    console.log(valid_err);
+                    console.log(bcrypt_err);
                     return callBack("error");
 
-                }else if(!hash){
+                }else {
+                    bcrypt.compare(user_pw_hash, pw_hash, (valid_err, hash) => {
+                        if (valid_err){
+
+                            console.log(valid_err);
+                            return callBack("error");
+
+                        }else if(!hash){
                     
-                    return callBack("Invalid Password.");
+                            return callBack("Invalid Password.");
 
-                }else if(hash){
+                        }else if(hash){
 
-                    return callBack("Valid Password.");
+                            return callBack("Valid Password.");
 
+                        }
+                    });
                 }
             });
         }

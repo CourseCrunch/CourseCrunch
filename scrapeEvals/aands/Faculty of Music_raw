@@ -1,3 +1,4 @@
+Code,Dept,Division,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Instructor generated enthusiasm,Course Workload,I would recommend this course,Number of Students Invited,Number of Respondents
 MUS210H1,MUSIC,ARTSC,Music in Film MUS210H1-S-LEC0101,Haines,John,Summer,2018,3.7,4,3.7,3.8,3.7,3.5,3.9,3.3,3.5,75,35
 MUS211H1,MUSIC,ARTSC,World Popular Music MUS211H1-S-LEC0101,Basdurak,Nil,Summer,2018,3.1,3.4,3.2,3.1,3.3,2.7,3.4,3.4,2.8,35,17
 MUS111H1,MUSIC,ARTSC,Survey of West Mus MUS111H1-S-LEC0101,Donaldson,Hilary,Winter,2018,3.6,3.9,3.9,3.7,3.9,3.6,3.9,3,3.4,131,61
@@ -47,6 +48,9 @@ MUS211H1,MUSIC,ARTSC,World Popular Music MUS211H1-S -LEC0101,Packman,Jeff,Summer
 MUS110H1,MUSIC,ARTSC,Intro to Mus & Cult MUS110H1-F-LEC0101,Gutsche-Miller,Sarah,Fall,2014,3.6,3.7,4,3.5,3.7,3.5,3.8,2.6,3.6,193,87
 MUS305H1,MUSIC,ARTSC,Latin Am Carib Music MUS305H1-F-LEC0101,Packman,Jeff,Fall,2014,3.8,3.8,3.9,3.5,3.4,3.7,4.5,3.4,3.5,68,26
 MUS335H1,MUSIC,ARTSC,Social History Piano MUS335H1-F-LEC0101,Clark,Caryl,Fall,2014,3.6,3.8,3.7,3.6,3.8,3.4,3.9,2.9,3.4,98,50
+MUS303H1,MUSIC-ARTSC,ARTSC,Mus in Contemp World MUS303H1-F-LEC0101,Sumner,Carolyne,Fall,2019,4.0,4.2,4.2,4.0,4.3,3.9,4.3,2.9,4.1,187,49
+MUS200H1,MUSIC-ARTSC,ARTSC,Mus of Worlds Peoples MUS200H1-F-LEC0101,Harrison,Jack,Fall,2019,3.9,4.3,4.1,3.9,4.0,3.8,4.1,3.2,3.6,155,68
+MUS335H1,MUSIC-ARTSC,ARTSC,Social History Piano MUS335H1-F-LEC0101,Clark,Caryl,Fall,2019,3.4,3.8,3.5,3.3,3.4,3.2,3.9,2.7,3.2,77,37
 MUS206H1,MUSIC-ARTSC,ARTSC,World of Opera MUS206H1-F-LEC0101,Hsieh,Amanda,Summer,2019,4.1,4.5,4.5,4.3,4.3,4.3,4.9,2.9,4.6,26,10
 MUS211H1,MUSIC-ARTSC,ARTSC,World Popular Music MUS211H1-S-LEC0101,Basdurak,Nil,Summer,2019,2.4,2.7,2.3,2.6,2.8,2.3,2.7,3.6,1.8,78,21
 MUS202H1,MUSIC-ARTSC,ARTSC,Beethoven MUS202H1-S-LEC0101,Chiu,Remi,Winter,2019,3.96,4.2,4.2,3.9,4,3.9,4.2,2.6,4.1,222,77

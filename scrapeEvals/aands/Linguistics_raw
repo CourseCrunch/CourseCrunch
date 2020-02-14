@@ -1,3 +1,4 @@
+Code,Dept,Division,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Instructor generated enthusiasm,Course Workload,I would recommend this course,Number of Students Invited,Number of Respondents
 LIN204H1,LIN,ARTSC,English Grammar LIN204H1-S-LEC5101,La Cara,Nicholas,Summer,2018,4,3.9,3.9,3.9,3.9,3.7,4.1,3.2,4,129,30
 LIN200H1,LIN,ARTSC,Intro Language LIN200H1-S-LEC5101,Craioveanu,Radu,Summer,2018,4.1,4.2,4.2,4,4.1,3.9,4.1,3.6,3.7,42,23
 LIN102H1,LIN,ARTSC,Intro to Linguistics: Sentence LIN102H1-S-LEC5101,Godfrey,Ross,Summer,2018,4,4.1,3.7,4,3.9,3.7,3.9,3.1,3.7,63,22
@@ -279,15 +280,33 @@ LIN331H1,LIN,ARTSC,Syntactic Theory LIN331H1-F-LEC0101,Massam,Diane,Fall,2014,4.
 LIN333H1,LIN,ARTSC,Morpholog Patterns LIN333H1-F-LEC0101,Gold,Elaine,Fall,2014,3.8,4.2,4.5,4,4.3,3.9,4.3,2.8,4,21,12
 LIN341H1,LIN,ARTSC,Semantic Theory LIN341H1-F-LEC0101,Ippolito,Michela,Fall,2014,4,4.3,4.7,4.1,4,3.7,4.4,3.6,3.6,14,9
 LIN458H1,LIN,ARTSC,Revitalizing Languages LIN458H1-F-LEC5101,Harvey,Christopher,Fall,2014,4.5,4.8,4.5,4.2,4.2,4.3,4.8,3.6,4.5,19,13
+JLS472H1,LIN-ARTSC,ARTSC,Child Lang Disorders JLS472H1-F-LEC0101,Katz,Esther,Fall,2019,3.8,4.1,3.6,3.4,3.7,3.4,3.9,2.6,3.5,42,14
+LIN203H1,LIN-ARTSC,ARTSC,English Words LIN203H1-F-LEC5101,Brook,Marisa,Fall,2019,3.6,3.7,4.0,3.6,3.7,3.4,4.3,2.9,3.4,201,49
+JAL401H1,LIN-ARTSC,ARTSC,Field Linguistics JAL401H1-F-LEC5101,Oliveira de Lima,Suzi,Fall,2019,4.8,4.7,4.8,4.7,4.8,4.6,4.7,4.2,3.9,17,10
+LIN200H1,LIN-ARTSC,ARTSC,Intro Language LIN200H1-F-LEC2501,Sanders,Nathan,Fall,2019,4.7,4.8,5.0,4.8,4.8,4.8,5.0,3.0,4.8,26,6
+LIN200H1,LIN-ARTSC,ARTSC,Intro Language LIN200H1-F-LEC5101,Sanders,Nathan,Fall,2019,4.5,4.7,4.8,4.4,4.4,4.6,4.8,2.9,4.5,210,63
+LIN101H1,LIN-ARTSC,ARTSC,Intro to Linguistics: Sound LIN101H1-F-LEC0101,Jurgec,Peter,Fall,2019,4.1,4.3,3.9,3.7,3.7,3.6,4.2,3.1,3.7,182,66
+LIN101H1,LIN-ARTSC,ARTSC,Intro to Linguistics: Sound LIN101H1-F-LEC5101,Jurgec,Peter,Fall,2019,3.8,4.3,4.1,3.7,3.8,3.6,4.1,3.3,3.5,182,69
+LIN251H1,LIN-ARTSC,ARTSC,Intro to Sociolinguistics LIN251H1-F-LEC5101,Brook,Marisa,Fall,2019,4.0,4.3,4.6,3.6,3.6,3.9,4.7,3.1,3.9,121,55
+LIN197H1,LIN-ARTSC,ARTSC,Language and Social Justice LIN197H1-F-LEC0101,Sanders,Nathan,Fall,2019,4.7,4.8,4.9,4.5,4.7,4.8,4.9,2.8,4.9,24,17
+LIN306H1,LIN-ARTSC,ARTSC,Language Diversity LIN306H1-F-LEC0101,Oliveira de Lima,Suzi,Fall,2019,4.0,4.3,4.4,4.4,4.4,3.9,4.4,4.2,3.9,29,18
+LIN333H1,LIN-ARTSC,ARTSC,Morpholog Patterns LIN333H1-F-LEC0101,Moulton,Keir,Fall,2019,4.5,4.6,4.6,4.6,4.6,4.4,4.6,3.3,4.3,30,16
+LIN228H1,LIN-ARTSC,ARTSC,Phonetics LIN228H1-F-LEC0101,Sanders,Nathan,Fall,2019,4.4,4.6,4.4,4.3,4.2,4.2,4.7,3.1,4.3,166,66
+LIN322H1,LIN-ARTSC,ARTSC,Phonological Theory LIN322H1-F-LEC0101,Rice,Keren,Fall,2019,4.8,4.9,4.9,4.8,4.8,4.8,5.0,3.5,4.6,32,12
+JLP374H1,LIN-ARTSC,ARTSC,Psych of Language JLP374H1-F-LEC0101,Chapman,Cassandra,Fall,2019,3.4,3.8,3.7,3.3,3.3,3.0,3.9,2.9,3.1,83,44
+LIN458H1,LIN-ARTSC,ARTSC,Revitalizing Languages LIN458H1-F-LEC5101,Maracle,Bonnie,Fall,2019,3.6,4.5,4.0,4.2,4.3,3.9,3.8,3.8,4.1,36,12
+LIN232H1,LIN-ARTSC,ARTSC,Syntactic Patterns LIN232H1-F-LEC0101,Moulton,Keir,Fall,2019,4.1,4.1,3.9,3.9,3.7,3.6,4.1,3.6,3.5,120,77
+LIN331H1,LIN-ARTSC,ARTSC,Syntactic Theory LIN331H1-F-LEC0101,Bejar,Susana,Fall,2019,3.9,3.3,2.9,3.0,3.0,2.5,3.1,4.2,2.6,34,12
+JAL328H1,LIN-ARTSC,ARTSC,Writing Systems JAL328H1-F-LEC5101,Nara,Kiranpreet,Fall,2019,4.0,4.1,3.3,3.8,3.6,3.4,3.1,2.9,3.5,41,24
 LIN101H1,LIN-ARTSC,ARTSC,Intro to Linguistics: Sound LIN101H1-F-LEC5101,Bamba,Kazuya,Summer,2019,4.3,4.2,4.3,3.8,3.8,3.9,4.3,3.4,3.8,60,18
-LIN228H1,LIN-ARTSC,ARTSC,Phonetics LIN228H1-F-LEC5101,Blamire,Emily,Summer,2019,4.4,4.4,4.6,4.0,4.1,3.9,4.8,3.6,4.2,51,18
+LIN228H1,LIN-ARTSC,ARTSC,Phonetics LIN228H1-F-LEC5101,Blamire,Emily,Summer,2019,4.4,4.4,4.6,4,4.1,3.9,4.8,3.6,4.2,51,18
 LIN306H1,LIN-ARTSC,ARTSC,Language Diversity LIN306H1-F-LEC0101,Craioveanu,Radu,Summer,2019,4.4,4.2,4.7,4.2,4.3,4.1,4.9,3.9,3.5,23,10
-LIN203H1,LIN-ARTSC,ARTSC,English Words LIN203H1-F-LEC5101,Melara,Emilia,Summer,2019,4.0,4.3,4.5,4.0,3.9,3.7,4.5,3.3,4.0,39,14
-LIN241H1,LIN-ARTSC,ARTSC,Intro to Semantics LIN241H1-F-LEC5101,Yokoyama,Tomohiro,Summer,2019,3.8,3.6,3.6,3.3,3.5,3.0,3.2,3.5,2.7,29,10
+LIN203H1,LIN-ARTSC,ARTSC,English Words LIN203H1-F-LEC5101,Melara,Emilia,Summer,2019,4,4.3,4.5,4,3.9,3.7,4.5,3.3,4,39,14
+LIN241H1,LIN-ARTSC,ARTSC,Intro to Semantics LIN241H1-F-LEC5101,Yokoyama,Tomohiro,Summer,2019,3.8,3.6,3.6,3.3,3.5,3,3.2,3.5,2.7,29,10
 LIN229H1,LIN-ARTSC,ARTSC,Sound Patterns LIN229H1-S-LEC5101,Godfrey,Ross,Summer,2019,3.3,3.5,3.3,4.2,4.2,3.2,3.7,3.3,3.5,23,6
-LIN200H1,LIN-ARTSC,ARTSC,Intro Language LIN200H1-S-LEC5101,Maddeaux,Frances,Summer,2019,4.4,4.4,4.6,4.4,4.3,4.3,4.6,2.8,4.0,54,11
-LIN102H1,LIN-ARTSC,ARTSC,Intro to Linguistics: Sentence LIN102H1-S-LEC5101,Milway,Daniel,Summer,2019,3.6,3.6,3.0,3.9,3.6,2.9,3.0,2.8,3.6,50,11
-JLP374H1,LIN-ARTSC,ARTSC,Psych of Language JLP374H1-S-LEC0101,Murphy,Patrick,Summer,2019,3.9,4.3,4.5,4.0,3.9,4.0,4.2,3.1,4.1,41,15
+LIN200H1,LIN-ARTSC,ARTSC,Intro Language LIN200H1-S-LEC5101,Maddeaux,Frances,Summer,2019,4.4,4.4,4.6,4.4,4.3,4.3,4.6,2.8,4,54,11
+LIN102H1,LIN-ARTSC,ARTSC,Intro to Linguistics: Sentence LIN102H1-S-LEC5101,Milway,Daniel,Summer,2019,3.6,3.6,3,3.9,3.6,2.9,3,2.8,3.6,50,11
+JLP374H1,LIN-ARTSC,ARTSC,Psych of Language JLP374H1-S-LEC0101,Murphy,Patrick,Summer,2019,3.9,4.3,4.5,4,3.9,4,4.2,3.1,4.1,41,15
 LIN102H1,LIN-ARTSC,ARTSC,Intro to Linguistics: Sentence LIN102H1-S-LEC0101,Bejar,Susana,Winter,2019,3.39,3.7,2.8,3.6,3.6,2.9,3.1,3.3,3,209,86
 LIN102H1,LIN-ARTSC,ARTSC,Intro to Linguistics: Sentence LIN102H1-S-LEC5101,Bejar,Susana,Winter,2019,3.66,4,3.4,3.7,3.7,3.4,3.6,3.1,3.5,204,98
 LIN251H1,LIN-ARTSC,ARTSC,Intro to Sociolinguistics LIN251H1-S-LEC0101,Brook,Marisa,Winter,2019,4.12,4.4,4.6,4,3.8,3.9,4.7,3.4,4,131,51

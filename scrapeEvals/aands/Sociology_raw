@@ -1,3 +1,4 @@
+Code,Dept,Division,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Instructor generated enthusiasm,Course Workload,I would recommend this course,Number of Students Invited,Number of Respondents
 SOC251H1,SOC,ARTSC,Contemp Sociological Theory SOC251H1-S-LEC0101,Godbout,Melissa,Summer,2018,4.1,4.4,4.2,4.1,4.1,3.6,4.1,4.2,3,17,9
 SOC254H1,SOC,ARTSC,Inter Qual Methods SOC254H1-S-LEC0101,Nikolaou,Jamie,Summer,2018,4.2,4.2,3.6,4,4,3.8,3.6,3.8,3.9,15,9
 SOC252H1,SOC,ARTSC,Inter Quant Methods SOC252H1-S-LEC5101,Williams,Lawrence,Summer,2018,4.4,4.4,4.9,4.5,4.4,4.4,4.6,3,4.5,11,8
@@ -487,22 +488,54 @@ SOC494H1,SOC,ARTSC,Top: Soc Research SOC494H1-F-LEC0101,Schafer,Markus,Fall,2014
 SOC496H1,SOC,ARTSC,Top: Soc Research SOC496H1-F-LEC0101,Berry,Brent,Fall,2014,4,4.2,3.9,4,4.1,3.8,3.9,3.6,3.5,22,14
 SOC497H1,SOC,ARTSC,Top: Soc Research SOC497H1-F-LEC0101,Green,Adam,Fall,2014,4.3,4.5,4.8,4.7,4.7,4.5,4.3,3.2,4.7,10,6
 SOC499H1,SOC,ARTSC,Top: Soc Research SOC499H1-F-LEC0101,Lee,Jooyoung,Fall,2014,4.1,3.8,3.9,4.1,4.2,3.9,4.1,3.5,4.2,23,15
+SOC201H1,SOC-ARTSC,ARTSC,Classical Sociological Theory SOC201H1-F-LEC0101,Veugelers,Jack,Fall,2019,4.1,4.2,3.9,3.6,3.8,3.7,4.2,3.2,3.3,79,41
+SOC201H1,SOC-ARTSC,ARTSC,Classical Sociological Theory SOC201H1-F-LEC5101,Bryant,Joseph,Fall,2019,3.6,3.9,3.5,3.5,3.7,3.2,3.7,3.0,3.3,79,36
+SOC251H1,SOC-ARTSC,ARTSC,Contemp Sociological Theory SOC251H1-F-LEC0101,Albert,Katelin,Fall,2019,4.7,4.5,4.7,4.5,4.7,4.4,4.7,3.5,4.0,42,17
+SOC212H1,SOC-ARTSC,ARTSC,Crime & Deviance SOC212H1-F-LEC0101,Kruttschnitt,Candace,Fall,2019,4.2,4.3,4.3,3.7,4.0,4.0,4.3,2.8,4.3,125,40
+SOC481H1,SOC-ARTSC,ARTSC,Culture & Soc Networks SOC481H1-F-LEC0101,Erickson,Bonnie,Fall,2019,4.3,4.4,4.4,4.1,4.1,4.1,4.4,3.4,4.0,11,7
+SOC306H1,SOC-ARTSC,ARTSC,Economic Sociology SOC306H1-F-LEC0101,Pernell-Gallagher,Kimberly,Fall,2019,4.5,4.7,4.9,4.5,4.5,4.5,4.7,3.4,4.4,88,23
+SOC210H1,SOC-ARTSC,ARTSC,Ethnic Relations SOC210H1-F-LEC0101,Shams,Tahseen,Fall,2019,3.9,4.0,4.1,4.0,3.9,3.8,4.3,3.3,3.9,81,30
+SOC320H1,SOC-ARTSC,ARTSC,Family Demography SOC320H1-F-LEC5101,Boeckmann,Irene,Fall,2019,3.7,3.8,4.1,3.7,3.6,3.5,4.3,4.4,3.3,37,15
+SOC265H1,SOC-ARTSC,ARTSC,Gender & Society SOC265H1-F-LEC0101,La Touche,Rachel,Fall,2019,4.5,4.6,4.6,4.3,4.3,4.3,4.8,3.0,4.3,118,41
+SOC254H1,SOC-ARTSC,ARTSC,Inter Qual Methods SOC254H1-F-LEC0101,Braun,James,Fall,2019,2.6,2.6,2.4,2.9,3.1,2.2,2.8,4.0,2.2,62,21
+SOC252H1,SOC-ARTSC,ARTSC,Inter Quant Methods SOC252H1-F-LEC0101,Wheaton,Blair,Fall,2019,4.2,4.0,4.2,4.4,4.4,4.1,4.1,2.7,3.8,30,9
+SOC204H1,SOC-ARTSC,ARTSC,Intro to Qual Methods SOC204H1-F-LEC0101,Lannigan,James,Fall,2019,2.8,3.0,3.6,3.4,3.3,3.0,3.5,3.7,3.0,77,26
+SOC204H1,SOC-ARTSC,ARTSC,Intro to Qual Methods SOC204H1-F-LEC0201,La Touche,Rachel,Fall,2019,4.1,4.1,4.7,4.2,4.3,4.1,4.7,3.6,4.2,94,38
+SOC202H1,SOC-ARTSC,ARTSC,Intro to Quant Methods SOC202H1-F-LEC0101,Dokshin,Fedor,Fall,2019,4.0,4.3,4.3,4.2,4.3,3.8,4.1,3.6,3.8,96,35
+SOC202H1,SOC-ARTSC,ARTSC,Intro to Quant Methods SOC202H1-F-LEC5101,Dokshin,Fedor,Fall,2019,4.2,4.7,4.5,4.5,4.6,4.3,4.5,3.0,4.0,39,13
+SOC100H1,SOC-ARTSC,ARTSC,Introduction to Sociology SOC100H1-F-LEC0101,La Touche,Rachel,Fall,2019,4.2,4.4,4.7,3.9,3.9,4.1,4.7,3.1,4.2,885,281
+SOC100H1,SOC-ARTSC,ARTSC,Introduction to Sociology SOC100H1-F-LEC2501,Tepperman,Lorne,Fall,2019,2.5,3.1,2.9,2.1,2.2,2.3,2.9,3.5,2.5,53,15
+SOC100H1,SOC-ARTSC,ARTSC,Introduction to Sociology SOC100H1-F-LEC5101,Tepperman,Lorne,Fall,2019,3.7,3.8,3.3,2.9,3.0,3.0,3.8,3.6,3.1,475,159
+SOC387H1,SOC-ARTSC,ARTSC,New Topics in Sociology SOC387H1-F-LEC0101,Brym,Robert,Fall,2019,4.4,4.6,4.4,4.4,4.2,4.0,4.4,3.0,3.8,9,5
+SOC394H1,SOC-ARTSC,ARTSC,New Topics in Sociology SOC394H1-F-LEC0101,Underwood,Spencer,Fall,2019,4.9,4.9,4.6,4.5,4.5,4.8,4.9,3.5,4.8,30,13
+SOC395H1,SOC-ARTSC,ARTSC,New Topics in Sociology SOC395H1-F-LEC0101,Lee,Yoonkyung,Fall,2019,4.6,4.8,4.6,4.3,4.5,4.4,4.5,3.2,4.5,47,32
+SOC489H1,SOC-ARTSC,ARTSC,New Topics in Sociology SOC489H1-F-LEC0101,Pernell-Gallagher,Kimberly,Fall,2019,5.0,5.0,5.0,5.0,4.9,5.0,5.0,3.5,5.0,14,8
+SOC499H1,SOC-ARTSC,ARTSC,New Topics in Sociology SOC499H1-F-LEC5101,Titchkosky,Tanya,Fall,2019,5.0,4.9,4.8,4.8,4.8,4.8,4.9,2.9,4.8,21,12
+SOC340H1,SOC-ARTSC,ARTSC,Political Sociology SOC340H1-F-LEC0101,Lee,Yoonkyung,Fall,2019,4.0,4.1,4.2,3.6,3.7,3.5,4.1,3.7,3.6,34,20
+SOC209H1,SOC-ARTSC,ARTSC,Sexuality and Modernity SOC209H1-F-LEC0101,Green,Adam,Fall,2019,4.0,4.3,4.2,4.0,3.9,3.9,3.7,2.7,4.1,110,29
+SOC198H1,SOC-ARTSC,ARTSC,Social Networks of Students SOC198H1-F-LEC0101,Marin,Alexandra,Fall,2019,4.1,3.9,4.4,3.9,3.4,4.0,4.7,3.1,3.4,23,7
+SOC213H1,SOC-ARTSC,ARTSC,Sociological Social Psychology SOC213H1-F-LEC0101,Schieman,Scott,Fall,2019,4.2,4.0,4.2,3.6,3.7,3.8,4.5,3.3,4.0,112,31
+SOC280H1,SOC-ARTSC,ARTSC,Sociology of Culture SOC280H1-F-LEC0101,Leschziner,Vanina,Fall,2019,3.6,3.7,3.6,3.5,3.7,3.4,3.8,3.1,3.2,66,31
+SOC249H1,SOC-ARTSC,ARTSC,Sociology of Migration SOC249H1-F-LEC0101,Diehl,Claudia,Fall,2019,3.9,3.9,3.8,3.9,4.0,3.6,3.9,3.0,3.6,53,24
+SOC321H1,SOC-ARTSC,ARTSC,Status Attainment SOC321H1-F-LEC0101,Magee,William,Fall,2019,3.3,3.3,3.5,3.6,3.8,3.4,3.3,3.6,2.9,24,8
+SOC335H1,SOC-ARTSC,ARTSC,Urban Health SOC335H1-F-LEC0101,Berry,Brent,Fall,2019,3.1,3.3,3.4,3.3,3.8,3.0,3.7,3.8,2.9,41,13
+SOC205H1,SOC-ARTSC,ARTSC,Urban Sociology SOC205H1-F-LEC0101,Berry,Brent,Fall,2019,3.7,4.0,3.6,3.8,4.0,3.4,3.9,3.2,3.4,109,26
 SOC293H1,SOC-ARTSC,ARTSC,New Topics in Sociology SOC293H1-F-LEC0101,Dinovitzer,Ronit,Summer,2019,3.6,3.7,3.9,3.9,3.4,3.9,4.3,2.7,3.9,24,7
 SOC367H1,SOC-ARTSC,ARTSC,Race  Class  Gender SOC367H1-F-LEC0101,Guzman,Cinthya,Summer,2019,4.5,4.6,4.7,4.1,4.5,4.5,4.7,3.4,4.3,35,21
-SOC309H1,SOC-ARTSC,ARTSC,HIV/AIDS: Policies & Programs SOC309H1-F-LEC0101,Hayle,Steven,Summer,2019,3.6,4.0,3.9,3.5,3.5,3.6,4.1,3.1,3.5,38,8
-SOC204H1,SOC-ARTSC,ARTSC,Intro to Qual Methods SOC204H1-F-LEC5101,Lannigan,James,Summer,2019,2.9,3.3,4.0,3.2,3.7,3.0,4.2,3.6,3.6,28,11
+SOC309H1,SOC-ARTSC,ARTSC,HIV/AIDS: Policies & Programs SOC309H1-F-LEC0101,Hayle,Steven,Summer,2019,3.6,4,3.9,3.5,3.5,3.6,4.1,3.1,3.5,38,8
+SOC204H1,SOC-ARTSC,ARTSC,Intro to Qual Methods SOC204H1-F-LEC5101,Lannigan,James,Summer,2019,2.9,3.3,4,3.2,3.7,3,4.2,3.6,3.6,28,11
 SOC202H1,SOC-ARTSC,ARTSC,Intro to Quant Methods SOC202H1-F-LEC0101,Schafer,Markus,Summer,2019,3.7,4.5,4.6,4.4,4.1,3.8,4.4,3.5,3.5,32,12
 SOC213H1,SOC-ARTSC,ARTSC,Sociological Social Psychology SOC213H1-F-LEC0101,Schieman,Scott,Summer,2019,4.5,4.4,4.7,3.7,3.8,4.2,4.9,3.3,4.3,41,40
-SOC212H1,SOC-ARTSC,ARTSC,Crime & Deviance SOC212H1-F-LEC0101,Williams,Lawrence,Summer,2019,4.6,4.6,4.9,4.4,4.4,4.6,5.0,3.3,4.5,65,34
-SOC486H1,SOC-ARTSC,ARTSC,Adv Top in Urban Soc SOC486H1-S-LEC5101,Lannigan,James,Summer,2019,4.0,3.8,4.0,3.5,3.5,3.7,4.2,3.5,3.2,10,6
+SOC212H1,SOC-ARTSC,ARTSC,Crime & Deviance SOC212H1-F-LEC0101,Williams,Lawrence,Summer,2019,4.6,4.6,4.9,4.4,4.4,4.6,5,3.3,4.5,65,34
+SOC486H1,SOC-ARTSC,ARTSC,Adv Top in Urban Soc SOC486H1-S-LEC5101,Lannigan,James,Summer,2019,4,3.8,4,3.5,3.5,3.7,4.2,3.5,3.2,10,6
 SOC209H1,SOC-ARTSC,ARTSC,Sexuality and Modernity SOC209H1-S-LEC5101,Lee,Andrew,Summer,2019,4.4,4.6,4.6,4.3,4.5,4.5,4.7,2.9,4.5,40,15
 SOC356H1,SOC-ARTSC,ARTSC,Technology and Society SOC356H1-S-LEC0101,Nevin,Andrew,Summer,2019,4.4,4.4,4.4,4.3,4.4,4.2,4.7,3.3,4.3,33,18
-SOC254H1,SOC-ARTSC,ARTSC,Inter Qual Methods SOC254H1-S-LEC5101,Nikolaou,Jamie,Summer,2019,4.1,4.1,3.6,4.2,4.3,3.1,3.7,4.3,3.0,16,9
-SOC394H1,SOC-ARTSC,ARTSC,New Topics in Sociology SOC394H1-S-LEC0101,Underwood,Spencer,Summer,2019,4.8,5.0,4.9,4.8,4.8,4.7,5.0,3.3,4.6,32,12
+SOC254H1,SOC-ARTSC,ARTSC,Inter Qual Methods SOC254H1-S-LEC5101,Nikolaou,Jamie,Summer,2019,4.1,4.1,3.6,4.2,4.3,3.1,3.7,4.3,3,16,9
+SOC394H1,SOC-ARTSC,ARTSC,New Topics in Sociology SOC394H1-S-LEC0101,Underwood,Spencer,Summer,2019,4.8,5,4.9,4.8,4.8,4.7,5,3.3,4.6,32,12
 SOC252H1,SOC-ARTSC,ARTSC,Inter Quant Methods SOC252H1-S-LEC0101,Williams,Lawrence,Summer,2019,4.3,4.3,4.8,4.6,4.4,4.2,4.9,2.9,4.2,12,10
-SOC352H1,SOC-ARTSC,ARTSC,New Topics in Sociology SOC352H1-S-LEC5101,Williams,Lawrence,Summer,2019,4.8,5.0,5.0,4.8,5.0,5.0,5.0,3.0,4.8,6,6
-SOC393Y0,SOC-ARTSC,ARTSC,Top: Sociol Research SOC393Y0-F-LEC3001,Tsang,Ka,Summer,2019,4.1,4.3,4.4,4.1,4.3,4.0,4.8,2.5,4.0,30,8
-SOC393Y0,SOC-ARTSC,ARTSC,Top: Sociol Research SOC393Y0-F-LEC3001,Zhang,Weiguo,Summer,2019,4.1,4.3,4.4,4.1,4.3,4.0,4.6,2.5,4.0,30,8
+SOC352H1,SOC-ARTSC,ARTSC,New Topics in Sociology SOC352H1-S-LEC5101,Williams,Lawrence,Summer,2019,4.8,5,5,4.8,5,5,5,3,4.8,6,6
+SOC393Y0,SOC-ARTSC,ARTSC,Top: Sociol Research SOC393Y0-F-LEC3001,Tsang,Ka,Summer,2019,4.1,4.3,4.4,4.1,4.3,4,4.8,2.5,4,30,8
+SOC393Y0,SOC-ARTSC,ARTSC,Top: Sociol Research SOC393Y0-F-LEC3001,Zhang,Weiguo,Summer,2019,4.1,4.3,4.4,4.1,4.3,4,4.6,2.5,4,30,8
 SOC254H1,SOC-ARTSC,ARTSC,Inter Qual Methods SOC254H1-S-LEC0101,Beglaubter,Judith,Winter,2019,3.38,3.7,4.4,3.7,3.8,3.6,4.2,4.2,3.3,84,27
 SOC320H1,SOC-ARTSC,ARTSC,Family Demography SOC320H1-S-LEC0101,Boeckmann,Irene,Winter,2019,4.46,4.8,4.8,4.4,4.3,4.2,4.4,3.9,4.1,22,13
 SOC489H1,SOC-ARTSC,ARTSC,New Topics in Sociology SOC489H1-S-LEC5101,Boeckmann,Irene,Winter,2019,4.25,4.5,4.9,4.1,4.7,4.5,4.4,3.9,4,13,8

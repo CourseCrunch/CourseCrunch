@@ -1,3 +1,4 @@
+Code,Dept,Division,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Instructor generated enthusiasm,Course Workload,I would recommend this course,Number of Students Invited,Number of Respondents
 IRE431H1,IRE,ARTSC,Cdn Lab Law & Union Workplace IRE431H1-S-LEC5101,Thompson,Bob,Summer,2018,4.6,4.4,5,4.6,4.6,5,5,3.4,5,20,5
 IRE430H1,IRE,ARTSC,Cdn Law & Nonunion Workplace IRE430H1-F-LEC5101,Thompson,Bob,Summer,2018,4.7,4.9,4.9,4.9,5,5,4.9,3.4,5,28,7
 IRE244H1,IRE,ARTSC,Labour Relations IRE244H1-F-LEC5101,Clifford,Patrick,Summer,2018,3.5,4.3,3.8,4,3.6,2.8,3.9,3.4,2.8,30,8
@@ -60,9 +61,15 @@ IRE339H1,IRE,ARTSC,Labour Mkt & Pub Policy IRE339H1-F-LEC0101,Reid,Frank,Fall,20
 IRE346H1,IRE,ARTSC,HR Planning IRE346H1-F-LEC5101,Mock,Edward,Fall,2014,3.9,4.1,4.2,3.9,4.1,4,4.4,3.2,4.1,51,20
 IRE347H1,IRE,ARTSC,Training & Dev IRE347H1-F-LEC5101,Wang,Gordon,Fall,2014,2.9,3.4,3.4,3.4,3.6,3.2,3.6,3.4,3.3,26,16
 IRE447H1,IRE,ARTSC,ER Cont Challenges IRE447H1-F-LEC0101,McEvoy,Neil,Fall,2014,5,4.8,5,5,5,4.8,4.5,3,5,11,6
+IRE430H1,IRE-ARTSC,ARTSC,Cdn Law & Nonunion Workplace IRE430H1-F-LEC0101,Fitzgibbon,Michael,Fall,2019,4.1,4.5,4.2,4.4,4.3,4.0,4.4,3.4,4.1,45,19
+IRE367H1,IRE-ARTSC,ARTSC,Compensation IRE367H1-F-LEC5101,Mock,Edward,Fall,2019,4.1,3.9,3.9,3.9,3.9,3.7,4.1,3.6,3.5,49,16
+IRE339H1,IRE-ARTSC,ARTSC,Labour Mkts & Pub Policy IRE339H1-F-LEC0101,Reid,Frank,Fall,2019,4.5,4.6,4.6,4.5,4.6,4.5,4.6,2.9,4.4,40,17
+IRE244H1,IRE-ARTSC,ARTSC,Labour Relations IRE244H1-F-LEC5101,Reid,Frank,Fall,2019,3.8,4.0,4.2,4.0,3.9,3.9,4.0,3.3,3.8,76,35
+IRE472H1,IRE-ARTSC,ARTSC,Negotiations IRE472H1-F-LEC0101,Thompson,Bob,Fall,2019,4.9,4.9,4.9,4.8,4.9,4.9,4.9,3.2,4.9,35,18
+IRE260H1,IRE-ARTSC,ARTSC,Org Behaviour IRE260H1-F-LEC5101,Wang,Hua,Fall,2019,4.1,4.4,4.3,4.1,4.2,4.1,4.3,3.2,4.1,67,42
 IRE430H1,IRE-ARTSC,ARTSC,Cdn Law & Nonunion Workplace IRE430H1-F-LEC5101,Thompson,Bob,Summer,2019,4.8,4.8,4.9,4.7,4.5,4.7,4.9,3.2,4.6,41,15
-IRE260H1,IRE-ARTSC,ARTSC,Org Behaviour IRE260H1-F-LEC5101,Wang,Hua,Summer,2019,3.8,3.9,3.8,3.5,3.8,3.4,4.0,3.5,3.1,34,9
-IRE431H1,IRE-ARTSC,ARTSC,Cdn Lab Law & Union Workplace IRE431H1-S-LEC5101,Thompson,Bob,Summer,2019,4.8,4.9,4.9,4.8,5.0,4.8,5.0,2.9,5.0,28,12
+IRE260H1,IRE-ARTSC,ARTSC,Org Behaviour IRE260H1-F-LEC5101,Wang,Hua,Summer,2019,3.8,3.9,3.8,3.5,3.8,3.4,4,3.5,3.1,34,9
+IRE431H1,IRE-ARTSC,ARTSC,Cdn Lab Law & Union Workplace IRE431H1-S-LEC5101,Thompson,Bob,Summer,2019,4.8,4.9,4.9,4.8,5,4.8,5,2.9,5,28,12
 IRE347H1,IRE-ARTSC,ARTSC,Training & Development IRE347H1-S-LEC0101,Armstrong,Ann,Winter,2019,3.14,3.2,3.8,3.6,3.8,3.3,3.7,2.9,3.8,62,22
 IRE431H1,IRE-ARTSC,ARTSC,Cdn Lab Law & Union Workplace IRE431H1-S-LEC0101,Fitzgibbon,Michael,Winter,2019,4.27,4.8,4.7,4.7,4.8,4.6,4.6,3.1,4.6,60,11
 IRE342H1,IRE-ARTSC,ARTSC,HR/IR Finance & Accounting IRE342H1-S-LEC5101,Khesroof,Reena,Winter,2019,3.66,3.8,4,3.5,3.7,3.4,4.2,3.2,3.4,71,47

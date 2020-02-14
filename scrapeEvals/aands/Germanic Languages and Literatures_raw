@@ -1,3 +1,4 @@
+Code,Dept,Division,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Instructor generated enthusiasm,Course Workload,I would recommend this course,Number of Students Invited,Number of Respondents
 GER100Y1,GER,ARTSC,Introduction to German I GER100Y1-Y-LEC5101 (B),Gargova,Stefana,Summer,2018,4.7,4.8,5,4.6,4.6,4.7,4.9,3.2,4.7,11,10
 GER100Y1,GER,ARTSC,Introduction to German I GER100Y1-Y-LEC0101,Wakelin,Jacob,Winter,2018,4.6,4.8,4.7,4.6,4.5,4.5,4.6,2.6,4.6,23,11
 GER100Y1,GER,ARTSC,Introduction to German I GER100Y1-Y-LEC0201,Curran,Veronica,Winter,2018,3.8,4.5,4.7,4.3,4.3,4,4.3,3.2,3.7,17,6
@@ -276,8 +277,24 @@ GER330H1,GER,ARTSC,Intro to Germ Poetry GER330H1-F-LEC5101,Boran,Erol,Fall,2014,
 GER332H1,GER,ARTSC,Deviance-Madness GER332H1-F-LEC0101,Noyes,John,Fall,2014,4.8,4.8,4.6,4.2,4.4,4.4,4.4,3.6,4.4,7,5
 GER370H1,GER,ARTSC,Business Culture 1 GER370H1-F-LEC0101,Hager,Michael,Fall,2014,3.9,4.1,4.4,3.9,4.3,3.9,4.4,3,4.1,22,14
 GER400H1,GER,ARTSC,Advanced German GER400H1-F-LEC0101,Burks,Marlo,Fall,2014,3.3,2.9,3.8,3.1,3.4,2.9,4.1,2.9,3.4,27,17
-GER100Y1,GER-ARTSC,ARTSC,Introduction to German I GER100Y1-Y-LEC5101 (A),Gargova,Stefana,Summer,2019,4.6,4.7,4.9,4.8,5.0,4.8,4.9,3.2,4.7,14,10
-GER100Y1,GER-ARTSC,ARTSC,Introduction to German I GER100Y1-Y-LEC5101 (B),Aly,Yasmin,Summer,2019,3.8,4.3,4.3,4.0,4.3,4.0,4.3,3.5,4.0,14,5
+GER400H1,GER-ARTSC,ARTSC,Advanced German 1 GER400H1-F-LEC0101,Burks,Marlo,Fall,2019,4.9,5.0,4.9,4.6,4.9,4.9,4.9,2.9,4.9,17,9
+GER320H1,GER-ARTSC,ARTSC,Age of Goethe GER320H1-F-LEC5101,Goetschel,Willi,Fall,2019,3.8,4.0,4.2,4.3,4.5,3.7,3.7,3.4,3.5,13,10
+GER310H1,GER-ARTSC,ARTSC,Contemporary Media GER310H1-F-LEC0101,Lehleiter,Christine,Fall,2019,3.2,3.2,3.6,3.4,3.3,3.1,3.8,3.2,3.2,21,9
+GER251H1,GER-ARTSC,ARTSC,German and European Cinema (E) GER251H1-F-LEC0101,McDonald,Terrance,Fall,2019,4.5,4.8,5.0,4.7,4.8,4.5,4.7,3.2,4.3,14,6
+GER305H1,GER-ARTSC,ARTSC,German Literature II GER305H1-F-LEC0101,Boran,Erol,Fall,2019,4.7,4.5,4.7,4.4,4.2,4.4,4.9,4.0,4.2,17,9
+GER200Y1,GER-ARTSC,ARTSC,Intermediate German 1 GER200Y1-Y-LEC0101,Wilczek,Tobias,Fall,2019,4.3,4.3,4.3,4.5,4.5,3.9,4.8,3.2,3.9,13,10
+GER300Y1,GER-ARTSC,ARTSC,Intermediate German 2 GER300Y1-Y-LEC0101,Kim,Hang-Sun,Fall,2019,4.5,4.8,5.0,4.5,4.8,4.8,4.8,3.2,5.0,16,6
+GER300Y1,GER-ARTSC,ARTSC,Intermediate German 2 GER300Y1-Y-LEC0201,Gargova,Stefana,Fall,2019,4.9,4.8,5.0,4.9,4.9,4.9,5.0,3.2,4.9,18,9
+GER100Y1,GER-ARTSC,ARTSC,Introduction to German GER100Y1-Y-LEC0101,Aly,Yasmin,Fall,2019,4.9,4.8,5.0,4.8,4.6,5.0,4.9,3.0,4.6,21,9
+GER100Y1,GER-ARTSC,ARTSC,Introduction to German GER100Y1-Y-LEC0102,Youssef,Somaia,Fall,2019,4.3,4.2,4.4,4.1,4.2,4.0,4.1,2.7,4.2,15,10
+GER100Y1,GER-ARTSC,ARTSC,Introduction to German GER100Y1-Y-LEC0301,Gargova,Stefana,Fall,2019,4.6,4.8,4.9,4.8,4.8,4.8,4.9,3.1,4.6,20,18
+GER100Y1,GER-ARTSC,ARTSC,Introduction to German GER100Y1-Y-LEC0401,Harutyunyan,Maria,Fall,2019,4.5,4.4,4.6,4.6,4.4,4.4,4.4,3.5,4.1,18,8
+GER100Y1,GER-ARTSC,ARTSC,Introduction to German GER100Y1-Y-LEC0501,Kim,Hang-Sun,Fall,2019,4.9,4.9,4.8,4.5,4.9,4.5,4.8,3.2,4.5,25,13
+GER100Y1,GER-ARTSC,ARTSC,Introduction to German GER100Y1-Y-LEC5102,Mueller,Florian,Fall,2019,4.3,4.7,4.6,4.5,4.7,4.5,4.6,2.6,4.4,26,19
+GER100Y1,GER-ARTSC,ARTSC,Introduction to German GER100Y1-Y-LEC5201,Evjen,John,Fall,2019,4.6,4.7,4.6,4.5,4.6,4.6,4.9,3.3,4.4,23,18
+GER270H1,GER-ARTSC,ARTSC,Money and Economy GER270H1-F-LEC0101,Noyes,John,Fall,2019,4.3,4.3,4.5,4.1,4.4,4.0,4.1,2.9,4.0,13,8
+GER100Y1,GER-ARTSC,ARTSC,Introduction to German I GER100Y1-Y-LEC5101 (A),Gargova,Stefana,Summer,2019,4.6,4.7,4.9,4.8,5,4.8,4.9,3.2,4.7,14,10
+GER100Y1,GER-ARTSC,ARTSC,Introduction to German I GER100Y1-Y-LEC5101 (B),Aly,Yasmin,Summer,2019,3.8,4.3,4.3,4,4.3,4,4.3,3.5,4,14,5
 GER100Y1,GER-ARTSC,ARTSC,Introduction to German I GER100Y1-Y-LEC0101,Aly,Yasmin,Winter,2019,4.6,4.6,4,4,4,4,4.2,3.4,4,18,5
 GER100Y1,GER-ARTSC,ARTSC,Introduction to German I GER100Y1-Y-LEC0301,Aly,Yasmin,Winter,2019,4,3.5,3.3,3.8,4,3.3,3.5,3.3,3.2,21,6
 GER330H1,GER-ARTSC,ARTSC,Intro to Germ Poetry GER330H1-S-LEC0101,Boran,Erol,Winter,2019,4.27,4.6,4.9,4.1,4.6,4.6,4.7,3.2,4.5,12,11

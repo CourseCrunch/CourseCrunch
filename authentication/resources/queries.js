@@ -28,6 +28,7 @@ const validatePW = (email, password, callBack) => {
             console.log(error);
             return callBack('error');
         }else {
+            console.log(results.rows[0]);
             var pw_hash = results.rows[0].HASH;
             bcrypt.compare(password, pw_hash, (valid_err, hash) => {
                 if (valid_err){
@@ -50,5 +51,6 @@ const validatePW = (email, password, callBack) => {
 }
 
 module.exports = {
-	validatePW
+    validatePW,
+    checkUserExists
 }

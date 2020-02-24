@@ -61,18 +61,22 @@ function get_courses(parsed) {
 
 function full_course(code, term, year) {
     let promise = request_course(code, term, year).then(response => {
-        body = response.data.trim();
-        parsed = parser.parse(body);
-        return {'description':get_description(parsed),
-                'courses':get_courses(parsed)};
+        try {
+            body = response.data.trim();
+            parsed = parser.parse(body);
+            return {'description':get_description(parsed),
+                    'courses':get_courses(parsed)};
+        } catch (e) {
+            promise = null;
+        }
     })
     .catch(error => {
-        return null;
+        promise = null;
     });
-    return promise;
+    return Promise.resolve(promise);
 }
 
-full_course('CSC148','winter','2020').then(res => console.log(res));
+full_course('CSC148','winter','2018').then(res => console.log(res));
 
 module.exports = {
     query_course: full_course

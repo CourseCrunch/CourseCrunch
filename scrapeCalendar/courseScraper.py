@@ -1,6 +1,7 @@
 import requests
 from bs4 import Tag, NavigableString, BeautifulSoup
 import re
+from neo4j import GraphDatabase
 base = "https://student.utm.utoronto.ca/calendar//"
 programs_url = ""
 courses_url = ""
@@ -8,9 +9,12 @@ dept_base = "newdep_detail.pl?Depart="
 course_base = "&Course="
 departments = {}
 dept_courses = {}
+course_dept = {}
 courses = {}
 course_excl = {}
 course_pre = {}
+exclusion = 1
+prereq = 0
 
 url = base + "calendar.pl"
 homepage = requests.get(url)
@@ -139,25 +143,58 @@ def get_reqs_all_courses():
         course_excl[course] = reqs[0]
         course_pre[course] = reqs[1]
 
-def write_department_data():
-    with open("departments.csv", "w+") as file:
-        for dept in dept_courses:
-            lst = [dept, str(len(dept_courses[dept])), ', '.join(dept_courses[dept])]
+def write_department_data(driver):
+    with driver.session() as session:
+        with open("departments.csv", "w+") as file:
+            for dept in dept_courses:
+                file.write("{}: ".format(dept))
+                lst = []
+                for course in dept_courses[dept]:
+                    session.write_transaction(add_course, course, dept)
+                    lst.append(course)
             file.write("{}\n".format(', '.join(lst)))
 
-def write_course_prereqs():
-    with open("course-prereqs.csv", "w+") as file:
-        for course in course_pre:
-            lst = [course, str(len(course_pre[course])), ', '.join(course_pre[course])]
-            file.write("{}\n".format(', '.join(lst)))
+def write_course_prereqs(driver):
+    with driver.session() as session:
+        with open("course-prereqs.csv", "w+") as file:
+            for course in course_pre:
+                file.write("{}: ".format(course))
+                lst = []
+                for reqs in course_pre[course]:
+                    for req in reqs.split("/"):
+                        m = re.match(r"(\w?\w?\w?(\w)?(\d)?\d\d\w\d)", req.strip().replace(" ", ""))
+                        if m:
+                            session.write_transaction(add_relation, prereq, m.group(1), course)
+                            lst.append(m.group(1)) # add course
+                
+                file.write("{}\n".format(', '.join(lst)))
 
-def write_course_excl():
-    with open("course-excl.csv", "w+") as file:
-        for course in course_excl:
-            lst = [course, str(len(course_excl[course])), ', '.join(course_excl[course])]
-            file.write("{}\n".format(', '.join(lst)))
+def write_course_excl(driver):
+    with driver.session() as session:
+        with open("course-excl.csv", "w+") as file:
+            for course in course_excl:
+                file.write("{}: ".format(course))
+                lst = []
+                for reqs in course_excl[course]:
+                    for req in reqs.split("/"):
+                        m = re.match(r"(\w?\w?\w?(\w)?(\d)?\d\d)", req.strip().replace(" ", ""))
+                        if m:
+                            session.write_transaction(add_relation, exclusion, m.group(1), course)
+                            lst.append(m.group(1)) # add course
+                
+                file.write("{}\n".format(', '.join(lst)))
+
+def add_relation(tx, excl_or_pre, course1, course2):
+    if(excl_or_pre == exclusion):
+        tx.run("MATCH (a:Course {code: $course1}), (b:Course {code: $course2}) \
+            MERGE (a)-[r: ExclusionTo]->(b)", course1=course1, course2=course2)
+    else:
+        tx.run("MATCH (a:Course {code: $course1}), (b:Course {code: $course2}) \
+            MERGE (a)-[r: PrereqTo]->(b)", course1=course1, course2=course2)
 
 
+def add_course(tx, course, dept):
+    tx.run("MERGE (c:Course {code: $code, department: $dept})", code=course, dept=dept)
 
 
 if __name__ == "__main__":
@@ -165,15 +202,17 @@ if __name__ == "__main__":
         if "List of Courses" in link.contents:
             courses_url = base + link["href"]
             break
+    driver = GraphDatabase.driver("bolt://localhost:7687", auth=("neo4j", "Dova64g1s!PenCIl"))
     getAllDepartments()
     print("Got all departments")
     populate_courses()
     print("Got all courses")
     get_reqs_all_courses()
     print("Got all reqs")
-    write_department_data()
+    write_department_data(driver)
     print("Wrote dept data")
-    write_course_excl()
+    write_course_excl(driver)
     print("Wrote course excl")
-    write_course_prereqs()
+    write_course_prereqs(driver)
     print("Wrote course prereqs")
+    driver.close()

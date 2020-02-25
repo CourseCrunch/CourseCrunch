@@ -59,6 +59,17 @@ function get_courses(parsed) {
     return out;
 }
 
+function is_wait_list(parsed) {
+    let tbody = parsed.querySelector('tbody');
+    var out = [];
+    for (var i=1;i<tbody.childNodes.length;i=i+2) {
+        if(get_info(tbody.childNodes[i]).wait_list == "0") {
+            return true;
+        }
+    }
+    return false;
+}
+
 function full_course(code, term, year) {
     let promise = request_course(code, term, year).then(response => {
         try {
@@ -76,8 +87,26 @@ function full_course(code, term, year) {
     return Promise.resolve(promise);
 }
 
-full_course('CSC148','winter','2018').then(res => console.log(res));
+function wait_space(code, term, year) {
+    let promise = request_course(code, term, year).then(response => {
+        try {
+            body = response.data.trim();
+            parsed = parser.parse(body);
+            return {'space':is_wait_list(parsed)};
+        } catch (e) {
+            promise = null;
+        }
+    })
+    .catch(error => {
+        promise = null;
+    });
+    return Promise.resolve(promise);
+}
+
+//  full_course('CSC148','winter','2018').then(res => console.log(res));
+//  wait_space('CSC309','winter','2020').then(res => console.log(res));
 
 module.exports = {
-    query_course: full_course
+    query_course: full_course,
+    wait_list_space: wait_space
 }

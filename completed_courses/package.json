@@ -1,0 +1,11 @@
+{
+  "name": "completed_courses",
+  "version": "1.0.0",
+  "description": "Allow users to add their completed courses",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Robert",
+  "license": "ISC"
+}

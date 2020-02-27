@@ -1,4 +1,20 @@
 const axios = require('axios');
+const mongo = require('./Instruct');
+const Fuse = require('fuse.js');
+
+var options = {
+    shouldSort: true,
+    includeScore: true,
+    threshold: 0.6,
+    location: 0,
+    tokenize: true,
+    distance: 100,
+    maxPatternLength: 32,
+    minMatchCharLength: 1,
+    keys: [
+      "fullname"
+    ]
+};
 
 function number_of_instructors(school_id) {
     var query_str = 'https://solr-aws-elb-production.ratemyprofessors.com//solr/rmp/select/?solrformat=true&rows=0&wt=json&q=*%3A*+AND+schoolid_s%3A'+school_id+'&defType=edismax&qf=teacherfirstname_t%5E2000+teacherlastname_t%5E2000+teacherfullname_t%5E2000+autosuggest&bf=pow(total_number_of_ratings_i%2C2.1)&sort=total_number_of_ratings_i+desc&siteName=rmp&start=0&fl=pk_id'
@@ -51,7 +67,81 @@ function query_instructor(iid) {
 //     console.log(res);
 // })
 
+function get_schools() {
+    return {
+        'utm': '4928',
+        'utsg': '1484',
+        'utsc': '4919',
+        'uoft': '12184',
+        'rotman': '5281'
+    };
+}
+
+function update_instructor_cache() {
+    var schools = get_schools();
+    for (let key in schools) {
+        query_all_instructors(schools[key]).then(res => {
+            for (var i=0;i<res.length;i++) {
+                var row = res[i]
+                row['fullname'] = row['teacherfirstname_t'] + ' ' + row['teacherlastname_t'];
+                row['school'] = key;
+                let doc = mongo.Instruct(row);
+                doc.save((err,result) => {
+                    if (err) {
+                        //console.log(err + ' failed');
+                        return;
+                    }
+                    //console.log(row['fullname']+ ' saved');
+                });
+            }
+        }).catch(e => {
+            console.log(e);
+            return;
+        })
+    }
+}
+
+let fuse_global = {};
+
+function get_fuse() {
+    return mongo.Instruct.find().then(res => {
+        if (fuse_global == null) {
+            fuse_global = new Fuse(res, options);
+            fuse_global['uuid'] = Math.random();
+        }
+        return fuse_global;
+    }).catch(e => {
+        return {};
+    });
+}
+
+// mongo.Instruct.find((err,res) => {
+//     console.log(fuse.search('Bailey Lee'));
+// })
+
+function fuzzy_search(instructor_name) {
+    return get_fuse().then(f => {
+        return f.search(instructor_name);
+    })
+}
+
+//update_instructor_cache();
+
+fuzzy_search('Bailey Lee').then(res => {
+    console.log(res[0]);
+});
+
+fuzzy_search('Daniel Zingaro').then(res => {
+    console.log(res[0]);
+});
+
+fuzzy_search('Lisa Zhang').then(res => {
+    console.log(res[0]);
+});
+
 module.exports = {
     find_instructor: query_instructor,
-    find_all_instructors: query_all_instructors
+    find_all_instructors: query_all_instructors,
+    all_schools: get_schools,
+    init: update_instructor_cache
 }

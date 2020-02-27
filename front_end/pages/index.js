@@ -9,7 +9,7 @@ const Index = () => (
     <h1>Course Crunch</h1>
     <div className = "buttonPanel">
     <ul className="buttonList">
-      <li><button className ="hvr-grow">PLACE HOLDER</button></li>
+      <li><button className ="hvr-grow">Course Recommendations</button></li>
       <li><button className ="hvr-grow">PLACE HOLDER</button></li>
       <li><button className ="hvr-grow">PLACE HOLDER</button></li>
       <li><button className ="hvr-grow"> PLACE HOLDER</button></li>

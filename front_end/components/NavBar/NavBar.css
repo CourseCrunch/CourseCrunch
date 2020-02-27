@@ -27,11 +27,20 @@
 }
 .NavBar_navigation-items li{
     padding: 0 1rem;
+    text-decoration: none;
 }
 .NavBar_navigation-items label{
     color: white;
     border-top: 1px solid transparent;
     font-size: large;
+    text-decoration: none;
+}
+
+.NavBar_navigation-items a{
+    color: white;
+    border-top: 1px solid transparent;
+    font-size: large;
+    text-decoration: none;
 }
 .NavBar_navigation-items label:active, .NavBar_navigation-items label:hover{
     border-top: 1px solid #d0d0d0;

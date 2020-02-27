@@ -3,8 +3,7 @@ import React from 'react';
 export function Header() {
     return  (
         <header style={headerStyle}> 
-            <h1>TodoList</h1>
-        
+            <h1>Show Data</h1>
         </header>
     )
 }

@@ -57,7 +57,7 @@ def scrape_header(school,department):
     scraped = r.text.replace('&lt;','<').replace('&gt;','>').replace('&amp;','&')
     lim = bound(scraped)+1
     scraped = scraped[:lim]
-    return ['Code']+[i.strip().replace(',','') for i in header.findall(scraped)]
+    return ['Code']+[i.strip().replace(',','').replace('.','') for i in header.findall(scraped)]
 
 def scrape_school(school, department, dump_s, header):
     r = requests.post('https://course-evals.utoronto.ca/BPI/fbview-WebService.asmx/getFbvGrid', data=json.loads(dump_s))
@@ -84,7 +84,7 @@ def scrape_helper(school):
         scrape_school(school, department, dump, helper)
 
 for school in schools:
-    if school == 'info': continue
+    if school != 'sw': continue
     if not os.path.exists(school):
         os.makedirs(school)
     scrape_helper(school)

@@ -1,8 +1,9 @@
 const bcrypt = require('bcrypt');
 const uuidv4 = require('uuid/v4');
+const Promise = require('promise');
 require('dotenv').config();
 const Pool = require('pg').Pool;
-const pool = new Pool({
+const UserDB = new Pool({
 	user: process.env.PGUSER,
 	host: process.env.PGHOST,
 	database: process.env.PGDATABASE,
@@ -10,7 +11,7 @@ const pool = new Pool({
 	port: process.env.PGPORT
 });
 
-const pool1 = new Pool({
+const SessionDB = new Pool({
 	user: process.env.SSUSER,
 	host: process.env.SSHOST,
 	database: process.env.SSDATABASE,
@@ -19,156 +20,154 @@ const pool1 = new Pool({
 });
 
 
-const checkUserExists = (email, callBack) => {
-	try{
-		pool.query('SELECT 1 FROM CC_CREDENTIALS WHERE EMAIL = $1', [email], (error, results)  => {
-			if (error) {
-				console.log(error);
-				return callBack('error');
-			} else {
-				return callBack(results.rows);
-			}
-		});
-	} catch(e) {
-		console.log(e);
-		return callBack('error');
-	}
-}
-
-const validatePW = (uuid, password, callBack) => {
-	try{
-		pool.query('SELECT HASH FROM CC_CREDENTIALS WHERE ID = $1', [uuid], (error, results) => {
-			if (error) {
-        			console.log(error);
-        			return callBack('error');
-	        	}else {
-        			var pw_hash = results.rows[0].hash;
-        			bcrypt.compare(password, pw_hash, (valid_err, hash) => {
-                			if (valid_err){
-                    				console.log(valid_err);
-                    				return callBack("error");
-	                		}else if(!hash){
-        	            			return callBack("Invalid");
-                			}else if(hash){
-                    				return callBack("Valid");
-                			}
-	            		});
-        		}
-	    	});
-	} catch(e) {
-		console.log(e);
-		return callBack("error");
-	}
-}
-
-const getUID = (sessionid, callBack) => {
-	try{
-		pool2.query('SELECT ID FROM CC_SESSION_INFO WHERE SESSION_ID = $1',
-			[sessionid], (sess_err, result) => {
-				if(sess_err){
-					console.log(sess_err);
-					return callBack("error");
-				} else {
-					return callBack(result);
+function checkUserExists(email){
+	return new Promise(function(resolve, reject){
+		try{
+			UserDB.query('SELECT 1 FROM CC_CREDENTIALS WHERE EMAIL = $1', [email], (error, results)  => {
+				if (error){
+					reject(error);
+				} else{
+					resolve(results.rows);
 				}
 			});
-	} catch (e) {
-		console.log(e);
-		return callBack("error");
-	}
+		} catch(e){
+			reject(e);
+		}
+	});
+}
+
+function validatePW(uuid, password){
+	return new Promise(function(resolve, reject){
+		try{
+			UserDB.query('SELECT HASH FROM CC_CREDENTIALS WHERE ID = $1', [uuid], (error, results) => {
+				if (error) {
+        				reject(error);
+		        	} else{
+        				var pw_hash = results.rows[0].hash;
+        				bcrypt.compare(password, pw_hash, (valid_err, hash) => {
+                				if (valid_err){
+                    					reject(valid_err);
+		                		} else if(!hash){
+        		            			resolve("Invalid");
+	                			} else if(hash){
+        	            				resolve("Valid");
+                				}
+		            		});
+        			}
+	    		});
+		} catch(e){
+			reject(e);
+		}
+	});
+}
+
+function getUID(sessionid){
+	return new Promise(function(resolve, reject){
+		try{
+			SessionDB.query('SELECT ID FROM CC_SESSION_INFO WHERE SESSION_ID = $1',
+				[sessionid], (sess_err, result) => {
+					if(sess_err){
+						reject(sess_err);
+					} else{
+						resolve(result);
+					}
+				});
+		} catch (e){
+			reject(e);
+		}
+	});
 }
 
 
-const updateUser_fname = (uuid, fname, callBack) => {
-	try{
-		pool.query('UPDATE CC_USER_INFO SET FNAME = $1 WHERE ID = $2', 
-			[fname, uuid], (info_err, result) => {
-				if(info_err){
-					console.log(info_err);
-					return callBack("error");
+function updateUser_fname(uuid, fname){
+	return new Promise(function(resolve, reject){
+		try{
+			UserDB.query('UPDATE CC_USER_INFO SET FNAME = $1 WHERE ID = $2', 
+				[fname, uuid], (info_err, result) => {
+					if(info_err){
+						reject(info_err);
+					} else{
+						resolve("First Name Changed!"); 
+					}
+				});
+		} catch (e){
+			reject(e);
+		}
+	});
+}
+
+function updateUser_lname(uuid, lname){
+	return new Promise(function(resolve, reject){
+		try{
+			UserDB.query('UPDATE CC_USER_INFO SET LNAME = $1 WHERE ID = $2', 
+				[lname, uuid], (info_err, result) => {
+					if(info_err){
+						reject(info_err);
+					} else{
+						resolve("Last Name Changed!"); 
+					}
+				});
+		} catch (e){
+			reject(e);
+		}
+	});
+}
+
+function updateUser_program(uuid, program){
+	return new Promise(function(resolve, reject){
+		try{
+			UserDB.query('UPDATE CC_USER_INFO SET PROGRAM = $1 WHERE ID = $2', 
+				[program, uuid], (info_err, result) => {
+					if(info_err){
+						reject(info_err);
+					} else{
+						resolve("Program Changed!"); 
+					}
+			});
+		} catch (e){
+			reject(e);
+		}
+	});
+}
+
+function updateUser_email(uuid, email){
+	return new Promise(function(resolve, reject){
+		try{
+			UserDB.query('UPDATE CC_CREDENTIALS SET EMAIL = $1 WHERE ID = $2', 
+				[email, uuid], (update_err, result) => {
+					if(update_err){
+						reject(update_err);
+					} else{
+						resolve("Email Changed!"); 
+					}
+				});
+		} catch (e){
+			reject(e);
+		}
+	});
+}
+
+function updateUser_pass(uuid, password){
+	return new Promise(function(resolve, reject){
+		try{
+			bcrypt.hash(password, 10, (bcrypt_err, hash) => {
+				if(bcrypt_err){
+					reject(bcrypt_err);
 				} else {
-					return callBack("First Name Changed!"); 
+					UserDB.query('UPDATE CC_CREDENTIALS SET HASH = $1 WHERE ID = $2', 
+						[hash, uuid], (update_err, result) => {
+							if(update_err){
+								reject(update_err);
+							} else {
+								resolve("Password Changed!"); 
+							}
+						});
 				}
 			});
-	} catch (e) {
-		console.log(e);
-		return callBack ("error");
-	}
-}
-
-const updateUser_lname = (uuid, lname, callBack) => {
-	try{
-		pool.query('UPDATE CC_USER_INFO SET LNAME = $1 WHERE ID = $2', 
-			[lname, uuid], (info_err, result) => {
-				if(info_err){
-					console.log(info_err);
-					return callBack("error");
-				} else {
-					return callBack("Last Name Changed!"); 
-				}
-			});
-	} catch (e) {
-		console.log(e);
-		return callBack ("error");
-	}
-}
-
-const updateUser_program = (uuid, program, callBack) => {
-	try{
-		pool.query('UPDATE CC_USER_INFO SET PROGRAM = $1 WHERE ID = $2', 
-			[program, uuid], (info_err, result) => {
-				if(info_err){
-					console.log(info_err);
-					return callBack("error");
-				} else {
-					return callBack("Program Changed!"); 
-				}
-			});
-	} catch (e) {
-		console.log(e);
-		return callBack ("error");
-	}
-}
-
-const updateUser_email = (uuid, email, callBack) => {
-	try{
-		pool.query('UPDATE CC_CREDENTIALS SET EMAIL = $1 WHERE ID = $2', 
-			[email, uuid], (update_err, result) => {
-				if(update_err){
-					console.log(update_err);
-					return callBack("error");
-				} else {
-					return callBack("Email Changed!"); 
-				}
-			});
-	} catch (e) {
-		console.log(e);
-		return callBack ("error");
-	}
-}
-
-const updateUser_pass = (uuid, password, callBack) => {
-	try{
-		bcrypt.hash(password, 10, (bcrypt_err, hash) => {
-			if(bcrypt_err){
-				console.log(bcrypt_err);
-				return callBack("error");
-			} else {
-				pool.query('UPDATE CC_CREDENTIALS SET HASH = $1 WHERE ID = $2', 
-					[hash, uuid], (update_err, result) => {
-						if(update_err){
-							console.log(update_err);
-							return callBack("error");
-						} else {
-							return callBack("Password Changed!"); 
-						}
-					});
-			}
-		});
-	} catch (e) {
-		console.log(e);
-		return callBack ("error");
-	}
+		} catch (e){
+			reject(e);
+		}
+	});
 }
 
 

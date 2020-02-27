@@ -1,6 +1,5 @@
 var express = require('express');
 
-var indexRouter = require('./routes/index');
 var editProfRouter = require('./routes/edit_profile');
 var changeEmailRouter = require('./routes/change_email')
 var changePassRouter = require('./routes/change_pass')
@@ -15,7 +14,6 @@ var app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
-app.use('/', indexRouter);
 app.use('/edit_profile', editProfRouter);
 app.use('/change_email',changeEmailRouter);
 app.use('/change_password',changePassRouter);

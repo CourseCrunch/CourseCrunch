@@ -1,112 +1,113 @@
 const axios = require('axios');
 const parser = require('node-html-parser');
-function request_course(course_code, term, year) {
-    var term_code = 0;
+
+function requestCourse(courseCode, term, year) {
+    let termCode = 0;
     switch (term) {
-        case "fall":
-            term_code=9;
-            break;
-        case "winter":
-            term_code=1;
-            break;
-        case "summer":
-            term_code=5;
+    case 'fall':
+        termCode = 9;
+        break;
+    case 'winter':
+        termCode = 1;
+        break;
+    case 'summer':
+        termCode = 5;
+        break;
+    default:
+        termCode = 2;
     }
-    year_code = year + term_code;
-    return axios.get('https://student.utm.utoronto.ca/timetable/timetable?session='+year_code+'&courseCode='+course_code);
+    const yearCode = year + termCode;
+    return axios.get(`https://student.utm.utoronto.ca/timetable/timetable?session=${yearCode}&courseCode=${courseCode}`);
 }
 
-function get_description(parsed) {
+function getDescription(parsed) {
     return parsed.querySelector('.infoCourseDetails').childNodes[0].rawText.trim();
 }
 
-function make_lectures(rows) {
-    var l = rows[0].length;
-    var array = [];
-    for (var i=0;i<l;i++) {
-        array.push({'day':rows[0][i],
-                    'start':rows[1][i],
-                    'end':rows[2][i],
-                    'room':rows[3][i]});
+function makeLectures(rows) {
+    const l = rows[0].length;
+    const array = [];
+    for (let i = 0; i < l; i += 1) {
+        array.push({
+            day: rows[0][i],
+            start: rows[1][i],
+            end: rows[2][i],
+            room: rows[3][i],
+        });
     }
     return array;
 }
 
-function get_info(row) {
-    tags = ['lecture','instructor','cur_enrollment','max_enrollment','wait_list','ratio','sections']
-    out = {};
-    n = 0;
-    tds = row.childNodes.filter(x=>x.tagName=='td');
-    for (var i=1;i<tds.length;i=i+1) {
-        txt = tds[i].structuredText.trim().split('\n');
-        if (tags[n] == 'sections') {
-            out[tags[n]] = make_lectures(tds.slice(i,tds.length).map(x=>x.structuredText.trim().split('\n')));
+function getInfo(row) {
+    const tags = ['lecture', 'instructor', 'cur_enrollment', 'max_enrollment', 'wait_list', 'ratio', 'sections'];
+    const out = {};
+    let n = 0;
+    const tds = row.childNodes.filter((x) => x.tagName === 'td');
+    for (let i = 1; i < tds.length; i += 1) {
+        const txt = tds[i].structuredText.trim().split('\n');
+        if (tags[n] === 'sections') {
+            out[tags[n]] = makeLectures(tds.slice(i, tds.length).map((x) => x.structuredText.trim().split('\n')));
             break;
         } else {
-            out[tags[n]] = txt[0];
+            out[tags[n]] = [txt[0]];
         }
-        n++;
+        n += 1;
     }
     return out;
 }
 
-function get_courses(parsed) {
-    let tbody = parsed.querySelector('tbody');
-    var out = [];
-    for (var i=1;i<tbody.childNodes.length;i=i+2) {
-        out.push(get_info(tbody.childNodes[i]));
+function getCourses(parsed) {
+    const tbody = parsed.querySelector('tbody');
+    const out = [];
+    for (let i = 1; i < tbody.childNodes.length; i += 2) {
+        out.push(getInfo(tbody.childNodes[i]));
     }
     return out;
 }
 
-function is_wait_list(parsed) {
-    let tbody = parsed.querySelector('tbody');
-    var out = [];
-    for (var i=1;i<tbody.childNodes.length;i=i+2) {
-        if(get_info(tbody.childNodes[i]).wait_list == "0") {
+function isWaitList(parsed) {
+    const tbody = parsed.querySelector('tbody');
+    for (let i = 1; i < tbody.childNodes.length; i += 2) {
+        if (getInfo(tbody.childNodes[i]).wait_list === '0') {
             return true;
         }
     }
     return false;
 }
 
-function full_course(code, term, year) {
-    let promise = request_course(code, term, year).then(response => {
+function fullCourse(code, term, year) {
+    const promise = requestCourse(code, term, year).then((response) => {
         try {
-            body = response.data.trim();
-            parsed = parser.parse(body);
-            return {'description':get_description(parsed),
-                    'courses':get_courses(parsed)};
+            const body = response.data.trim();
+            const parsed = parser.parse(body);
+            return {
+                description: getDescription(parsed),
+                courses: getCourses(parsed),
+            };
         } catch (e) {
-            promise = null;
+            return null;
         }
-    })
-    .catch(error => {
-        promise = null;
-    });
+    }).catch(() => null);
     return Promise.resolve(promise);
 }
 
-function wait_space(code, term, year) {
-    let promise = request_course(code, term, year).then(response => {
+function waitSpace(code, term, year) {
+    const promise = requestCourse(code, term, year).then((response) => {
         try {
-            body = response.data.trim();
-            parsed = parser.parse(body);
-            return {'space':is_wait_list(parsed)};
+            const body = response.data.trim();
+            const parsed = parser.parse(body);
+            return { space: isWaitList(parsed) };
         } catch (e) {
-            promise = null;
+            return null;
         }
-    })
-    .catch(error => {
-        promise = null;
-    });
+    }).catch(() => null);
     return Promise.resolve(promise);
 }
 
-//  full_course('CSC148','winter','2018').then(res => console.log(res));
-//  wait_space('CSC309','winter','2020').then(res => console.log(res));
+// fullCourse('CSC148', 'winter', '2018').then((res) => console.log(res));
+// waitSpace('CSC309', 'winter', '2020').then((res) => console.log(res));
 
 module.exports = {
-    query_course: full_course,
-    wait_list_space: wait_space
-}
+    queryCourse: fullCourse,
+    waitListSpace: waitSpace,
+};

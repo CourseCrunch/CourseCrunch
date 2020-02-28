@@ -1,16 +1,14 @@
-var express = require('express');
+const express = require('express');
 
-var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
+const averageRouter = require('./routes/average');
 
-var app = express();
+const app = express();
 
 // view engine setup
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
-app.use('/', indexRouter);
-app.use('/users', usersRouter);
+app.use('/', averageRouter);
 
-app.listen(3000, () => console.log("App listening on port 3000"));
+app.listen(3000, () => console.log('App listening on port 3000'));

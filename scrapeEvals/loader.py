@@ -7,7 +7,7 @@ client = MongoClient(os.environ.get('CONNECTSTR'))
 db = client['evals']
 
 for scl in ('aands','asande', 'asande_grad', 'sw', 'info', 'utm', 'utsc'):
-    collection = db[scl]
+    collection = db[scl+"_evals"]
     collection.drop()
     pth = scl + '/'
     for dpt_p in os.listdir(pth):

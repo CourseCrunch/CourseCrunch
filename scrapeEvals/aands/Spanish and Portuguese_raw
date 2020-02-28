@@ -1,4 +1,4 @@
-Code,Dept,Division,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Instructor generated enthusiasm,Course Workload,I would recommend this course,Number of Students Invited,Number of Respondents
+Code,Dept,Division,Course,Last_Name,First_Name,Term,Year,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Instructor_generated_enthusiasm,Course_Workload,I_would_recommend_this_course,Number_of_Students_Invited,Number_of_Respondents
 SPA220Y1,SPA,ARTSC,Intermediate Spanish SPA220Y1-Y-LEC0101 (B),Villalobos Graillet,Jose,Summer,2018,4.7,4.8,4.6,4.7,4.6,4.8,4.7,3,4.8,17,11
 SPA100Y1,SPA,ARTSC,Span for Beginners SPA100Y1-Y-LEC0101 (B),Rinaldi da Silva,Natalia,Summer,2018,4.3,4.8,4.3,4.3,4.3,4.5,4.3,3,4.8,27,5
 SPA100Y1,SPA,ARTSC,Span for Beginners SPA100Y1-Y-LEC5101 (B),Maldonado Castaneda,Daniela,Summer,2018,4.4,4.8,5,4.4,4.6,4.6,5,3.4,4.6,13,5

@@ -1,4 +1,4 @@
-Code,Dept,Division,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Instructor generated enthusiasm,Course Workload,I would recommend this course,Number of Students Invited,Number of Respondents
+Code,Dept,Division,Course,Last_Name,First_Name,Term,Year,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Instructor_generated_enthusiasm,Course_Workload,I_would_recommend_this_course,Number_of_Students_Invited,Number_of_Respondents
 LAT202H1,CLAS,ARTSC,Intermediate Latin II LAT202H1-S-LEC0101,Graf,Chiara,Summer,2018,5,5,5,5,5,4.8,4.8,3.6,4.8,7,5
 CLA232H1,CLAS,ARTSC,Intro Grk Cult CLA232H1-S-LEC0101,Parker,Edward,Summer,2018,4.3,4.5,4.6,4.6,4.4,4.3,4.6,3.1,4.5,32,11
 LAT102H1,CLAS,ARTSC,Intro Lat II LAT102H1-S-LEC0101,Watton,Matthew,Summer,2018,3.9,4.3,4.3,4,4.1,4,4,3.4,4.1,20,9

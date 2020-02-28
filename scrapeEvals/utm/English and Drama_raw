@@ -1,4 +1,4 @@
-Code,Dept,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Course Workload,I would recommend this course,I attended class,Inspired to learn subject matter,Number Invited,Number of Survey Responses
+Code,Dept,Course,Last_Name,First_Name,Term,Year,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Course_Workload,I_would_recommend_this_course,I_attended_class,Inspired_to_learn_subject_matter,Number_Invited,Number_of_Survey_Responses
 DRE121H5,ENGDR,Tradtns of Theatre & Drama DRE121H5-F-LEC0101,Syme,Holger,Fall,2019,4.3,4.6,4.8,3.9,4.1,4.3,2.9,4.2,N/A,4.2,43,20
 DRE344H5,ENGDR,Theatre and Drama I DRE344H5-F-LEC0101,Moosavi,Marjan,Fall,2019,3.4,4.2,3.9,3.9,4.3,3.5,3.4,3.6,N/A,3.9,14,10
 DRE360H5,ENGDR,Development Dramaturgy DRE360H5-F-LEC0101,Gallagher-Ross,Jacob,Fall,2019,3.8,3.8,4.4,3.8,4.1,4.1,2.3,4.3,N/A,4.2,35,19

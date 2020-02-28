@@ -1,4 +1,4 @@
-Code,Course - Department,Course - Division,Course - Course Name,Term,Year,Instructor - Last Name,Instructor - First Name,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,APSC01,APSC02,APSC03,APSC04,APSC05,APSC06,APSC07,LEC01,InvitedCount,RespondentCount
+Code,Course_-_Department,Course_-_Division,Course_-_Course_Name,Term,Year,Instructor_-_Last_Name,Instructor_-_First_Name,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,APSC01,APSC02,APSC03,APSC04,APSC05,APSC06,APSC07,LEC01,InvitedCount,RespondentCount
 MIN429H,LME,APSC,ENGINEERING ROCK MECHANICS MIN429H1-LEC0101,Fall,2013,Harrison,John,4.3,4.3,3.9,3.8,3.7,3.5,3.9,4.1,3.4,3.8,3.5,4,4.1,4.1,45,18
 MIN511H,LME,APSC,INTEGRATED MINE WASTE ENG. MIN511H1-LEC0101,Fall,2013,Grabinsky,Murray,3.8,4,4.2,4.4,4.3,3.7,3.8,4.7,3.9,3.9,4.1,4,4.4,3.9,25,21
 MIN225H,LME,APSC,INTRO.TO THE RES.IND MIN225H1-LEC0101,Fall,2013,Moss,Roger,3.6,4.4,3.1,4.1,4,3.6,3.4,3.8,4.1,3.1,2.8,4.2,3.4,3.8,34,10

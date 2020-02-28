@@ -1,4 +1,4 @@
-Code,Dept,Division,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Instructor generated enthusiasm,Course Workload,I would recommend this course,Number of Students Invited,Number of Respondents
+Code,Dept,Division,Course,Last_Name,First_Name,Term,Year,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Instructor_generated_enthusiasm,Course_Workload,I_would_recommend_this_course,Number_of_Students_Invited,Number_of_Respondents
 TRN305Y1,TRIN,ARTSC,Basic Principles Law TRN305Y1-F-LEC0101,Cameron,Hilary,Summer,2018,5,5,4.8,4.8,4.6,4.7,5,4.1,4.6,15,10
 TRN125Y1,TRIN,ARTSC,Issues in Health Sci TRN125Y1-Y-LEC0101,Rojas,Olga,Winter,2018,3.8,3.9,3.7,3.2,3.5,3.4,4,2.6,3.5,17,11
 TRN136Y1,TRIN,ARTSC,Can Hlth Policy Global Context TRN136Y1-Y-LEC0101,Boehm,Leslie,Winter,2018,4.7,4.8,4.8,4.5,4.3,4.6,4.6,3.6,4.9,14,13

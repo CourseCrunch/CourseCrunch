@@ -1,4 +1,4 @@
-Code,Dept,Division,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Instructor generated enthusiasm,Course Workload,I would recommend this course,Number of Students Invited,Number of Respondents
+Code,Dept,Division,Course,Last_Name,First_Name,Term,Year,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Instructor_generated_enthusiasm,Course_Workload,I_would_recommend_this_course,Number_of_Students_Invited,Number_of_Respondents
 WGS373H1,WGSI,ARTSC,Gender & Violence WGS373H1-S-LEC5101,Singh,Aarzoo,Summer,2018,2.8,2.8,3.6,2.7,2.6,2.2,3,2.9,2.6,31,9
 WGS271Y1,WGSI,ARTSC,Gender in Pop Culture WGS271Y1-Y-LEC0101,Zisman Newman,Laine,Summer,2018,4.7,4.5,4.5,4.7,4.7,4.6,4.9,2.9,4.6,28,20
 WGS397H1,WGSI,ARTSC,Politics of Girlhood WGS397H1-F-LEC0101,Erickson,Loree,Summer,2018,4,3.8,3.7,3.8,4,3.4,3.5,3.9,3.6,32,12

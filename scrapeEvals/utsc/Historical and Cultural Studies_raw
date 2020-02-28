@@ -1,4 +1,33 @@
-Code,Dept,Course,Term,Year,Last Name,First Name,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Inspired thinking about subject matter,Course Workload,I would recommend this course,Number Invited,Number of Survey Responses
+Code,Dept,Course,Term,Year,Last_Name,First_Name,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Inspired_thinking_about_subject_matter,Course_Workload,I_would_recommend_this_course,Number_Invited,Number_of_Survey_Responses
+AFSA01H3,HCSSC,Africa in the World: An Intro AFSA01H3-F-LEC01,Fall,2019,Rockel,Stephen,3.7,3.9,3.6,3.5,3.6,3.4,3.6,2.8,3.4,52,29
+HISA08H3,HCSSC,Africa in the World: An Intro HISA08H3-F-LEC01,Fall,2019,Rockel,Stephen,3.7,3.7,3.9,3.6,3.8,3.4,3.6,2.8,3.7,47,26
+HISB30H3,HCSSC,American History to Civil War HISB30H3-F-LEC01,Fall,2019,Toffoli,Erica,4.6,4.8,4.5,4.4,4.4,4.4,4.4,3.2,4.5,31,19
+CLAA04H3,HCSSC,Ancient Mediterranean World CLAA04H3-F-LEC01,Fall,2019,Cooper,Catherine,3.6,3.9,3.9,3.9,3.6,3.5,3.2,3.4,3.2,75,23
+HISA07H3,HCSSC,Ancient Mediterranean World HISA07H3-F-LEC01,Fall,2019,Cooper,Catherine,3.5,3.9,3.9,3.6,3.8,3.4,3.3,3.5,3.3,91,35
+GASC57H3,HCSSC,China and the World GASC57H3-F-LEC01,Fall,2019,Wang,Yu,4.3,4.4,4.3,4.3,4.3,4.3,4.4,3.8,4.4,29,12
+HISC57H3,HCSSC,China and the World HISC57H3-F-LEC01,Fall,2019,Wang,Yu,4.8,4.7,4.7,4.8,4.7,4.8,4.8,3.5,4.7,20,6
+HISB03H3,HCSSC,Critic Writing & Res for Hist HISB03H3-F-LEC01,Fall,2019,Riddell,William,4.2,3.8,4.8,4.1,4.3,4.0,3.8,3.6,3.9,22,9
+HISB03H3,HCSSC,Critic Writing & Res for Hist HISB03H3-F-LEC02,Fall,2019,Riddell,William,2.8,3.0,4.5,3.7,3.7,3.7,2.7,3.3,3.0,17,6
+WSTC10H3,HCSSC,Gender & Critical Development WSTC10H3-F-LEC01,Fall,2019,Dinani,Husseina,3.3,3.2,3.0,2.8,2.6,2.4,3.0,3.3,2.6,20,9
+HISC29H3,HCSSC,Glbl Commodities: Nat Cul His HISC29H3-F-LEC01,Fall,2019,Desouza,Sanchia,3.6,3.6,3.7,3.3,3.3,3.6,3.3,3.6,3.3,26,8
+CLAB05H3,HCSSC,Hist & Culture of Greek World CLAB05H3-F-LEC01,Fall,2019,Arno,Martin,3.0,3.3,2.9,3.4,3.3,2.7,2.8,2.5,3.0,42,16
+HISB10H3,HCSSC,Hist & Culture of Greek World HISB10H3-F-LEC01,Fall,2019,Arno,Martin,3.1,3.2,3.1,3.3,3.4,2.8,3.1,3.1,3.0,55,21
+HISC45H3,HCSSC,Immigrant &Race Relat Cdn Hist HISC45H3-F-LEC01,Fall,2019,Bjorge,Mikhail,4.2,4.2,3.9,3.7,3.7,3.5,4.0,3.3,3.6,48,21
+WSTC28H3,HCSSC,Language and Gender WSTC28H3-F-LEC01,Fall,2019,Hachimi,Atiqa,3.9,3.9,4.1,4.0,3.9,3.9,4.3,3.4,3.9,26,10
+WSTB25H3,HCSSC,LGBTQ History Theory & Activsm WSTB25H3-F-LEC01,Fall,2019,Ye,Shan,4.1,4.2,4.3,4.1,4.2,3.9,4.1,2.9,4.3,42,16
+GASB58H3,HCSSC,Modern Chinese History GASB58H3-F-LEC01,Fall,2019,Wang,Yu,3.4,3.8,3.8,3.6,3.5,3.6,3.5,3.2,3.1,65,20
+HISB58H3,HCSSC,Modern Chinese History HISB58H3-F-LEC01,Fall,2019,Wang,Yu,4.1,4.4,3.8,4.3,4.2,3.6,4.0,3.6,4.1,32,13
+GASB53H3,HCSSC,Mughals & World 1500-1858 AD GASB53H3-F-LEC30,Fall,2019,Peterson,Jonathan,4.7,4.8,4.8,4.7,4.6,4.7,4.5,2.8,4.6,21,13
+HISB53H3,HCSSC,Mughals & World 1500-1858 AD HISB53H3-F-LEC30,Fall,2019,Peterson,Jonathan,4.6,4.9,4.8,4.5,4.3,4.6,4.5,3.1,4.7,18,10
+CLAA05H3,HCSSC,Myth I: Mesopotamia & Egypt CLAA05H3-F-LEC01,Fall,2019,Spurrier,Tracy,3.7,4.2,4.3,3.7,3.8,3.7,3.4,2.8,3.9,157,50
+WSTB05H3,HCSSC,Power & Knowledge App to Rsrch WSTB05H3-F-LEC01,Fall,2019,Hasan,Wafaa,4.6,4.8,4.9,4.6,4.6,4.6,4.7,3.2,4.7,49,25
+WSTD03H3,HCSSC,Seminar in Sex  Gender & Body WSTD03H3-F-LEC01,Fall,2019,English,Jeri,5.0,5.0,4.7,4.6,4.7,4.9,4.9,3.3,4.9,19,10
+GASD01H3,HCSSC,Sr Sem: Global Asian Migration GASD01H3-F-LEC01,Fall,2019,Wang,Yu,4.5,4.7,4.8,4.7,4.6,4.7,4.9,3.4,4.7,13,11
+GASD02H3,HCSSC,Sr Sem: Global Asian Societies GASD02H3-F-LEC01,Fall,2019,Guo,Jackson,4.3,4.4,4.5,4.1,4.1,4.3,4.0,4.0,4.1,9,8
+HISC30H3,HCSSC,The U.S. and the World HISC30H3-F-LEC01,Fall,2019,Riddell,William,4.9,5.0,4.6,4.5,4.6,4.5,4.5,3.3,4.5,30,8
+CLAC01H3,HCSSC,Topics in Classical Literature CLAC01H3-F-LEC01,Fall,2019,Hald,Bradley,4.6,4.7,4.7,4.6,4.7,4.9,4.1,2.9,4.6,10,7
+HISC65H3,HCSSC,Venice & its Empire  800-1800 HISC65H3-F-LEC01,Fall,2019,McCarthy,Vanessa,4.4,4.6,4.6,3.6,3.6,3.7,3.7,3.4,3.9,33,7
+RLGA01H3,HCSSC,World Religions I RLGA01H3-F-LEC01,Fall,2019,Perley,David,3.6,3.8,3.9,3.6,3.8,3.3,3.1,3.0,3.4,148,68
 HISB12H3,HCSSC,The Classical World in Film HISB12H3-Y-LEC01,Summer,2019,Cundy,Jody,4,4.1,4.1,4,3.7,3.8,3.7,3.1,3.6,39,11
 HISD32H3,HCSSC,Slavery and Emancipation HISD32H3-Y-LEC01,Summer,2019,Halpern,Eric,4.7,4.7,4.9,4.6,4.7,4.6,4.3,4,4,10,7
 HISA04H3,HCSSC,Themes in World History I HISA04H3-Y-LEC01,Summer,2019,Halpern,Eric,4.4,4.4,4.7,4.4,4.3,4.4,4,3.2,4.3,104,19

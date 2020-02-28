@@ -1,4 +1,4 @@
-Code,Dept,Division,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Instructor generated enthusiasm,Course Workload,I would recommend this course,Number of Students Invited,Number of Respondents
+Code,Dept,Division,Course,Last_Name,First_Name,Term,Year,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Instructor_generated_enthusiasm,Course_Workload,I_would_recommend_this_course,Number_of_Students_Invited,Number_of_Respondents
 RSM295Y0,COMPG,ARTSC,Special Topics RSM295Y0-F-LEC3001,Chiu,Sam,Summer,2018,3.7,3.6,4.1,4.1,3.8,3.9,4,2.6,3.9,49,14
 RSM295Y0,COMPG,ARTSC,Special Topics RSM295Y0-F-LEC3002,Chiu,Sam,Summer,2018,4.7,4.7,4.8,4.7,4.6,4.6,4.9,3.1,4.6,50,17
 RSM295Y0,COMPG,ARTSC,Special Topics RSM295Y0-S-LEC3001,Huggins,William,Summer,2018,4.4,4.4,4.4,3.9,4.1,4,4.5,4,3.9,20,20

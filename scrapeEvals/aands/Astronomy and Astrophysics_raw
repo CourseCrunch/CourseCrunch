@@ -1,4 +1,4 @@
-Code,Dept,Division,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Instructor generated enthusiasm,Course Workload,I would recommend this course,Number of Students Invited,Number of Respondents
+Code,Dept,Division,Course,Last_Name,First_Name,Term,Year,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Instructor_generated_enthusiasm,Course_Workload,I_would_recommend_this_course,Number_of_Students_Invited,Number_of_Respondents
 AST201H1,AST,ARTSC,Stars & Galaxies AST201H1-S-LEC5101,Shelton,Ian,Summer,2018,3.9,4.1,3.9,3.9,3.9,3.7,3.9,3,3.8,159,40
 AST251H1,AST,ARTSC,Life on Other Worlds AST251H1-F-LEC5101,Shelton,Ian,Summer,2018,4.3,4.6,4,3.8,3.9,3.6,4.3,2.8,3.7,73,20
 AST101H1,AST,ARTSC,Sun & its Neighbours AST101H1-F-LEC5101,Souami,Damya,Summer,2018,3.9,4.1,3.5,3.7,3.6,3.3,4.2,3.1,3.7,186,35

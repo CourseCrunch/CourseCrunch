@@ -1,4 +1,4 @@
-Code,Dept,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Course Workload,I would recommend this course,I attended class,Inspired to learn subject matter,Number Invited,Number of Survey Responses
+Code,Dept,Course,Last_Name,First_Name,Term,Year,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Course_Workload,I_would_recommend_this_course,I_attended_class,Inspired_to_learn_subject_matter,Number_Invited,Number_of_Survey_Responses
 BIO203H5,UMBIO,Intro Plant Morph & Physiology BIO203H5-F-LEC0101,Chatfield,Steven,Fall,2019,3.6,4.0,4.1,3.9,3.8,3.6,3.3,3.3,N/A,3.2,288,110
 BIO205H5,UMBIO,Ecology BIO205H5-F-LEC0101,Richter,Christoph,Fall,2019,3.6,3.9,4.0,3.7,3.8,3.5,2.9,3.7,N/A,3.4,376,180
 BIO206H5,UMBIO,Intro Cell & Molecular Biology BIO206H5-F-LEC0101,Espie,George,Fall,2019,3.7,4.0,3.6,3.5,3.4,3.2,4.1,3.0,N/A,3.3,456,173

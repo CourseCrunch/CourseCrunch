@@ -1,4 +1,4 @@
-Code,Dept,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Course Workload,I would recommend this course,I attended class,Inspired to learn subject matter,Number Invited,Number of Survey Responses
+Code,Dept,Course,Last_Name,First_Name,Term,Year,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Course_Workload,I_would_recommend_this_course,I_attended_class,Inspired_to_learn_subject_matter,Number_Invited,Number_of_Survey_Responses
 ARA210H5,FGI,Arab Culture I ARA210H5-F-LEC0101,Kandil,Ahmed,Fall,2019,4.2,4.4,4.8,4.5,4.5,4.4,3.0,4.6,N/A,4.2,48,37
 ARA410H5,FGI,Advanced Arabic Reading I ARA410H5-F-LEC0101,Ali,Adam,Fall,2019,4.0,4.1,4.2,3.7,3.6,3.7,3.1,3.7,N/A,4.0,15,14
 CHI103H5,FGI,Introductory Chinese I CHI103H5-F-LEC0101,Chen,Chiu-Hung,Fall,2019,4.9,4.9,4.9,4.9,4.9,4.7,3.3,4.6,N/A,4.9,36,10

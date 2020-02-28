@@ -1,4 +1,4 @@
-Code,Dept,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Course Workload,I would recommend this course,I attended class,Inspired to learn subject matter,Number Invited,Number of Survey Responses
+Code,Dept,Course,Last_Name,First_Name,Term,Year,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Course_Workload,I_would_recommend_this_course,I_attended_class,Inspired_to_learn_subject_matter,Number_Invited,Number_of_Survey_Responses
 MGM301H5,UMMGT,Analysis for Decision & Con MGM301H5-F-LEC0101,Chen,Ningyuan,Fall,2019,3.3,3.4,3.5,3.6,3.7,3.1,2.8,2.7,N/A,2.6,49,23
 MGM332H5,UMMGT,Managerial Finance MGM332H5-F-LEC0101,Tome,Jason,Fall,2019,3.8,4.1,4.3,4.1,3.9,3.9,3.2,3.3,N/A,3.3,42,19
 MGM360H5,UMMGT,Compensation MGM360H5-F-LEC0101,Radhakrishnan,Phanikiran,Fall,2019,1.7,2.7,2.9,2.4,2.3,1.9,3.1,1.7,N/A,1.6,16,7

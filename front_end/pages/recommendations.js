@@ -5,12 +5,14 @@ import './hover.css';
 import WeekCalendar from 'react-week-calendar';
 import moment from 'moment';
 import 'react-week-calendar/dist/style.css';
+import React from 'react';
 class Recommendations extends React.Component{
     constructor(props){
         super(props);
         this.state = {results: [],
         lastUid: -1,
-        selectedIntervals: []
+        selectedIntervals: [],
+        randomJson: []
         };
     }
     handleEventRemove = (event) => {
@@ -30,6 +32,21 @@ class Recommendations extends React.Component{
           selectedIntervals[index] = event;
           this.setState({selectedIntervals});
         }
+      }
+
+      handleClick = () => {
+        console.log("Hi There");
+        fetch("https://randomuser.me/api/?results=10",{
+          method: "GET",
+          params: this.state.selectedIntervals
+        })
+        .then(response =>
+        response.json())
+        .then(
+          (data) =>{
+            this.setState({randomJson: data.results})
+          }
+        )
       }
     
       handleSelect = (newIntervals) => {
@@ -68,6 +85,12 @@ class Recommendations extends React.Component{
       firstDay = {moment().day("Monday")}
       modalComponent = {CustomModal}
     />
+    <button onClick={this.handleClick}>Send Schedule</button>
+    <ul>
+      {this.state.randomJson.map(results =>{
+        return <li>{results.name.first}</li>
+      })}
+    </ul>
         </div>
        </div>
        );

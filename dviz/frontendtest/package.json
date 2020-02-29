@@ -12,6 +12,9 @@
     "react-chartjs-2": "^2.9.0",
     "react-dom": "^16.12.0",
     "react-scripts": "3.4.0",
+    "react-table": "^7.0.0-rc.16",
+    "react-table-6": "^6.11.0",
+    "react-table-hoc-draggable-columns": "^1.2.2",
     "uuid": "^3.4.0"
   },
   "scripts": {

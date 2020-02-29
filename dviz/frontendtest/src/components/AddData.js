@@ -5,7 +5,8 @@ export class AddData extends Component {
     state = {
         title: '',
         labels: [],
-        data: []
+        data: [],
+        isChart: false
     }
 
     onSubmit = (e) => {
@@ -14,7 +15,7 @@ export class AddData extends Component {
           .then(res => {
             this.setState({labels: res.data.labels});
             this.setState({data: res.data.data});
-            this.props.addData(this.state.title, this.state.labels, this.state.data);
+            this.props.addData(this.state.title, this.state.labels, this.state.data, this.state.isChart);
         })
     }
 

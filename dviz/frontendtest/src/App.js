@@ -17,12 +17,13 @@ class App extends React.Component {
   }
 
   // Add Item
-  addData = (title, labels, data) => {
+  addData = (title, labels, data, isChart) => {
     const newData = {
       id: uuid.v4(),
       title,
       labels,
-      data
+      data,
+      isChart
     }
     this.setState({ data: [...this.state.data, newData]})
   }

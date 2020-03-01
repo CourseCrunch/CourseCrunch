@@ -8,6 +8,20 @@ const ReactTableDraggableColumns = withDraggableColumns(ReactTable);
 
 export class TableItem extends Component {
 
+    constructor(props) {
+        super(props);
+        this.state = {
+            id: props.data.id,
+            chartData: {
+                labels: props.data.labels,
+                datasets:[{
+                            label: props.data.title,
+                            data: props.data.data,
+                         }]
+            }
+        }
+    }
+
     getStyle = () => {
         return {
             background: '#f4f4f4',
@@ -32,11 +46,15 @@ export class TableItem extends Component {
             defaultPageSize={1}
             draggableColumns= {{
                 mode: 'reorder',
-                draggable: this.state.labels,
+                draggable: ['firstName', 'lastName', 'age'],
                 enableColumnWideDrag: false
             }}
             style={{width: '98vw'}}
-            data={this.state.data}
+            data={[{
+                firstName: "Justin",
+                lastName: "Pham",
+                age: 24
+            }]}
             columns={[
                 {
                 Header: 'First Name',

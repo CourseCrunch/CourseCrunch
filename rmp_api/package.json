@@ -1,0 +1,17 @@
+{
+  "name": "rmp_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "fuse.js": "^3.4.6",
+    "mongoose": "^5.9.2",
+    "mongoose-fuzzy-searching": "^1.1.8"
+  }
+}

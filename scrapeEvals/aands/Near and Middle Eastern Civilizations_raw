@@ -1,3 +1,4 @@
+Code,Dept,Division,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Instructor generated enthusiasm,Course Workload,I would recommend this course,Number of Students Invited,Number of Respondents
 NMC261Y0,NMC,ARTSC,Field Archaeology NMC261Y0-F-LEC3001,Batiuk,Stephen,Summer,2018,4.7,4.7,5,3.6,3.7,4,4.5,3.2,4.8,8,6
 NMC261Y0,NMC,ARTSC,Field Archaeology NMC261Y0-F-LEC3001,Graham,Andrew,Summer,2018,4.7,4.7,3,3.6,3.7,4,3.5,3.2,4.8,8,6
 NMC277H1,NMC,ARTSC,Topics in Near&ME Civilization NMC277H1-S-LEC9901,Porter,Anne,Summer,2018,4.1,4.1,4.1,3.9,4,3.8,4.5,3.1,3.6,72,29
@@ -233,12 +234,26 @@ NMC477H1,NMC,ARTSC,Modern Turkey Hist NMC477H1-F-LEC0101,Methodieva,Milena,Fall,
 NMC479H1,NMC,ARTSC,Arab Nationalism NMC479H1-F-LEC0101,Reilly,James,Fall,2014,4.5,4.8,4.3,4.5,4.8,4.5,4.3,3,4.8,12,5
 NML260Y1,NMC,ARTSC,Intro Persian NML260Y1-Y-LEC0101,Hojatollah Taleghani,Azita,Fall,2014,4.5,4.3,4.1,4.4,4.6,4.3,4.6,3.5,4.5,24,9
 NML463H1,NMC,ARTSC,Struc Dev Iranian Lang NML463H1-F-LEC0101,Hojatollah Taleghani,Azita,Fall,2014,4.7,4.7,5,4.7,4.2,4.7,4.7,3.3,4.7,26,6
+NMC364H1,NMC-ARTSC,ARTSC,Archaeology of Syria NMC364H1-F-LEC0101,Porter,Anne,Fall,2019,4.8,4.8,4.6,4.6,4.2,4.2,4.8,3.6,4.4,11,5
+NMC468H1,NMC-ARTSC,ARTSC,Egypt Arch Seminar II NMC468H1-F-LEC0101,Pouls Wegner,Mary,Fall,2019,4.7,4.7,4.7,4.7,4.7,4.9,4.7,3.7,4.7,11,7
+NMC278H1,NMC-ARTSC,ARTSC,Intro Mod Mid East NMC278H1-F-LEC0101,Reilly,James,Fall,2019,4.4,4.6,4.8,4.4,4.4,4.4,4.6,3.1,4.6,37,20
+NMC103H1,NMC-ARTSC,ARTSC,Islamic World NMC103H1-F-LEC0101,Nejatie,Sajjad,Fall,2019,3.7,4.0,3.5,3.6,3.6,3.2,3.5,3.8,3.0,40,26
+NMC101H1,NMC-ARTSC,ARTSC,Land of the Pharaohs NMC101H1-F-LEC0101,Hutchinson,Amber,Fall,2019,3.5,3.9,3.5,3.3,3.3,3.2,3.6,3.1,3.4,78,31
+NMC196H1,NMC-ARTSC,ARTSC,Law & Order in ANE NMC196H1-F-LEC0101,Porter,Anne,Fall,2019,4.2,4.3,4.1,3.8,4.0,3.9,4.5,3.5,3.6,20,16
+NMC259H1,NMC-ARTSC,ARTSC,Lit of Ancient Iran NMC259H1-F-LEC0101,Andres Toledo,Miguel,Fall,2019,4.8,5.0,5.0,5.0,4.8,5.0,5.0,3.4,5.0,8,5
+NMC270H1,NMC-ARTSC,ARTSC,Mid East Christians NMC270H1-F-LEC0101,Harrak,Amir,Fall,2019,3.8,4.1,4.1,4.0,4.1,3.8,4.2,2.7,3.8,33,14
+NMC197H1,NMC-ARTSC,ARTSC,Myth and History in the Bible NMC197H1-F-LEC0101,Holmstedt,Robert,Fall,2019,3.8,4.5,4.4,2.8,3.4,3.6,4.2,3.6,3.6,19,7
+NMC246H1,NMC-ARTSC,ARTSC,Sumerian & Babylonian Lit trns NMC246H1-F-LEC0101,Baker,Heather,Fall,2019,4.6,4.8,5.0,4.6,4.6,4.8,5.0,3.0,4.6,9,5
+NMC243H1,NMC-ARTSC,ARTSC,The Arabic Novel NMC243H1-F-LEC0101,Bahoora,Haytham,Fall,2019,4.4,4.3,5.0,4.7,4.7,4.7,4.9,3.4,4.7,18,7
+NMC264H1,NMC-ARTSC,ARTSC,The Archaeology of Stuff NMC264H1-F-LEC5101,Mason,Robert,Fall,2019,3.8,3.9,4.4,3.5,3.5,3.5,4.3,2.4,3.5,50,14
+NMC104H1,NMC-ARTSC,ARTSC,The Biblical World NMC104H1-F-LEC0101,Hare,Laura,Fall,2019,3.9,4.0,4.0,4.1,3.9,3.7,4.2,3.1,3.2,14,9
+NMC251H1,NMC-ARTSC,ARTSC,Voices from Ancient Egypt NMC251H1-F-LEC0101,Goebs,Katja,Fall,2019,3.8,4.5,3.6,4.1,3.7,3.5,4.4,3.1,3.5,35,8
 NMC471H1,NMC-ARTSC,ARTSC,Adv Topics in Near & ME Civ NMC471H1-F-LEC5101,Ali,Adam,Summer,2019,4.4,4.7,4.7,4.1,4.3,4.4,4.7,4.1,4.4,14,7
 NMC260H1,NMC-ARTSC,ARTSC,Ancient Near East Prehistory NMC260H1-F-LEC9901,Porter,Anne,Summer,2019,3.8,3.6,3.6,3.7,3.6,3.5,3.7,2.4,3.8,41,13
-NMC277H1,NMC-ARTSC,ARTSC,Topics in Near&ME Civilization NMC277H1-F-LEC9901,Porter,Anne,Summer,2019,4.4,4.6,4.6,4.0,4.2,4.1,4.7,2.6,4.3,46,9
+NMC277H1,NMC-ARTSC,ARTSC,Topics in Near&ME Civilization NMC277H1-F-LEC9901,Porter,Anne,Summer,2019,4.4,4.6,4.6,4,4.2,4.1,4.7,2.6,4.3,46,9
 NMC471H1,NMC-ARTSC,ARTSC,Adv Topics in Near & ME Civ NMC471H1-S-LEC0101,Ali,Adam,Summer,2019,4.8,4.8,4.9,4.4,4.6,4.7,4.7,3.7,4.6,13,9
-NMC261Y0,NMC-ARTSC,ARTSC,Field Archaeology NMC261Y0-F-LEC3001,Abujayyab,Ahmedkhaled,Summer,2019,4.4,4.2,4.4,4.2,4.0,4.4,4.4,3.0,4.2,10,5
-NMC261Y0,NMC-ARTSC,ARTSC,Field Archaeology NMC261Y0-F-LEC3001,Batiuk,Stephen,Summer,2019,4.4,4.2,4.4,4.2,4.0,4.4,4.0,3.0,4.2,10,5
+NMC261Y0,NMC-ARTSC,ARTSC,Field Archaeology NMC261Y0-F-LEC3001,Abujayyab,Ahmedkhaled,Summer,2019,4.4,4.2,4.4,4.2,4,4.4,4.4,3,4.2,10,5
+NMC261Y0,NMC-ARTSC,ARTSC,Field Archaeology NMC261Y0-F-LEC3001,Batiuk,Stephen,Summer,2019,4.4,4.2,4.4,4.2,4,4.4,4,3,4.2,10,5
 NML110Y1,NMC-ARTSC,ARTSC,Elementary Arabic NML110Y1-Y-LEC0101,Ali,Abdel-Khalig,Winter,2019,4.54,4.8,4.7,4.5,4.5,4.3,4.5,3.7,4.4,23,13
 NML210Y1,NMC-ARTSC,ARTSC,Inter Arabic I NML210Y1-Y-LEC0101,Ali,Abdel-Khalig,Winter,2019,4.5,4.5,4.4,4.3,4.3,4.3,4.8,4,4,23,8
 NMC316H1,NMC-ARTSC,ARTSC,Cultural Enc. Arabic Narrative NMC316H1-S-LEC0101,Bahoora,Haytham,Winter,2019,4.4,3.8,4.4,4.2,4.2,4.2,4.3,2.8,4.4,6,5

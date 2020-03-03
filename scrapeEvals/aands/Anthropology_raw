@@ -1,3 +1,4 @@
+Code,Dept,Division,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Instructor generated enthusiasm,Course Workload,I would recommend this course,Number of Students Invited,Number of Respondents
 ANT349H1,ANT,ARTSC,Ant & New Technologies ANT349H1-S-LEC0101,Visan,Laura,Summer,2018,4.4,4.8,4.7,4.3,4.4,4.4,4.3,3,4.5,34,12
 ARH306Y1,ANT,ARTSC,Arch Field Methods ARH306Y1-Y-LEC0101,Duffy,Paul,Summer,2018,4.6,4.8,4.6,3.8,4,4.2,4.6,3.2,4.2,14,5
 ARH306Y1,ANT,ARTSC,Arch Field Methods ARH306Y1-Y-LEC0101,Stewart,Sarah,Summer,2018,4.6,4.8,4.4,3.8,4,4.2,4.2,3.2,4.2,14,5
@@ -382,9 +383,31 @@ ANT475H1,ANT,ARTSC,Reading Ethnography ANT475H1-F-LEC0101,Napolitano,Valentina,F
 ANT476H1,ANT,ARTSC,Body Self & Sociality ANT476H1-F-LEC0101,Boddy,Janice,Fall,2014,4.9,4.5,4.8,4.3,4.8,4.6,4.4,3.9,4.5,11,8
 ANT486H1,ANT,ARTSC,Socio-Cult Rsch Sem ANT486H1-F-LEC5101,Wardlow,Holly,Fall,2014,5,5,5,5,5,4.9,5,3.4,5,20,10
 ARH305H1,ANT,ARTSC,Archaeological Inter ARH305H1-F-LEC0101,Coupland,Gary,Fall,2014,4.1,4.3,4,4.3,4.4,4,4.1,3.4,4.1,47,30
-ANT348H1,ANT-ARTSC,ARTSC,Medical Anthro: Socio-Cultural ANT348H1-F-LEC0101,Maxwell,Krista,Summer,2019,4.2,4.2,4.2,4.0,4.1,3.9,4.4,3.6,4.1,18,13
-ANT346H1,ANT-ARTSC,ARTSC,Anthropology of Food ANT346H1-F-LEC5101,Clark,Dylan,Summer,2019,4.3,4.4,4.4,3.7,3.9,4.0,4.8,3.4,4.1,51,18
-ANT100Y1,ANT-ARTSC,ARTSC,Intro Anthropology ANT100Y1-Y-LEC5101 (A),Lehman,Shawn,Summer,2019,3.9,3.9,4.0,3.4,3.5,3.5,4.3,3.1,3.5,62,15
+ANT320H1,ANT-ARTSC,ARTSC,Anc Cultures of Andes ANT320H1-F-LEC0101,Swenson,Edward,Fall,2019,4.7,4.9,4.3,4.6,4.7,4.6,4.8,3.9,4.1,19,9
+ANT340H1,ANT-ARTSC,ARTSC,Ant of Latin America ANT340H1-F-LEC0101,Moore,Hollis,Fall,2019,3.9,4.5,3.9,3.4,3.5,3.5,3.9,3.8,3.5,26,15
+ANT457H1,ANT-ARTSC,ARTSC,Ant of Material Cult ANT457H1-F-LEC0101,Forni,Silvia,Fall,2019,4.4,4.4,4.6,4.6,4.9,4.3,4.7,3.6,4.1,15,7
+ARH305H1,ANT-ARTSC,ARTSC,Archaeological Inter ARH305H1-F-LEC0101,Coupland,Gary,Fall,2019,4.4,4.6,4.6,4.6,4.5,4.4,4.7,3.3,4.2,47,18
+ANT207H1,ANT-ARTSC,ARTSC,Core Concepts Social ANT207H1-F-LEC0101,Moore,Hollis,Fall,2019,4.2,4.4,4.3,4.2,4.3,4.0,4.5,3.6,4.0,153,113
+ANT372H1,ANT-ARTSC,ARTSC,Cultural Property ANT372H1-F-LEC0101,Krmpotich,Cara,Fall,2019,4.8,4.9,4.9,4.7,4.7,4.8,5.0,3.0,4.8,55,17
+ANT485H1,ANT-ARTSC,ARTSC,Emerging Schol Scl ANT485H1-F-LEC0101,Liu,Jing,Fall,2019,4.5,4.5,4.5,4.6,4.7,4.5,4.7,3.1,4.5,16,13
+ANT473H1,ANT-ARTSC,ARTSC,Ethnographic Pra: University ANT473H1-F-LEC0101,Li,Tania,Fall,2019,4.6,4.6,4.3,4.4,4.7,4.2,4.4,3.3,4.4,11,10
+ANT345H1,ANT-ARTSC,ARTSC,Glob Hlth Anth Persp ANT345H1-F-LEC0101,Wardlow,Holly,Fall,2019,4.8,4.9,4.7,4.4,4.4,4.5,4.8,3.4,4.6,56,25
+ANT335Y1,ANT-ARTSC,ARTSC,Human Evolution ANT335Y1-F-LEC0101,Begun,David,Fall,2019,4.4,4.2,3.8,3.3,3.5,3.5,3.9,3.1,3.8,38,12
+ANT200Y1,ANT-ARTSC,ARTSC,Intro Archaeology ANT200Y1-Y-LEC0101,Chazan,Michael,Fall,2019,3.7,4.1,3.6,4.2,4.0,3.6,3.9,3.5,3.7,119,40
+ANT329H1,ANT-ARTSC,ARTSC,Lang Power Structure ANT329H1-F-LEC0101,Luong,Hy,Fall,2019,4.1,3.9,3.7,3.7,4.0,3.5,3.6,3.1,3.8,36,14
+ANT253H1,ANT-ARTSC,ARTSC,Language & Society ANT253H1-F-LEC5101,Danesi,Marcel,Fall,2019,4.2,4.3,4.5,4.2,4.2,4.3,4.7,2.6,4.3,460,116
+ANT199H1,ANT-ARTSC,ARTSC,Living on the Water in Toronto ANT199H1-F-LEC0101,McElhinny,Bonnie,Fall,2019,3.8,4.3,4.3,3.8,4.0,3.8,4.0,3.2,3.7,18,6
+ANT203Y1,ANT-ARTSC,ARTSC,Nature of Humans ANT203Y1-Y-LEC5101,Cameron,Michelle,Fall,2019,4.3,4.2,4.5,4.0,4.0,4.2,4.7,2.6,4.2,102,56
+ANT430H1,ANT-ARTSC,ARTSC,Primate Cons Biology ANT430H1-F-LEC0101,Lehman,Shawn,Fall,2019,4.6,4.6,4.4,4.2,4.3,4.1,4.6,2.9,4.5,18,11
+ANT475H1,ANT-ARTSC,ARTSC,Reading Ethnography ANT475H1-F-LEC0101,Mittermaier,Amira,Fall,2019,4.8,4.7,4.8,4.7,4.6,4.3,5.0,3.8,4.7,17,6
+ANT197H1,ANT-ARTSC,ARTSC,Represent of Intellectuals ANT197H1-F-LEC0101,Song,Jesook,Fall,2019,2.6,2.1,1.9,2.9,3.2,1.9,2.3,2.7,1.7,19,9
+ANT374H1,ANT-ARTSC,ARTSC,Rethink Development ANT374H1-F-LEC0101,Li,Tania,Fall,2019,4.5,4.7,4.6,4.4,4.3,4.3,4.5,3.5,4.4,32,23
+ANT480H1,ANT-ARTSC,ARTSC,Special Topics ANT480H1-F-LEC0101,Chazan,Michael,Fall,2019,5.0,4.6,5.0,5.0,5.0,5.0,5.0,2.8,5.0,13,5
+ANT362H1,ANT-ARTSC,ARTSC,Sports and Play ANT362H1-F-LEC0101,Dave,Prakruti,Fall,2019,4.7,4.6,4.9,4.7,4.6,4.7,5.0,3.9,4.6,34,7
+ANT426H1,ANT-ARTSC,ARTSC,West Views of Non-West ANT426H1-F-LEC0101,Kalmar,Ivan,Fall,2019,4.3,4.3,4.3,4.1,4.3,4.1,4.3,3.1,4.4,16,16
+ANT348H1,ANT-ARTSC,ARTSC,Medical Anthro: Socio-Cultural ANT348H1-F-LEC0101,Maxwell,Krista,Summer,2019,4.2,4.2,4.2,4,4.1,3.9,4.4,3.6,4.1,18,13
+ANT346H1,ANT-ARTSC,ARTSC,Anthropology of Food ANT346H1-F-LEC5101,Clark,Dylan,Summer,2019,4.3,4.4,4.4,3.7,3.9,4,4.8,3.4,4.1,51,18
+ANT100Y1,ANT-ARTSC,ARTSC,Intro Anthropology ANT100Y1-Y-LEC5101 (A),Lehman,Shawn,Summer,2019,3.9,3.9,4,3.4,3.5,3.5,4.3,3.1,3.5,62,15
 ANT253H1,ANT-ARTSC,ARTSC,Language & Society ANT253H1-S-LEC0101,Danesi,Marcel,Summer,2019,3.7,3.9,3.9,3.7,3.7,3.6,4.1,2.8,3.7,146,29
 ANT434H1,ANT-ARTSC,ARTSC,Health  Diet & Dis ANT434H1-S-LEC0101,Cameron,Michelle,Winter,2019,4.81,4.8,4.9,4.6,4.6,4.8,4.9,3.4,4.8,21,16
 ANT412H1,ANT-ARTSC,ARTSC,Historical Archaeology ANT412H1-S-LEC0101,Cipolla,Craig,Winter,2019,4.5,4.7,4.8,4.5,4.8,4.7,5,3.2,4.5,17,6

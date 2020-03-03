@@ -1,3 +1,4 @@
+Code,Dept,Division,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Instructor generated enthusiasm,Course Workload,I would recommend this course,Number of Students Invited,Number of Respondents
 DTS200Y1,DTS,ARTSC,Intro Diaspora Trans'l DTS200Y1-Y-LEC0101,O'Neill,Kevin,Winter,2018,4.5,4.5,4.7,4.3,4.5,4.5,4.7,3.1,4.6,118,33
 DTS300H1,DTS,ARTSC,Quantative & Qualitative Reaso DTS300H1-S-LEC0101,O'Neill,Kevin,Winter,2018,4.5,4.4,4.6,4.5,4.6,4.3,4.7,2.9,4.3,56,18
 DTS402H1,DTS,ARTSC,Adv Topics Diaspora DTS402H1-S-LEC0101,Ray,Reeju,Winter,2018,3.2,3,3,3.4,3.3,2.9,2.7,3.1,2.5,25,12
@@ -45,6 +46,9 @@ DTS200Y1,DTS,ARTSC,Intro Diaspora Trans'l DTS200Y1-LEC0101 (ARHIN),Arhin,Antonel
 DTS200Y1,DTS,ARTSC,Intro Diaspora Trans'l DTS200Y1-LEC0101 (SHTERNSHIS),Shternshis,Anna,Summer,2014,4.3,4.4,4.6,4.1,4.4,4.3,4.3,3.9,4.4,30,7
 DTS402H1,DTS,ARTSC,Adv Topics Diaspora DTS402H1-F-LEC0101,O'Neill,Kevin,Fall,2014,4.2,4.4,4.7,4.3,4.1,4.3,4.7,3.1,4.5,27,16
 DTS405H1,DTS,ARTSC,Adv Topics Diaspora DTS405H1-F-LEC0101,Arhin,Antonela,Fall,2014,4.5,4.8,4.5,4.6,4.5,4.5,4.7,3.7,4.5,25,18
+DTS401H1,DTS-ARTSC,ARTSC,Adv Topics Diaspora DTS401H1-F-LEC0101,Sammons,Edward,Fall,2019,4.9,4.8,4.8,4.4,4.5,4.5,4.9,4.3,4.6,21,8
+DTS200Y1,DTS-ARTSC,ARTSC,Intro Diaspora Trans'l DTS200Y1-Y-LEC0101,O'Neill,Kevin,Fall,2019,4.5,4.5,4.8,4.2,4.4,4.3,4.9,2.9,4.3,119,44
+DTS300H1,DTS-ARTSC,ARTSC,Quan. and Qual. Reasoning DTS300H1-F-LEC0101,O'Neill,Kevin,Fall,2019,4.6,4.6,4.7,4.7,4.6,4.5,4.9,2.9,4.6,73,35
 DTS200Y1,DTS-ARTSC,ARTSC,Intro Diaspora Trans'l DTS200Y1-F-LEC0101,Shternshis,Anna,Summer,2019,4.7,4.8,4.8,4.8,4.8,4.8,4.7,3.3,4.9,24,9
 DTS403H1,DTS-ARTSC,ARTSC,Adv Topics Diaspora DTS403H1-S-LEC5101,MacDonald,Ken,Winter,2019,4,3.8,3.8,3.6,3.8,3.3,4.1,3.1,3.6,27,8
 DTS200Y1,DTS-ARTSC,ARTSC,Intro Diaspora Trans'l DTS200Y1-Y-LEC0101,O'Neill,Kevin,Winter,2019,4.38,4.5,4.7,4.2,4.1,4.2,4.9,2.9,4.4,86,26

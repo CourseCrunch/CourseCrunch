@@ -1,3 +1,4 @@
+Code,Dept,Division,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Instructor generated enthusiasm,Course Workload,I would recommend this course,Number of Students Invited,Number of Respondents
 ITA358Y0,ITA,ARTSC,Modern Italian Culture ITA358Y0-S-LEC3001,Lettieri,Michael,Summer,2018,4.8,4.9,5,4.9,4.9,5,5,2.8,5,20,16
 ITA100Y1,ITA,ARTSC,Intro Italian Lang ITA100Y1-Y-LEC5101,Grimaldi,Adriana,Summer,2018,4.6,5,4.7,4.6,4.4,4.4,4.6,3.4,4.3,15,7
 ITA311H1,ITA,ARTSC,Med Ital Lit Dante ITA311H1-S-LEC5101,Pietropaolo,Domenico,Summer,2018,4.6,4.8,4.6,4.3,4.1,4.4,4.4,3.1,4.4,22,8
@@ -230,8 +231,20 @@ ITA340H1,ITA,ARTSC,Neorealist Cinema I ITA340H1-F-LEC0101,Zhang,Gaoheng,Fall,201
 ITA348H1,ITA,ARTSC,Mass Media in Italy ITA348H1-F-LEC0101,Guardiani,Francesco,Fall,2014,3.8,3.8,4.2,4,4.3,3.7,4.2,2.8,4.2,20,6
 ITA350Y1,ITA,ARTSC,Language Practice I ITA350Y1-Y-LEC5101,Scarci,Manuela,Fall,2014,3.9,4,4.1,4.1,4.3,3.8,4.3,3.3,3.9,19,9
 ITA380H1,ITA,ARTSC,Prose of the World ITA380H1-F-LEC0101,Somigli,Luca,Fall,2014,3.8,4.3,4.3,4.2,4.5,3.8,4.2,3.3,4,11,6
-ITA100Y1,ITA-ARTSC,ARTSC,Intro Italian Lang ITA100Y1-Y-LEC5101,Grimaldi,Adriana,Summer,2019,4.8,4.8,5.0,5.0,5.0,5.0,4.8,3.2,4.8,20,6
-ITA358Y0,ITA-ARTSC,ARTSC,Modern Italian Culture ITA358Y0-S-LEC3001,Lettieri,Michael,Summer,2019,4.7,4.8,5.0,4.9,4.9,4.9,5.0,2.6,5.0,25,16
+ITA320H1,ITA-ARTSC,ARTSC,Divine Comedy ITA320H1-F-LEC0101,Brilli,Elisa,Fall,2019,4.6,4.6,4.6,4.4,4.5,4.3,4.6,3.0,4.4,24,16
+ITA240Y1,ITA-ARTSC,ARTSC,His Italian Cinema ITA240Y1-Y-LEC0101,Laudadio,Daniele,Fall,2019,4.3,4.5,4.5,4.3,4.4,4.3,4.7,3.2,4.3,11,6
+ITA100Y1,ITA-ARTSC,ARTSC,Intro Italian Lang ITA100Y1-Y-LEC0101,Bocchi,Gianmarco,Fall,2019,4.4,4.5,4.8,4.3,4.4,4.5,4.8,3.2,4.5,20,10
+ITA100Y1,ITA-ARTSC,ARTSC,Intro Italian Lang ITA100Y1-Y-LEC0401,Aletta,Alessio,Fall,2019,4.6,4.6,4.8,4.9,5.0,4.3,4.9,2.9,4.5,14,8
+ITA100Y1,ITA-ARTSC,ARTSC,Intro Italian Lang ITA100Y1-Y-LEC0701,Jamali,Mohammad,Fall,2019,4.8,4.8,5.0,4.8,5.0,4.8,4.8,2.8,4.2,14,5
+ITA100Y1,ITA-ARTSC,ARTSC,Intro Italian Lang ITA100Y1-Y-LEC5101,Arancibia,Pamela,Fall,2019,4.4,4.9,4.9,5.0,5.0,4.5,4.9,3.5,4.7,27,10
+ITA100Y1,ITA-ARTSC,ARTSC,Intro Italian Lang ITA100Y1-Y-LEC5102,Frasca,Paolo,Fall,2019,4.7,4.9,5.0,4.6,4.8,4.9,5.0,3.0,4.3,18,12
+ITA100Y1,ITA-ARTSC,ARTSC,Intro Italian Lang ITA100Y1-Y-LEC5202,Carraro,Elisabetta,Fall,2019,4.8,5.0,5.0,5.0,4.9,5.0,5.0,2.8,4.8,15,12
+ITA433H1,ITA-ARTSC,ARTSC,Italian in Toronto ITA433H1-F-LEC0101,Pierno,Franco,Fall,2019,4.7,4.7,4.9,4.7,4.9,4.7,5.0,2.6,4.9,14,7
+ITA332H1,ITA-ARTSC,ARTSC,Love in Renaissance ITA332H1-F-LEC0101,Scarci,Manuela,Fall,2019,4.0,4.1,4.1,4.0,3.9,4.1,4.2,3.3,4.0,36,14
+ITA198H1,ITA-ARTSC,ARTSC,Machiavelli & Machiavellianism ITA198H1-F-LEC0101,Scarci,Manuela,Fall,2019,4.9,4.9,4.1,3.7,3.9,4.1,4.7,2.9,4.1,20,7
+ITA378H1,ITA-ARTSC,ARTSC,Topics in Italian Studies ITA378H1-F-LEC0101,Parasiliti,Andrea,Fall,2019,3.7,3.7,4.0,3.8,3.8,3.8,4.4,3.2,3.7,25,12
+ITA100Y1,ITA-ARTSC,ARTSC,Intro Italian Lang ITA100Y1-Y-LEC5101,Grimaldi,Adriana,Summer,2019,4.8,4.8,5,5,5,5,4.8,3.2,4.8,20,6
+ITA358Y0,ITA-ARTSC,ARTSC,Modern Italian Culture ITA358Y0-S-LEC3001,Lettieri,Michael,Summer,2019,4.7,4.8,5,4.9,4.9,4.9,5,2.6,5,25,16
 ITA100Y1,ITA-ARTSC,ARTSC,Intro Italian Lang ITA100Y1-Y-LEC5203,Aletta,Alessio,Winter,2019,4.29,4.1,3.3,3.3,3.3,3,3,3.3,3.3,20,7
 ITA100Y1,ITA-ARTSC,ARTSC,Intro Italian Lang ITA100Y1-Y-LEC5202,Arancibia,Pamela,Winter,2019,3.2,3.8,4,3.8,3.8,3.8,4.4,3.2,3.6,19,5
 ITA100Y1,ITA-ARTSC,ARTSC,Intro Italian Lang ITA100Y1-Y-LEC0101,Bocchi,Gianmarco,Winter,2019,4.29,4.6,4.6,4.4,4.3,4.1,4.9,3.1,4.3,23,7

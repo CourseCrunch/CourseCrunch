@@ -1,3 +1,4 @@
+Code,Dept,Division,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Instructor generated enthusiasm,Course Workload,I would recommend this course,Number of Students Invited,Number of Respondents
 SLA101H1,SLA,ARTSC,Elementary Russian II SLA101H1-S-LEC0101,Aulen,Amber,Winter,2018,4.4,4.7,4.6,4.6,4.6,4.4,4.7,4,4.7,13,7
 SLA102H1,SLA,ARTSC,UKR & Rus Civilizat SLA102H1-S-LEC0101,Koznarsky,Taras,Winter,2018,3.4,3.9,3.6,4,4,3.3,3.8,2.9,3.4,31,15
 SLA104H1,SLA,ARTSC,Mediterranean Cities SLA104H1-S-LEC0101,Zima,Dubravka,Winter,2018,2.9,3.2,3.5,3.8,3.7,3.2,3.4,2.3,3.1,54,22
@@ -221,6 +222,16 @@ SLA314H1,SLA,ARTSC,Dostoevsky SLA314H1-F-LEC0101,Holland,Kate,Fall,2014,4.6,4.9,
 SLA318H1,SLA,ARTSC,City of Saints Sinners SLA318H1-F-LEC0101,Koznarsky,Taras,Fall,2014,4.3,4.6,4.4,4.4,4.3,4.4,4.5,3.1,4.1,18,10
 SLA406H1,SLA,ARTSC,Devel Polish Drama SLA406H1-F-LEC0101,Trojanowska,Tamara,Fall,2014,4.3,4.6,4.7,4.7,4.4,4.1,4.9,3.6,4.1,11,8
 SLA426H1,SLA,ARTSC,Polish for the 21st C SLA426H1-F-LEC0101,Sicinski,Lukasz,Fall,2014,4.8,4.6,5,5,5,4.8,5,2.8,4.8,6,5
+SLA247H1,SLA-ARTSC,ARTSC,(Post) Yugoslav Cinema SLA247H1-F-LEC0101,Obradovic,Dragana,Fall,2019,4.8,4.8,5.0,4.8,5.0,4.8,5.0,3.2,4.2,9,5
+SLA346H1,SLA-ARTSC,ARTSC,Communism and Culture SLA346H1-F-LEC0101,Jezyk,Agnieszka,Fall,2019,4.2,4.4,4.6,4.3,4.4,4.2,4.4,3.1,4.1,17,9
+SLA268H1,SLA-ARTSC,ARTSC,Cossacks! SLA268H1-F-LEC0101,Tarnawsky,Maxim,Fall,2019,4.4,4.9,4.9,4.6,4.8,4.7,4.7,3.1,4.6,20,9
+SLA215H1,SLA-ARTSC,ARTSC,Czech Slovak Culture SLA215H1-F-LEC0101,Petrov,Ana,Fall,2019,4.3,4.4,4.9,4.4,4.9,4.6,4.9,2.8,4.9,10,8
+SLA100H1,SLA-ARTSC,ARTSC,Elementary Russian I SLA100H1-F-LEC0101,Kirk,Barnabas,Fall,2019,4.6,4.7,4.8,4.7,4.7,4.5,4.8,3.6,4.6,24,11
+SLA100H1,SLA-ARTSC,ARTSC,Elementary Russian I SLA100H1-F-LEC5101,Boyer,Braxton,Fall,2019,4.8,5.0,4.9,5.0,4.8,4.8,5.0,3.3,4.8,18,8
+SLA216H1,SLA-ARTSC,ARTSC,Intro to Polish Culture SLA216H1-F-LEC0101,Jezyk,Agnieszka,Fall,2019,4.2,4.6,4.4,5.0,5.0,4.2,4.6,3.2,4.2,6,5
+SLA195H1,SLA-ARTSC,ARTSC,Lit & Painting in Rus & West SLA195H1-F-LEC0101,Smolyarova,Tatiana,Fall,2019,4.5,4.7,5.0,4.7,4.7,4.8,5.0,2.8,5.0,9,6
+SLA227H1,SLA-ARTSC,ARTSC,South Slavic Lit SLA227H1-F-LEC0101,Obradovic,Dragana,Fall,2019,4.8,4.8,4.8,4.4,4.6,4.6,4.8,3.8,4.2,8,5
+SLA317H1,SLA-ARTSC,ARTSC,Tolstoy SLA317H1-F-LEC0101,Orwin,Donna,Fall,2019,4.7,4.8,4.7,4.2,4.2,4.7,4.8,3.6,4.6,23,10
 SLA208Y1,SLA-ARTSC,ARTSC,Intermed Ukrainian SLA208Y1-Y-LEC5101,Averbuch,Alexander,Winter,2019,4.33,4.7,4.7,4.5,4.3,4.5,4.6,3,4.8,6,6
 SLA101H1,SLA-ARTSC,ARTSC,Elementary Russian II SLA101H1-S-LEC5101,Dzhyoyeva,Mariya,Winter,2019,3.67,3.4,3.2,3.8,3.3,3.2,3.5,3.3,3.7,19,7
 SLA280H1,SLA-ARTSC,ARTSC,Russian Asia SLA280H1-S-LEC0101,Franz,Marisa,Winter,2019,4.33,4.5,4.5,4.4,4.4,4.4,4.7,3,4.3,18,12

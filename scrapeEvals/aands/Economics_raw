@@ -1,3 +1,4 @@
+Code,Dept,Division,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Instructor generated enthusiasm,Course Workload,I would recommend this course,Number of Students Invited,Number of Respondents
 ECO375H1,ECO,ARTSC,Applied Econometrics I ECO375H1-S-LEC0101,Burda,Martin,Summer,2018,4,4.4,4.5,4.3,4,3.4,3.6,3.3,3.8,26,8
 ECO316H1,ECO,ARTSC,Applied Game Theory ECO316H1-S-LEC0101,Dobronyi,Christopher,Summer,2018,4.3,4.2,4.5,4.1,4.2,3.9,4.6,3.5,3.4,49,23
 ECO320H1,ECO,ARTSC,Eco Anlysis of Law ECO320H1-S-LEC0101,Barber,Robert,Summer,2018,4.1,3.9,3.3,3.5,3.4,3.5,3.6,3.2,3.4,77,16
@@ -816,32 +817,80 @@ ECO425H1,ECO,ARTSC,Business Cycles ECO425H1-F-LEC0101,Alexopoulos,Michelle,Fall,
 ECO428H1,ECO,ARTSC,Classical Eco Thought ECO428H1-F-LEC0101,Furlong,Kieran,Fall,2014,4.4,4.6,4.5,4.1,4.3,4.1,4.1,3,3.8,34,9
 ECO464H1,ECO,ARTSC,Empirical Fin Econ ECO464H1-F-LEC0101,Cziraki,Peter,Fall,2014,4.4,4.4,4.6,3.7,3.9,3.7,4.5,4.1,4.3,8,7
 ECO475H1,ECO,ARTSC,Applied Econometrics II ECO475H1-F-LEC0101,Suzuki,Junichi,Fall,2014,4.4,4.7,4.4,4.7,4.7,4.1,4.1,4.3,4,12,7
-ECO375H1,ECO-ARTSC,ARTSC,Applied Econometrics I ECO375H1-F-LEC0101,Burda,Martin,Summer,2019,3.9,4.3,3.9,4.1,4.0,4.1,3.7,3.4,4.0,42,11
+ECO326H1,ECO-ARTSC,ARTSC,Adv Micro  Game theory ECO326H1-F-LEC5101,Peski,Marcin,Fall,2019,4.8,4.9,4.7,4.6,4.3,4.5,4.8,3.5,4.5,65,16
+ECO375H1,ECO-ARTSC,ARTSC,Applied Econometrics I ECO375H1-F-LEC0101,Souza Rodrigues,Eduardo,Fall,2019,4.5,4.5,4.6,4.4,4.4,4.3,4.6,3.9,4.3,135,39
+ECO316H1,ECO-ARTSC,ARTSC,Applied Game Theory ECO316H1-F-LEC5101,Hoelzemann,Johannes,Fall,2019,4.1,4.1,4.0,3.7,3.6,3.7,4.1,3.4,3.4,107,66
+ECO331H1,ECO-ARTSC,ARTSC,Behavioural Economics ECO331H1-F-LEC0101,McNeill,John,Fall,2019,4.2,4.3,4.3,4.1,4.1,4.0,4.5,3.4,4.1,79,56
+ECO331H1,ECO-ARTSC,ARTSC,Behavioural Economics ECO331H1-F-LEC0201,McNeill,John,Fall,2019,4.5,4.4,4.2,4.1,4.2,4.1,4.3,3.4,4.1,73,34
+ECO321H1,ECO-ARTSC,ARTSC,Can Ec Hist prior to 1850 ECO321H1-F-LEC0101,Hamilton,Gillian,Fall,2019,4.5,4.8,4.8,4.5,4.2,4.3,4.9,3.6,4.4,50,15
+ECO428H1,ECO-ARTSC,ARTSC,Classical Eco Thought ECO428H1-F-LEC0101,Furlong,Kieran,Fall,2019,3.7,3.8,3.4,3.6,3.2,3.4,3.5,4.3,3.1,41,10
+ECO197H1,ECO-ARTSC,ARTSC,Classical Economic Thought ECO197H1-F-LEC0101,Furlong,Kieran,Fall,2019,5.0,4.9,4.9,4.6,4.4,4.3,5.0,3.1,4.4,21,7
+ECO407H1,ECO-ARTSC,ARTSC,Competing Views Macro Theory ECO407H1-F-LEC0101,Indart,Gustavo,Fall,2019,4.6,4.5,4.3,4.2,4.1,4.3,4.1,3.8,3.8,41,10
+ECO372H1,ECO-ARTSC,ARTSC,Data Analysis in Practice ECO372H1-F-LEC0101,Blanchenay,Patrick,Fall,2019,4.0,4.0,3.4,3.6,3.3,3.1,3.8,3.5,3.1,64,31
+ECO372H1,ECO-ARTSC,ARTSC,Data Analysis in Practice ECO372H1-F-LEC0201,Blanchenay,Patrick,Fall,2019,4.2,4.0,3.9,4.5,3.9,4.1,4.4,3.8,3.9,49,15
+ECO199H1,ECO-ARTSC,ARTSC,Eco & Sustainable Development ECO199H1-F-LEC0101,Anjomshoa,Masoud,Fall,2019,4.3,4.0,3.9,3.6,3.9,3.6,4.1,2.8,3.8,20,9
+ECO320H1,ECO-ARTSC,ARTSC,Eco Anlysis of Law ECO320H1-F-LEC0101,Barber,Robert,Fall,2019,3.7,3.9,3.6,3.4,3.5,3.3,4.0,3.4,3.3,112,26
+ECO320H1,ECO-ARTSC,ARTSC,Eco Anlysis of Law ECO320H1-F-LEC0201,Barber,Robert,Fall,2019,3.8,4.0,3.9,3.8,3.7,3.7,3.9,3.0,4.0,106,23
+ECO341H1,ECO-ARTSC,ARTSC,Econ History of 20th Century ECO341H1-F-LEC0101,Cohen,Jon,Fall,2019,4.4,4.7,4.5,4.4,4.4,4.2,4.2,2.9,4.1,38,26
+ECO324H1,ECO-ARTSC,ARTSC,Economic Development ECO324H1-F-LEC0101,Blouin,Arthur,Fall,2019,4.6,4.7,4.5,4.3,4.5,4.3,4.7,3.2,4.1,69,21
+ECO435H1,ECO-ARTSC,ARTSC,Economics Modern China ECO435H1-F-LEC0101,Brandt,Loren,Fall,2019,4.9,5.0,4.9,5.0,5.0,5.0,4.9,4.1,4.1,26,7
+ECO418H1,ECO-ARTSC,ARTSC,Empir Appl Ec Theory ECO418H1-F-LEC0101,Luo,Yao,Fall,2019,4.8,4.6,4.7,4.8,4.6,4.6,4.6,3.8,4.3,12,12
+ECO464H1,ECO-ARTSC,ARTSC,Empirical Financial Economics ECO464H1-F-LEC5101,Cziraki,Peter,Fall,2019,4.7,4.5,4.8,4.5,4.5,4.5,4.8,3.8,4.5,14,6
+ECO310H1,ECO-ARTSC,ARTSC,Empirical Industrial Org ECO310H1-F-LEC0101,Aguirregabiria,Victor,Fall,2019,4.4,4.6,4.4,4.5,4.5,4.3,4.5,3.5,3.7,17,12
+ECO314H1,ECO-ARTSC,ARTSC,Energy & the Environment ECO314H1-F-LEC0101,Yatchew,Adonis,Fall,2019,3.8,3.9,3.7,3.4,3.4,3.4,3.8,3.4,3.6,168,47
+ECO358H1,ECO-ARTSC,ARTSC,Financial Economics I ECO358H1-F-LEC0101,Vellekoop,Nathanael,Fall,2019,3.5,3.5,3.5,3.4,3.3,3.2,3.7,3.5,3.3,123,52
+ECO358H1,ECO-ARTSC,ARTSC,Financial Economics I ECO358H1-F-LEC0301,Vellekoop,Nathanael,Fall,2019,3.7,3.9,3.7,3.6,3.5,3.3,3.7,3.4,3.4,130,68
+ECO358H1,ECO-ARTSC,ARTSC,Financial Economics I ECO358H1-F-LEC5101,Vellekoop,Nathanael,Fall,2019,3.6,3.6,3.3,3.0,3.1,3.0,3.6,3.1,3.2,110,39
+ECO365H1,ECO-ARTSC,ARTSC,Intern Monetary Econ ECO365H1-F-LEC0101,Mondria,Jordi,Fall,2019,4.2,4.2,4.3,4.1,3.9,4.0,4.5,2.9,4.0,162,44
+ECO365H1,ECO-ARTSC,ARTSC,Intern Monetary Econ ECO365H1-F-LEC0201,Mondria,Jordi,Fall,2019,4.2,4.1,4.3,4.1,4.2,4.0,4.4,3.2,4.1,136,32
+ECO419H1,ECO-ARTSC,ARTSC,International Macroeconomics ECO419H1-F-LEC0101,Steinberg,Joseph,Fall,2019,4.6,4.6,4.6,4.6,4.5,4.4,4.6,3.6,4.5,26,12
+ECO364H1,ECO-ARTSC,ARTSC,International Trade ECO364H1-F-LEC0101,Lim,Kevin,Fall,2019,3.9,4.0,4.0,3.9,3.7,3.5,4.2,3.4,3.4,111,54
+ECO364H1,ECO-ARTSC,ARTSC,International Trade ECO364H1-F-LEC0201,Lim,Kevin,Fall,2019,4.0,4.0,4.2,3.9,3.7,3.7,4.3,3.4,3.5,158,64
+ECO339H1,ECO-ARTSC,ARTSC,Labour Economics I ECO339H1-F-LEC0101,Dhuey,Elizabeth,Fall,2019,3.9,4.4,4.5,3.9,4.2,3.9,4.9,3.1,4.2,72,19
+ECO210H1,ECO-ARTSC,ARTSC,Math Meth Eco Theory ECO210H1-F-LEC0101,Osborne,Martin,Fall,2019,4.2,4.0,4.2,4.1,3.9,3.9,4.0,3.2,3.8,23,11
+ECO349H1,ECO-ARTSC,ARTSC,Money  Banking  Financial Mark ECO349H1-F-LEC0101,D'Souza,Christopher,Fall,2019,4.2,4.3,4.3,4.2,4.3,4.1,4.3,3.5,4.0,141,55
+ECO334H1,ECO-ARTSC,ARTSC,Political Economy of Media ECO334H1-F-LEC0101,Halberstam,Yosh,Fall,2019,3.9,3.6,3.7,3.3,3.6,3.4,3.6,3.5,3.2,27,10
+ECO102H1,ECO-ARTSC,ARTSC,Principles of Macroeconomics ECO102H1-F-LEC0101,Indart,Gustavo,Fall,2019,3.9,4.0,3.4,3.6,3.7,3.6,3.6,3.2,3.4,111,19
+ECO101H1,ECO-ARTSC,ARTSC,Principles of Microeconomics ECO101H1-F-LEC0101,Ho,Ho,Fall,2019,3.7,3.9,3.1,3.3,3.1,2.8,3.1,3.5,3.0,390,123
+ECO101H1,ECO-ARTSC,ARTSC,Principles of Microeconomics ECO101H1-F-LEC0201,Pesando,James,Fall,2019,4.5,4.6,4.5,4.1,4.1,4.1,4.6,3.4,4.0,450,175
+ECO101H1,ECO-ARTSC,ARTSC,Principles of Microeconomics ECO101H1-F-LEC0301,Freitas,Kripa,Fall,2019,3.6,3.7,3.2,3.3,3.4,2.9,3.4,3.7,3.0,299,106
+ECO101H1,ECO-ARTSC,ARTSC,Principles of Microeconomics ECO101H1-F-LEC0401,Freitas,Kripa,Fall,2019,3.8,3.9,3.4,3.4,3.6,3.2,3.6,3.4,3.5,377,127
+ECO101H1,ECO-ARTSC,ARTSC,Principles of Microeconomics ECO101H1-F-LEC0501,Ho,Ho,Fall,2019,3.6,3.7,3.0,3.2,3.0,2.8,3.2,3.5,2.8,366,120
+ECO101H1,ECO-ARTSC,ARTSC,Principles of Microeconomics ECO101H1-F-LEC2501,Ho,Ho,Fall,2019,3.7,3.7,3.0,3.4,3.3,2.6,3.0,2.6,2.7,57,10
+ECO101H1,ECO-ARTSC,ARTSC,Principles of Microeconomics ECO101H1-F-LEC5101,Ho,Ho,Fall,2019,3.4,3.5,2.9,3.0,3.0,2.7,3.1,3.4,2.9,327,105
+ECO336H1,ECO-ARTSC,ARTSC,Public Economics ECO336H1-F-LEC0101,Smart,Michael,Fall,2019,4.1,4.1,3.6,3.6,4.0,3.4,3.8,2.9,3.8,20,14
+ECO337H1,ECO-ARTSC,ARTSC,Public Economics for Commerce ECO337H1-F-LEC0101,Smart,Michael,Fall,2019,3.7,3.7,3.4,3.5,3.8,3.2,3.6,2.9,3.3,21,15
+ECO421H1,ECO-ARTSC,ARTSC,Spec Top Eco ECO421H1-F-LEC0101,Halevy,Yoram,Fall,2019,4.2,4.2,4.3,4.3,4.4,4.1,4.5,2.6,3.9,29,20
+ECO403H1,ECO-ARTSC,ARTSC,Top Dev Economics and Policy ECO403H1-F-LEC0101,Blouin,Arthur,Fall,2019,4.9,4.7,4.7,4.5,4.4,4.7,4.9,3.6,4.6,30,7
+ECO403H1,ECO-ARTSC,ARTSC,Top Dev Economics and Policy ECO403H1-F-LEC0201,Bobonis,Gustavo,Fall,2019,4.7,4.6,4.5,4.3,4.2,4.1,4.6,4.1,4.0,23,14
+ECO333H1,ECO-ARTSC,ARTSC,Urban Economics ECO333H1-F-LEC0101,Hall,Jonathan,Fall,2019,4.2,4.4,4.0,3.6,3.6,3.7,4.6,4.0,3.9,69,21
+ECO333H1,ECO-ARTSC,ARTSC,Urban Economics ECO333H1-F-LEC0201,Hall,Jonathan,Fall,2019,4.2,4.4,4.1,3.8,3.9,3.9,4.5,4.0,3.6,69,24
+ECO375H1,ECO-ARTSC,ARTSC,Applied Econometrics I ECO375H1-F-LEC0101,Burda,Martin,Summer,2019,3.9,4.3,3.9,4.1,4,4.1,3.7,3.4,4,42,11
 ECO102H1,ECO-ARTSC,ARTSC,Principles of Macroeconomics ECO102H1-F-LEC0101,Furlong,Kieran,Summer,2019,3.8,3.8,3.6,3.8,3.7,3.4,3.7,2.9,3.4,135,25
 ECO102H1,ECO-ARTSC,ARTSC,Principles of Macroeconomics ECO102H1-F-LEC5101,Furlong,Kieran,Summer,2019,4.2,4.6,4.2,3.8,4.2,3.9,4.3,3.2,4.1,109,13
 ECO101H1,ECO-ARTSC,ARTSC,Principles of Microeconomics ECO101H1-F-LEC0101,Gazzale,Robert,Summer,2019,3.5,4.1,4.4,3.8,3.8,3.8,4.3,3.4,3.3,136,19
-ECO101H1,ECO-ARTSC,ARTSC,Principles of Microeconomics ECO101H1-F-LEC5101,Gazzale,Robert,Summer,2019,4.2,4.4,4.5,4.3,4.0,3.9,4.5,3.8,3.4,68,13
+ECO101H1,ECO-ARTSC,ARTSC,Principles of Microeconomics ECO101H1-F-LEC5101,Gazzale,Robert,Summer,2019,4.2,4.4,4.5,4.3,4,3.9,4.5,3.8,3.4,68,13
 ECO349H1,ECO-ARTSC,ARTSC,Money  Banking  Financial Mark ECO349H1-F-LEC0101,Georgopoulos,George,Summer,2019,4.5,4.4,4.4,4.3,4.2,4.3,4.7,3.1,4.4,88,19
 ECO200Y1,ECO-ARTSC,ARTSC,Microeconomic Theory ECO200Y1-Y-LEC5101 (A),Herzog,Ian,Summer,2019,3.5,3.6,3.6,2.6,2.6,2.8,3.6,3.6,2.9,108,25
-ECO365H1,ECO-ARTSC,ARTSC,Intern Monetary Econ ECO365H1-F-LEC0101,Ho,Ho,Summer,2019,3.2,3.8,3.1,3.2,3.2,3.0,3.1,2.9,3.1,54,10
+ECO365H1,ECO-ARTSC,ARTSC,Intern Monetary Econ ECO365H1-F-LEC0101,Ho,Ho,Summer,2019,3.2,3.8,3.1,3.2,3.2,3,3.1,2.9,3.1,54,10
 ECO407H1,ECO-ARTSC,ARTSC,Competing Views Macro Theory ECO407H1-F-LEC0101,Indart,Gustavo,Summer,2019,4.8,4.8,4.2,4.6,4.6,4.6,4.4,3.2,3.8,25,5
 ECO208Y1,ECO-ARTSC,ARTSC,Macroeconomic Theory ECO208Y1-Y-LEC0101 (A),Leenders,Frank,Summer,2019,4.5,4.8,4.6,4.4,4.6,4.5,4.6,3.1,4.3,36,8
-ECO358H1,ECO-ARTSC,ARTSC,Financial Economics I ECO358H1-F-LEC0101,Mazaheri,Ataollah,Summer,2019,4.3,4.6,4.1,4.0,4.1,4.2,4.4,3.3,4.0,48,15
-ECO313H1,ECO-ARTSC,ARTSC,Environmental Econ & Policies ECO313H1-S-LEC0101,Anjomshoa,Masoud,Summer,2019,3.2,3.6,3.3,2.8,2.6,2.8,4.0,3.2,2.7,47,11
-ECO202Y1,ECO-ARTSC,ARTSC,MacroecTheory Policy ECO202Y1-Y-LEC5101,Anjomshoa,Masoud,Summer,2019,3.5,3.8,3.5,3.5,3.5,3.4,3.5,3.9,3.0,58,13
+ECO358H1,ECO-ARTSC,ARTSC,Financial Economics I ECO358H1-F-LEC0101,Mazaheri,Ataollah,Summer,2019,4.3,4.6,4.1,4,4.1,4.2,4.4,3.3,4,48,15
+ECO313H1,ECO-ARTSC,ARTSC,Environmental Econ & Policies ECO313H1-S-LEC0101,Anjomshoa,Masoud,Summer,2019,3.2,3.6,3.3,2.8,2.6,2.8,4,3.2,2.7,47,11
+ECO202Y1,ECO-ARTSC,ARTSC,MacroecTheory Policy ECO202Y1-Y-LEC5101,Anjomshoa,Masoud,Summer,2019,3.5,3.8,3.5,3.5,3.5,3.4,3.5,3.9,3,58,13
 ECO320H1,ECO-ARTSC,ARTSC,Eco Anlysis of Law ECO320H1-S-LEC0101,Barber,Robert,Summer,2019,3.9,4.1,3.6,3.8,3.7,3.5,3.5,3.3,3.2,82,13
 ECO349H1,ECO-ARTSC,ARTSC,Money  Banking  Financial Mark ECO349H1-S-LEC0101,D'Souza,Christopher,Summer,2019,3.8,3.8,3.9,3.8,3.8,3.8,4.1,3.5,3.9,47,18
-ECO316H1,ECO-ARTSC,ARTSC,Applied Game Theory ECO316H1-S-LEC0101,Hao,Yiran,Summer,2019,4.3,4.3,4.6,4.2,4.1,4.0,4.3,3.0,3.9,31,17
-ECO102H1,ECO-ARTSC,ARTSC,Principles of Macroeconomics ECO102H1-S-LEC0101,Ho,Ho,Summer,2019,3.9,4.0,3.7,3.9,3.7,3.5,3.7,3.0,3.6,180,24
-ECO101H1,ECO-ARTSC,ARTSC,Principles of Microeconomics ECO101H1-S-LEC0101,Ho,Ho,Summer,2019,3.9,4.2,4.2,3.9,3.8,3.8,3.8,3.0,3.9,67,10
-ECO208Y1,ECO-ARTSC,ARTSC,Macroeconomic Theory ECO208Y1-Y-LEC0101 (B),Langlais,Cory,Summer,2019,3.9,4.0,3.4,3.7,3.7,3.4,3.4,3.3,3.7,34,8
-ECO380H1,ECO-ARTSC,ARTSC,Markets  Competition  Strategy ECO380H1-S-LEC0101,Li,Li,Summer,2019,3.6,3.5,3.9,3.8,3.8,3.8,4.0,3.1,3.6,68,8
+ECO316H1,ECO-ARTSC,ARTSC,Applied Game Theory ECO316H1-S-LEC0101,Hao,Yiran,Summer,2019,4.3,4.3,4.6,4.2,4.1,4,4.3,3,3.9,31,17
+ECO102H1,ECO-ARTSC,ARTSC,Principles of Macroeconomics ECO102H1-S-LEC0101,Ho,Ho,Summer,2019,3.9,4,3.7,3.9,3.7,3.5,3.7,3,3.6,180,24
+ECO101H1,ECO-ARTSC,ARTSC,Principles of Microeconomics ECO101H1-S-LEC0101,Ho,Ho,Summer,2019,3.9,4.2,4.2,3.9,3.8,3.8,3.8,3,3.9,67,10
+ECO208Y1,ECO-ARTSC,ARTSC,Macroeconomic Theory ECO208Y1-Y-LEC0101 (B),Langlais,Cory,Summer,2019,3.9,4,3.4,3.7,3.7,3.4,3.4,3.3,3.7,34,8
+ECO380H1,ECO-ARTSC,ARTSC,Markets  Competition  Strategy ECO380H1-S-LEC0101,Li,Li,Summer,2019,3.6,3.5,3.9,3.8,3.8,3.8,4,3.1,3.6,68,8
 ECO200Y1,ECO-ARTSC,ARTSC,Microeconomic Theory ECO200Y1-Y-LEC5101 (B),Masson-Makdissi,Etienne,Summer,2019,3.1,3.3,3.2,2.9,2.8,2.7,3.2,3.6,2.9,98,36
-ECO333H1,ECO-ARTSC,ARTSC,Urban Economics ECO333H1-S-LEC5101,Tomlinson,Peter,Summer,2019,3.7,4.0,3.7,3.7,3.9,3.4,4.1,2.9,3.8,81,10
-ECO206Y1,ECO-ARTSC,ARTSC,Microeconomic Theory ECO206Y1-Y-LEC0101,Turner,Laura,Summer,2019,3.9,3.9,3.6,3.8,4.0,3.6,3.9,3.4,3.7,64,14
+ECO333H1,ECO-ARTSC,ARTSC,Urban Economics ECO333H1-S-LEC5101,Tomlinson,Peter,Summer,2019,3.7,4,3.7,3.7,3.9,3.4,4.1,2.9,3.8,81,10
+ECO206Y1,ECO-ARTSC,ARTSC,Microeconomic Theory ECO206Y1-Y-LEC0101,Turner,Laura,Summer,2019,3.9,3.9,3.6,3.8,4,3.6,3.9,3.4,3.7,64,14
 ECO220Y1,ECO-ARTSC,ARTSC,Quantitative Methods Economics ECO220Y1-Y-LEC0101,Yu,Pui-Man,Summer,2019,2.9,3.3,2.7,2.8,2.9,2.6,2.7,3.4,2.4,65,10
-ECO220Y1,ECO-ARTSC,ARTSC,Quantitative Methods Economics ECO220Y1-Y-LEC0201,Yu,Pui-Man,Summer,2019,3.8,3.4,3.8,3.0,3.4,3.8,4.0,3.4,3.8,59,6
-ECO316H1,ECO-ARTSC,ARTSC,Applied Game Theory ECO316H1-S-LEC0101,Zhu,Ruizhi,Summer,2019,4.3,4.3,3.9,4.2,4.1,4.0,3.9,3.0,3.9,31,17
+ECO220Y1,ECO-ARTSC,ARTSC,Quantitative Methods Economics ECO220Y1-Y-LEC0201,Yu,Pui-Man,Summer,2019,3.8,3.4,3.8,3,3.4,3.8,4,3.4,3.8,59,6
+ECO316H1,ECO-ARTSC,ARTSC,Applied Game Theory ECO316H1-S-LEC0101,Zhu,Ruizhi,Summer,2019,4.3,4.3,3.9,4.2,4.1,4,3.9,3,3.9,31,17
 ECO325H1,ECO-ARTSC,ARTSC,Adv Ec Theory Macro ECO325H1-S-LEC5101,Alexopoulos,Michelle,Winter,2019,3.75,3.6,3.9,3.3,3.3,3.3,3.9,3.4,2.6,38,9
 ECO313H1,ECO-ARTSC,ARTSC,Environmental Econ & Policies ECO313H1-S-LEC0101,Anjomshoa,Masoud,Winter,2019,3.6,3.6,3.3,2.9,2.9,2.8,3.7,2.9,2.9,112,16
 ECO230Y1,ECO-ARTSC,ARTSC,Internat Econ Policy ECO230Y1-Y-LEC0101,Anjomshoa,Masoud,Winter,2019,2.03,2.1,1.6,1.7,1.8,1.4,1.9,3.8,1.3,122,62

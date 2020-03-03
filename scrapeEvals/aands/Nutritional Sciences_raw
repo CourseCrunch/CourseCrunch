@@ -1,3 +1,4 @@
+Code,Dept,Division,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Instructor generated enthusiasm,Course Workload,I would recommend this course,Number of Students Invited,Number of Respondents
 NFS284H1,NUSCI,ARTSC,Basic Human Nutrition NFS284H1-F-LEC0101,Jory,Joan,Summer,2018,4.2,4.6,4.4,4.3,4.3,4.3,4.4,3,4.4,119,58
 NFS284H1,NUSCI,ARTSC,Basic Human Nutrition NFS284H1-S-LEC0101,Gurfinkel,Debbie,Winter,2018,4,4.3,4.3,3.9,3.9,3.9,4.3,3.1,4.2,458,165
 NFS284H1,NUSCI,ARTSC,Basic Human Nutrition NFS284H1-S-LEC0101,Wolever,Thomas,Winter,2018,4,4.3,3.4,3.9,3.9,3.9,3.6,3.1,4.2,458,165
@@ -101,7 +102,14 @@ NFS386H1,NUSCI,ARTSC,Food Chemistry NFS386H1-F-LEC0101,Gurfinkel,Debbie,Fall,201
 NFS484H1,NUSCI,ARTSC,Advanced Nutrition NFS484H1-F-LEC0101,Greenwood,Carol,Fall,2014,3.5,3.4,3.9,3.4,3.1,3.4,4.3,2.8,3.6,30,9
 NFS487H1,NUSCI,ARTSC,Nutrige & Personal Nutr NFS487H1-F-LEC0101,El-Sohemy,Ahmed,Fall,2014,3.7,3.9,4.1,3.8,4,3.5,4,3,3.8,63,29
 NFS489H1,NUSCI,ARTSC,Nutr Neuroscience NFS489H1-F-LEC0101,Bazinet,Richard,Fall,2014,4.1,4.2,4.6,3.8,3.8,4.1,4.7,3.1,4.4,47,17
-NFS284H1,NUSCI-ARTSC,ARTSC,Basic Human Nutrition NFS284H1-F-LEC0101,Jory,Joan,Summer,2019,4.2,4.5,4.6,4.1,4.2,4.2,4.6,3.0,4.4,94,34
+NFS484H1,NUSCI-ARTSC,ARTSC,Advanced Nutrition NFS484H1-F-LEC0101,Ricciuto,Laurie,Fall,2019,4.3,4.5,4.7,4.7,4.7,4.7,4.7,2.5,4.9,57,34
+NFS284H1,NUSCI-ARTSC,ARTSC,Basic Human Nutrition NFS284H1-F-LEC0101,Gurfinkel,Debbie,Fall,2019,4.2,4.5,4.5,4.4,4.4,4.3,4.5,3.0,4.5,465,192
+NFS485H1,NUSCI-ARTSC,ARTSC,Diet  Microbiome & Health NFS485H1-F-LEC0101,Comelli,Elena,Fall,2019,4.1,4.0,4.3,4.1,3.9,3.7,4.3,3.5,3.7,39,15
+NFS386H1,NUSCI-ARTSC,ARTSC,Food Chemistry NFS386H1-F-LEC0101,Gurfinkel,Debbie,Fall,2019,4.0,4.3,4.3,3.9,3.9,3.8,4.3,3.0,4.0,125,53
+NFS487H1,NUSCI-ARTSC,ARTSC,Nutrige & Personal Nutr NFS487H1-F-LEC0101,Garcia-Bailo,Bibiana,Fall,2019,4.6,4.6,4.7,4.4,4.4,4.5,4.8,2.9,4.5,53,37
+NFS301H1,NUSCI-ARTSC,ARTSC,Nutrition Literacy NFS301H1-F-LEC0101,Gurfinkel,Debbie,Fall,2019,3.5,3.8,4.1,3.7,3.6,3.4,4.0,3.2,3.8,114,38
+NFS301H1,NUSCI-ARTSC,ARTSC,Nutrition Literacy NFS301H1-F-LEC0101,Sievenpiper,John,Fall,2019,3.5,3.8,3.3,3.7,3.6,3.4,3.7,3.2,3.8,114,38
+NFS284H1,NUSCI-ARTSC,ARTSC,Basic Human Nutrition NFS284H1-F-LEC0101,Jory,Joan,Summer,2019,4.2,4.5,4.6,4.1,4.2,4.2,4.6,3,4.4,94,34
 NFS382H1,NUSCI-ARTSC,ARTSC,Mineral Metabolism NFS382H1-S-LEC0101,Cranmer-Byng,Mary,Winter,2019,3.83,4.2,4,3.7,3.9,3.6,4.1,3.2,3.5,109,43
 NFS302H1,NUSCI-ARTSC,ARTSC,Nutl Athl Perf & Behav NFS302H1-S-LEC0101,Collier,Denis,Winter,2019,4.48,4.6,4.8,4.3,4.3,4.5,4.9,2.9,4.7,220,69
 NFS284H1,NUSCI-ARTSC,ARTSC,Basic Human Nutrition NFS284H1-S-LEC0101,Gurfinkel,Debbie,Winter,2019,3.88,4.3,4.5,3.8,3.9,3.8,4.5,3,4.2,447,141

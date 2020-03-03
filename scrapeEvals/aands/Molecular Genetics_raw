@@ -1,3 +1,4 @@
+Code,Dept,Division,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Instructor generated enthusiasm,Course Workload,I would recommend this course,Number of Students Invited,Number of Respondents
 MGY200H1,MEDGM,ARTSC,Topics Molgen Micro MGY200H1-S-LEC0101,Roy,Peter,Winter,2018,4,4.2,4.3,3.7,3.7,3.7,4.6,3.4,3.8,88,36
 MGY200H1,MEDGM,ARTSC,Topics Molgen Micro MGY200H1-S-LEC0101,Taipale,Mikko,Winter,2018,4,4.2,4.3,3.7,3.7,3.7,4.7,3.4,3.8,88,36
 MGY250H1,MEDGM,ARTSC,Intro Medical Genetics MGY250H1-S-LEC9901,Hill,Jessica,Winter,2018,3.6,3.8,3.6,3.5,3.4,3.3,3.6,3.5,3.4,460,156
@@ -234,6 +235,22 @@ MGY428H1,MEDGM,ARTSC,Functional Genomics MGY428H1-F-LEC0101,Hughes,Timothy,Fall,
 MGY428H1,MEDGM,ARTSC,Functional Genomics MGY428H1-F-LEC0101,Parkinson,John,Fall,2014,4.2,4.2,4.3,4.1,4.2,4,4.3,3.1,4,39,18
 MGY440H1,MEDGM,ARTSC,Virus-Cell Interactions MGY440H1-F-LEC0101,Brown,Martha,Fall,2014,4.7,4.7,4.7,4.2,3.5,4.3,4.7,3.5,4.2,14,6
 MGY451H1,MEDGM,ARTSC,Gen Analy Devel 1 MGY451H1-F-LEC0101,Lavoie,Brigitte,Fall,2014,4,4,4.2,3.5,3.7,3.3,4.3,3.5,3.7,12,7
+MGY380H1,MEDGM-ARTSC,ARTSC,Bacteriology Lab MGY380H1-F-LEC0101,Liu,Jun,Fall,2019,4.6,4.7,4.4,4.8,4.9,4.4,4.2,4.2,4.4,21,13
+MGY428H1,MEDGM-ARTSC,ARTSC,Functional Genomics MGY428H1-F-LEC0101,Blencowe,Benjamin,Fall,2019,4.2,4.6,3.0,4.1,3.9,3.9,3.1,3.4,3.8,32,9
+MGY428H1,MEDGM-ARTSC,ARTSC,Functional Genomics MGY428H1-F-LEC0101,Fraser,Andrew,Fall,2019,4.2,4.6,4.0,4.1,3.9,3.9,4.1,3.4,3.8,32,9
+MGY428H1,MEDGM-ARTSC,ARTSC,Functional Genomics MGY428H1-F-LEC0101,Hughes,Timothy,Fall,2019,4.2,4.6,4.4,4.1,3.9,3.9,4.4,3.4,3.8,32,9
+MGY460H1,MEDGM-ARTSC,ARTSC,Genetic Analysis Development MGY460H1-F-LEC0101,Krause,Henry,Fall,2019,4.0,4.0,2.7,2.8,2.3,3.2,2.7,3.2,2.7,20,6
+MGY460H1,MEDGM-ARTSC,ARTSC,Genetic Analysis Development MGY460H1-F-LEC0101,Protze,Stephanie,Fall,2019,4.0,4.0,3.0,2.8,2.3,3.2,3.2,3.2,2.7,20,6
+MGY460H1,MEDGM-ARTSC,ARTSC,Genetic Analysis Development MGY460H1-F-LEC0101,Spence,Andrew,Fall,2019,4.0,4.0,4.0,2.8,2.3,3.2,3.7,3.2,2.7,20,6
+MGY277H1,MEDGM-ARTSC,ARTSC,Intro Med Micro MGY277H1-F-LEC9901,Hill,Jessica,Fall,2019,4.0,4.3,4.2,4.0,4.0,3.9,4.2,3.6,3.9,612,155
+MGY377H1,MEDGM-ARTSC,ARTSC,Microbiology I MGY377H1-F-LEC0101,Davidson,Alan,Fall,2019,4.1,4.2,4.0,3.5,3.7,3.7,4.2,3.6,3.7,252,76
+MGY377H1,MEDGM-ARTSC,ARTSC,Microbiology I MGY377H1-F-LEC0101,Navarre,William,Fall,2019,4.1,4.2,4.5,3.5,3.7,3.7,4.6,3.6,3.7,252,76
+MGY340H1,MEDGM-ARTSC,ARTSC,Molecular Genetics MGY340H1-F-LEC0101,Brill,Julie,Fall,2019,3.9,4.0,4.2,3.8,3.5,3.1,4.2,3.4,2.9,41,27
+MGY340H1,MEDGM-ARTSC,ARTSC,Molecular Genetics MGY340H1-F-LEC0101,Spence,Andrew,Fall,2019,3.9,4.0,3.7,3.8,3.5,3.1,3.9,3.4,2.9,41,27
+MGY314H1,MEDGM-ARTSC,ARTSC,Principles Gen Anal I MGY314H1-F-LEC0101,Funnell,Barbara,Fall,2019,3.6,3.7,3.4,3.6,3.5,3.1,3.4,3.6,3.0,46,14
+MGY420H1,MEDGM-ARTSC,ARTSC,Regul Gene Express MGY420H1-F-LEC0101,Campos,Eric,Fall,2019,4.8,4.8,4.3,4.1,4.0,4.0,4.2,3.9,4.1,27,9
+MGY420H1,MEDGM-ARTSC,ARTSC,Regul Gene Express MGY420H1-F-LEC0101,Greenblatt,Jack,Fall,2019,4.8,4.8,3.8,4.1,4.0,4.0,3.9,3.9,4.1,27,9
+MGY420H1,MEDGM-ARTSC,ARTSC,Regul Gene Express MGY420H1-F-LEC0101,Meneghini,Marc,Fall,2019,4.8,4.8,4.2,4.1,4.0,4.0,4.2,3.9,4.1,27,9
 MGY470H1,MEDGM-ARTSC,ARTSC,Human Molec Gen MGY470H1-S-LEC0101,Awadalla,Philip,Winter,2019,4.24,4.2,4.1,3.8,4.1,3.8,4.2,3.1,4.2,73,22
 MGY315H1,MEDGM-ARTSC,ARTSC,Principles Gen Anal II MGY315H1-S-LEC0101,Brill,Julie,Winter,2019,3.96,4,4.6,3.8,3.8,3.7,4.8,3.5,3.6,29,25
 MGY378H1,MEDGM-ARTSC,ARTSC,Microbiology II MGY378H1-S-LEC0101,Brown,Martha,Winter,2019,3.94,4.3,4.1,3.3,3.5,3.2,4.1,4,3,105,36

@@ -53,21 +53,21 @@ router.patch('/', (req, res) => {
             // If the any of the fields are not empty, update them
             if (!(validator.isEmpty(sanFname))) {
                 const promiseUpdateFname = dbReq.updateUserFname(uuid, sanFname);
-                promiseUpdateFname.then((updateFnameError) => {
+                promiseUpdateFname.catch((updateFnameError) => {
                     console.log(updateFnameError);
                     res.status(500).send('Sorry an error occurred while processing your request');
                 });
             }
             if (!(validator.isEmpty(sanLname))) {
                 const promiseUpdateLname = dbReq.updateUserLname(uuid, sanLname);
-                promiseUpdateLname.then((updateLnameError) => {
+                promiseUpdateLname.catch((updateLnameError) => {
                     console.log(updateLnameError);
                     res.status(500).send('Sorry an error occurred while processing your request');
                 });
             }
             if (!(validator.isEmpty(sanProgram))) {
                 const promiseUpdateProgram = dbReq.updateUserProgram(uuid, sanProgram);
-                promiseUpdateProgram.then((updateProgramError) => {
+                promiseUpdateProgram.catch((updateProgramError) => {
                     console.log(updateProgramError);
                     res.status(500).send('Sorry an error occurred while processing your request');
                 });

@@ -1,6 +1,6 @@
 const bcrypt = require('bcrypt');
 const uuidv4 = require('uuid/v4');
-const Promise = require('promise');
+//const Promise = require('promise');
 require('dotenv').config();
 const Pool = require('pg').Pool;
 const UserDB = new Pool({
@@ -11,24 +11,14 @@ const UserDB = new Pool({
 	port: process.env.PGPORT
 });
 
-const SessionDB = new Pool({
-	user: process.env.SSUSER,
-	host: process.env.SSHOST,
-	database: process.env.SSDATABASE,
-	password: process.env.SSPASSWORD,
-	port: process.env.SSPORT
-});
-
-
 function checkUserExists(email){
 	return new Promise(function(resolve, reject){
 		try{
-			UserDB.query('SELECT 1 FROM CC_CREDENTIALS WHERE EMAIL = $1', [email], (error, results)  => {
-				if (error){
-					reject(error);
-				} else{
-					resolve(results.rows);
-				}
+			var promise_query_email = UserDB.query('SELECT 1 FROM CC_CREDENTIALS WHERE EMAIL = $1', [email]);
+			promise_query_email.then(function(query_result) {
+				resolve(query_result);
+			}, function(query_error) {
+				reject(query_error);
 			});
 		} catch(e){
 			reject(e);
@@ -39,57 +29,37 @@ function checkUserExists(email){
 function validatePW(uuid, password){
 	return new Promise(function(resolve, reject){
 		try{
-			UserDB.query('SELECT HASH FROM CC_CREDENTIALS WHERE ID = $1', [uuid], (error, results) => {
-				if (error) {
-        				reject(error);
-		        	} else{
-        				var pw_hash = results.rows[0].hash;
-        				bcrypt.compare(password, pw_hash, (valid_err, hash) => {
-                				if (valid_err){
-                    					reject(valid_err);
-		                		} else if(!hash){
-        		            			resolve("Invalid");
-	                			} else if(hash){
-        	            				resolve("Valid");
-                				}
-		            		});
-        			}
-	    		});
+			var promise_query_hash = UserDB.query('SELECT HASH FROM CC_CREDENTIALS WHERE ID = $1', [uuid]);
+			promise_query_hash.then(function(query_result) {
+				var pw_hash = query_result.rows[0].hash;
+        				var promise_compare_hash = bcrypt.compare(password, pw_hash);
+					promise_compare_hash.then(function(comparison_result) {
+						if(comparison_result) {
+							resolve("Valid");
+						} else {
+							resolve("Invalid");
+						}
+					}, function(comparison_error) {
+						reject(comparison_error);
+					});
+			}, function(query_error) {
+				reject(query_error);
+			});
 		} catch(e){
 			reject(e);
 		}
 	});
 }
 
-function getUID(sessionid){
-	return new Promise(function(resolve, reject){
-		try{
-			SessionDB.query('SELECT ID FROM CC_SESSION_INFO WHERE SESSION_ID = $1',
-				[sessionid], (sess_err, result) => {
-					if(sess_err){
-						reject(sess_err);
-					} else{
-						resolve(result);
-					}
-				});
-		} catch (e){
-			reject(e);
-		}
-	});
-}
-
-
 function updateUser_fname(uuid, fname){
 	return new Promise(function(resolve, reject){
 		try{
-			UserDB.query('UPDATE CC_USER_INFO SET FNAME = $1 WHERE ID = $2', 
-				[fname, uuid], (info_err, result) => {
-					if(info_err){
-						reject(info_err);
-					} else{
-						resolve("First Name Changed!"); 
-					}
-				});
+			var promise_query_update = UserDB.query('UPDATE CC_USER_INFO SET FNAME = $1 WHERE ID = $2', [fname, uuid]);
+			promise_query_update.then(function(query_result) {
+				resolve("First Name Changed!");
+			}, function(query_error) {
+				reject(query_error);
+			});
 		} catch (e){
 			reject(e);
 		}
@@ -99,14 +69,12 @@ function updateUser_fname(uuid, fname){
 function updateUser_lname(uuid, lname){
 	return new Promise(function(resolve, reject){
 		try{
-			UserDB.query('UPDATE CC_USER_INFO SET LNAME = $1 WHERE ID = $2', 
-				[lname, uuid], (info_err, result) => {
-					if(info_err){
-						reject(info_err);
-					} else{
-						resolve("Last Name Changed!"); 
-					}
-				});
+			var promise_query_update = UserDB.query('UPDATE CC_USER_INFO SET LNAME = $1 WHERE ID = $2', [lname, uuid]);
+			promise_query_update.then(function(query_result) {
+				resolve("Last Name Changed");
+			}, function(query_error) {
+				reject(query_error);
+			});
 		} catch (e){
 			reject(e);
 		}
@@ -116,13 +84,11 @@ function updateUser_lname(uuid, lname){
 function updateUser_program(uuid, program){
 	return new Promise(function(resolve, reject){
 		try{
-			UserDB.query('UPDATE CC_USER_INFO SET PROGRAM = $1 WHERE ID = $2', 
-				[program, uuid], (info_err, result) => {
-					if(info_err){
-						reject(info_err);
-					} else{
-						resolve("Program Changed!"); 
-					}
+			var promise_query_update = UserDB.query('UPDATE CC_USER_INFO SET PROGRAM = $1 WHERE ID = $2', [program, uuid]);
+			promise_query_update.then(function(query_result) {
+				resolve("Program Changed");
+			}, function(query_error) {
+				reject(query_error);
 			});
 		} catch (e){
 			reject(e);
@@ -133,14 +99,12 @@ function updateUser_program(uuid, program){
 function updateUser_email(uuid, email){
 	return new Promise(function(resolve, reject){
 		try{
-			UserDB.query('UPDATE CC_CREDENTIALS SET EMAIL = $1 WHERE ID = $2', 
-				[email, uuid], (update_err, result) => {
-					if(update_err){
-						reject(update_err);
-					} else{
-						resolve("Email Changed!"); 
-					}
-				});
+			var promise_query_update = UserDB.query('UPDATE CC_CREDENTIALS SET EMAIL = $1 WHERE ID = $2', [email, uuid]);
+			promise_query_update.then(function(query_result) {
+				resolve("Email Changed");
+			}, function(query_error) {
+				reject(query_error);
+			});
 		} catch (e){
 			reject(e);
 		}
@@ -150,19 +114,16 @@ function updateUser_email(uuid, email){
 function updateUser_pass(uuid, password){
 	return new Promise(function(resolve, reject){
 		try{
-			bcrypt.hash(password, 10, (bcrypt_err, hash) => {
-				if(bcrypt_err){
-					reject(bcrypt_err);
-				} else {
-					UserDB.query('UPDATE CC_CREDENTIALS SET HASH = $1 WHERE ID = $2', 
-						[hash, uuid], (update_err, result) => {
-							if(update_err){
-								reject(update_err);
-							} else {
-								resolve("Password Changed!"); 
-							}
-						});
-				}
+			var promise_hash_password = bcrypt.hash(password, 10);
+			promise_hash_password.then(function(hash_result) {
+				var promise_query_update = UserDB.query('UPDATE CC_CREDENTIALS SET HASH = $1 WHERE ID = $2', [hash_result, uuid]);
+				promise_query_update.then(function(query_result) {
+					resolve("Password Changed");
+				}, function(query_error) {
+					reject(query_error);
+				});
+			}, function(hash_error) {
+				reject(hash_error);
 			});
 		} catch (e){
 			reject(e);
@@ -174,7 +135,6 @@ function updateUser_pass(uuid, password){
 module.exports = {
 	checkUserExists,
 	validatePW,
-	getUID,
 	updateUser_fname,
 	updateUser_lname,
 	updateUser_program,

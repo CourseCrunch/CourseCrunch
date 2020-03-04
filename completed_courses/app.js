@@ -1,23 +1,16 @@
-var express = require('express');
+const express = require('express');
+// const bodyParserURLEncode = require('body-parser').urlencoded({ extended: true });
+// const path = require('path');
+const courseRouter = require('./routes/editCompletedCourses');
 
-var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
-var loginRouter = require('./routes/login');
-var registerRouter = require('./routes/register');
 
-var bodyParserURLEncode = require('body-parser').urlencoded({extended:true});
-var path = require('path');
-
-var app = express();
+const app = express();
 
 // view engine setup
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
-app.use('/', indexRouter);
-app.use('/users', usersRouter);
-app.use('/login', loginRouter);
-app.use('/register', registerRouter);
+app.use('/edit_Completed_Courses', courseRouter);
 
-app.listen(3000, () => console.log("App listening on port 3000"));
+app.listen(3000, () => console.log('App listening on port 3000'));

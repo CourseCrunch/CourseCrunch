@@ -1,61 +1,49 @@
 const axios = require('axios');
+const util = require('util');
+const mongo = require('./Instruct');
 
-function number_of_instructors(school_id) {
-    var query_str = process.env.INSTRUCTCOUNT.format(school_id);
-    console.log(query_str);
-    var promise = axios.get(query_str).then(res => {
-        return res.data.response.numFound;
-    }).catch(e => {
-        return null;
-    });
-    return promise;
-}
-
-function query_all_instructors(school_id) {
-    var promise = number_of_instructors(school_id).then(instruct_count => {
-        var qs = process.env.Q_A_INSTRUCT.format(instruct_count, school_id);
-        return axios.get(qs).then(res => {
-            return res.data.response.docs;
-        }).catch(e => {
-            return null;
-        });
-    });
-    return promise;
-}
-
-function update_instructor_cache() {
-    var schools = get_schools();
-    for (let key in schools) {
-        query_all_instructors(schools[key]).then(res => {
-            for (var i=0;i<res.length;i++) {
-                var row = res[i]
-                row['fullname'] = row['teacherfirstname_t'] + ' ' + row['teacherlastname_t'];
-                row['school'] = key;
-                let doc = mongo.Instruct(row);
-                doc.save((err,result) => {
-                    if (err) {
-                        return null;
-                    }
-                });
-            }
-        }).catch(e => {
-            return;
-        })
-    }
-}
-
-function get_schools() {
+function getSchools() {
     return {
-        'utm': '4928',
-        'utsg': '1484',
-        'utsc': '4919',
-        'uoft': '12184',
-        'rotman': '5281'
+        utm: '4928',
+        utsg: '1484',
+        utsc: '4919',
+        uoft: '12184',
+        rotman: '5281',
     };
 }
 
-module.exports = {
-    get_schools,
-    update_instructor_cache,
-    query_all_instructors
+function numberOfInstructors(schoolId) {
+    const queryStr = util.format(process.env.INSTRUCTCOUNT, schoolId);
+    console.log(queryStr);
+    const promise = axios.get(queryStr).then((res) => res.data.response.numFound).catch(() => null);
+    return promise;
 }
+
+function queryAllInstructors(schoolId) {
+    const promise = numberOfInstructors(schoolId).then((instructCount) => {
+        const qs = util.format(process.env.Q_A_INSTRUCT, instructCount, schoolId);
+        return axios.get(qs).then((res) => res.data.response.docs).catch(() => null);
+    });
+    return promise;
+}
+
+function updateInstructorCache() {
+    const schools = getSchools();
+    schools.keys().forEach((key) => {
+        queryAllInstructors(schools[key]).then((res) => {
+            for (let i = 0; i < res.length; i += 1) {
+                const row = res[i];
+                row.fullname = `${row.teacherfirstname_t} ${row.teacherlastname_t}`;
+                row.school = key;
+                const doc = mongo.Instruct(row);
+                doc.save(() => null);
+            }
+        }).catch(() => null);
+    });
+}
+
+module.exports = {
+    getSchools,
+    updateInstructorCache,
+    queryAllInstructors,
+};

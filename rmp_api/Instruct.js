@@ -1,6 +1,7 @@
 const mongo = require('mongoose');
-const mongoose_fuzzy_searching = require('mongoose-fuzzy-searching');
-const Schema = mongo.Schema;
+const mongooseFuzzySearching = require('mongoose-fuzzy-searching');
+
+const { Schema } = mongo;
 
 mongo.set('useCreateIndex', true);
 
@@ -12,20 +13,21 @@ const InstructorSchema = new Schema({
     teacherfirstname_t: String,
     teacherlastname_t: String,
     teacherdepartment_s: String,
-    fullname: String
+    fullname: String,
 });
 
-InstructorSchema.plugin(mongoose_fuzzy_searching, {
+InstructorSchema.plugin(mongooseFuzzySearching, {
     fields: [{
         name: 'fullname',
-        minSize: 5
-    }
-    ]});
+        minSize: 5,
+    },
+    ],
+});
 
 
 InstructorSchema.path('pk_id').index({ unique: true });
 
 module.exports = {
     db: mongo,
-    Instruct: mongo.model('Instructors', InstructorSchema)
+    Instruct: mongo.model('Instructors', InstructorSchema),
 };

@@ -6,7 +6,7 @@ const cookieParser = require('cookie-parser');
 const validator = require('validator');
 const dbReq = require('../resources/queries');
 
-const emptyString = function (input) { if (input === 'undefined') { return ''; } return input; };
+const emptyString = (input) => { if (input === 'undefined') { return ''; } return input; };
 
 router.use(bodyParser.json());
 router.use(bodyParser.urlencoded({
@@ -15,7 +15,7 @@ router.use(bodyParser.urlencoded({
 
 router.use(cookieParser());
 
-router.get('/', (req, res, next) => {
+router.get('/', (req, res) => {
     res.json({ info: 'Temp Password changing page' });
 });
 

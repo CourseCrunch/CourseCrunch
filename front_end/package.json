@@ -10,13 +10,17 @@
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
     "cookie-parser": "~1.4.4",
+    "daypilot-pro-react": "https://npm.daypilot.org/daypilot-pro-react/trial/2019.3.4012.tar.gz",
     "debug": "~2.6.9",
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
+    "moment": "^2.24.0",
     "morgan": "~1.9.1",
     "next": "^9.2.1",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "react-moment": "^0.9.7",
+    "react-week-calendar": "^0.1.3"
   },
   "description": "Repository for the serverside of the project # Setup 1. clone the git repository 2. run npm i 3. run the server via the command npm start",
   "main": "app.js",

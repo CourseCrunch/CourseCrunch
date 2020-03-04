@@ -52,6 +52,7 @@ def get_course_list_from_row(table):
    # print([element.contents[0] for element in elements])
     year_to_req = {}
     year = 1
+    print("These are the rows: |{}|".format(rows))
     for row in rows:
         elements = row.findChildren(["td"])
         for element in elements:

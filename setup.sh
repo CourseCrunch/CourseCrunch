@@ -29,7 +29,6 @@ do
         cd $log
         npm run dev&
     else 
-        echo "not"
         npm run prod&
     fi
     cd ..

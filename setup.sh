@@ -31,7 +31,7 @@ do
         
     else 
         echo "not"
-        # npm run prod&
+        npm run prod&
     fi
     cd ..
 done

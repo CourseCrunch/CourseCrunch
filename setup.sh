@@ -1,5 +1,5 @@
 #!/bin/bash
-#npm i;
+npm i;
 source cfg.env;
 args=("$@");
 

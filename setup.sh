@@ -20,7 +20,7 @@ do
 
     cd $log;
     #echo `pwd`;
-    #npm i
+    npm i
     check_arg $log;
     if [ $? == 1 ]; then 
         echo "dev mode for $log"
@@ -28,7 +28,6 @@ do
         npx eslint --fix $log
         cd $log
         npm run dev&
-        
     else 
         echo "not"
         npm run prod&

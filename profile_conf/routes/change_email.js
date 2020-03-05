@@ -6,7 +6,7 @@ const cookieParser = require('cookie-parser');
 const validator = require('validator');
 const dbReq = require('../resources/queries');
 
-const emptyString = function (input) { if (input === 'undefined') { return ''; } return input; };
+const emptyString = (input) => { if (input === 'undefined') { return ''; } return input; };
 
 router.use(bodyParser.json());
 router.use(bodyParser.urlencoded({
@@ -15,7 +15,7 @@ router.use(bodyParser.urlencoded({
 
 router.use(cookieParser());
 
-router.get('/', (req, res, next) => {
+router.get('/', (req, res) => {
     res.json({ info: 'Temp Email changing page' });
 });
 
@@ -51,7 +51,7 @@ router.patch('/', (req, res) => {
                                 const promiseUpdateEmail = dbReq.updateUserEmail(uuid, sanEmail);
                                 promiseUpdateEmail.then(() => {
                                     res.status(200).send('Email successfully changed!');
-                                }, (updateError) => {
+                                }).catch((updateError) => {
                                     console.log(updateError);
                                     res.status(500).send('Sorry an error ocurred while processing your request');
                                 });
@@ -61,14 +61,14 @@ router.patch('/', (req, res) => {
                         } else {
                             res.status(409).send('This email is already associated with another user!');
                         }
-                    }, (checkUserError) => {
+                    }).catch((checkUserError) => {
                         console.log(checkUserError);
                         res.status(500).send('Sorry an error ocurred while processing your request');
                     });
                 } else {
                     res.status(406).send('Invalid password');
                 }
-            }, (validateError) => {
+            }).catch((validateError) => {
                 console.log(validateError);
                 res.status(500).send('Sorry an error ocurred while processing your request');
             });

@@ -12,7 +12,7 @@ const valid = (input) => input.split(' ').every((s) => validator.isAlpha(s));
 // modified to check dashes
 const valid2 = (input) => input.split('-').every((s) => validator.isAlpha(s));
 
-const emptyString = function (input) { if (input === 'undefined') { return ''; } return input; };
+const emptyString = (input) => { if (input === 'undefined') { return ''; } return input; };
 
 router.use(bodyParser.json());
 router.use(bodyParser.urlencoded({
@@ -21,7 +21,7 @@ router.use(bodyParser.urlencoded({
 
 router.use(cookieParser());
 
-router.get('/', (req, res, next) => {
+router.get('/', (req, res) => {
     res.json({ info: 'Temp Profile conf page' });
 });
 

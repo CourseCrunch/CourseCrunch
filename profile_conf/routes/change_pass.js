@@ -6,7 +6,7 @@ const cookieParser = require('cookie-parser');
 const validator = require('validator');
 const dbReq = require('../resources/queries');
 
-const emptyString = function (input) { if (input === 'undefined') { return ''; } return input; };
+const emptyString = (input) => { if (input === 'undefined') { return ''; } return input; };
 
 router.use(bodyParser.json());
 router.use(bodyParser.urlencoded({
@@ -15,7 +15,7 @@ router.use(bodyParser.urlencoded({
 
 router.use(cookieParser());
 
-router.get('/', (req, res, next) => {
+router.get('/', (req, res) => {
     res.json({ info: 'Temp Password changing page' });
 });
 
@@ -42,7 +42,7 @@ router.patch('/', (req, res) => {
                     const promiseUpdatePass = dbReq.updateUserPass(uuid, sanNewPassword);
                     promiseUpdatePass.then(() => {
                         res.status(200).send('Password successfully changed!');
-                    }, (updateError) => {
+                    }).catch((updateError) => {
                         console.log(updateError);
                         res.status(500).send('Sorry an error occurred while processing your request');
                     });
@@ -52,7 +52,7 @@ router.patch('/', (req, res) => {
             } else {
                 res.status(406).send('Invalid password');
             }
-        }, (validateError) => {
+        }).catch((validateError) => {
             console.log(validateError);
             res.status(500).send('Sorry an error occurred while processing your request');
         });

@@ -50,11 +50,11 @@ function validatePW(uuid, password) {
     }));
 }
 
-function updateUserFname(uuid, fname) {
+function getUserInfo(uuid) {
     return new Promise(((resolve, reject) => {
         try {
-            const promiseQueryUpdate = UserDB.query('UPDATE CC_USER_INFO SET FNAME = $1 WHERE ID = $2', [fname, uuid]);
-            promiseQueryUpdate.then((queryResult) => {
+            const promiseQueryInfo = UserDB.query('SELECT FNAME, LNAME, PROGRAM FROM CC_USER_INFO WHERE ID = $1', [uuid]);
+            promiseQueryInfo.then((queryResult) => {
                 resolve(queryResult);
             }).catch((queryError) => {
                 reject(queryError);
@@ -65,27 +65,12 @@ function updateUserFname(uuid, fname) {
     }));
 }
 
-function updateUserLname(uuid, lname) {
+function updateUser(query) {
     return new Promise(((resolve, reject) => {
         try {
-            const promiseQueryUpdate = UserDB.query('UPDATE CC_USER_INFO SET LNAME = $1 WHERE ID = $2', [lname, uuid]);
-            promiseQueryUpdate.then((queryResult) => {
-                resolve(queryResult);
-            }).catch((queryError) => {
-                reject(queryError);
-            });
-        } catch (e) {
-            reject(e);
-        }
-    }));
-}
-
-function updateUserProgram(uuid, program) {
-    return new Promise(((resolve, reject) => {
-        try {
-            const promiseQueryUpdate = UserDB.query('UPDATE CC_USER_INFO SET PROGRAM = $1 WHERE ID = $2', [program, uuid]);
-            promiseQueryUpdate.then((queryResult) => {
-                resolve(queryResult);
+            const promiseQueryUpdate = UserDB.query(query);
+            promiseQueryUpdate.then(() => {
+                resolve('Success!');
             }).catch((queryError) => {
                 reject(queryError);
             });
@@ -134,9 +119,8 @@ function updateUserPass(uuid, password) {
 module.exports = {
     checkUserExists,
     validatePW,
-    updateUserFname,
-    updateUserLname,
-    updateUserProgram,
+    getUserInfo,
+    updateUser,
     updateUserEmail,
     updateUserPass,
 };

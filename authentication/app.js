@@ -20,4 +20,4 @@ app.use('/users', usersRouter);
 app.use('/login', loginRouter);
 app.use('/register', registerRouter);
 
-app.listen(3000, () => console.log("App listening on port 3000"));
+app.listen(process.env.AUTHPORT, () => console.log("App listening on port "+process.env.AUTHPORT));

@@ -1,37 +1,142 @@
 import React from 'react';
-import { Form, Button, FormGroup, FormControl, ControlLabel } from "react-bootstrap";
-import Link from 'next/link';
+import { render } from 'react-dom';
+import {Form, Button, FormGroup, FormControl, ControlLabel} from 'react-bootstrap';
 import './SettingsInput.css';
 
-if (typeof window !== 'undefined'){
-    const uName = localStorage.getItem('uName');
-}
-class SettingsInput extends React.Component{
-    render(){
-        return  <header className ="settingsInput">
+class SettingsInput extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            error: null,
+            isLoaded: false,
+            submitErr: false,
+            uuid: '',
+            oldFName: '',
+            oldLName: '',
+            oldProgram: '',
+            newFName: '',
+            newLName: '',
+            newProg: ''
+        };
+    }
+
+    componentDidMount() {
+        const uName = 'b17f1135-501f-4397-b257-653897375000';
+        const data = { unsanUuid: uName };
+
+        fetch('http://localhost:3008/edit_profile', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(data),
+        })
+            .then((res) => res.json())
+            .then(
+                (result) => {
+                    const { fNam, lNam, prog } = result;
+                    this.setState({
+                        isLoaded: true,
+                        oldFName: fNam,
+                        oldLName: lNam,
+                        oldProgram: prog
+                    });
+                }, (error) => {
+                    this.setState({
+                        isLoaded: true,
+                        error
+                    });
+                },
+            );
+    }
+
+    handleInputChange(inputType) {
+        if (inputType === 'firstName') {
+            this.setState({
+                newFName: this.firstName.value,
+            });
+        } else if (inputType === 'lastName') {
+            this.setState({
+                newLName: this.lastName.value,
+            });
+        } else {
+            this.setState({
+                newProg: this.prog.value,
+            });
+        }
+    }
+
+    handleSubmit() {
+        const data = {
+            unsanUuid: 'b17f1135-501f-4397-b257-653897375000',
+            unsanFname: this.state.newFName,
+            unsanLname: this.state.newLName,
+            unsanProgram: this.state.newProg
+        };
+        fetch('http://localhost:3008/edit_profile', {
+            method: 'PATCH',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data),
+        })
+            .then((res) => {
+                if (res.ok) {
+                    this.setState({
+                        submitErr: false
+                    });
+                } else {
+                    this.setState({
+                        submitErr: true
+                    });
+                }
+            }).catch((e) => {
+                console.log(e);
+                this.setState({
+                    submitErr: true
+                });
+            });
+    }
+
+    render() {
+        return <header className ="settingsInput">
             <div className = "panel_container">
-            <div className = "pInfo_title_panel">
-                <h2>Edit Profile</h2>
-            </div>
+                <div className = "pInfo_title_panel">
+                    <h2>Edit Profile</h2>
+                </div>
                 <div className = "form_panel">
                     <label className = "form_label">Edit Your Information</label>
                     <Form>
                         <Form.Group controlId="form_firstName">
                             <Form.Label className ="inpL">First Name</Form.Label>
-                            <Form.Control type="text" placeholder="Robert" />
+                            <Form.Control
+                                ref={(input) => this.firstName = input}
+                                onChange={() => this.handleInputChange('firstName')}
+                                autoComplete="no"
+                                type="text" placeholder={this.state.oldFName}/>
                         </Form.Group>
-    
+
                         <Form.Group controlId="form_lastName">
                             <Form.Label className ="inpL">Last Name</Form.Label>
-                            <Form.Control type="text" placeholder="Westhaver" />
+                            <Form.Control
+                                ref={(input) => this.lastName = input}
+                                onChange={() => this.handleInputChange('lastName')}
+                                autoComplete="new-password"
+                                type="text" placeholder={this.state.oldLName} />
                         </Form.Group>
 
                         <Form.Group controlId="form_program">
                             <Form.Label className ="inpL">Program</Form.Label>
-                            <Form.Control type="text" placeholder="Computer Science" />
+                            <Form.Control
+                                ref={(input) => this.prog = input}
+                                onChange={() => this.handleInputChange('program')}
+                                autoComplete="new-password"
+                                type="text" placeholder={this.state.oldProgram} />
                         </Form.Group>
 
-                        <Button id="Submit_button" variant="primary" type="submit">
+                        <Button
+                            onClick={() => this.handleSubmit()}
+                            id="Submit_button" variant="primary" type="submit">
                             Done
                         </Button>
 
@@ -41,7 +146,8 @@ class SettingsInput extends React.Component{
                     </Form>
                 </div>
             </div>
-        </header>
+        </header>;
     }
 }
-export default SettingsInput
+
+export default SettingsInput;

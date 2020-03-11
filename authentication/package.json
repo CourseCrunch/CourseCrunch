@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "prod": "node app.js",
+    "dev": "npx nodemon app.js"
   },
   "dependencies": {
     "bcrypt": "^3.0.8",

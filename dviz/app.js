@@ -12,4 +12,4 @@ app.use("/public", express.static(__dirname + '/public'));
 var indexRouter = require('./routes/index');
 app.use('/', indexRouter);
 
-app.listen(3000, () => console.log("App listening on port 3000"));
+app.listen(process.env.DVIZPORT, () => console.log("App listening on port "+process.env.DVIZPORT));

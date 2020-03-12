@@ -65,6 +65,22 @@ function getUserInfo(uuid) {
     }));
 }
 
+function getUserEmail(uuid) {
+    return new Promise(((resolve, reject) => {
+        try {
+            const promiseQueryInfo = UserDB.query('SELECT EMAIL FROM CC_CREDENTIALS WHERE ID = $1', [uuid]);
+            promiseQueryInfo.then((queryResult) => {
+                resolve(queryResult);
+            }).catch((queryError) => {
+                reject(queryError);
+            });
+        } catch (e) {
+            reject(e);
+        }
+    }));
+}
+
+
 function updateUser(query) {
     return new Promise(((resolve, reject) => {
         try {
@@ -120,6 +136,7 @@ module.exports = {
     checkUserExists,
     validatePW,
     getUserInfo,
+    getUserEmail,
     updateUser,
     updateUserEmail,
     updateUserPass,

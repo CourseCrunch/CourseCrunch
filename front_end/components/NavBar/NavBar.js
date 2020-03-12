@@ -7,7 +7,7 @@ function Greeting(props) {
     if (!isLoggedIn) {
         return <li><label>Login</label></li>;
     }
-    return <><li><label>User Profile</label></li>
+    return <><li><Link href = "/editProfile"><a>User Profile</a></Link></li>
         <li><label>Logout</label></li></>;
 }
 class NavBar extends React.Component {

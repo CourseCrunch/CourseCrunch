@@ -42,6 +42,7 @@ function fuzzySearch(instructorName) {
     return getFuse().then((f) => f.search(instructorName)).catch(() => null);
 }
 
+//cache.updateInstructorCache();
 fuzzySearch('Bailey Lee').then((r) => console.log(r[0]));
 
 module.exports = {

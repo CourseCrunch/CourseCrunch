@@ -11,4 +11,4 @@ app.use(express.urlencoded({ extended: false }));
 
 app.use('/', averageRouter);
 
-app.listen(3000, () => console.log('App listening on port 3000'));
+app.listen(process.env.EVALSPORT, () => console.log('App listening on port '+process.env.EVALSPORT));

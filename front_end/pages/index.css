@@ -60,3 +60,24 @@
     background-color: rgba(0,0,0, .75);
     color: white;
 }
+
+.loginform h2{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24;
+}
+.loginform {
+    width: 600px;
+    margin:0 auto;
+    padding:180px 0;
+}
+
+.loginform form{
+    margin: 0 auto;
+    max-width: 320px;
+    padding: 15px;
+}
+
+.inputpw, .inputemail{
+    padding:15px
+}

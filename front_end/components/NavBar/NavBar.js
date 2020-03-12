@@ -5,7 +5,7 @@ import './NavBar.css';
 function Greeting(props) {
     const { isLoggedIn } = props;
     if (!isLoggedIn) {
-        return <li><label>Login</label></li>;
+        return <li><Link href='/login'><a>Login</a></Link></li>;
     }
     return <><li><label>User Profile</label></li>
         <li><label>Logout</label></li></>;

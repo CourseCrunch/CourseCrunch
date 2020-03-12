@@ -1,0 +1,42 @@
+.emailInput{
+    position: relative;
+    top: 60px;
+    left: 15%;
+    width: 75%;
+    background: #e5e5e5;
+    height: 100%;
+    z-index:999;
+}
+
+#form_newEmail, #form_password{
+    position: relative;
+    padding: 0 20px;
+    height: 40px;
+    font-size: 20px;
+    left: 7%;
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+.errorPanel{
+    background-color: #FFF6F6;
+    padding: 9px 0;
+    border-top: 2px solid #912D2B;
+    border-bottom: 2px solid #912D2B;
+}
+
+.errorPanel .header{
+    position: relative;
+    padding: 0 20px;
+    left: 7%;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    font-weight: 700;
+    color: #912D2B;
+}
+
+.errorPanel .content{
+    position: relative;
+    padding: 0 20px;
+    left: 10%;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+}

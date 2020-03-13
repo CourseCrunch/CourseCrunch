@@ -1,6 +1,8 @@
 import React from 'react';
 import { render } from 'react-dom';
-import {Form, Button, FormGroup, FormControl, ControlLabel} from 'react-bootstrap';
+import {
+    Form, Button, FormGroup, FormControl, ControlLabel,
+} from 'react-bootstrap';
 import './SettingsInput.css';
 
 class SettingsInput extends React.Component {
@@ -16,7 +18,7 @@ class SettingsInput extends React.Component {
             oldProgram: '',
             newFName: '',
             newLName: '',
-            newProg: ''
+            newProg: '',
         };
     }
 
@@ -39,12 +41,12 @@ class SettingsInput extends React.Component {
                         isLoaded: true,
                         oldFName: fNam,
                         oldLName: lNam,
-                        oldProgram: prog
+                        oldProgram: prog,
                     });
                 }, (error) => {
                     this.setState({
                         isLoaded: true,
-                        error
+                        error,
                     });
                 },
             );
@@ -71,29 +73,29 @@ class SettingsInput extends React.Component {
             unsanUuid: 'b17f1135-501f-4397-b257-653897375000',
             unsanFname: this.state.newFName,
             unsanLname: this.state.newLName,
-            unsanProgram: this.state.newProg
+            unsanProgram: this.state.newProg,
         };
         fetch('http://localhost:3008/edit_profile', {
             method: 'PATCH',
             headers: {
-                'Content-Type': 'application/json'
+                'Content-Type': 'application/json',
             },
             body: JSON.stringify(data),
         })
             .then((res) => {
                 if (res.ok) {
                     this.setState({
-                        submitErr: false
+                        submitErr: false,
                     });
                 } else {
                     this.setState({
-                        submitErr: true
+                        submitErr: true,
                     });
                 }
             }).catch((e) => {
                 console.log(e);
                 this.setState({
-                    submitErr: true
+                    submitErr: true,
                 });
             });
     }

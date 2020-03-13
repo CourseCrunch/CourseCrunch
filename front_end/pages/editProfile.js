@@ -15,7 +15,7 @@ class EditProf extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            screen: 'None'
+            screen: 'None',
         };
     }
 

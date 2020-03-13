@@ -1,5 +1,7 @@
 import React from 'react';
-import {Form, Button, FormGroup, FormControl, ControlLabel} from 'react-bootstrap';
+import {
+    Form, Button, FormGroup, FormControl, ControlLabel,
+} from 'react-bootstrap';
 import Link from 'next/link';
 import './ChangePassword.css';
 import { Message } from 'semantic-ui-react';
@@ -14,7 +16,7 @@ class SettingsInput extends React.Component {
             submitErr: '',
             uuid: '',
             oldPassword: '',
-            newPassword: ''
+            newPassword: '',
         };
     }
 
@@ -24,12 +26,12 @@ class SettingsInput extends React.Component {
             .then(
                 (result) => {
                     this.setState({
-                        isLoaded: true
+                        isLoaded: true,
                     });
                 }, (error) => {
                     this.setState({
                         isLoaded: true,
-                        error
+                        error,
                     });
                 },
             );
@@ -42,11 +44,11 @@ class SettingsInput extends React.Component {
     handleInputChange(inputType) {
         if (inputType === 'newPassword') {
             this.setState({
-                newPassword: this.newPass.value
+                newPassword: this.newPass.value,
             });
         } else {
             this.setState({
-                oldPassword: this.oldPass.value
+                oldPassword: this.oldPass.value,
             });
         }
     }
@@ -58,12 +60,12 @@ class SettingsInput extends React.Component {
             const data = {
                 unsanUuid: 'b17f1135-501f-4397-b257-653897375000',
                 newPassword: this.state.newPassword,
-                oldPassword: this.state.oldPassword
+                oldPassword: this.state.oldPassword,
             };
             fetch('http://localhost:3008/change_password', {
                 method: 'PATCH',
                 headers: {
-                    'Content-Type': 'application/json'
+                    'Content-Type': 'application/json',
                 },
                 body: JSON.stringify(data),
             })
@@ -72,17 +74,17 @@ class SettingsInput extends React.Component {
                         this.props.onButtonPress({ screen: 'Sec' });
                     } else if (res.status === 406) {
                         this.setState({
-                            submitErr: 'password'
+                            submitErr: 'password',
                         });
                     } else {
                         this.setState({
-                            submitErr: 'internal'
+                            submitErr: 'internal',
                         });
                     }
                 }).catch((e) => {
                     console.log(e);
                     this.setState({
-                        submitErr: true
+                        submitErr: true,
                     });
                 });
         }
@@ -94,14 +96,12 @@ class SettingsInput extends React.Component {
                 negative
                 header="Invalid Password!"
             /> </div>;
-        }else if (this.state.submitErr === 'internal') {
+        } if (this.state.submitErr === 'internal') {
             return <div className = "errorPanel"> <Message
                 negative
                 header="Uh Oh!"
                 content="An Error Occurred Try Again Later"
             /> </div>;
-        } else {
-            return
         }
     }
 

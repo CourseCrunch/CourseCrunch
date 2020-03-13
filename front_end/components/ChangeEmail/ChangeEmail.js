@@ -1,5 +1,7 @@
 import React from 'react';
-import {Form, Button, FormGroup, FormControl, ControlLabel} from 'react-bootstrap';
+import {
+    Form, Button, FormGroup, FormControl, ControlLabel,
+} from 'react-bootstrap';
 import './ChangeEmail.css';
 import { Message } from 'semantic-ui-react';
 
@@ -12,7 +14,7 @@ class SettingsInput extends React.Component {
             submitErr: '',
             uuid: '',
             newEmail: '',
-            password: ''
+            password: '',
         };
     }
 
@@ -22,12 +24,12 @@ class SettingsInput extends React.Component {
             .then(
                 () => {
                     this.setState({
-                        isLoaded: true
+                        isLoaded: true,
                     });
                 }, (error) => {
                     this.setState({
                         isLoaded: true,
-                        error
+                        error,
                     });
                 },
             );
@@ -40,11 +42,11 @@ class SettingsInput extends React.Component {
     handleInputChange(inputType) {
         if (inputType === 'email') {
             this.setState({
-                newEmail: this.email.value
+                newEmail: this.email.value,
             });
         } else {
             this.setState({
-                password: this.password.value
+                password: this.password.value,
             });
         }
     }
@@ -56,7 +58,7 @@ class SettingsInput extends React.Component {
             const data = {
                 unsanUuid: 'b17f1135-501f-4397-b257-653897375000',
                 email: this.state.newEmail,
-                password: this.state.password
+                password: this.state.password,
             };
             fetch('http://localhost:3008/change_email', {
                 method: 'PATCH',
@@ -70,17 +72,17 @@ class SettingsInput extends React.Component {
                         this.props.onButtonPress({ screen: 'Sec' });
                     } else if (res.status === 406) {
                         this.setState({
-                            submitErr: 'password'
+                            submitErr: 'password',
                         });
                     } else {
                         this.setState({
-                            submitErr: 'internal'
+                            submitErr: 'internal',
                         });
                     }
                 }).catch((e) => {
                     console.log(e);
                     this.setState({
-                        submitErr: true
+                        submitErr: true,
                     });
                 });
         }
@@ -92,14 +94,12 @@ class SettingsInput extends React.Component {
                 negative
                 header="Invalid Password!"
             /> </div>;
-        }else if (this.state.submitErr === 'internal') {
+        } if (this.state.submitErr === 'internal') {
             return <div className = "errorPanel"> <Message
                 negative
                 header="Uh Oh!"
                 list={['An Error Occurred Try Again Later']}
             /> </div>;
-        } else {
-            return
         }
     }
 

@@ -1,13 +1,13 @@
-import { createTransport } from 'nodemailer';
-import { getWaitlists, removeUser } from '../resources/queries';
-import { waitListSpace } from '../../timetable_api/api.js';
+var dbReq = require('../resources/queries');
+var timetable_api = require('../../timetable_api/api.js');
 require('dotenv').config();
 var TransporterSingleton = require("./transporter.js");
+var mailer = require('nodemailer');
 
 function sendEmail(user_email, course){
     // make this a singleton
-    var transporter = (new TransporterSingleton()).getTransporter();
-
+    var transporter = TransporterSingleton;
+    console.log(transporter);
     var mailOptions = {
       from: process.env.EMAILUSER,
       to: user_email,
@@ -28,21 +28,26 @@ function sendEmail(user_email, course){
 
 
 function checkWaitlists(){
-    // check each course in CC_USER_WAITLIST
-    // {"CSC209": {"2020": {"W": ["naaz.sibia@utoronto.ca", ...]}}}
-    var waitlist = getWaitlists();
-    Object.keys(waitlist).forEach(course => {
-      Object.keys(waitlist[course]).forEach(year=>{
-        Object.keys(waitlist[course][year]).forEach(term=>{
-          waitListSpace(course, term, year).then(result => {
-            if(result.space){
-              waitlist[course][year][term].forEach(userEmail=>
-                {
-                  if(sendEmail(userEmail, course)){
-                    removeUser(userEmail, course, year, term);
-                  }
+  // check each course in CC_USER_WAITLIST
+  // {"CSC209": {"2020": {"W": ["naaz.sibia@utoronto.ca", ...]}}}
+  var waitlist = dbReq.getWaitlists();
+  Object.keys(waitlist).forEach(course => {
+    Object.keys(waitlist[course]).forEach(year=>{
+      Object.keys(waitlist[course][year]).forEach(term=>{
+        timetable_api.waitListSpace(course, term, year).then(result => {
+          console.log("here");
+          if(result.space){
+            waitlist[course][year][term].forEach(userEmail=>
+              {
+                if(sendEmail(userEmail, course)){
+                  dbReq.removeUser(userEmail, course, year, term);
+                  console.log("User removed from waitlist");
                 }
-              );
-            }});
-      });});});
-  }
+              }
+            );
+          }}).catch(e => {console.log(e)});
+    });});});
+}
+
+
+checkWaitlists();

@@ -1,11 +1,12 @@
-export default class TransporterSingleton{
+var mailer = require('nodemailer');
+class TransporterSingleton{
     constructor(){
         this.transporter = null;
     }
 
     getTransporter(){
         if(!this.transporter){
-            this.transporter = createTransport({
+            this.transporter = mailer.createTransport({
                 service: process.env.EMAIL_SERVICE,
                 auth: {
                   user: process.env.EMAILUSER,
@@ -17,3 +18,7 @@ export default class TransporterSingleton{
     }
 
 }
+
+var transporter = new TransporterSingleton();
+
+module.exports = transporter.getTransporter();

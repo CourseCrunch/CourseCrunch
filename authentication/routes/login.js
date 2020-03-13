@@ -1,34 +1,35 @@
-var express = require('express');
-var router = express.Router();
-var app = express();
-var dbReq = require('../resources/queries');
-var bodyParser = require('body-parser');
-var validator = require('validator');
+const express = require('express');
 
-const emptyString = function(input) { if(input == 'undefined') {return ''} else {return input}}
+const router = express.Router();
+const app = express();
+const bodyParser = require('body-parser');
+const validator = require('validator');
+const dbReq = require('../resources/queries');
+
+const emptyString = function (input) { if (input == 'undefined') { return ''; } return input; };
 
 router.use(bodyParser.json());
 router.use(bodyParser.urlencoded({
-	extended: true
+    extended: true,
 }));
 
 router.post('/', (req, res) => {
     try {
-        const { Email, Password } = req.body;
+        const { email, password } = req.body;
 
-        const sanPassword = emptyString(validator.trim(validator.escape(`${Password}`)));
-        const sanEmail = emptyString(validator.trim(validator.escape(`${Email}`)));
+        const sanPassword = emptyString(validator.trim(validator.escape(`${password}`)));
+        const sanEmail = emptyString(validator.trim(validator.escape(`${email}`)));
 
-        if (uuid === '') {
+        if (sanEmail === '') {
             res.status(400).send();
         } else {
-            //Verify if the correct password has been entered.
+            // Verify if the correct password has been entered.
             const promiseValidatePassword = dbReq.validatePW(sanEmail, sanPassword);
             promiseValidatePassword.then((validateResult) => {
-                //If password validated, log them
+                // If password validated, log them
                 if (validateResult === 'Valid') {
-                    var uuid = dbReq.getUserIDFromMail(sanEmail);
-                    res.status(200).json({userid:uuid});
+                    const uuid = dbReq.getUserIDFromMail(sanEmail);
+                    res.status(200).json({ userid: uuid });
                 } else {
                     res.status(406).send();
                 }

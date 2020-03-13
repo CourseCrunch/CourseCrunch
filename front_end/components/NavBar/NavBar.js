@@ -2,13 +2,15 @@ import React from 'react';
 import Link from 'next/link';
 import './NavBar.css';
 
-function Greeting(props) {
-    const { isLoggedIn } = props;
-    if (!isLoggedIn) {
-        return <li><Link href='/login'><a>Login</a></Link></li>;
+function Greeting() {
+    if (typeof window !== 'undefined') {
+        const { isLoggedIn } = !(localStorage.getItem('loggedIn') === null);
+        if (!isLoggedIn) {
+            return <li><Link href='/login'><a>Login</a></Link></li>;
+        }
+        return <><li><label>User Profile</label></li>
+            <li><label>Logout</label></li></>;
     }
-    return <><li><label>User Profile</label></li>
-        <li><label>Logout</label></li></>;
 }
 class NavBar extends React.Component {
     render() {

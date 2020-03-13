@@ -1,31 +1,18 @@
 const axios = require('axios');
-const mongo = require('./Instruct');
 const Fuse = require('fuse.js');
+const util = require('util');
+const mongo = require('./Instruct');
 const cache = require('./Cache');
 
-if (!String.prototype.format) {
-    String.prototype.format = function() {
-    var args = arguments;
-    return this.replace(/{(\d+)}/g, function(match, number) { 
-        return typeof args[number] != 'undefined'
-            ? args[number]
-            : match
-        ;
-        });
-    };
+function queryInstructor(iid) {
+    const queryStr = util.format(process.env.Q_INSTRUCT, iid);
+    return axios.get(queryStr).then((res) => {
+        if (res.data.response.docs.length !== 0) return res.data.response.docs[0];
+        return null;
+    }).catch(() => null);
 }
 
-function query_instructor(iid) {
-    var query_str = process.env.Q_INSTRUCT.format(iid);
-    return axios.get(query_str).then(res => {
-        if (res.data.response.docs.length != 0) return res.data.response.docs[0];
-        return null;
-    }).catch(e => {
-        return null;
-    });
-}
-
-var options = {
+const options = {
     shouldSort: true,
     includeScore: true,
     threshold: 0.6,
@@ -35,39 +22,48 @@ var options = {
     maxPatternLength: 32,
     minMatchCharLength: 1,
     keys: [
-      "fullname"
-    ]
+        'fullname',
+    ],
 };
 
-let fuse_global = null;
-
-function get_fuse() {
-    if (fuse_global == null) {
-        return mongo.Instruct.find().then(res => {
-            fuse_global = new Fuse(res, options);
-            return fuse_global;
-        }).catch(e => {
-            return null;
-        });
-    } else {
-        return Promise.resolve(fuse_global);
+const fuseGlobal = {};
+const promises = [];
+function generatePromises() {
+    const keys = Object.keys(cache.getSchools());
+    for (let i = 0; i < keys.length; i += 1) {
+        promises.push(mongo.Instruct.find({ school: keys[i] }).then(
+            (res) => ({ school: keys[i], fuse: new Fuse(res, options) }),
+        ).catch(() => null));
     }
+    return Promise.all(promises);
 }
 
-function fuzzy_search(instructor_name) {
-    return get_fuse().then(f => {
-        return f.search(instructor_name);
-    }).catch(e => {
-        return null;
-    });
+function getFuse() {
+    if (promises.length === 0) {
+        return generatePromises().then((data) => {
+            for (let i = 0; i < data.length; i += 1) {
+                fuseGlobal[data[i].school] = data[i].fuse;
+            }
+            return fuseGlobal;
+        });
+    }
+    return Promise.resolve(fuseGlobal);
 }
 
-fuzzy_search("Bailey Lee").then(r => console.log(r[0]));
+function fuzzySearch(schoolName, instructorName) {
+    return getFuse().then((f) => f[schoolName].search(instructorName));
+}
+
+// cache.updateInstructorCache();
+
+// fuzzySearch('utm', 'Bailey Lee').then((r) => console.log(r[0]));
+
+getFuse().then(() => console.log('build fuzzy search'));
 
 module.exports = {
-    find_instructor: query_instructor,
-    find_all_instructors: cache.query_all_instructors,
-    all_schools: cache.get_schools,
-    init: cache.update_instructor_cache,
-    find_instructor: fuzzy_search
-}
+    findInstructor: queryInstructor,
+    findAllInstructors: cache.queryAllInstructors,
+    allSchools: cache.getSchools,
+    init: cache.updateInstructorCache,
+    searchInstructor: fuzzySearch,
+};

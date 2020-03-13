@@ -15,4 +15,4 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/recommendations', recommendationsRouter);
 
-app.listen(3000, () => console.log("App listening on port 3000"));
+app.listen(process.env.CALENDARPORT, () => console.log("App listening on port "+process.env.CALENDARPORT));

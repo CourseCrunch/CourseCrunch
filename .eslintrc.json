@@ -1,6 +1,7 @@
 {
     "env": {
         "browser": true,
+        "node": true,
         "commonjs": true,
         "es6": true
     },"plugins": [
@@ -14,10 +15,14 @@
         "SharedArrayBuffer": "readonly"
     },
     "parserOptions": {
-        "ecmaVersion": 2018
+        "ecmaVersion": 2018,
+        "ecmaFeatures": {
+            "jsx": true
+          }
     },
     "parser": "babel-eslint",
     "rules": {
-        "indent": ["error", 4]
+        "indent": ["error", 4],
+        "react/jsx-uses-vars": "error"
     }
 }

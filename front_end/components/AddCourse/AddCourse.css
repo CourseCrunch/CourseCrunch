@@ -1,0 +1,50 @@
+.courseInput{
+    position: relative;
+    top: 60px;
+    left: 15%;
+    width: 75%;
+    background: #e5e5e5;
+    height: 100%;
+    z-index:999;
+}
+
+.form_instruct{
+    position: relative;
+    display: block;
+    margin-bottom: 5px;
+    top: 2vh;
+    left: 1.5%;
+}
+
+.hint{
+    position: relative;
+    display: block;
+    margin-bottom: 60px;
+    top: 2vh;
+    left: 1.5%;
+    color: #868686
+}
+
+.inpLabel{
+    width: 170px;
+    font-size: 20px;
+}
+
+#form_course{
+    position: relative;
+    padding: 0 20px;
+    height: 40px;
+    font-size: 20px;
+    left: 0;
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+#add_button{
+    position: relative;
+    display: inline-block;
+    color: #ffffff;
+    background-color: #013a6f;
+    width: 90px;
+    font-size: 20px;
+}

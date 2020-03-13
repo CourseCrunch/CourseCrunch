@@ -26,24 +26,39 @@ const options = {
     ],
 };
 
-let fuseGlobal = null;
+const fuseGlobal = {};
+const promises = [];
+function generatePromises() {
+    const keys = Object.keys(cache.getSchools());
+    for (let i = 0; i < keys.length; i += 1) {
+        promises.push(mongo.Instruct.find({ school: keys[i] }).then(
+            (res) => ({ school: keys[i], fuse: new Fuse(res, options) }),
+        ).catch(() => null));
+    }
+    return Promise.all(promises);
+}
 
 function getFuse() {
-    if (fuseGlobal == null) {
-        return mongo.Instruct.find().then((res) => {
-            fuseGlobal = new Fuse(res, options);
+    if (promises.length === 0) {
+        return generatePromises().then((data) => {
+            for (let i = 0; i < data.length; i += 1) {
+                fuseGlobal[data[i].school] = data[i].fuse;
+            }
             return fuseGlobal;
-        }).catch(() => null);
+        });
     }
     return Promise.resolve(fuseGlobal);
 }
 
-function fuzzySearch(instructorName) {
-    return getFuse().then((f) => f.search(instructorName)).catch(() => null);
+function fuzzySearch(schoolName, instructorName) {
+    return getFuse().then((f) => f[schoolName].search(instructorName));
 }
 
-//cache.updateInstructorCache();
-fuzzySearch('Bailey Lee').then((r) => console.log(r[0]));
+// cache.updateInstructorCache();
+
+// fuzzySearch('utm', 'Bailey Lee').then((r) => console.log(r[0]));
+
+getFuse().then(() => console.log('build fuzzy search'));
 
 module.exports = {
     findInstructor: queryInstructor,

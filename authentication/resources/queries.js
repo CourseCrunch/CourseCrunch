@@ -10,44 +10,44 @@ const pool = new Pool({
 	port: process.env.PGPORT
 });
 
-const checkUserExists = (email, callBack) => {
-	pool.query('SELECT 1 FROM CC_CREDENTIALS WHERE EMAIL = $1', [email], (error, results)  => {
-		if (error) {
-			console.log(error);
-			return callBack('error');
-		} else {
-			return callBack(results.rows);
-		}
-	});
+function checkUserExists(email) {
+    return new Promise(((resolve, reject) => {
+        try {
+            const promiseQueryEmail = UserDB.query('SELECT 1 FROM CC_CREDENTIALS WHERE EMAIL = $1', [email]);
+            promiseQueryEmail.then((queryResult) => {
+                resolve(queryResult);
+            }).catch((queryError) => {
+                reject(queryError);
+            });
+        } catch (e) {
+            reject(e);
+        }
+    }));
 }
 
-const validatePW = (email, password, callBack) => {
-    pool.query('SELECT HASH FROM CC_CREDENTIALS WHERE EMAIL = $1', [email], (error, results) => {
-        if (error) {
-            console.log(error);
-            return callBack('error');
-        }else {
-            console.log(results.rows[0]);
-            var pw_hash = results.rows[0].HASH;
-            
-            bcrypt.compare(password, pw_hash, (valid_err, hash) => {
-                if (valid_err){
-
-                    console.log(valid_err);
-                    return callBack("error");
-
-                }else if(!hash){
-                    
-                    return callBack("Invalid Password.");
-
-                }else if(hash){
-
-                    return callBack("Valid Password.");
-
-                }
+function validatePW(uuid, password) {
+    return new Promise(((resolve, reject) => {
+        try {
+            const promiseQueryHash = UserDB.query('SELECT HASH FROM CC_CREDENTIALS WHERE ID = $1', [uuid]);
+            promiseQueryHash.then((queryResult) => {
+                const pwHash = queryResult.rows[0].hash;
+                const promiseCompareHash = bcrypt.compare(password, pwHash);
+                promiseCompareHash.then((comparisonResult) => {
+                    if (comparisonResult) {
+                        resolve('Valid');
+                    } else {
+                        resolve('Invalid');
+                    }
+                }).catch((comparisonError) => {
+                    reject(comparisonError);
+                });
+            }).catch((queryError) => {
+                reject(queryError);
             });
+        } catch (e) {
+            reject(e);
         }
-    });
+    }));
 }
 
 const createUser = (fname, lname, email, program, password, callBack) => {
@@ -85,5 +85,5 @@ const createUser = (fname, lname, email, program, password, callBack) => {
 module.exports = {
 	checkUserExists,
 	createUser,
-  validatePW
+  	validatePW
 }

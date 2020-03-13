@@ -1,5 +1,4 @@
 const mongo = require('mongoose');
-const mongooseFuzzySearching = require('mongoose-fuzzy-searching');
 
 const { Schema } = mongo;
 
@@ -14,16 +13,8 @@ const InstructorSchema = new Schema({
     teacherlastname_t: String,
     teacherdepartment_s: String,
     fullname: String,
+    school: String,
 });
-
-InstructorSchema.plugin(mongooseFuzzySearching, {
-    fields: [{
-        name: 'fullname',
-        minSize: 5,
-    },
-    ],
-});
-
 
 InstructorSchema.path('pk_id').index({ unique: true });
 

@@ -19,7 +19,7 @@ class Recommendations extends React.Component {
             lastUid: -1,
             selectedIntervals: [],
             randomJson: [],
-            selectedFilters: []
+            selectedFilters: [],
         };
     }
 
@@ -47,11 +47,11 @@ class Recommendations extends React.Component {
     }
 
 
-    onChange = (event, {value}) =>{
-        this.setState({selectedCourses:value});
+    onChange = (event, { value }) => {
+        this.setState({ selectedCourses: value });
         console.log(value);
     }
-    
+
     handleSelect = (newIntervals) => {
         const { lastUid, selectedIntervals } = this.state;
         const intervals = newIntervals.map((interval, index) => ({
@@ -85,7 +85,7 @@ class Recommendations extends React.Component {
                 />
                 <button onClick={this.handleClick}>Send Schedule</button>
                 <ul>
-                     {this.state.randomJson.map((results) => <li>{results.name.first}</li>)}
+                    {this.state.randomJson.map((results) => <li>{results.name.first}</li>)}
                 </ul>
                 <Filter onChange = {this.onChange} />
 

@@ -4,7 +4,7 @@ import './hover.css';
 
 const Index = () => (
     <div>
-        <NavBar isLoggedIn = {false}/>
+        <NavBar isLoggedIn = {true}/>
         <div className = "container">
             <div className = "back"></div>
             <h1>Course Crunch</h1>

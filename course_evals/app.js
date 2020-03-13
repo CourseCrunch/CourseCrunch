@@ -16,4 +16,4 @@ app.use('/', averageRouter);
 
 app.use('/', courseCodesRouter);
 
-app.listen(3001, () => console.log('App listening on port 3001'));
+app.listen(process.env.EVALSPORT, () => console.log('App listening on port '+process.env.EVALSPORT));

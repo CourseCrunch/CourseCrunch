@@ -14,20 +14,21 @@ router.use(bodyParser.urlencoded({
 
 router.post('/', (req, res) => {
     try {
-        const { unsanUuid, oldPassword } = req.body;
+        const { Email, Password } = req.body;
 
-        const sanOldPassword = emptyString(validator.trim(validator.escape(`${oldPassword}`)));
-        const uuid = emptyString(validator.trim(validator.escape(`${unsanUuid}`)));
+        const sanPassword = emptyString(validator.trim(validator.escape(`${Password}`)));
+        const sanEmail = emptyString(validator.trim(validator.escape(`${Email}`)));
 
         if (uuid === '') {
             res.status(400).send();
         } else {
             //Verify if the correct password has been entered.
-            const promiseValidatePassword = dbReq.validatePW(uuid, sanOldPassword);
+            const promiseValidatePassword = dbReq.validatePW(sanEmail, sanPassword);
             promiseValidatePassword.then((validateResult) => {
-                //If password validated, log them in.
+                //If password validated, log them
                 if (validateResult === 'Valid') {
-                    res.status(200).send();
+                    var uuid = dbReq.getUserIDFromMail(sanEmail);
+                    res.status(200).json({userid:uuid});
                 } else {
                     res.status(406).send();
                 }

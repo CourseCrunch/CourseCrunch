@@ -12,58 +12,33 @@ router.use(bodyParser.urlencoded({
 	extended: true
 }));
 
-router.get('/', function(req, res) {
-    try{
-        
-        const {email, password} = req.body;
+router.post('/', (req, res) => {
+    try {
+        const { unsanUuid, oldPassword } = req.body;
 
-        //Sanitize like the Romans
-        const san_email = emptyString(validator.trim(validator.escape(validator.normalizeEmail(email + ''))));
-        const san_password = emptyString(validator.trim(validator.escape(password + '')));
+        const sanOldPassword = emptyString(validator.trim(validator.escape(`${oldPassword}`)));
+        const uuid = emptyString(validator.trim(validator.escape(`${unsanUuid}`)));
 
-        if(!(validator.isEmail(san_email)) || !(san_email.length < 200)){
-			res.status(406).send('Please enter a valid email.');
-        }else {
-
-            dbReq.checkUserExists(san_email, function(response){
-                if(response.length == 0){
-
-                    res.status(406).send("There is no account associated with this email.");
-
-                }else{
-
-                    try{
-
-                        dbReq.validatePW(san_email, san_password, function(resp){
-                            if(resp == "Invalid Password"){
-
-                                res.status(406).send("Invalid Password for the given email.");
-
-                            }else if(resp == "error"){
-
-                                res.status(500).send("Error during password validation.");
-
-                            }else{
-                            
-                            //Sessions and other concepts here?
-                                res.status(200).send("Successful login");
-                            }
-                         });
-
-                    }catch(e) {
-
-                        res.status(500);
-                        console.log(e);
-
-                    }
+        if (uuid === '') {
+            res.status(400).send();
+        } else {
+            //Verify if the correct password has been entered.
+            const promiseValidatePassword = dbReq.validatePW(uuid, sanOldPassword);
+            promiseValidatePassword.then((validateResult) => {
+                //If password validated, log them in.
+                if (validateResult === 'Valid') {
+                    res.status(200).send();
+                } else {
+                    res.status(406).send();
                 }
+            }).catch((validateError) => {
+                console.log(validateError);
+                res.status(500).send();
             });
         }
-
-    }catch(e){  
-
-        throw(e)
-
+    } catch (e) {
+        res.status(500).send();
+        console.log(e);
     }
 });
 

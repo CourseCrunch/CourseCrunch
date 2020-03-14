@@ -30,8 +30,6 @@ class Login extends React.Component {
                 header="Uh Oh!"
                 content="An Error Occurred Try Again Later"
             /> </div>;
-        }else {
-            return;
         }
     }
 
@@ -49,12 +47,15 @@ class Login extends React.Component {
         })
             .then((res) => {
                 if (res.ok) {
-                    const { userid } = res.json();
-                    if (typeof window !== 'undefined') {
-                        localStorage.setItem('userid', userid);
-                        localStorage.setItem('loggedin', true);
-                        Router.push('/');
-                    }
+                    res.json().then((result) => {
+                        const { userid } = result;
+                        if (typeof window !== 'undefined') {
+                            localStorage.setItem('userid', userid);
+                            localStorage.setItem('loggedIn', 'true');
+                            console.log(localStorage.getItem('loggedIn'));
+                            Router.push('/');
+                        }
+                    });
                 } else if (res.status === 406) {
                     this.setState({
                         error: 'password',

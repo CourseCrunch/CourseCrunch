@@ -29,7 +29,7 @@ function checkUserExists(email) {
 function validatePW(email, password) {
     return new Promise(((resolve, reject) => {
         try {
-            const promiseQueryHash = UserDB.query('SELECT HASH FROM CC_CREDENTIALS WHERE ID = $1', [email]);
+            const promiseQueryHash = UserDB.query('SELECT HASH FROM CC_CREDENTIALS WHERE EMAIL = $1', [email]);
             promiseQueryHash.then((queryResult) => {
                 const pwHash = queryResult.rows[0].hash;
                 const promiseCompareHash = bcrypt.compare(password, pwHash);
@@ -53,16 +53,18 @@ function validatePW(email, password) {
 
 // Naaz's get user ID from mail. It doesn't use a promise so I'm sorry.
 function getUserIDFromMail(email) {
-    UserDB.query('SELECT ID FROM CC_CREDENTIALS WHERE EMAIL=$1', [email], (error, results) => {
-        if (error) {
-            console.log(error);
-            return null;
+    return new Promise(((resolve, reject) => {
+        try {
+            const promiseIDHash = UserDB.query('SELECT ID FROM CC_CREDENTIALS WHERE EMAIL = $1', [email]);
+            promiseIDHash.then((queryResult) => {
+                resolve(queryResult.rows[0].id);
+            }).catch((queryError) => {
+                reject(queryError);
+            });
+        } catch (e) {
+            reject(e);
         }
-        if (length(results) == 0) {
-            return null;
-        }
-        return results[0].ID;
-    });
+    }));
 }
 
 const createUser = (fname, lname, email, program, password, callBack) => {

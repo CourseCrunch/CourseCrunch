@@ -29,7 +29,13 @@ router.post('/', (req, res) => {
                 // If password validated, log them
                 if (validateResult === 'Valid') {
                     const uuid = dbReq.getUserIDFromMail(sanEmail);
-                    res.status(200).json({ userid: uuid });
+                    uuid.then((result) => {
+                        const data = { userid: result };
+                        res.status(200).json(data);
+                    }).catch((error) => {
+                        console.log(error);
+                        res.status(500).send();
+                    });
                 } else {
                     res.status(406).send();
                 }

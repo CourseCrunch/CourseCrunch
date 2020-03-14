@@ -4,8 +4,7 @@ import './NavBar.css';
 
 function Greeting() {
     if (typeof window !== 'undefined') {
-        const { isLoggedIn } = !(localStorage.getItem('loggedIn') === null);
-        if (!isLoggedIn) {
+        if (localStorage.getItem('loggedIn') === null) {
             return <li><Link href='/login'><a>Login</a></Link></li>;
         }
         return <><li><label>User Profile</label></li>

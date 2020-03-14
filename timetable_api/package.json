@@ -1,0 +1,16 @@
+{
+  "name": "timetable_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "node-html-parser": "^1.2.7",
+    "x-ray": "^2.3.4"
+  }
+}

@@ -31,7 +31,7 @@ router.get('/:faculty/:courseId', (req, res) => {
         } else {
             const temp = JSON.parse(JSON.stringify(out));
             const recommendation = temp[0].recommendation.$numberDecimal;
-            res.status(200).send(recommendation);
+            res.status(200).json(recommendation);
         }
     })
         .catch(() => {

@@ -37,6 +37,7 @@ function updateInstructorCache() {
                 const doc = mongo.Instruct(row);
                 doc.save(() => null);
             }
+            console.log('updated');
         }).catch(() => null);
     });
 }

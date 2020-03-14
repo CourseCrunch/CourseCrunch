@@ -1,5 +1,7 @@
 import React from 'react';
-import {Form, Button, FormGroup, FormControl, ControlLabel} from 'react-bootstrap';
+import {
+    Form, Button, FormGroup, FormControl, ControlLabel,
+} from 'react-bootstrap';
 import './AddCourse.css';
 
 class SettingsInput extends React.Component {

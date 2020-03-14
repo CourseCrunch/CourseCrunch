@@ -18,8 +18,8 @@ class Recommendations extends React.Component {
             results: [],
             lastUid: -1,
             selectedIntervals: [],
-            randomJson: [],
             selectedFilters: [],
+            selectedCourses: []
         };
     }
 
@@ -42,8 +42,20 @@ class Recommendations extends React.Component {
     }
 
     handleClick = () => {
-        alert(this.state.selectedCourses);
-        alert(this.state.selectedIntervals);
+        var data = {
+            courses: this.state.selectedCourses,
+            limit: 10
+        }
+        fetch("http://localhost:3007/recommendation",{
+            method: "POST",
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data)
+        }).then((response) => response.json())
+        .then((result) => {
+            this.setState({results: result})
+        }).catch(() => alert("Something went wrong."));
     }
 
 
@@ -84,10 +96,10 @@ class Recommendations extends React.Component {
                     modalComponent = {CustomModal}
                 />
                 <button onClick={this.handleClick}>Send Schedule</button>
-                <ul>
-                    {this.state.randomJson.map((results) => <li>{results.name.first}</li>)}
-                </ul>
                 <Filter onChange = {this.onChange} />
+                <ul>
+                    {this.state.results.map((results) => <li key={results._id} >{results._id}</li>)}
+                </ul>
 
             </div>
         </div>

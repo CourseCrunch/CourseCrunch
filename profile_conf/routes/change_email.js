@@ -16,66 +16,92 @@ router.use(bodyParser.urlencoded({
 router.use(cookieParser());
 
 router.get('/', (req, res) => {
-    res.json({ info: 'Temp Email changing page' });
+    res.json({ info: 'Success' });
+});
+
+router.post('/', (req, res) => {
+    try {
+        // retrieve uuid from request
+        const { unsanUuid } = req.body;
+
+        const uuid = emptyString(validator.trim(validator.escape(`${unsanUuid}`)));
+
+        if (uuid === '') {
+            res.status(400).send();
+        } else {
+            const promiseGetUserEmail = dbReq.getUserEmail(uuid);
+            promiseGetUserEmail.then((queryResult) => {
+                const { email } = queryResult.rows[0];
+                res.status(200).json({ eMail: email });
+            }).catch((constructError) => {
+                console.log(constructError);
+                res.status(500).send();
+            });
+        }
+    } catch (e) {
+        console.log(e);
+        res.status(500).send();
+    }
 });
 
 router.patch('/', (req, res) => {
     try {
         // retrieve info from request
-        const { password, email } = req.body;
+        const { unsanUuid, password, email } = req.body;
 
         // sanitize input
         const sanEmail = emptyString(validator.trim(validator.escape(validator.normalizeEmail(`${email}`))));
         const sanPassword = emptyString(validator.trim(validator.escape(`${password}`)));
+        const uuid = emptyString(validator.trim(validator.escape(`${unsanUuid}`)));
 
-        // TEMPORARY UNTIL PROPER SESSION AND SESSION SERVER IS SET UP FROM LOGIN
-        const uuid = req.cookies.sessionid;
-
-        // NOTE: all response messages are for debugging and TA presentation,
-        //       will be removed once front end implemented!
-        // validate that all sanitized inputs follow DB constraints
-        if (!((validator.isEmail(sanEmail) || validator.isEmpty(sanEmail))
-                && sanEmail.length < 26)) {
-            res.status(406).send('Please enter a valid email');
+        if (uuid === '') {
+            res.status(400).send();
         } else {
-            // verify correct password has been entered
-            const promiseValidatePassword = dbReq.validatePW(uuid, sanPassword);
-            promiseValidatePassword.then((validateResult) => {
-                // If valid password, check if the new email already is an existing user
-                if (validateResult === 'Valid') {
-                    const promiseCheckUser = dbReq.checkUserExists(sanEmail);
-                    promiseCheckUser.then((checkUserResult) => {
-                        // If no email pre-exists, change email for user
-                        if (checkUserResult.rows[0] === undefined) {
-                            if (!(validator.isEmpty(sanEmail))) {
-                                const promiseUpdateEmail = dbReq.updateUserEmail(uuid, sanEmail);
-                                promiseUpdateEmail.then(() => {
-                                    res.status(200).send('Email successfully changed!');
-                                }).catch((updateError) => {
-                                    console.log(updateError);
-                                    res.status(500).send('Sorry an error ocurred while processing your request');
-                                });
+            // validate that all sanitized inputs follow DB constraints
+            if (!((validator.isEmail(sanEmail) || validator.isEmpty(sanEmail))
+                    && sanEmail.length < 26)) {
+                res.status(406).send();
+            } else {
+                // verify correct password has been entered
+                const promiseValidatePassword = dbReq.validatePW(uuid, sanPassword);
+                promiseValidatePassword.then((validateResult) => {
+                    // If valid password, check if the new email already is an existing user
+                    if (validateResult === 'Valid') {
+                        const promiseCheckUser = dbReq.checkUserExists(sanEmail);
+                        promiseCheckUser.then((checkUserResult) => {
+                            // If no email pre-exists, change email for user
+                            if (checkUserResult.rows[0] === undefined) {
+                                if (!(validator.isEmpty(sanEmail))) {
+                                    const promiseUpdateEmail = 
+						dbReq.updateUserEmail(uuid, sanEmail);
+                                    promiseUpdateEmail.then(() => {
+                                        res.status(200).send();
+                                    }).catch((updateError) => {
+                                        console.log(updateError);
+                                        res.status(500).send();
+                                    });
+                                } else {
+                                    res.status(200).send();
+                                }
                             } else {
-                                res.status(200).send('No changes made!');
+                                res.status(409).send();
                             }
-                        } else {
-                            res.status(409).send('This email is already associated with another user!');
-                        }
-                    }).catch((checkUserError) => {
-                        console.log(checkUserError);
-                        res.status(500).send('Sorry an error ocurred while processing your request');
-                    });
-                } else {
-                    res.status(406).send('Invalid password');
-                }
-            }).catch((validateError) => {
-                console.log(validateError);
-                res.status(500).send('Sorry an error ocurred while processing your request');
-            });
+                        }).catch((checkUserError) => {
+                            console.log(checkUserError);
+                            res.status(500).send();
+                        });
+                    } else {
+                        res.status(406).send();
+                    }
+                }).catch((validateError) => {
+                    console.log(validateError);
+                    res.status(500).send();
+                });
+            }
         }
     } catch (e) {
         console.log(e);
-        res.status(500);
+        res.status(500).send();
     }
 });
 

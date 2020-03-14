@@ -1,0 +1,92 @@
+.credSelect{
+    position: relative;
+    top: 60px;
+    left: 15%;
+    width: 75%;
+    background: #e5e5e5;
+    height: 100%;
+    z-index:999;
+}
+
+.panel_container{
+    box-shadow: 2px 2px 40px #a6a6a6;
+    border-radius: 7px;
+    border: 1px solid #cdcdcd;
+    background: #ffffff;
+}
+
+.pInfo_title_panel{
+    position: relative;
+    border-bottom: 1px solid #cdcdcd;
+}
+
+.pInfo_title_panel h2{
+    display: relative;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-left: 10px;
+    padding: 5px;
+    padding-top: 10px;
+}
+
+.form_panel{
+    position: relative;
+    display: block;
+    margin-bottom: 0;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.form_label{
+    position: relative;
+    display: block;
+    margin-bottom: 60px;
+    top: 2vh;
+    left: 1.5%;
+}
+
+.form_panel button {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 20px 0;
+    border: 0px;
+    font-weight:bold;
+    font-size: 16px;
+    background-color: #ffffff;
+}
+
+.buttonContainer{
+    margin-left: 20px;
+    margin-right: 35px;
+}
+
+.buttonLabel1{
+    width: 30%;
+    color: #6e6e6e;
+    text-align: left;
+    float: left;
+}
+
+.buttonLabel2{
+    text-align: left;
+    float: left;
+}
+
+.buttonLabel3{
+    color: #000000;
+    float: right;
+    font-weight:bold;
+    font-size: 22px;
+    font-family: 'Material Icons Extended';
+}
+
+
+.form_panel button:hover {
+    background-color: #c3c3c3;
+}
+
+.form_panel button:hover .buttonContainer{
+    margin-right: 20px;
+}

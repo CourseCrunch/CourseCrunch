@@ -16,48 +16,48 @@ router.use(bodyParser.urlencoded({
 router.use(cookieParser());
 
 router.get('/', (req, res) => {
-    res.json({ info: 'Temp Password changing page' });
+    res.json({ info: 'Success' });
 });
 
 router.patch('/', (req, res) => {
     try {
         // retrieve info from request
-        const { oldPassword, newPassword } = req.body;
+        const { unsanUuid, oldPassword, newPassword } = req.body;
 
         // sanitize input
         const sanOldPassword = emptyString(validator.trim(validator.escape(`${oldPassword}`)));
         const sanNewPassword = emptyString(validator.trim(validator.escape(`${newPassword}`)));
+        const uuid = emptyString(validator.trim(validator.escape(`${unsanUuid}`)));
 
-        // TEMPORARY UNTIL PROPER SESSION AND SESSION SERVER IS SET UP FROM LOGIN
-        const uuid = req.cookies.sessionid;
-
-        // NOTE: all response messages are for debugging and TA presentation,
-        //       will be removed once front end implemented!
-        // verify correct password has been entered
-        const promiseValidatePassword = dbReq.validatePW(uuid, sanOldPassword);
-        promiseValidatePassword.then((validateResult) => {
-            // If valid password, change to new password
-            if (validateResult === 'Valid') {
-                if (!(validator.isEmpty(sanNewPassword))) {
-                    const promiseUpdatePass = dbReq.updateUserPass(uuid, sanNewPassword);
-                    promiseUpdatePass.then(() => {
-                        res.status(200).send('Password successfully changed!');
-                    }).catch((updateError) => {
-                        console.log(updateError);
-                        res.status(500).send('Sorry an error occurred while processing your request');
-                    });
+        if (uuid === '') {
+            res.status(400).send();
+        } else {
+            // verify correct password has been entered
+            const promiseValidatePassword = dbReq.validatePW(uuid, sanOldPassword);
+            promiseValidatePassword.then((validateResult) => {
+                // If valid password, change to new password
+                if (validateResult === 'Valid') {
+                    if (!(validator.isEmpty(sanNewPassword))) {
+                        const promiseUpdatePass = dbReq.updateUserPass(uuid, sanNewPassword);
+                        promiseUpdatePass.then(() => {
+                            res.status(200).send();
+                        }).catch((updateError) => {
+                            console.log(updateError);
+                            res.status(500).send();
+                        });
+                    } else {
+                        res.status(200).send();
+                    }
                 } else {
-                    res.status(200).send('No changes made!');
+                    res.status(406).send();
                 }
-            } else {
-                res.status(406).send('Invalid password');
-            }
-        }).catch((validateError) => {
-            console.log(validateError);
-            res.status(500).send('Sorry an error occurred while processing your request');
-        });
+            }).catch((validateError) => {
+                console.log(validateError);
+                res.status(500).send();
+            });
+        }
     } catch (e) {
-        res.status(500);
+        res.status(500).send();
         console.log(e);
     }
 });

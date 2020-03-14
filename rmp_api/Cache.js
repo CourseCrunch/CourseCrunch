@@ -14,7 +14,6 @@ function getSchools() {
 
 function numberOfInstructors(schoolId) {
     const queryStr = util.format(process.env.INSTRUCTCOUNT, schoolId);
-    console.log(queryStr);
     const promise = axios.get(queryStr).then((res) => res.data.response.numFound).catch(() => null);
     return promise;
 }
@@ -29,7 +28,7 @@ function queryAllInstructors(schoolId) {
 
 function updateInstructorCache() {
     const schools = getSchools();
-    schools.keys().forEach((key) => {
+    Object.keys(schools).forEach((key) => {
         queryAllInstructors(schools[key]).then((res) => {
             for (let i = 0; i < res.length; i += 1) {
                 const row = res[i];

@@ -16,15 +16,17 @@ function sendEmail(userEmail, course) {
 
     transporter.sendMail(mailOptions, (error, info) => {
         if (error) {
+            // eslint-disable-next-line no-console
             console.log(error);
             return false;
         }
+        // eslint-disable-next-line no-console
         console.log(`Email sent: ${info.response}`);
         return true;
     });
 }
 
-function checkUserWaitlist(waitlist, course, term, year, user) {
+function checkUserWaitlist(waitlist, course, term, year) {
     timetableApi.waitListSpace(course, term, year).then((result) => {
         if (result && result.space) {
             waitlist[course][year][term].forEach((userID) => {
@@ -50,7 +52,7 @@ function checkWaitlists() {
         Object.keys(waitlist).forEach((course) => {
             Object.keys(waitlist[course]).forEach((year) => {
                 Object.keys(waitlist[course][year]).forEach((term) => {
-                    checkUserWaitlist(waitlist, course, term, year, user);
+                    checkUserWaitlist(waitlist, course, term, year);
                 });
             });
         });

@@ -46,7 +46,7 @@ function getUserEmail(userID) {
     return new Promise(((resolve, reject) => {
         try {
             pool.query('SELECT EMAIL FROM CC_CREDENTIALS WHERE ID=$1', [userID]).then((results) => {
-                if (results.length == 0) {
+                if (results.length === 0) {
                     resolve(null);
                 }
                 resolve(results.rows[0].email);
@@ -58,11 +58,11 @@ function getUserEmail(userID) {
 }
 
 
-
 function removeUser(userID, courseCode, year, term) {
     try {
         pool.query('DELETE FROM CC_USER_WAITLIST WHERE ID = $1 AND courseCode = $2 AND year=$3 AND term=$4', [userID, courseCode, year, term]);
     } catch (e) {
+        // eslint-disable-next-line no-console
         console.log(e);
     }
 }

@@ -103,3 +103,22 @@
     padding: 0 20px;
     font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
 }
+/*Profile Settings*/
+
+.profileSettingsCont{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 85%;
+    margin-top: 60px;
+    margin-left: 15%;
+}
+
+.profileSettingsInputPanel{
+    position: relative; 
+    width: 100%; /* for IE 6 */
+    height: 100vh;
+    background-color: #e5e5e5;
+    overflow:auto;
+}
+

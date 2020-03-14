@@ -10,6 +10,8 @@ function Greeting() {
         return <><li><label>User Profile</label></li>
             <li><label>Logout</label></li></>;
     }
+    return <><li><Link href = "/editProfile"><a>User Profile</a></Link></li>
+        <li><label>Logout</label></li></>;
 }
 class NavBar extends React.Component {
     render() {

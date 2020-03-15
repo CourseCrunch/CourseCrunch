@@ -19,7 +19,7 @@ class Recommendations extends React.Component {
             lastUid: -1,
             selectedIntervals: [],
             selectedFilters: [],
-            selectedCourses: []
+            selectedCourses: [],
         };
     }
 
@@ -42,20 +42,19 @@ class Recommendations extends React.Component {
     }
 
     handleClick = () => {
-        var data = {
+        const data = {
             courses: this.state.selectedCourses,
-            limit: 10
-        }
-        fetch("http://localhost:3007/recommendation",{
-            method: "POST",
+            limit: 100,
+        };
+        fetch('http://localhost:3007/recommendation', {
+            method: 'POST',
             headers: {
-                'Content-Type': 'application/json'
+                'Content-Type': 'application/json',
             },
-            body: JSON.stringify(data)
-        }).then((response) => response.json())
-        .then((result) => {
-            this.setState({results: result})
-        }).catch(() => alert("Something went wrong."));
+            body: JSON.stringify(data),
+        }).then((response) => response.json()).then((result) => {
+            console.log(result);
+        })
     }
 
 

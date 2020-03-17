@@ -1,4 +1,5 @@
 const withCSS = require('@zeit/next-css');
+module.exports = withCSS({/* my next config */});
 const withPlugins = require('next-compose-plugins');
 
 module.exports = withPlugins(

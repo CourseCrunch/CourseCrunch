@@ -61,6 +61,48 @@
     color: white;
 }
 
+.loginform h2{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24;
+}
+.loginform {
+    width: 600px;
+    margin:0 auto;
+    padding:180px 0;
+}
+
+.loginform form{
+    margin: 0 auto;
+    max-width: 320px;
+    padding: 15px;
+}
+
+.inputpw, .inputemail{
+    padding:15px
+}
+
+.errorPanel{
+    background-color: #FFF6F6;
+    padding: 9px 0;
+    border-top: 2px solid #912D2B;
+    border-bottom: 2px solid #912D2B;
+}
+
+.errorPanel .header{
+    position: relative;
+    padding: 0 20px;
+    text-align: center;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    font-weight: 700;
+    color: #912D2B;
+}
+
+.errorPanel .content{
+    position: relative;
+    padding: 0 20px;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+}
 /*Profile Settings*/
 
 .profileSettingsCont{
@@ -79,3 +121,4 @@
     background-color: #e5e5e5;
     overflow:auto;
 }
+

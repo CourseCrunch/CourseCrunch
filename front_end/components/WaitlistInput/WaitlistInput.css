@@ -1,0 +1,99 @@
+.waitlistInput{
+    position: relative;
+    top: 60px;
+    left: 15%;
+    width: 75%;
+    background: #e5e5e5;
+    height: 100%;
+    z-index:999;
+}
+
+
+.panel_container{
+    box-shadow: 2px 2px 40px #a6a6a6;
+    border-radius: 7px;
+    border: 1px solid #cdcdcd;
+    background: #ffffff;
+    padding-bottom: 50px;
+}
+
+.pInfo_title_panel{
+    position: relative;
+    border-bottom: 1px solid #cdcdcd;
+}
+
+.pInfo_title_panel h2{
+    display: relative;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-left: 10px;
+    padding: 5px;
+    padding-top: 10px;
+}
+
+.form_panel{
+    position: relative;
+    display: block;
+    margin-bottom: 0;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.form_panel form{
+    position: relative;
+    width: 95%;
+    margin: 10px auto;   
+}
+
+.form_label{
+    position: relative;
+    display: block;
+    margin-bottom: 60px;
+    top: 2vh;
+    left: 1.5%;
+}
+
+form Label{
+    display: inline-block;
+    font-weight:bold;
+    width: 100px;
+    margin: 0;
+    clear: both;
+}
+
+#form_courseCode, #form_courseYear, #form_courseTerm{
+    position: relative;
+    padding: 0 20px;
+    height: 40px;
+    font-size: 20px;
+    left: 7%;
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+.form_panel form button {
+    position: relative;
+    display: inline;
+    width: 125px;
+    float: right;
+    margin: 10px;
+    margin-top: 100px;
+    padding: 5px 10px;
+    border: 0px;
+    font-weight:bold;
+    font-size: 16px;
+    background-color: #ffffff;
+}
+
+#Reset_button {
+    color: #616161;
+}
+
+#Submit_button {
+    color: #32a5d5;
+}
+
+.form_panel button:hover {
+    background-color: #c3c3c3;
+}

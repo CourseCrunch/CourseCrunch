@@ -1,5 +1,4 @@
 import React from 'react';
-import { render } from 'react-dom';
 import NavBar from '../components/NavBar/NavBar';
 import VertNavBar from '../components/UserProfile/VertNavBar';
 import WaitlistInput from '../components/WaitlistInput/WaitlistInput';

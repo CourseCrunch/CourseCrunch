@@ -1,5 +1,5 @@
 import React from 'react';
-import { render } from 'react-dom';
+// import { render } from 'react-dom';
 import {
     Form, Button,
 } from 'react-bootstrap';
@@ -85,8 +85,8 @@ class WaitlistInput extends React.Component {
             term: this.state.waitlistTerm,
             year: this.state.waitlistYear,
         };
-        fetch('http://localhost:3006/addWaitlist', {
-            method: 'PATCH',
+        fetch(`http://localhost:${process.env.WAITLISTPORT}/addWaitlist`, {
+            method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
             },
@@ -104,8 +104,7 @@ class WaitlistInput extends React.Component {
                     });
                     this.resetFields();
                 }
-            }).catch((e) => {
-                console.log(e);
+            }).catch(() => {
                 this.setState({
                     submitErr: true,
                 });
@@ -133,26 +132,27 @@ class WaitlistInput extends React.Component {
                         </Form.Group>
 
                         <Form.Group controlId="form_courseYear">
-                            <Form.Label className ="inpL">Course Term</Form.Label>
+                            <Form.Label className ="inpL">Course Year</Form.Label>
                             <Form.Control
                                 // eslint-disable-next-line no-return-assign
-                                ref={(input) => this.courseTerm = input}
+                                ref={(input) => this.courseYear = input}
                                 onChange={() => this.handleInputChange('courseYear')}
                                 autoComplete="no"
                                 type="text" placeholder={'2020'} />
                         </Form.Group>
 
-                        <Form.Group controlId="form_courseYear">
-                            <Form.Label className ="inpL">Year</Form.Label>
+                        <Form.Group controlId="form_courseTerm">
+                            <Form.Label className ="inpL">Term</Form.Label>
                             <Form.Control
                                 // eslint-disable-next-line no-return-assign
-                                ref={(input) => this.courseYear = input}
+                                ref={(input) => this.courseTerm = input}
                                 as="select"
                                 custom
-                                onChange={() => this.handleInputChange('courseYear')} />
-                            <option>fall</option>
-                            <option>winter</option>
-                            <option>summer</option>
+                                onChange={() => this.handleInputChange('courseTerm')}>
+                                <option>fall</option>
+                                <option>winter</option>
+                                <option>summer</option>
+                            </Form.Control>
                         </Form.Group>
 
                         <Button

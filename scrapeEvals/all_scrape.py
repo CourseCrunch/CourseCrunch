@@ -31,7 +31,7 @@ schools = {
             'data': '{"strUiCultureIn":"en-US","datasourceId":"7380","blockId":"2400","subjectColId":"6","subjectValue":"%s","detailValue":"____[-1]____","gridId":"fbvGrid","pageActuelle":1,"strOrderBy":["col_6","asc"],"strFilter":["","","ddlFbvColumnSelectorLvl1",""],"sortCallbackFunc":"__getFbvGrid","userid":"exvFBeH63YWTrOkmJc90xv_q0lJl7c4IPoau","pageSize":2000}'},
 }
 
-cc = re.compile(r"'([A-Za-z]{3}\d\d\d(?:\d(?:H|Y)|(?:(?:H|Y)\d)))'")
+cc = re.compile(r"'([A-Za-z]{3}\d\d\d(?:\d(?:H|Y)|(?:(?:H|Y)[\d\S]?)))'")
 searcher = re.compile(r'"value": "([A-Za-z ]*)"')
 header = re.compile(r'<a [^>]*>(?:<span[^<]*<\/span>)?([^<]+)')
 
@@ -50,6 +50,13 @@ def getsubjects(school):
     r = requests.post('https://course-evals.utoronto.ca/BPI/fbview-WebService.asmx/getSubjectsValues', data=json.loads(payload))
     return [i.strip() for i in searcher.findall(r.text) if i.strip()]
 
+def clean(string):
+    string = string.strip().replace(',','').replace('.','').replace('’','').replace('/','_')
+    if '-' in string:
+        return string[string.find('-')+2:]
+    return string
+
+
 def scrape_header(school,department):
     departments = getsubjects(school)
     dump = (schools[school]['data'] % department).replace('2000','5')
@@ -57,7 +64,7 @@ def scrape_header(school,department):
     scraped = r.text.replace('&lt;','<').replace('&gt;','>').replace('&amp;','&')
     lim = bound(scraped)+1
     scraped = scraped[:lim]
-    return ['Code']+[i.strip().replace(',','').replace('.','') for i in header.findall(scraped)]
+    return ['Code']+[clean(i) for i in header.findall(scraped)]
 
 def scrape_school(school, department, dump_s, header):
     r = requests.post('https://course-evals.utoronto.ca/BPI/fbview-WebService.asmx/getFbvGrid', data=json.loads(dump_s))
@@ -84,7 +91,7 @@ def scrape_helper(school):
         scrape_school(school, department, dump, helper)
 
 for school in schools:
-    if school != 'sw': continue
+    if school != 'info': continue
     if not os.path.exists(school):
         os.makedirs(school)
     scrape_helper(school)

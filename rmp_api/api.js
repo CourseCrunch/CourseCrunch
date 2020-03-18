@@ -66,4 +66,5 @@ module.exports = {
     allSchools: cache.getSchools,
     init: cache.updateInstructorCache,
     searchInstructor: fuzzySearch,
+    getFuse,
 };

@@ -2,20 +2,32 @@ const express = require('express');
 
 const rmp = require('../../rmp_api/api');
 
-rmp.getFuse();
 const campuses = rmp.allSchools();
 
 const router = express.Router();
 
 
-router.get('/instructor/:campus/:id', (req, res) => {
-    const campus = req.params.id;
-    const i_id = req.params.id;
-    if (!(campus in campuses)) {
-        res.status(400).end();
+router.get('/rmp/:campus', (req, response) => {
+    const rCampus = req.params.campus;
+    const iName = req.query.instructor;
+    if (!(rCampus in campuses) || iName == null) {
+        response.status(400).end();
+        return;
     }
-    console.log(req);
-    console.log(res);
+    rmp.searchInstructor(rCampus, iName).then((r) => {
+        if (r) {
+            rmp.findInstructor(r[0].item.pk_id).then((result) => {
+                response.json(result);
+            });
+        } else {
+            response.status(404).end();
+        }
+    });
+});
+
+router.get('/eval/:campus', (req, response) => {
+    const rCampus = req.params.campus;
+    const iName = req.query.instructor;
 });
 
 

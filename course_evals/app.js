@@ -15,6 +15,6 @@ app.use(express.urlencoded({ extended: false }));
 
 app.use('/', averageRouter);
 app.use('/', courseCodesRouter);
-app.use('/', instructorRouter);
+app.use('/instructors', instructorRouter);
 
 app.listen(process.env.EVALSPORT, () => console.log(`App listening on port ${process.env.EVALSPORT}`));

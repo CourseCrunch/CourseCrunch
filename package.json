@@ -17,12 +17,8 @@
     "url": "https://github.com/UTMCSC301/project-boundlessbytes/issues"
   },
   "homepage": "https://github.com/UTMCSC301/project-boundlessbytes#readme",
-  "dependencies": {
-    "eslint-plugin-react": "^7.18.3",
-    "semantic-ui-css": "^2.4.1",
-    "semantic-ui-react": "^0.88.2"
-  },
   "devDependencies": {
+    "eslint-plugin-react": "^7.18.3",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.0.0",

@@ -58,7 +58,7 @@ function fuzzySearch(schoolName, instructorName) {
 
 // fuzzySearch('utm', 'Bailey Lee').then((r) => console.log(r[0]));
 
-getFuse().then(() => console.log('build fuzzy search'));
+getFuse().then(() => console.log('built fuzzy search'));
 
 module.exports = {
     findInstructor: queryInstructor,

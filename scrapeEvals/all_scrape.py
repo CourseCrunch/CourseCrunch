@@ -31,7 +31,7 @@ schools = {
             'data': '{"strUiCultureIn":"en-US","datasourceId":"7380","blockId":"2400","subjectColId":"6","subjectValue":"%s","detailValue":"____[-1]____","gridId":"fbvGrid","pageActuelle":1,"strOrderBy":["col_6","asc"],"strFilter":["","","ddlFbvColumnSelectorLvl1",""],"sortCallbackFunc":"__getFbvGrid","userid":"exvFBeH63YWTrOkmJc90xv_q0lJl7c4IPoau","pageSize":2000}'},
 }
 
-cc = re.compile(r"([A-Za-z]{3,4}[\d]{2,3}(?:\d(?:H|Y)|(?:(?:H|Y)[\d\S]?)))")
+cc = re.compile(r"([A-Za-z]{3,4}[\d]{2,3}(?:\d(?:H|Y)|(?:(?:H|Y)[\d\w]]?)))")
 searcher = re.compile(r'"value": "([A-Za-z ]*)"')
 header = re.compile(r'<a [^>]*>(?:<span[^<]*<\/span>)?([^<]+)')
 

@@ -82,7 +82,7 @@ function fuzzySearch(schoolName, instructorName) {
 }
 
 // getFuse().then(() => 'built course eval fuse');
-fuzzySearch('utm', 'Lee Bailey').then((r) => console.log(r[0]));
+fuzzySearch('utsg', 'David Penny').then((r) => console.log(r[0]));
 
 module.exports = {
     getFuse,

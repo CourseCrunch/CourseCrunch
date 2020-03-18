@@ -7,11 +7,9 @@ function Greeting() {
         if (localStorage.getItem('loggedIn') === null) {
             return <li><Link href='/login'><a>Login</a></Link></li>;
         }
-        return <><li><label>User Profile</label></li>
+        return <><li><Link href = "/editProfile"><a>User Profile</a></Link></li>
             <li><label>Logout</label></li></>;
     }
-    return <><li><Link href = "/editProfile"><a>User Profile</a></Link></li>
-        <li><label>Logout</label></li></>;
 }
 class NavBar extends React.Component {
     render() {

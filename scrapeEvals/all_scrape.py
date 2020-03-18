@@ -91,7 +91,7 @@ def scrape_helper(school):
         scrape_school(school, department, dump, helper)
 
 for school in schools:
-    if school in ('utsc','utm','aands'): continue
+    # if not school in ('utsc','utm','aands'): continue
     if not os.path.exists(school):
         os.makedirs(school)
     scrape_helper(school)

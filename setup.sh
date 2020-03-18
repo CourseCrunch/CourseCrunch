@@ -12,7 +12,7 @@ check_arg() {
     return 0;
 }
 
-folders=("authentication" "course_calendar" "dviz" "front_end" "profile_conf" "waitlists");
+folders=("authentication" "course_calendar" "dviz" "front_end" "profile_conf" "waitlists" "course_evals");
 
 for i in ${!folders[@]};
 do

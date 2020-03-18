@@ -1,88 +1,126 @@
-Code,Dept,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Course Workload,I would recommend this course,I attended class,Inspired to learn subject matter,Number Invited,Number of Survey Responses
-CCT109H5,ICC,Contemporary Communic. Tech. CCT109H5-F-LEC0101,Coleman,Beth,Fall,2019,3.3,3.3,3.1,3.4,3.5,3.0,3.5,2.9,N/A,3.2,359,104
-CCT109H5,ICC,Contemporary Communic. Tech. CCT109H5-F-LEC0102,Coleman,Beth,Fall,2019,3.2,3.3,3.0,3.4,3.4,2.7,3.3,3.1,N/A,3.1,371,83
+Code,Dept,Course,Last_Name,First_Name,Term,Year,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Course_Workload,I_would_recommend_this_course,I_attended_class,Inspired_to_learn_subject_matter,Number_Invited,Number_of_Survey_Responses
+CCT109H5,ICC,Contemporary Communic. Tech. CCT109H5-F-LEC0101,Coleman,Beth,Fall,2019,3.3,3.3,3.1,3.4,3.5,3,3.5,2.9,N/A,3.2,359,104
+CCT109H5,ICC,Contemporary Communic. Tech. CCT109H5-F-LEC0102,Coleman,Beth,Fall,2019,3.2,3.3,3,3.4,3.4,2.7,3.3,3.1,N/A,3.1,371,83
 CCT111H5,ICC,Critical Coding CCT111H5-F-LEC0101,Nixon,Michael,Fall,2019,3.8,3.6,3.6,3.6,3.6,3.2,3.3,3.1,N/A,3.6,32,10
-CCT202H5,ICC,Human Perception and Comm. CCT202H5-F-LEC0101,McEwen,Rhonda,Fall,2019,4.5,4.6,5.0,4.3,4.2,4.5,2.8,4.3,N/A,4.1,52,21
-CCT210H5,ICC,Signs  Refs & Meaning CCT210H5-F-LEC0101,Peden,Elizabeth,Fall,2019,3.7,4.0,4.1,3.8,3.9,3.5,2.9,3.6,N/A,3.3,335,98
+CCT202H5,ICC,Human Perception and Comm. CCT202H5-F-LEC0101,McEwen,Rhonda,Fall,2019,4.5,4.6,5,4.3,4.2,4.5,2.8,4.3,N/A,4.1,52,21
+CCT210H5,ICC,Signs  Refs & Meaning CCT210H5-F-LEC0101,Peden,Elizabeth,Fall,2019,3.7,4,4.1,3.8,3.9,3.5,2.9,3.6,N/A,3.3,335,98
 CCT218H5,ICC,Intro to Info and Society CCT218H5-F-LEC0101,Logan,Steven,Fall,2019,3.4,3.5,3.5,3.4,3.3,3.1,2.9,3.1,N/A,3.3,33,9
-CCT224H5,ICC,Performance Assessment CCT224H5-F-LEC0101,Dumcum,Samuel,Fall,2019,3.1,3.2,3.5,3.2,3.3,2.9,3.5,2.7,N/A,3.0,161,37
+CCT224H5,ICC,Performance Assessment CCT224H5-F-LEC0101,Dumcum,Samuel,Fall,2019,3.1,3.2,3.5,3.2,3.3,2.9,3.5,2.7,N/A,3,161,37
 CCT226H5,ICC,Data Analysis I (DEM) CCT226H5-F-LEC0101,Maharaj,Radha,Fall,2019,3.3,3.3,3.5,3.5,3.6,3.2,3.4,2.9,N/A,2.8,103,39
-CCT261H5,ICC,Info Architecture Usability CCT261H5-F-LEC0101,Nixon,Michael,Fall,2019,2.7,2.7,2.8,2.6,2.6,2.5,4.1,2.0,N/A,2.7,104,25
+CCT261H5,ICC,Info Architecture Usability CCT261H5-F-LEC0101,Nixon,Michael,Fall,2019,2.7,2.7,2.8,2.6,2.6,2.5,4.1,2,N/A,2.7,104,25
 CCT300H5,ICC,Crit Analysis of Media CCT300H5-F-LEC0101,Delfanti,Alessandro,Fall,2019,3.7,3.8,4.1,3.8,3.8,3.8,2.7,3.8,N/A,3.5,85,16
-CCT302H5,ICC,Devlp Manag. Comm Campgns Proj CCT302H5-F-LEC0101,Gevorgyan,Gennadi,Fall,2019,4.1,4.1,4.6,4.1,4.2,3.9,3.0,4.4,N/A,3.7,77,14
-CCT303H5,ICC,Communicating In & Betwn Org. CCT303H5-F-LEC0101,Thung,Lucas,Fall,2019,4.0,4.2,4.4,4.0,4.2,4.0,3.4,3.8,N/A,3.8,52,5
+CCT302H5,ICC,Devlp Manag. Comm Campgns Proj CCT302H5-F-LEC0101,Gevorgyan,Gennadi,Fall,2019,4.1,4.1,4.6,4.1,4.2,3.9,3,4.4,N/A,3.7,77,14
+CCT303H5,ICC,Communicating In & Betwn Org. CCT303H5-F-LEC0101,Thung,Lucas,Fall,2019,4,4.2,4.4,4,4.2,4,3.4,3.8,N/A,3.8,52,5
 CCT308H5,ICC,Adv Research Methodologies CCT308H5-F-LEC0101,Dahya,Negin,Fall,2019,3.3,3.4,3.9,3.7,3.9,3.3,3.5,3.6,N/A,3.1,29,8
-CCT314H5,ICC,Mind  Media and Representation CCT314H5-F-LEC0101,Maharajh,Divya,Fall,2019,3.5,3.6,3.7,3.1,3.2,2.8,3.6,3.0,N/A,2.9,51,12
-CCT321H5,ICC,Finance & Financial Mgmt Found CCT321H5-F-PRA0102,Maharaj,Radha,Fall,2019,3.5,3.2,3.1,3.1,3.0,2.6,3.3,2.7,N/A,2.7,46,20
-CCT321H5,ICC,Finance & Financial Mgmt Found CCT321H5-F-PRA0201,Maharaj,Radha,Fall,2019,3.5,4.2,4.5,3.6,3.9,3.4,2.9,3.4,N/A,3.0,38,14
-CCT335H5,ICC,Technology and the City CCT335H5-F-LEC0101,Logan,Steven,Fall,2019,3.0,3.1,2.9,3.1,2.9,2.3,3.3,2.6,N/A,2.7,73,15
+CCT314H5,ICC,Mind  Media and Representation CCT314H5-F-LEC0101,Maharajh,Divya,Fall,2019,3.5,3.6,3.7,3.1,3.2,2.8,3.6,3,N/A,2.9,51,12
+CCT321H5,ICC,Finance & Financial Mgmt Found CCT321H5-F-PRA0102,Maharaj,Radha,Fall,2019,3.5,3.2,3.1,3.1,3,2.6,3.3,2.7,N/A,2.7,46,20
+CCT321H5,ICC,Finance & Financial Mgmt Found CCT321H5-F-PRA0201,Maharaj,Radha,Fall,2019,3.5,4.2,4.5,3.6,3.9,3.4,2.9,3.4,N/A,3,38,14
+CCT335H5,ICC,Technology and the City CCT335H5-F-LEC0101,Logan,Steven,Fall,2019,3,3.1,2.9,3.1,2.9,2.3,3.3,2.6,N/A,2.7,73,15
 CCT361H5,ICC,Scripting for Management (DEM) CCT361H5-F-LEC0101,Nixon,Michael,Fall,2019,2.8,2.9,3.3,3.2,3.4,2.4,4.2,2.2,N/A,2.4,88,25
-CCT380H5,ICC,Hum Comp Inter & Com CCT380H5-F-PRA0101,Munteanu,Cosmin,Fall,2019,2.6,3.0,2.4,2.6,3.0,2.2,3.8,2.2,N/A,2.2,36,5
+CCT380H5,ICC,Hum Comp Inter & Com CCT380H5-F-PRA0101,Munteanu,Cosmin,Fall,2019,2.6,3,2.4,2.6,3,2.2,3.8,2.2,N/A,2.2,36,5
 CCT380H5,ICC,Hum Comp Inter & Com CCT380H5-F-PRA0102,Munteanu,Cosmin,Fall,2019,4.2,4.4,4.3,4.3,4.1,3.4,3.5,3.1,N/A,3.9,39,10
-CCT383H5,ICC,The Interactive Society CCT383H5-F-PRA0101,Radovac,Lilian,Fall,2019,4.7,4.9,5.0,4.8,4.9,4.7,2.7,4.4,N/A,4.4,23,9
-CCT401H5,ICC,Advanced Thesis Course (DEM) CCT401H5-F-LEC0101,Tabunshchikova,Olga,Fall,2019,4.6,4.6,4.8,4.6,4.6,4.4,3.6,4.0,N/A,4.6,16,5
+CCT383H5,ICC,The Interactive Society CCT383H5-F-PRA0101,Radovac,Lilian,Fall,2019,4.7,4.9,5,4.8,4.9,4.7,2.7,4.4,N/A,4.4,23,9
+CCT401H5,ICC,Advanced Thesis Course (DEM) CCT401H5-F-LEC0101,Tabunshchikova,Olga,Fall,2019,4.6,4.6,4.8,4.6,4.6,4.4,3.6,4,N/A,4.6,16,5
 CCT404H5,ICC,Integrative Design Project CCT404H5-F-LEC0101,Smit,Peter,Fall,2019,3.8,3.7,4.1,3.7,3.9,3.6,3.3,3.5,N/A,3.2,79,20
 CCT410H5,ICC,CCIT Internship I CCT410H5-F-LEC0101,Szigeti,Stephen,Fall,2019,4.3,4.8,4.9,4.3,4.2,4.8,2.6,4.6,N/A,3.8,22,11
-CCT419H5,ICC,User Exp Dsgn UXD Board Games CCT419H5-F-LEC0101,Szigeti,Stephen,Fall,2019,4.6,4.4,4.8,4.4,4.4,4.4,3.0,4.4,N/A,4.0,48,26
+CCT419H5,ICC,User Exp Dsgn UXD Board Games CCT419H5-F-LEC0101,Szigeti,Stephen,Fall,2019,4.6,4.4,4.8,4.4,4.4,4.4,3,4.4,N/A,4,48,26
 CCT424H5,ICC,Strategic Innovation CCT424H5-F-LEC0101,Thung,Lucas,Fall,2019,3.3,3.3,2.6,3.2,3.1,2.3,3.3,2.3,N/A,2.3,79,9
-CCT432H5,ICC,Ethics and Code CCT432H5-F-LEC0101,Karppi,Tero,Fall,2019,4.3,4.6,4.7,4.7,4.8,4.5,3.2,4.2,N/A,4.0,23,7
+CCT432H5,ICC,Ethics and Code CCT432H5-F-LEC0101,Karppi,Tero,Fall,2019,4.3,4.6,4.7,4.7,4.8,4.5,3.2,4.2,N/A,4,23,7
 CCT473H5,ICC,Career Strategies CCT473H5-F-LEC0101,Carver-Dias,Claire,Fall,2019,4.7,4.6,4.9,4.7,4.8,4.7,3.1,4.8,N/A,4.5,53,17
-MGD421H5,ICC,Technological Entrepreneur MGD421H5-F-LEC0101,Smit,Peter,Fall,2019,3.9,3.5,3.8,3.9,4.0,3.4,3.0,3.6,N/A,2.9,49,8
-MGD421H5,ICC,Technological Entrepreneur MGD421H5-F-LEC0102,Smit,Peter,Fall,2019,3.8,4.0,4.2,4.2,4.2,3.7,3.2,3.6,N/A,3.3,51,12
-MGD422H5,ICC,Mgt of Tech Innovation MGD422H5-F-LEC0101,Thung,Lucas,Fall,2019,3.3,2.8,3.6,3.8,4.0,3.1,3.4,3.0,N/A,2.4,61,8
-MGD426H5,ICC,Enterprise Risk Management MGD426H5-F-LEC0101,Francis,Patrick,Fall,2019,4.1,4.4,4.2,4.3,4.3,4.1,3.0,4.1,N/A,3.9,59,22
+MGD421H5,ICC,Technological Entrepreneur MGD421H5-F-LEC0101,Smit,Peter,Fall,2019,3.9,3.5,3.8,3.9,4,3.4,3,3.6,N/A,2.9,49,8
+MGD421H5,ICC,Technological Entrepreneur MGD421H5-F-LEC0102,Smit,Peter,Fall,2019,3.8,4,4.2,4.2,4.2,3.7,3.2,3.6,N/A,3.3,51,12
+MGD422H5,ICC,Mgt of Tech Innovation MGD422H5-F-LEC0101,Thung,Lucas,Fall,2019,3.3,2.8,3.6,3.8,4,3.1,3.4,3,N/A,2.4,61,8
+MGD426H5,ICC,Enterprise Risk Management MGD426H5-F-LEC0101,Francis,Patrick,Fall,2019,4.1,4.4,4.2,4.3,4.3,4.1,3,4.1,N/A,3.9,59,22
 MGD428H5,ICC,Project Management MGD428H5-F-LEC0101,Szigeti,Stephen,Fall,2019,4.3,4.7,4.9,4.7,4.5,4.1,3.1,4.3,N/A,4.1,45,12
-WRI203H5,ICC,Expressive Writing WRI203H5-F-LEC0101,Waterman,Laurel,Fall,2019,4.2,4.3,4.4,4.5,4.5,4.2,3.4,3.9,N/A,4.0,29,18
-WRI203H5,ICC,Expressive Writing WRI203H5-F-LEC0103,Price,Robert,Fall,2019,4.1,4.3,4.5,4.4,4.3,4.4,4.3,4.0,N/A,4.1,23,13
-WRI203H5,ICC,Expressive Writing WRI203H5-F-LEC0104,Maharajh,Divya,Fall,2019,4.0,4.6,4.9,4.4,4.4,4.0,3.7,3.9,N/A,3.6,28,8
+WRI203H5,ICC,Expressive Writing WRI203H5-F-LEC0101,Waterman,Laurel,Fall,2019,4.2,4.3,4.4,4.5,4.5,4.2,3.4,3.9,N/A,4,29,18
+WRI203H5,ICC,Expressive Writing WRI203H5-F-LEC0103,Price,Robert,Fall,2019,4.1,4.3,4.5,4.4,4.3,4.4,4.3,4,N/A,4.1,23,13
+WRI203H5,ICC,Expressive Writing WRI203H5-F-LEC0104,Maharajh,Divya,Fall,2019,4,4.6,4.9,4.4,4.4,4,3.7,3.9,N/A,3.6,28,8
 WRI203H5,ICC,Expressive Writing WRI203H5-F-LEC0105,Currie,John,Fall,2019,3.5,3.8,3.5,3.7,3.8,3.4,4.1,3.4,N/A,3.5,26,10
-WRI303H5,ICC,Specialized Prose WRI303H5-F-LEC0101,Price,Robert,Fall,2019,4.1,4.4,4.6,4.4,4.4,4.0,3.7,4.2,N/A,4.6,27,12
-WRI307H5,ICC,Science and Writing WRI307H5-F-LEC0101,Allen,Guy,Fall,2019,4.5,4.7,4.5,4.6,4.5,4.4,4.0,4.1,N/A,4.4,29,25
+WRI303H5,ICC,Specialized Prose WRI303H5-F-LEC0101,Price,Robert,Fall,2019,4.1,4.4,4.6,4.4,4.4,4,3.7,4.2,N/A,4.6,27,12
+WRI307H5,ICC,Science and Writing WRI307H5-F-LEC0101,Allen,Guy,Fall,2019,4.5,4.7,4.5,4.6,4.5,4.4,4,4.1,N/A,4.4,29,25
 WRI310H5,ICC,Soc & Professional Lang WRI310H5-F-LEC0101,Dittrich,Josh,Fall,2019,3.8,3.8,4.8,4.2,4.1,4.2,2.9,4.2,N/A,3.7,33,9
 WRI325H5,ICC,Community & Writing WRI325H5-F-LEC0101,Waterman,Laurel,Fall,2019,4.4,4.6,4.6,4.4,4.5,4.4,3.7,4.1,N/A,4.2,19,16
 WRI330H5,ICC,Oral Rhetoric WRI330H5-F-LEC0101,Maharajh,Divya,Fall,2019,4.5,4.5,4.7,4.6,4.6,4.5,2.9,4.5,N/A,4.3,34,15
-WRI340H5,ICC,Crit Reading Listening WRI340H5-F-LEC0101,Dittrich,Josh,Fall,2019,3.9,4.1,4.3,3.9,3.8,3.8,3.0,3.5,N/A,3.5,33,8
+WRI340H5,ICC,Crit Reading Listening WRI340H5-F-LEC0101,Dittrich,Josh,Fall,2019,3.9,4.1,4.3,3.9,3.8,3.8,3,3.5,N/A,3.5,33,8
 WRI363H5,ICC,Comm in a World of Data WRI363H5-F-LEC0101,Sethi,Rahul,Fall,2019,4.7,4.7,4.8,4.5,4.6,4.2,3.6,4.3,N/A,4.2,31,13
 WRI370H5,ICC,Writing about Place WRI370H5-F-LEC0101,Price,Robert,Fall,2019,4.3,4.3,4.6,4.3,4.5,4.2,3.9,4.1,N/A,3.9,34,20
-WRI380H5,ICC,Podcasting WRI380H5-F-LEC0101,Sethi,Rahul,Fall,2019,4.9,5.0,5.0,4.9,5.0,4.9,3.4,4.6,N/A,4.6,31,8
-WRI392H5,ICC,Communicating Research WRI392H5-F-LEC0101,Topouzova,Lilia,Fall,2019,4.7,4.7,5.0,4.6,4.7,4.6,3.6,4.4,N/A,4.4,14,9
-WRI483H5,ICC,Char Narrator Psychic Space WRI483H5-F-LEC0101,Currie,John,Fall,2019,3.4,3.6,3.4,3.4,3.9,3.6,3.9,3.0,N/A,3.0,19,7
-WRI490H5,ICC,Special Topics in Writing WRI490H5-F-LEC0101,Ariyadasa,Ann,Fall,2019,3.5,3.8,3.8,3.8,4.0,3.5,3.3,3.5,N/A,3.8,8,6
-CCT286H5,ICC,Interactive Media Design CCT286H5-S-PRA0101,Lui,Michelle,Winter,2019,4.2,4.3,4.3,3.9,4,4,3.6,3.6,N/A,3.7,23,13
-WRI203H5,ICC,Expressive Writing WRI203H5-S-LEC0104,Maharajh,Divya,Winter,2019,4.4,4.4,4.7,4.8,4.6,4,4.1,3.9,N/A,3.9,33,9
+WRI380H5,ICC,Podcasting WRI380H5-F-LEC0101,Sethi,Rahul,Fall,2019,4.9,5,5,4.9,5,4.9,3.4,4.6,N/A,4.6,31,8
+WRI392H5,ICC,Communicating Research WRI392H5-F-LEC0101,Topouzova,Lilia,Fall,2019,4.7,4.7,5,4.6,4.7,4.6,3.6,4.4,N/A,4.4,14,9
+WRI483H5,ICC,Char Narrator Psychic Space WRI483H5-F-LEC0101,Currie,John,Fall,2019,3.4,3.6,3.4,3.4,3.9,3.6,3.9,3,N/A,3,19,7
+WRI490H5,ICC,Special Topics in Writing WRI490H5-F-LEC0101,Ariyadasa,Ann,Fall,2019,3.5,3.8,3.8,3.8,4,3.5,3.3,3.5,N/A,3.8,8,6
+WRI483H5,ICC,Char Narrator Psychic Space WRI483H5-S-LEC0101,Currie,John,Summer,2019,4.4,4.4,4.9,4.5,4.4,4.2,3.8,4.2,N/A,4.3,16,13
+CCT208H5,ICC,Comm Research Methods CCT208H5-S-LEC0101,Maharajh,Divya,Summer,2019,4.1,4.2,4.4,4.2,4.4,4.2,3.4,4.2,N/A,4.2,54,15
+CCT316H5,ICC,Communication and Advertising CCT316H5-S-LEC0101,Heydon,Jeff,Summer,2019,3.3,3.4,2.4,2.6,2.8,2.4,3.0,2.9,N/A,2.6,42,10
+WRI203H5,ICC,Expressive Writing WRI203H5-S-LEC0102,Allen,Guy,Summer,2019,4.4,4.6,4.6,4.5,4.6,4.2,3.9,4.4,N/A,4.2,33,31
+CCT420H5,ICC,Info Tech & Globalization CCT420H5-S-LEC0101,Maharajh,Divya,Summer,2019,3.8,3.8,4.4,4.0,4.3,4.0,3.5,3.5,N/A,3.9,42,8
+CCT206H5,ICC,Law  Technology and Culture CCT206H5-S-LEC0101,Thung,Lucas,Summer,2019,4.2,4.0,4.6,3.6,4.1,3.9,3.6,3.8,N/A,3.6,87,13
+CCT110H5,ICC,Rhetoric and Media CCT110H5-S-LEC0101,Peden,Elizabeth,Summer,2019,3.1,3.1,3.2,3.3,3.2,2.8,3.6,2.9,N/A,2.8,130,36
+WRI303H5,ICC,Specialized Prose WRI303H5-S-LEC0101,Price,Robert,Summer,2019,4.6,4.5,4.6,4.6,4.5,4.4,3.6,4.1,N/A,4.0,27,16
+CCT303H5,ICC,Communicating In & Betwn Org. CCT303H5-F-LEC0101,Thung,Lucas,Summer,2019,3.2,3.5,3.2,3.2,3.3,3.2,3.8,3.2,N/A,3.0,52,7
+CCT109H5,ICC,Contemporary Communic. Tech. CCT109H5-F-LEC0101,Mitchell,Ryan,Summer,2019,4.1,4.2,4.3,3.8,3.9,4.0,3.1,3.8,N/A,3.8,231,44
+MGD426H5,ICC,Enterprise Risk Management MGD426H5-F-LEC0101,Francis,Patrick,Summer,2019,3.9,4.3,4.3,3.7,4.0,4.0,2.8,4.0,N/A,4.1,37,11
+WRI203H5,ICC,Expressive Writing WRI203H5-F-LEC0101,Currie,John,Summer,2019,4.4,4.7,4.9,4.5,4.5,4.4,3.8,4.3,N/A,4.2,17,15
+WRI203H5,ICC,Expressive Writing WRI203H5-F-LEC0102,Allen,Guy,Summer,2019,4.5,4.8,4.8,4.7,4.7,4.6,3.2,4.6,N/A,4.3,35,26
+MGD428H5,ICC,Project Management MGD428H5-F-LEC0101,Szigeti,Stephen,Summer,2019,3.6,4.0,4.0,3.8,3.4,3.5,3.4,3.4,N/A,4.1,26,8
+CCT210H5,ICC,Signs  Refs & Meaning CCT210H5-F-LEC0101,Peden,Elizabeth,Summer,2019,3.8,4.0,4.3,4.1,4.2,3.8,2.9,3.9,N/A,3.4,116,33
+WRI310H5,ICC,Soc & Professional Lang WRI310H5-F-LEC0101,Dittrich,Josh,Summer,2019,4.3,4.3,4.7,4.2,4.4,4.1,2.8,4.6,N/A,3.8,30,9
+WRI327H5,ICC,Social Media Content Creation WRI327H5-F-LEC0101,Sethi,Rahul,Summer,2019,4.6,4.8,4.8,4.6,4.8,4.4,3.4,4.8,N/A,4.6,30,8
+WRI490H5,ICC,Special Topics in Writing WRI490H5-F-LEC0101,Price,Robert,Summer,2019,4.5,4.4,4.5,4.5,4.4,4.2,3.7,4.5,N/A,4.2,12,10
+WRI360H5,ICC,Finance and Writing WRI360H5-S-LEC0101,Allen,Guy,Winter,2019,3.9,4.1,4.0,4.0,4.1,3.6,3.8,3.6,N/A,3.8,29,25
+WRI420H5,ICC,Making a Book WRI420H5-S-LEC0101,Allen,Guy,Winter,2019,4.2,4.3,4.2,4.7,4.6,4.1,4.1,4.2,N/A,4.3,17,13
+CCT485H5,ICC,User Experience Design CCT485H5-S-PRA0101,Axtell,Rachel,Winter,2019,3.7,3.7,4.1,4.0,4.1,3.8,3.2,3.8,N/A,3.6,30,10
+CCT319H5,ICC,Economics & Digital Firm CCT319H5-S-LEC0101,Caraway,Brett,Winter,2019,4.4,4.5,4.8,4.6,4.6,4.4,2.9,4.3,N/A,4.0,98,26
+CCT206H5,ICC,Law  Technology and Culture CCT206H5-S-LEC0101,Caraway,Brett,Winter,2019,3.7,3.9,4.3,3.8,3.8,3.5,2.9,3.4,N/A,3.4,339,69
+WRI203H5,ICC,Expressive Writing WRI203H5-S-LEC0105,Carosi,Claudio,Winter,2019,4.0,4.3,4.3,4.3,4.4,3.9,4.0,3.8,N/A,3.9,31,29
+WRI203H5,ICC,Expressive Writing WRI203H5-S-LEC0106,Carosi,Claudio,Winter,2019,4.2,4.4,4.7,4.2,4.3,4.1,4.0,4.0,N/A,4.0,30,26
+WRI325H5,ICC,Community & Writing WRI325H5-S-LEC0101,Currie,John,Winter,2019,4.2,4.1,4.5,4.3,4.4,4.2,3.7,4.0,N/A,3.8,24,17
+WRI203H5,ICC,Expressive Writing WRI203H5-S-LEC0101,Currie,John,Winter,2019,4.4,4.7,4.8,4.6,4.6,4.6,3.7,4.2,N/A,4.1,25,11
+WRI375H5,ICC,Writing about Env & Ecology WRI375H5-S-LEC0101,Currie,John,Winter,2019,3.9,3.7,4.2,3.9,3.9,3.7,3.7,3.4,N/A,3.7,17,9
+WRI340H5,ICC,Crit Reading Listening WRI340H5-S-LEC0101,Dittrich,Josh,Winter,2019,4.0,4.1,4.7,4.5,4.4,4.3,2.9,4.2,N/A,3.9,29,12
+WRI395H5,ICC,Writing Across Cult. & Lang. WRI395H5-S-LEC0101,Dittrich,Josh,Winter,2019,4.1,4.0,4.0,4.3,4.4,4.0,3.1,3.7,N/A,3.1,28,7
+MGD426H5,ICC,Enterprise Risk Management MGD426H5-S-LEC0101,Francis,Patrick,Winter,2019,4.3,4.5,4.7,4.5,4.3,4.3,2.6,4.3,N/A,4.0,48,10
+CCT302H5,ICC,Devlp Manag. Comm Campgns Proj CCT302H5-S-LEC0101,Gevorgyan,Gennadi,Winter,2019,3.6,3.6,3.7,3.7,3.8,3.4,2.4,3.7,N/A,3.2,68,9
+CCT322H5,ICC,Marketing Info Prod&Serv CCT322H5-S-LEC0101,Gevorgyan,Gennadi,Winter,2019,3.5,3.5,3.9,3.6,3.5,3.4,2.7,3.5,N/A,3.4,102,15
+CCT225H5,ICC,Information Systems (DEM) CCT225H5-S-LEC0101,Al-Hakeem,Nawar,Winter,2019,2.5,2.9,1.8,3.0,3.1,2.1,3.4,2.1,N/A,2.3,106,24
+CCT316H5,ICC,Communication and Advertising CCT316H5-S-LEC0101,Heydon,Jeff,Winter,2019,2.6,2.8,2.3,2.7,2.9,2.1,3.1,2.2,N/A,2.7,83,15
+MGD415H5,ICC,E-Business Strategies MGD415H5-S-LEC0101,Jorjani,David,Winter,2019,3.4,3.4,3.6,3.6,3.8,3.6,3.0,3.4,N/A,3.6,75,15
+CCT385H5,ICC,An Intr to Media Environments CCT385H5-S-LEC0101,Karppi,Tero,Winter,2019,3.9,3.9,4.0,3.6,3.7,3.9,2.7,3.7,N/A,3.6,21,7
+CCT365H5,ICC,Surveillance CCT365H5-S-LEC0101,Karppi,Tero,Winter,2019,4.3,4.3,4.7,4.3,4.3,4.3,2.9,4.6,N/A,4.5,34,12
+CCT286H5,ICC,Interactive Media Design CCT286H5-S-PRA0101,Lui,Michelle,Winter,2019,4.2,4.3,4.3,3.9,4.0,4.0,3.6,3.6,N/A,3.7,23,13
+WRI203H5,ICC,Expressive Writing WRI203H5-S-LEC0104,Maharajh,Divya,Winter,2019,4.4,4.4,4.7,4.8,4.6,4.0,4.1,3.9,N/A,3.9,33,9
 CCT314H5,ICC,Mind  Media and Representation CCT314H5-S-LEC0101,Maharajh,Divya,Winter,2019,3.8,3.5,4.3,3.6,3.7,3.6,3.3,3.2,N/A,3.4,68,11
 WRI330H5,ICC,Oral Rhetoric WRI330H5-S-LEC0101,Maharajh,Divya,Winter,2019,4.4,4.9,4.7,4.6,4.8,4.7,2.9,4.4,N/A,4.3,32,12
-WRI392H5,ICC,Research and Writing WRI392H5-S-LEC0101,Maharajh,Divya,Winter,2019,4.4,4.6,5,4.6,4.6,4.8,3,4.4,N/A,4.2,21,5
-CCT321H5,ICC,Finance & Financial Mgmt Found CCT321H5-S-PRA0101,Maharaj,Radha,Winter,2019,3.3,3.2,3.2,3.4,3.1,2.9,3.1,3.1,N/A,3,26,16
-CCT341H5,ICC,Introduction to IT Consulting CCT341H5-S-PRA0101,McEwen,Rhonda,Winter,2019,3.8,3.6,3.6,3.4,3.5,3.2,3.6,3,N/A,3.2,38,10
-CCT380H5,ICC,Hum Comp Inter & Com CCT380H5-S-PRA0101,Munteanu,Cosmin,Winter,2019,4.4,4.1,4.1,3.6,3.6,3.6,4.3,3.5,N/A,4,37,11
-CCT383H5,ICC,The Interactive Society CCT383H5-S-PRA0101,Munteanu,Cosmin,Winter,2019,3.8,4,3.8,3.6,3.6,3.6,3.6,3.6,N/A,3.6,24,5
+WRI392H5,ICC,Research and Writing WRI392H5-S-LEC0101,Maharajh,Divya,Winter,2019,4.4,4.6,5.0,4.6,4.6,4.8,3.0,4.4,N/A,4.2,21,5
+CCT321H5,ICC,Finance & Financial Mgmt Found CCT321H5-S-PRA0101,Maharaj,Radha,Winter,2019,3.3,3.2,3.2,3.4,3.1,2.9,3.1,3.1,N/A,3.0,26,16
+CCT341H5,ICC,Introduction to IT Consulting CCT341H5-S-PRA0101,McEwen,Rhonda,Winter,2019,3.8,3.6,3.6,3.4,3.5,3.2,3.6,3.0,N/A,3.2,38,10
+CCT380H5,ICC,Hum Comp Inter & Com CCT380H5-S-PRA0101,Munteanu,Cosmin,Winter,2019,4.4,4.1,4.1,3.6,3.6,3.6,4.3,3.5,N/A,4.0,37,11
+CCT383H5,ICC,The Interactive Society CCT383H5-S-PRA0101,Munteanu,Cosmin,Winter,2019,3.8,4.0,3.8,3.6,3.6,3.6,3.6,3.6,N/A,3.6,24,5
 CCT111H5,ICC,Critical Coding CCT111H5-S-LEC0101,Nixon,Michael,Winter,2019,3.5,4.2,3.9,3.8,3.9,3.3,3.2,3.7,N/A,3.3,33,13
 CCT395H5,ICC,Top: Com  Culture  Info & Tech CCT395H5-S-LEC0101,Peden,Elizabeth,Winter,2019,4.3,4.3,4.5,3.9,3.9,4.1,2.9,4.3,N/A,4.1,50,18
 CCT320H5,ICC,Comm  Tech  & Social Change CCT320H5-S-LEC0101,Petrick,Kamilla,Winter,2019,4.6,4.8,4.9,4.6,4.8,4.5,3.1,4.6,N/A,4.7,67,22
-WRI203H5,ICC,Expressive Writing WRI203H5-S-LEC0102,Price,Robert,Winter,2019,4.3,4.4,4.5,4.5,4.6,4.3,3.8,4.1,N/A,4,30,24
-WRI203H5,ICC,Expressive Writing WRI203H5-S-LEC0107,Price,Robert,Winter,2019,4.4,4.7,4.5,4.5,4.5,4.3,4,3.9,N/A,3.8,30,18
+WRI203H5,ICC,Expressive Writing WRI203H5-S-LEC0102,Price,Robert,Winter,2019,4.3,4.4,4.5,4.5,4.6,4.3,3.8,4.1,N/A,4.0,30,24
+WRI203H5,ICC,Expressive Writing WRI203H5-S-LEC0107,Price,Robert,Winter,2019,4.4,4.7,4.5,4.5,4.5,4.3,4.0,3.9,N/A,3.8,30,18
 WRI320H5,ICC,History and Writing WRI320H5-S-LEC0101,Price,Robert,Winter,2019,4.6,4.8,4.7,4.6,4.5,4.2,4.7,3.9,N/A,4.1,20,11
-WRI303H5,ICC,Specialized Prose WRI303H5-S-LEC0101,Price,Robert,Winter,2019,3.9,3.9,4,4.1,4.1,3.9,4,3.7,N/A,3.5,31,15
+WRI303H5,ICC,Specialized Prose WRI303H5-S-LEC0101,Price,Robert,Winter,2019,3.9,3.9,4.0,4.1,4.1,3.9,4.0,3.7,N/A,3.5,31,15
 CCT402H5,ICC,Creat/Prtct Mang Dgtl Artfcts CCT402H5-S-LEC0101,Radovac,Lilian,Winter,2019,3.4,3.6,4.1,3.9,3.8,3.4,2.7,3.2,N/A,3.6,41,10
-CCT371H5,ICC,Sound as Media CCT371H5-S-LEC0101,Radovac,Lilian,Winter,2019,3.6,3.8,3.4,3.4,3,2.8,2.8,3,N/A,3.2,35,5
-CCT200H5,ICC,Race  Media and Culture CCT200H5-S-LEC0101,Rault,Jasmine,Winter,2019,3.7,4,4.5,4.4,4.4,3.7,2.8,3.7,N/A,3.8,117,24
-WRI203H5,ICC,Expressive Writing WRI203H5-S-LEC0103,Seth,Ashish,Winter,2019,4.2,3.9,3.9,4.1,4.3,3.9,4.5,3.6,N/A,4,28,11
-WRI363H5,ICC,Comm in a World of Data WRI363H5-S-LEC0101,Sethi,Rahul,Winter,2019,4.3,4.4,4.8,4.8,4.6,4.4,3.8,4,N/A,4,29,8
-WRI380H5,ICC,Podcasting WRI380H5-S-LEC0101,Sethi,Rahul,Winter,2019,4.7,4.7,4.5,4.5,4.5,4.3,3.3,4,N/A,4.5,31,8
-WRI327H5,ICC,Social Media Content Creation WRI327H5-S-LEC0101,Sethi,Rahul,Winter,2019,4.2,4,4.6,3.8,4.2,3.8,3,4.4,N/A,4.4,35,5
+CCT371H5,ICC,Sound as Media CCT371H5-S-LEC0101,Radovac,Lilian,Winter,2019,3.6,3.8,3.4,3.4,3.0,2.8,2.8,3.0,N/A,3.2,35,5
+CCT200H5,ICC,Race  Media and Culture CCT200H5-S-LEC0101,Rault,Jasmine,Winter,2019,3.7,4.0,4.5,4.4,4.4,3.7,2.8,3.7,N/A,3.8,117,24
+WRI203H5,ICC,Expressive Writing WRI203H5-S-LEC0103,Seth,Ashish,Winter,2019,4.2,3.9,3.9,4.1,4.3,3.9,4.5,3.6,N/A,4.0,28,11
+WRI363H5,ICC,Comm in a World of Data WRI363H5-S-LEC0101,Sethi,Rahul,Winter,2019,4.3,4.4,4.8,4.8,4.6,4.4,3.8,4.0,N/A,4.0,29,8
+WRI380H5,ICC,Podcasting WRI380H5-S-LEC0101,Sethi,Rahul,Winter,2019,4.7,4.7,4.5,4.5,4.5,4.3,3.3,4.0,N/A,4.5,31,8
+WRI327H5,ICC,Social Media Content Creation WRI327H5-S-LEC0101,Sethi,Rahul,Winter,2019,4.2,4.0,4.6,3.8,4.2,3.8,3.0,4.4,N/A,4.4,35,5
 CCT404H5,ICC,Integrative Design Project CCT404H5-S-LEC0101,Smit,Peter,Winter,2019,2.7,2.3,3.2,2.9,3.1,2.7,2.6,2.9,N/A,2.4,50,10
 CCT404H5,ICC,Integrative Design Project CCT404H5-S-LEC0102,Smit,Peter,Winter,2019,3.8,3.6,4.1,3.9,3.8,3.8,2.8,3.8,N/A,3.5,59,12
-MGD428H5,ICC,Project Management MGD428H5-S-LEC0101,Szigeti,Stephen,Winter,2019,3.6,4,4.1,3.9,4,3.6,3.4,3.2,N/A,3.7,58,24
-CCT110H5,ICC,Rhetoric and Media CCT110H5-S-LEC0101,Szigeti,Stephen,Winter,2019,3.5,3.5,3.9,3.5,3.6,3.4,3,3.6,N/A,3.3,260,71
-CCT110H5,ICC,Rhetoric and Media CCT110H5-S-LEC0102,Szigeti,Stephen,Winter,2019,3.2,3.5,4,3.7,3.7,3.4,3,3.6,N/A,3.4,263,83
-CCT401H5,ICC,Advanced Thesis Course (DEM) CCT401H5-S-LEC0101,Tabunshchikova,Olga,Winter,2019,2.9,3,3.7,3.3,3.2,3,3.4,2.6,N/A,3.6,36,9
+MGD428H5,ICC,Project Management MGD428H5-S-LEC0101,Szigeti,Stephen,Winter,2019,3.6,4.0,4.1,3.9,4.0,3.6,3.4,3.2,N/A,3.7,58,24
+CCT110H5,ICC,Rhetoric and Media CCT110H5-S-LEC0101,Szigeti,Stephen,Winter,2019,3.5,3.5,3.9,3.5,3.6,3.4,3.0,3.6,N/A,3.3,260,71
+CCT110H5,ICC,Rhetoric and Media CCT110H5-S-LEC0102,Szigeti,Stephen,Winter,2019,3.2,3.5,4.0,3.7,3.7,3.4,3.0,3.6,N/A,3.4,263,83
+CCT401H5,ICC,Advanced Thesis Course (DEM) CCT401H5-S-LEC0101,Tabunshchikova,Olga,Winter,2019,2.9,3.0,3.7,3.3,3.2,3.0,3.4,2.6,N/A,3.6,36,9
 CCT474H5,ICC,Org. Innov. & Digi Leadership CCT474H5-S-LEC0101,Tabunshchikova,Olga,Winter,2019,3.5,3.6,4.1,3.6,3.5,3.5,3.2,3.5,N/A,3.1,32,19
-CCT324H5,ICC,Organ Theory & Behaviour CCT324H5-S-LEC0101,Tabunshchikova,Olga,Winter,2019,3.3,3,4,3,3,3,3,2.7,N/A,2.7,38,5
+CCT324H5,ICC,Organ Theory & Behaviour CCT324H5-S-LEC0101,Tabunshchikova,Olga,Winter,2019,3.3,3.0,4.0,3.0,3.0,3.0,3.0,2.7,N/A,2.7,38,5
 WRI365H5,ICC,Editing: Principles & Practice WRI365H5-S-LEC0101,Waterman,Laurel,Winter,2019,3.9,4.3,3.9,3.7,3.9,3.6,3.9,3.6,N/A,3.6,31,12
-WRI365H5,ICC,Editing: Principles & Practice WRI365H5-S-LEC0102,Waterman,Laurel,Winter,2019,4.3,4.6,4.5,4.6,4.7,4.1,4,3.8,N/A,4.1,31,12
-CCT424H5,ICC,Strategic Innovation CCT424H5-S-LEC0101,Wensley,Anthony,Winter,2019,3.3,3,3.3,3,3,3,3,2.9,N/A,3,52,8
-MGD423H5,ICC,Tech in Organizations MGD423H5-S-LEC0101,Wensley,Anthony,Winter,2019,2.5,2.5,2.5,3.3,3.1,2.4,3,2.6,N/A,2.4,57,8
+WRI365H5,ICC,Editing: Principles & Practice WRI365H5-S-LEC0102,Waterman,Laurel,Winter,2019,4.3,4.6,4.5,4.6,4.7,4.1,4.0,3.8,N/A,4.1,31,12
+CCT424H5,ICC,Strategic Innovation CCT424H5-S-LEC0101,Wensley,Anthony,Winter,2019,3.3,3.0,3.3,3.0,3.0,3.0,3.0,2.9,N/A,3.0,52,8
+MGD423H5,ICC,Tech in Organizations MGD423H5-S-LEC0101,Wensley,Anthony,Winter,2019,2.5,2.5,2.5,3.3,3.1,2.4,3.0,2.6,N/A,2.4,57,8
 WRI307H5,ICC,Science and Writing WRI307H5-F-LEC0101,Allen,Guy,Fall,2018,4.6,4.4,4.7,4.6,4.7,4.2,4.1,4.2,N/A,4.6,26,23
 MGD425H5,ICC,Macro & Knowledge Econ MGD425H5-F-LEC0101,Caraway,Brett,Fall,2018,4.9,4.9,5,5,5,4.9,2.8,4.9,N/A,4.7,33,13
 CCT285H5,ICC,Immersive Environment Design CCT285H5-F-LEC0101,Caraway,Brett,Fall,2018,4.6,4.9,4.8,4.5,4.6,4.5,3.1,4.6,N/A,4.5,37,13

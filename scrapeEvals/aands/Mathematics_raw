@@ -1,4 +1,4 @@
-Code,Dept,Division,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Instructor generated enthusiasm,Course Workload,I would recommend this course,Number of Students Invited,Number of Respondents
+Code,Dept,Division,Course,Last_Name,First_Name,Term,Year,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Instructor_generated_enthusiasm,Course_Workload,I_would_recommend_this_course,Number_of_Students_Invited,Number_of_Respondents
 MAT246H1,MAT,ARTSC,Abstract Mathematics MAT246H1-Y-LEC0101,Korman,Jonathan,Summer,2018,4.6,4.5,4.7,4.5,4.2,4.4,4.7,3.2,4.3,52,17
 MAT237Y1,MAT,ARTSC,Advanced Calculus MAT237Y1-Y-LEC5101 (B),Vo,Huan,Summer,2018,3.9,4,4.3,3.6,3.9,3.6,4.3,3.6,3.2,33,11
 MAT133Y1,MAT,ARTSC,Calc Lin Alg Commerc MAT133Y1-Y-LEC0101,Chen,Li,Summer,2018,4.6,4.7,4.8,4.8,4.4,4,4.7,3.5,4.6,105,9

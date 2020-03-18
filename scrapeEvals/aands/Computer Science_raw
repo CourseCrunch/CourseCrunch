@@ -1,4 +1,4 @@
-Code,Dept,Division,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Instructor generated enthusiasm,Course Workload,I would recommend this course,Number of Students Invited,Number of Respondents
+Code,Dept,Division,Course,Last_Name,First_Name,Term,Year,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Instructor_generated_enthusiasm,Course_Workload,I_would_recommend_this_course,Number_of_Students_Invited,Number_of_Respondents
 CSC373H1,CSC,ARTSC,Algo Design & Analysis CSC373H1-Y-LEC5101,Pal,Koushik,Summer,2018,3.9,4.1,3.6,4.1,3.6,3.6,3.7,3.5,3.6,95,32
 CSC258H1,CSC,ARTSC,Computer Organizatn CSC258H1-Y-LEC5101,Bakhteri,Rabia,Summer,2018,3.6,3.7,3.7,3.9,3.8,3.2,3.6,4.2,3.1,77,24
 CSC263H1,CSC,ARTSC,Data Structures & Analysis CSC263H1-Y-LEC5101,Chen,Ruiwen,Summer,2018,3.7,3.7,3.2,3.6,3.7,3,3.1,3.5,3.1,90,18

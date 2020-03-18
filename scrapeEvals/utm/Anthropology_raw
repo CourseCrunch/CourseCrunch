@@ -1,58 +1,82 @@
-Code,Dept,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Course Workload,I would recommend this course,I attended class,Inspired to learn subject matter,Number Invited,Number of Survey Responses
+Code,Dept,Course,Last_Name,First_Name,Term,Year,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Course_Workload,I_would_recommend_this_course,I_attended_class,Inspired_to_learn_subject_matter,Number_Invited,Number_of_Survey_Responses
 ANT102H5,ANTRL,Intro Soc & Ling Ant ANT102H5-F-LEC0101,Barac,Victor,Fall,2019,3.3,3.8,3.2,3.3,3.4,3.1,2.6,3.5,N/A,2.9,425,163
-ANT102H5,ANTRL,Intro Soc & Ling Ant ANT102H5-F-LEC0101,Sanders,Todd,Fall,2019,3.3,3.8,4.0,3.3,3.4,3.1,2.6,3.5,N/A,2.9,425,163
-ANT102H5,ANTRL,Intro Soc & Ling Ant ANT102H5-F-LEC0102,Barac,Victor,Fall,2019,3.2,3.7,3.2,3.0,3.4,3.1,2.6,3.4,N/A,3.0,312,98
-ANT102H5,ANTRL,Intro Soc & Ling Ant ANT102H5-F-LEC0102,Sanders,Todd,Fall,2019,3.2,3.7,3.8,3.0,3.4,3.1,2.6,3.4,N/A,3.0,312,98
-ANT200H5,ANTRL,Intro to the Practice of Arch ANT200H5-F-LEC0101,Xie,Liye,Fall,2019,3.8,4.0,4.0,4.0,4.1,3.7,2.7,3.7,N/A,3.4,146,63
-ANT204H5,ANTRL,Sociocultural Anthropology ANT204H5-F-LEC0101,Muehlebach,Andrea,Fall,2019,4.3,4.3,4.5,4.1,4.3,4.0,3.0,4.1,N/A,4.0,150,55
-ANT211H5,ANTRL,Sex  Evolution and Behaviour ANT211H5-F-LEC0101,Fukuzawa,Sherry,Fall,2019,3.8,4.0,4.3,3.6,3.8,3.7,2.9,3.7,N/A,3.4,247,62
-ANT215H5,ANTRL,Intro to the Anthro of Ethics ANT215H5-F-LEC0101,Sidnell,Jack,Fall,2019,4.1,4.0,4.2,4.0,4.0,3.8,2.7,4.0,N/A,3.6,72,24
-ANT217H5,ANTRL,Anthropology of Law ANT217H5-F-LEC0101,Bozcali,Veysel,Fall,2019,3.7,4.0,4.1,3.9,4.0,3.7,3.0,3.9,N/A,3.5,74,27
-ANT220H5,ANTRL,Int. to Anthro of Health ANT220H5-F-LEC0101,Mant,Madeleine,Fall,2019,4.6,4.7,4.9,4.7,4.7,4.6,3.0,4.7,N/A,4.7,61,35
-ANT241H5,ANTRL,Anthr Indig Ppl Turtle Island ANT241H5-F-LEC0101,Fukuzawa,Sherry,Fall,2019,4.1,4.3,4.1,3.7,3.9,4.0,3.4,4.0,N/A,4.5,69,24
-ANT314H5,ANTRL,Archaeological Theory ANT314H5-F-LEC0101,Smith,David,Fall,2019,3.8,3.8,4.2,3.9,4.2,3.8,3.0,3.4,N/A,3.6,25,10
+ANT102H5,ANTRL,Intro Soc & Ling Ant ANT102H5-F-LEC0101,Sanders,Todd,Fall,2019,3.3,3.8,4,3.3,3.4,3.1,2.6,3.5,N/A,2.9,425,163
+ANT102H5,ANTRL,Intro Soc & Ling Ant ANT102H5-F-LEC0102,Barac,Victor,Fall,2019,3.2,3.7,3.2,3,3.4,3.1,2.6,3.4,N/A,3,312,98
+ANT102H5,ANTRL,Intro Soc & Ling Ant ANT102H5-F-LEC0102,Sanders,Todd,Fall,2019,3.2,3.7,3.8,3,3.4,3.1,2.6,3.4,N/A,3,312,98
+ANT200H5,ANTRL,Intro to the Practice of Arch ANT200H5-F-LEC0101,Xie,Liye,Fall,2019,3.8,4,4,4,4.1,3.7,2.7,3.7,N/A,3.4,146,63
+ANT204H5,ANTRL,Sociocultural Anthropology ANT204H5-F-LEC0101,Muehlebach,Andrea,Fall,2019,4.3,4.3,4.5,4.1,4.3,4,3,4.1,N/A,4,150,55
+ANT211H5,ANTRL,Sex  Evolution and Behaviour ANT211H5-F-LEC0101,Fukuzawa,Sherry,Fall,2019,3.8,4,4.3,3.6,3.8,3.7,2.9,3.7,N/A,3.4,247,62
+ANT215H5,ANTRL,Intro to the Anthro of Ethics ANT215H5-F-LEC0101,Sidnell,Jack,Fall,2019,4.1,4,4.2,4,4,3.8,2.7,4,N/A,3.6,72,24
+ANT217H5,ANTRL,Anthropology of Law ANT217H5-F-LEC0101,Bozcali,Veysel,Fall,2019,3.7,4,4.1,3.9,4,3.7,3,3.9,N/A,3.5,74,27
+ANT220H5,ANTRL,Int. to Anthro of Health ANT220H5-F-LEC0101,Mant,Madeleine,Fall,2019,4.6,4.7,4.9,4.7,4.7,4.6,3,4.7,N/A,4.7,61,35
+ANT241H5,ANTRL,Anthr Indig Ppl Turtle Island ANT241H5-F-LEC0101,Fukuzawa,Sherry,Fall,2019,4.1,4.3,4.1,3.7,3.9,4,3.4,4,N/A,4.5,69,24
+ANT314H5,ANTRL,Archaeological Theory ANT314H5-F-LEC0101,Smith,David,Fall,2019,3.8,3.8,4.2,3.9,4.2,3.8,3,3.4,N/A,3.6,25,10
 ANT317H5,ANTRL,Pre-c. Indig Hist of East N.A ANT317H5-F-LEC0101,Dorland,Steven,Fall,2019,4.2,4.3,4.8,4.1,4.3,4.1,3.2,4.1,N/A,3.9,24,18
-ANT318H5,ANTRL,Archae Fieldwork ANT318H5-F-LEC0101,Brand,Michael,Fall,2019,4.0,4.4,4.6,4.1,4.3,4.3,3.4,4.1,N/A,3.7,10,7
+ANT318H5,ANTRL,Archae Fieldwork ANT318H5-F-LEC0101,Brand,Michael,Fall,2019,4,4.4,4.6,4.1,4.3,4.3,3.4,4.1,N/A,3.7,10,7
 ANT327H5,ANTRL,Agricultural Origins: 2nd Rev. ANT327H5-F-LEC0101,Crawford,Gary,Fall,2019,2.9,3.4,3.6,3.1,3.4,2.8,3.8,2.5,N/A,2.8,23,11
 ANT332H5,ANTRL,Hum Orig I: Early Anc to Homo ANT332H5-F-LEC0101,Nargolwalla,Mariam,Fall,2019,4.1,4.3,4.4,3.8,3.9,3.8,3.1,4.1,N/A,3.9,61,46
 ANT341H5,ANTRL,Anthro of Infectious Disease ANT341H5-F-LEC0101,Mant,Madeleine,Fall,2019,4.9,4.9,4.9,4.7,4.7,4.7,3.2,4.9,N/A,4.9,27,15
 ANT363H5,ANTRL,Magic and Science ANT363H5-F-LEC0101,Sanders,Todd,Fall,2019,4.2,4.3,4.2,4.1,4.1,3.8,3.4,3.8,N/A,3.8,28,12
 ANT402H5,ANTRL,WN: Sleep evo perf. 21st cent ANT402H5-F-LEC0101,Samson,David,Fall,2019,4.3,4.3,4.2,3.9,4.3,3.9,3.1,4.2,N/A,4.5,17,15
-ANT407H5,ANTRL,Quant Mthds Archae Bio Anthro ANT407H5-F-LEC0101,Schroeder,Lauren,Fall,2019,4.4,4.7,4.7,4.9,4.7,4.6,3.0,4.9,N/A,4.3,10,7
-ANT414H5,ANTRL,People & Plants in Prehistory ANT414H5-F-LEC0101,Crawford,Gary,Fall,2019,4.4,4.4,4.5,4.4,4.3,4.1,3.3,4.0,N/A,4.0,14,8
-ANT436H5,ANTRL,Theory & Meth in Molecular Ant ANT436H5-F-LEC0101,Parra,Esteban,Fall,2019,4.2,4.3,4.6,4.4,4.2,4.0,3.2,4.2,N/A,4.2,24,14
+ANT407H5,ANTRL,Quant Mthds Archae Bio Anthro ANT407H5-F-LEC0101,Schroeder,Lauren,Fall,2019,4.4,4.7,4.7,4.9,4.7,4.6,3,4.9,N/A,4.3,10,7
+ANT414H5,ANTRL,People & Plants in Prehistory ANT414H5-F-LEC0101,Crawford,Gary,Fall,2019,4.4,4.4,4.5,4.4,4.3,4.1,3.3,4,N/A,4,14,8
+ANT436H5,ANTRL,Theory & Meth in Molecular Ant ANT436H5-F-LEC0101,Parra,Esteban,Fall,2019,4.2,4.3,4.6,4.4,4.2,4,3.2,4.2,N/A,4.2,24,14
 ANT463H5,ANTRL,Anthropologies of Water ANT463H5-F-LEC0101,Muehlebach,Andrea,Fall,2019,4.6,4.7,4.7,4.7,4.6,4.6,3.4,4.6,N/A,4.3,16,7
-FSC100H5,ANTRL,The Real CSI FSC100H5-F-LEC0101,Knaap,Wade,Fall,2019,3.9,4.2,4.3,3.6,3.6,3.7,2.8,4.0,N/A,3.8,429,152
+FSC100H5,ANTRL,The Real CSI FSC100H5-F-LEC0101,Knaap,Wade,Fall,2019,3.9,4.2,4.3,3.6,3.6,3.7,2.8,4,N/A,3.8,429,152
 FSC220H5,ANTRL,Intro to Forensic Psychology FSC220H5-F-LEC0101,Larsen,Rasmus,Fall,2019,4.8,4.8,4.9,4.7,4.7,4.8,2.8,4.9,N/A,4.6,62,42
 FSC271H5,ANTRL,Ethics& Professionalism in FSC FSC271H5-F-LEC0101,Woodall,Karen,Fall,2019,4.2,4.4,4.8,4.1,4.3,4.2,2.5,4.2,N/A,4.1,77,54
 FSC300H5,ANTRL,Forensic Identification FSC300H5-F-LEC0101,Knaap,Wade,Fall,2019,3.4,3.9,3.9,3.7,3.7,3.4,2.6,3.6,N/A,3.6,39,27
 FSC311H5,ANTRL,Forensic Chemistry FSC311H5-F-LEC0101,Luk,Vivienne,Fall,2019,4.4,4.4,4.5,4.2,4.2,4.1,3.4,4.5,N/A,4.5,23,14
-FSC315H5,ANTRL,Forensic Biology FSC315H5-F-LEC0101,Novroski,Nicole,Fall,2019,4.4,4.8,4.3,3.8,4.0,3.9,3.3,4.2,N/A,4.4,22,12
+FSC315H5,ANTRL,Forensic Biology FSC315H5-F-LEC0101,Novroski,Nicole,Fall,2019,4.4,4.8,4.3,3.8,4,3.9,3.3,4.2,N/A,4.4,22,12
 FSC330H5,ANTRL,Best Practices in Forensic Sci FSC330H5-F-LEC0101,Woodall,Karen,Fall,2019,3.9,4.4,4.9,4.1,4.1,3.9,2.8,4.1,N/A,3.9,25,16
-FSC350H5,ANTRL,Special Topics in Forensic Sci FSC350H5-F-LEC0101,Novroski,Nicole,Fall,2019,4.8,5.0,5.0,4.8,4.8,4.8,2.2,4.8,N/A,4.8,9,5
-FSC360H5,ANTRL,Evidence  Law & FSC in Canada FSC360H5-F-LEC0101,Pakosh,Caitlin,Fall,2019,3.5,4.0,3.8,4.0,3.9,3.5,3.3,3.4,N/A,3.6,105,60
-FSC370H5,ANTRL,Forensic Psychopharmacology FSC370H5-F-LEC0101,Woodall,Karen,Fall,2019,4.8,4.8,5.0,4.6,4.5,4.7,2.7,4.8,N/A,4.7,40,31
+FSC350H5,ANTRL,Special Topics in Forensic Sci FSC350H5-F-LEC0101,Novroski,Nicole,Fall,2019,4.8,5,5,4.8,4.8,4.8,2.2,4.8,N/A,4.8,9,5
+FSC360H5,ANTRL,Evidence  Law & FSC in Canada FSC360H5-F-LEC0101,Pakosh,Caitlin,Fall,2019,3.5,4,3.8,4,3.9,3.5,3.3,3.4,N/A,3.6,105,60
+FSC370H5,ANTRL,Forensic Psychopharmacology FSC370H5-F-LEC0101,Woodall,Karen,Fall,2019,4.8,4.8,5,4.6,4.5,4.7,2.7,4.8,N/A,4.7,40,31
 FSC402H5,ANTRL,Forensic Toxicology FSC402H5-F-LEC0101,Luk,Vivienne,Fall,2019,4.5,4.7,4.7,4.5,4.3,4.3,3.1,4.4,N/A,4.3,38,29
-FSC406H5,ANTRL,Intro 3D Crime Scene Map&Recon FSC406H5-F-LEC0101,Guryn,Alina,Fall,2019,4.1,4.4,3.3,4.1,3.9,2.9,4.6,3.3,N/A,4.0,14,7
-FSC406H5,ANTRL,Intro 3D Crime Scene Map&Recon FSC406H5-F-LEC0101,Liscio,Eugene,Fall,2019,4.1,4.4,4.6,4.1,3.9,2.9,4.6,3.3,N/A,4.0,14,7
+FSC406H5,ANTRL,Intro 3D Crime Scene Map&Recon FSC406H5-F-LEC0101,Guryn,Alina,Fall,2019,4.1,4.4,3.3,4.1,3.9,2.9,4.6,3.3,N/A,4,14,7
+FSC406H5,ANTRL,Intro 3D Crime Scene Map&Recon FSC406H5-F-LEC0101,Liscio,Eugene,Fall,2019,4.1,4.4,4.6,4.1,3.9,2.9,4.6,3.3,N/A,4,14,7
 FSC416H5,ANTRL,Population Genetics FSC416H5-F-LEC0101,Novroski,Nicole,Fall,2019,4.1,4.7,4.9,4.7,4.4,4.1,3.2,3.9,N/A,3.9,14,9
 FSC430H5,ANTRL,Seminar in Forensic Science FSC430H5-F-LEC0101,Larsen,Rasmus,Fall,2019,4.5,4.4,4.8,4.8,4.7,4.6,2.9,4.8,N/A,4.4,28,21
-FSC403H5,ANTRL,Forensic Analytical Toxico. FSC403H5-S-LEC0101,Luk,Vivienne,Winter,2019,4.3,4.5,5,4.3,4.6,4.7,3.1,4.7,N/A,4.3,11,10
+ANT207H5,ANTRL,Classic Thought -Self & Societ ANT207H5-Y-LEC0101,Barac,Victor,Summer,2019,3.4,3.4,3.8,3.4,3.6,3.6,3.6,3.4,N/A,3.8,17,5
+ANT102H5,ANTRL,Intro Soc & Ling Ant ANT102H5-S-LEC0101,Barac,Victor,Summer,2019,3.0,3.5,3.4,3.1,3.3,2.7,3.2,2.8,N/A,2.7,178,48
+ANT203H5,ANTRL,Bio Ant: Prim & palaeoanthro ANT203H5-F-LEC0101,Steffens,Travis,Summer,2019,4.5,4.5,4.5,4.4,4.5,4.3,3.1,4.4,N/A,4.2,42,25
+FSC271H5,ANTRL,Ethics& Professionalism in FSC FSC271H5-F-LEC0101,Woodall,Karen,Summer,2019,4.4,4.5,4.8,4.0,3.9,4.2,2.7,4.4,N/A,4.1,52,34
+ANT101H5,ANTRL,Intro Bio Ant & Arch ANT101H5-F-LEC0101,Fukuzawa,Sherry,Summer,2019,4.7,4.6,4.8,4.5,4.5,4.4,3.3,4.2,N/A,4.3,86,22
+ANT317H5,ANTRL,Pre-c. Indig Hist of East N.A ANT317H5-F-LEC0101,Dorland,Steven,Summer,2019,4.0,4.2,4.6,4.1,4.3,3.9,3.4,4.1,N/A,3.5,27,18
+ANT367H5,ANTRL,SS: Lessons from chimpanzee ANT367H5-F-LEC0101,Samson,David,Summer,2019,4.5,4.7,4.7,4.4,4.4,4.4,3.2,4.4,N/A,4.3,46,34
+ANT218H5,ANTRL,The Social Conquest of Earth ANT218H5-F-LEC0101,Samson,David,Summer,2019,4.3,4.3,4.7,3.9,4.0,3.9,3.4,4.2,N/A,4.0,90,53
+ANT207H5,ANTRL,Classic Thought -Self & Societ ANT207H5-S-LEC0101,Barac,Victor,Winter,2019,2.9,3.3,3.3,3.0,3.0,2.9,3.5,2.7,N/A,2.7,92,28
+ANT209H5,ANTRL,ANT of global intervention ANT209H5-S-LEC0101,Bozcali,Veysel,Winter,2019,3.5,3.5,3.6,3.6,3.8,3.1,2.8,3.3,N/A,3.2,120,36
+ANT312H5,ANTRL,Archaeological Analysis ANT312H5-S-LEC0101,Brand,Michael,Winter,2019,4.1,4.3,4.7,4.6,4.6,4.5,3.1,4.2,N/A,3.9,34,18
+ANT415H5,ANTRL,Faunal Archaeo-Osteology ANT415H5-S-LEC0101,Brand,Michael,Winter,2019,4.5,4.8,4.9,4.2,4.3,4.6,3.2,4.3,N/A,3.8,22,12
+ANT430H5,ANTRL,Spec Prob Bio Anthro ANT430H5-S-LEC0101,Chakraborty,Kalyan,Winter,2019,4.5,4.6,4.6,4.5,4.6,4.0,3.4,3.8,N/A,4.4,16,8
+ANT327H5,ANTRL,Agricultural Origins: 2nd Rev. ANT327H5-S-LEC0101,Crawford,Gary,Winter,2019,3.9,4.3,4.4,3.6,3.8,3.3,3.6,3.3,N/A,3.0,33,9
+ANT210H5,ANTRL,Fant Hoax & Misrep Ancient Wor ANT210H5-S-LEC0101,Crawford,Gary,Winter,2019,3.5,3.7,3.8,3.5,3.8,3.4,2.5,3.5,N/A,3.0,288,79
+ANT101H5,ANTRL,Intro Bio Ant & Arch ANT101H5-S-LEC0101,Fukuzawa,Sherry,Winter,2019,3.8,4.0,4.4,3.7,3.9,3.7,3.0,3.7,N/A,3.2,365,107
+ANT101H5,ANTRL,Intro Bio Ant & Arch ANT101H5-S-LEC0102,Fukuzawa,Sherry,Winter,2019,3.8,4.1,4.3,3.9,3.8,3.6,2.9,3.8,N/A,3.5,340,89
+ANT331H5,ANTRL,The Biology of Human Sexuality ANT331H5-S-LEC0101,Fukuzawa,Sherry,Winter,2019,3.7,3.6,3.7,3.4,3.5,3.1,3.6,3.2,N/A,3.3,63,19
+ANT338H5,ANTRL,Lab Methods in Biol Anthropol ANT338H5-S-LEC0101,Galloway,Tracey,Winter,2019,3.9,4.2,4.3,3.6,3.6,3.6,3.1,3.9,N/A,3.7,45,14
+ANT206H5,ANTRL,Culture and Communication ANT206H5-S-LEC0101,Hillewaert,Sarah,Winter,2019,3.9,4.1,4.2,3.7,3.9,3.5,3.4,3.4,N/A,3.6,98,33
+FSC302H5,ANTRL,Adv Forensic Ident FSC302H5-S-LEC0101,Knaap,Wade,Winter,2019,4.5,4.7,4.4,4.4,4.3,4.1,2.8,4.3,N/A,4.4,41,16
+FSC100H5,ANTRL,The Real CSI FSC100H5-S-LEC0101,Knaap,Wade,Winter,2019,3.7,4.0,3.7,3.3,3.5,3.3,2.7,3.8,N/A,3.5,449,179
+FSC401H5,ANTRL,Forensic Pathology FSC401H5-S-LEC0101,Kocovski,Linda,Winter,2019,4.5,4.7,4.7,4.2,4.5,4.2,3.1,4.3,N/A,4.3,39,19
+FSC320H5,ANTRL,Forensic Psychopathology FSC320H5-S-LEC0101,Larsen,Rasmus,Winter,2019,4.8,4.8,4.8,4.9,4.8,4.6,3.1,4.7,N/A,4.7,23,18
+FSC403H5,ANTRL,Forensic Analytical Toxico. FSC403H5-S-LEC0101,Luk,Vivienne,Winter,2019,4.3,4.5,5.0,4.3,4.6,4.7,3.1,4.7,N/A,4.3,11,10
 FSC239Y5,ANTRL,Intro to Forensic Science FSC239Y5-Y-LEC0101,Luk,Vivienne,Winter,2019,4.5,4.7,4.7,4.1,4.2,4.3,2.6,4.6,N/A,4.5,345,238
 FSC350H5,ANTRL,Special Topics in Forensic Sci FSC350H5-S-LEC0101,Luk,Vivienne,Winter,2019,4.9,4.8,4.9,4.9,4.7,4.8,2.6,4.7,N/A,4.5,14,13
 FSC307H5,ANTRL,Miss. Prsn DVI Unid Hum Remain FSC307H5-S-LEC0101,Novroski,Nicole,Winter,2019,4.3,4.4,4.5,4.3,4.3,4.2,2.8,4.4,N/A,4.6,25,23
-FSC350H5,ANTRL,Special Topics in Forensic Sci FSC350H5-S-LEC0104,Novroski,Nicole,Winter,2019,4.8,5,4.8,4.2,4.2,4.6,2.6,4.4,N/A,4.8,10,6
+FSC350H5,ANTRL,Special Topics in Forensic Sci FSC350H5-S-LEC0104,Novroski,Nicole,Winter,2019,4.8,5.0,4.8,4.2,4.2,4.6,2.6,4.4,N/A,4.8,10,6
 ANT203H5,ANTRL,Bio Ant: Prim & palaeoanthro ANT203H5-S-LEC0101,Schroeder,Lauren,Winter,2019,4.5,4.6,4.7,4.5,4.6,4.4,3.1,4.3,N/A,4.2,133,52
-FSC316H5,ANTRL,Forensic Anatomy FSC316H5-S-LEC0101,Smith,Ashley,Winter,2019,3.7,3.7,3.8,3.7,3.4,3,4.4,2.7,N/A,3.4,45,32
-ANT314H5,ANTRL,Archaeological Theory ANT314H5-S-LEC0101,Smith,David,Winter,2019,3.8,3.9,4,3.8,3.8,3.8,3.2,3.4,N/A,3.1,39,12
-ANT201H5,ANTRL,World Prehistory ANT201H5-S-LEC0101,Smith,David,Winter,2019,3.8,4.1,4.1,3.7,3.9,3.8,3,3.6,N/A,3.6,127,44
-FSC316H5,ANTRL,Forensic Anatomy FSC316H5-S-LEC0101,Watamaniuk,Lilianna,Winter,2019,3.7,3.7,4.1,3.7,3.4,3,4.4,2.7,N/A,3.4,45,32
+FSC316H5,ANTRL,Forensic Anatomy FSC316H5-S-LEC0101,Smith,Ashley,Winter,2019,3.7,3.7,3.8,3.7,3.4,3.0,4.4,2.7,N/A,3.4,45,32
+ANT314H5,ANTRL,Archaeological Theory ANT314H5-S-LEC0101,Smith,David,Winter,2019,3.8,3.9,4.0,3.8,3.8,3.8,3.2,3.4,N/A,3.1,39,12
+ANT201H5,ANTRL,World Prehistory ANT201H5-S-LEC0101,Smith,David,Winter,2019,3.8,4.1,4.1,3.7,3.9,3.8,3.0,3.6,N/A,3.6,127,44
+FSC316H5,ANTRL,Forensic Anatomy FSC316H5-S-LEC0101,Watamaniuk,Lilianna,Winter,2019,3.7,3.7,4.1,3.7,3.4,3.0,4.4,2.7,N/A,3.4,45,32
 FSC401H5,ANTRL,Forensic Pathology FSC401H5-S-LEC0101,Watamaniuk,Lilianna,Winter,2019,4.5,4.7,4.5,4.2,4.5,4.2,3.1,4.3,N/A,4.3,39,19
-FSC271H5,ANTRL,Ethics& Professionalism in FSC FSC271H5-S-LEC0101,Woodall,Karen,Winter,2019,4.4,4.6,4.9,4,3.9,4.2,2.5,4.3,N/A,4.4,71,40
-ANT214H5,ANTRL,Anthro of Food and Nutrition ANT214H5-S-LEC0101,Wood,Carolan,Winter,2019,3,3.3,2.5,2.9,3,2.7,3.7,2.5,N/A,2.9,308,108
+FSC271H5,ANTRL,Ethics& Professionalism in FSC FSC271H5-S-LEC0101,Woodall,Karen,Winter,2019,4.4,4.6,4.9,4.0,3.9,4.2,2.5,4.3,N/A,4.4,71,40
+ANT214H5,ANTRL,Anthro of Food and Nutrition ANT214H5-S-LEC0101,Wood,Carolan,Winter,2019,3.0,3.3,2.5,2.9,3.0,2.7,3.7,2.5,N/A,2.9,308,108
 ANT340H5,ANTRL,Osteological Thry and Methods ANT340H5-S-LEC0101,Wood,Carolan,Winter,2019,3.9,3.7,3.3,3.5,3.7,3.2,4.1,2.8,N/A,3.3,26,10
 ANT313H5,ANTRL,China  Korea & Japan in Prehis ANT313H5-S-LEC0101,Xie,Liye,Winter,2019,3.6,3.8,3.8,3.8,3.8,3.3,3.8,3.1,N/A,3.2,24,13
-ANT403H5,ANTRL,Social Learning Cultural Pat. ANT403H5-S-LEC0101,Xie,Liye,Winter,2019,4.2,4.4,4.3,4,4.3,4.3,3.7,4.2,N/A,3.9,20,11
+ANT403H5,ANTRL,Social Learning Cultural Pat. ANT403H5-S-LEC0101,Xie,Liye,Winter,2019,4.2,4.4,4.3,4.0,4.3,4.3,3.7,4.2,N/A,3.9,20,11
 ANT102H5,ANTRL,Intro Soc & Ling Ant ANT102H5-F-LEC0101,Barac,Victor,Fall,2018,3.4,3.7,3.2,3.1,3.4,3.2,2.6,3.4,N/A,3.2,421,142
 ANT102H5,ANTRL,Intro Soc & Ling Ant ANT102H5-F-LEC0102,Barac,Victor,Fall,2018,3.3,3.6,3.3,3.1,3.5,3.1,2.6,3.4,N/A,3,333,109
 ANT337H5,ANTRL,Anthro of Growth and Dev. ANT337H5-F-LEC0101,Beresheim,Amy,Fall,2018,3.8,3.9,3.7,3.4,3.4,3.5,3.3,3.6,N/A,3.8,65,31

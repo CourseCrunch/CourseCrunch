@@ -1,70 +1,126 @@
-Code,Dept,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Course Workload,I would recommend this course,I attended class,Inspired to learn subject matter,Number Invited,Number of Survey Responses
-ARA210H5,FGI,Arab Culture I ARA210H5-F-LEC0101,Kandil,Ahmed,Fall,2019,4.2,4.4,4.8,4.5,4.5,4.4,3.0,4.6,N/A,4.2,48,37
-ARA410H5,FGI,Advanced Arabic Reading I ARA410H5-F-LEC0101,Ali,Adam,Fall,2019,4.0,4.1,4.2,3.7,3.6,3.7,3.1,3.7,N/A,4.0,15,14
+Code,Dept,Course,Last_Name,First_Name,Term,Year,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Course_Workload,I_would_recommend_this_course,I_attended_class,Inspired_to_learn_subject_matter,Number_Invited,Number_of_Survey_Responses
+ARA210H5,FGI,Arab Culture I ARA210H5-F-LEC0101,Kandil,Ahmed,Fall,2019,4.2,4.4,4.8,4.5,4.5,4.4,3,4.6,N/A,4.2,48,37
+ARA410H5,FGI,Advanced Arabic Reading I ARA410H5-F-LEC0101,Ali,Adam,Fall,2019,4,4.1,4.2,3.7,3.6,3.7,3.1,3.7,N/A,4,15,14
 CHI103H5,FGI,Introductory Chinese I CHI103H5-F-LEC0101,Chen,Chiu-Hung,Fall,2019,4.9,4.9,4.9,4.9,4.9,4.7,3.3,4.6,N/A,4.9,36,10
-CHI203H5,FGI,Intermediate Chinese I CHI203H5-F-LEC0101,Chen,Chiu-Hung,Fall,2019,4.7,5.0,4.9,4.7,4.9,4.7,3.3,4.6,N/A,4.7,16,8
+CHI203H5,FGI,Intermediate Chinese I CHI203H5-F-LEC0101,Chen,Chiu-Hung,Fall,2019,4.7,5,4.9,4.7,4.9,4.7,3.3,4.6,N/A,4.7,16,8
 CHI310H5,FGI,Business Chinese CHI310H5-F-LEC0101,Ni,Ruhui,Fall,2019,4.2,4.2,4.3,4.2,3.8,3.7,2.7,3.5,N/A,3.3,40,8
 CHI310H5,FGI,Business Chinese CHI310H5-F-LEC0201,Ni,Ruhui,Fall,2019,4.7,4.3,4.3,4.3,4.5,4.3,3.2,4.2,N/A,4.2,42,6
-CHI311H5,FGI,Classical Chinese CHI311H5-F-LEC0101,Ma,Jingsong,Fall,2019,4.2,4.2,4.3,4.3,4.4,4.1,2.8,4.0,N/A,3.9,78,29
-CHI410H5,FGI,Modern Chinese Literature CHI410H5-F-LEC0101,Ma,Jingsong,Fall,2019,4.2,4.2,4.2,4.0,4.3,3.9,2.9,3.9,N/A,3.7,98,39
-EDS100H5,FGI,Intro to Education Studies EDS100H5-F-LEC0101,Danjoux,Ilan,Fall,2019,3.9,4.1,4.6,4.0,4.0,4.0,2.6,4.2,N/A,3.7,263,98
-EDS210H5,FGI,Comm & Conflict Resolution EDS210H5-F-LEC0101,Coulson,Elizabeth,Fall,2019,4.1,4.2,5.0,4.3,4.3,4.4,2.7,4.5,N/A,4.2,77,28
-EDS250H5,FGI,Indigenous Education EDS250H5-F-LEC0101,Neepin,Ryan,Fall,2019,4.9,4.9,5.0,4.8,4.9,4.9,3.0,4.9,N/A,5.0,21,10
-EDS300H5,FGI,Learning Design EDS300H5-F-LEC0101,Danjoux,Ilan,Fall,2019,4.1,4.2,4.6,3.9,3.9,3.9,3.0,3.9,N/A,3.5,33,13
-EDS325H5,FGI,Impact Peer-Fac. Study Groups EDS325H5-F-LEC0101,Coulson,Elizabeth,Fall,2019,4.2,4.0,4.7,4.2,4.2,4.4,2.4,4.7,N/A,4.0,51,23
-EDS377H5,FGI,The Impact of Peer Mentoring EDS377H5-F-LEC0101,Mullings,Dale,Fall,2019,4.5,4.7,4.8,5.0,4.7,4.8,3.7,4.7,N/A,4.0,19,6
+CHI311H5,FGI,Classical Chinese CHI311H5-F-LEC0101,Ma,Jingsong,Fall,2019,4.2,4.2,4.3,4.3,4.4,4.1,2.8,4,N/A,3.9,78,29
+CHI410H5,FGI,Modern Chinese Literature CHI410H5-F-LEC0101,Ma,Jingsong,Fall,2019,4.2,4.2,4.2,4,4.3,3.9,2.9,3.9,N/A,3.7,98,39
+EDS100H5,FGI,Intro to Education Studies EDS100H5-F-LEC0101,Danjoux,Ilan,Fall,2019,3.9,4.1,4.6,4,4,4,2.6,4.2,N/A,3.7,263,98
+EDS210H5,FGI,Comm & Conflict Resolution EDS210H5-F-LEC0101,Coulson,Elizabeth,Fall,2019,4.1,4.2,5,4.3,4.3,4.4,2.7,4.5,N/A,4.2,77,28
+EDS250H5,FGI,Indigenous Education EDS250H5-F-LEC0101,Neepin,Ryan,Fall,2019,4.9,4.9,5,4.8,4.9,4.9,3,4.9,N/A,5,21,10
+EDS300H5,FGI,Learning Design EDS300H5-F-LEC0101,Danjoux,Ilan,Fall,2019,4.1,4.2,4.6,3.9,3.9,3.9,3,3.9,N/A,3.5,33,13
+EDS325H5,FGI,Impact Peer-Fac. Study Groups EDS325H5-F-LEC0101,Coulson,Elizabeth,Fall,2019,4.2,4,4.7,4.2,4.2,4.4,2.4,4.7,N/A,4,51,23
+EDS377H5,FGI,The Impact of Peer Mentoring EDS377H5-F-LEC0101,Mullings,Dale,Fall,2019,4.5,4.7,4.8,5,4.7,4.8,3.7,4.7,N/A,4,19,6
 FRE180H5,FGI,Intro to French Studies I FRE180H5-F-LEC0101,Michelucci,Pascal,Fall,2019,3.5,3.7,4.1,3.5,3.7,3.3,3.2,3.7,N/A,3.3,56,27
-FRE240H5,FGI,Read. Cla. French Masterworks FRE240H5-F-LEC0101,Elkabas,Charles,Fall,2019,3.8,4.1,3.5,3.5,3.7,3.2,3.1,2.6,N/A,3.0,36,10
+FRE240H5,FGI,Read. Cla. French Masterworks FRE240H5-F-LEC0101,Elkabas,Charles,Fall,2019,3.8,4.1,3.5,3.5,3.7,3.2,3.1,2.6,N/A,3,36,10
 FRE283H5,FGI,Language Practice: Oral FRE283H5-F-LEC0101,Hong,Rosa,Fall,2019,3.4,3.1,3.8,3.1,3.4,3.3,2.9,3.4,N/A,3.3,31,19
-FRE353H5,FGI,Teaching French Culture FRE353H5-F-LEC0101,Lory,Marie-Paule,Fall,2019,3.6,4.0,4.0,4.6,4.6,4.0,2.8,4.0,N/A,4.0,18,5
+FRE353H5,FGI,Teaching French Culture FRE353H5-F-LEC0101,Lory,Marie-Paule,Fall,2019,3.6,4,4,4.6,4.6,4,2.8,4,N/A,4,18,5
 FRE357H5,FGI,Heroism and Lve in Middle Ages FRE357H5-F-LEC0101,Savard-Corbeil,Mathilde,Fall,2019,2.7,2.8,2.6,2.8,2.8,2.4,3.1,2.5,N/A,2.7,23,12
-FRE372H5,FGI,Fre Lan thrg Space and Time I FRE372H5-F-LEC0101,Evans,Claude,Fall,2019,2.5,3.6,3.0,3.4,3.7,2.4,3.6,2.6,N/A,2.6,18,10
+FRE372H5,FGI,Fre Lan thrg Space and Time I FRE372H5-F-LEC0101,Evans,Claude,Fall,2019,2.5,3.6,3,3.4,3.7,2.4,3.6,2.6,N/A,2.6,18,10
 FRE382H5,FGI,Adv Lang Pra: Written French FRE382H5-F-LEC0101,Lebrec,Caroline,Fall,2019,2.7,3.1,3.2,3.2,3.5,2.6,3.8,2.6,N/A,2.5,45,22
 FRE387H5,FGI,French Morphology FRE387H5-F-LEC0101,Li,Lulu,Fall,2019,3.8,3.8,3.8,3.6,3.8,3.4,3.4,3.4,N/A,3.4,14,5
-FSL105H5,FGI,Functional French-Novice FSL105H5-F-LEC0101,Phillips,Catherine,Fall,2019,4.0,3.9,4.3,4.2,4.1,3.8,3.1,3.7,N/A,3.8,29,10
-FSL105H5,FGI,Functional French-Novice FSL105H5-F-LEC0201,Farsandaj,Sima,Fall,2019,4.0,4.1,4.3,4.0,4.0,3.8,3.4,4.0,N/A,3.9,29,19
-FSL105H5,FGI,Functional French-Novice FSL105H5-F-LEC0301,Phillips,Catherine,Fall,2019,4.0,4.4,4.6,4.5,4.6,4.0,2.8,3.8,N/A,3.3,19,11
-FSL405H5,FGI,Functional French-Advanced I FSL405H5-F-LEC0101,Farsandaj,Sima,Fall,2019,4.0,4.1,4.4,4.6,4.6,4.1,3.1,4.1,N/A,4.2,24,15
-ITA309H5,FGI,Mob Movies in Itln Amer Cinema ITA309H5-F-LEC0101,Lobalsamo,Teresa,Fall,2019,4.6,4.7,4.8,4.1,4.0,4.3,3.1,4.5,N/A,4.4,39,22
-ITA374H5,FGI,2nd Lan Teaching Methodology I ITA374H5-F-LEC0101,Casini,Simone,Fall,2019,3.8,3.8,3.9,3.4,3.8,3.6,2.8,3.1,N/A,3.0,11,8
+FSL105H5,FGI,Functional French-Novice FSL105H5-F-LEC0101,Phillips,Catherine,Fall,2019,4,3.9,4.3,4.2,4.1,3.8,3.1,3.7,N/A,3.8,29,10
+FSL105H5,FGI,Functional French-Novice FSL105H5-F-LEC0201,Farsandaj,Sima,Fall,2019,4,4.1,4.3,4,4,3.8,3.4,4,N/A,3.9,29,19
+FSL105H5,FGI,Functional French-Novice FSL105H5-F-LEC0301,Phillips,Catherine,Fall,2019,4,4.4,4.6,4.5,4.6,4,2.8,3.8,N/A,3.3,19,11
+FSL405H5,FGI,Functional French-Advanced I FSL405H5-F-LEC0101,Farsandaj,Sima,Fall,2019,4,4.1,4.4,4.6,4.6,4.1,3.1,4.1,N/A,4.2,24,15
+ITA309H5,FGI,Mob Movies in Itln Amer Cinema ITA309H5-F-LEC0101,Lobalsamo,Teresa,Fall,2019,4.6,4.7,4.8,4.1,4,4.3,3.1,4.5,N/A,4.4,39,22
+ITA374H5,FGI,2nd Lan Teaching Methodology I ITA374H5-F-LEC0101,Casini,Simone,Fall,2019,3.8,3.8,3.9,3.4,3.8,3.6,2.8,3.1,N/A,3,11,8
 ITA391H5,FGI,Anxty Idnty Mod Ital Hstry Lit ITA391H5-F-LEC0101,Frasca,Paolo,Fall,2019,4.6,4.6,4.8,4.5,4.7,4.6,3.2,4.6,N/A,4.2,13,13
-ITA450H5,FGI,Advanced Italian ITA450H5-F-LEC0101,Casini,Simone,Fall,2019,4.0,3.9,4.3,4.0,3.9,3.9,2.9,3.6,N/A,3.3,14,7
+ITA450H5,FGI,Advanced Italian ITA450H5-F-LEC0101,Casini,Simone,Fall,2019,4,3.9,4.3,4,3.9,3.9,2.9,3.6,N/A,3.3,14,7
 JAL253H5,FGI,Language & Society JAL253H5-F-LEC0101,Rehner,Katherine,Fall,2019,4.4,4.4,4.7,4.4,4.5,4.4,2.8,4.5,N/A,4.2,137,62
-JAL355H5,FGI,Language & Gender JAL355H5-F-LEC0101,Kim,Jade,Fall,2019,3.5,3.5,3.5,3.6,3.6,3.0,2.8,3.3,N/A,3.4,76,32
+JAL355H5,FGI,Language & Gender JAL355H5-F-LEC0101,Kim,Jade,Fall,2019,3.5,3.5,3.5,3.6,3.6,3,2.8,3.3,N/A,3.4,76,32
 LIN102H5,FGI,Intro Gen Lin: Wrd Snt Str Mea LIN102H5-F-LEC0101,Kahnemuyipour,Arsalan,Fall,2019,3.8,4.1,4.3,4.1,4.1,3.8,2.8,3.9,N/A,3.5,335,126
 LIN102H5,FGI,Intro Gen Lin: Wrd Snt Str Mea LIN102H5-F-LEC0102,Kahnemuyipour,Arsalan,Fall,2019,3.8,4.2,4.4,4.1,4.1,3.9,2.9,3.9,N/A,3.6,387,135
-LIN204H5,FGI,English Grammar I LIN204H5-F-LEC9999,Chow,Ivan,Fall,2019,3.2,3.8,3.3,3.6,3.7,3.2,3.4,3.2,N/A,3.0,625,170
+LIN204H5,FGI,English Grammar I LIN204H5-F-LEC9999,Chow,Ivan,Fall,2019,3.2,3.8,3.3,3.6,3.7,3.2,3.4,3.2,N/A,3,625,170
 LIN228H5,FGI,Phonetics LIN228H5-F-LEC0101,Coutsougera,Photini,Fall,2019,3.7,3.8,3.6,4.2,4.2,3.5,2.9,3.5,N/A,3.6,65,18
 LIN233H5,FGI,Eng Words thrgh Space and Time LIN233H5-F-LEC0101,Coutsougera,Photini,Fall,2019,3.6,3.6,3.7,3.7,3.8,3.5,3.1,3.5,N/A,3.4,79,13
 LIN318H5,FGI,Talking Numbers LIN318H5-F-LEC0101,Denis,Derek,Fall,2019,4.1,4.1,4.2,4.2,4.2,3.6,2.7,3.8,N/A,3.5,18,10
 LIN328H5,FGI,Acoustic Phonetics LIN328H5-F-LEC0101,Schertz,Jessamyn,Fall,2019,4.2,4.2,4.2,4.4,4.3,3.8,3.9,3.9,N/A,3.9,26,14
-LIN380H5,FGI,Issues: Sec Lang Teach & Learn LIN380H5-F-LEC0101,Chen,Chiu-Hung,Fall,2019,3.6,3.7,3.8,4.0,4.0,3.3,3.1,3.7,N/A,3.7,52,15
+LIN380H5,FGI,Issues: Sec Lang Teach & Learn LIN380H5-F-LEC0101,Chen,Chiu-Hung,Fall,2019,3.6,3.7,3.8,4,4,3.3,3.1,3.7,N/A,3.7,52,15
 LIN388H5,FGI,Biling Mult Lan Acquisition LIN388H5-F-LEC0101,Pirvulescu,Mihaela,Fall,2019,3.1,3.3,3.5,3.1,3.2,2.9,3.7,2.8,N/A,3.2,43,17
 LIN456H5,FGI,Soc-Lin & Sec Lang Teach & Lea LIN456H5-F-LEC0101,Rehner,Katherine,Fall,2019,4.4,4.4,4.7,4.2,4.4,4.2,2.9,4.2,N/A,3.9,46,19
-LTL456H5,FGI,Socioling& 2nd Lang Tch/Lrn LTL456H5-F-LEC0101,Rehner,Katherine,Fall,2019,4.0,4.0,4.8,4.4,4.6,3.9,2.8,3.6,N/A,3.8,10,8
+LTL456H5,FGI,Socioling& 2nd Lang Tch/Lrn LTL456H5-F-LEC0101,Rehner,Katherine,Fall,2019,4,4,4.8,4.4,4.6,3.9,2.8,3.6,N/A,3.8,10,8
 SPA235H5,FGI,Mus Dnc Hispanic Culture SPA235H5-F-LEC0101,Bijos,Agnieszka,Fall,2019,4.7,4.8,4.5,4.5,4.5,4.5,3.5,4.2,N/A,4.7,18,6
+CHI302H5,FGI,Advanced High Chinese II CHI302H5-S-LEC0101,Ma,Jingsong,Summer,2019,3.5,4.0,3.8,3.8,3.7,3.9,2.8,3.9,N/A,3.2,42,23
+CHI302H5,FGI,Advanced High Chinese II CHI302H5-S-LEC0201,Ma,Jingsong,Summer,2019,3.9,4.0,4.1,4.1,4.1,3.8,3.0,3.5,N/A,3.9,44,23
+SPA220Y5,FGI,Intermediate Spanish SPA220Y5-Y-LEC0101,Bijos,Agnieszka,Summer,2019,4.8,5.0,4.8,4.5,4.5,4.8,3.2,4.5,N/A,4.7,10,6
+SPA100Y5,FGI,Spanish for Beginners SPA100Y5-Y-LEC0101,Bijos,Agnieszka,Summer,2019,4.7,4.7,4.7,4.4,4.7,4.4,3.3,4.6,N/A,4.0,16,7
+CHI301H5,FGI,Advanced High Chinese I CHI301H5-F-LEC0101,Chen,Derong,Summer,2019,4.6,4.7,4.8,4.6,4.7,4.4,2.7,4.6,N/A,4.2,43,27
+CHI301H5,FGI,Advanced High Chinese I CHI301H5-F-LEC0201,Chen,Derong,Summer,2019,4.6,4.7,4.7,4.7,4.6,4.6,2.8,4.4,N/A,4.3,45,33
+ITA235H5,FGI,Cucina Italiana:Hist & Culture ITA235H5-F-LEC0101,Lobalsamo,Teresa,Summer,2019,4.2,4.4,4.9,4.6,4.6,4.3,2.5,4.7,N/A,4.1,40,17
+LIN204H5,FGI,English Grammar I LIN204H5-F-LEC9999,Chow,Ivan,Summer,2019,3.5,3.9,3.4,3.8,3.7,3.5,3.4,3.4,N/A,2.9,285,64
+ARA212Y5,FGI,Introductory Arabic ARA212Y5-Y-LEC0101,Abdel Tawwab,Samia,Winter,2019,4.9,4.9,4.9,4.6,4.8,4.8,3.2,4.4,N/A,4.6,36,20
+ARA410H5,FGI,Advanced Arabic Reading I ARA410H5-S-LEC0101,Ali,Adam,Winter,2019,4.1,4.1,4.5,4.3,4.4,4.3,2.8,4.3,N/A,3.7,20,10
+ARA312Y5,FGI,Intermediate Arabic ARA312Y5-Y-LEC0101,Ali,Adam,Winter,2019,4.4,4.7,4.5,4.1,4.3,4.3,2.6,4.0,N/A,4.1,13,10
+GER150H5,FGI,German Cult Studies 1 GER150H5-S-LEC0101,Barge,Lisa,Winter,2019,4.4,4.4,4.8,4.6,4.6,4.5,3.0,4.4,N/A,3.9,28,12
+GER100Y5,FGI,Introductory German 1 GER100Y5-Y-LEC0201,Barge,Lisa,Winter,2019,4.7,4.6,5.0,4.8,5.0,4.9,3.3,4.5,N/A,4.7,26,10
+LIN353H5,FGI,Discourse Analysis LIN353H5-S-LEC0101,Beekhuizen,Barend,Winter,2019,4.3,4.5,4.6,4.5,4.6,4.4,3.3,4.5,N/A,4.5,45,13
+LIN385H5,FGI,Acquisition Grammar Diff Cont. LIN385H5-S-LEC0101,Bello,Sophia,Winter,2019,3.8,3.6,3.5,3.4,3.4,3.0,3.5,2.9,N/A,3.3,42,21
+LIN205H5,FGI,English Grammar II LIN205H5-S-LEC0101,Bello,Sophia,Winter,2019,2.7,2.7,2.4,2.6,2.6,2.3,3.4,2.4,N/A,2.6,378,154
+FRE272Y5,FGI,Struct of Mod French:Intro FRE272Y5-Y-LEC0101,Bello,Sophia,Winter,2019,4.1,4.6,4.7,4.5,4.5,4.1,3.4,3.7,N/A,3.3,35,26
+ITA350Y5,FGI,Language Practice ITA350Y5-Y-LEC0101,Bernardini,Paola,Winter,2019,3.9,4.4,3.8,4.1,4.2,4.1,3.3,3.6,N/A,3.7,14,11
+SPA220Y5,FGI,Intermediate Spanish SPA220Y5-Y-LEC0101,Bijos,Agnieszka,Winter,2019,4.8,4.9,5.0,4.9,4.9,5.0,3.2,4.5,N/A,4.7,40,13
+ITA437Y5,FGI,History of the Italian Lang. ITA437Y5-Y-LEC0101,Casini,Simone,Winter,2019,3.4,3.8,3.4,3.8,3.6,3.1,2.9,3.0,N/A,2.8,19,10
+ITA373H5,FGI,Italian Sociolinguistics ITA373H5-S-LEC0101,Casini,Simone,Winter,2019,4.8,4.8,5.0,4.6,4.8,4.8,2.8,4.6,N/A,4.8,13,5
+CHI202H5,FGI,Intermediate High Chinese II CHI202H5-S-LEC0101,Chen,Chiu-Hung,Winter,2019,3.7,3.9,4.3,3.9,3.9,3.6,3.4,3.9,N/A,4.0,22,7
+CHI104H5,FGI,Introductory Chinese II CHI104H5-S-LEC0101,Chen,Chiu-Hung,Winter,2019,4.7,4.7,4.9,4.9,4.9,4.7,2.8,4.8,N/A,4.5,33,14
+LIN487H5,FGI,Second Language Pedagogy LIN487H5-S-LEC0101,Chen,Chiu-Hung,Winter,2019,3.6,3.8,3.7,3.9,4.0,3.4,3.8,3.3,N/A,3.6,48,11
+CHI409H5,FGI,Influence of Confucianism CHI409H5-S-LEC0101,Chen,Derong,Winter,2019,4.3,4.6,4.8,4.5,4.6,4.4,3.0,4.3,N/A,4.4,38,20
+CHI409H5,FGI,Influence of Confucianism CHI409H5-S-LEC0201,Chen,Derong,Winter,2019,4.0,4.2,4.5,4.2,4.2,4.1,3.0,4.1,N/A,3.9,40,14
+FRE316H5,FGI,Urb Att and the QC Contemp Nvl FRE316H5-S-LEC0101,Chevrette,Eric,Winter,2019,3.2,3.7,3.6,3.4,3.6,3.2,3.1,3.1,N/A,2.9,28,18
+LIN233H5,FGI,Eng Words thrgh Space and Time LIN233H5-S-LEC0101,Chow,Ivan,Winter,2019,3.9,4.0,4.2,4.0,4.1,3.7,3.5,3.4,N/A,3.5,84,20
+LIN228H5,FGI,Phonetics LIN228H5-S-LEC0101,Chow,Ivan,Winter,2019,3.8,4.1,4.0,4.2,4.2,3.6,3.5,3.2,N/A,3.2,90,22
+LIN229H5,FGI,Sound Patterns in Lang LIN229H5-S-LEC0101,Chow,Ivan,Winter,2019,3.7,3.8,3.9,3.3,3.5,3.3,3.2,3.2,N/A,3.4,64,17
+EDS220H5,FGI,Equity & Diversity in Educat EDS220H5-S-LEC0101,Coulson,Elizabeth,Winter,2019,4.7,4.7,5.0,4.5,4.7,4.8,2.8,4.8,N/A,4.7,70,34
+EDS345H5,FGI,Problem into Prototype EDS345H5-S-LEC0101,Danjoux,Ilan,Winter,2019,3.9,4.0,4.8,3.2,3.3,3.8,3.2,4.1,N/A,3.8,17,9
+LIN256H5,FGI,Sociolinguistics LIN256H5-S-LEC0101,Denis,Derek,Winter,2019,3.7,3.9,3.9,3.7,3.8,3.5,2.9,3.5,N/A,3.5,122,39
+FRE468H5,FGI,Birth of the New Novel FRE468H5-S-LEC0101,Elkabas,Charles,Winter,2019,4.2,4.5,4.5,4.5,4.5,4.0,3.0,4.0,N/A,4.0,11,6
+FRE241H5,FGI,Read. Mod. Fr & Qc Masterworks FRE241H5-S-LEC0101,Elkabas,Charles,Winter,2019,3.0,3.6,3.4,3.6,3.7,2.7,2.9,2.8,N/A,2.9,39,17
+ARA311H5,FGI,Intermediate Arabic ARA311H5-S-LEC0101,Elrefaei,Wafaa,Winter,2019,4.1,4.4,4.4,4.3,4.4,4.1,3.2,4.0,N/A,4.1,40,24
+FSL106H5,FGI,Functional FRE - Adv. Beginner FSL106H5-S-LEC0101,Farsandaj,Sima,Winter,2019,4.3,4.6,4.5,4.5,4.5,4.2,2.9,4.2,N/A,4.1,34,21
+FSL106H5,FGI,Functional FRE - Adv. Beginner FSL106H5-S-LEC0201,Farsandaj,Sima,Winter,2019,4.6,4.8,4.9,4.6,4.6,4.6,2.7,4.6,N/A,4.6,38,19
+FSL406H5,FGI,Functional French-Advanced II FSL406H5-S-LEC0101,Farsandaj,Sima,Winter,2019,4.1,4.3,4.0,4.0,4.0,3.8,3.1,3.7,N/A,4.0,19,11
+ITA255Y5,FGI,Italian Canadian Experience ITA255Y5-S-LEC0101,Frasca,Paolo,Winter,2019,3.8,4.1,4.5,3.8,3.9,3.9,3.8,3.4,N/A,3.6,26,17
+LAT100Y5,FGI,Introductory Latin LAT100Y5-Y-LEC0101,Gearey,James,Winter,2019,4.8,4.9,4.8,4.5,4.6,4.8,3.1,4.9,N/A,4.4,25,8
+ITA100Y5,FGI,Italian for Beginners ITA100Y5-Y-LEC0101,Grimaldi,Adriana,Winter,2019,4.3,4.7,4.5,4.7,4.6,4.5,2.6,4.5,N/A,3.9,40,16
+ITA100Y5,FGI,Italian for Beginners ITA100Y5-Y-LEC0102,Grimaldi,Adriana,Winter,2019,4.6,4.6,4.8,4.7,4.7,4.8,2.6,4.7,N/A,4.4,44,21
+ITA100Y5,FGI,Italian for Beginners ITA100Y5-Y-LEC0103,Grimaldi,Adriana,Winter,2019,4.4,4.5,4.8,4.5,4.5,4.6,2.7,4.6,N/A,4.5,39,18
+ITA315Y5,FGI,Italian Theatre & Performance ITA315Y5-Y-LEC0101,Grimaldi,Adriana,Winter,2019,4.0,4.2,4.7,3.7,3.9,3.3,4.5,2.8,N/A,2.7,14,10
+URD212Y5,FGI,Introduction to Urdu URD212Y5-Y-LEC0101,Hamid,Usman,Winter,2019,4.3,4.4,4.2,4.4,4.4,4.2,3.0,3.9,N/A,4.2,41,9
+LIN231H5,FGI,Morphological Patterns in Lang LIN231H5-S-LEC0101,Hojatollah Taleghani,Azita,Winter,2019,2.6,2.6,2.2,2.5,2.7,2.2,3.2,2.1,N/A,2.6,89,26
+FSL466H5,FGI,Fr for Business Communication FSL466H5-S-LEC0101,Hong,Rosa,Winter,2019,3.9,4.0,4.0,3.8,3.9,3.9,3.0,4.3,N/A,3.9,14,8
+FSL106H5,FGI,Functional FRE - Adv. Beginner FSL106H5-S-LEC0301,Hong,Rosa,Winter,2019,4.0,4.3,4.4,3.9,3.9,3.9,2.6,3.7,N/A,3.9,24,17
+FSL205Y5,FGI,Functional French-Intermediate FSL205Y5-Y-LEC0201,Hong,Rosa,Winter,2019,4.4,4.6,4.6,4.4,4.4,4.1,2.9,4.1,N/A,4.2,18,14
+LIN332H5,FGI,Syntactic Theory LIN332H5-S-LEC0101,Kahnemuyipour,Arsalan,Winter,2019,3.6,3.6,3.6,3.4,3.6,3.2,3.7,2.8,N/A,3.3,27,11
+ARA412Y5,FGI,Advanced Arabic ARA412Y5-Y-LEC0101,Kandil,Ahmed,Winter,2019,4.5,4.5,4.9,4.6,4.7,4.6,3.0,4.7,N/A,4.4,39,20
+EDS310H5,FGI,Education in a Global Context EDS310H5-S-LEC0101,Kandil,Ahmed,Winter,2019,4.3,4.4,4.6,4.3,4.3,4.3,2.8,4.4,N/A,4.3,36,18
+FRE383H5,FGI,Advanced Lang Practice: Oral FRE383H5-S-LEC0101,Lebrec,Caroline,Winter,2019,2.9,3.0,3.5,3.2,3.4,3.0,2.5,3.1,N/A,2.9,57,31
+FRE280Y5,FGI,Language Practice: Written FRE280Y5-Y-LEC0101,Lebrec,Caroline,Winter,2019,3.2,3.6,3.5,3.4,3.6,3.0,3.4,3.1,N/A,3.1,60,30
+ITA313H5,FGI,Q.T. Spaghetti Western Effect ITA313H5-S-LEC0101,Lettieri,Marcogildo,Winter,2019,4.6,4.7,5.0,4.8,4.9,4.8,2.8,4.7,N/A,4.4,39,27
 ITA100Y5,FGI,Italian for Beginners ITA100Y5-Y-LEC0101,Lobalsamo,Teresa,Winter,2019,4.3,4.7,4.7,4.7,4.6,4.5,2.6,4.5,N/A,3.9,40,16
 ITA100Y5,FGI,Italian for Beginners ITA100Y5-Y-LEC0103,Lobalsamo,Teresa,Winter,2019,4.4,4.5,4.7,4.5,4.5,4.6,2.7,4.6,N/A,4.5,39,18
-ITA315Y5,FGI,Italian Theatre & Performance ITA315Y5-Y-LEC0101,Lobalsamo,Teresa,Winter,2019,4,4.2,3.2,3.7,3.9,3.3,4.5,2.8,N/A,2.7,14,10
-FRE225Y5,FGI,Teach & Learn Sec/Foreign Lang FRE225Y5-Y-LEC0101,Lory,Marie-Paule,Winter,2019,3.6,3.9,4.1,4.3,4,3.4,2.7,3.8,N/A,3.9,29,10
-FRE352H5,FGI,Teaching French Grammar FRE352H5-S-LEC0101,Lory,Marie-Paule,Winter,2019,2.7,2.6,3.6,3,2.9,2.9,2.4,2.4,N/A,2.3,25,8
+ITA315Y5,FGI,Italian Theatre & Performance ITA315Y5-Y-LEC0101,Lobalsamo,Teresa,Winter,2019,4.0,4.2,3.2,3.7,3.9,3.3,4.5,2.8,N/A,2.7,14,10
+FRE225Y5,FGI,Teach & Learn Sec/Foreign Lang FRE225Y5-Y-LEC0101,Lory,Marie-Paule,Winter,2019,3.6,3.9,4.1,4.3,4.0,3.4,2.7,3.8,N/A,3.9,29,10
+FRE352H5,FGI,Teaching French Grammar FRE352H5-S-LEC0101,Lory,Marie-Paule,Winter,2019,2.7,2.6,3.6,3.0,2.9,2.9,2.4,2.4,N/A,2.3,25,8
 CHI302H5,FGI,Advanced High Chinese II CHI302H5-S-LEC0101,Ma,Jingsong,Winter,2019,4.3,4.4,4.3,4.3,4.4,4.2,2.9,4.3,N/A,4.1,43,17
-CHI302H5,FGI,Advanced High Chinese II CHI302H5-S-LEC0201,Ma,Jingsong,Winter,2019,4.3,4.1,4.3,4.2,4.1,4,3,4,N/A,3.8,44,22
+CHI302H5,FGI,Advanced High Chinese II CHI302H5-S-LEC0201,Ma,Jingsong,Winter,2019,4.3,4.1,4.3,4.2,4.1,4.0,3.0,4.0,N/A,3.8,44,22
 CHI410H5,FGI,Modern Chinese Literature CHI410H5-S-LEC0101,Ma,Jingsong,Winter,2019,4.6,4.7,4.8,4.7,4.6,4.7,3.1,4.2,N/A,4.6,39,10
 CHI410H5,FGI,Modern Chinese Literature CHI410H5-S-LEC0201,Ma,Jingsong,Winter,2019,4.4,4.5,4.5,4.2,4.4,4.3,3.1,4.1,N/A,3.9,38,12
 FRE482H5,FGI,Creative Writing FRE482H5-S-LEC0101,Michelucci,Pascal,Winter,2019,4.4,4.3,4.5,4.4,4.6,4.1,2.3,4.5,N/A,4.1,16,8
 FRE181H5,FGI,Intro to French Studies II FRE181H5-S-LEC0101,Michelucci,Pascal,Winter,2019,4.4,4.4,4.6,4.2,4.5,4.4,3.1,4.2,N/A,3.8,51,24
-FRE378H5,FGI,French Syntax FRE378H5-S-LEC0101,Munyankesha,Pascal,Winter,2019,2.5,2.3,2.1,2.6,3.1,1.7,3,2,N/A,2.1,23,10
+FRE378H5,FGI,French Syntax FRE378H5-S-LEC0101,Munyankesha,Pascal,Winter,2019,2.5,2.3,2.1,2.6,3.1,1.7,3.0,2.0,N/A,2.1,23,10
 CHI204H5,FGI,Intermediate Chinese II CHI204H5-S-LEC0101,Ni,Ruhui,Winter,2019,4.3,4.6,4.7,4.7,4.6,4.6,3.9,4.4,N/A,4.7,11,9
 FSL305Y5,FGI,Functional French-Hi Intermed FSL305Y5-Y-LEC0101,Phillips,Catherine,Winter,2019,3.2,3.4,3.6,3.7,3.7,2.7,3.4,2.8,N/A,3.2,34,10
-GER200Y5,FGI,Introduct German 11 GER200Y5-Y-LEC0101,Schafer,Suzanne,Winter,2019,5,5,5,5,5,5,3,4.6,N/A,4.8,8,5
+GER200Y5,FGI,Introduct German 11 GER200Y5-Y-LEC0101,Schafer,Suzanne,Winter,2019,5.0,5.0,5.0,5.0,5.0,5.0,3.0,4.6,N/A,4.8,8,5
 GER100Y5,FGI,Introductory German 1 GER100Y5-Y-LEC0101,Schafer,Suzanne,Winter,2019,4.9,4.8,4.9,4.9,4.7,4.7,2.6,4.3,N/A,4.1,27,9
 LIN101H5,FGI,Intro Gen Ling: Sounds of Lang LIN101H5-S-LEC0101,Schertz,Jessamyn,Winter,2019,3.5,3.9,3.8,3.6,3.7,3.4,3.1,3.5,N/A,3.4,439,129
-LIN421H5,FGI,Speaking Hearing with Accent LIN421H5-S-PRA0101,Schertz,Jessamyn,Winter,2019,3.8,4.2,4.2,3.8,4.2,4,3.5,3.8,N/A,3.7,19,6
+LIN421H5,FGI,Speaking Hearing with Accent LIN421H5-S-PRA0101,Schertz,Jessamyn,Winter,2019,3.8,4.2,4.2,3.8,4.2,4.0,3.5,3.8,N/A,3.7,19,6
 ITA200Y5,FGI,Continuing Italian ITA200Y5-Y-LEC0101,Selepiuc,Tatiana,Winter,2019,4.8,4.8,4.9,4.6,4.9,4.8,2.7,4.9,N/A,4.7,21,20
-ITA232H5,FGI,Ital Lit Through the Ages II ITA232H5-S-LEC0101,Selepiuc,Tatiana,Winter,2019,4.3,4.8,5,4.6,4.8,4.8,2.9,4.7,N/A,4.4,19,16
-LIN410H5,FGI,Crit Read and Wri in Eng Lin LIN410H5-S-LEC0101,Troberg,Michelle,Winter,2019,4.1,4.3,4.6,4.5,4.6,4,3.4,3.7,N/A,4.4,30,7
-LIN369H5,FGI,Romance Linguistics LIN369H5-S-LEC0101,Troberg,Michelle,Winter,2019,3.8,4,3.9,3.6,3.4,3.8,3.8,3.7,N/A,3.7,34,10
+ITA232H5,FGI,Ital Lit Through the Ages II ITA232H5-S-LEC0101,Selepiuc,Tatiana,Winter,2019,4.3,4.8,5.0,4.6,4.8,4.8,2.9,4.7,N/A,4.4,19,16
+LIN410H5,FGI,Crit Read and Wri in Eng Lin LIN410H5-S-LEC0101,Troberg,Michelle,Winter,2019,4.1,4.3,4.6,4.5,4.6,4.0,3.4,3.7,N/A,4.4,30,7
+LIN369H5,FGI,Romance Linguistics LIN369H5-S-LEC0101,Troberg,Michelle,Winter,2019,3.8,4.0,3.9,3.6,3.4,3.8,3.8,3.7,N/A,3.7,34,10
 ITA272H5,FGI,Introduction to Italian Lin ITA272H5-F-LEC0101,Abdel Tawwab,Samia,Fall,2018,4,4.4,4.9,4.6,4.7,4.3,3.5,3.8,N/A,3.7,12,10
 LIN340H5,FGI,Language and Computers LIN340H5-F-LEC0101,Beekhuizen,Barend,Fall,2018,4.2,3.8,4.2,3.2,3.5,3.3,3.7,2.8,N/A,3.4,27,13
 LIN418H5,FGI,Research Methods in Ling LIN418H5-F-LEC0101,Bello,Sophia,Fall,2018,3.3,3.5,4.1,4,4.3,3.7,3.3,3.7,N/A,3.1,18,11

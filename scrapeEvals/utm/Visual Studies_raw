@@ -1,21 +1,32 @@
-Code,Dept,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Course Workload,I would recommend this course,I attended class,Inspired to learn subject matter,Number Invited,Number of Survey Responses
-CIN101H5,UMVIS,An Intro to Cinema Studies CIN101H5-F-LEC0101,Price,Brian,Fall,2019,2.9,3.4,2.9,3.3,3.4,2.9,2.6,3.0,N/A,2.9,261,76
+Code,Dept,Course,Last_Name,First_Name,Term,Year,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Course_Workload,I_would_recommend_this_course,I_attended_class,Inspired_to_learn_subject_matter,Number_Invited,Number_of_Survey_Responses
+CIN101H5,UMVIS,An Intro to Cinema Studies CIN101H5-F-LEC0101,Price,Brian,Fall,2019,2.9,3.4,2.9,3.3,3.4,2.9,2.6,3,N/A,2.9,261,76
 CIN302H5,UMVIS,Topics in Cinema Studies CIN302H5-F-LEC0101,Stoddard,Matthew,Fall,2019,3.4,3.6,3.6,3.6,4.1,3.2,3.2,2.8,N/A,2.9,55,17
 FAH101H5,UMVIS,Introduction to Art History FAH101H5-F-LEC0101,Levy,Evonne,Fall,2019,3.3,3.7,3.1,2.9,3.1,2.8,3.8,2.6,N/A,3.1,150,47
 FAH282H5,UMVIS,Garden Home Palace Muslim Wrld FAH282H5-F-LEC0101,Kana'an,Ruba,Fall,2019,3.9,4.1,4.1,3.8,3.7,3.5,3.1,3.8,N/A,3.6,62,16
-FAH291H5,UMVIS,History of Photography FAH291H5-F-LEC0101,Reddy,Meredith,Fall,2019,3.7,4.1,4.2,3.8,4.1,4.0,3.0,4.0,N/A,3.9,45,10
-FAH310H5,UMVIS,Curating Matters FAH310H5-F-LEC0101,Walker,Ellyn,Fall,2019,4.0,4.2,4.1,4.1,4.2,3.9,2.8,4.0,N/A,4.2,39,18
+FAH291H5,UMVIS,History of Photography FAH291H5-F-LEC0101,Reddy,Meredith,Fall,2019,3.7,4.1,4.2,3.8,4.1,4,3,4,N/A,3.9,45,10
+FAH310H5,UMVIS,Curating Matters FAH310H5-F-LEC0101,Walker,Ellyn,Fall,2019,4,4.2,4.1,4.1,4.2,3.9,2.8,4,N/A,4.2,39,18
 FAH356H5,UMVIS,Colonial Latin Amer Art & Arch FAH356H5-F-LEC0101,Levy,Evonne,Fall,2019,4.1,4.5,3.7,3.7,4.1,3.5,3.6,3.6,N/A,3.7,28,18
 FAH395H5,UMVIS,Topics in Islamic Art Arch. FAH395H5-F-LEC0101,Kana'an,Ruba,Fall,2019,3.4,3.6,3.6,3.3,3.6,3.1,3.3,2.9,N/A,3.6,33,18
 VCC236H5,UMVIS,Nrth Amer Consmr 1890 Pres VCC236H5-F-LEC0101,Guadagnolo,Daniel,Fall,2019,4.6,4.8,4.9,4.7,4.6,4.7,3.1,4.7,N/A,4.5,42,15
-VCC308H5,UMVIS,Act in Visual & Media Culture VCC308H5-F-LEC0101,Drosos,Nikolas,Fall,2019,3.4,3.6,3.8,3.6,3.8,3.6,3.0,3.4,N/A,3.2,46,9
-VCC290H5,UMVIS,Top in Visual Culture & Com VCC290H5-S-LEC0101,Logan,Steven,Winter,2019,4.2,4.3,4.2,3.8,4.1,3.5,3.2,3.7,N/A,4,34,22
-CIN206H5,UMVIS,Auteurs CIN206H5-S-LEC0101,McDonald,Terrance,Winter,2019,4.1,4.2,4.2,3.8,3.9,3.8,3,4,N/A,3.6,67,31
+VCC308H5,UMVIS,Act in Visual & Media Culture VCC308H5-F-LEC0101,Drosos,Nikolas,Fall,2019,3.4,3.6,3.8,3.6,3.8,3.6,3,3.4,N/A,3.2,46,9
+FAH205H5,UMVIS,Art in Antiquity FAH205H5-F-LEC0101,Trentin,Lisa,Summer,2019,4.6,4.4,3.9,4.1,4.0,3.9,3.6,3.7,N/A,4.0,30,8
+FAH274H5,UMVIS,Renaissance Art & Architecture FAH274H5-F-LEC0101,Iarocci,Bernice,Summer,2019,3.9,4.4,4.8,3.9,3.9,4.1,3.0,4.1,N/A,4.3,58,14
+CIN301H5,UMVIS,Topics in Cinema Studies CIN301H5-F-LEC0101,McDonald,Terrance,Summer,2019,3.8,4.2,4.3,3.8,4.1,3.8,3.1,3.6,N/A,3.5,27,12
+VCC390H5,UMVIS,Topics in Visual Culture VCC390H5-F-LEC0101,Anderson,Jocelyn,Summer,2019,4.6,4.9,4.5,4.6,4.5,4.4,3.1,4.6,N/A,4.3,14,8
+VCC306H5,UMVIS,Visual Culture and Colonialism VCC306H5-S-LEC0101,Anderson,Jocelyn,Winter,2019,3.5,3.8,3.5,4.1,3.8,3.2,3.8,3.1,N/A,3.1,36,12
+FAH216H5,UMVIS,Later Medieval Art and Arch FAH216H5-S-LEC0101,Caskey,Jill,Winter,2019,4.1,4.4,4.3,4.0,4.1,3.9,3.1,3.6,N/A,3.7,107,33
+FAH395H5,UMVIS,Topics in Islamic Art Arch. FAH395H5-S-LEC0101,Kana'an,Ruba,Winter,2019,4.6,4.7,4.7,4.4,4.5,4.6,3.1,4.7,N/A,4.3,34,15
+FAH390H5,UMVIS,Topics in Modern Art Archit. FAH390H5-S-LEC0101,Kana'an,Ruba,Winter,2019,4.2,4.1,4.2,4.1,4.1,3.7,3.3,3.7,N/A,3.9,32,18
+CIN401H5,UMVIS,Topics in Cinema Studies CIN401H5-S-LEC0101,Kennedy,Christopher,Winter,2019,4.6,4.8,4.8,4.4,4.8,4.6,2.2,4.2,N/A,4.6,19,5
+FAH392H5,UMVIS,Top in Modern Art/Architecture FAH392H5-S-LEC0101,Kulick,Rachel,Winter,2019,4.3,4.5,4.6,4.5,4.5,4.3,3.1,4.0,N/A,3.9,28,8
+FAH472H5,UMVIS,Early Modern Mobile Objects FAH472H5-S-LEC0101,Levy,Evonne,Winter,2019,4.3,4.3,4.2,3.8,4.0,4.3,3.7,3.8,N/A,3.7,16,6
+VCC290H5,UMVIS,Top in Visual Culture & Com VCC290H5-S-LEC0101,Logan,Steven,Winter,2019,4.2,4.3,4.2,3.8,4.1,3.5,3.2,3.7,N/A,4.0,34,22
+CIN206H5,UMVIS,Auteurs CIN206H5-S-LEC0101,McDonald,Terrance,Winter,2019,4.1,4.2,4.2,3.8,3.9,3.8,3.0,4.0,N/A,3.6,67,31
 CIN302H5,UMVIS,Topics in Cinema Studies CIN302H5-S-LEC0101,Nagypal,Tamas,Winter,2019,3.7,3.7,3.9,3.6,3.8,3.4,2.9,3.4,N/A,3.7,27,19
-VCC101H5,UMVIS,Introduction to Visual Culture VCC101H5-S-LEC0101,Parke,Elizabeth,Winter,2019,3.1,3.3,3.5,3.4,3.5,3,3.5,2.7,N/A,2.8,255,122
+VCC101H5,UMVIS,Introduction to Visual Culture VCC101H5-S-LEC0101,Parke,Elizabeth,Winter,2019,3.1,3.3,3.5,3.4,3.5,3.0,3.5,2.7,N/A,2.8,255,122
 CIN400H5,UMVIS,Topics in Cinema Studies CIN400H5-S-LEC0101,Price,Brian,Winter,2019,3.9,3.9,3.9,3.9,3.7,3.9,3.3,3.6,N/A,3.7,20,8
-VST410H5,UMVIS,Internship in Visual Studies VST410H5-S-LEC0101,Sonne de Torrens,Harriet,Winter,2019,4,4.5,4.7,4,4.3,4.3,3.5,4.5,N/A,4.6,9,6
-VCC390H5,UMVIS,Topics in Visual Culture VCC390H5-S-LEC0101,Stoddard,Matthew,Winter,2019,3.4,3.7,3.4,3.8,4,3.4,3.1,3.2,N/A,3,38,9
+VST410H5,UMVIS,Internship in Visual Studies VST410H5-S-LEC0101,Sonne de Torrens,Harriet,Winter,2019,4.0,4.5,4.7,4.0,4.3,4.3,3.5,4.5,N/A,4.6,9,6
+VCC390H5,UMVIS,Topics in Visual Culture VCC390H5-S-LEC0101,Stoddard,Matthew,Winter,2019,3.4,3.7,3.4,3.8,4.0,3.4,3.1,3.2,N/A,3.0,38,9
 VCC304H5,UMVIS,VCC & Politics of Identity VCC304H5-S-LEC0101,Tomic,Milena,Winter,2019,4.5,4.4,4.5,4.5,4.6,4.3,3.2,4.3,N/A,4.2,33,16
 FAH392H5,UMVIS,Top in Modern Art/Architecture FAH392H5-F-LEC0101,Bissett,Tara,Fall,2018,4.2,4.4,4.4,4.5,4.6,4.4,3,4.5,N/A,4.4,30,13
 VCC236H5,UMVIS,Nrth Amer Consmr 1890 Pres VCC236H5-F-LEC0101,Guadagnolo,Daniel,Fall,2018,4.5,4.4,4.7,4.2,4.2,4.3,3.1,4.2,N/A,4.3,22,16

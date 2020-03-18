@@ -1,80 +1,121 @@
-Code,Dept,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Course Workload,I would recommend this course,I attended class,Inspired to learn subject matter,Number Invited,Number of Survey Responses
+Code,Dept,Course,Last_Name,First_Name,Term,Year,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Course_Workload,I_would_recommend_this_course,I_attended_class,Inspired_to_learn_subject_matter,Number_Invited,Number_of_Survey_Responses
 MGM301H5,UMMGT,Analysis for Decision & Con MGM301H5-F-LEC0101,Chen,Ningyuan,Fall,2019,3.3,3.4,3.5,3.6,3.7,3.1,2.8,2.7,N/A,2.6,49,23
 MGM332H5,UMMGT,Managerial Finance MGM332H5-F-LEC0101,Tome,Jason,Fall,2019,3.8,4.1,4.3,4.1,3.9,3.9,3.2,3.3,N/A,3.3,42,19
 MGM360H5,UMMGT,Compensation MGM360H5-F-LEC0101,Radhakrishnan,Phanikiran,Fall,2019,1.7,2.7,2.9,2.4,2.3,1.9,3.1,1.7,N/A,1.6,16,7
-MGM464H5,UMMGT,Recruitment & Selection MGM464H5-F-LEC0101,Chiuzi,Rafael,Fall,2019,3.1,3.6,3.6,3.0,3.0,3.0,3.1,2.9,N/A,3.0,18,8
-MGM466H5,UMMGT,Training & Development MGM466H5-F-LEC0101,Radhakrishnan,Phanikiran,Fall,2019,1.8,2.0,2.5,1.8,1.9,2.1,2.9,2.2,N/A,2.4,19,11
-MGT130H5,UMMGT,Intro to Personal Finance MGT130H5-F-LEC0101,Huynh,Mitchell,Fall,2019,4.1,4.4,4.4,4.1,4.2,4.1,2.1,4.5,N/A,4.0,70,35
+MGM464H5,UMMGT,Recruitment & Selection MGM464H5-F-LEC0101,Chiuzi,Rafael,Fall,2019,3.1,3.6,3.6,3,3,3,3.1,2.9,N/A,3,18,8
+MGM466H5,UMMGT,Training & Development MGM466H5-F-LEC0101,Radhakrishnan,Phanikiran,Fall,2019,1.8,2,2.5,1.8,1.9,2.1,2.9,2.2,N/A,2.4,19,11
+MGT130H5,UMMGT,Intro to Personal Finance MGT130H5-F-LEC0101,Huynh,Mitchell,Fall,2019,4.1,4.4,4.4,4.1,4.2,4.1,2.1,4.5,N/A,4,70,35
 MGT130H5,UMMGT,Intro to Personal Finance MGT130H5-F-LEC0102,Martin,Tony,Fall,2019,2.6,2.5,2.1,2.1,2.2,1.7,2.4,2.3,N/A,2.4,67,25
 MGT201H5,UMMGT,Coding for Business MGT201H5-F-LEC0101,Yung,Otto,Fall,2019,3.7,3.6,3.8,3.4,3.3,3.3,3.6,3.2,N/A,3.3,34,19
-MGT223H5,UMMGT,Management Acctg 1 MGT223H5-F-LEC0101,Ye,Minlei,Fall,2019,3.5,4.0,4.2,4.3,4.2,3.7,3.0,3.7,N/A,3.3,72,60
+MGT223H5,UMMGT,Management Acctg 1 MGT223H5-F-LEC0101,Ye,Minlei,Fall,2019,3.5,4,4.2,4.3,4.2,3.7,3,3.7,N/A,3.3,72,60
 MGT223H5,UMMGT,Management Acctg 1 MGT223H5-F-LEC0102,Ye,Minlei,Fall,2019,3.7,4.1,4.1,4.1,4.1,3.7,2.9,3.5,N/A,3.5,75,65
-MGT224H5,UMMGT,Fin Acct Theo Pol 1 MGT224H5-F-LEC0101,Thomas,Peter,Fall,2019,3.8,4.3,3.0,3.2,3.3,2.5,4.2,2.3,N/A,2.7,17,6
+MGT224H5,UMMGT,Fin Acct Theo Pol 1 MGT224H5-F-LEC0101,Thomas,Peter,Fall,2019,3.8,4.3,3,3.2,3.3,2.5,4.2,2.3,N/A,2.7,17,6
 MGT252H5,UMMGT,Prin of Marketing MGT252H5-F-LEC0101,Parhar,Jasvir,Fall,2019,3.5,3.6,3.6,3.8,3.9,3.5,2.8,3.6,N/A,3.4,50,11
 MGT252H5,UMMGT,Prin of Marketing MGT252H5-F-LEC0102,Parhar,Jasvir,Fall,2019,3.8,3.9,4.2,4.1,3.8,3.6,2.7,4.1,N/A,3.7,54,17
-MGT252H5,UMMGT,Prin of Marketing MGT252H5-F-LEC0103,Goetz,Daniel,Fall,2019,4.2,4.4,4.5,4.2,4.3,4.2,2.9,4.0,N/A,3.7,54,30
-MGT260H5,UMMGT,Managing Human Potential MGT260H5-F-LEC0101,Chiuzi,Rafael,Fall,2019,3.4,4.0,4.6,3.1,3.1,3.2,3.3,3.3,N/A,3.1,48,18
+MGT252H5,UMMGT,Prin of Marketing MGT252H5-F-LEC0103,Goetz,Daniel,Fall,2019,4.2,4.4,4.5,4.2,4.3,4.2,2.9,4,N/A,3.7,54,30
+MGT260H5,UMMGT,Managing Human Potential MGT260H5-F-LEC0101,Chiuzi,Rafael,Fall,2019,3.4,4,4.6,3.1,3.1,3.2,3.3,3.3,N/A,3.1,48,18
 MGT262H5,UMMGT,Psychology at Work MGT262H5-F-LEC0101,Chiuzi,Rafael,Fall,2019,3.8,3.9,4.4,3.7,3.5,3.7,3.3,3.5,N/A,3.4,56,24
-MGT262H5,UMMGT,Psychology at Work MGT262H5-F-LEC0102,Chiuzi,Rafael,Fall,2019,4.3,4.3,4.7,4.3,4.1,4.4,3.0,3.7,N/A,4.1,29,7
-MGT322H5,UMMGT,Fin Acct Theo Pol 11 MGT322H5-F-LEC0101,Chen,Feng,Fall,2019,3.6,3.8,4.0,4.0,4.0,3.6,3.6,4.0,N/A,3.8,16,5
+MGT262H5,UMMGT,Psychology at Work MGT262H5-F-LEC0102,Chiuzi,Rafael,Fall,2019,4.3,4.3,4.7,4.3,4.1,4.4,3,3.7,N/A,4.1,29,7
+MGT322H5,UMMGT,Fin Acct Theo Pol 11 MGT322H5-F-LEC0101,Chen,Feng,Fall,2019,3.6,3.8,4,4,4,3.6,3.6,4,N/A,3.8,16,5
 MGT322H5,UMMGT,Fin Acct Theo Pol 11 MGT322H5-F-LEC0102,Chen,Feng,Fall,2019,3.6,3.6,3.6,3.7,3.8,3.3,3.4,3.1,N/A,3.6,51,19
-MGT339H5,UMMGT,Business Finance II MGT339H5-F-LEC0101,Yung,Otto,Fall,2019,4.1,4.0,4.4,4.2,4.1,3.9,3.2,3.7,N/A,3.4,59,24
-MGT353H5,UMMGT,Intro to Market Mgmt MGT353H5-F-LEC0101,Parhar,Jasvir,Fall,2019,4.1,4.0,4.1,4.0,4.1,3.8,3.1,3.7,N/A,3.8,52,19
-MGT355H5,UMMGT,Pricing MGT355H5-F-LEC0101,Meth,Robert,Fall,2019,4.6,4.6,5.0,4.7,4.6,4.8,2.5,4.8,N/A,4.5,46,25
-MGT363H5,UMMGT,Designing Eff Organizations MGT363H5-F-LEC0101,Notenboom,Anthony,Fall,2019,3.8,4.2,4.4,4.0,3.9,3.8,3.1,3.4,N/A,3.1,46,27
+MGT339H5,UMMGT,Business Finance II MGT339H5-F-LEC0101,Yung,Otto,Fall,2019,4.1,4,4.4,4.2,4.1,3.9,3.2,3.7,N/A,3.4,59,24
+MGT353H5,UMMGT,Intro to Market Mgmt MGT353H5-F-LEC0101,Parhar,Jasvir,Fall,2019,4.1,4,4.1,4,4.1,3.8,3.1,3.7,N/A,3.8,52,19
+MGT355H5,UMMGT,Pricing MGT355H5-F-LEC0101,Meth,Robert,Fall,2019,4.6,4.6,5,4.7,4.6,4.8,2.5,4.8,N/A,4.5,46,25
+MGT363H5,UMMGT,Designing Eff Organizations MGT363H5-F-LEC0101,Notenboom,Anthony,Fall,2019,3.8,4.2,4.4,4,3.9,3.8,3.1,3.4,N/A,3.1,46,27
 MGT371H5,UMMGT,Intro Bus Info Systm MGT371H5-F-LEC0101,Yung,Otto,Fall,2019,3.5,3.5,4.2,3.6,3.7,3.5,3.6,3.3,N/A,3.5,54,22
-MGT411H5,UMMGT,Special Topics in Management MGT411H5-F-LEC0101,Vyas,Dushyantkumar,Fall,2019,4.8,4.8,4.8,4.7,4.8,4.8,3.0,4.7,N/A,4.8,11,6
-MGT421H5,UMMGT,Advanced Audit & Assurance MGT421H5-F-LEC0101,Thomas,Peter,Fall,2019,4.1,4.1,3.7,4.1,4.3,3.9,3.6,3.6,N/A,4.0,22,7
-MGT421H5,UMMGT,Advanced Audit & Assurance MGT421H5-F-LEC0102,Thomas,Peter,Fall,2019,4.3,4.4,4.0,4.3,4.2,3.8,3.7,3.5,N/A,4.0,50,19
+MGT411H5,UMMGT,Special Topics in Management MGT411H5-F-LEC0101,Vyas,Dushyantkumar,Fall,2019,4.8,4.8,4.8,4.7,4.8,4.8,3,4.7,N/A,4.8,11,6
+MGT421H5,UMMGT,Advanced Audit & Assurance MGT421H5-F-LEC0101,Thomas,Peter,Fall,2019,4.1,4.1,3.7,4.1,4.3,3.9,3.6,3.6,N/A,4,22,7
+MGT421H5,UMMGT,Advanced Audit & Assurance MGT421H5-F-LEC0102,Thomas,Peter,Fall,2019,4.3,4.4,4,4.3,4.2,3.8,3.7,3.5,N/A,4,50,19
 MGT422H5,UMMGT,Info Sys&Tech  & IT Assurance MGT422H5-F-LEC0101,Khan,Michael,Fall,2019,3.9,4.2,4.6,4.4,4.4,4.1,3.1,3.7,N/A,3.6,52,24
-MGT423H5,UMMGT,Can Income Tax 1 MGT423H5-F-LEC0101,Iqbal,Abraham,Fall,2019,4.4,4.6,4.8,4.6,4.6,4.4,3.3,4.2,N/A,4.0,32,25
+MGT423H5,UMMGT,Can Income Tax 1 MGT423H5-F-LEC0101,Iqbal,Abraham,Fall,2019,4.4,4.6,4.8,4.6,4.6,4.4,3.3,4.2,N/A,4,32,25
 MGT423H5,UMMGT,Can Income Tax 1 MGT423H5-F-LEC0102,Iqbal,Abraham,Fall,2019,4.5,4.7,4.8,4.7,4.7,4.5,3.3,4.7,N/A,4.5,42,29
 MGT423H5,UMMGT,Can Income Tax 1 MGT423H5-F-LEC0103,Iqbal,Abraham,Fall,2019,4.3,4.8,4.6,4.3,4.3,4.3,3.5,4.5,N/A,4.5,20,12
-MGT426H5,UMMGT,Advanced Accounting MGT426H5-F-LEC0101,Schumann,Eckhard,Fall,2019,4.0,4.3,4.0,4.4,4.4,3.8,3.8,3.5,N/A,3.6,45,23
+MGT426H5,UMMGT,Advanced Accounting MGT426H5-F-LEC0101,Schumann,Eckhard,Fall,2019,4,4.3,4,4.4,4.4,3.8,3.8,3.5,N/A,3.6,45,23
 MGT428H5,UMMGT,Management Control MGT428H5-F-LEC0101,Schumann,Eckhard,Fall,2019,4.3,4.4,4.6,4.6,4.5,4.3,3.1,4.1,N/A,3.7,27,14
-MGT428H5,UMMGT,Management Control MGT428H5-F-LEC0102,Schumann,Eckhard,Fall,2019,3.6,3.6,3.9,4.2,4.0,3.6,3.4,3.4,N/A,3.3,42,16
+MGT428H5,UMMGT,Management Control MGT428H5-F-LEC0102,Schumann,Eckhard,Fall,2019,3.6,3.6,3.9,4.2,4,3.6,3.4,3.4,N/A,3.3,42,16
 MGT434H5,UMMGT,Mergers and Acquisitions MGT434H5-F-LEC0101,Tombak,Mihkel,Fall,2019,3.8,3.7,3.5,3.3,3.4,3.2,3.8,3.3,N/A,3.7,36,20
 MGT434H5,UMMGT,Mergers and Acquisitions MGT434H5-F-LEC0101,Yung,Otto,Fall,2019,3.8,3.7,4.1,3.3,3.4,3.2,3.8,3.3,N/A,3.7,36,20
-MGT437H5,UMMGT,Strategy and Governance MGT437H5-F-LEC0101,Caoui,El,Fall,2019,4.6,4.7,4.8,4.7,4.7,4.7,3.0,4.5,N/A,4.4,16,12
-MGT437H5,UMMGT,Strategy and Governance MGT437H5-F-LEC0102,Caoui,El,Fall,2019,4.3,4.5,4.6,4.4,4.6,4.3,3.0,4.3,N/A,4.1,29,19
+MGT437H5,UMMGT,Strategy and Governance MGT437H5-F-LEC0101,Caoui,El,Fall,2019,4.6,4.7,4.8,4.7,4.7,4.7,3,4.5,N/A,4.4,16,12
+MGT437H5,UMMGT,Strategy and Governance MGT437H5-F-LEC0102,Caoui,El,Fall,2019,4.3,4.5,4.6,4.4,4.6,4.3,3,4.3,N/A,4.1,29,19
 MGT438H5,UMMGT,Futures&Options Markets MGT438H5-F-LEC0101,Yung,Otto,Fall,2019,4.7,4.9,4.5,4.5,4.5,4.3,4.3,4.2,N/A,4.4,32,13
-MGT440H5,UMMGT,Fixed Income Markets MGT440H5-F-LEC0101,Yung,Otto,Fall,2019,3.7,4.0,3.9,3.6,3.5,3.4,3.9,3.4,N/A,3.6,38,22
+MGT440H5,UMMGT,Fixed Income Markets MGT440H5-F-LEC0101,Yung,Otto,Fall,2019,3.7,4,3.9,3.6,3.5,3.4,3.9,3.4,N/A,3.6,38,22
 MGT441H5,UMMGT,Financial Modeling MGT441H5-F-PRA0101,Yung,Otto,Fall,2019,4.4,4.7,4.7,4.7,4.7,4.1,4.1,4.1,N/A,4.4,19,7
 MGT455H5,UMMGT,Marketing Consulting MGT455H5-F-PRA0101,Osborne,Matthew,Fall,2019,4.5,4.7,4.7,4.6,4.6,4.5,3.4,4.4,N/A,4.2,18,13
 MGT458H5,UMMGT,Big Data & Marketing Analysis MGT458H5-F-PRA0101,Yung,Otto,Fall,2019,3.9,3.3,3.9,3.4,3.4,3.4,4.1,3.1,N/A,3.7,20,12
-MGT463H5,UMMGT,Org Behav in a Global Context MGT463H5-F-LEC0101,Chiuzi,Rafael,Fall,2019,3.8,4.1,4.0,3.4,3.6,3.6,2.7,3.9,N/A,3.6,28,11
+MGT463H5,UMMGT,Org Behav in a Global Context MGT463H5-F-LEC0101,Chiuzi,Rafael,Fall,2019,3.8,4.1,4,3.4,3.6,3.6,2.7,3.9,N/A,3.6,28,11
 MGT491H5,UMMGT,Intro Internat Bus MGT491H5-F-LEC0101,Yousie,Kevin,Fall,2019,4.3,4.4,4.5,4.3,4.3,4.2,2.9,4.2,N/A,4.1,50,34
-MGT426H5,UMMGT,Advanced Accounting MGT426H5-S-LEC0101,McDonald,Julie,Winter,2019,3.9,3.9,3.8,3.4,3.5,3.2,4.2,2.8,N/A,3,31,27
+MGT339H5,UMMGT,Business Finance II MGT339H5-S-LEC0101,Yung,Otto,Summer,2019,4.1,4.2,4.4,3.9,3.9,3.9,3.4,3.7,N/A,3.8,66,35
+MGM102H5,UMMGT,Mgmt in Changing Envir MGM102H5-S-LEC0101,Mayadunne,Anthony,Summer,2019,4.0,4.1,4.5,3.6,3.8,3.9,3.3,3.6,N/A,4.0,100,56
+MGT338H5,UMMGT,Business Finance I MGT338H5-F-LEC0101,Yung,Otto,Summer,2019,4.0,4.2,4.2,3.9,3.9,3.7,3.3,3.9,N/A,3.8,63,46
+MGT322H5,UMMGT,Fin Acct Theo Pol 11 MGT322H5-F-LEC0101,Chen,Feng,Summer,2019,4.1,4.2,4.4,4.2,4.1,3.9,3.2,3.8,N/A,3.8,27,11
+MGT120H5,UMMGT,Financial Acctg 1 MGT120H5-F-LEC0101,Seguin,Catherine,Summer,2019,3.9,4.2,4.1,4.1,4.3,3.9,3.2,3.8,N/A,4.1,107,23
+MGT220H5,UMMGT,Financial Acctg 11 MGT220H5-F-LEC0101,Chen,Feng,Summer,2019,3.3,3.6,3.5,3.8,3.7,2.9,3.5,3.2,N/A,2.9,21,12
+MGM101H5,UMMGT,Intro Mgment Functions MGM101H5-F-LEC0101,Mayadunne,Anthony,Summer,2019,3.6,3.8,4.2,3.5,3.7,3.5,3.3,3.3,N/A,3.5,272,100
+MGT223H5,UMMGT,Management Acctg 1 MGT223H5-F-LEC0101,Falk,Kathy,Summer,2019,3.7,3.9,4.2,4.0,3.7,3.4,3.4,3.6,N/A,3.2,22,9
+MGT431H5,UMMGT,Adv Topics in Corp Fin MGT431H5-S-LEC0101,Aivazian,Varouj,Winter,2019,3.6,3.7,3.9,3.8,3.9,3.8,3.2,3.5,N/A,3.8,43,14
+MGT431H5,UMMGT,Adv Topics in Corp Fin MGT431H5-S-LEC0102,Aivazian,Varouj,Winter,2019,4.2,3.8,4.2,3.3,3.4,3.6,3.2,3.6,N/A,3.7,40,9
+MGT339H5,UMMGT,Business Finance II MGT339H5-S-LEC0101,Akey JR,Patrick,Winter,2019,4.3,4.4,4.5,4.1,4.1,4.3,3.1,3.9,N/A,3.9,29,17
+MGT339H5,UMMGT,Business Finance II MGT339H5-S-LEC0102,Akey JR,Patrick,Winter,2019,4.0,4.2,4.4,4.1,4.0,3.9,3.2,3.7,N/A,3.6,40,26
+MGT323H5,UMMGT,Managerial Acct II MGT323H5-S-LEC0101,Chattopadhyay,Akash,Winter,2019,3.7,3.7,3.8,3.6,3.5,3.6,3.1,3.4,N/A,3.5,28,17
+MGT323H5,UMMGT,Managerial Acct II MGT323H5-S-LEC0102,Chattopadhyay,Akash,Winter,2019,4.0,4.1,4.5,4.0,4.3,3.9,3.3,3.9,N/A,3.4,13,8
+MGT323H5,UMMGT,Managerial Acct II MGT323H5-S-LEC0103,Chattopadhyay,Akash,Winter,2019,3.7,3.5,3.8,3.3,3.7,3.6,3.2,3.3,N/A,3.3,19,12
+MGT480H5,UMMGT,Internship MGT480H5-S-LEC0101,Chiuzi,Rafael,Winter,2019,4.5,4.5,4.6,3.9,4.3,4.4,4.1,4.1,N/A,4.1,29,16
+MGT262H5,UMMGT,Psychology at Work MGT262H5-S-LEC0101,Chiuzi,Rafael,Winter,2019,3.3,3.3,4.0,3.1,3.1,3.0,3.4,3.1,N/A,2.9,53,32
+MGT262H5,UMMGT,Psychology at Work MGT262H5-S-LEC0102,Chiuzi,Rafael,Winter,2019,4.1,4.0,4.2,3.6,3.7,3.6,3.8,3.2,N/A,3.5,50,19
+MGT262H5,UMMGT,Psychology at Work MGT262H5-S-LEC0103,Chiuzi,Rafael,Winter,2019,3.3,3.5,3.7,3.3,3.4,3.1,3.7,3.3,N/A,3.1,46,15
+MGM222H5,UMMGT,Acct Fundamentals 11 MGM222H5-S-LEC0101,Falk,Kathy,Winter,2019,3.5,3.6,3.6,3.9,3.6,3.5,3.5,3.2,N/A,2.8,49,11
+MGT120H5,UMMGT,Financial Acctg 1 MGT120H5-S-LEC0103,Falk,Kathy,Winter,2019,4.1,4.1,4.0,3.9,4.0,3.7,3.4,3.9,N/A,3.6,132,31
+MGT120H5,UMMGT,Financial Acctg 1 MGT120H5-S-LEC0106,Falk,Kathy,Winter,2019,3.9,3.9,4.5,3.7,3.9,3.9,3.1,3.7,N/A,3.5,130,17
+MGT220H5,UMMGT,Financial Acctg 11 MGT220H5-S-LEC0101,Falk,Kathy,Winter,2019,4.1,4.2,4.4,4.1,4.0,4.1,3.7,3.4,N/A,3.6,51,11
+MGT223H5,UMMGT,Management Acctg 1 MGT223H5-S-LEC0102,Falk,Kathy,Winter,2019,3.8,4.4,4.6,4.4,4.3,4.3,3.0,3.9,N/A,3.8,68,18
+MGT354H5,UMMGT,Consumer Behaviour MGT354H5-S-LEC0101,Gevorgyan,Gennadi,Winter,2019,4.1,3.9,4.4,3.9,3.9,3.8,2.9,4.2,N/A,4.2,57,20
+MGT200H5,UMMGT,Presentation Skills Management MGT200H5-S-LEC0101,Gevorgyan,Gennadi,Winter,2019,4.3,4.7,5.0,4.5,4.5,4.5,2.7,4.7,N/A,4.0,20,6
+MGT130H5,UMMGT,Intro to Personal Finance MGT130H5-S-LEC0101,Huynh,Mitchell,Winter,2019,4.2,4.4,4.5,4.1,4.2,4.2,2.4,4.6,N/A,4.0,71,40
+MGT130H5,UMMGT,Intro to Personal Finance MGT130H5-S-LEC0102,Huynh,Mitchell,Winter,2019,3.8,4.3,4.2,3.9,3.9,3.7,2.3,4.2,N/A,4.1,69,37
+MGT423H5,UMMGT,Can Income Tax 1 MGT423H5-S-LEC0101,Iqbal,Abraham,Winter,2019,4.3,4.7,4.5,4.6,4.4,4.4,3.4,4.0,N/A,4.3,18,16
+MGT429H5,UMMGT,Can Income Tax 11 MGT429H5-S-LEC0101,Iqbal,Abraham,Winter,2019,4.6,4.8,4.9,4.5,4.5,4.7,3.1,4.3,N/A,4.2,41,32
+MGT429H5,UMMGT,Can Income Tax 11 MGT429H5-S-LEC0102,Iqbal,Abraham,Winter,2019,4.6,4.6,4.8,4.4,4.5,4.6,3.3,4.2,N/A,4.0,22,18
+MGT429H5,UMMGT,Can Income Tax 11 MGT429H5-S-LEC0103,Iqbal,Abraham,Winter,2019,4.4,4.6,4.8,4.3,4.5,4.4,3.2,3.9,N/A,4.2,55,38
+MGT455H5,UMMGT,Marketing Consulting MGT455H5-S-LEC0101,Khalil,Samah,Winter,2019,2.8,2.7,3.0,2.7,2.9,2.6,4.0,2.8,N/A,3.1,33,15
+MGT339H5,UMMGT,Business Finance II MGT339H5-S-LEC0103,Kirsch,Tanya,Winter,2019,4.1,4.1,4.4,4.1,3.9,3.7,3.3,3.7,N/A,3.7,50,25
+MGT339H5,UMMGT,Business Finance II MGT339H5-S-LEC0104,Kirsch,Tanya,Winter,2019,4.1,4.1,4.1,3.9,3.9,3.8,3.3,3.9,N/A,3.9,56,15
+MGM320H5,UMMGT,Financial Reporting MGM320H5-S-LEC0101,Kirsch,Tanya,Winter,2019,4.4,4.6,4.4,4.7,4.7,4.2,4.1,3.7,N/A,4.4,44,16
+MGT494H5,UMMGT,Entrepreneurial Strategy MGT494H5-S-LEC0101,Lacetera,Nicola,Winter,2019,3.9,3.9,4.4,4.3,4.4,4.1,3.1,4.0,N/A,3.8,26,15
+MGM400H5,UMMGT,Strategic Mangmt Compet Envir MGM400H5-S-LEC0101,Lacetera,Nicola,Winter,2019,4.0,3.9,4.4,4.3,4.2,4.0,3.4,3.7,N/A,4.0,54,24
+MGT453H5,UMMGT,Marketing Research MGT453H5-S-LEC0101,Landry,Peter,Winter,2019,3.4,3.5,3.8,3.4,3.6,3.4,2.8,3.8,N/A,3.5,38,29
+MGT252H5,UMMGT,Prin of Marketing MGT252H5-S-LEC0101,Landry,Peter,Winter,2019,3.8,4.2,4.2,4.1,4.0,3.8,2.8,4.1,N/A,3.5,53,33
+MGT252H5,UMMGT,Prin of Marketing MGT252H5-S-LEC0102,Landry,Peter,Winter,2019,4.2,4.3,4.5,4.2,4.3,4.1,2.9,4.2,N/A,3.8,49,35
+MGT426H5,UMMGT,Advanced Accounting MGT426H5-S-LEC0101,McDonald,Julie,Winter,2019,3.9,3.9,3.8,3.4,3.5,3.2,4.2,2.8,N/A,3.0,31,27
 MGT426H5,UMMGT,Advanced Accounting MGT426H5-S-LEC0102,McDonald,Julie,Winter,2019,3.4,3.7,3.9,3.4,3.4,3.6,3.9,2.8,N/A,3.1,16,14
-MGT363H5,UMMGT,Designing Eff Organizations MGT363H5-S-LEC0101,Notenboom,Anthony,Winter,2019,3.5,4.2,4.4,4.3,4.2,4,3.2,3.7,N/A,3.6,45,18
+MGT363H5,UMMGT,Designing Eff Organizations MGT363H5-S-LEC0101,Notenboom,Anthony,Winter,2019,3.5,4.2,4.4,4.3,4.2,4.0,3.2,3.7,N/A,3.6,45,18
 MGT353H5,UMMGT,Intro to Market Mgmt MGT353H5-S-LEC0101,Parhar,Jasvir,Winter,2019,4.3,4.4,4.6,4.5,4.3,4.2,3.2,4.2,N/A,4.2,55,19
-MGT252H5,UMMGT,Prin of Marketing MGT252H5-S-LEC0201,Parhar,Jasvir,Winter,2019,3,3.4,3.5,3.6,3.5,3.3,2.2,3.3,N/A,3.3,33,10
-MGT428H5,UMMGT,Management Control MGT428H5-S-LEC0101,Anjum,Sanobar,Winter,2019,2.9,2.8,2.9,3,3.3,2.5,4,2.3,N/A,2.6,36,20
+MGT252H5,UMMGT,Prin of Marketing MGT252H5-S-LEC0201,Parhar,Jasvir,Winter,2019,3.0,3.4,3.5,3.6,3.5,3.3,2.2,3.3,N/A,3.3,33,10
+MGT428H5,UMMGT,Management Control MGT428H5-S-LEC0101,Anjum,Sanobar,Winter,2019,2.9,2.8,2.9,3.0,3.3,2.5,4.0,2.3,N/A,2.6,36,20
 MGT120H5,UMMGT,Financial Acctg 1 MGT120H5-S-LEC0101,Seguin,Catherine,Winter,2019,3.6,3.9,3.7,3.6,3.9,3.2,3.4,3.3,N/A,3.4,126,27
-MGT120H5,UMMGT,Financial Acctg 1 MGT120H5-S-LEC0102,Seguin,Catherine,Winter,2019,3.7,4,3.6,3.9,3.9,3.3,3.3,3.4,N/A,3.5,133,30
+MGT120H5,UMMGT,Financial Acctg 1 MGT120H5-S-LEC0102,Seguin,Catherine,Winter,2019,3.7,4.0,3.6,3.9,3.9,3.3,3.3,3.4,N/A,3.5,133,30
 MGT120H5,UMMGT,Financial Acctg 1 MGT120H5-S-LEC0104,Seguin,Catherine,Winter,2019,3.6,3.9,3.9,4.1,3.9,3.5,3.1,3.5,N/A,3.7,136,36
-MGT120H5,UMMGT,Financial Acctg 1 MGT120H5-S-LEC0105,Seguin,Catherine,Winter,2019,4,4.2,4.1,4.1,4.3,3.8,3.1,3.6,N/A,3.6,134,34
-MGT421H5,UMMGT,Advanced Audit & Assurance MGT421H5-S-LEC0101,Thomas,Peter,Winter,2019,4.7,5,5,4.3,4.7,4.7,3.7,4.2,N/A,4.8,10,6
-MGT421H5,UMMGT,Advanced Audit & Assurance MGT421H5-S-LEC0102,Thomas,Peter,Winter,2019,4.3,4.3,4.3,4.3,4.3,4.8,3.5,3.9,N/A,4,21,8
+MGT120H5,UMMGT,Financial Acctg 1 MGT120H5-S-LEC0105,Seguin,Catherine,Winter,2019,4.0,4.2,4.1,4.1,4.3,3.8,3.1,3.6,N/A,3.6,134,34
+MGT421H5,UMMGT,Advanced Audit & Assurance MGT421H5-S-LEC0101,Thomas,Peter,Winter,2019,4.7,5.0,5.0,4.3,4.7,4.7,3.7,4.2,N/A,4.8,10,6
+MGT421H5,UMMGT,Advanced Audit & Assurance MGT421H5-S-LEC0102,Thomas,Peter,Winter,2019,4.3,4.3,4.3,4.3,4.3,4.8,3.5,3.9,N/A,4.0,21,8
 MGT224H5,UMMGT,Fin Acct Theo Pol 1 MGT224H5-S-LEC0101,Thomas,Peter,Winter,2019,4.2,4.1,3.4,3.8,3.7,3.4,4.7,3.1,N/A,3.5,37,18
-MGT224H5,UMMGT,Fin Acct Theo Pol 1 MGT224H5-S-LEC0102,Thomas,Peter,Winter,2019,3.9,4.2,3.5,4.1,3.9,3.5,4.6,3,N/A,3.6,32,13
-MGT322H5,UMMGT,Fin Acct Theo Pol 11 MGT322H5-S-LEC0101,Thomas,Peter,Winter,2019,4.5,4.6,4.5,4.4,4.3,4,4.1,3.8,N/A,4.2,29,12
-MGT437H5,UMMGT,Strategy and Governance MGT437H5-S-LEC0102,Tombak,Mihkel,Winter,2019,4,3.8,4,3.8,3.7,3.7,3.2,4,N/A,3.8,24,6
-MGT433H5,UMMGT,Financial Management MGT433H5-S-LEC0101,Tome,Jason,Winter,2019,3.9,4,4.6,4.4,4.3,3.9,2.9,4.1,N/A,4,39,17
-MGT434H5,UMMGT,Mergers and Acquisitions MGT434H5-S-LEC0101,Tome,Jason,Winter,2019,4.5,4.4,4.7,4.5,4.4,4.2,3,4.4,N/A,4.3,48,17
-MGT434H5,UMMGT,Mergers and Acquisitions MGT434H5-S-LEC0102,Tome,Jason,Winter,2019,4,4.1,4.4,4.3,4.3,4.1,2.9,4.3,N/A,4.1,50,23
+MGT224H5,UMMGT,Fin Acct Theo Pol 1 MGT224H5-S-LEC0102,Thomas,Peter,Winter,2019,3.9,4.2,3.5,4.1,3.9,3.5,4.6,3.0,N/A,3.6,32,13
+MGT322H5,UMMGT,Fin Acct Theo Pol 11 MGT322H5-S-LEC0101,Thomas,Peter,Winter,2019,4.5,4.6,4.5,4.4,4.3,4.0,4.1,3.8,N/A,4.2,29,12
+MGT437H5,UMMGT,Strategy and Governance MGT437H5-S-LEC0102,Tombak,Mihkel,Winter,2019,4.0,3.8,4.0,3.8,3.7,3.7,3.2,4.0,N/A,3.8,24,6
+MGT433H5,UMMGT,Financial Management MGT433H5-S-LEC0101,Tome,Jason,Winter,2019,3.9,4.0,4.6,4.4,4.3,3.9,2.9,4.1,N/A,4.0,39,17
+MGT434H5,UMMGT,Mergers and Acquisitions MGT434H5-S-LEC0101,Tome,Jason,Winter,2019,4.5,4.4,4.7,4.5,4.4,4.2,3.0,4.4,N/A,4.3,48,17
+MGT434H5,UMMGT,Mergers and Acquisitions MGT434H5-S-LEC0102,Tome,Jason,Winter,2019,4.0,4.1,4.4,4.3,4.3,4.1,2.9,4.3,N/A,4.1,50,23
 MGT437H5,UMMGT,Strategy and Governance MGT437H5-S-LEC0101,Tome,Jason,Winter,2019,3.4,3.4,4.3,3.2,3.3,3.4,3.3,3.2,N/A,3.1,39,21
 MGM390H5,UMMGT,Business Law MGM390H5-S-LEC0101,Weir,Jan,Winter,2019,3.8,3.9,3.7,3.5,3.3,3.5,2.8,3.9,N/A,3.4,55,13
-MGT491H5,UMMGT,Intro Internat Bus MGT491H5-S-LEC0101,Yousie,Kevin,Winter,2019,4.3,4.3,4.6,4.3,4.4,4.1,3,4.3,N/A,4,50,37
+MGT491H5,UMMGT,Intro Internat Bus MGT491H5-S-LEC0101,Yousie,Kevin,Winter,2019,4.3,4.3,4.6,4.3,4.4,4.1,3.0,4.3,N/A,4.0,50,37
 MGT338H5,UMMGT,Business Finance I MGT338H5-S-LEC0101,Yung,Otto,Winter,2019,3.7,3.8,4.2,3.7,3.9,3.7,3.2,3.8,N/A,3.4,52,19
 MGM230H5,UMMGT,Finance MGM230H5-S-LEC0101,Yung,Otto,Winter,2019,3.1,3.1,3.2,2.8,3.1,2.9,3.6,2.7,N/A,3.1,57,17
-MGT441H5,UMMGT,Financial Modeling MGT441H5-S-LEC0101,Yung,Otto,Winter,2019,4.5,4.5,4.5,4.2,4.3,4,3.9,4,N/A,4.2,39,17
-MGT438H5,UMMGT,Futures&Options Markets MGT438H5-S-LEC0101,Yung,Otto,Winter,2019,4.6,4.7,4.6,4.6,4.6,4.3,4,4.1,N/A,4.4,28,9
-MGT371H5,UMMGT,Intro Bus Info Systm MGT371H5-S-LEC0101,Yung,Otto,Winter,2019,2.8,3.8,3.4,3.5,3.3,3,3.3,3.3,N/A,3.7,54,6
-MGT493H5,UMMGT,Small Business Mgt MGT493H5-S-LEC0101,Yung,Otto,Winter,2019,2.6,2.4,2.4,2.8,2.8,2.4,4.2,2.2,N/A,2,29,5
+MGT441H5,UMMGT,Financial Modeling MGT441H5-S-LEC0101,Yung,Otto,Winter,2019,4.5,4.5,4.5,4.2,4.3,4.0,3.9,4.0,N/A,4.2,39,17
+MGT438H5,UMMGT,Futures&Options Markets MGT438H5-S-LEC0101,Yung,Otto,Winter,2019,4.6,4.7,4.6,4.6,4.6,4.3,4.0,4.1,N/A,4.4,28,9
+MGT371H5,UMMGT,Intro Bus Info Systm MGT371H5-S-LEC0101,Yung,Otto,Winter,2019,2.8,3.8,3.4,3.5,3.3,3.0,3.3,3.3,N/A,3.7,54,6
+MGT493H5,UMMGT,Small Business Mgt MGT493H5-S-LEC0101,Yung,Otto,Winter,2019,2.6,2.4,2.4,2.8,2.8,2.4,4.2,2.2,N/A,2.0,29,5
 MGT416H5,UMMGT,Sp Top in Management MGT416H5-S-LEC0101,Yung,Otto,Winter,2019,4.4,4.4,4.6,4.3,4.5,4.1,3.2,3.9,N/A,4.1,23,10
 MGT330H5,UMMGT,Investments MGT330H5-S-LEC0101,Zoican,Marius-Andrei,Winter,2019,3.1,2.9,2.8,2.7,2.8,2.6,3.2,2.8,N/A,3.2,43,18
-MGT330H5,UMMGT,Investments MGT330H5-S-LEC0102,Zoican,Marius-Andrei,Winter,2019,2.9,3.1,2.9,3,2.7,2.6,3.3,2.6,N/A,2.9,52,22
+MGT330H5,UMMGT,Investments MGT330H5-S-LEC0102,Zoican,Marius-Andrei,Winter,2019,2.9,3.1,2.9,3.0,2.7,2.6,3.3,2.6,N/A,2.9,52,22
 MGT262H5,UMMGT,Psychology at Work MGT262H5-F-LEC0101,Chiuzi,Rafael,Fall,2018,4.3,4.3,4.7,4,4.2,4.3,3.2,4.2,N/A,4.1,56,31
 MGT463H5,UMMGT,Org Behav in a Global Context MGT463H5-F-LEC0101,Chiuzi,Rafael,Fall,2018,4.5,4.6,4.7,4.3,4.3,4.3,3.5,4.4,N/A,4.3,41,28
 MGT260H5,UMMGT,Managing Human Potential MGT260H5-F-LEC0101,Chiuzi,Rafael,Fall,2018,4.3,4.5,4.8,4,4.1,4.2,3.5,4,N/A,4,54,28

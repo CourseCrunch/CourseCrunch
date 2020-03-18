@@ -1,4 +1,4 @@
-Code,Dept,Division,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Instructor generated enthusiasm,Course Workload,I would recommend this course,Number of Students Invited,Number of Respondents
+Code,Dept,Division,Course,Last_Name,First_Name,Term,Year,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Instructor_generated_enthusiasm,Course_Workload,I_would_recommend_this_course,Number_of_Students_Invited,Number_of_Respondents
 FOR200H1,FOR,ARTSC,Consrv of Canada's For FOR200H1-S-LEC0101,Bieser,Jillian,Summer,2018,3.4,3.5,3.8,2.8,3,3.1,3.6,3.3,2.8,51,20
 FOR200H1,FOR,ARTSC,Consrv of Canada's For FOR200H1-S-LEC0101,Sivarajah,Sivajanani,Summer,2018,3.4,3.5,3.6,2.8,3,3.1,3.7,3.3,2.8,51,20
 FOR201H1,FOR,ARTSC,Consrv Trop'l & Subtrop For FOR201H1-S-LEC0101,Thomas,Sean,Winter,2018,4,4.3,4.5,4.1,4.3,4.2,4.6,3,4.2,169,53

@@ -1,55 +1,72 @@
-Code,Dept,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Course Workload,I would recommend this course,I attended class,Inspired to learn subject matter,Number Invited,Number of Survey Responses
+Code,Dept,Course,Last_Name,First_Name,Term,Year,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Course_Workload,I_would_recommend_this_course,I_attended_class,Inspired_to_learn_subject_matter,Number_Invited,Number_of_Survey_Responses
 DRE121H5,ENGDR,Tradtns of Theatre & Drama DRE121H5-F-LEC0101,Syme,Holger,Fall,2019,4.3,4.6,4.8,3.9,4.1,4.3,2.9,4.2,N/A,4.2,43,20
 DRE344H5,ENGDR,Theatre and Drama I DRE344H5-F-LEC0101,Moosavi,Marjan,Fall,2019,3.4,4.2,3.9,3.9,4.3,3.5,3.4,3.6,N/A,3.9,14,10
 DRE360H5,ENGDR,Development Dramaturgy DRE360H5-F-LEC0101,Gallagher-Ross,Jacob,Fall,2019,3.8,3.8,4.4,3.8,4.1,4.1,2.3,4.3,N/A,4.2,35,19
-DRE370H5,ENGDR,Explor Shakespeare in Perform DRE370H5-F-LEC0101,Syme,Holger,Fall,2019,4.4,4.9,4.8,4.3,4.5,4.4,3.0,4.8,N/A,4.5,17,8
-DRE420H5,ENGDR,Senior Seminar I DRE420H5-F-LEC0101,Revermann,Martin,Fall,2019,4.8,4.8,5.0,4.4,4.8,4.2,4.2,4.0,N/A,4.2,8,5
-ENG100H5,ENGDR,Effective Writing ENG100H5-F-LEC0102,Henderson,Jessica,Fall,2019,3.9,4.2,4.6,4.3,4.1,3.9,3.0,3.9,N/A,3.1,69,24
-ENG101H5,ENGDR,How to Read Critically ENG101H5-F-LEC0101,Henderson,Jessica,Fall,2019,4.0,4.2,4.4,4.1,4.2,3.9,2.9,4.1,N/A,3.6,173,71
-ENG105H5,ENGDR,Intro to World Literatures ENG105H5-F-LEC0101,Raza Kolb,Anjuli,Fall,2019,3.8,3.8,3.6,3.6,3.8,3.0,4.0,3.0,N/A,3.3,51,27
-ENG121H5,ENGDR,Traditions of Theatre & Drama ENG121H5-F-LEC0101,Syme,Holger,Fall,2019,4.3,4.3,4.6,4.0,4.0,4.2,2.9,4.4,N/A,3.9,32,14
+DRE370H5,ENGDR,Explor Shakespeare in Perform DRE370H5-F-LEC0101,Syme,Holger,Fall,2019,4.4,4.9,4.8,4.3,4.5,4.4,3,4.8,N/A,4.5,17,8
+DRE420H5,ENGDR,Senior Seminar I DRE420H5-F-LEC0101,Revermann,Martin,Fall,2019,4.8,4.8,5,4.4,4.8,4.2,4.2,4,N/A,4.2,8,5
+ENG100H5,ENGDR,Effective Writing ENG100H5-F-LEC0102,Henderson,Jessica,Fall,2019,3.9,4.2,4.6,4.3,4.1,3.9,3,3.9,N/A,3.1,69,24
+ENG101H5,ENGDR,How to Read Critically ENG101H5-F-LEC0101,Henderson,Jessica,Fall,2019,4,4.2,4.4,4.1,4.2,3.9,2.9,4.1,N/A,3.6,173,71
+ENG105H5,ENGDR,Intro to World Literatures ENG105H5-F-LEC0101,Raza Kolb,Anjuli,Fall,2019,3.8,3.8,3.6,3.6,3.8,3,4,3,N/A,3.3,51,27
+ENG121H5,ENGDR,Traditions of Theatre & Drama ENG121H5-F-LEC0101,Syme,Holger,Fall,2019,4.3,4.3,4.6,4,4,4.2,2.9,4.4,N/A,3.9,32,14
 ENG236H5,ENGDR,Detective Fiction ENG236H5-F-LEC0101,Janes,Daniela,Fall,2019,4.4,4.7,4.9,4.7,4.6,4.4,3.1,4.4,N/A,4.3,35,18
-ENG238H5,ENGDR,Fantasy Literature ENG238H5-F-LEC0101,Laughlin,Thomas,Fall,2019,4.2,4.2,4.7,4.3,4.1,4.1,2.9,3.8,N/A,4.0,44,24
+ENG238H5,ENGDR,Fantasy Literature ENG238H5-F-LEC0101,Laughlin,Thomas,Fall,2019,4.2,4.2,4.7,4.3,4.1,4.1,2.9,3.8,N/A,4,44,24
 ENG251H5,ENGDR,Intro to American Literature ENG251H5-F-LEC0101,Thomas,Anna,Fall,2019,4.5,4.3,4.6,4.4,4.8,4.3,3.2,4.3,N/A,4.1,30,13
 ENG269H5,ENGDR,Queer Writing ENG269H5-F-LEC0101,Wright,Daniel,Fall,2019,4.4,4.6,4.7,4.4,4.6,4.3,3.3,4.7,N/A,4.9,21,12
-ENG279H5,ENGDR,Video Games ENG279H5-F-LEC0101,O'Flynn,Siobhan,Fall,2019,4.2,4.1,4.5,4.4,4.6,4.2,3.0,4.2,N/A,3.8,64,15
-ENG280H5,ENGDR,Crit Approaches to Literature ENG280H5-F-LEC0101,Laughlin,Thomas,Fall,2019,4.2,4.2,4.6,4.3,4.4,4.0,3.1,3.9,N/A,3.8,88,47
-ENG291H5,ENGDR,Reading for Creative Writing ENG291H5-F-LEC0101,Wood,Brent,Fall,2019,4.0,3.9,3.9,3.8,4.3,3.6,3.4,4.3,N/A,4.3,39,14
+ENG279H5,ENGDR,Video Games ENG279H5-F-LEC0101,O'Flynn,Siobhan,Fall,2019,4.2,4.1,4.5,4.4,4.6,4.2,3,4.2,N/A,3.8,64,15
+ENG280H5,ENGDR,Crit Approaches to Literature ENG280H5-F-LEC0101,Laughlin,Thomas,Fall,2019,4.2,4.2,4.6,4.3,4.4,4,3.1,3.9,N/A,3.8,88,47
+ENG291H5,ENGDR,Reading for Creative Writing ENG291H5-F-LEC0101,Wood,Brent,Fall,2019,4,3.9,3.9,3.8,4.3,3.6,3.4,4.3,N/A,4.3,39,14
 ENG301H5,ENGDR,Making Love in the 16th Cent ENG301H5-F-LEC0101,Espie,Jeff,Fall,2019,4.5,4.7,4.9,4.7,4.5,4.6,3.2,4.4,N/A,4.2,29,13
-ENG307H5,ENGDR,Women Writ. before Jane Austen ENG307H5-F-LEC0101,Raby,Michael,Fall,2019,4.7,4.9,4.8,4.6,4.9,4.6,3.1,4.5,N/A,4.0,44,22
-ENG316H5,ENGDR,Sp Topic in Mod & Contemp Lit ENG316H5-F-LEC0101,Thomas,Anna,Fall,2019,4.8,5.0,4.8,4.7,4.8,4.7,3.4,4.8,N/A,4.4,14,10
+ENG307H5,ENGDR,Women Writ. before Jane Austen ENG307H5-F-LEC0101,Raby,Michael,Fall,2019,4.7,4.9,4.8,4.6,4.9,4.6,3.1,4.5,N/A,4,44,22
+ENG316H5,ENGDR,Sp Topic in Mod & Contemp Lit ENG316H5-F-LEC0101,Thomas,Anna,Fall,2019,4.8,5,4.8,4.7,4.8,4.7,3.4,4.8,N/A,4.4,14,10
 ENG330H5,ENGDR,Medieval Drama ENG330H5-F-LEC0101,Vashisht,Natasha,Fall,2019,3.9,4.3,4.2,3.6,3.8,3.6,2.7,3.9,N/A,3.4,30,26
-ENG352H5,ENGDR,Canadian Drama ENG352H5-F-LEC0101,Janes,Daniela,Fall,2019,4.0,4.0,4.1,4.3,4.2,3.8,3.3,3.8,N/A,3.6,39,14
-ENG360H5,ENGDR,Early American Literature ENG360H5-F-LEC0101,Gniadek,Melissa,Fall,2019,3.8,4.3,4.4,4.0,4.3,4.0,3.4,3.8,N/A,3.2,44,29
+ENG352H5,ENGDR,Canadian Drama ENG352H5-F-LEC0101,Janes,Daniela,Fall,2019,4,4,4.1,4.3,4.2,3.8,3.3,3.8,N/A,3.6,39,14
+ENG360H5,ENGDR,Early American Literature ENG360H5-F-LEC0101,Gniadek,Melissa,Fall,2019,3.8,4.3,4.4,4,4.3,4,3.4,3.8,N/A,3.2,44,29
 ENG366H5,ENGDR,Sp Topic in American Lit ENG366H5-F-LEC0101,Gniadek,Melissa,Fall,2019,4.1,4.2,4.3,4.4,4.5,4.1,3.6,3.7,N/A,3.8,28,20
-ENG374H5,ENGDR,Creative Writing: Prose ENG374H5-F-LEC0101,Wood,Brent,Fall,2019,4.3,3.7,4.1,4.0,4.4,3.7,4.0,3.7,N/A,3.9,16,7
-ENG377H5,ENGDR,Spe. Topic in Creative Writing ENG377H5-F-LEC0101,Bouvier,Geoffrey,Fall,2019,3.3,3.5,3.2,3.5,3.5,2.8,3.7,2.5,N/A,3.0,15,6
-ENG473H5,ENGDR,Modern Contemporary Literature ENG473H5-F-LEC0101,Radovic,Stanka,Fall,2019,4.1,4.0,3.6,4.3,4.0,3.9,3.0,3.9,N/A,3.6,16,8
-ENG326H5,ENGDR,Global Lit. Premodern World ENG326H5-S-LEC0101,Lockhart,Jessica,Winter,2019,5,5,4.9,4.8,4.8,4.8,3.5,4.8,N/A,4.5,15,8
-ENG301H5,ENGDR,Making Love in the 16th Cent ENG301H5-S-LEC0101,Lockhart,Jessica,Winter,2019,4.1,4.5,4.7,4.3,4.4,4.3,3.3,4,N/A,3.6,43,23
+ENG374H5,ENGDR,Creative Writing: Prose ENG374H5-F-LEC0101,Wood,Brent,Fall,2019,4.3,3.7,4.1,4,4.4,3.7,4,3.7,N/A,3.9,16,7
+ENG377H5,ENGDR,Spe. Topic in Creative Writing ENG377H5-F-LEC0101,Bouvier,Geoffrey,Fall,2019,3.3,3.5,3.2,3.5,3.5,2.8,3.7,2.5,N/A,3,15,6
+ENG473H5,ENGDR,Modern Contemporary Literature ENG473H5-F-LEC0101,Radovic,Stanka,Fall,2019,4.1,4,3.6,4.3,4,3.9,3,3.9,N/A,3.6,16,8
+ENG280H5,ENGDR,Crit Approaches to Literature ENG280H5-S-LEC0101,Laughlin,Thomas,Summer,2019,4.3,4.2,4.5,4.4,4.2,4.1,3.3,3.6,N/A,3.4,38,18
+ENG100H5,ENGDR,Effective Writing ENG100H5-S-LEC0101,O'Flynn,Siobhan,Summer,2019,3.8,4.1,4.3,4.5,4.5,4.0,2.9,4.2,N/A,3.6,54,18
+ENG371H5,ENGDR,Sp Topic in World Lit ENG371H5-Y-LEC0101,Vashisht,Natasha,Summer,2019,4.8,5.0,5.0,4.6,4.8,5.0,3.0,5.0,N/A,5.0,6,5
+ENG279H5,ENGDR,Video Games ENG279H5-S-LEC0101,O'Flynn,Siobhan,Summer,2019,4.4,4.6,4.9,4.9,4.8,4.7,2.7,4.6,N/A,4.3,39,14
+ENG215H5,ENGDR,Canadian Short Story ENG215H5-F-LEC0101,Janes,Daniela,Summer,2019,4.3,4.4,4.7,4.3,4.6,4.1,2.8,4.2,N/A,3.9,31,19
+ENG289H5,ENGDR,Creative Writing ENG289H5-F-LEC0101,Wood,Brent,Summer,2019,3.6,3.2,3.6,3.6,3.6,3.1,3.2,3.4,N/A,3.4,24,9
+ENG100H5,ENGDR,Effective Writing ENG100H5-F-LEC0101,Butler,Stephanie,Summer,2019,3.7,3.8,3.6,4.1,4.1,3.4,2.7,3.9,N/A,3.4,44,17
+ENG312H5,ENGDR,Special Topic in Medieval Lit ENG312H5-F-LEC0101,Henderson,Jessica,Summer,2019,4.7,4.8,4.9,4.8,4.8,4.7,3.6,4.7,N/A,4.6,19,9
+ENG213H5,ENGDR,The Short Story ENG213H5-F-LEC0101,Janes,Daniela,Summer,2019,4.7,4.7,4.9,4.6,4.5,4.7,3.0,4.7,N/A,4.3,24,18
+ENG237H5,ENGDR,Science Fiction ENG237H5-S-LEC0101,Day,Andrea,Winter,2019,4.5,4.4,4.6,4.1,4.4,4.3,3.1,4.2,N/A,3.9,53,18
+ENG269H5,ENGDR,Queer Writing ENG269H5-S-LEC0101,Feldman,Margeaux,Winter,2019,4.3,4.3,4.2,4.2,4.1,4.0,3.0,3.7,N/A,3.9,27,10
+ENG366H5,ENGDR,Sp Topic in American Lit ENG366H5-S-LEC0101,Gniadek,Melissa,Winter,2019,3.7,4.0,3.9,3.2,4.0,3.8,3.6,3.8,N/A,3.6,22,17
+ENG252Y5,ENGDR,Canadian Literature ENG252Y5-Y-LEC0101,Janes,Daniela,Winter,2019,3.8,3.7,4.4,4.1,4.1,3.9,3.4,3.9,N/A,3.6,42,14
+ENG102H5,ENGDR,How to Research Literature ENG102H5-S-LEC0101,Janes,Daniela,Winter,2019,3.3,3.3,3.6,3.8,3.9,3.3,3.0,3.1,N/A,3.1,91,32
+ENG274H5,ENGDR,Indigenous Literatures ENG274H5-S-LEC0101,Janes,Daniela,Winter,2019,4.2,4.4,4.3,4.1,4.3,4.0,3.3,4.1,N/A,4.0,47,23
+ENG280H5,ENGDR,Crit Approaches to Literature ENG280H5-S-LEC0101,Laughlin,Thomas,Winter,2019,4.3,4.5,4.6,4.5,4.6,4.2,3.0,4.1,N/A,3.8,89,41
+ENG259H5,ENGDR,Lit & Env Criticism ENG259H5-S-LEC0101,Laughlin,Thomas,Winter,2019,4.9,4.9,4.9,4.9,4.9,4.9,3.3,4.4,N/A,4.4,10,7
+ENG326H5,ENGDR,Global Lit. Premodern World ENG326H5-S-LEC0101,Lockhart,Jessica,Winter,2019,5.0,5.0,4.9,4.8,4.8,4.8,3.5,4.8,N/A,4.5,15,8
+ENG301H5,ENGDR,Making Love in the 16th Cent ENG301H5-S-LEC0101,Lockhart,Jessica,Winter,2019,4.1,4.5,4.7,4.3,4.4,4.3,3.3,4.0,N/A,3.6,43,23
 ENG333H5,ENGDR,Modern Fiction to 1960 ENG333H5-S-LEC0101,Murdock,Kyle,Winter,2019,3.6,3.7,3.9,3.6,3.6,3.4,3.2,3.7,N/A,3.3,36,18
 ENG381H5,ENGDR,Digital Texts ENG381H5-S-LEC0101,O'Flynn,Siobhan,Winter,2019,4.6,4.6,4.9,4.7,4.8,4.6,2.9,4.6,N/A,4.6,33,14
-ENG276H5,ENGDR,Fanfiction ENG276H5-S-LEC0101,O'Flynn,Siobhan,Winter,2019,3.4,3.9,4.4,4,4.1,3.6,2.8,3.4,N/A,3.1,49,15
+ENG276H5,ENGDR,Fanfiction ENG276H5-S-LEC0101,O'Flynn,Siobhan,Winter,2019,3.4,3.9,4.4,4.0,4.1,3.6,2.8,3.4,N/A,3.1,49,15
 ENG460H5,ENGDR,Seminar: Literature Pre-1700 ENG460H5-S-LEC0101,Price,Daniel,Winter,2019,4.3,4.4,4.4,3.4,3.7,3.9,4.1,3.2,N/A,3.5,14,11
-ENG322Y5,ENGDR,Rise of Novel in the 18th Cent ENG322Y5-Y-LEC0101,Reich,Noa,Winter,2019,3.5,3.4,3.8,3.6,3.8,3.2,3.8,3,N/A,2.9,30,12
-DRE356H5,ENGDR,Theory of Drama DRE356H5-S-LEC0101,Revermann,Martin,Winter,2019,4.1,4.3,4.2,3.8,4,3.6,2.8,3.9,N/A,4.1,19,12
-ENG122H5,ENGDR,Mod & Contemp Theat & Drama ENG122H5-S-LEC0101,Gallagher-Ross,Jacob,Winter,2019,4.6,4.7,5,4.4,4.4,4.4,3.1,4.6,N/A,4.2,34,18
-DRE122H5,ENGDR,Modern & Cntmpr Theatre & Dra DRE122H5-S-LEC0101,Gallagher-Ross,Jacob,Winter,2019,4.7,4.7,5,4.5,4.6,4.6,2.9,4.8,N/A,4.6,51,25
-DRE222H5,ENGDR,The Performance Text DRE222H5-S-LEC0101,Gallagher-Ross,Jacob,Winter,2019,4.8,4.8,5,4.6,4.8,4.7,2.8,4.9,N/A,4.5,29,10
+ENG322Y5,ENGDR,Rise of Novel in the 18th Cent ENG322Y5-Y-LEC0101,Reich,Noa,Winter,2019,3.5,3.4,3.8,3.6,3.8,3.2,3.8,3.0,N/A,2.9,30,12
+DRE356H5,ENGDR,Theory of Drama DRE356H5-S-LEC0101,Revermann,Martin,Winter,2019,4.1,4.3,4.2,3.8,4.0,3.6,2.8,3.9,N/A,4.1,19,12
+ENG122H5,ENGDR,Mod & Contemp Theat & Drama ENG122H5-S-LEC0101,Gallagher-Ross,Jacob,Winter,2019,4.6,4.7,5.0,4.4,4.4,4.4,3.1,4.6,N/A,4.2,34,18
+DRE122H5,ENGDR,Modern & Cntmpr Theatre & Dra DRE122H5-S-LEC0101,Gallagher-Ross,Jacob,Winter,2019,4.7,4.7,5.0,4.5,4.6,4.6,2.9,4.8,N/A,4.6,51,25
+DRE222H5,ENGDR,The Performance Text DRE222H5-S-LEC0101,Gallagher-Ross,Jacob,Winter,2019,4.8,4.8,5.0,4.6,4.8,4.7,2.8,4.9,N/A,4.5,29,10
 ENG235H5,ENGDR,Comics and the Graphic Novel ENG235H5-S-LEC0101,Scoville,Chester,Winter,2019,4.4,4.6,4.7,4.2,4.4,4.4,2.6,4.4,N/A,4.1,95,38
 ENG110H5,ENGDR,Narrative ENG110H5-S-LEC0101,Scoville,Chester,Winter,2019,3.7,3.9,4.1,3.6,3.6,3.5,2.9,3.3,N/A,3.4,159,55
 ENG206H5,ENGDR,Rhetorical Criticism ENG206H5-S-LEC0101,Scoville,Chester,Winter,2019,4.5,4.5,4.8,4.4,4.4,4.4,2.6,4.3,N/A,4.1,43,22
 ENG250Y5,ENGDR,American Literature ENG250Y5-Y-LEC0101,Slater,Avery,Winter,2019,4.1,4.6,4.6,4.4,4.4,4.2,3.1,4.4,N/A,3.7,41,22
 ENG140Y5,ENGDR,Contemporary World Literatures ENG140Y5-Y-LEC0101,Soni,Raji,Winter,2019,4.1,4.3,4.3,3.9,4.1,3.9,3.2,3.3,N/A,3.9,37,20
 ENG371H5,ENGDR,Sp Topic in World Lit ENG371H5-S-LEC0101,Soni,Raji,Winter,2019,4.7,4.8,4.5,4.6,4.5,4.5,3.3,4.4,N/A,4.7,14,12
-ENG323H5,ENGDR,Austen and Her Contemporaries ENG323H5-S-LEC0101,Todd,Adrienne,Winter,2019,3.2,3.8,3.6,3.9,3.8,3.2,3.3,3.2,N/A,3,41,31
-ENG289H5,ENGDR,Creative Writing ENG289H5-S-LEC0101,Wood,Brent,Winter,2019,3.3,3,3.3,3.6,3.7,2.8,3.2,3.1,N/A,3.1,46,19
-ENG201Y5,ENGDR,Reading Poetry ENG201Y5-Y-LEC0101,Wood,Brent,Winter,2019,3.6,3.7,3.7,3.5,3.8,3.3,3.2,3,N/A,3.4,31,12
+ENG323H5,ENGDR,Austen and Her Contemporaries ENG323H5-S-LEC0101,Todd,Adrienne,Winter,2019,3.2,3.8,3.6,3.9,3.8,3.2,3.3,3.2,N/A,3.0,41,31
+ENG289H5,ENGDR,Creative Writing ENG289H5-S-LEC0101,Wood,Brent,Winter,2019,3.3,3.0,3.3,3.6,3.7,2.8,3.2,3.1,N/A,3.1,46,19
+ENG201Y5,ENGDR,Reading Poetry ENG201Y5-Y-LEC0101,Wood,Brent,Winter,2019,3.6,3.7,3.7,3.5,3.8,3.3,3.2,3.0,N/A,3.4,31,12
 ENG203H5,ENGDR,British Lit. in the World II: ENG203H5-S-LEC0101,Koenig-Woodyard,Chris,Winter,2019,2.4,2.5,2.5,3.1,3.3,2.3,3.7,2.5,N/A,2.2,85,41
 ENG239H5,ENGDR,Horror Literature ENG239H5-S-LEC0101,Koenig-Woodyard,Chris,Winter,2019,4.2,4.3,4.6,3.9,3.7,3.8,2.9,4.1,N/A,3.8,42,11
 ENG325H5,ENGDR,The Victorian Novel ENG325H5-S-LEC0101,Wright,Daniel,Winter,2019,4.3,4.3,4.6,4.6,4.7,4.6,3.6,4.2,N/A,3.9,15,11
 ENG308Y5,ENGDR,Romantic Poetry & Prose ENG308Y5-Y-LEC0101,Yoreh,Yoam,Winter,2019,3.2,3.3,3.5,3.4,3.5,3.1,3.2,3.1,N/A,3.2,35,22
-DRE352H5,ENGDR,Stage to Screen DRE352H5-S-LEC0101,Newman,Laine,Winter,2019,3.4,3.1,3.7,3,3.3,2.9,3.7,3.3,N/A,3.2,37,20
+DRE352H5,ENGDR,Stage to Screen DRE352H5-S-LEC0101,Newman,Laine,Winter,2019,3.4,3.1,3.7,3.0,3.3,2.9,3.7,3.3,N/A,3.2,37,20
 ENG335H5,ENGDR,Jacobean Drama ENG335H5-F-LEC0101,Boyer,Arlynda,Fall,2018,3.1,3.8,3.5,3.1,3.1,2.8,3.3,2.8,N/A,3,17,12
 ENG360H5,ENGDR,Early American Literature ENG360H5-F-LEC0101,Gniadek,Melissa,Fall,2018,3.7,4.1,4.3,4.2,4.2,3.9,4,3.3,N/A,3.4,39,20
 ENG435H5,ENGDR,Seminar: American Literature ENG435H5-F-LEC0101,Gniadek,Melissa,Fall,2018,4.2,4.3,4.6,4,4.1,4,4.2,3.9,N/A,4.1,18,13

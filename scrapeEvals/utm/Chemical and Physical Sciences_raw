@@ -1,49 +1,71 @@
-Code,Dept,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Course Workload,I would recommend this course,I attended class,Inspired to learn subject matter,Number Invited,Number of Survey Responses
-AST101H5,CHMPS,Solar System Ast AST101H5-F-LEC0101,Lester,John,Fall,2019,3.4,3.6,3.3,3.2,3.4,3.0,2.8,3.2,N/A,3.3,161,44
+Code,Dept,Course,Last_Name,First_Name,Term,Year,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Course_Workload,I_would_recommend_this_course,I_attended_class,Inspired_to_learn_subject_matter,Number_Invited,Number_of_Survey_Responses
+AST101H5,CHMPS,Solar System Ast AST101H5-F-LEC0101,Lester,John,Fall,2019,3.4,3.6,3.3,3.2,3.4,3,2.8,3.2,N/A,3.3,161,44
 AST110H5,CHMPS,Intro to Astronomical Observ. AST110H5-F-LEC0101,Lester,John,Fall,2019,4.5,4.9,4.4,4.6,4.2,4.3,3.1,4.1,N/A,4.6,42,14
-CHM110H5,CHMPS,Chemical Principles 1 CHM110H5-F-LEC0101,Poe,Judith,Fall,2019,3.4,3.3,3.1,3.0,3.2,2.6,3.8,2.7,N/A,2.8,360,189
-CHM110H5,CHMPS,Chemical Principles 1 CHM110H5-F-LEC0102,Poe,Judith,Fall,2019,3.5,3.3,3.3,3.3,3.3,2.8,4.0,2.8,N/A,2.8,378,210
+CHM110H5,CHMPS,Chemical Principles 1 CHM110H5-F-LEC0101,Poe,Judith,Fall,2019,3.4,3.3,3.1,3,3.2,2.6,3.8,2.7,N/A,2.8,360,189
+CHM110H5,CHMPS,Chemical Principles 1 CHM110H5-F-LEC0102,Poe,Judith,Fall,2019,3.5,3.3,3.3,3.3,3.3,2.8,4,2.8,N/A,2.8,378,210
 CHM211H5,CHMPS,Fund of Analyt Chem CHM211H5-F-LEC0101,Piunno,Paul,Fall,2019,4.2,4.4,4.7,3.9,3.8,3.9,4.2,3.3,N/A,3.6,141,61
-CHM231H5,CHMPS,Inorganic Chemistry I CHM231H5-F-LEC0101,Fekl,Ulrich,Fall,2019,3.0,3.0,2.7,3.2,3.1,2.6,3.9,2.5,N/A,2.6,101,37
-CHM242H5,CHMPS,Intro Organic Chemistry I CHM242H5-F-LEC0101,Beharry,Andrew,Fall,2019,3.8,3.9,4.0,3.2,3.2,3.3,3.5,3.0,N/A,3.2,283,196
-CHM347H5,CHMPS,Org Chem Biol Compounds CHM347H5-F-LEC0101,Strautmanis,Juris,Fall,2019,4.1,4.2,4.0,3.7,3.8,3.4,3.9,3.5,N/A,3.6,54,22
-CHM372H5,CHMPS,Techniqes in Biologl Chem I CHM372H5-F-PRA0101,Hasabnis,Advait,Fall,2019,3.9,3.9,3.0,3.9,3.9,3.6,3.3,3.5,N/A,3.6,30,12
-CHM372H5,CHMPS,Techniqes in Biologl Chem I CHM372H5-F-PRA0102,Hasabnis,Advait,Fall,2019,3.8,4.0,3.7,3.9,3.9,3.7,2.9,3.9,N/A,3.6,29,11
+CHM231H5,CHMPS,Inorganic Chemistry I CHM231H5-F-LEC0101,Fekl,Ulrich,Fall,2019,3,3,2.7,3.2,3.1,2.6,3.9,2.5,N/A,2.6,101,37
+CHM242H5,CHMPS,Intro Organic Chemistry I CHM242H5-F-LEC0101,Beharry,Andrew,Fall,2019,3.8,3.9,4,3.2,3.2,3.3,3.5,3,N/A,3.2,283,196
+CHM347H5,CHMPS,Org Chem Biol Compounds CHM347H5-F-LEC0101,Strautmanis,Juris,Fall,2019,4.1,4.2,4,3.7,3.8,3.4,3.9,3.5,N/A,3.6,54,22
+CHM372H5,CHMPS,Techniqes in Biologl Chem I CHM372H5-F-PRA0101,Hasabnis,Advait,Fall,2019,3.9,3.9,3,3.9,3.9,3.6,3.3,3.5,N/A,3.6,30,12
+CHM372H5,CHMPS,Techniqes in Biologl Chem I CHM372H5-F-PRA0102,Hasabnis,Advait,Fall,2019,3.8,4,3.7,3.9,3.9,3.7,2.9,3.9,N/A,3.6,29,11
 CHM372H5,CHMPS,Techniqes in Biologl Chem I CHM372H5-F-PRA0103,Hasabnis,Advait,Fall,2019,3.7,3.9,3.3,4.1,4.1,3.7,3.1,3.7,N/A,3.2,30,9
-CHM372H5,CHMPS,Techniqes in Biologl Chem I CHM372H5-F-PRA0104,Hasabnis,Advait,Fall,2019,3.8,3.7,2.8,3.7,3.7,3.0,3.2,3.8,N/A,3.2,24,6
-CHM394H5,CHMPS,Chemical Synthesis Lab I CHM394H5-F-PRA0101,Strautmanis,Juris,Fall,2019,3.4,3.3,3.9,3.3,3.6,2.6,3.6,3.0,N/A,3.3,15,9
-CHM394H5,CHMPS,Chemical Synthesis Lab I CHM394H5-F-PRA0102,Strautmanis,Juris,Fall,2019,4.0,4.4,4.7,4.3,4.6,4.1,3.6,3.7,N/A,3.9,15,7
-CHM396H5,CHMPS,Analy Phy Chm Instr Lab I CHM396H5-F-PRA0101,Piunno,Paul,Fall,2019,3.6,4.0,3.4,3.8,3.6,3.4,4.2,3.0,N/A,3.6,17,5
+CHM372H5,CHMPS,Techniqes in Biologl Chem I CHM372H5-F-PRA0104,Hasabnis,Advait,Fall,2019,3.8,3.7,2.8,3.7,3.7,3,3.2,3.8,N/A,3.2,24,6
+CHM394H5,CHMPS,Chemical Synthesis Lab I CHM394H5-F-PRA0101,Strautmanis,Juris,Fall,2019,3.4,3.3,3.9,3.3,3.6,2.6,3.6,3,N/A,3.3,15,9
+CHM394H5,CHMPS,Chemical Synthesis Lab I CHM394H5-F-PRA0102,Strautmanis,Juris,Fall,2019,4,4.4,4.7,4.3,4.6,4.1,3.6,3.7,N/A,3.9,15,7
+CHM396H5,CHMPS,Analy Phy Chm Instr Lab I CHM396H5-F-PRA0101,Piunno,Paul,Fall,2019,3.6,4,3.4,3.8,3.6,3.4,4.2,3,N/A,3.6,17,5
 CHM396H5,CHMPS,Analy Phy Chm Instr Lab I CHM396H5-F-PRA0102,Piunno,Paul,Fall,2019,4.8,4.8,4.6,4.6,4.6,4.2,4.4,3.8,N/A,4.6,16,5
-CHM414H5,CHMPS,Adv Topics Analy Chm CHM414H5-F-LEC0101,Sedighi,Abootaleb,Fall,2019,4.3,4.3,4.4,4.2,4.3,4.0,3.2,3.8,N/A,4.3,20,9
-CHM462H5,CHMPS,Advances in Chem Bio CHM462H5-F-LEC0101,Shin,Jumi,Fall,2019,3.3,3.0,2.8,3.0,2.5,2.3,3.3,2.5,N/A,3.3,15,5
-ERS111H5,CHMPS,Earth  Climate & Life ERS111H5-F-LEC0101,Ashwell,Paul,Fall,2019,4.1,4.3,4.6,3.9,3.9,4.1,2.6,4.2,N/A,4.0,161,98
-ERS201H5,CHMPS,Earth Materials ERS201H5-F-LEC0101,Ashwell,Paul,Fall,2019,4.2,4.5,4.5,4.1,4.3,4.0,3.6,3.7,N/A,3.9,68,55
-ERS225H5,CHMPS,Field Methods ERS225H5-F-PRA0101,Ashwell,Paul,Fall,2019,4.6,5.0,4.7,4.6,4.5,4.6,3.2,4.8,N/A,4.7,15,11
-ERS304H5,CHMPS,Geological Remote Sensing ERS304H5-F-LEC0101,Xu,Xiaoyong,Fall,2019,3.4,3.9,3.3,4.0,3.9,3.2,2.8,3.6,N/A,3.1,21,9
+CHM414H5,CHMPS,Adv Topics Analy Chm CHM414H5-F-LEC0101,Sedighi,Abootaleb,Fall,2019,4.3,4.3,4.4,4.2,4.3,4,3.2,3.8,N/A,4.3,20,9
+CHM462H5,CHMPS,Advances in Chem Bio CHM462H5-F-LEC0101,Shin,Jumi,Fall,2019,3.3,3,2.8,3,2.5,2.3,3.3,2.5,N/A,3.3,15,5
+ERS111H5,CHMPS,Earth  Climate & Life ERS111H5-F-LEC0101,Ashwell,Paul,Fall,2019,4.1,4.3,4.6,3.9,3.9,4.1,2.6,4.2,N/A,4,161,98
+ERS201H5,CHMPS,Earth Materials ERS201H5-F-LEC0101,Ashwell,Paul,Fall,2019,4.2,4.5,4.5,4.1,4.3,4,3.6,3.7,N/A,3.9,68,55
+ERS225H5,CHMPS,Field Methods ERS225H5-F-PRA0101,Ashwell,Paul,Fall,2019,4.6,5,4.7,4.6,4.5,4.6,3.2,4.8,N/A,4.7,15,11
+ERS304H5,CHMPS,Geological Remote Sensing ERS304H5-F-LEC0101,Xu,Xiaoyong,Fall,2019,3.4,3.9,3.3,4,3.9,3.2,2.8,3.6,N/A,3.1,21,9
 JCP265H5,CHMPS,Intro to Scientific Computing JCP265H5-F-LEC0101,Rauscher,Sarah,Fall,2019,4.2,4.3,3.5,4.4,4.6,3.9,3.2,4.3,N/A,4.2,24,13
-JCP321H5,CHMPS,Quantum Mechanics I Foundation JCP321H5-F-LEC0101,McMillen,David,Fall,2019,4.1,4.1,4.5,4.0,4.0,3.8,2.8,3.9,N/A,4.0,54,25
-JCP422H5,CHMPS,NMR Spectroscopy JCP422H5-F-LEC0101,Prosser,Scott,Fall,2019,4.4,4.1,4.2,4.3,4.0,3.9,3.7,3.6,N/A,4.0,17,9
-PHY100H5,CHMPS,What's Phys.Got to Do With It? PHY100H5-F-LEC0101,Li,Yuchong,Fall,2019,3.7,3.9,4.1,3.9,4.0,3.8,2.9,4.0,N/A,3.5,228,175
-PHY241H5,CHMPS,Electromagnetism PHY241H5-F-LEC0101,Moore,GW,Fall,2019,4.2,4.4,4.0,3.8,3.8,3.8,3.5,3.8,N/A,3.9,36,13
-PHY325H5,CHMPS,Math and Computational Physics PHY325H5-F-LEC0101,Nino,Daniel,Fall,2019,4.4,4.0,4.1,4.2,4.1,3.7,3.9,3.6,N/A,3.6,32,22
-PHY332H5,CHMPS,Molecular Biophysics PHY332H5-F-LEC0101,Li,Yuchong,Fall,2019,4.2,4.3,4.0,4.0,3.8,3.3,3.2,3.3,N/A,3.8,10,6
-ERS303H5,CHMPS,Geophysics ERS303H5-S-LEC0101,Lui,Ka,Winter,2019,4.1,4,4.3,4,4.1,3.7,3.7,3.4,N/A,4,23,7
-JCP221H5,CHMPS,Thermodynamics JCP221H5-S-LEC0101,McMillen,David,Winter,2019,3.6,3.7,3.8,3.6,3.5,3.4,3,3.4,N/A,3.2,229,79
+JCP321H5,CHMPS,Quantum Mechanics I Foundation JCP321H5-F-LEC0101,McMillen,David,Fall,2019,4.1,4.1,4.5,4,4,3.8,2.8,3.9,N/A,4,54,25
+JCP422H5,CHMPS,NMR Spectroscopy JCP422H5-F-LEC0101,Prosser,Scott,Fall,2019,4.4,4.1,4.2,4.3,4,3.9,3.7,3.6,N/A,4,17,9
+PHY100H5,CHMPS,What's Phys.Got to Do With It? PHY100H5-F-LEC0101,Li,Yuchong,Fall,2019,3.7,3.9,4.1,3.9,4,3.8,2.9,4,N/A,3.5,228,175
+PHY241H5,CHMPS,Electromagnetism PHY241H5-F-LEC0101,Moore,GW,Fall,2019,4.2,4.4,4,3.8,3.8,3.8,3.5,3.8,N/A,3.9,36,13
+PHY325H5,CHMPS,Math and Computational Physics PHY325H5-F-LEC0101,Nino,Daniel,Fall,2019,4.4,4,4.1,4.2,4.1,3.7,3.9,3.6,N/A,3.6,32,22
+PHY332H5,CHMPS,Molecular Biophysics PHY332H5-F-LEC0101,Li,Yuchong,Fall,2019,4.2,4.3,4,4,3.8,3.3,3.2,3.3,N/A,3.8,10,6
+CHM243H5,CHMPS,Intro Organic Chemistry II CHM243H5-Y-LEC0101,Revers,Leigh,Summer,2019,3.2,3.1,3.3,2.9,2.6,2.5,4.3,2.0,N/A,2.5,60,30
+PHY137H5,CHMPS,Introductory Physics II PHY137H5-S-LEC0101,De Benedetti,Marc,Summer,2019,4.2,4.3,4.5,3.7,3.5,3.7,3.7,3.2,N/A,3.5,22,13
+CHM120H5,CHMPS,Chemical Principles 2 CHM120H5-F-LEC0101,Radhakrishnan,Thottackad,Summer,2019,3.9,4.0,4.2,4.0,3.9,3.5,3.7,3.5,N/A,3.3,159,43
+PHY136H5,CHMPS,Introductory Physics I PHY136H5-F-LEC0101,De Benedetti,Marc,Summer,2019,4.3,4.3,4.2,3.9,3.8,3.8,4.3,2.9,N/A,3.6,46,14
+ERS101H5,CHMPS,Planet Earth ERS101H5-F-LEC0101,Malik,Lailmah,Summer,2019,3.7,4.0,4.2,3.7,3.7,3.6,2.8,3.8,N/A,3.2,87,41
+CHM201H5,CHMPS,The Science of Human Health CHM201H5-S-LEC0101,Armstrong,David,Winter,2019,4.3,4.4,4.9,3.9,3.7,3.6,3.0,4.4,N/A,3.7,7,7
+ERS101H5,CHMPS,Planet Earth ERS101H5-S-LEC0101,Ashwell,Paul,Winter,2019,4.0,4.3,4.5,4.3,4.3,4.1,2.6,4.3,N/A,3.9,360,100
+ERS203H5,CHMPS,Rock Forming processes ERS203H5-S-LEC0101,Ashwell,Paul,Winter,2019,4.4,4.5,4.6,4.3,4.3,4.1,3.5,4.3,N/A,3.8,25,8
+CHM362H5,CHMPS,Metab & Bioenergetic CHM362H5-S-LEC0101,Beharry,Andrew,Winter,2019,3.9,4.1,4.2,3.4,3.4,3.4,3.3,3.4,N/A,3.3,93,67
+CHM331H5,CHMPS,Inorg Chem II:Advanced CHM331H5-S-LEC0101,Fekl,Ulrich,Winter,2019,3.8,3.9,3.8,4.1,4.3,3.6,3.1,3.4,N/A,3.4,56,16
+PHY347H5,CHMPS,Optics PHY347H5-S-LEC0101,Gradinaru,Claudiu,Winter,2019,4.2,4.2,4.3,4.3,4.1,3.8,3.7,3.6,N/A,4.0,31,24
+ERS412H5,CHMPS,Climate Through Time ERS412H5-S-LEC0101,Halfar,Jochen,Winter,2019,4.1,4.0,3.9,4.0,3.9,4.4,3.0,4.1,N/A,3.7,18,7
+ERS312H5,CHMPS,Oceanography ERS312H5-S-LEC0101,Halfar,Jochen,Winter,2019,4.0,4.3,3.9,3.5,3.4,3.5,2.9,3.2,N/A,3.7,37,13
+CHM373H5,CHMPS,Techniqes in Biologl Chem II CHM373H5-S-PRA0101,Hasabnis,Advait,Winter,2019,3.8,3.7,2.9,3.6,3.3,3.1,3.5,3.5,N/A,3.6,28,12
+CHM373H5,CHMPS,Techniqes in Biologl Chem II CHM373H5-S-PRA0102,Hasabnis,Advait,Winter,2019,4.1,4.0,3.9,4.1,3.9,3.4,3.1,4.1,N/A,3.7,24,7
+CHM373H5,CHMPS,Techniqes in Biologl Chem II CHM373H5-S-PRA0103,Hasabnis,Advait,Winter,2019,4.0,3.8,3.4,3.6,3.8,3.0,3.6,3.2,N/A,3.4,25,5
+CHM373H5,CHMPS,Techniqes in Biologl Chem II CHM373H5-S-PRA0104,Hasabnis,Advait,Winter,2019,3.3,3.4,2.9,3.5,2.9,3.0,3.3,3.1,N/A,3.2,27,10
+PHY147H5,CHMPS,Principles of Physics II PHY147H5-S-LEC0101,Hilfinger,Andreas,Winter,2019,4.5,4.5,4.8,3.9,3.6,4.2,3.6,4.0,N/A,4.3,62,31
+JCP421H5,CHMPS,Quantum Mechanics II App JCP421H5-S-LEC0101,Kil,Richard,Winter,2019,3.6,3.6,2.9,3.5,3.4,3.1,4.4,2.5,N/A,3.0,47,14
+AST201H5,CHMPS,Stars and Galaxies AST201H5-S-LEC0101,Lester,John,Winter,2019,3.8,3.8,3.5,3.2,3.2,3.1,2.8,3.0,N/A,3.6,119,23
+AST252H5,CHMPS,Cosmic Evolution AST252H5-S-LEC0101,Li,Yuchong,Winter,2019,4.2,4.3,4.5,4.1,4.1,4.1,2.7,4.2,N/A,4.0,36,29
+PHY255H5,CHMPS,Intro to Biomedical Physics PHY255H5-S-LEC0101,Li,Yuchong,Winter,2019,3.8,3.6,3.1,3.9,3.5,3.3,3.3,3.5,N/A,3.4,10,10
+ERS303H5,CHMPS,Geophysics ERS303H5-S-LEC0101,Lui,Ka,Winter,2019,4.1,4.0,4.3,4.0,4.1,3.7,3.7,3.4,N/A,4.0,23,7
+JCP221H5,CHMPS,Thermodynamics JCP221H5-S-LEC0101,McMillen,David,Winter,2019,3.6,3.7,3.8,3.6,3.5,3.4,3.0,3.4,N/A,3.2,229,79
 CHM444H5,CHMPS,Intro Medicin Chem&Molec Recog CHM444H5-S-LEC0101,Park,Ji,Winter,2019,3.6,3.5,3.2,3.1,3.2,2.8,3.2,3.1,N/A,3.4,71,18
 CHM397H5,CHMPS,Analy Phy Chm Instr Lab II CHM397H5-S-PRA0101,Piunno,Paul,Winter,2019,4.9,4.6,4.8,4.6,4.6,4.1,3.8,3.6,N/A,4.5,17,8
-CHM311H5,CHMPS,Instrum Analyt Chem CHM311H5-S-LEC0101,Piunno,Paul,Winter,2019,4.3,4.5,4.8,4.2,4.4,4.1,3.4,4,N/A,4.1,80,31
-CHM333H5,CHMPS,Bioinorganic Chem CHM333H5-S-LEC0101,Poe,Judith,Winter,2019,4.4,4.6,4.5,4.5,4.6,4,3.3,4.1,N/A,4,40,8
+CHM311H5,CHMPS,Instrum Analyt Chem CHM311H5-S-LEC0101,Piunno,Paul,Winter,2019,4.3,4.5,4.8,4.2,4.4,4.1,3.4,4.0,N/A,4.1,80,31
+CHM333H5,CHMPS,Bioinorganic Chem CHM333H5-S-LEC0101,Poe,Judith,Winter,2019,4.4,4.6,4.5,4.5,4.6,4.0,3.3,4.1,N/A,4.0,40,8
 CHM120H5,CHMPS,Chemical Principles 2 CHM120H5-S-LEC0101,Poe,Judith,Winter,2019,3.9,4.1,4.3,3.8,3.8,3.5,3.7,3.4,N/A,3.3,297,137
-JCP322H5,CHMPS,Statistical Mechanics JCP322H5-S-LEC0101,Prosser,Scott,Winter,2019,3.3,3.8,3.5,3.5,4,3.3,3.7,3.5,N/A,3.3,24,6
+JCP322H5,CHMPS,Statistical Mechanics JCP322H5-S-LEC0101,Prosser,Scott,Winter,2019,3.3,3.8,3.5,3.5,4.0,3.3,3.7,3.5,N/A,3.3,24,6
 AST215H5,CHMPS,Astronomical Revolutions AST215H5-S-LEC0101,Richter,Adam,Winter,2019,4.4,4.9,4.6,4.5,4.3,4.5,3.1,4.6,N/A,4.4,14,8
-ERS202H5,CHMPS,Dynamic Earth ERS202H5-S-LEC0101,Schoenbohm,Lindsay,Winter,2019,4.1,4.4,4.6,4.1,4.2,4.2,3.3,4.1,N/A,4,33,11
-ERS302H5,CHMPS,Tectonics ERS302H5-S-LEC0101,Schoenbohm,Lindsay,Winter,2019,4.7,4.5,5,4.5,4.3,4.5,3.5,4.5,N/A,4.2,27,6
-CHM416H5,CHMPS,Separations  Chromatography... CHM416H5-S-LEC0101,Sedighi,Abootaleb,Winter,2019,4.4,4.8,4.2,4.2,4.2,4,3.4,4.4,N/A,4.2,13,5
-CHM243H5,CHMPS,Intro Organic Chemistry II CHM243H5-S-LEC0101,Shin,Jumi,Winter,2019,3.5,3.5,3.3,3.2,3.3,3,4.2,2.6,N/A,3,211,85
-CHM395H5,CHMPS,Chemical Synthesis Lab II CHM395H5-S-PRA0101,Strautmanis,Juris,Winter,2019,4.6,5,4.6,5,4.6,4.8,3.4,4.4,N/A,4.6,8,5
+ERS202H5,CHMPS,Dynamic Earth ERS202H5-S-LEC0101,Schoenbohm,Lindsay,Winter,2019,4.1,4.4,4.6,4.1,4.2,4.2,3.3,4.1,N/A,4.0,33,11
+ERS302H5,CHMPS,Tectonics ERS302H5-S-LEC0101,Schoenbohm,Lindsay,Winter,2019,4.7,4.5,5.0,4.5,4.3,4.5,3.5,4.5,N/A,4.2,27,6
+CHM416H5,CHMPS,Separations  Chromatography... CHM416H5-S-LEC0101,Sedighi,Abootaleb,Winter,2019,4.4,4.8,4.2,4.2,4.2,4.0,3.4,4.4,N/A,4.2,13,5
+CHM243H5,CHMPS,Intro Organic Chemistry II CHM243H5-S-LEC0101,Shin,Jumi,Winter,2019,3.5,3.5,3.3,3.2,3.3,3.0,4.2,2.6,N/A,3.0,211,85
+CHM395H5,CHMPS,Chemical Synthesis Lab II CHM395H5-S-PRA0101,Strautmanis,Juris,Winter,2019,4.6,5.0,4.6,5.0,4.6,4.8,3.4,4.4,N/A,4.6,8,5
 CHM395H5,CHMPS,Chemical Synthesis Lab II CHM395H5-S-PRA0102,Strautmanis,Juris,Winter,2019,4.2,4.6,4.8,4.6,4.6,4.4,3.2,4.8,N/A,4.6,10,5
-CHM347H5,CHMPS,Org Chem Biol Compounds CHM347H5-S-LEC0101,Strautmanis,Juris,Winter,2019,4.3,4.2,4.2,4,3.9,3.9,3.6,3.5,N/A,4,33,13
+CHM347H5,CHMPS,Org Chem Biol Compounds CHM347H5-S-LEC0101,Strautmanis,Juris,Winter,2019,4.3,4.2,4.2,4.0,3.9,3.9,3.6,3.5,N/A,4.0,33,13
 ERS111H5,CHMPS,Earth Climate & Life ERS111H5-F-LEC0101,Ashwell,Paul,Fall,2018,3.9,4.1,4.3,3.6,3.7,3.8,2.6,4,N/A,3.6,235,92
 ERS201H5,CHMPS,Earth Materials ERS201H5-F-LEC0101,Ashwell,Paul,Fall,2018,4.2,3.8,3.6,3.6,3.3,3.3,3.4,3.1,N/A,3.4,47,16
 PHY146H5,CHMPS,Principles of Physics I PHY146H5-F-LEC0101,Barzda,Virginijus,Fall,2018,3.2,3.2,3,3.2,3.3,2.7,3.6,3.2,N/A,3.1,90,33

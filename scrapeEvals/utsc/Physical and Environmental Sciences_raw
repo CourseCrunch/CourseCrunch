@@ -1,4 +1,63 @@
-Code,Dept,Course,Term,Year,Last Name,First Name,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Inspired thinking about subject matter,Course Workload,I would recommend this course,Number Invited,Number of Survey Responses
+Code,Dept,Course,Term,Year,Last_Name,First_Name,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Inspired_thinking_about_subject_matter,Course_Workload,I_would_recommend_this_course,Number_Invited,Number_of_Survey_Responses
+EES1131H,PESSC,APPLIED CLIMATOLOGY EES1131H-F-LEC0101,Fall,2019,Hewer,Micah,3.1,3.5,3.5,3.6,3.8,3.3,3.0,2.6,3.0,8,8
+EES3000H,PESSC,APPLIED CONSERVATION BIOLOGY EES3000H-F-LEC0101,Fall,2019,Mandrak,Nicholas,3.9,3.7,4.0,3.7,3.6,3.4,3.8,3.3,3.6,37,27
+EES1128H,PESSC,BIOPHYSICAL INTERACTIONS EES1128H-F-LEC0101,Fall,2019,Isaac,Marney,4.2,4.7,4.6,4.6,4.5,4.2,3.8,3.1,4.3,16,13
+EES1129H,PESSC,BROWNFIELDS REDEVELOPMENT EES1129H-F-LEC0101,Fall,2019,Wallace,Katherine,4.4,4.8,4.7,4.6,4.7,4.1,4.7,3.6,4.5,29,15
+EES1133H,PESSC,CLIMATE CHANGE AND MODELLING EES1133H-F-LEC0101,Fall,2019,Smith,Karen,4.3,4.5,4.3,4.5,4.7,4.5,4.3,3.3,4.3,8,6
+EES1132H,PESSC,CLIMATE DATA ANALYSIS EES1132H-F-LEC0101,Fall,2019,Smith,Karen,4.2,4.2,4.2,4.2,4.0,3.7,4.2,4.5,3.8,9,6
+EES3002H,PESSC,CONSERVATION POLICY EES3002H-F-LEC0101,Fall,2019,Livingstone,Stuart,4.5,4.6,4.7,4.4,4.6,4.6,4.6,3.2,4.7,43,31
+EES1125H,PESSC,CONTAMINATED SITE REMEDIATION EES1125H-F-LEC0101,Fall,2019,Ho,Albert,4.3,4.4,4.7,4.6,4.6,4.2,4.3,3.1,4.4,26,18
+EES1119H,PESSC,ENVIRONMENTAL ANALYSIS EES1119H-F-LEC0101,Fall,2019,Archontitsis,Georgios,4.0,4.3,4.6,4.3,4.1,3.7,3.8,3.2,4.1,33,16
+EES1701H,PESSC,ENVIRONMENTAL LEGISLATION EES1701H-F-LEC0101,Fall,2019,Ligeti,Eva,3.5,3.6,3.3,3.4,3.4,3.0,3.6,4.1,2.9,36,22
+EES1111H,PESSC,FRESHWATER ECOL & BIOMONITOR EES1111H-F-LEC0101,Fall,2019,Moryk,Jan,4.2,4.4,3.9,4.1,3.8,4.0,4.1,2.9,4.7,27,19
+EES1122H,PESSC,GLOBAL ENVIRONMENTAL SECURITY EES1122H-F-LEC0101,Fall,2019,Mirza,Monirul,4.6,4.3,4.7,4.6,4.6,4.4,4.6,3.1,4.7,9,7
+EES1104H,PESSC,MICROORGANISMS AND ENVIRONMENT EES1104H-F-LEC0101,Fall,2019,Fulthorpe,Roberta,4.8,4.6,4.6,5.0,5.0,4.8,4.6,3.0,4.4,6,5
+FST1000H,PESSC,RESEARCH METHS IN FOOD STUDIES FST1000H-F-LEC0101,Fall,2019,Baumann,Shyon,5.0,5.0,5.0,4.8,4.8,5.0,4.8,3.3,5.0,15,6
+FST1000H,PESSC,RESEARCH METHS IN FOOD STUDIES FST1000H-F-LEC0101,Fall,2019,Johnston,Josee,5.0,5.0,5.0,4.8,4.8,5.0,4.8,3.3,5.0,15,6
+ASTB23H3,PESSC,Astrophysics of Stars Galaxies ASTB23H3-F-LEC01,Fall,2019,Menou,Kristen,3.9,4.4,4.7,3.4,3.9,3.9,3.6,3.1,4.3,30,8
+EESC04H3,PESSC,Biodiversity and Biogeography EESC04H3-F-LEC30,Fall,2019,Martin,Adam,4.0,3.9,4.3,4.0,4.7,4.2,4.1,2.9,4.1,33,9
+CHMC47H3,PESSC,Bio-Organic Chemistry CHMC47H3-F-LEC01,Fall,2019,Mikhaylichenko,Svetlana,4.1,4.4,4.5,4.0,4.0,3.7,3.7,4.6,3.3,89,45
+CHMB23H3,PESSC,Chem Thermodymanics & Kinetics CHMB23H3-F-LEC01,Fall,2019,Donaldson,D.,4.1,4.3,4.2,4.3,4.0,3.4,3.3,4.1,2.6,25,12
+EESB15H3,PESSC,Earth History EESB15H3-F-LEC01,Fall,2019,Daxberger,Heidi,3.9,4.3,4.5,4.3,4.2,4.1,3.9,3.4,4.0,98,38
+EESC13H3,PESSC,Environ Impact Assessment EESC13H3-F-LEC01,Fall,2019,Meriano,Mandana,3.2,3.6,3.2,3.3,3.1,2.8,3.0,3.7,2.6,83,27
+ESTC36H3,PESSC,Environmental Decision-Making ESTC36H3-F-LEC01,Fall,2019,Cohen,Saul,4.3,4.3,4.3,4.0,4.1,4.3,4.4,3.3,4.0,44,15
+EESC33H3,PESSC,Environmental Sci Field Course EESC33H3-F-LEC01,Fall,2019,Wells,Mathew,4.6,4.6,4.6,4.6,4.8,4.6,4.4,3.6,4.6,9,5
+EESD13H3,PESSC,Envrmtl Law  Policy & Ethics EESD13H3-F-LEC30,Fall,2019,Rempe,Graham,4.5,4.8,4.8,4.3,4.4,4.4,4.3,3.3,4.3,40,16
+EESD15H3,PESSC,Fundamentals Site Remediation EESD15H3-F-LEC01,Fall,2019,Stefanovic,Silvija,4.0,4.2,3.3,3.9,4.1,3.6,3.9,3.8,3.3,41,9
+EESC20H3,PESSC,Geochemistry EESC20H3-F-LEC01,Fall,2019,Simpson,Myrna,3.9,4.1,4.5,4.1,4.1,3.9,4.1,3.1,4.1,31,14
+PHYB10H3,PESSC,Intermediate Physics Lab I PHYB10H3-F-LEC01,Fall,2019,Weaver,Daniel,3.7,3.6,4.2,3.9,4.0,3.7,3.9,3.3,3.6,35,13
+ASTA01H3,PESSC,Intro to Astronomy & Astro I ASTA01H3-F-LEC01,Fall,2019,McGraw,Patrick,4.0,4.1,4.1,4.0,4.0,3.8,3.7,2.9,4.0,200,64
+EESA01H3,PESSC,Intro to Environmental Science EESA01H3-F-LEC01,Fall,2019,Stefanovic,Jovan,3.4,3.5,3.2,3.6,3.6,3.2,3.4,3.0,3.6,386,105
+ESTB01H3,PESSC,Intro to Environmental Studies ESTB01H3-F-LEC01,Fall,2019,MacLellan,James,2.9,2.8,3.2,2.8,2.9,2.6,2.8,3.0,3.0,65,19
+PHYD37H3,PESSC,Intro to Fluid Mechanics PHYD37H3-F-LEC01,Fall,2019,Valencia,Diana,4.7,4.7,4.3,4.3,4.7,3.5,4.2,4.0,3.5,15,6
+CHMD89H3,PESSC,Intro to Green Chemistry CHMD89H3-F-LEC01,Fall,2019,Sauer,Effiette,4.4,4.4,4.8,4.6,4.0,4.2,4.0,3.4,4.6,12,5
+CHMB31H3,PESSC,Intro to Inorganic Chemistry CHMB31H3-F-LEC01,Fall,2019,Hadzovic,Alen,4.4,4.5,4.4,4.2,4.2,4.2,4.1,3.3,4.2,51,24
+PHYB56H3,PESSC,Intro to Quantum Physics PHYB56H3-F-LEC01,Fall,2019,Tawfiq,Salam,3.8,3.6,3.5,3.1,3.3,3.0,3.8,3.6,3.4,30,11
+CHMA10H3,PESSC,Introductory Chemistry I CHMA10H3-F-LEC01,Fall,2019,Ballantyne,Scott,3.6,3.7,3.3,3.7,3.6,3.2,3.2,3.7,3.3,440,139
+CHMA10H3,PESSC,Introductory Chemistry I CHMA10H3-F-LEC01,Fall,2019,Zimmer-De Iuliis,Marco,3.6,3.7,3.9,3.7,3.6,3.2,3.2,3.7,3.3,440,139
+CHMA10H3,PESSC,Introductory Chemistry I CHMA10H3-F-LEC01,Fall,2019,Zhang,Xiaoan,3.6,3.7,3.4,3.7,3.6,3.2,3.2,3.7,3.3,440,139
+CHMA10H3,PESSC,Introductory Chemistry I CHMA10H3-F-LEC02,Fall,2019,Ballantyne,Scott,3.4,3.6,3.2,3.2,3.3,2.8,3.0,3.9,3.1,315,92
+CHMA10H3,PESSC,Introductory Chemistry I CHMA10H3-F-LEC02,Fall,2019,Zimmer-De Iuliis,Marco,3.4,3.6,3.6,3.2,3.3,2.8,3.0,3.9,3.1,315,92
+CHMA10H3,PESSC,Introductory Chemistry I CHMA10H3-F-LEC02,Fall,2019,Zhang,Xiaoan,3.4,3.6,3.4,3.2,3.3,2.8,3.0,3.9,3.1,315,92
+CHMA10H3,PESSC,Introductory Chemistry I CHMA10H3-F-LEC60,Fall,2019,Ballantyne,Scott,3.2,2.6,2.2,2.8,2.6,2.4,2.4,3.8,2.2,39,7
+CHMA10H3,PESSC,Introductory Chemistry I CHMA10H3-F-LEC60,Fall,2019,Zimmer-De Iuliis,Marco,3.2,2.6,2.4,2.8,2.6,2.4,2.4,3.8,2.2,39,7
+CHMA10H3,PESSC,Introductory Chemistry I CHMA10H3-F-LEC60,Fall,2019,Zhang,Xiaoan,3.2,2.6,3.2,2.8,2.6,2.4,2.4,3.8,2.2,39,7
+EESB18H3,PESSC,Natural Hazards EESB18H3-F-LEC30,Fall,2019,Meriano,Mandana,4.3,4.3,4.1,3.8,3.8,3.9,4.2,3.3,4.2,51,10
+CHMB41H3,PESSC,Organic Chemistry I CHMB41H3-F-LEC01,Fall,2019,Dalili,Shadi,3.9,4.0,4.0,3.6,3.6,3.3,3.1,4.3,2.9,205,167
+CHMB41H3,PESSC,Organic Chemistry I CHMB41H3-F-LEC60,Fall,2019,Dalili,Shadi,3.7,4.1,4.1,3.4,3.6,3.1,2.9,4.2,2.7,20,15
+EESC36H3,PESSC,Petrology EESC36H3-F-LEC01,Fall,2019,Daxberger,Heidi,4.7,4.9,4.9,4.7,4.6,4.1,4.1,3.7,4.1,12,7
+PHYA11H3,PESSC,Physics I for Life Sciences PHYA11H3-F-LEC01,Fall,2019,Weaver,Daniel,3.8,4.0,4.2,3.8,3.9,3.5,3.3,3.7,3.2,181,69
+CHMC11H3,PESSC,Principles Analytical Instrum CHMC11H3-F-LEC01,Fall,2019,Soong,Ronald,3.9,4.2,4.2,3.9,3.9,3.8,3.9,3.1,3.8,48,19
+EESB04H3,PESSC,Principles of Hydrology EESB04H3-F-LEC01,Fall,2019,Mitchell,Carl,4.0,4.1,4.4,3.8,3.8,3.7,3.7,3.3,3.6,125,37
+EESB05H3,PESSC,Principles of Soil Science EESB05H3-F-LEC01,Fall,2019,Isaac,Marney,4.0,4.0,4.2,3.8,4.0,3.9,3.7,3.0,3.9,85,23
+ESTD19H3,PESSC,Risk ESTD19H3-F-LEC30,Fall,2019,MacLellan,James,4.1,4.1,4.6,4.1,4.2,4.1,4.0,3.2,3.7,33,10
+EESC37H3,PESSC,Structural Geology EESC37H3-F-LEC01,Fall,2019,Daxberger,Heidi,4.5,4.6,4.9,4.6,4.6,4.2,4.5,4.4,3.9,21,10
+CHMB16H3,PESSC,Techniques in Analytical Chem CHMB16H3-F-LEC01,Fall,2019,Kim,Sanghyun,3.5,3.6,4.6,3.4,3.4,3.1,3.4,4.1,3.0,90,40
+CHMB16H3,PESSC,Techniques in Analytical Chem CHMB16H3-F-LEC01,Fall,2019,Sullan,Ruby,3.5,3.6,3.5,3.4,3.4,3.1,3.4,4.1,3.0,90,40
+CHMB20H3,PESSC,Thermodynamics & Elem Kinetics CHMB20H3-F-LEC01,Fall,2019,Donaldson,D.,3.8,3.9,4.0,4.3,3.7,3.1,3.2,3.3,3.2,26,12
+EESA07H3,PESSC,Water EESA07H3-F-LEC30,Fall,2019,Stefanovic,Jovan,3.6,3.7,3.5,3.6,3.7,3.3,3.5,2.8,3.6,307,61
+EESA09H3,PESSC,Wind EESA09H3-F-LEC30,Fall,2019,Mohsin,Tanzina,3.3,3.2,3.2,3.3,3.5,3.0,2.9,3.0,3.1,85,26
+EESA09H3,PESSC,Wind EESA09H3-F-LEC60,Fall,2019,Mohsin,Tanzina,3.4,3.6,3.2,3.6,3.6,3.0,3.2,3.4,3.2,229,46
 EESA06H3,PESSC,Introduction to Planet Earth EESA06H3-Y-LEC99,Summer,2019,Eyles,Nicholas,3.5,3.6,3.4,3.6,3.5,3.4,3.3,2.9,3.4,280,39
 EESD33H3,PESSC,Field Techniques EESD33H3-F-LEC01,Summer,2019,Meriano,Mandana,5,4.5,4.8,4.3,4.8,4.8,5,4.2,5,18,6
 EESA09H3,PESSC,Wind EESA09H3-Y-LEC99,Summer,2019,Mohsin,Tanzina,3.5,4,3.7,4,4,3.4,3.6,3.5,3.4,152,34

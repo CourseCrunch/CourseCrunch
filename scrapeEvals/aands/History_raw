@@ -1,4 +1,4 @@
-Code,Dept,Division,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Instructor generated enthusiasm,Course Workload,I would recommend this course,Number of Students Invited,Number of Respondents
+Code,Dept,Division,Course,Last_Name,First_Name,Term,Year,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Instructor_generated_enthusiasm,Course_Workload,I_would_recommend_this_course,Number_of_Students_Invited,Number_of_Respondents
 HIS367Y0,HIS,ARTSC,Making Central Europee HIS367Y0-F-LEC3001,Austin,Robert,Summer,2018,4.8,4.8,5,4.8,4.8,4.5,4.7,4,4.8,13,6
 HIS330H1,HIS,ARTSC,19th Cent Germany HIS330H1-S-LEC5101,Wiens,Gavin,Summer,2018,4.6,4.8,4.6,4.2,4.3,4.4,4.7,3.7,4.2,28,18
 HIS241H1,HIS,ARTSC,19th Century Europe HIS241H1-S-LEC5101,Sokolowski,Slawomir,Summer,2018,4.8,4.7,4.7,4.4,4.5,4.6,4.8,2.9,4.6,53,17

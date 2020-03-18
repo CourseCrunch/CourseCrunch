@@ -1,64 +1,106 @@
-Code,Dept,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Course Workload,I would recommend this course,I attended class,Inspired to learn subject matter,Number Invited,Number of Survey Responses
-CLA101H5,HISCL,Intro to Classical Civilizatn CLA101H5-F-LEC0101,Bendlin,Andreas,Fall,2019,3.8,4.1,4.0,3.2,3.4,3.6,2.9,3.5,N/A,3.4,122,45
+Code,Dept,Course,Last_Name,First_Name,Term,Year,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Course_Workload,I_would_recommend_this_course,I_attended_class,Inspired_to_learn_subject_matter,Number_Invited,Number_of_Survey_Responses
+CLA101H5,HISCL,Intro to Classical Civilizatn CLA101H5-F-LEC0101,Bendlin,Andreas,Fall,2019,3.8,4.1,4,3.2,3.4,3.6,2.9,3.5,N/A,3.4,122,45
 CLA101H5,HISCL,Intro to Classical Civilizatn CLA101H5-F-LEC0101,Chrubasik,Boris,Fall,2019,3.8,4.1,4.5,3.2,3.4,3.6,2.9,3.5,N/A,3.4,122,45
 CLA101H5,HISCL,Intro to Classical Civilizatn CLA101H5-F-LEC0101,Fulton,Carrie,Fall,2019,3.8,4.1,3.9,3.2,3.4,3.6,2.9,3.5,N/A,3.4,122,45
 CLA230H5,HISCL,Intro to Greek History CLA230H5-F-LEC0101,Chrubasik,Boris,Fall,2019,4.5,4.7,4.9,4.1,4.2,4.2,2.9,4.4,N/A,3.7,47,13
 CLA233H5,HISCL,Intro Roman Culture & Society CLA233H5-F-LEC0101,Fulton,Carrie,Fall,2019,4.4,4.6,4.8,4.4,4.6,4.3,2.8,4.4,N/A,4.2,40,19
 CLA360H5,HISCL,Early Greece CLA360H5-F-LEC0101,Chrubasik,Boris,Fall,2019,4.5,4.4,4.9,4.5,4.5,4.4,2.8,4.4,N/A,4.4,19,14
-CLA365H5,HISCL,Trade in Ancient Mediterranean CLA365H5-F-LEC0101,Fulton,Carrie,Fall,2019,4.8,4.6,4.4,4.4,4.6,4.4,3.2,4.6,N/A,4.0,15,5
-CLA370H5,HISCL,Late Antiquity CLA370H5-F-LEC0101,Andrews,Graham,Fall,2019,3.8,4.0,4.2,4.0,4.2,3.8,3.2,4.0,N/A,3.4,10,5
-CLA395H5,HISCL,Topics in Classics CLA395H5-F-LEC0101,Revermann,Martin,Fall,2019,4.8,4.8,4.8,3.8,4.3,4.7,3.0,4.7,N/A,4.7,7,6
+CLA365H5,HISCL,Trade in Ancient Mediterranean CLA365H5-F-LEC0101,Fulton,Carrie,Fall,2019,4.8,4.6,4.4,4.4,4.6,4.4,3.2,4.6,N/A,4,15,5
+CLA370H5,HISCL,Late Antiquity CLA370H5-F-LEC0101,Andrews,Graham,Fall,2019,3.8,4,4.2,4,4.2,3.8,3.2,4,N/A,3.4,10,5
+CLA395H5,HISCL,Topics in Classics CLA395H5-F-LEC0101,Revermann,Martin,Fall,2019,4.8,4.8,4.8,3.8,4.3,4.7,3,4.7,N/A,4.7,7,6
 HIS101H5,HISCL,Introduction to History HIS101H5-F-LEC0101,Petrakos,Christopher,Fall,2019,4.6,4.7,4.8,4.3,4.4,4.3,3.3,4.3,N/A,4.3,201,75
 HIS210H5,HISCL,Intro to Digital Humanities HIS210H5-F-LEC0101,Brown,Andrew,Fall,2019,4.3,4.4,4.3,4.4,4.4,4.3,3.4,4.3,N/A,4.1,22,8
 HIS241H5,HISCL,Intro to 19th Cent Euro His HIS241H5-F-LEC0101,Petrakos,Christopher,Fall,2019,4.7,4.4,4.6,4.1,4.2,4.3,3.5,4.1,N/A,4.1,32,15
-HIS263Y5,HISCL,The History of Canada HIS263Y5-Y-LEC0101,Gettler,Brian,Fall,2019,3.4,4.2,4.4,4.0,3.8,3.9,2.8,3.9,N/A,3.4,53,10
-HIS272H5,HISCL,US History  1877-present HIS272H5-F-LEC0101,Brown,Elspeth,Fall,2019,4.4,4.3,4.5,4.2,4.4,4.1,3.4,4.0,N/A,3.9,51,30
-HIS282H5,HISCL,Intro to South Asian History HIS282H5-F-LEC0101,Kasturi,Malavika,Fall,2019,3.9,3.9,3.4,3.6,3.6,3.4,4.3,3.0,N/A,3.3,14,7
+HIS263Y5,HISCL,The History of Canada HIS263Y5-Y-LEC0101,Gettler,Brian,Fall,2019,3.4,4.2,4.4,4,3.8,3.9,2.8,3.9,N/A,3.4,53,10
+HIS272H5,HISCL,US History  1877-present HIS272H5-F-LEC0101,Brown,Elspeth,Fall,2019,4.4,4.3,4.5,4.2,4.4,4.1,3.4,4,N/A,3.9,51,30
+HIS282H5,HISCL,Intro to South Asian History HIS282H5-F-LEC0101,Kasturi,Malavika,Fall,2019,3.9,3.9,3.4,3.6,3.6,3.4,4.3,3,N/A,3.3,14,7
 HIS284H5,HISCL,Intro to East Asian History HIS284H5-F-LEC0101,Lam,Tong,Fall,2019,3.9,4.3,3.8,3.8,3.9,3.4,2.7,3.7,N/A,3.7,43,11
-HIS295H5,HISCL,Intro to African History HIS295H5-F-LEC0101,MacArthur,Julie,Fall,2019,4.4,4.6,4.4,4.2,4.0,3.9,3.7,4.1,N/A,4.0,15,9
-HIS325H5,HISCL,Modern African History HIS325H5-F-LEC0101,MacArthur,Julie,Fall,2019,4.6,4.6,4.9,4.6,4.7,4.6,3.1,4.6,N/A,4.0,41,14
-HIS374H5,HISCL,Gendr Sexuality US 1945 presnt HIS374H5-F-LEC0101,Kuhn,Jedediah,Fall,2019,4.3,4.6,4.6,4.2,4.1,4.2,3.5,4.0,N/A,3.7,43,18
-HIS392H5,HISCL,Topics in Global History HIS392H5-F-LEC0101,Lam,Tong,Fall,2019,4.3,3.8,4.5,4.5,4.7,4.0,2.8,4.2,N/A,3.8,37,6
-HIS395H5,HISCL,Topics in History HIS395H5-F-LEC0102,Petrakos,Christopher,Fall,2019,3.7,3.9,3.6,3.1,3.4,3.3,4.4,2.9,N/A,3.0,41,15
-HIS397H5,HISCL,Iran's Islamic Revolution HIS397H5-F-LEC0101,Tavakoli-Targhi,Mohamad,Fall,2019,3.7,3.8,3.7,4.1,4.0,3.5,3.3,3.4,N/A,3.5,25,10
+HIS295H5,HISCL,Intro to African History HIS295H5-F-LEC0101,MacArthur,Julie,Fall,2019,4.4,4.6,4.4,4.2,4,3.9,3.7,4.1,N/A,4,15,9
+HIS325H5,HISCL,Modern African History HIS325H5-F-LEC0101,MacArthur,Julie,Fall,2019,4.6,4.6,4.9,4.6,4.7,4.6,3.1,4.6,N/A,4,41,14
+HIS374H5,HISCL,Gendr Sexuality US 1945 presnt HIS374H5-F-LEC0101,Kuhn,Jedediah,Fall,2019,4.3,4.6,4.6,4.2,4.1,4.2,3.5,4,N/A,3.7,43,18
+HIS392H5,HISCL,Topics in Global History HIS392H5-F-LEC0101,Lam,Tong,Fall,2019,4.3,3.8,4.5,4.5,4.7,4,2.8,4.2,N/A,3.8,37,6
+HIS395H5,HISCL,Topics in History HIS395H5-F-LEC0102,Petrakos,Christopher,Fall,2019,3.7,3.9,3.6,3.1,3.4,3.3,4.4,2.9,N/A,3,41,15
+HIS397H5,HISCL,Iran's Islamic Revolution HIS397H5-F-LEC0101,Tavakoli-Targhi,Mohamad,Fall,2019,3.7,3.8,3.7,4.1,4,3.5,3.3,3.4,N/A,3.5,25,10
 HIS454H5,HISCL,Race & Gend in Mod Latin Ameri HIS454H5-F-LEC0101,Coleman,Kevin,Fall,2019,4.7,4.6,4.6,4.6,4.6,4.4,4.2,4.2,N/A,4.5,19,17
-RLG101H5,HISCL,Intro Study of Religion RLG101H5-F-LEC0101,Derry,Kenneth,Fall,2019,3.9,4.1,4.6,4.3,4.2,4.0,3.0,3.9,N/A,3.8,255,104
-RLG206H5,HISCL,Introduction to Buddhism RLG206H5-F-LEC0101,Emmrich,Christoph,Fall,2019,3.1,3.5,3.4,3.5,3.6,3.2,2.5,3.7,N/A,3.0,142,42
+RLG101H5,HISCL,Intro Study of Religion RLG101H5-F-LEC0101,Derry,Kenneth,Fall,2019,3.9,4.1,4.6,4.3,4.2,4,3,3.9,N/A,3.8,255,104
+RLG206H5,HISCL,Introduction to Buddhism RLG206H5-F-LEC0101,Emmrich,Christoph,Fall,2019,3.1,3.5,3.4,3.5,3.6,3.2,2.5,3.7,N/A,3,142,42
 RLG207H5,HISCL,Introduction to Sikhism RLG207H5-F-LEC0101,Vig,Julie,Fall,2019,4.6,4.6,4.8,4.6,4.8,4.6,2.6,4.9,N/A,4.7,76,42
 RLG211H5,HISCL,Intro Rlg  Media & Pop Culture RLG211H5-F-LEC0101,Tankha,Akshaya,Fall,2019,3.6,3.6,3.3,3.6,3.7,3.1,3.6,3.3,N/A,3.4,51,21
 RLG310H5,HISCL,The Ramayana RLG310H5-F-LEC0101,Gomes,Mekhola,Fall,2019,4.3,4.5,4.6,4.4,4.5,4.3,3.3,4.2,N/A,4.1,25,14
-RLG317H5,HISCL,Religion and Science RLG317H5-F-LEC0101,Lehto,Adam,Fall,2019,3.5,4.0,3.6,3.6,3.7,3.4,3.4,3.6,N/A,3.4,44,14
+RLG317H5,HISCL,Religion and Science RLG317H5-F-LEC0101,Lehto,Adam,Fall,2019,3.5,4,3.6,3.6,3.7,3.4,3.4,3.6,N/A,3.4,44,14
 RLG325H5,HISCL,Visions and Revelations RLG325H5-F-LEC0101,Raffaelli,Enrico,Fall,2019,4.6,4.7,4.6,4.7,4.9,4.7,3.4,4.4,N/A,3.9,14,7
-RLG332H5,HISCL,Reel Religion RLG332H5-F-LEC0101,Derry,Kenneth,Fall,2019,4.4,4.5,4.7,4.4,4.4,4.7,3.0,4.5,N/A,4.1,46,23
-RLG340H5,HISCL,Topics in Christianity RLG340H5-F-LEC0101,Baillargeon,Danielle,Fall,2019,3.8,3.8,3.6,3.8,4.0,3.4,3.8,3.4,N/A,3.8,12,5
-WGS101H5,HISCL,Int. to Women & Gender Studies WGS101H5-F-LEC0101,Simalchik,Joan,Fall,2019,3.6,4.1,4.0,3.6,4.0,3.7,2.9,3.8,N/A,3.6,155,47
-WGS200Y5,HISCL,Theory in Women & Gen Studies WGS200Y5-Y-LEC0101,Bain,Beverly,Fall,2019,4.1,4.3,4.0,3.9,4.1,4.0,3.2,3.9,N/A,4.4,92,24
-WGS205H5,HISCL,Intr to Feminism & Pop Culture WGS205H5-F-LEC0101,Charles,Nicole,Fall,2019,4.5,4.4,4.5,4.1,4.1,4.0,3.3,4.1,N/A,4.1,67,38
-WGS337H5,HISCL,Topics: Women & Gender Studies WGS337H5-F-LEC0101,Grey,Cornel,Fall,2019,4.2,4.1,4.5,4.3,4.3,4.0,3.0,4.2,N/A,4.1,33,11
+RLG332H5,HISCL,Reel Religion RLG332H5-F-LEC0101,Derry,Kenneth,Fall,2019,4.4,4.5,4.7,4.4,4.4,4.7,3,4.5,N/A,4.1,46,23
+RLG340H5,HISCL,Topics in Christianity RLG340H5-F-LEC0101,Baillargeon,Danielle,Fall,2019,3.8,3.8,3.6,3.8,4,3.4,3.8,3.4,N/A,3.8,12,5
+WGS101H5,HISCL,Int. to Women & Gender Studies WGS101H5-F-LEC0101,Simalchik,Joan,Fall,2019,3.6,4.1,4,3.6,4,3.7,2.9,3.8,N/A,3.6,155,47
+WGS200Y5,HISCL,Theory in Women & Gen Studies WGS200Y5-Y-LEC0101,Bain,Beverly,Fall,2019,4.1,4.3,4,3.9,4.1,4,3.2,3.9,N/A,4.4,92,24
+WGS205H5,HISCL,Intr to Feminism & Pop Culture WGS205H5-F-LEC0101,Charles,Nicole,Fall,2019,4.5,4.4,4.5,4.1,4.1,4,3.3,4.1,N/A,4.1,67,38
+WGS337H5,HISCL,Topics: Women & Gender Studies WGS337H5-F-LEC0101,Grey,Cornel,Fall,2019,4.2,4.1,4.5,4.3,4.3,4,3,4.2,N/A,4.1,33,11
 WGS347H5,HISCL,Indig Fem and Decolonization WGS347H5-F-LEC0101,Kuhn,Jedediah,Fall,2019,4.6,4.5,4.8,4.3,4.4,4.7,3.3,4.8,N/A,4.8,34,16
-WGS373H5,HISCL,Gender  Violence & Resistance WGS373H5-F-LEC0101,Bain,Beverly,Fall,2019,4.0,4.1,4.2,3.6,3.9,3.7,3.2,3.9,N/A,4.1,80,21
-WGS418H5,HISCL,Feminist Cultural Stds Biomed WGS418H5-F-LEC0101,Charles,Nicole,Fall,2019,4.9,4.9,4.9,4.8,5.0,4.5,4.1,4.4,N/A,4.7,13,10
-HIS295H5,HISCL,Intro to African History HIS295H5-S-LEC0101,MacArthur,Julie,Winter,2019,3.9,3.8,4,3.5,3.7,3.5,4.1,3,N/A,3.5,47,19
-HIS463H5,HISCL,Mem & Mem in Sth African His HIS463H5-S-LEC0101,MacArthur,Julie,Winter,2019,5,4.8,5,4.6,4.8,4.8,3.6,5,N/A,4.8,9,5
-HIS326Y5,HISCL,His Women in Canada 1600-2000 HIS326Y5-S-LEC0101,Main,Kimberly,Winter,2019,3.7,4,3.7,3.8,3.7,3.4,3.6,3.6,N/A,3.4,75,31
-HIS382H5,HISCL,Nationalism in Mod South Asia HIS382H5-S-LEC0101,Mathew,Jaby,Winter,2019,4.1,4.4,3.9,4.1,4.1,4,4.3,3.7,N/A,4,19,7
+WGS373H5,HISCL,Gender  Violence & Resistance WGS373H5-F-LEC0101,Bain,Beverly,Fall,2019,4,4.1,4.2,3.6,3.9,3.7,3.2,3.9,N/A,4.1,80,21
+WGS418H5,HISCL,Feminist Cultural Stds Biomed WGS418H5-F-LEC0101,Charles,Nicole,Fall,2019,4.9,4.9,4.9,4.8,5,4.5,4.1,4.4,N/A,4.7,13,10
+HIS358H5,HISCL,Canada Since World War Two HIS358H5-S-LEC0101,Luciuk,Kassandra,Summer,2019,4.4,4.4,4.7,4.3,4.3,4.4,2.7,4.4,N/A,4.3,45,19
+WGS420H5,HISCL,Engendering Human Rights WGS420H5-S-LEC0101,May,Jeff,Summer,2019,4.8,4.4,4.6,4.2,4.2,4.0,4.4,4.6,N/A,4.2,5,5
+WGS370H5,HISCL,Gender  Sexuality  Identity WGS370H5-S-LEC0101,Grey,Cornel,Summer,2019,3.6,3.9,3.9,4.0,3.9,3.5,4.0,3.6,N/A,3.8,23,8
+HIS407H5,HISCL,Imperl.Germany 1871-1918 HIS407H5-S-LEC0101,Hatton,Helen,Summer,2019,4.6,4.4,4.9,4.4,4.6,4.3,3.9,4.0,N/A,4.4,13,7
+RLG209H5,HISCL,Intro to Indigenous Traditions RLG209H5-S-LEC0101,Morgan,Sarah,Summer,2019,3.9,4.2,4.1,3.5,3.5,3.5,3.6,3.7,N/A,3.9,55,23
+RLG203H5,HISCL,Introduction to Christianity RLG203H5-S-LEC0101,Lehto,Adam,Summer,2019,3.0,3.1,2.8,3.0,3.2,2.7,3.1,2.7,N/A,2.3,58,17
+CLA201H5,HISCL,Latin & Greek in Sci Term CLA201H5-S-LEC0101,Wallace-Hare,David,Summer,2019,3.6,3.9,4.1,4.0,4.1,3.4,3.5,3.2,N/A,3.1,65,17
+HIS212H5,HISCL,The History of Capitalism HIS212H5-S-LEC0101,Guadagnolo,Daniel,Summer,2019,4.5,4.7,4.9,4.6,4.6,4.4,2.8,4.6,N/A,4.2,46,16
+RLG101H5,HISCL,Intro Study of Religion RLG101H5-F-LEC0101,Richardson,Sarah,Summer,2019,3.2,3.3,3.4,3.5,3.3,3.0,3.1,2.9,N/A,2.7,57,10
+HIS236H5,HISCL,Intro to British History HIS236H5-F-LEC0101,Hatton,Helen,Summer,2019,4.5,4.1,4.4,4.4,4.5,3.9,3.3,4.0,N/A,3.9,18,8
+HIS201H5,HISCL,Intro to Middle East History HIS201H5-F-LEC0101,Benson-Sokmen,Susan,Summer,2019,4.8,4.7,4.3,4.5,4.3,4.0,3.5,4.5,N/A,4.5,24,6
+RLG205H5,HISCL,Key Themes in South Asian Rlgs RLG205H5-F-LEC0101,Gomes,Mekhola,Summer,2019,3.1,3.4,3.1,3.2,3.2,2.8,3.7,2.6,N/A,2.7,39,15
+WGS343H5,HISCL,Sex and Gender in la Cite WGS343H5-F-LEC0101,Maynard,Robyn,Summer,2019,4.9,4.9,5.0,5.0,4.9,4.9,3.0,5.0,N/A,5.0,11,9
+RLG388H5,HISCL,Special Topics RLG388H5-F-LEC0101,Chattoo,Saliha,Summer,2019,4.5,4.6,4.9,4.4,4.5,4.4,3.3,4.3,N/A,4.2,25,21
+WGS337H5,HISCL,Topics: Women & Gender Studies WGS337H5-F-LEC0101,Abdulnour,Shahad,Summer,2019,4.6,4.8,4.8,4.8,4.7,4.4,3.1,4.6,N/A,4.6,23,20
+WGS250H5,HISCL,Women in Families WGS250H5-F-LEC0101,Baptiste-Brady,Janelle,Summer,2019,3.9,3.9,4.1,3.9,4.1,3.8,3.2,3.6,N/A,3.6,32,14
+HIS310H5,HISCL,Women Since 1800 HIS310H5-F-LEC0101,Benson-Sokmen,Susan,Summer,2019,3.6,3.9,3.8,3.5,3.6,3.2,3.2,3.5,N/A,3.2,36,13
+WGS367H5,HISCL,Women and Health WGS367H5-S-LEC0101,Abdulnour,Shahad,Winter,2019,3.8,3.9,4.1,4.0,3.8,3.8,3.0,3.9,N/A,3.8,31,25
+WGS365H5,HISCL,Gender  Justice and the Law WGS365H5-S-LEC0101,Bain,Beverly,Winter,2019,4.6,4.6,4.6,4.6,4.9,4.4,3.1,4.6,N/A,4.4,51,9
+CLA204H5,HISCL,Intro Classical Mythology CLA204H5-S-LEC0101,Bilynskyj Dunning,Susan,Winter,2019,3.6,4.1,3.6,3.6,3.7,3.2,3.2,3.2,N/A,3.2,166,41
+CLA233H5,HISCL,Intro Roman Culture & Society CLA233H5-S-LEC0101,Bilynskyj Dunning,Susan,Winter,2019,3.9,4.1,4.0,3.7,4.0,3.7,2.7,3.6,N/A,3.7,39,8
+WGS202H5,HISCL,Fund of Resrch Women Gndr Stud WGS202H5-S-LEC0101,Tahmasebi-Birgani,Victoria,Winter,2019,3.2,3.6,3.7,3.7,3.8,3.3,3.0,3.3,N/A,3.4,55,15
+HIS272H5,HISCL,US History  1877-present HIS272H5-S-LEC0101,Brown,Elspeth,Winter,2019,4.3,4.4,4.5,4.1,4.2,4.1,2.8,4.1,N/A,4.3,51,28
+WGS470H5,HISCL,Feminism and Popular Culture WGS470H5-S-LEC0101,Charles,Nicole,Winter,2019,4.7,4.8,4.7,4.7,4.5,4.3,3.6,4.6,N/A,4.8,13,11
+CLA390H5,HISCL,Topics: Greek Hist. & Culture CLA390H5-S-LEC0101,Chrubasik,Boris,Winter,2019,4.4,4.6,4.8,4.6,4.2,4.4,3.2,4.6,N/A,4.6,13,5
+DTS401H5,HISCL,Advanced Topics in DTS DTS401H5-S-LEC0101,Ganapathy-Coleman,Hemalatha,Winter,2019,4.3,4.3,4.3,4.3,4.3,3.7,4.1,3.9,N/A,3.9,20,7
+RLG314H5,HISCL,Religion and Gender RLG314H5-S-LEC0101,Ganapathy-Coleman,Hemalatha,Winter,2019,3.5,3.7,3.9,3.7,3.6,3.3,3.6,3.3,N/A,3.6,58,11
+RLG415H5,HISCL,Advanced Topics Study Religion RLG415H5-S-LEC0101,Derry,Kenneth,Winter,2019,4.9,4.7,4.7,4.5,4.6,4.7,3.2,4.6,N/A,4.6,11,11
+RLG312Y5,HISCL,How to Study Religion RLG312Y5-Y-LEC0101,Derry,Kenneth,Winter,2019,3.9,3.9,4.2,3.5,3.8,3.8,3.4,3.5,N/A,3.2,38,17
+RLG101H5,HISCL,Intro Study of Religion RLG101H5-S-LEC0101,Derry,Kenneth,Winter,2019,3.5,3.7,4.2,3.7,3.8,3.6,3.2,3.6,N/A,3.0,408,119
+CLA230H5,HISCL,Intro to Greek History CLA230H5-S-LEC0101,Easton,Jeffrey,Winter,2019,3.9,4.1,4.3,3.5,3.9,3.6,3.1,3.8,N/A,3.3,51,19
+HIS319H5,HISCL,Canadian Environmental History HIS319H5-S-LEC0101,Edwards,Bret,Winter,2019,3.6,3.8,4.1,3.8,3.8,3.6,3.0,3.6,N/A,3.5,43,11
+WGS200Y5,HISCL,Theory in Women & Gen Studies WGS200Y5-Y-LEC0101,Ellapen,Jordache,Winter,2019,3.6,3.8,2.6,3.4,3.5,3.0,3.3,3.2,N/A,3.4,81,24
+RLG318H5,HISCL,Jainism RLG318H5-S-LEC0101,Emmrich,Christoph,Winter,2019,4.1,4.3,4.3,4.2,4.4,4.1,3.0,4.4,N/A,4.2,43,9
+WGS368H5,HISCL,Women in World Cultures WGS368H5-S-LEC0101,Gross,Zoe,Winter,2019,4.6,4.7,4.8,4.6,4.6,4.4,3.1,4.6,N/A,4.3,40,13
+HIS212H5,HISCL,The History of Capitalism HIS212H5-S-LEC0101,Guadagnolo,Daniel,Winter,2019,4.6,4.6,4.9,4.4,4.5,4.6,3.3,4.6,N/A,4.5,75,29
+HIS392H5,HISCL,Topics in Global History HIS392H5-S-LEC0101,Hanssen,Jens,Winter,2019,3.3,3.2,3.3,3.3,3.6,2.8,2.7,2.7,N/A,2.7,37,12
+RLG340H5,HISCL,Topics in Christianity RLG340H5-S-LEC0101,Jones,Anastasia,Winter,2019,4.3,4.1,4.0,4.0,3.9,4.0,3.1,3.9,N/A,3.3,19,7
+RLG207H5,HISCL,Introduction to Sikhism RLG207H5-S-LEC0101,Kaur,Amardeep,Winter,2019,3.6,3.7,3.4,3.8,3.8,3.6,3.1,3.5,N/A,3.4,107,18
+WGS350H5,HISCL,Crit Race Theory in WGS WGS350H5-S-LEC0101,Kuhn,Jedediah,Winter,2019,4.3,4.4,4.4,4.2,4.1,4.0,3.3,4.2,N/A,3.9,29,12
+HIS378H5,HISCL,East Asian Cities HIS378H5-S-LEC0101,Lam,Tong,Winter,2019,3.2,3.5,2.9,3.6,3.8,2.9,2.7,3.1,N/A,3.2,41,11
+RLG356H5,HISCL,Christianity in Asia to 1300 RLG356H5-S-LEC0101,Lehto,Adam,Winter,2019,3.6,4.0,3.6,4.2,4.3,3.6,3.6,3.7,N/A,3.4,32,11
+HIS295H5,HISCL,Intro to African History HIS295H5-S-LEC0101,MacArthur,Julie,Winter,2019,3.9,3.8,4.0,3.5,3.7,3.5,4.1,3.0,N/A,3.5,47,19
+HIS463H5,HISCL,Mem & Mem in Sth African His HIS463H5-S-LEC0101,MacArthur,Julie,Winter,2019,5.0,4.8,5.0,4.6,4.8,4.8,3.6,5.0,N/A,4.8,9,5
+HIS326Y5,HISCL,His Women in Canada 1600-2000 HIS326Y5-S-LEC0101,Main,Kimberly,Winter,2019,3.7,4.0,3.7,3.8,3.7,3.4,3.6,3.6,N/A,3.4,75,31
+HIS382H5,HISCL,Nationalism in Mod South Asia HIS382H5-S-LEC0101,Mathew,Jaby,Winter,2019,4.1,4.4,3.9,4.1,4.1,4.0,4.3,3.7,N/A,4.0,19,7
 WGS354H5,HISCL,Gender  Sexuality & Sport WGS354H5-S-LEC0101,May,Jeff,Winter,2019,4.4,4.6,4.9,4.4,4.4,4.2,3.2,4.5,N/A,4.3,58,19
 RLG463H5,HISCL,Genealogies of South Asn Rlg RLG463H5-S-LEC0101,Obrock,Luther,Winter,2019,4.4,4.2,4.4,4.6,4.4,4.2,3.2,4.2,N/A,3.8,18,5
 RLG347H5,HISCL,Zoroastrian Sacred Writings RLG347H5-S-LEC0101,Raffaelli,Enrico,Winter,2019,3.9,4.4,4.7,4.4,4.3,4.3,2.7,4.1,N/A,3.4,21,7
 RLG207H5,HISCL,Introduction to Sikhism RLG207H5-S-LEC0101,Rao,Ajay,Winter,2019,3.6,3.7,2.6,3.8,3.8,3.6,3.1,3.5,N/A,3.4,107,18
-HIS203H5,HISCL,Making of the Atlantic World HIS203H5-S-LEC0101,Reeser,Sarah,Winter,2019,3.8,4.1,4.1,3.8,3.8,3.6,3,3.7,N/A,3.6,71,22
-CLA300H5,HISCL,Greek Tragedy & Comedy CLA300H5-S-LEC0101,Revermann,Martin,Winter,2019,3.9,4,4,4,4.1,3.7,3.1,3.9,N/A,3.8,40,22
+HIS203H5,HISCL,Making of the Atlantic World HIS203H5-S-LEC0101,Reeser,Sarah,Winter,2019,3.8,4.1,4.1,3.8,3.8,3.6,3.0,3.7,N/A,3.6,71,22
+CLA300H5,HISCL,Greek Tragedy & Comedy CLA300H5-S-LEC0101,Revermann,Martin,Winter,2019,3.9,4.0,4.0,4.0,4.1,3.7,3.1,3.9,N/A,3.8,40,22
 CLA303H5,HISCL,The Ancient Novel CLA303H5-S-LEC0101,Revermann,Martin,Winter,2019,3.8,4.2,4.2,3.7,3.9,3.9,3.2,3.9,N/A,3.7,13,10
 RLG201H5,HISCL,Intr Rlg in Lit Visul Perf Art RLG201H5-S-LEC0101,Richardson,Sarah,Winter,2019,4.1,4.3,4.6,4.3,4.1,3.9,3.1,4.1,N/A,3.5,60,15
-RLG378H5,HISCL,Museums and Material Religion RLG378H5-S-LEC0101,Richardson,Sarah,Winter,2019,4.2,4.2,4.6,4.4,4.3,3.9,3.1,4.3,N/A,4,29,13
-WGS435Y5,HISCL,WGS Practicum WGS435Y5-Y-LEC0101,Simalchik,Joan,Winter,2019,4.9,5,5,5,5,5,3.3,4.9,N/A,5,10,7
-RLG203H5,HISCL,Introduction to Christianity RLG203H5-S-LEC9999,Smith,Kyle,Winter,2019,3.5,3.8,3.7,3.4,3.5,3.1,4,2.8,N/A,3,208,75
-HIS390H5,HISCL,Revol & Nations Latin America HIS390H5-S-LEC0101,Toffoli,Erica,Winter,2019,4.3,4.3,4,4.2,4.1,3.9,3.4,4.1,N/A,4,41,29
-RLG204H5,HISCL,Intro to Islam and Muslim Civ RLG204H5-S-LEC0101,Virani,Shafique,Winter,2019,3.2,3,3.4,2.4,2.5,2.6,4.5,2.4,N/A,2.8,144,54
+RLG378H5,HISCL,Museums and Material Religion RLG378H5-S-LEC0101,Richardson,Sarah,Winter,2019,4.2,4.2,4.6,4.4,4.3,3.9,3.1,4.3,N/A,4.0,29,13
+WGS435Y5,HISCL,WGS Practicum WGS435Y5-Y-LEC0101,Simalchik,Joan,Winter,2019,4.9,5.0,5.0,5.0,5.0,5.0,3.3,4.9,N/A,5.0,10,7
+RLG203H5,HISCL,Introduction to Christianity RLG203H5-S-LEC9999,Smith,Kyle,Winter,2019,3.5,3.8,3.7,3.4,3.5,3.1,4.0,2.8,N/A,3.0,208,75
+HIS390H5,HISCL,Revol & Nations Latin America HIS390H5-S-LEC0101,Toffoli,Erica,Winter,2019,4.3,4.3,4.0,4.2,4.1,3.9,3.4,4.1,N/A,4.0,41,29
+RLG204H5,HISCL,Intro to Islam and Muslim Civ RLG204H5-S-LEC0101,Virani,Shafique,Winter,2019,3.2,3.0,3.4,2.4,2.5,2.6,4.5,2.4,N/A,2.8,144,54
 RLG453H5,HISCL,Researching Islam RLG453H5-S-LEC0101,Virani,Shafique,Winter,2019,4.3,4.2,4.4,3.7,4.1,4.2,4.6,3.8,N/A,3.6,20,9
 HIS263Y5,HISCL,The History of Canada HIS263Y5-Y-LEC0101,White,Richard,Winter,2019,3.9,4.3,4.4,4.4,4.4,3.6,3.3,3.3,N/A,3.4,50,12
-HIS438H5,HISCL,Holocaust & HIS Mem. Eur.& NA HIS438H5-S-LEC0101,Wittmann,Rebecca,Winter,2019,4.7,5,4.8,5,5,4.5,3.7,4.7,N/A,4.7,12,6
-WGS102H5,HISCL,Read. & Writ. Wmn & Gen Stu WGS102H5-S-LEC0101,Woldemichael,Bethel,Winter,2019,4,4.2,4.6,4.4,4.4,4,3,4.4,N/A,4,57,25
+HIS438H5,HISCL,Holocaust & HIS Mem. Eur.& NA HIS438H5-S-LEC0101,Wittmann,Rebecca,Winter,2019,4.7,5.0,4.8,5.0,5.0,4.5,3.7,4.7,N/A,4.7,12,6
+WGS102H5,HISCL,Read. & Writ. Wmn & Gen Stu WGS102H5-S-LEC0101,Woldemichael,Bethel,Winter,2019,4.0,4.2,4.6,4.4,4.4,4.0,3.0,4.4,N/A,4.0,57,25
 WGS200Y5,HISCL,Theory in Women & Gen Studies WGS200Y5-Y-LEC0101,Bain,Beverly,Fall,2018,3.9,4.1,4.1,3.7,3.6,3.6,3.2,3.6,N/A,3.9,85,24
 WGS372H5,HISCL,Theories of Sexuality WGS372H5-F-LEC0101,Bain,Beverly,Fall,2018,3.8,3.7,3.9,3.6,3.9,3.5,3,3.5,N/A,3.3,41,14
 WGS337H5,HISCL,Topics: Women & Gender Studies WGS337H5-F-LEC0101,Bain,Beverly,Fall,2018,3.8,3.5,3.3,4.3,4.3,3.8,2.5,3.3,N/A,4,34,5

@@ -1,4 +1,4 @@
-Code,Dept,Division,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Instructor generated enthusiasm,Course Workload,I would recommend this course,Number of Students Invited,Number of Respondents
+Code,Dept,Division,Course,Last_Name,First_Name,Term,Year,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Instructor_generated_enthusiasm,Course_Workload,I_would_recommend_this_course,Number_of_Students_Invited,Number_of_Respondents
 CJS200H1,JSP,ARTSC,Intro Jewish Thought CJS200H1-S-LEC0101,Fehige,Yiftach,Winter,2018,4.6,4.4,4.2,4.2,4.3,4.3,4.5,2.7,4.2,40,13
 CJS200H1,JSP,ARTSC,Intro Jewish Thought CJS200H1-S-LEC0101,Goldberg,Sol,Winter,2018,4.6,4.4,4.8,4.2,4.3,4.3,4.8,2.7,4.2,40,13
 CJS200H1,JSP,ARTSC,Intro Jewish Thought CJS200H1-S-LEC0101,Hubner,Karolina,Winter,2018,4.6,4.4,4.2,4.2,4.3,4.3,3.9,2.7,4.2,40,13

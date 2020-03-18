@@ -1,44 +1,68 @@
-Code,Dept,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Course Workload,I would recommend this course,I attended class,Inspired to learn subject matter,Number Invited,Number of Survey Responses
-BIO203H5,UMBIO,Intro Plant Morph & Physiology BIO203H5-F-LEC0101,Chatfield,Steven,Fall,2019,3.6,4.0,4.1,3.9,3.8,3.6,3.3,3.3,N/A,3.2,288,110
-BIO205H5,UMBIO,Ecology BIO205H5-F-LEC0101,Richter,Christoph,Fall,2019,3.6,3.9,4.0,3.7,3.8,3.5,2.9,3.7,N/A,3.4,376,180
-BIO206H5,UMBIO,Intro Cell & Molecular Biology BIO206H5-F-LEC0101,Espie,George,Fall,2019,3.7,4.0,3.6,3.5,3.4,3.2,4.1,3.0,N/A,3.3,456,173
+Code,Dept,Course,Last_Name,First_Name,Term,Year,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Course_Workload,I_would_recommend_this_course,I_attended_class,Inspired_to_learn_subject_matter,Number_Invited,Number_of_Survey_Responses
+BIO203H5,UMBIO,Intro Plant Morph & Physiology BIO203H5-F-LEC0101,Chatfield,Steven,Fall,2019,3.6,4,4.1,3.9,3.8,3.6,3.3,3.3,N/A,3.2,288,110
+BIO205H5,UMBIO,Ecology BIO205H5-F-LEC0101,Richter,Christoph,Fall,2019,3.6,3.9,4,3.7,3.8,3.5,2.9,3.7,N/A,3.4,376,180
+BIO206H5,UMBIO,Intro Cell & Molecular Biology BIO206H5-F-LEC0101,Espie,George,Fall,2019,3.7,4,3.6,3.5,3.4,3.2,4.1,3,N/A,3.3,456,173
 BIO211H5,UMBIO,The Hist of Our Living Planet BIO211H5-F-LEC0101,Gee,Bryan,Fall,2019,3.8,3.8,4.3,4.1,4.1,3.7,2.3,4.2,N/A,3.8,24,10
-BIO312H5,UMBIO,Plant Physiology BIO312H5-F-LEC0101,Ensminger,Ingo,Fall,2019,3.3,3.5,3.8,3.8,3.6,3.2,3.8,2.9,N/A,3.0,40,28
-BIO333H5,UMBIO,Freshwater Ecology BIO333H5-F-LEC0101,Barth,Lauren,Fall,2019,4.6,5.0,4.8,4.6,4.6,4.7,2.9,4.8,N/A,4.6,26,12
+BIO312H5,UMBIO,Plant Physiology BIO312H5-F-LEC0101,Ensminger,Ingo,Fall,2019,3.3,3.5,3.8,3.8,3.6,3.2,3.8,2.9,N/A,3,40,28
+BIO333H5,UMBIO,Freshwater Ecology BIO333H5-F-LEC0101,Barth,Lauren,Fall,2019,4.6,5,4.8,4.6,4.6,4.7,2.9,4.8,N/A,4.6,26,12
 BIO341H5,UMBIO,Advanced Genetics BIO341H5-F-LEC0101,Atallah,Jayed,Fall,2019,4.6,4.5,4.5,3.9,3.8,4.3,3.2,4.1,N/A,4.2,75,33
-BIO347H5,UMBIO,Epigenetics BIO347H5-F-LEC0101,Braeutigam,Katharina,Fall,2019,2.7,2.3,1.8,2.0,1.9,1.7,4.2,1.8,N/A,2.2,34,21
+BIO347H5,UMBIO,Epigenetics BIO347H5-F-LEC0101,Braeutigam,Katharina,Fall,2019,2.7,2.3,1.8,2,1.9,1.7,4.2,1.8,N/A,2.2,34,21
 BIO362H5,UMBIO,Bioinformatics BIO362H5-F-LEC0101,Ness,Robert,Fall,2019,4.2,4.3,4.4,4.2,4.2,3.8,3.7,3.7,N/A,4.1,49,17
 BIO370Y5,UMBIO,Microbiology BIO370Y5-Y-LEC0101,Espie,George,Fall,2019,3.8,3.9,4.1,3.3,3.6,3.3,3.8,3.2,N/A,3.7,93,26
 BIO378H5,UMBIO,Bio of Marine Mammals BIO378H5-F-LEC0101,Richter,Christoph,Fall,2019,4.6,4.8,4.8,4.4,4.4,4.5,2.9,4.6,N/A,4.6,47,25
-BIO380H5,UMBIO,Human Development BIO380H5-F-LEC0101,Atallah,Jayed,Fall,2019,4.1,4.2,4.0,3.4,3.3,3.5,3.4,3.5,N/A,3.7,269,120
+BIO380H5,UMBIO,Human Development BIO380H5-F-LEC0101,Atallah,Jayed,Fall,2019,4.1,4.2,4,3.4,3.3,3.5,3.4,3.5,N/A,3.7,269,120
 BIO406H5,UMBIO,Topics - Ecology and Evolution BIO406H5-F-LEC0101,Gwynne,Darryl,Fall,2019,4.6,4.7,4.6,4.2,4.2,4.3,2.8,4.6,N/A,4.4,23,9
-BIO408H5,UMBIO,Neural Circuit Structure Funct BIO408H5-F-LEC0101,Liu,Baohua,Fall,2019,4.4,4.6,4.0,4.1,4.3,3.7,4.1,3.6,N/A,4.3,16,7
+BIO408H5,UMBIO,Neural Circuit Structure Funct BIO408H5-F-LEC0101,Liu,Baohua,Fall,2019,4.4,4.6,4,4.1,4.3,3.7,4.1,3.6,N/A,4.3,16,7
 BIO409H5,UMBIO,Laboratory Animal Physiology BIO409H5-F-LEC0101,Lange,Angela,Fall,2019,4.1,4.1,4.6,4.2,4.1,3.9,3.6,3.9,N/A,3.8,56,26
 BIO443H5,UMBIO,Phylogenetic Principles BIO443H5-F-LEC0101,Stefanovic,Sasa,Fall,2019,3.5,3.5,3.2,2.7,2.8,2.2,4.3,2.2,N/A,2.7,18,6
 BIO475H5,UMBIO,Virology BIO475H5-F-LEC0101,Short,Steven,Fall,2019,4.8,4.9,4.9,4.5,4.6,4.7,3.2,4.8,N/A,4.5,19,12
 BIO477H5,UMBIO,Human Genome Cancer Biology BIO477H5-F-LEC0101,Westwood,Timothy,Fall,2019,3.9,4.3,3.6,3.8,3.7,3.3,3.8,3.3,N/A,4.1,26,11
-BIO483H5,UMBIO,Selected Topics in Biology I BIO483H5-F-LEC0101,Walters,Brandon,Fall,2019,4.5,5.0,4.8,5.0,5.0,4.8,3.3,4.8,N/A,4.9,16,8
-HSC200H5,UMBIO,Imaging Tech- Sci Vis Communic HSC200H5-F-LEC0101,Mazierski,David,Fall,2019,4.0,4.2,4.4,4.4,4.4,4.1,2.8,4.2,N/A,4.0,167,67
-HSC307H5,UMBIO,Vis Presen Design for Life Sci HSC307H5-F-LEC0101,Corrin,Michael,Fall,2019,4.7,4.9,4.7,4.8,5.0,4.9,3.3,4.1,N/A,4.7,10,7
-HSC401H5,UMBIO,Health and Science Com Design HSC401H5-F-LEC0101,Rose,Tabetha,Fall,2019,4.5,4.6,4.6,4.5,4.5,4.5,3.3,4.5,N/A,4.0,20,13
-BIO313H5,UMBIO,Fld Mthd & Stat Anal in Ecol BIO313H5-S-PRA0101,McMeans,Bailey,Winter,2019,4.6,4.4,5,4.8,4.8,4.5,3.2,4.5,N/A,4.5,28,17
+BIO483H5,UMBIO,Selected Topics in Biology I BIO483H5-F-LEC0101,Walters,Brandon,Fall,2019,4.5,5,4.8,5,5,4.8,3.3,4.8,N/A,4.9,16,8
+HSC200H5,UMBIO,Imaging Tech- Sci Vis Communic HSC200H5-F-LEC0101,Mazierski,David,Fall,2019,4,4.2,4.4,4.4,4.4,4.1,2.8,4.2,N/A,4,167,67
+HSC307H5,UMBIO,Vis Presen Design for Life Sci HSC307H5-F-LEC0101,Corrin,Michael,Fall,2019,4.7,4.9,4.7,4.8,5,4.9,3.3,4.1,N/A,4.7,10,7
+HSC401H5,UMBIO,Health and Science Com Design HSC401H5-F-LEC0101,Rose,Tabetha,Fall,2019,4.5,4.6,4.6,4.5,4.5,4.5,3.3,4.5,N/A,4,20,13
+BIO360H5,UMBIO,Biometrics I BIO360H5-S-LEC0101,Abdel Hafez,Hossam,Summer,2019,3.8,4.0,3.8,3.9,3.9,3.6,3.7,3.6,N/A,3.6,67,24
+BIO153H5,UMBIO,Diversity of Organisms BIO153H5-S-LEC0101,Nunes,Krystal,Summer,2019,4.2,4.5,4.6,4.3,4.3,4.1,3.0,4.1,N/A,4.1,39,22
+BIO210Y5,UMBIO,Human Anatomy and Physiology BIO210Y5-Y-LEC0101,Patel,Krupa,Summer,2019,4.0,4.3,4.4,3.6,3.7,3.7,3.7,3.6,N/A,4.0,46,26
+BIO207H5,UMBIO,Intro Genetics BIO207H5-S-LEC0101,Atallah,Jayed,Summer,2019,4.2,4.3,4.2,3.9,3.7,3.6,3.4,3.4,N/A,3.6,77,44
+BIO201H5,UMBIO,Biology Behind the News BIO201H5-F-LEC0101,Arts,Maria,Summer,2019,3.1,3.2,3.2,3.1,3.0,2.6,3.6,2.4,N/A,2.9,26,9
+BIO205H5,UMBIO,Ecology BIO205H5-F-LEC0101,Nunes,Krystal,Summer,2019,4.2,4.4,4.4,4.0,4.0,4.1,3.2,3.9,N/A,3.7,38,9
+BIO206H5,UMBIO,Intro Cell & Molecular Biology BIO206H5-F-LEC0101,Atallah,Jayed,Summer,2019,4.2,4.5,4.3,3.9,4.0,3.8,3.5,3.6,N/A,4.1,103,42
+BIO152H5,UMBIO,Intro Evolution&Evol.Genetics BIO152H5-F-LEC0101,Arts,Maria,Summer,2019,3.7,3.8,3.8,3.9,3.9,3.6,3.1,3.9,N/A,3.9,40,14
+BIO202H5,UMBIO,Introductory Animal Physiology BIO202H5-F-LEC0101,Abdalahad,Nagham,Summer,2019,3.8,3.9,3.9,3.5,3.5,3.4,3.3,3.6,N/A,3.7,68,49
+BIO310H5,UMBIO,Physiology Regulatory Systems BIO310H5-F-LEC0101,Abdalahad,Nagham,Summer,2019,4.2,4.3,4.3,3.7,3.8,3.7,3.5,3.6,N/A,3.8,94,73
+HSC300H5,UMBIO,Writ. Communic. - Health Care HSC300H5-F-LEC0101,Selkirk,Enid,Summer,2019,4.4,4.6,4.9,4.4,4.4,4.3,3.4,4.4,N/A,4.3,24,9
+BIO476H5,UMBIO,Molecular Basis of Disease BIO476H5-S-LEC0101,Abdalahad,Nagham,Winter,2019,4.6,4.6,4.7,4.4,4.4,4.5,3.8,4.4,N/A,4.5,24,16
+BIO201H5,UMBIO,Biology Behind the News BIO201H5-S-LEC0101,Arts,Maria,Winter,2019,2.9,3.6,3.2,3.0,3.0,2.8,3.1,2.8,N/A,2.6,55,18
+BIO207H5,UMBIO,Intro Genetics BIO207H5-S-LEC0101,Atallah,Jayed,Winter,2019,2.8,2.7,2.3,2.2,2.1,2.1,3.6,2.1,N/A,2.4,419,201
+BIO347H5,UMBIO,Epigenetics BIO347H5-S-LEC0101,Braeutigam,Katharina,Winter,2019,4.1,3.9,3.1,3.6,3.1,3.1,3.7,3.2,N/A,3.4,35,14
+BIO314H5,UMBIO,Lab in Cell & Molecular Bio BIO314H5-S-LEC0101,Chatfield,Steven,Winter,2019,3.7,3.9,3.9,3.7,3.7,3.5,3.3,3.7,N/A,3.6,175,62
+BIO354H5,UMBIO,Vert Form & Function BIO354H5-S-LEC0101,DeBraga,Michael,Winter,2019,4.0,4.0,3.8,3.2,3.1,3.2,3.9,3.0,N/A,3.3,67,28
+BIO434H5,UMBIO,Soc & Dev Determ of Human Hlth BIO434H5-S-LEC0101,De Souza,Leanne,Winter,2019,3.7,3.2,3.6,3.0,2.8,2.8,4.0,2.9,N/A,3.2,24,9
+BIO403H5,UMBIO,Topics in Neurobiology BIO403H5-S-LEC0101,Erclik,Teddy,Winter,2019,4.6,4.6,4.8,4.4,4.4,4.2,3.4,4.2,N/A,4.0,28,5
+BIO210Y5,UMBIO,Human Anatomy and Physiology BIO210Y5-Y-LEC0101,Hinic-Frlog,Sanja,Winter,2019,4.4,4.5,4.5,4.1,4.2,4.1,3.3,4.1,N/A,4.2,448,177
+BIO202H5,UMBIO,Introductory Animal Physiology BIO202H5-S-LEC0101,Hinic-Frlog,Sanja,Winter,2019,3.7,3.8,4.1,3.8,3.8,3.5,3.3,3.5,N/A,3.4,457,169
+HSC301H5,UMBIO,Data and Info Visualization HSC301H5-S-LEC0101,Jenkinson,Jodie,Winter,2019,4.3,4.3,4.3,3.8,4.1,4.1,3.5,3.5,N/A,3.5,22,8
+BIO342H5,UMBIO,Evolutionary Biology BIO342H5-S-LEC0101,Johnson,Marc,Winter,2019,4.4,4.5,4.7,4.0,4.0,4.0,3.1,4.2,N/A,3.9,95,63
+BIO483H5,UMBIO,Selected Topics in Biology I BIO483H5-S-LEC0101,Liu,Baohua,Winter,2019,4.3,4.5,4.2,4.7,4.5,3.8,3.2,4.3,N/A,4.0,14,7
+BIO313H5,UMBIO,Fld Mthd & Stat Anal in Ecol BIO313H5-S-PRA0101,McMeans,Bailey,Winter,2019,4.6,4.4,5.0,4.8,4.8,4.5,3.2,4.5,N/A,4.5,28,17
 BIO376H5,UMBIO,Marine Ecology BIO376H5-S-LEC0101,McMeans,Bailey,Winter,2019,4.7,4.8,4.9,4.7,4.7,4.7,2.7,4.9,N/A,4.7,48,30
-BIO325H5,UMBIO,Biomechanics BIO325H5-S-LEC0101,Morris,Glenn,Winter,2019,3.8,4,3.7,4.5,4.6,3.8,3.2,3.8,N/A,3.4,46,12
+BIO325H5,UMBIO,Biomechanics BIO325H5-S-LEC0101,Morris,Glenn,Winter,2019,3.8,4.0,3.7,4.5,4.6,3.8,3.2,3.8,N/A,3.4,46,12
 BIO362H5,UMBIO,Bioinformatics BIO362H5-S-LEC0101,Ness,Robert,Winter,2019,4.3,4.3,4.5,4.6,4.4,4.3,2.8,4.6,N/A,4.2,43,19
-BIO330H5,UMBIO,Plant Ecology BIO330H5-S-LEC0101,Nunes,Krystal,Winter,2019,4.5,4.5,4.6,4.3,4.4,4.4,3,4.7,N/A,4.1,64,26
-BIO375H5,UMBIO,Introductory Med Biotechnology BIO375H5-S-LEC0101,Parker,Jayson,Winter,2019,4.3,4.4,4.3,3.6,3.7,3.9,3.5,3.8,N/A,4,96,41
+BIO330H5,UMBIO,Plant Ecology BIO330H5-S-LEC0101,Nunes,Krystal,Winter,2019,4.5,4.5,4.6,4.3,4.4,4.4,3.0,4.7,N/A,4.1,64,26
+BIO375H5,UMBIO,Introductory Med Biotechnology BIO375H5-S-LEC0101,Parker,Jayson,Winter,2019,4.3,4.4,4.3,3.6,3.7,3.9,3.5,3.8,N/A,4.0,96,41
 BIO368H5,UMBIO,Medicinal Plants  Human Health BIO368H5-S-LEC0101,Phillips,Michael,Winter,2019,4.7,4.8,4.8,4.7,4.5,4.6,3.8,4.3,N/A,4.6,42,12
-BIO153H5,UMBIO,Diversity of Organisms BIO153H5-S-LEC0101,Richter,Christoph,Winter,2019,3.1,3.3,3.1,3.1,3,2.8,3.3,3.1,N/A,2.9,414,177
-BIO153H5,UMBIO,Diversity of Organisms BIO153H5-S-LEC0102,Richter,Christoph,Winter,2019,3.2,3.3,3.2,3.2,3.2,2.9,3.1,3.2,N/A,3,449,194
-BIO304H5,UMBIO,Physiology of Neurons Muscle BIO304H5-S-LEC0101,Senatore,Adriano,Winter,2019,3.8,4,3.7,3.5,3.6,3.3,3.5,3.2,N/A,3.3,321,93
-BIO373H5,UMBIO,Environmental Microbiology BIO373H5-S-LEC0101,Short,Steven,Winter,2019,4.4,4.4,4.6,4,4.1,4.2,3.6,4,N/A,4.2,35,9
-BIO405H5,UMBIO,Evol Perspec on Cog & Behav BIO405H5-S-LEC0101,Thiagavel,Jeneni,Winter,2019,4.6,4.4,4.8,4.6,4.4,4.6,3,4.4,N/A,4.4,6,5
-BIO360H5,UMBIO,Biometrics I BIO360H5-S-LEC0101,Wagner,Helene,Winter,2019,3.7,4,4.1,3.8,3.8,3.5,4.2,3.4,N/A,3.4,166,64
-HSC302H5,UMBIO,Biocommunication Visualization HSC302H5-S-LEC0101,Wall,Shelley,Winter,2019,2.9,3.1,3.1,2.9,3,2.6,4,2.7,N/A,2.9,40,14
+BIO153H5,UMBIO,Diversity of Organisms BIO153H5-S-LEC0101,Richter,Christoph,Winter,2019,3.1,3.3,3.1,3.1,3.0,2.8,3.3,3.1,N/A,2.9,414,177
+BIO153H5,UMBIO,Diversity of Organisms BIO153H5-S-LEC0102,Richter,Christoph,Winter,2019,3.2,3.3,3.2,3.2,3.2,2.9,3.1,3.2,N/A,3.0,449,194
+BIO304H5,UMBIO,Physiology of Neurons Muscle BIO304H5-S-LEC0101,Senatore,Adriano,Winter,2019,3.8,4.0,3.7,3.5,3.6,3.3,3.5,3.2,N/A,3.3,321,93
+BIO373H5,UMBIO,Environmental Microbiology BIO373H5-S-LEC0101,Short,Steven,Winter,2019,4.4,4.4,4.6,4.0,4.1,4.2,3.6,4.0,N/A,4.2,35,9
+BIO405H5,UMBIO,Evol Perspec on Cog & Behav BIO405H5-S-LEC0101,Thiagavel,Jeneni,Winter,2019,4.6,4.4,4.8,4.6,4.4,4.6,3.0,4.4,N/A,4.4,6,5
+BIO360H5,UMBIO,Biometrics I BIO360H5-S-LEC0101,Wagner,Helene,Winter,2019,3.7,4.0,4.1,3.8,3.8,3.5,4.2,3.4,N/A,3.4,166,64
+HSC302H5,UMBIO,Biocommunication Visualization HSC302H5-S-LEC0101,Wall,Shelley,Winter,2019,2.9,3.1,3.1,2.9,3.0,2.6,4.0,2.7,N/A,2.9,40,14
 BIO370Y5,UMBIO,Microbiology BIO370Y5-Y-LEC0101,Westwood,Timothy,Winter,2019,3.4,3.7,3.2,3.3,3.3,2.8,3.7,2.9,N/A,3.5,95,35
-BIO477H5,UMBIO,Mol Bio Gene Expr & Cancer BIO477H5-S-LEC0101,Westwood,Timothy,Winter,2019,4.1,4.2,3.3,3.4,3.5,2.8,4,2.8,N/A,3.6,31,11
+BIO477H5,UMBIO,Mol Bio Gene Expr & Cancer BIO477H5-S-LEC0101,Westwood,Timothy,Winter,2019,4.1,4.2,3.3,3.4,3.5,2.8,4.0,2.8,N/A,3.6,31,11
 BIO318Y5,UMBIO,Animal Behaviour BIO318Y5-Y-LEC0101,Williams,Karen,Winter,2019,2.6,2.8,1.8,2.3,2.3,2.4,3.9,2.9,N/A,2.6,45,18
-BIO328H5,UMBIO,Animal Behaviour Lecture BIO328H5-Y-LEC0101,Williams,Karen,Winter,2019,2.7,3,1.9,2.4,2.6,1.8,3,1.6,N/A,2.6,33,10
+BIO328H5,UMBIO,Animal Behaviour Lecture BIO328H5-Y-LEC0101,Williams,Karen,Winter,2019,2.7,3.0,1.9,2.4,2.6,1.8,3.0,1.6,N/A,2.6,33,10
 BIO310H5,UMBIO,Physiology Regulatory Systems BIO310H5-F-LEC0101,Abdalahad,Nagham,Fall,2018,3.3,3.4,3,2.7,2.7,2.6,3.7,2.7,N/A,2.9,277,193
 BIO200H5,UMBIO,Introduction to Pharmacology BIO200H5-F-LEC0101,Abdalahad,Nagham,Fall,2018,4.1,4.3,4,3.7,3.8,3.5,3.3,3.6,N/A,4,126,95
 BIO206H5,UMBIO,Intro Cell & Molecular Biology BIO206H5-F-LEC0101,Atallah,Jayed,Fall,2018,3.2,3.4,2.9,2.6,2.5,2.5,3.8,2.5,N/A,2.8,446,336

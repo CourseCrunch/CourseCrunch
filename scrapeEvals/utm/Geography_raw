@@ -1,37 +1,63 @@
-Code,Dept,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Course Workload,I would recommend this course,I attended class,Inspired to learn subject matter,Number Invited,Number of Survey Responses
-ENV201H5,UMGGR,Environmental Management ENV201H5-F-LEC0101,Conway,Tenley,Fall,2019,3.6,4.0,3.7,3.5,3.5,3.4,3.1,3.4,N/A,3.7,133,41
-ENV205H5,UMGGR,Sustainable Tourism ENV205H5-F-LEC0101,Thorn,Adam,Fall,2019,3.6,4.1,4.2,3.9,3.8,3.7,3.0,3.8,N/A,3.4,74,20
-ENV310H5,UMGGR,The Sustainability Imperative ENV310H5-F-LEC9999,Murck,Barbara,Fall,2019,4.1,4.4,4.6,4.1,4.0,3.9,3.2,4.2,N/A,4.1,80,20
-ENV320H5,UMGGR,Managing Our Waste ENV320H5-F-LEC0101,Passmore,David,Fall,2019,3.5,3.7,3.6,3.4,3.5,3.4,2.9,3.0,N/A,3.5,59,15
+Code,Dept,Course,Last_Name,First_Name,Term,Year,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Course_Workload,I_would_recommend_this_course,I_attended_class,Inspired_to_learn_subject_matter,Number_Invited,Number_of_Survey_Responses
+ENV201H5,UMGGR,Environmental Management ENV201H5-F-LEC0101,Conway,Tenley,Fall,2019,3.6,4,3.7,3.5,3.5,3.4,3.1,3.4,N/A,3.7,133,41
+ENV205H5,UMGGR,Sustainable Tourism ENV205H5-F-LEC0101,Thorn,Adam,Fall,2019,3.6,4.1,4.2,3.9,3.8,3.7,3,3.8,N/A,3.4,74,20
+ENV310H5,UMGGR,The Sustainability Imperative ENV310H5-F-LEC9999,Murck,Barbara,Fall,2019,4.1,4.4,4.6,4.1,4,3.9,3.2,4.2,N/A,4.1,80,20
+ENV320H5,UMGGR,Managing Our Waste ENV320H5-F-LEC0101,Passmore,David,Fall,2019,3.5,3.7,3.6,3.4,3.5,3.4,2.9,3,N/A,3.5,59,15
 ENV330H5,UMGGR,Expermtl Desgn in Enviro Sci ENV330H5-F-PRA0101,Havelka,Monika,Fall,2019,4.1,4.1,4.4,3.6,3.5,3.8,3.2,3.8,N/A,3.8,70,20
 ENV393H5,UMGGR,Environmental Assessment ENV393H5-F-LEC0101,Thorn,Adam,Fall,2019,3.8,4.2,3.9,3.6,3.5,3.5,3.4,3.3,N/A,3.8,29,12
 ENV495H5,UMGGR,Restoration Ecology I ENV495H5-F-LEC0101,Havelka,Monika,Fall,2019,4.6,4.6,4.6,4.6,4.7,4.2,3.3,4.6,N/A,4.5,31,14
-GGR111H5,UMGGR,Human Geography GGR111H5-F-LEC0101,Dupej,Susan,Fall,2019,3.8,4.0,4.5,3.7,3.9,3.8,3.0,4.0,N/A,3.6,282,77
-GGR207H5,UMGGR,Cities  Urbanization & Develop GGR207H5-F-LEC0101,Walks,Alan,Fall,2019,4.0,4.3,4.5,4.2,4.5,4.5,3.0,4.0,N/A,3.9,47,14
-GGR209H5,UMGGR,Economic Geography GGR209H5-F-LEC0101,Vinodrai,Tara,Fall,2019,3.4,4.0,3.8,3.2,3.4,3.1,3.0,3.4,N/A,3.2,60,25
-GGR217H5,UMGGR,Fundamentals of Hydrology GGR217H5-F-LEC0101,Thorne,Robin,Fall,2019,2.6,2.7,2.6,2.7,2.9,2.3,3.3,2.0,N/A,2.3,74,28
-GGR252H5,UMGGR,Retail Geography GGR252H5-F-LEC0101,Leydon,Joseph,Fall,2019,3.0,3.4,3.5,3.3,3.2,2.9,3.0,3.0,N/A,3.0,143,48
-GGR276H5,UMGGR,Spatial Data Science I GGR276H5-F-LEC0101,Zhu,Tingting,Fall,2019,4.0,4.2,4.3,4.3,4.3,4.0,3.2,3.8,N/A,3.5,140,85
-GGR277H5,UMGGR,Qual Methods in Geography GGR277H5-F-LEC0101,Wilson,Kathleen,Fall,2019,4.0,4.4,4.6,4.3,4.3,4.0,3.0,3.8,N/A,3.8,54,23
+GGR111H5,UMGGR,Human Geography GGR111H5-F-LEC0101,Dupej,Susan,Fall,2019,3.8,4,4.5,3.7,3.9,3.8,3,4,N/A,3.6,282,77
+GGR207H5,UMGGR,Cities  Urbanization & Develop GGR207H5-F-LEC0101,Walks,Alan,Fall,2019,4,4.3,4.5,4.2,4.5,4.5,3,4,N/A,3.9,47,14
+GGR209H5,UMGGR,Economic Geography GGR209H5-F-LEC0101,Vinodrai,Tara,Fall,2019,3.4,4,3.8,3.2,3.4,3.1,3,3.4,N/A,3.2,60,25
+GGR217H5,UMGGR,Fundamentals of Hydrology GGR217H5-F-LEC0101,Thorne,Robin,Fall,2019,2.6,2.7,2.6,2.7,2.9,2.3,3.3,2,N/A,2.3,74,28
+GGR252H5,UMGGR,Retail Geography GGR252H5-F-LEC0101,Leydon,Joseph,Fall,2019,3,3.4,3.5,3.3,3.2,2.9,3,3,N/A,3,143,48
+GGR276H5,UMGGR,Spatial Data Science I GGR276H5-F-LEC0101,Zhu,Tingting,Fall,2019,4,4.2,4.3,4.3,4.3,4,3.2,3.8,N/A,3.5,140,85
+GGR277H5,UMGGR,Qual Methods in Geography GGR277H5-F-LEC0101,Wilson,Kathleen,Fall,2019,4,4.4,4.6,4.3,4.3,4,3,3.8,N/A,3.8,54,23
 GGR315H5,UMGGR,Physical Hydrology GGR315H5-F-LEC0101,Thorne,Robin,Fall,2019,2.8,3.2,2.7,3.2,3.6,2.8,3.3,2.9,N/A,2.3,29,9
-GGR329H5,UMGGR,ENV and Roots of Globalization GGR329H5-F-LEC0101,Desrochers,Pierre,Fall,2019,3.4,3.4,3.2,2.6,2.8,2.8,2.6,3.2,N/A,3.0,29,5
-GGR337H5,UMGGR,Env Remote Sensing GGR337H5-F-LEC0101,Zhu,Tingting,Fall,2019,3.9,4.2,4.2,4.0,4.2,3.9,3.2,3.6,N/A,3.5,56,47
+GGR329H5,UMGGR,ENV and Roots of Globalization GGR329H5-F-LEC0101,Desrochers,Pierre,Fall,2019,3.4,3.4,3.2,2.6,2.8,2.8,2.6,3.2,N/A,3,29,5
+GGR337H5,UMGGR,Env Remote Sensing GGR337H5-F-LEC0101,Zhu,Tingting,Fall,2019,3.9,4.2,4.2,4,4.2,3.9,3.2,3.6,N/A,3.5,56,47
 GGR361H5,UMGGR,City Planning & Development GGR361H5-F-LEC0101,Walks,Alan,Fall,2019,4.4,4.6,4.7,4.4,4.3,4.4,2.9,4.5,N/A,4.4,69,21
-GGR384H5,UMGGR,Climatology of Cdn Landscapes GGR384H5-F-LEC0101,Brown,Laura,Fall,2019,4.3,4.4,4.4,4.6,4.4,4.4,3.3,4.4,N/A,4.0,25,10
-GGR387H5,UMGGR,Food and Globalization GGR387H5-F-LEC0101,Desrochers,Pierre,Fall,2019,2.7,3.0,3.0,3.0,3.2,2.5,3.2,2.7,N/A,2.7,25,6
+GGR384H5,UMGGR,Climatology of Cdn Landscapes GGR384H5-F-LEC0101,Brown,Laura,Fall,2019,4.3,4.4,4.4,4.6,4.4,4.4,3.3,4.4,N/A,4,25,10
+GGR387H5,UMGGR,Food and Globalization GGR387H5-F-LEC0101,Desrochers,Pierre,Fall,2019,2.7,3,3,3,3.2,2.5,3.2,2.7,N/A,2.7,25,6
 GGR415H5,UMGGR,Geographies Indigenous Health GGR415H5-F-LEC0101,Wilson,Kathleen,Fall,2019,4.9,4.9,4.6,4.5,4.5,4.5,3.1,4.6,N/A,4.5,19,8
-GGR484H5,UMGGR,The Climate of the Arctic GGR484H5-F-LEC0101,Brown,Laura,Fall,2019,4.2,4.3,4.3,4.3,4.3,4.0,4.0,4.0,N/A,3.3,16,7
-ENV311H5,UMGGR,Env Issues in the Dev World ENV311H5-S-LEC0101,Murck,Barbara,Winter,2019,4,4.4,4.3,3.8,4,4.1,3,3.8,N/A,3.8,73,17
-JGE378H5,UMGGR,Natural Hazards JGE378H5-S-LEC9999,Murck,Barbara,Winter,2019,4,4.1,4.2,3.8,3.7,3.7,3.5,3.8,N/A,3.6,261,64
+GGR484H5,UMGGR,The Climate of the Arctic GGR484H5-F-LEC0101,Brown,Laura,Fall,2019,4.2,4.3,4.3,4.3,4.3,4,4,4,N/A,3.3,16,7
+ENV201H5,UMGGR,Environmental Management ENV201H5-S-LEC0101,Shrestha,Namrata,Summer,2019,2.8,2.7,2.5,2.7,2.3,2.3,3.3,2.2,N/A,2.6,53,15
+GGR202H5,UMGGR,Geography of Canada GGR202H5-S-LEC0101,Dupej,Susan,Summer,2019,4.0,4.4,4.6,4.3,4.4,4.4,2.7,4.4,N/A,4.2,113,36
+GGR272H5,UMGGR,Digi Mapping & Prin. of Cart. GGR272H5-F-LEC0101,Kynaston,David,Summer,2019,3.9,4.3,4.5,4.3,3.9,4.0,3.1,4.0,N/A,3.8,56,17
+GGR201H5,UMGGR,Introduction to Geomorphology GGR201H5-F-LEC0101,Passmore,David,Summer,2019,3.0,3.9,3.7,4.1,4.0,3.1,3.1,3.1,N/A,3.3,32,7
+GGR276H5,UMGGR,Quant Methods I in Geography GGR276H5-F-LEC0101,Dao,Duc,Summer,2019,4.4,4.3,4.7,4.7,4.4,4.2,3.1,4.3,N/A,4.0,49,10
+GGR252H5,UMGGR,Retail Geography GGR252H5-F-LEC0101,Aversa,Joseph,Summer,2019,3.9,4.4,4.0,3.9,3.9,3.6,2.7,3.9,N/A,3.5,75,29
+ENV100Y5,UMGGR,The Environment ENV100Y5-F-LEC9999,Zhu,Tingting,Summer,2019,3.7,4.0,3.8,3.7,3.8,3.3,3.7,3.4,N/A,3.4,419,73
+GGR376H5,UMGGR,Quant.Methods II in Geography GGR376H5-S-LEC0101,Adams,Matthew,Winter,2019,3.4,3.5,3.1,3.8,3.5,2.9,3.9,3.0,N/A,2.9,28,9
+ENV393H5,UMGGR,Environmental Assessment ENV393H5-S-LEC0101,Almas,Andrew,Winter,2019,4.3,4.4,4.5,4.3,4.0,3.8,3.0,4.0,N/A,3.9,46,15
+JEP356H5,UMGGR,Environmental Justice JEP356H5-S-LEC0101,Almas,Andrew,Winter,2019,4.4,4.4,4.5,4.3,4.5,4.1,3.2,4.3,N/A,4.2,60,24
+ENV205H5,UMGGR,Sustainable Tourism ENV205H5-S-LEC0101,Besco,Laurel,Winter,2019,3.9,4.1,4.3,3.7,3.8,3.7,2.8,4.0,N/A,3.8,126,52
+GGR325H5,UMGGR,Business Industrial Geography GGR325H5-S-LEC0101,Bocking,Paul,Winter,2019,4.0,4.2,4.3,3.9,3.9,3.7,3.2,3.9,N/A,3.8,62,25
+GGR214H5,UMGGR,Global Weather & Climate GGR214H5-S-LEC0101,Brown,Laura,Winter,2019,3.5,4.1,3.5,4.0,3.8,3.2,3.2,3.1,N/A,3.4,102,25
+GGR317H5,UMGGR,The Cryosphere GGR317H5-S-LEC0101,Brown,Laura,Winter,2019,3.8,4.0,4.5,4.1,4.0,3.8,3.8,3.9,N/A,3.7,28,11
+GGR370H5,UMGGR,The Geography of Transprtation GGR370H5-S-LEC0101,Buliung,Ronald,Winter,2019,4.3,4.1,4.2,4.2,4.1,4.0,3.1,4.1,N/A,3.9,59,15
+GGR333H5,UMGGR,Energy and Society GGR333H5-S-LEC0101,Desrochers,Pierre,Winter,2019,3.6,3.8,3.4,3.3,3.5,3.3,3.3,3.4,N/A,3.4,38,10
+GGR287H5,UMGGR,Food and Globalization GGR287H5-S-LEC0101,Desrochers,Pierre,Winter,2019,3.5,3.5,3.5,3.5,3.5,3.2,3.2,2.8,N/A,3.6,40,10
+GGR217H5,UMGGR,Fundamentals of Hydrology GGR217H5-S-LEC0101,Duval,Timothy,Winter,2019,4.1,4.3,4.2,3.8,3.8,3.9,3.3,3.7,N/A,3.6,62,16
+ENV100Y5,UMGGR,The Environment ENV100Y5-Y-LEC0101,Havelka,Monika,Winter,2019,3.7,4.1,4.5,3.7,3.6,3.7,2.8,3.7,N/A,3.6,325,67
+ENV100Y5,UMGGR,The Environment ENV100Y5-Y-LEC9999,Havelka,Monika,Winter,2019,3.7,3.9,4.2,3.8,3.8,3.7,3.0,3.8,N/A,3.6,551,99
+GGR265H5,UMGGR,Unddev Hlth sub-Saharan Africa GGR265H5-S-LEC0101,Kuuire,Vincent,Winter,2019,4.1,4.3,4.1,3.5,3.5,3.5,3.0,3.4,N/A,3.5,15,10
+GGR313H5,UMGGR,Gender and the City GGR313H5-S-LEC0101,Laliberte,Nicole,Winter,2019,3.9,4.2,4.3,3.9,4.2,3.6,3.6,3.8,N/A,3.6,51,11
+GGR202H5,UMGGR,Geography of Canada GGR202H5-S-LEC0101,Laliberte,Nicole,Winter,2019,4.2,4.3,4.6,4.1,4.3,4.2,2.8,4.2,N/A,4.0,124,31
+GGR111H5,UMGGR,Human Geography GGR111H5-S-LEC0101,Laliberte,Nicole,Winter,2019,3.9,4.0,4.5,3.8,4.0,3.9,3.2,3.7,N/A,3.7,265,78
+JEG401Y5,UMGGR,Geography Enviro Sci Intern JEG401Y5-Y-LEC0101,Leydon,Joseph,Winter,2019,4.2,4.3,4.2,4.0,4.2,3.8,3.5,4.2,N/A,3.7,12,6
+GGR208H5,UMGGR,Places and People GGR208H5-S-LEC0101,Leydon,Joseph,Winter,2019,3.8,4.1,4.2,3.5,3.6,3.5,2.9,3.6,N/A,3.5,79,21
+ENV311H5,UMGGR,Env Issues in the Dev World ENV311H5-S-LEC0101,Murck,Barbara,Winter,2019,4.0,4.4,4.3,3.8,4.0,4.1,3.0,3.8,N/A,3.8,73,17
+JGE378H5,UMGGR,Natural Hazards JGE378H5-S-LEC9999,Murck,Barbara,Winter,2019,4.0,4.1,4.2,3.8,3.7,3.7,3.5,3.8,N/A,3.6,261,64
 ENV100Y5,UMGGR,The Environment ENV100Y5-Y-LEC0101,Murck,Barbara,Winter,2019,3.7,4.1,4.1,3.7,3.6,3.7,2.8,3.7,N/A,3.6,325,67
-ENV100Y5,UMGGR,The Environment ENV100Y5-Y-LEC9999,Murck,Barbara,Winter,2019,3.7,3.9,4.1,3.8,3.8,3.7,3,3.8,N/A,3.6,551,99
-GGR377H5,UMGGR,Global Climate Change GGR377H5-S-LEC0101,Passmore,David,Winter,2019,3,3.3,3.4,3.3,3.5,3.1,2.9,3.3,N/A,3.3,57,18
+ENV100Y5,UMGGR,The Environment ENV100Y5-Y-LEC9999,Murck,Barbara,Winter,2019,3.7,3.9,4.1,3.8,3.8,3.7,3.0,3.8,N/A,3.6,551,99
+GGR377H5,UMGGR,Global Climate Change GGR377H5-S-LEC0101,Passmore,David,Winter,2019,3.0,3.3,3.4,3.3,3.5,3.1,2.9,3.3,N/A,3.3,57,18
 GGR304H5,UMGGR,Dendrochronology GGR304H5-S-LEC0101,Porter,Trevor,Winter,2019,3.9,4.1,3.4,3.4,3.3,2.9,3.5,2.6,N/A,2.9,17,14
 GGR278H5,UMGGR,Geographic Information Systems GGR278H5-S-LEC0101,Proctor,Cameron,Winter,2019,4.6,4.8,4.9,4.6,4.5,4.6,3.6,4.1,N/A,4.2,76,26
-GGR276H5,UMGGR,Quant Methods I in Geography GGR276H5-S-LEC0101,Proctor,Cameron,Winter,2019,3.9,4,4.3,3.9,3.7,3.7,3.2,3.4,N/A,3.5,162,47
+GGR276H5,UMGGR,Quant Methods I in Geography GGR276H5-S-LEC0101,Proctor,Cameron,Winter,2019,3.9,4.0,4.3,3.9,3.7,3.7,3.2,3.4,N/A,3.5,162,47
 GGR305H5,UMGGR,Biogeography GGR305H5-S-LEC0101,Shrestha,Namrata,Winter,2019,3.1,3.4,3.3,3.1,3.2,3.1,3.1,2.7,N/A,2.9,69,17
 GGR349H5,UMGGR,Cities in Transition GGR349H5-S-LEC0101,Walks,Alan,Winter,2019,4.6,4.8,4.9,4.8,4.8,4.7,3.1,4.7,N/A,4.3,52,9
-GGR207H5,UMGGR,Cities  Urbanization & Develop GGR207H5-S-LEC0101,Walks,Alan,Winter,2019,4,4.2,4.6,3.8,4.2,4.2,2.7,4.3,N/A,3.9,48,12
+GGR207H5,UMGGR,Cities  Urbanization & Develop GGR207H5-S-LEC0101,Walks,Alan,Winter,2019,4.0,4.2,4.6,3.8,4.2,4.2,2.7,4.3,N/A,3.9,48,12
 GGR335H5,UMGGR,GIS & Remote Sensing Integratn GGR335H5-S-LEC0101,Xu,Xiaoyong,Winter,2019,4.5,4.4,4.7,4.6,4.7,4.4,3.2,4.2,N/A,4.3,38,13
 ENV496H5,UMGGR,Restoration Ecology II ENV496H5-S-LEC0101,Zhu,Tingting,Winter,2019,3.7,3.8,4.1,3.7,3.9,3.4,3.6,3.7,N/A,3.7,27,18
 GGR272H5,UMGGR,Digi Mapping & Prin. of Cart. GGR272H5-F-LEC0101,Adams,Matthew,Fall,2018,3.5,3.7,3.6,3.7,3.7,3.2,3.4,3.4,N/A,3.2,136,47

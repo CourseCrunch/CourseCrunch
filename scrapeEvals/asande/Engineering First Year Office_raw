@@ -1,4 +1,4 @@
-Code,Department,Division,Course Name,Term,Year,Last Name,First Name,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,APSC01,APSC02,APSC03,APSC04,APSC05,APSC06,APSC07,LEC01,InvitedCount,RespondentCount
+Code,Department,Division,Course_Name,Term,Year,Last_Name,First_Name,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,APSC01,APSC02,APSC03,APSC04,APSC05,APSC06,APSC07,LEC01,InvitedCount,RespondentCount
 MAT186H1,AE1,APSC,CALCULUS 1 MAT186H1-F-LEC0103,Fall,2019,Arbunich,Jack,3.5,3.6,3.9,4.0,4.0,3.5,3.7,3.4,2.5,3.2,3.7,4.0,3.8,3.9,68,28
 APS111H1,AE1,APSC,ENG.STRATEGIES & PRACTICE I APS111H1-F-LEC0102,Fall,2019,Bazylak,Jason,2.9,3.3,3.8,3.2,3.3,2.8,3.2,3.9,3.4,3.2,2.9,3.7,3.7,3.8,447,274
 MAT186H1,AE1,APSC,CALCULUS 1 MAT186H1-F-LEC0108,Fall,2019,Breeling,Michael,4.0,4.0,4.1,4.0,3.8,3.6,3.9,4.2,2.8,3.8,3.7,4.4,4.1,4.3,105,44

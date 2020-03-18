@@ -1,4 +1,4 @@
-Code,Dept,Division,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Instructor generated enthusiasm,Course Workload,I would recommend this course,Number of Students Invited,Number of Respondents
+Code,Dept,Division,Course,Last_Name,First_Name,Term,Year,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Instructor_generated_enthusiasm,Course_Workload,I_would_recommend_this_course,Number_of_Students_Invited,Number_of_Respondents
 WDW102Y1,WDW,ARTSC,Contemporary Canada WDW102Y1-F-LEC0101,Lapointe,Michael,Summer,2018,4.7,4.7,4.7,4.5,4.7,4.6,4.9,4.1,4.7,22,16
 WDW102Y1,WDW,ARTSC,Contemporary Canada WDW102Y1-F-LEC5101,Voltan,Kathryn,Summer,2018,4.1,4.1,4.8,4.5,4.5,4.4,4.9,3.6,4.3,11,8
 ABP100Y1,WDW,ARTSC,Intro to Academic Studies ABP100Y1-Y-LEC0101,Shook,Cheryl,Winter,2018,3.7,4.5,4.9,4.4,4.6,4.5,4.8,2.2,4.3,25,12

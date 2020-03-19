@@ -24,6 +24,10 @@ function getDescription(parsed) {
     return parsed.querySelector('.infoCourseDetails').childNodes[0].rawText.trim();
 }
 
+function getName(parsed) {
+    return parsed.querySelector('.course').querySelector('span').childNodes[0].rawText.trim();
+}
+
 function makeLectures(rows) {
     const l = rows[0].length;
     const array = [];
@@ -81,6 +85,7 @@ function fullCourse(code, term, year) {
             const body = response.data.trim();
             const parsed = parser.parse(body);
             return {
+                full_name: getName(parsed),
                 description: getDescription(parsed),
                 courses: getCourses(parsed),
             };
@@ -104,7 +109,7 @@ function waitSpace(code, term, year) {
     return Promise.resolve(promise);
 }
 
-// fullCourse('CSC148', 'winter', '2018').then((res) => console.log(res));
+fullCourse('CSC148', 'winter', '2018').then((res) => console.log(res));
 // waitSpace('CSC309', 'winter', '2020').then((res) => console.log(res));
 
 module.exports = {

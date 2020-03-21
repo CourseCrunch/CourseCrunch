@@ -26,10 +26,14 @@ function getPrereqTo(courses) {
             + 'where c1.code in prereqs '
             + 'with prereqs, collect(c2) as checkingCourses '
             + 'unwind checkingCourses as potentialCourses '
-            + 'MATCH (c3:Course) - [:PrereqTo] -> (potentialCourses) '
+            + 'OPTIONAL MATCH (c3:Course) - [:PrereqTo] -> (potentialCourses) '
             + 'with prereqs, potentialCourses, collect(c3) as checkingPrereqs '
             + 'where not potentialCourses.code in prereqs and all(c in checkingPrereqs where c.code in prereqs) '
-            + 'return potentialCourses';
+            + 'return potentialCourses '
+            + 'UNION '
+            + 'MATCH (c1:Course) '
+            + 'where not (:Course) - [:PrereqTo] -> (c1) '
+            + 'return c1 as potentialCourses;';
             session.run(query, { courses }).then((result) => {
                 const responseLst = [];
                 result.records.forEach((record) => {

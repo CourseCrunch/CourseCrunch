@@ -1,9 +1,11 @@
 import React from 'react';
-// import { render } from 'react-dom';
+import { render } from 'react-dom';
 import {
-    Form, Button,
+    Form, Button, Alert,
 } from 'react-bootstrap';
 import './WaitlistInput.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+// import { Alert } from 'reactstrap';
 
 class WaitlistInput extends React.Component {
     constructor(props) {
@@ -15,7 +17,8 @@ class WaitlistInput extends React.Component {
             waitlistCourse: '',
             waitlistTerm: '',
             waitlistYear: '',
-            status: '',
+            submitted: false, // TODO: CHANGE THIS TO FALSE
+            errorMessage: '',
         };
     }
 
@@ -25,42 +28,6 @@ class WaitlistInput extends React.Component {
             waitlistTerm: '',
             waitlistYear: '',
         });
-    }
-
-    componentDidMount() {
-        const data = {
-            course: this.state.waitlistCourse,
-            term: this.state.waitlistTerm,
-            year: this.state.waitlistYear,
-        };
-
-        fetch('http://localhost:3006/addWaitlist', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify(data),
-        })
-            .then((res) => {
-                if (res.ok) {
-                    this.setState({
-                        submitErr: false,
-                    });
-                    this.resetFields();
-                } else {
-                    this.setState({
-                        submitErr: true,
-                    });
-                    this.resetFields();
-                }
-            }).catch((e) => {
-                // eslint-disable-next-line no-console
-                console.log(e);
-                this.setState({
-                    submitErr: true,
-                });
-                this.resetFields();
-            });
     }
 
     handleInputChange(inputType) {
@@ -85,34 +52,37 @@ class WaitlistInput extends React.Component {
             term: this.state.waitlistTerm,
             year: this.state.waitlistYear,
         };
-        fetch(`http://localhost:${process.env.WAITLISTPORT}/addWaitlist`, {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify(data),
-        })
-            .then((res) => {
+        try {
+            fetch(`http://localhost:${process.env.WAITLISTPORT}/addWaitlist`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(data),
+            }).then((res) => {
                 if (res.ok) {
                     this.setState({
                         submitErr: false,
+                        submitted: true,
                     });
-                    this.resetFields();
                 } else {
                     this.setState({
                         submitErr: true,
                     });
-                    this.resetFields();
                 }
-            }).catch(() => {
+            }).catch((e) => {
+                console.log(e);
                 this.setState({
                     submitErr: true,
                 });
-                this.resetFields();
             });
+        } catch (e) {
+            console.log(e);
+        }
     }
 
     render() {
+        const { submitted, submitErr } = this.state;
         return <header className ="waitlistInput">
             <div className = "panel_container">
                 <div className = "pInfo_title_panel">
@@ -160,6 +130,8 @@ class WaitlistInput extends React.Component {
                             id="Submit_button" variant="primary" type="submit">
                             Done
                         </Button>
+                        { submitted ? <Alert show={true} variant="success"> Course added successfully </Alert> : <br/>}
+                        { submitErr && <Alert variant="danger"> Something went wrong while handling your request! </Alert>}
                     </Form>
                 </div>
             </div>

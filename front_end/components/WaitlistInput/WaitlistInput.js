@@ -1,5 +1,4 @@
 import React from 'react';
-import { render } from 'react-dom';
 import {
     Form, Button, Alert,
 } from 'react-bootstrap';

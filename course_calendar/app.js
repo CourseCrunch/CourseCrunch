@@ -12,4 +12,5 @@ app.use(express.urlencoded({ extended: false }));
 
 app.use('/', indexRouter);
 app.use('/api', apiRouter);
+process.env.CALENDARPORT = 30002;
 app.listen(process.env.CALENDARPORT, () => console.log(`App listening on port ${process.env.CALENDARPORT}`));

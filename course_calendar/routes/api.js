@@ -16,21 +16,15 @@ router.use(bodyParser.urlencoded({
 router.get('/prereqTo', (req, res) => {
     try {
         // retrieve uuid from request
-        const { courseCode } = req.body;
+        const reqCourses = req.body.courses;
 
-        const sanCourseCode = emptyString(validator.trim(validator.escape(`${courseCode}`)));
-
-        if (sanCourseCode === '') {
-            res.status(400).send();
-        } else {
-            dbReq.getPrereqTo(sanCourseCode).then((courses) => {
-                const jsonObj = { courseList: courses };
-                res.status(200).send(jsonObj);
-            }).catch((e) => {
-                console.log(e);
-                res.status(500).send('Something went wrong while handling your request');
-            });
-        }
+        dbReq.getPrereqTo(reqCourses).then((courses) => {
+            const jsonObj = { courseList: courses };
+            res.status(200).send(jsonObj);
+        }).catch((e) => {
+            console.log(e);
+            res.status(500).send('Something went wrong while handling your request');
+        });
     } catch (e) {
         console.log(e);
         res.status(500).send();

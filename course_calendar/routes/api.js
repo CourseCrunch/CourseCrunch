@@ -31,6 +31,25 @@ router.get('/prereqTo', (req, res) => {
     }
 });
 
+router.get('/exclusionTo', (req, res) => {
+    try {
+        // retrieve uuid from request
+        const reqCourses = req.body.courses;
+
+        dbReq.getExclusionTo(reqCourses).then((courses) => {
+            const jsonObj = { courseList: courses };
+            res.status(200).send(jsonObj);
+        }).catch((e) => {
+            console.log(e);
+            res.status(500).send('Something went wrong while handling your request');
+        });
+    } catch (e) {
+        console.log(e);
+        res.status(500).send();
+    }
+});
+
+
 /* Prerequisites that course code has */
 router.get('/prerequisites', (req, res) => {
     try {

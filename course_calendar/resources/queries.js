@@ -2,9 +2,6 @@
 /* eslint-disable no-console */
 const neo4j = require('neo4j-driver');
 
-process.env.NEOUSER = 'neo4j';
-process.env.NEOPWD = 'So4pUsBarmHorse';
-process.env.NEOURI = 'bolt://localhost:7687';
 const uri = process.env.NEOURI;
 const user = process.env.NEOUSER;
 const password = process.env.NEOPWD;
@@ -68,8 +65,38 @@ function getPrerequisites(courseCode) {
     });
 }
 
+function getExclusionTo(courses) {
+    return new Promise((resolve, reject) => {
+        try {
+            const session = driver.session();
+            const query = 'WITH $courses as exclusions '
+            + 'MATCH (c1:Course) - [:ExclusionTo] -> (c2:Course) '
+            + 'USING INDEX c1:Course(code) '
+            + 'where c1.code in exclusions '
+            + 'with exclusions, collect(c2) as checkingCourses '
+            + 'unwind checkingCourses as notPotentialCourses '
+            + 'OPTIONAL MATCH (c3:Course) - [:ExclusionTo] -> (notPotentialCourses) '
+            + 'with exclusions, notPotentialCourses, collect(c3) as checkingExclusions '
+            + 'where not notPotentialCourses.code in exclusions and all(c in checkingExclusions where c.code in exclusions) '
+            + 'return notPotentialCourses ';
+            session.run(query, { courses }).then((result) => {
+                const responseLst = [];
+                result.records.forEach((record) => {
+                    const node = record.get(0);
+                    responseLst.push(node.properties.code);
+                });
+                session.close();
+                resolve(responseLst);
+            }).catch((e) => { console.log(e); });
+        } catch (e) {
+            reject(e);
+        }
+    });
+}
+
 
 module.exports = {
     getPrereqTo,
     getPrerequisites,
+    getExclusionTo,
 };

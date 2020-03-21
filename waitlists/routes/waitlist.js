@@ -14,7 +14,7 @@ router.use(bodyParser.urlencoded({
     extended: true,
 }));
 
-router.get('/', (req, res, next) => {
+router.get('/', (req, res) => {
     res.json({ info: 'Temp waitlist page' });
 });
 

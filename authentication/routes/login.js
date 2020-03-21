@@ -1,69 +1,52 @@
-var express = require('express');
-var router = express.Router();
-var app = express();
-var dbReq = require('../resources/queries');
-var bodyParser = require('body-parser');
-var validator = require('validator');
+const express = require('express');
 
-const emptyString = function(input) { if(input == 'undefined') {return ''} else {return input}}
+const router = express.Router();
+const app = express();
+const bodyParser = require('body-parser');
+const validator = require('validator');
+const dbReq = require('../resources/queries');
+
+const emptyString = function (input) { if (input == 'undefined') { return ''; } return input; };
 
 router.use(bodyParser.json());
 router.use(bodyParser.urlencoded({
-	extended: true
+    extended: true,
 }));
 
-router.get('/', function(req, res) {
-    try{
-        
-        const {email, password} = req.body;
+router.post('/', (req, res) => {
+    try {
+        const { email, password } = req.body;
 
-        //Sanitize like the Romans
-        const san_email = emptyString(validator.trim(validator.escape(validator.normalizeEmail(email + ''))));
-        const san_password = emptyString(validator.trim(validator.escape(password + '')));
+        const sanPassword = emptyString(validator.trim(validator.escape(`${password}`)));
+        const sanEmail = emptyString(validator.trim(validator.escape(`${email}`)));
 
-        if(!(validator.isEmail(san_email)) || !(san_email.length < 200)){
-			res.status(406).send('Please enter a valid email.');
-        }else {
-
-            dbReq.checkUserExists(san_email, function(response){
-                if(response.length == 0){
-
-                    res.status(406).send("There is no account associated with this email.");
-
-                }else{
-
-                    try{
-
-                        dbReq.validatePW(san_email, san_password, function(resp){
-                            if(resp == "Invalid Password"){
-
-                                res.status(406).send("Invalid Password for the given email.");
-
-                            }else if(resp == "error"){
-
-                                res.status(500).send("Error during password validation.");
-
-                            }else{
-                            
-                            //Sessions and other concepts here?
-                                res.status(200).send("Successful login");
-                            }
-                         });
-
-                    }catch(e) {
-
-                        res.status(500);
-                        console.log(e);
-
-                    }
+        if (sanEmail === '') {
+            res.status(400).send();
+        } else {
+            // Verify if the correct password has been entered.
+            const promiseValidatePassword = dbReq.validatePW(sanEmail, sanPassword);
+            promiseValidatePassword.then((validateResult) => {
+                // If password validated, log them
+                if (validateResult === 'Valid') {
+                    const uuid = dbReq.getUserIDFromMail(sanEmail);
+                    uuid.then((result) => {
+                        const data = { userid: result };
+                        res.status(200).json(data);
+                    }).catch((error) => {
+                        console.log(error);
+                        res.status(500).send();
+                    });
+                } else {
+                    res.status(406).send();
                 }
+            }).catch((validateError) => {
+                console.log(validateError);
+                res.status(500).send();
             });
         }
-
-    }catch(e){  
-
-        throw(e)
-
+    } catch (e) {
+        res.status(500).send();
+        console.log(e);
     }
 });
 

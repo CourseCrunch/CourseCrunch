@@ -49,7 +49,7 @@ router.post('/', (req, res) => {
                     } else if (courseStatus === -2) {
                         res.status(409).send('An error occured while handling your request. Are you sure this course exists?');
                     } else {
-                        dbReq.addUser(uuid, sanCourse, sanYear, sanTerm).then((results) => {
+                        dbReq.addUser(uuid, sanCourse, sanYear, sanTerm).then(() => {
                             res.status(200).send({});
                         }).catch((e) => {
                             res.status(500).send('An error occured while handling your request');

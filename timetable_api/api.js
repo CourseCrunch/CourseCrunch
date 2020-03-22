@@ -109,7 +109,7 @@ function waitSpace(code, term, year) {
     return Promise.resolve(promise);
 }
 
-fullCourse('CSC148', 'winter', '2018').then((res) => console.log(res));
+//fullCourse('CSC148', 'winter', '2018').then((res) => console.log(res));
 // waitSpace('CSC309', 'winter', '2020').then((res) => console.log(res));
 
 module.exports = {

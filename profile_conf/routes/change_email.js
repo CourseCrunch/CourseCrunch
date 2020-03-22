@@ -72,8 +72,7 @@ router.patch('/', (req, res) => {
                             // If no email pre-exists, change email for user
                             if (checkUserResult.rows[0] === undefined) {
                                 if (!(validator.isEmpty(sanEmail))) {
-                                    const promiseUpdateEmail = 
-						dbReq.updateUserEmail(uuid, sanEmail);
+                                    const promiseUpdateEmail = 						dbReq.updateUserEmail(uuid, sanEmail);
                                     promiseUpdateEmail.then(() => {
                                         res.status(200).send();
                                     }).catch((updateError) => {

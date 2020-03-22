@@ -5,6 +5,8 @@ import {
 } from 'react-bootstrap';
 import './SettingsInput.css';
 
+const PORT = process.env.PROFILEPORT;
+
 class SettingsInput extends React.Component {
     constructor(props) {
         super(props);
@@ -26,7 +28,7 @@ class SettingsInput extends React.Component {
         const uName = 'b17f1135-501f-4397-b257-653897375000';
         const data = { unsanUuid: uName };
 
-        fetch('http://localhost:3008/edit_profile', {
+        fetch(`http://localhost:${PORT}/edit_profile`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -75,7 +77,7 @@ class SettingsInput extends React.Component {
             unsanLname: this.state.newLName,
             unsanProgram: this.state.newProg,
         };
-        fetch('http://localhost:3008/edit_profile', {
+        fetch(`http://localhost:${PORT}/edit_profile`, {
             method: 'PATCH',
             headers: {
                 'Content-Type': 'application/json',

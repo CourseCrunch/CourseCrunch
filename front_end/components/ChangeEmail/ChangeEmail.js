@@ -5,6 +5,9 @@ import {
 import './ChangeEmail.css';
 import { Message } from 'semantic-ui-react';
 
+const PORT = process.env.PROFILEPORT;
+
+
 class SettingsInput extends React.Component {
     constructor(props) {
         super(props);
@@ -19,7 +22,7 @@ class SettingsInput extends React.Component {
     }
 
     componentDidMount() {
-        fetch('http://localhost:3008/change_email', { method: 'GET' })
+        fetch(`http://localhost:${PORT}/change_email`, { method: 'GET' })
             .then((res) => res.json())
             .then(
                 () => {
@@ -60,7 +63,7 @@ class SettingsInput extends React.Component {
                 email: this.state.newEmail,
                 password: this.state.password,
             };
-            fetch('http://localhost:3008/change_email', {
+            fetch(`http://localhost:${PORT}/change_email`, {
                 method: 'PATCH',
                 headers: {
                     'Content-Type': 'application/json',
@@ -101,6 +104,7 @@ class SettingsInput extends React.Component {
                 list={['An Error Occurred Try Again Later']}
             /> </div>;
         }
+        return <></>;
     }
 
     render() {

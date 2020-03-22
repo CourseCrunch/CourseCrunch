@@ -5,6 +5,8 @@ import {
 import Link from 'next/link';
 import './SelectUserCred.css';
 
+const PORT = process.env.PROFILEPORT;
+
 class CredSelection extends React.Component {
     constructor(props) {
         super(props);
@@ -22,7 +24,7 @@ class CredSelection extends React.Component {
         const uName = 'b17f1135-501f-4397-b257-653897375000';
         const data = { unsanUuid: uName };
 
-        fetch('http://localhost:3008/change_email', {
+        fetch(`http://localhost:${PORT}/change_email`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

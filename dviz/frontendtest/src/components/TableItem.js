@@ -37,39 +37,62 @@ export class TableItem extends Component {
         }
     }
 
+    sizeLimit() {
+        if (this.props.data.data.length > 10) {
+            return 10;
+        }
+        return this.props.data.data.length;
+    }
+
     render () {
         return (
         <div style={ this.getStyle() }>
             <button onClick={this.props.delItem.bind(this, this.state.id)} style={btnStyle}>x</button>
             {this.props.title}<br/>
             <ReactTableDraggableColumns
-            defaultPageSize={1}
+            defaultPageSize={this.sizeLimit()}
             draggableColumns= {{
                 mode: 'reorder',
-                draggable: ['firstName', 'lastName', 'age'],
+                draggable: ['Code', 'Dept', 'Course', 'First_Name', 'Last_Name', 'Term'],
                 enableColumnWideDrag: false
             }}
             style={{width: '98vw'}}
-            data={[{
-                firstName: "Justin",
-                lastName: "Pham",
-                age: 24
-            }]}
+            data={this.props.data.data}
             columns={[
                 {
-                Header: 'First Name',
-                accessor: 'firstName',
+                    Header: 'Code',
+                    accessor: 'Code',
                 },
                 {
-                Header: 'Last Name',
-                accessor: 'lastName',
+                    Header: 'Department',
+                    accessor: 'Dept',
                 },
                 {
-                Header: 'age',
-                accessor: 'age',
+                    Header: 'Course',
+                    accessor: 'Course',
+                },
+                {
+                    Header: 'L.Name',
+                    accessor: 'Last_Name',
+                },
+                {
+                    Header: 'F.Name',
+                    accessor: 'First_Name',
+                },
+                {
+                    Header: 'Term',
+                    accessor: 'Term',
+                },
+                {
+                    Header: 'Year',
+                    accessor: 'Year',
+                },
+                {
+                    Header: 'Intellectually Stimulating',
+                    accessor: 'Item_1',
                 }
             ]}
-            showPagination={false}
+            showPagination={this.props.data.data.length > 10}
             />
             </div>
         )

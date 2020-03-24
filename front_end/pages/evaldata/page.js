@@ -1,9 +1,12 @@
 import React from 'react';
-import './App.css';
+import '../index.css';
+import '../hover.css';
 import Display from './components/Display';
 import Header from './components/layout/Header';
 import AddData from './components/AddData'
 import uuid from 'uuid'
+import NavBar from '../../components/NavBar/NavBar';
+
 
 class App extends React.Component {
   state = {
@@ -31,8 +34,8 @@ class App extends React.Component {
   render () {
     return (
       <div className="App">
+        <NavBar isLoggedIn = {false}/>
         <div className="container"> 
-          <Header />
           <AddData addData={this.addData} />
           <Display data={this.state.data} delItem={this.delItem}/>
         </div>

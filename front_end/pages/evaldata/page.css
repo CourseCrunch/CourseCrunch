@@ -19,12 +19,12 @@
   .btn {
     display: inline-block;
     border: none;
-    background: rgb(26, 42, 184);
+    background: rgb(17, 6, 109);
     color: #fff;
     padding:7px 20px;
     cursor: pointer;
   }
   
   .btn:hover {
-    background: rgb(17, 6, 109);
+    background: rgb(26, 42, 184);
   }

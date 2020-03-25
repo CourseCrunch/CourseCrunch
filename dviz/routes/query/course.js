@@ -1,13 +1,13 @@
-require('dotenv').config('../../.env')
+require('dotenv').config('../../.env');
 const mongo = require('mongoose');
 
 const { Schema } = mongo;
 
-//mongo.set('useCreateIndex', true);
+// mongo.set('useCreateIndex', true);
 mongo.connect(process.env.CONNECTSTR, { useNewUrlParser: true, useUnifiedTopology: true });
 
 const CourseSchema = new Schema({
-    Code: String
+    Code: String,
 });
 
 const faculties = ['aands', 'asande', 'asande_grad', 'info', 'sw', 'utm', 'utsc'];
@@ -16,4 +16,4 @@ faculties.forEach((faculty) => {
     mongo.model(collectionName, CourseSchema);
 });
 
-module.exports = mongo
+module.exports = mongo;

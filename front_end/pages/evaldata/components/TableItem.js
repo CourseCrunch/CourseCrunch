@@ -47,8 +47,8 @@ export class TableItem extends Component {
     render () {
         return (
         <div style={ this.getStyle() }>
-            <button onClick={this.props.delItem.bind(this, this.state.id)} style={btnStyle}>x</button>
-            {this.props.title}<br/>
+            {this.props.title}
+            <button onClick={this.props.delItem.bind(this, this.state.id)} style={btnStyle}>x</button><br/><br/>
             <ReactTableDraggableColumns
             defaultPageSize={this.sizeLimit()}
             draggableColumns= {{
@@ -62,10 +62,12 @@ export class TableItem extends Component {
                 {
                     Header: 'Code',
                     accessor: 'Code',
+                    style: { 'whiteSpace': 'unset' }
                 },
                 {
                     Header: 'Department',
                     accessor: 'Dept',
+                    style: { 'whiteSpace': 'unset' }
                 },
                 {
                     Header: 'Course',
@@ -90,7 +92,34 @@ export class TableItem extends Component {
                 {
                     Header: 'Intellectually Stimulating',
                     accessor: 'Item_1',
-                }
+                    style: { 'whiteSpace': 'normal !important','overflow': 'unset'},
+                    maxWidth: 250,
+                },
+                {
+                    Header: 'Item_2',
+                    accessor: 'Item_2',
+                },
+                {
+                    Header: 'Item_3',
+                    accessor: 'Item_3',
+                },
+                {
+                    Header: 'Item_4',
+                    accessor: 'Item_5',
+                },
+                {
+                    Header: 'Item_5',
+                    accessor: 'Item_5',
+                },
+                {
+                    Header: 'Item_6',
+                    accessor: 'Item_6',
+                },
+                {
+                    Header: 'Course Workload',
+                    accessor: 'Course_Workload',
+                    style: { 'whiteSpace': 'unset' }
+                },
             ]}
             showPagination={this.props.data.data.length > 10}
             />

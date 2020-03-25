@@ -1,4 +1,5 @@
 import React from 'react';
+import './page.css'
 import '../index.css';
 import '../hover.css';
 import Display from './components/Display';

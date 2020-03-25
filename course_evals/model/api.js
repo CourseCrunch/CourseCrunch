@@ -91,4 +91,11 @@ module.exports = {
     getFuse,
     fuzzySearch,
     getSchools,
+    UTM,
+    AANDS,
+    ASANDE,
+    ASANDEGRAD,
+    SW,
+    INFO,
+    UTSC,
 };

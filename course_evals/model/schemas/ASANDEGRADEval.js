@@ -1,7 +1,7 @@
 /* eslint-disable func-names */
 /* eslint-disable quote-props */
 const database = require('../Database');
-const { replaceKeys } = require('./Helper');
+const { replaceKeys, _replaceKeys } = require('./Helper');
 
 const ASANDEGRADSchema = new database.Schema({
     'Code': String,
@@ -35,19 +35,29 @@ ASANDEGRADSchema.statics.find_names = function () {
     ]);
 };
 
+ASANDEGRADSchema.statics.find_by_name = function (FirstName, LastName) {
+    return this.find({ First_Name: FirstName, Last_Name: LastName });
+};
+
+const names = {
+    Item_1: 'Intellectually stimulating',
+    Item_2: 'Deeper Understanding',
+    Item_3: 'Good Atmosphere',
+    Item_4: 'Good Assessments',
+    Item_5: 'Accurate Assessments',
+    Item_6: 'Quality of Learning',
+    Item_7: 'Overall Rating',
+    Item_8: 'Number Invited',
+    Item_9: 'Number of Responses',
+};
 
 ASANDEGRADSchema.methods.convert = function (document) {
-    return replaceKeys(document, {
-        Item_1: 'Intellectually stimulating',
-        Item_2: 'Deeper Understanding',
-        Item_3: 'Good Atmosphere',
-        Item_4: 'Good Assessments',
-        Item_5: 'Accurate Assessments',
-        Item_6: 'Quality of Learning',
-        Item_7: 'Overall Rating',
-        Item_8: 'Number Invited',
-        Item_9: 'Number of Responses',
-    });
+    return replaceKeys(document, names);
 };
+
+ASANDEGRADSchema.statics.convert = function (document) {
+    return _replaceKeys(document, names);
+};
+
 
 module.exports = database.mongo.model('asande_grad_evals', ASANDEGRADSchema);

@@ -1,13 +1,13 @@
 /* eslint-disable func-names */
 /* eslint-disable quote-props */
 const database = require('../Database');
-const { replaceKeys } = require('./Helper');
+const { replaceKeys, _replaceKeys } = require('./Helper');
 
 const ASANDESchema = new database.Schema({
     'Code': String,
-    'Course_-_Department': String,
-    'Course_-_Division': String,
-    'Course_-_Course_Name': String,
+    'Department': String,
+    'Division': String,
+    'Course_Name': String,
     'Term': String,
     'Year': String,
     'Last_Name': String,
@@ -28,7 +28,6 @@ const ASANDESchema = new database.Schema({
     'Item_14': String,
     'Item_15': String,
     'Item_16': String,
-    'Department': String,
 });
 
 ASANDESchema.statics.find_names = function () {
@@ -42,26 +41,36 @@ ASANDESchema.statics.find_names = function () {
     ]);
 };
 
+ASANDESchema.statics.find_by_name = function (FirstName, LastName) {
+    return this.find({ First_Name: FirstName, Last_Name: LastName });
+};
+
+const names = {
+    Item_1: 'Intellectually stimulating',
+    Item_2: 'Deeper Understanding',
+    Item_3: 'Good Atmosphere',
+    Item_4: 'Good Assessments',
+    Item_5: 'Accurate Assessments',
+    Item_6: 'Quality of Learning',
+    Item_7: 'Improved Analysis and Problem-Solving Skills',
+    Item_8: 'Related Course to Practical Applications/Research',
+    Item_9: 'Related Course to Ethics and Environmental Issues',
+    Item_10: 'Related Course to Other Courses',
+    Item_11: 'Good Feedback',
+    Item_12: 'Defined Learning Objectives',
+    Item_13: 'Overall Rating',
+    Item_14: 'Good Delivery of Course Material',
+    Item_15: 'Number Invited',
+    Item_16: 'Number of Responses',
+};
 
 ASANDESchema.methods.convert = function (document) {
-    return replaceKeys(document, {
-        Item_1: 'Intellectually stimulating',
-        Item_2: 'Deeper Understanding',
-        Item_3: 'Good Atmosphere',
-        Item_4: 'Good Assessments',
-        Item_5: 'Accurate Assessments',
-        Item_6: 'Quality of Learning',
-        Item_7: 'Improved Analysis and Problem-Solving Skills',
-        Item_8: 'Related Course to Practical Applications/Research',
-        Item_9: 'Related Course to Ethics and Environmental Issues',
-        Item_10: 'Related Course to Other Courses',
-        Item_11: 'Good Feedback',
-        Item_12: 'Defined Learning Objectives',
-        Item_13: 'Overall Rating',
-        Item_14: 'Good Delivery of Course Material',
-        Item_15: 'Number Invited',
-        Item_16: 'Number of Responses',
-    });
+    return replaceKeys(document, names);
 };
+
+ASANDESchema.statics.convert = function (document) {
+    return _replaceKeys(document, names);
+};
+
 
 module.exports = database.mongo.model('asande_evals', ASANDESchema);

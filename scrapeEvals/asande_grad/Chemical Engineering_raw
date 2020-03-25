@@ -1,4 +1,4 @@
-Code,Dept,Division,Course,Term,Year,Last_Name,First_Name,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Overall_rating_of_instructor_teaching,Number_Invited,Number_of_Survey_Responses
+Code,Dept,Division,Course,Term,Year,Last_Name,First_Name,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Item_7,Item_8,Item_9
 CHE1100H,CHE,SGS,FUNDAMENTALS CHEMICAL ENG'G CHE1100H-F-LEC0101,Fall,2019,Cheng,Yu-Ling,4.6,4.8,4.6,4.4,4.2,4.3,N/A,18,11
 CHE1433H,CHE,SGS,AIR DISPERSION MODELLING CHE1433H-F-LEC0101,Fall,2019,Crooks,Gregory,3.9,4.1,4.0,4.4,4.3,4.1,N/A,23,15
 APS1029H,CHE,SGS,The Science of Emotional Intel APS1029H-F-LEC0101,Fall,2019,Cushing,Daniel,4.4,4.7,4.6,4.3,4.3,4.3,N/A,28,16

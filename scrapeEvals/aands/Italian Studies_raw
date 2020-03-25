@@ -1,4 +1,4 @@
-Code,Dept,Division,Course,Last_Name,First_Name,Term,Year,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Instructor_generated_enthusiasm,Course_Workload,I_would_recommend_this_course,Number_of_Students_Invited,Number_of_Respondents
+Code,Dept,Division,Course,Last_Name,First_Name,Term,Year,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Item_7,Item_8,Item_9,Item_10,Item_11
 ITA358Y0,ITA,ARTSC,Modern Italian Culture ITA358Y0-S-LEC3001,Lettieri,Michael,Summer,2018,4.8,4.9,5,4.9,4.9,5,5,2.8,5,20,16
 ITA100Y1,ITA,ARTSC,Intro Italian Lang ITA100Y1-Y-LEC5101,Grimaldi,Adriana,Summer,2018,4.6,5,4.7,4.6,4.4,4.4,4.6,3.4,4.3,15,7
 ITA311H1,ITA,ARTSC,Med Ital Lit Dante ITA311H1-S-LEC5101,Pietropaolo,Domenico,Summer,2018,4.6,4.8,4.6,4.3,4.1,4.4,4.4,3.1,4.4,22,8

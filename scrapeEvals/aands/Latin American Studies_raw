@@ -1,4 +1,4 @@
-Code,Dept,Division,Course,Last_Name,First_Name,Term,Year,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Instructor_generated_enthusiasm,Course_Workload,I_would_recommend_this_course,Number_of_Students_Invited,Number_of_Respondents
+Code,Dept,Division,Course,Last_Name,First_Name,Term,Year,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Item_7,Item_8,Item_9,Item_10,Item_11
 LAS201H1,LAS,ARTSC,Latin America: 20th C LAS201H1-S-LEC0101,Rivas,Victor,Winter,2018,4.2,4.2,4.3,4.5,4.4,4.1,4.4,3.4,4.2,37,15
 LAS302H1,LAS,ARTSC,Topics Latin Am LAS302H1-S-LEC5101,Rivas,Victor,Winter,2018,4.8,4.8,4.4,4.6,4.7,4.6,4.8,3.9,4.6,23,9
 LAS200H1,LAS,ARTSC,Latin America: C19th History LAS200H1-F-LEC0101,Rivas,Victor,Fall,2017,4.4,4.6,4.5,4.1,4,4.3,4.7,3.3,4.5,36,16

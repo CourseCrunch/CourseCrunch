@@ -1,4 +1,4 @@
-Code,Department,Division,Course_Name,Term,Year,Last_Name,First_Name,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,APSC01,APSC02,APSC03,APSC04,APSC05,APSC06,APSC07,LEC01,InvitedCount,RespondentCount
+Code,Department,Division,Course_Name,Term,Year,Last_Name,First_Name,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Item_7,Item_8,Item_9,Item_10,Item_11,Item_12,Item_13,Item_14,Item_15,Item_16
 MIE270H1,MIE,APSC,MATERIALS SCIENCE MIE270H1-F-LEC0101,Fall,2019,Azhari,Faezeh,3.5,4.2,3.8,3.5,3.7,3.1,3.1,4.1,3.2,3.1,2.8,3.8,3.8,3.8,96,21
 MIE270H1,MIE,APSC,MATERIALS SCIENCE MIE270H1-F-LEC0102,Fall,2019,Azhari,Faezeh,4.1,4.1,3.9,3.7,3.7,3.3,3.8,4.4,3.7,4.2,3.4,4.1,4.2,4.1,87,19
 MIE562H1,MIE,APSC,SCHEDULING MIE562H1-F-LEC0101,Fall,2019,Beck,J.,4.5,4.8,4.8,4.3,3.9,4.5,4.6,4.7,3.8,4.3,4.2,4.7,4.8,4.7,23,17

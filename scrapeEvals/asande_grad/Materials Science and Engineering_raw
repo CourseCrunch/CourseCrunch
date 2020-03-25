@@ -1,4 +1,4 @@
-Code,Dept,Division,Course,Term,Year,Last_Name,First_Name,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Overall_rating_of_instructor_teaching,Number_Invited,Number_of_Survey_Responses
+Code,Dept,Division,Course,Term,Year,Last_Name,First_Name,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Item_7,Item_8,Item_9
 MSE1022H,MMS,SGS,SPEC TOPIC IN MAT SCI I MSE1022H-F-LEC0101,Fall,2019,Argyropoulos,Stavros,4.2,4.4,4.0,4.2,4.6,4.2,4.4,7,5
 MSE1037H,MMS,SGS,IRON AND STEEL MSE1037H-F-LEC0101,Fall,2019,Chattopadhyay,Kinnor,4.5,4.6,4.6,4.5,4.5,4.6,4.6,23,8
 MSE1026H,MMS,SGS,ANALYTICAL ELECTRON MICROSCOPY MSE1026H-F-LEC0101,Fall,2019,Howe,Jane,3.4,3.9,3.6,3.8,4.0,3.4,3.5,25,19

@@ -1,4 +1,4 @@
-Code,Dept,Division,Course,Last_Name,First_Name,Term,Year,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Instructor_generated_enthusiasm,Course_Workload,I_would_recommend_this_course,Number_of_Students_Invited,Number_of_Respondents
+Code,Dept,Division,Course,Last_Name,First_Name,Term,Year,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Item_7,Item_8,Item_9,Item_10,Item_11
 ANT349H1,ANT,ARTSC,Ant & New Technologies ANT349H1-S-LEC0101,Visan,Laura,Summer,2018,4.4,4.8,4.7,4.3,4.4,4.4,4.3,3,4.5,34,12
 ARH306Y1,ANT,ARTSC,Arch Field Methods ARH306Y1-Y-LEC0101,Duffy,Paul,Summer,2018,4.6,4.8,4.6,3.8,4,4.2,4.6,3.2,4.2,14,5
 ARH306Y1,ANT,ARTSC,Arch Field Methods ARH306Y1-Y-LEC0101,Stewart,Sarah,Summer,2018,4.6,4.8,4.4,3.8,4,4.2,4.2,3.2,4.2,14,5

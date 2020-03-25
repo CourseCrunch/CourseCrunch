@@ -1,4 +1,4 @@
-Code,Department,Division,Course_Name,Term,Year,Last_Name,First_Name,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,APSC01,APSC02,APSC03,APSC04,APSC05,APSC06,APSC07,LEC01,InvitedCount,RespondentCount
+Code,Department,Division,Course_Name,Term,Year,Last_Name,First_Name,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Item_7,Item_8,Item_9,Item_10,Item_11,Item_12,Item_13,Item_14,Item_15,Item_16
 CHE211H1,CHE,APSC,FLUID MECHANICS CHE211H1-F-LEC0101,Fall,2019,Allen,D,4.4,4.5,4.6,4.4,4.4,4.0,4.2,4.8,3.7,4.3,3.7,4.5,4.4,4.3,111,40
 CHE220H1,CHE,APSC,APPLIED CHEMISTRY I-INOR.CHEM CHE220H1-F-LEC0101,Fall,2019,Azimi,Gisele,3.8,4.2,4.3,4.0,3.9,4.1,3.7,4.6,3.6,3.6,3.4,4.5,4.3,4.4,111,29
 CHE208H1,CHE,APSC,PROCESS ENGINEERING CHE208H1-F-LEC0101,Fall,2019,Chin,Cathy,2.9,2.4,2.2,2.1,1.9,1.8,2.5,3.0,2.1,2.4,1.7,2.5,2.0,2.4,112,42

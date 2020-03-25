@@ -1,4 +1,4 @@
-Code,Dept,Division,Course,Last_Name,First_Name,Term,Year,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Instructor_generated_enthusiasm,Course_Workload,I_would_recommend_this_course,Number_of_Students_Invited,Number_of_Respondents
+Code,Dept,Division,Course,Last_Name,First_Name,Term,Year,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Item_7,Item_8,Item_9,Item_10,Item_11
 MUS210H1,MUSIC,ARTSC,Music in Film MUS210H1-S-LEC0101,Haines,John,Summer,2018,3.7,4,3.7,3.8,3.7,3.5,3.9,3.3,3.5,75,35
 MUS211H1,MUSIC,ARTSC,World Popular Music MUS211H1-S-LEC0101,Basdurak,Nil,Summer,2018,3.1,3.4,3.2,3.1,3.3,2.7,3.4,3.4,2.8,35,17
 MUS111H1,MUSIC,ARTSC,Survey of West Mus MUS111H1-S-LEC0101,Donaldson,Hilary,Winter,2018,3.6,3.9,3.9,3.7,3.9,3.6,3.9,3,3.4,131,61

@@ -1,4 +1,4 @@
-Code,Dept,Division,Course,Last_Name,First_Name,Term,Year,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Instructor_generated_enthusiasm,Course_Workload,I_would_recommend_this_course,Number_of_Students_Invited,Number_of_Respondents
+Code,Dept,Division,Course,Last_Name,First_Name,Term,Year,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Item_7,Item_8,Item_9,Item_10,Item_11
 IVP210H1,VIC,ARTSC,Holography IVP210H1-S-LEC0101,Istrate,Emanuel,Winter,2018,4.4,4.6,4.7,4.4,4.4,4.4,4.9,2.8,4.5,24,15
 VIC106H1,VIC,ARTSC,Psych Society VIC106H1-S-LEC0101,Faflak,Joel,Winter,2018,4.3,4.1,4.9,4.5,4.8,4.5,4.7,2.8,4.6,23,10
 VIC109H1,VIC,ARTSC,Innovators Ideas VIC109H1-S-LEC0101,Papayiannis,Joanna,Winter,2018,4.4,4.2,4.9,4.3,4.2,4.4,4.9,3.1,4.1,18,12

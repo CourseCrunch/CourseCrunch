@@ -1,4 +1,4 @@
-Code,Dept,Division,Course,Last_Name,First_Name,Term,Year,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Instructor_generated_enthusiasm,Course_Workload,I_would_recommend_this_course,Number_of_Students_Invited,Number_of_Respondents
+Code,Dept,Division,Course,Last_Name,First_Name,Term,Year,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Item_7,Item_8,Item_9,Item_10,Item_11
 CIN378Y0,CINE,ARTSC,Aspects of National Cinema CIN378Y0-S-LEC3001,Banning,Kass,Summer,2018,3.7,4,3.6,3.6,3.8,3.4,3.9,3.9,2.9,20,18
 CIN376Y0,CINE,ARTSC,Chinese Cinemas CIN376Y0-F-LEC3001,Testa,Bart,Summer,2018,4.2,4.3,4.2,4.1,4,3.9,4.3,3.8,3.5,35,23
 CIN105Y1,CINE,ARTSC,Intro to Film Study CIN105Y1-Y-LEC0101,Wright,Benjamin,Summer,2018,4.4,4.7,4.7,4.4,4.3,4.4,4.7,3.1,4.5,39,18

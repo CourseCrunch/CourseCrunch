@@ -1,4 +1,4 @@
-Code,Department,Division,Course_Name,Term,Year,Last_Name,First_Name,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,APSC01,APSC02,APSC03,APSC04,APSC05,APSC06,APSC07,LEC01,InvitedCount,RespondentCount
+Code,Department,Division,Course_Name,Term,Year,Last_Name,First_Name,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Item_7,Item_8,Item_9,Item_10,Item_11,Item_12,Item_13,Item_14,Item_15,Item_16
 ECE244H1,ECE,APSC,PROGRAMMING FUNDAMENTALS ECE244H1-F-LEC0101,Fall,2019,Abdelrahman,Tarek,4.3,4.5,4.8,4.4,4.3,4.3,4.0,4.3,3.2,3.9,3.7,4.6,4.8,4.8,111,67
 ECE244H1,ECE,APSC,PROGRAMMING FUNDAMENTALS ECE244H1-F-LEC0103,Fall,2019,Abdelrahman,Tarek,4.5,4.7,4.7,4.4,4.3,4.4,4.3,4.3,3.3,3.7,3.8,4.7,4.8,4.8,102,60
 ECE470H1,ECE,APSC,ROBOT MODELING AND CONTROL ECE470H1-F-LEC0101,Fall,2019,Broucke,Mireille,4.2,4.1,4.1,4.2,4.2,3.5,3.9,3.7,2.3,3.7,3.2,4.2,3.8,3.8,86,24

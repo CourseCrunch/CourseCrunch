@@ -1,4 +1,4 @@
-Code,Dept,Division,Course,Last_Name,First_Name,Term,Year,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Instructor_generated_enthusiasm,Course_Workload,I_would_recommend_this_course,Number_of_Students_Invited,Number_of_Respondents
+Code,Dept,Division,Course,Last_Name,First_Name,Term,Year,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Item_7,Item_8,Item_9,Item_10,Item_11
 EAS395Y0,EAS,ARTSC,Selected Topics EAS395Y0-F-LEC3001,Falkenheim,Victor,Summer,2018,4.9,4.9,5,4.9,5,5,5,2.8,4.9,37,9
 EAS395Y0,EAS,ARTSC,Selected Topics EAS395Y0-F-LEC3001,Guisso,Richard,Summer,2018,4.9,4.9,5,4.9,5,5,5,2.8,4.9,37,9
 EAS241H1,EAS,ARTSC,Chinese Philosophy EAS241H1-S-LEC0101,Yan,Zhonghu,Summer,2018,4,4.2,4.1,4.3,4.1,3.8,4.1,3.1,3.6,36,10

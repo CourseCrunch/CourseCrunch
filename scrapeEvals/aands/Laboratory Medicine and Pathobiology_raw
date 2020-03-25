@@ -1,4 +1,4 @@
-Code,Dept,Division,Course,Last_Name,First_Name,Term,Year,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Instructor_generated_enthusiasm,Course_Workload,I_would_recommend_this_course,Number_of_Students_Invited,Number_of_Respondents
+Code,Dept,Division,Course,Last_Name,First_Name,Term,Year,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Item_7,Item_8,Item_9,Item_10,Item_11
 LMP300Y1,LMP,ARTSC,Intro Pathobiology LMP300Y1-Y-LEC0101,Templeton,Douglas,Winter,2018,2.9,2.9,3.2,2.4,2.2,2.3,3.8,4,2.1,25,9
 LMP301H1,LMP,ARTSC,Introd Clin Biochem LMP301H1-S-LEC0101,Colantonio,David,Winter,2018,3.5,3.4,3.7,2.8,3,2.9,4,3.5,2.8,126,41
 LMP301H1,LMP,ARTSC,Introd Clin Biochem LMP301H1-S-LEC0101,Fu,Lei,Winter,2018,3.5,3.4,3,2.8,3,2.9,2.9,3.5,2.8,126,41

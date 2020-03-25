@@ -1,4 +1,4 @@
-Code,Dept,Division,Course,Last_Name,First_Name,Term,Year,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Instructor_generated_enthusiasm,Course_Workload,I_would_recommend_this_course,Number_of_Students_Invited,Number_of_Respondents
+Code,Dept,Division,Course,Last_Name,First_Name,Term,Year,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Item_7,Item_8,Item_9,Item_10,Item_11
 MST202H1,MST,ARTSC,Medieval Space MST202H1-S-LEC0101,Bolintineanu,Ioana,Winter,2018,4.4,4.5,4.8,4.2,4.2,4.3,4.7,2.8,4.5,41,27
 MST201H1,MST,ARTSC,Medieval Literature MST201H1-F-LEC0101,Bolintineanu,Ioana,Fall,2017,4.6,4.8,4.8,4.4,4.4,4.6,4.9,3,4.4,18,16
 MST200Y1,MST,ARTSC,Getting Medieval MST200Y1-Y-LEC0101,Akbari,Suzanne,Winter,2017,4.5,4.7,4.8,4.6,4.5,4.6,4.9,2.9,4.6,36,23

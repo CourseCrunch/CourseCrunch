@@ -1,4 +1,4 @@
-Code,Dept,Division,Course,Last_Name,First_Name,Term,Year,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Instructor_generated_enthusiasm,Course_Workload,I_would_recommend_this_course,Number_of_Students_Invited,Number_of_Respondents
+Code,Dept,Division,Course,Last_Name,First_Name,Term,Year,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Item_7,Item_8,Item_9,Item_10,Item_11
 JPA331Y0,POL,ARTSC,Issues in Contemp Chinese Pol JPA331Y0-F-LEC3001,Wong,Joseph,Summer,2018,4.4,4.6,4.7,4.6,4.6,4.9,4.9,3.1,4.6,24,7
 POL300Y0,POL,ARTSC,Topics in Comp Pol POL300Y0-S-LEC3001,Allahwala,M.,Summer,2018,4.7,4.6,4.8,4.4,4.5,4.6,4.9,2.9,4.9,20,11
 POL214Y1,POL,ARTSC,Canadian Politics POL214Y1-Y-LEC5101 (B),Pond,David,Summer,2018,3.7,4.2,4,3.8,3.7,3.6,4.5,3.5,3.5,52,14

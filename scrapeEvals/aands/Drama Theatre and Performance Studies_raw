@@ -1,4 +1,4 @@
-Code,Dept,Division,Course,Last_Name,First_Name,Term,Year,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Instructor_generated_enthusiasm,Course_Workload,I_would_recommend_this_course,Number_of_Students_Invited,Number_of_Respondents
+Code,Dept,Division,Course,Last_Name,First_Name,Term,Year,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Item_7,Item_8,Item_9,Item_10,Item_11
 DRM386H1,DRAMA,ARTSC,Special Topics DRM386H1-S-LEC5101,Fricker,Karen,Summer,2018,3.8,4,4,3.9,3.8,3.5,4.4,3.1,4.1,21,10
 DRM386H1,DRAMA,ARTSC,Special Topics DRM386H1-S-LEC5101,Maga,Caroline,Summer,2018,3.8,4,4.1,3.9,3.8,3.5,4.2,3.1,4.1,21,10
 DRM286H1,DRAMA,ARTSC,Intro to Communication DRM286H1-F-LEC5101,Block,Cindy,Summer,2018,4.2,5,4.8,4.2,4.2,4.4,5,1.8,4.8,24,6

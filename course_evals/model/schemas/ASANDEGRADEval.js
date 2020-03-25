@@ -33,7 +33,7 @@ ASANDEGRADSchema.statics.find_names = function () {
                 _id: 0, First_Name: '$_id.First_Name', Last_Name: '$_id.Last_Name', Full_Name: { $concat: ['$_id.First_Name', ' ', '$_id.Last_Name'] },
             },
         },
-    ]);
+    ]).exec();
 };
 
 ASANDEGRADSchema.statics.find_by_name = function (FirstName, LastName) {
@@ -93,13 +93,23 @@ const names = {
     Item_9: 'Number of Responses',
 };
 
-ASANDEGRADSchema.methods.convert = function (document) {
-    return replaceKeys(document, names);
+ASANDEGRADSchema.methods.convert = function () {
+    return replaceKeys(this, names);
 };
 
 ASANDEGRADSchema.statics.convert = function (document) {
     return _replaceKeys(document, names);
 };
 
+ASANDEGRADSchema.statics.codes = function () {
+    return this.aggregate([{ $group: { _id: '$Code' } }]).exec();
+};
+
+ASANDEGRADSchema.statics.category_code_average = function (courseId, category) {
+    return this.aggregate([
+        { $match: { Code: courseId } },
+        { $group: { _id: '$Code', recommendation: { $avg: { $toDecimal: category } } } },
+    ]);
+};
 
 module.exports = database.mongo.model('asande_grad_evals', ASANDEGRADSchema);

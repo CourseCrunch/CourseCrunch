@@ -36,7 +36,7 @@ SWSchema.statics.find_names = function () {
                 _id: 0, First_Name: '$_id.First_Name', Last_Name: '$_id.Last_Name', Full_Name: { $concat: ['$_id.First_Name', ' ', '$_id.Last_Name'] },
             },
         },
-    ]);
+    ]).exec();
 };
 
 SWSchema.statics.find_by_name = function (FirstName, LastName) {
@@ -112,13 +112,23 @@ const names = {
     Item_13: 'Number of Responses',
 };
 
-SWSchema.methods.convert = function (document) {
-    return replaceKeys(document, names);
+SWSchema.methods.convert = function () {
+    return replaceKeys(this, names);
 };
 
 SWSchema.statics.convert = function (document) {
     return _replaceKeys(document, names);
 };
 
+SWSchema.statics.codes = function () {
+    return this.aggregate([{ $group: { _id: '$Code' } }]).exec();
+};
+
+SWSchema.statics.category_code_average = function (courseId, category) {
+    return this.aggregate([
+        { $match: { Code: courseId } },
+        { $group: { _id: '$Code', recommendation: { $avg: { $toDecimal: category } } } },
+    ]);
+};
 
 module.exports = database.mongo.model('sw_evals', SWSchema);

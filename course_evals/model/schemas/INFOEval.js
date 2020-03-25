@@ -35,7 +35,7 @@ INFOSchema.statics.find_names = function () {
                 _id: 0, First_Name: '$_id.First_Name', Last_Name: '$_id.Last_Name', Full_Name: { $concat: ['$_id.First_Name', ' ', '$_id.Last_Name'] },
             },
         },
-    ]);
+    ]).exec();
 };
 
 INFOSchema.statics.find_by_name = function (FirstName, LastName) {
@@ -111,13 +111,23 @@ const names = {
     Item_13: 'Number of Responses',
 };
 
-INFOSchema.methods.convert = function (document) {
-    return replaceKeys(document, names);
+INFOSchema.methods.convert = function () {
+    return replaceKeys(this, names);
 };
 
 INFOSchema.statics.convert = function (document) {
     return _replaceKeys(document, names);
 };
 
+INFOSchema.statics.codes = function () {
+    return this.aggregate([{ $group: { _id: '$Code' } }]).exec();
+};
+
+INFOSchema.statics.category_code_average = function (courseId, category) {
+    return this.aggregate([
+        { $match: { Code: courseId } },
+        { $group: { _id: '$Code', recommendation: { $avg: { $toDecimal: category } } } },
+    ]);
+};
 
 module.exports = database.mongo.model('info_evals', INFOSchema);

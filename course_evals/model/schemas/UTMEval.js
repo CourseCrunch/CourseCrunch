@@ -34,7 +34,7 @@ UTMSchema.statics.find_names = function () {
                 _id: 0, First_Name: '$_id.First_Name', Last_Name: '$_id.Last_Name', Full_Name: { $concat: ['$_id.First_Name', ' ', '$_id.Last_Name'] },
             },
         },
-    ]);
+    ]).exec();
 };
 
 UTMSchema.statics.find_by_name = function (FirstName, LastName) {
@@ -88,7 +88,7 @@ UTMSchema.statics.aggregate_professor = function (FirstName, LastName) {
         { $project: {
             _id: 0,
         } },
-    ]);
+    ]).exec();
 };
 
 const names = {
@@ -114,5 +114,15 @@ UTMSchema.statics.convert = function (document) {
     return _replaceKeys(document, names);
 };
 
+UTMSchema.statics.codes = function () {
+    return this.aggregate([{ $group: { _id: '$Code' } }]).exec();
+};
+
+UTMSchema.statics.category_code_average = function (courseId, category) {
+    return this.aggregate([
+        { $match: { Code: courseId } },
+        { $group: { _id: '$Code', recommendation: { $avg: { $toDecimal: category } } } },
+    ]).exec();
+};
 
 module.exports = database.mongo.model('utm_evals', UTMSchema);

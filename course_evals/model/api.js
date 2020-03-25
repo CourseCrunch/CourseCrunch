@@ -83,19 +83,12 @@ getFuse().then(() => console.log('built course eval fuse'));
 //     });
 // });
 
-UTM.aggregate_professor('Furkan', 'Alaca').then((res) => {
-    console.log(res);
-});
+// UTM.aggregate_professor('Furkan', 'Alaca').then((res) => {
+//     console.log(res);
+// });
 
 module.exports = {
     getFuse,
-    fuzzySearch,
+    searchInstructor: fuzzySearch,
     getSchools,
-    UTM,
-    AANDS,
-    ASANDE,
-    ASANDEGRAD,
-    SW,
-    INFO,
-    UTSC,
 };

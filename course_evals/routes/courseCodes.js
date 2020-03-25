@@ -1,18 +1,18 @@
-const mongoose = require('mongoose');
 const express = require('express');
+const api = require('../model/api');
 
-const { Schema } = mongoose;
 const router = express.Router();
 
+const campuses = api.getSchools();
+
 router.get('/courses', (req, res) => {
-    mongoose.model('utm_evals')
-        .aggregate([{ $group: { _id: '$Code' } }])
-        .exec()
+    campuses.utm[0]
+        .codes()
         .then((out) => {
-            res.status(200).send(out);
+            res.json(out);
         })
         .catch(() => {
-            console.log('Promise Rejected');
+            res.status(500).end();
         });
 });
 

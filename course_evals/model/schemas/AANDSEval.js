@@ -35,7 +35,7 @@ AANDSchema.statics.find_names = function () {
                 _id: 0, First_Name: '$_id.First_Name', Last_Name: '$_id.Last_Name', Full_Name: { $concat: ['$_id.First_Name', ' ', '$_id.Last_Name'] },
             },
         },
-    ]);
+    ]).exec();
 };
 
 AANDSchema.statics.find_by_name = function (FirstName, LastName) {
@@ -103,13 +103,23 @@ const names = {
     Item_11: 'Number of Responses',
 };
 
-AANDSchema.methods.convert = function (document) {
-    return replaceKeys(document, names);
+AANDSchema.methods.convert = function () {
+    return replaceKeys(this, names);
 };
 
 AANDSchema.statics.convert = function (document) {
     return _replaceKeys(document, names);
 };
 
+AANDSchema.statics.codes = function () {
+    return this.aggregate([{ $group: { _id: '$Code' } }]).exec();
+};
+
+AANDSchema.statics.category_code_average = function (courseId, category) {
+    return this.aggregate([
+        { $match: { Code: courseId } },
+        { $group: { _id: '$Code', recommendation: { $avg: { $toDecimal: category } } } },
+    ]);
+};
 
 module.exports = database.mongo.model('aands_evals', AANDSchema);

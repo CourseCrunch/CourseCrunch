@@ -39,7 +39,7 @@ ASANDESchema.statics.find_names = function () {
                 _id: 0, First_Name: '$_id.First_Name', Last_Name: '$_id.Last_Name', Full_Name: { $concat: ['$_id.First_Name', ' ', '$_id.Last_Name'] },
             },
         },
-    ]);
+    ]).exec();
 };
 
 ASANDESchema.statics.find_by_name = function (FirstName, LastName) {
@@ -127,13 +127,23 @@ const names = {
     Item_16: 'Number of Responses',
 };
 
-ASANDESchema.methods.convert = function (document) {
-    return replaceKeys(document, names);
+ASANDESchema.methods.convert = function () {
+    return replaceKeys(this, names);
 };
 
 ASANDESchema.statics.convert = function (document) {
     return _replaceKeys(document, names);
 };
 
+ASANDESchema.statics.codes = function () {
+    return this.aggregate([{ $group: { _id: '$Code' } }]).exec();
+};
+
+ASANDESchema.statics.category_code_average = function (courseId, category) {
+    return this.aggregate([
+        { $match: { Code: courseId } },
+        { $group: { _id: '$Code', recommendation: { $avg: { $toDecimal: category } } } },
+    ]);
+};
 
 module.exports = database.mongo.model('asande_evals', ASANDESchema);

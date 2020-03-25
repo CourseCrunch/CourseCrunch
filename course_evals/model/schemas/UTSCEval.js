@@ -34,7 +34,7 @@ UTSCSchema.statics.find_names = function () {
                 _id: 0, First_Name: '$_id.First_Name', Last_Name: '$_id.Last_Name', Full_Name: { $concat: ['$_id.First_Name', ' ', '$_id.Last_Name'] },
             },
         },
-    ]);
+    ]).exec();
 };
 
 UTSCSchema.statics.find_by_name = function (FirstName, LastName) {
@@ -102,13 +102,23 @@ const names = {
     Item_11: 'Number of Responses',
 };
 
-UTSCSchema.methods.convert = function (document) {
-    return replaceKeys(document, names);
+UTSCSchema.methods.convert = function () {
+    return replaceKeys(this, names);
 };
 
 UTSCSchema.statics.convert = function (document) {
     return _replaceKeys(document, names);
 };
 
+UTSCSchema.statics.codes = function () {
+    return this.aggregate([{ $group: { _id: '$Code' } }]).exec();
+};
+
+UTSCSchema.statics.category_code_average = function (courseId, category) {
+    return this.aggregate([
+        { $match: { Code: courseId } },
+        { $group: { _id: '$Code', recommendation: { $avg: { $toDecimal: category } } } },
+    ]);
+};
 
 module.exports = database.mongo.model('utsc_evals', UTSCSchema);

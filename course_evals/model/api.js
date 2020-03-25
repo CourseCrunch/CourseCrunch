@@ -41,15 +41,7 @@ function generatePromises() {
         promiseMap[keys[i]] = [];
         for (let schemaIndex = 0; schemaIndex < schools[keys[i]].length; schemaIndex += 1) {
             promiseMap[keys[i]].push(
-                // schools[keys[i]][schemaIndex].find({}).select({ First_Name: 1, Last_Name: 1 }),
-                schools[keys[i]][schemaIndex].aggregate([
-                    { $group: { _id: { First_Name: '$First_Name', Last_Name: '$Last_Name' } } },
-                    {
-                        $project: {
-                            _id: 0, First_Name: '$_id.First_Name', Last_Name: '$_id.Last_Name', Full_Name: { $concat: ['$_id.First_Name', ' ', '$_id.Last_Name'] },
-                        },
-                    },
-                ]),
+                schools[keys[i]][schemaIndex].find_names(),
             );
         }
         promises.push(
@@ -81,8 +73,15 @@ function fuzzySearch(schoolName, instructorName) {
     return getFuse().then((f) => f[schoolName].search(instructorName));
 }
 
-// getFuse().then(() => 'built course eval fuse');
-fuzzySearch('utsg', 'David Penny').then((r) => console.log(r[0]));
+getFuse().then(() => console.log('built course eval fuse'));
+
+// fuzzySearch('utsg', 'David Penny').then((r) => console.log(r[0]));
+
+// UTM.find_by_name('Furkan', 'Alaca').then((res) => {
+//     res.forEach((document) => {
+//         console.log(document.convert());
+//     });
+// });
 
 module.exports = {
     getFuse,

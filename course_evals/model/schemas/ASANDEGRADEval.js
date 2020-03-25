@@ -1,3 +1,4 @@
+/* eslint-disable object-curly-newline */
 /* eslint-disable func-names */
 /* eslint-disable quote-props */
 const database = require('../Database');
@@ -37,6 +38,47 @@ ASANDEGRADSchema.statics.find_names = function () {
 
 ASANDEGRADSchema.statics.find_by_name = function (FirstName, LastName) {
     return this.find({ First_Name: FirstName, Last_Name: LastName });
+};
+
+ASANDEGRADSchema.statics.aggregate_professor = function (FirstName, LastName) {
+    return this.aggregate([
+        { $match: { First_Name: FirstName, Last_Name: LastName } },
+        {
+            $group: {
+                _id: null,
+                Item_1: {
+                    $avg: { $convert: { input: '$Item_1', to: 'double', onError: null, onNull: null } },
+                },
+                Item_2: {
+                    $avg: { $convert: { input: '$Item_2', to: 'double', onError: null, onNull: null } },
+                },
+                Item_3: {
+                    $avg: { $convert: { input: '$Item_3', to: 'double', onError: null, onNull: null } },
+                },
+                Item_4: {
+                    $avg: { $convert: { input: '$Item_4', to: 'double', onError: null, onNull: null } },
+                },
+                Item_5: {
+                    $avg: { $convert: { input: '$Item_5', to: 'double', onError: null, onNull: null } },
+                },
+                Item_6: {
+                    $avg: { $convert: { input: '$Item_6', to: 'double', onError: null, onNull: null } },
+                },
+                Item_7: {
+                    $avg: { $convert: { input: '$Item_7', to: 'double', onError: null, onNull: null } },
+                },
+                Item_8: {
+                    $avg: { $convert: { input: '$Item_8', to: 'double', onError: null, onNull: null } },
+                },
+                Item_9: {
+                    $avg: { $convert: { input: '$Item_9', to: 'double', onError: null, onNull: null } },
+                },
+            },
+        },
+        { $project: {
+            _id: 0,
+        } },
+    ]);
 };
 
 const names = {

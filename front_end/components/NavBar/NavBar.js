@@ -22,6 +22,7 @@ class NavBar extends React.Component {
                     <ul>
                         <li><label>CGPA Calculator</label></li>
                         <li><label>Course Review</label></li>
+                        <li><Link href = "/compare"><a>Compare courses</a></Link></li>
                         <li><Link href = "/recommendations"><a>Course Recommendation</a></Link></li>
                         {Greeting(this.props)}
                     </ul>

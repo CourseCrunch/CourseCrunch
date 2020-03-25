@@ -4,7 +4,7 @@ const express = require('express');
 const { Schema } = mongoose;
 const router = express.Router();
 
-mongoose.connect(process.env.CONNECTSTR, { useNewUrlParser: true });
+mongoose.connect(process.env.MONGOEVALSTR, { useNewUrlParser: true });
 
 const faculties = ['aands', 'asande', 'asande_grad', 'info', 'sw', 'utm', 'utsc'];
 faculties.forEach((faculty) => {

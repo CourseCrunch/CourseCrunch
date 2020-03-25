@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/UTMCSC301/project-boundlessbytes#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "eslint-plugin-react": "^7.18.3",
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^0.88.2"

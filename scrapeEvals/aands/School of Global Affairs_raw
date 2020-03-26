@@ -1,4 +1,4 @@
-Code,Dept,Division,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Instructor generated enthusiasm,Course Workload,I would recommend this course,Number of Students Invited,Number of Respondents
+Code,Dept,Division,Course,Last_Name,First_Name,Term,Year,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Item_7,Item_8,Item_9,Item_10,Item_11
 MUN102H1,GLAF,ARTSC,Global Innovation II MUN102H1-S-LEC0101,Kramarz,Teresa,Winter,2018,4.5,4.3,4.6,4.3,4.2,4.3,4.6,3.7,4.4,22,19
 MUN105Y1,GLAF,ARTSC,Global Problem Solving MUN105Y1-Y-LEC0101,Kramarz,Teresa,Winter,2018,4.7,4.6,4.5,4.3,4.5,4.7,4.8,4.2,4.6,22,15
 PCJ260Y1,GLAF,ARTSC,Intro Peace & Confli PCJ260Y1-Y-LEC0101,Rowley,Kevin,Winter,2018,4.5,4.5,2.8,3.8,3.8,3.8,2.2,4.2,3.6,33,28

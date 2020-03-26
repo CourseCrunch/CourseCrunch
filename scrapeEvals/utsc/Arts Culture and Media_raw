@@ -1,4 +1,63 @@
-Code,Dept,Course,Term,Year,Last Name,First Name,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Inspired thinking about subject matter,Course Workload,I would recommend this course,Number Invited,Number of Survey Responses
+Code,Dept,Course,Term,Year,Last_Name,First_Name,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Item_7,Item_8,Item_9,Item_10,Item_11
+MDSB03H3,ACMSC,Advertising and Consumer Cult MDSB03H3-F-LEC01,Fall,2019,Visan,Laura,3.8,4.0,4.1,4.1,4.0,3.8,3.9,3.2,3.9,120,27
+MDSC61H3,ACMSC,Alternative Media MDSC61H3-F-LEC01,Fall,2019,Kaye,Lewis,3.6,3.7,3.4,3.9,4.0,3.2,3.3,3.5,3.0,51,14
+VPSC79H3,ACMSC,Art and Activism VPSC79H3-F-LEC01,Fall,2019,Abdallah,Hiba,4.8,4.6,4.9,4.9,4.8,4.6,5.0,3.4,4.8,22,11
+VPHC72H3,ACMSC,Art  the Museum & the Gallery VPHC72H3-F-LEC01,Fall,2019,Webster,Erin,4.9,4.9,4.9,4.8,4.8,4.9,5.0,3.5,4.9,12,8
+VPSA63H3,ACMSC,But Why Is It Art? VPSA63H3-F-LEC01,Fall,2019,Brown,Adam,3.6,3.8,3.6,3.8,3.8,3.2,3.7,3.6,3.0,101,32
+VPMA73H3,ACMSC,Concert Band VPMA73/A74/B73/B74/C73/C74H3-F-LEC30,Fall,2019,Tucker,Lynn,4.6,4.7,4.7,4.6,4.5,4.7,4.5,3.1,4.9,39,19
+VPMA70H3,ACMSC,Concert Choir VPMA70/A71/B70/B71/C70/C71H3-F-LEC30,Fall,2019,Ramsay,Brendon,4.4,4.2,4.7,4.2,4.3,4.4,4.0,2.6,4.5,76,28
+ACMB01H3,ACMSC,Critical Read  Think & Write ACMB01H3-F-LEC01,Fall,2019,Perley,David,4.0,4.1,4.5,4.0,4.0,3.9,3.8,3.7,3.3,18,13
+ACMB01H3,ACMSC,Critical Read  Think & Write ACMB01H3-F-LEC02,Fall,2019,Kleeb,Sarah,3.2,3.4,4.1,3.3,3.8,3.3,3.2,4.2,2.5,23,12
+CRTD44H3,ACMSC,Curating Historical Art CRTD44H3-F-LEC01,Fall,2019,Webster,Erin,4.7,4.2,4.7,4.5,4.5,4.7,4.7,3.2,4.3,8,6
+VPSB56H3,ACMSC,Digital Studio I VPSB56H3-F-LEC01,Fall,2019,Koroshegyi,Arnold,4.6,4.7,4.8,4.8,4.7,4.4,4.5,3.3,4.3,22,11
+VPSB80H3,ACMSC,Digital Studio II VPSB80H3-F-LEC01,Fall,2019,Koroshegyi,Arnold,3.4,3.8,4.0,3.9,4.1,3.7,3.9,3.0,3.8,23,10
+VPSB70H3,ACMSC,Drawing I VPSB70H3-F-LEC01,Fall,2019,Irving,Stephen,3.7,3.0,3.5,3.3,3.7,2.8,2.8,3.0,3.3,22,7
+VPSB74H3,ACMSC,Drawing II VPSB74H3-F-LEC01,Fall,2019,Lujan,Jason,3.3,3.7,4.0,3.7,4.2,3.7,3.3,3.5,3.3,14,6
+VPSC55H3,ACMSC,Drawing III VPSC55H3-F-LEC01,Fall,2019,Brotman,Yael,4.2,4.0,4.6,4.0,4.0,4.2,3.4,4.0,3.6,12,5
+VPMA95H3,ACMSC,Elementary Musicianship I VPMA95H3-F-LEC01,Fall,2019,Tucker,Lynn,4.5,4.4,4.8,4.5,4.6,4.5,4.4,2.5,4.6,42,22
+ACMB10H3,ACMSC,Equity & Diversity in Arts Org ACMB10H3-F-LEC01,Fall,2019,Wall-Andrews,Charlie,4.0,4.5,4.6,4.1,4.3,4.2,4.2,2.8,4.3,39,19
+VPDB04H3,ACMSC,Experiencing the Live Theatre VPDB04H3-F-LEC30,Fall,2019,Lamie,Patricia,3.1,3.2,3.8,3.6,3.6,3.1,3.1,2.6,3.2,26,9
+VPMC01H3,ACMSC,Exploring Community Music VPMC01H3-F-LEC01,Fall,2019,Risk,Laura,4.4,4.6,5.0,4.6,4.6,4.6,4.4,3.4,4.4,6,5
+VPSA62H3,ACMSC,Foundation Studies in Studio VPSA62H3-F-LEC01,Fall,2019,Mars,Tanya,3.5,3.5,3.7,3.5,3.5,3.3,3.3,3.7,3.3,20,6
+VPSA62H3,ACMSC,Foundation Studies in Studio VPSA62H3-F-LEC02,Fall,2019,Lujan,Jason,4.4,4.4,4.8,4.4,4.6,4.4,4.4,2.8,4.6,20,5
+JOUB39H3,ACMSC,Fundamntls of Journal Writing JOUB39H3-F-LEC01,Fall,2019,Dvorkin,Jeffrey,4.0,4.0,4.0,3.9,3.9,3.9,4.2,2.8,4.3,31,13
+VPDB01H3,ACMSC,Interm Workshop in Perform I VPDB01H3-F-LEC01,Fall,2019,Lamie,Patricia,3.7,3.3,4.1,3.6,3.9,3.6,3.7,2.8,3.3,19,10
+VPAA10H3,ACMSC,Intro to Arts Management VPAA10H3-F-LEC01,Fall,2019,Luka,MaryElizabeth,3.5,3.5,4.0,3.9,3.9,3.3,3.5,3.1,3.3,96,33
+CRTB01H3,ACMSC,Introduction to Curating Art CRTB01H3-F-LEC01,Fall,2019,Irving,Stephen,4.2,4.0,4.2,4.2,4.3,3.7,4.0,3.0,3.8,10,6
+MDSA01H3,ACMSC,Introduction to Media Studies MDSA01H3-F-LEC01,Fall,2019,Petit,Michael,3.7,4.1,4.0,3.7,3.8,3.6,3.6,3.1,3.7,271,77
+MDSA01H3,ACMSC,Introduction to Media Studies MDSA01H3-F-LEC60,Fall,2019,Petit,Michael,3.8,3.9,3.8,3.9,3.9,3.4,3.5,3.2,3.7,723,154
+VPDA10H3,ACMSC,Introduction to Theatre VPDA10H3-F-LEC01,Fall,2019,Mealey,Scott,4.3,4.5,4.7,4.3,4.3,4.4,4.2,2.7,4.3,85,39
+VPMC94H3,ACMSC,Jazz VPMC94H3-F-LEC01,Fall,2019,Stanbridge,Alan,5.0,5.0,5.0,4.3,4.8,5.0,4.5,3.8,5.0,15,5
+JOUA01H3,ACMSC,Journalism and News Literacy I JOUA01H3-F-LEC01,Fall,2019,Dvorkin,Jeffrey,3.5,3.8,4.0,3.2,3.4,3.4,3.5,2.7,3.6,164,62
+MDSB09H3,ACMSC,Kids: Youth Language and Media MDSB09H3-F-LEC01,Fall,2019,Paz,Alejandro,4.1,4.2,4.4,4.2,4.2,4.2,4.2,2.8,4.1,75,18
+VPMA93H3,ACMSC,Listening to Music VPMA93H3-F-LEC01,Fall,2019,King,Rosanne,3.4,3.7,4.0,3.8,3.9,3.5,3.4,2.8,3.9,283,80
+VPMA93H3,ACMSC,Listening to Music VPMA93H3-F-LEC60,Fall,2019,King,Rosanne,4.0,4.2,4.3,4.0,4.2,4.0,3.7,2.7,4.2,382,83
+MDSB61H3,ACMSC,Mapping New Media MDSB61H3-F-LEC30,Fall,2019,Visan,Laura,3.7,3.7,3.7,3.9,4.1,3.4,3.4,3.0,3.1,79,17
+VPMB88H3,ACMSC,Materials of Music I VPMB88H3-F-LEC01,Fall,2019,Rapoport,Alexander,3.5,2.8,3.2,3.2,3.7,2.7,3.3,2.5,2.7,33,7
+MDSC64H3,ACMSC,Media and Technology MDSC64H3-F-LEC01,Fall,2019,Petit,Michael,4.1,4.4,4.1,4.2,4.2,3.8,4.0,3.2,3.9,56,15
+MDSC62H3,ACMSC,Media Journal & Digital Labour MDSC62H3-F-LEC01,Fall,2019,Cowan,Theresa,4.5,4.5,4.8,4.5,4.5,4.5,4.5,3.2,4.6,45,15
+VPHB53H3,ACMSC,Medieval Art VPHB53H3-F-LEC01,Fall,2019,Gervers,Michael,4.6,4.4,4.4,4.1,4.0,4.3,4.6,3.1,4.4,10,7
+MDSC85H3,ACMSC,Movies  Music and Meaning MDSC85H3-F-LEC01,Fall,2019,Stanbridge,Alan,3.6,4.2,4.0,4.0,4.1,3.9,3.9,2.7,3.6,29,7
+VPMB91H3,ACMSC,Music and Technology VPMB91H3-F-LEC01,Fall,2019,Mantie,Roger,3.4,3.8,3.8,3.6,3.7,3.3,3.2,3.0,3.8,25,9
+VPSB61H3,ACMSC,Painting I VPSB61H3-F-LEC01,Fall,2019,Irving,Stephen,4.0,4.0,4.1,4.2,4.3,4.0,3.6,3.1,3.9,20,11
+VPSB75H3,ACMSC,Photo II VPSB75H3-F-LEC01,Fall,2019,Mazinani,Sanaz,4.6,4.8,4.8,4.4,4.8,4.6,5.0,2.6,4.6,19,5
+MDSB25H3,ACMSC,Political Economy of Media MDSB25H3-F-LEC01,Fall,2019,Kaye,Lewis,3.1,3.3,3.4,3.2,3.4,2.7,2.9,3.1,2.6,74,13
+JOUD11H3,ACMSC,Senior Research Seminar JOUD11H3-F-LEC01,Fall,2019,Visan,Laura,2.8,3.2,4.0,4.0,4.2,3.4,3.4,3.2,2.8,24,5
+VPMA68H3,ACMSC,Small EnsembleVPMA68/A69/B68/B69/C68/C69H3-F-LEC30,Fall,2019,Crino,Erika,4.2,4.4,4.2,4.2,4.2,4.0,4.0,2.8,4.5,42,6
+MDSB63H3,ACMSC,Sound and Visual Media MDSB63H3-F-LEC01,Fall,2019,Kaye,Lewis,3.4,3.4,3.4,3.3,3.3,2.9,3.3,3.4,2.6,77,16
+VPSB88H3,ACMSC,Sound Art VPSB88H3-F-LEC01,Fall,2019,Hlady,Marla,3.9,4.3,4.1,4.0,3.9,3.8,4.0,3.0,3.9,18,8
+VPDC20H3,ACMSC,Special Topics in Performance VPDC20H3-F-LEC01,Fall,2019,Leffler,Elliot,3.9,3.9,4.0,3.0,3.3,3.6,3.3,4.0,3.7,12,7
+VPMA66H3,ACMSC,String Orchestra VPMA66/A67/B66/B67/C66/C67H3-F-LEC01,Fall,2019,Leong,Tony,4.4,4.4,4.4,4.6,4.5,4.3,4.5,2.3,4.3,21,8
+VPDB03H3,ACMSC,Technical Production I VPDB03H3-F-LEC01,Fall,2019,Wright,Kevin,4.7,4.9,4.9,4.7,4.7,4.7,4.4,2.5,4.7,19,10
+VPHC75H3,ACMSC,The Artist  Maker  Creator VPHC75H3-F-LEC01,Fall,2019,Webster,Erin,4.4,4.5,4.7,4.5,4.5,4.4,4.5,3.5,4.3,18,11
+VPDC13H3,ACMSC,Theatre and Social Justice VPDC13H3-F-LEC01,Fall,2019,Leffler,Elliot,4.2,4.3,4.3,4.1,4.2,4.0,3.8,4.0,3.9,20,11
+MDSC01H3,ACMSC,Theories in Media Studies MDSC01H3-F-LEC01,Fall,2019,Visan,Laura,3.9,3.9,4.2,4.2,4.0,3.8,3.8,3.0,3.6,48,16
+NMEC01H3,ACMSC,Theory & Practice of New Media NMEC01H3-F-LEC01,Fall,2019,Papagiannis,Danny,3.3,3.3,4.3,3.6,3.6,3.5,3.5,2.9,3.3,51,15
+MDSD01H3,ACMSC,Topics in Media and Arts MDSD01H3-F-LEC01,Fall,2019,Smith,Sean,4.9,4.9,4.9,4.9,4.9,4.9,5.0,2.9,4.9,24,7
+MDSD02H3,ACMSC,Topics in Media and Society MDSD02H3-F-LEC01,Fall,2019,Rault,Jasmine,4.7,4.9,4.9,4.7,4.9,4.9,4.6,3.3,4.9,24,7
+MDSB62H3,ACMSC,Visual Culture & Communication MDSB62H3-F-LEC01,Fall,2019,Saeedi,Pouneh,3.5,3.7,3.9,3.8,3.6,3.5,3.3,3.1,3.1,58,17
+VPHB73H3,ACMSC,Visualizing Asia VPHB73H3-F-LEC01,Fall,2019,Gu,Yi,4.1,4.1,4.3,3.9,4.0,4.0,4.2,3.2,4.1,27,9
+VPHA46H3,ACMSC,Ways of Seeing: Intro Art Hist VPHA46H3-F-LEC01,Fall,2019,Gu,Yi,3.6,4.0,3.9,3.8,3.8,3.6,3.6,3.3,3.7,170,47
 VPMA93H3,ACMSC,Listening to Music VPMA93H3-Y-LEC01,Summer,2019,King,Rosanne,3.8,4,4.1,3.9,3.8,3.9,3.8,3,4,242,31
 VPMA93H3,ACMSC,Listening to Music VPMA93H3-Y-LEC60,Summer,2019,King,Rosanne,3.5,3.9,3.9,3.8,3.7,3.5,3.5,2.7,4.1,311,54
 VPMA93H3,ACMSC,Listening to Music VPMA93H3-Y-LEC01,Summer,2019,Kingsbury,Brett,3.8,4,3.9,3.9,3.8,3.9,3.8,3,4,242,31
@@ -110,3 +169,498 @@ VPHB58H3,ACMSC,Modern Art and Culture VPHB58H3-F-LEC01,Fall,2018,Aronowicz,Miria
 VPHB68H3,ACMSC,Mass Culture & the Visual Arts VPHB68H3-F-LEC01,Fall,2018,Gu,Yi,4.4,4.4,4.8,4.1,4.3,3.9,4.3,3.3,3.9,20,10
 VPHC49H3,ACMSC,Advanced Studies in Art Theory VPHC49H3-F-LEC01,Fall,2018,Aronowicz,Miriam,4.6,4.4,4.3,4.6,4.6,4.3,4.3,3.4,4.3,21,9
 VPHC73H3,ACMSC,Artists. Art and Identity VPHC73H3-F-LEC01,Fall,2018,Harney,Elizabeth,4.2,4.3,4.6,4.2,4,4,4.2,3.6,4.1,23,10
+VPMA68H3,ACMSC,Small EnsembleVPMA68/A69/B68/B69/C68/C69H3-F-LEC30,Fall,2018,Kingsbury,Brett,4.6,4.5,4.6,4.6,4.6,4.6,4.4,3,4.6,45,12
+VPMA70H3,ACMSC,Concert Choir VPMA70/A71/B70/B71/C70/C71H3-F-LEC30,Fall,2018,Ramsay,Brendon,4.1,4.4,4.7,4.5,4.3,4.7,4.3,2.5,4.8,43,17
+VPMA73H3,ACMSC,Concert Band VPMA73/A74/B73/B74/C73/C74H3-F-LEC30,Fall,2018,Tucker,Lynn,4.4,4.3,4.9,4.3,4.6,4.7,4.1,2.6,4.9,30,7
+VPMA93H3,ACMSC,Listening to Music VPMA93H3-F-LEC01,Fall,2018,King,Rosanne,3.5,4,4,3.9,4,3.6,3.6,2.7,4,281,58
+VPMA93H3,ACMSC,Listening to Music VPMA93H3-F-LEC01,Fall,2018,Kingsbury,Brett,3.5,4,4,3.9,4,3.6,3.6,2.7,4,281,58
+VPMA93H3,ACMSC,Listening to Music VPMA93H3-F-LEC60,Fall,2018,King,Rosanne,3.8,4,4.1,3.9,4.1,3.8,3.6,2.9,4.1,362,75
+VPMA93H3,ACMSC,Listening to Music VPMA93H3-F-LEC60,Fall,2018,Kingsbury,Brett,3.8,4,3.9,3.9,4.1,3.8,3.6,2.9,4.1,362,75
+VPMA95H3,ACMSC,Elementary Musicianship I VPMA95H3-F-LEC01,Fall,2018,Lemish,Noam,3.9,4,4.7,4,4.2,4,3.8,2.5,4.3,42,27
+VPMB01H3,ACMSC,Intro to Community Music VPMB01H3-F-LEC01,Fall,2018,Tucker,Lynn,3.2,4.3,4.2,3.2,3.7,3.7,3,3,3.7,31,6
+VPMB84H3,ACMSC,Music of the World's Peoples VPMB84H3-F-LEC01,Fall,2018,Bakan,Jonathan,3.8,3.9,4.1,3.4,3.4,3.8,3.3,2.8,3.8,35,16
+VPMB90H3,ACMSC,Materials of Music II VPMB90H3-F-LEC01,Fall,2018,Rapoport,Alexander,4.4,4.7,4.4,4.3,4.6,4.3,4.1,3.4,4,13,7
+VPMC85H3,ACMSC,Movies  Music and Meaning VPMC85H3-F-LEC01,Fall,2018,Stanbridge,Alan,4.8,4.6,4.6,4.2,4.2,4.6,4.4,3.4,4.6,10,5
+VPMC94H3,ACMSC,Jazz VPMC94H3-F-LEC01,Fall,2018,Stanbridge,Alan,3.8,4.5,4.5,4,4.2,3.7,4,2.8,3.2,12,6
+VPSA62H3,ACMSC,Foundation Studies in Studio VPSA62H3-F-LEC01,Fall,2018,Mars,Tanya,3.4,3.2,3,3.4,3.6,3.2,3.6,3,3.4,19,5
+VPSA62H3,ACMSC,Foundation Studies in Studio VPSA62H3-F-LEC03,Fall,2018,Kwan,Will,4.1,4.3,4.6,4,3.8,4,4.3,3.6,4,17,11
+VPSA63H3,ACMSC,But Why Is It Art? VPSA63H3-F-LEC01,Fall,2018,Brown,Adam,3.6,4.1,4.3,4,4.1,3.5,3.8,3.3,3.6,68,24
+VPSB56H3,ACMSC,Digital Studio I VPSB56H3-F-LEC02,Fall,2018,Lum,Morris,4.4,4.4,4.3,4.3,4.6,4.1,4.3,3.2,4.6,19,10
+VPSB70H3,ACMSC,Drawing I VPSB70H3-F-LEC02,Fall,2018,Hein,Jessica,4.1,4.6,4.9,4.1,4.3,4.2,4.3,3.2,4.3,12,10
+VPSB73H3,ACMSC,Curatorial Perspectives I VPSB73H3-F-LEC01,Fall,2018,Fearon,Alyssa,3.9,3.9,3.6,3.9,3.9,3.4,3.7,2.7,3.3,20,10
+VPSB73H3,ACMSC,Curatorial Perspectives I VPSB73H3-F-LEC01,Fall,2018,Schofield,Tiffany,3.9,3.9,3.9,3.9,3.9,3.4,3.7,2.7,3.3,20,10
+VPSB80H3,ACMSC,Digital Studio II VPSB80H3-F-LEC01,Fall,2018,Koroshegyi,Arnold,4.8,4.5,4.8,4.7,4.8,4.6,4.6,3.3,4.7,18,13
+VPSB89H3,ACMSC,Digital Animation I VPSB89H3-F-LEC01,Fall,2018,Tapper,Evan,4.1,3.8,4.1,4.2,4.3,3.6,4.3,3.6,3.6,15,12
+VPSC56H3,ACMSC,Studio Practice VPSC56H3-F-LEC01,Fall,2018,Mars,Tanya,4.6,4.6,4.6,4.4,4,4.4,4.2,4.2,4.4,9,6
+VPSC66H3,ACMSC,Theory & Pract: 2-dimensional VPSC66H3-F-LEC01,Fall,2018,Hein,Jessica,4.4,4.6,4.8,4.3,4.7,4.3,4.2,3.6,4.9,20,9
+VPSC73H3,ACMSC,Interdiscipl Drawing Concepts VPSC73H3-F-LEC01,Fall,2018,Brotman,Yael,4.3,4.2,5,4.7,4.8,4.7,4.3,3.3,4.7,13,6
+VPSD58H3,ACMSC,Adv Seminar:2-Dimensional Work VPSD58H3-F-LEC01,Fall,2018,Brotman,Yael,4.6,4.8,5,5,5,4.8,5,3.6,5,9,5
+VPSA63H3,ACMSC,But Why Is It Art? VPSA63H3-Y-LEC01,Summer,2018,Brown,Adam,3.7,4.1,4.3,3.9,4.2,3.9,3.8,3.1,3.6,38,12
+ACMB01H3,ACMSC,Critical Read Think & Write ACMB01H3-Y-LEC01,Summer,2018,Palma,Anthony,3.8,4,4.2,3.7,3.9,3.6,3.6,3.6,2.9,15,10
+ACMB01H3,ACMSC,Critical Read Think & Write ACMB01H3-Y-LEC02,Summer,2018,Kleeb,Sarah,4.3,4.8,4.9,4.6,4.5,4.4,4.3,3.6,4.2,23,12
+ACMB01H3,ACMSC,Critical Read Think & Write ACMB01H3-Y-LEC03,Summer,2018,Kleeb,Sarah,4,4.5,4,4.3,4.5,4,3.8,3.8,3.5,20,5
+VPSB70H3,ACMSC,Drawing I VPSB70H3-Y-LEC01,Summer,2018,Hein,Jessica,4.3,4.6,4.9,4.4,4.4,4.3,4,3.9,3.9,10,7
+VPMA95H3,ACMSC,Elementary Musicianship I VPMA95H3-Y-LEC01,Summer,2018,Lemish,Noam,4,4.3,4.7,4.3,4.3,4.8,4.3,3.2,4.8,33,6
+MDSA02H3,ACMSC,History of Media MDSA02H3-S-LEC01,Summer,2018,Salamon,Errol,3.5,3.8,3.4,3.9,3.9,3.4,3.8,2.9,3.6,53,13
+MDSA01H3,ACMSC,Introduction to Media Studies MDSA01H3-F-LEC01,Summer,2018,Kleeb,Sarah,3.7,3.8,3.9,3.8,3.8,3.5,3.9,2.8,3.7,230,44
+VPMA93H3,ACMSC,Listening to Music VPMA93H3-Y-LEC01,Summer,2018,King,Rosanne,3.3,3.3,3.6,3.3,3.4,3.3,3.2,2.9,3.5,147,25
+VPMA93H3,ACMSC,Listening to Music VPMA93H3-Y-LEC01,Summer,2018,Kingsbury,Brett,3.3,3.3,3.4,3.3,3.4,3.3,3.2,2.9,3.5,147,25
+VPMA93H3,ACMSC,Listening to Music VPMA93H3-Y-LEC60,Summer,2018,King,Rosanne,3.9,4.2,4.4,4,4,3.8,3.8,2.8,4.1,241,29
+VPMA93H3,ACMSC,Listening to Music VPMA93H3-Y-LEC60,Summer,2018,Kingsbury,Brett,3.9,4.2,4.1,4,4,3.8,3.8,2.8,4.1,241,29
+MDSB61H3,ACMSC,Mapping New Media MDSB61H3-Y-LEC01,Summer,2018,Narine,Anil,4.3,4.4,4.5,4.6,4.7,4.4,4.1,2.7,4.5,50,11
+MDSC71H3,ACMSC,Media and Religion MDSC71H3-Y-LEC01,Summer,2018,Palma,Anthony,3.9,4.1,4.3,4.1,4.1,4.1,4,2.9,4.1,36,10
+MDSC63H3,ACMSC,Media Ethics MDSC63H3-Y-LEC01,Summer,2018,Visan,Laura,4.2,4.6,4.3,4.4,4.3,4.1,4.1,3.1,4.6,49,13
+VPSB67H3,ACMSC,Photo I VPSB67H3-Y-LEC01,Summer,2018,Koroshegyi,Arnold,4.8,4.5,4.6,4.3,4.5,4.4,4.4,3.3,4.5,20,9
+VPMA68H3,ACMSC,Small Ensemble Ia VPMA68H3-Y-LEC30,Summer,2018,Kingsbury,Brett,4.1,4.7,4.6,4.1,3.9,4.4,4.6,2.6,4.6,15,8
+MDSC01H3,ACMSC,Theories in Media Studies MDSC01H3-Y-LEC01,Summer,2018,Joseph,Daniel,4.1,4.2,4.5,4.2,4.3,4,3.9,3,4.1,44,14
+MDSD02H3,ACMSC,Topics in Media and Society MDSD02H3-Y-LEC01,Summer,2018,Shin,Dale,4.3,4.3,4.5,4.3,4.4,4.3,4.3,3,4.4,29,8
+VPSB58H3,ACMSC,Video I VPSB58H3-Y-LEC01,Summer,2018,Onodera,Midi,4.8,4.4,4.3,4.2,4,3.8,4.3,4.1,3.7,11,9
+MDSB62H3,ACMSC,Visual Culture & Communication MDSB62H3-Y-LEC01,Summer,2018,Osenton,Sara,4.2,4.1,4.4,4.2,4.1,4.1,4.1,3.8,3.5,40,12
+VPHB59H3,ACMSC,Current Art Practices VPHB59H3-S-LEC01,Winter,2018,Aronowicz,Miriam,4.2,4.5,4.6,4.3,4,4.1,4.2,3.1,4.2,28,11
+MDSC41H3,ACMSC,Media & Pop Culture in E Asia MDSC41H3-S-LEC01,Winter,2018,Bai,Ruoyun,3.6,3.6,3.7,4,3.7,3.5,3.7,2.9,4,71,19
+VPSC55H3,ACMSC,Drawing III VPSC55H3-S-LEC01,Winter,2018,Brotman,Yael,4.7,4.7,4.7,4.7,4.7,4.7,4.8,4.3,4.5,22,6
+VPSD56H3,ACMSC,Advanced Studio Practice VPSD56H3-S-LEC01,Winter,2018,Brotman,Yael,3.9,3.7,4,3.9,4.1,3.4,3,3.9,3.9,20,7
+VPAB17H3,ACMSC,From Principles to Practices VPAB17H3-S-LEC01,Winter,2018,Cooper,Ella,4,4.2,3.6,3.2,3.3,3.7,4.1,3.4,4.3,12,11
+MDSD01H3,ACMSC,Topics in Media and Arts MDSD01H3-S-LEC02,Winter,2018,Cowan,Theresa,4.8,4.8,4.9,4.9,4.9,4.9,4.7,3.6,4.7,24,14
+ACMB01H3,ACMSC,Critical Read Think & Write ACMB01H3-S-LEC01,Winter,2018,Edelist,Tracey,2.3,2.7,3.3,2.3,3.2,1.5,2.2,4.2,2,16,7
+VPAA12H3,ACMSC,Audience & Resource Developmen VPAA12H3-S-LEC01,Winter,2018,Frost,Tamasine,3.9,4,4.1,4,4,3.8,3.9,2.5,3.5,28,8
+VPAB13H3,ACMSC,Financial Mgt for Arts Manager VPAB13H3-S-LEC01,Winter,2018,Fry,Kendra,4.3,4.2,4.2,4,4.1,3.9,4.1,3.4,4,16,9
+VPDC13H3,ACMSC,Theatre and Social Justice VPDC13H3-S-LEC01,Winter,2018,Gagnon,Jeffrey,4.3,4.6,4.9,4.7,4.8,4.2,4.5,3.5,4.3,14,10
+VPSB56H3,ACMSC,Digital Studio I VPSB56H3-S-LEC01,Winter,2018,Hlynsky,David,3.8,4.2,4.5,4,3.5,4,4,2.8,4,19,7
+VPSB67H3,ACMSC,Photo I VPSB67H3-S-LEC01,Winter,2018,Hlynsky,David,3.8,4,3.8,4,4.3,3.8,4,2.8,4,19,6
+VPSC77H3,ACMSC,Interdisciplin Photo Concepts VPSC77H3-S-LEC01,Winter,2018,Hlynsky,David,3.7,3.7,4.1,4,4.1,3.7,4,2.9,3.7,23,7
+VPSB70H3,ACMSC,Drawing I VPSB70H3-S-LEC01,Winter,2018,Irving,Stephen,3.8,4.2,4.2,3.6,4,3.4,4,3.4,3.6,18,6
+ACMB01H3,ACMSC,Critical Read Think & Write ACMB01H3-S-LEC31,Winter,2018,Jones,Matthew,4,4,4.8,4.2,4.4,4,3.8,4,3.6,17,5
+MDSB63H3,ACMSC,Sound and Visual Media MDSB63H3-S-LEC01,Winter,2018,Kaye,Lewis,3.8,4.1,4.1,3.8,3.9,3.8,3.9,3,3.8,77,13
+MDSD01H3,ACMSC,Topics in Media and Arts MDSD01H3-S-LEC01,Winter,2018,Kaye,Lewis,4.3,4.2,4.3,4.3,4.5,4,3.5,2.8,3.8,22,6
+VPSB56H3,ACMSC,Digital Studio I VPSB56H3-S-LEC02,Winter,2018,Koroshegyi,Arnold,4.6,4.9,4.9,4.7,4.7,4.9,4.7,3,4.9,18,7
+VPSB61H3,ACMSC,Painting I VPSB61H3-S-LEC01,Winter,2018,Leach,Angela,3.7,3.5,3.7,3.8,3.8,3.5,3.5,3.8,3.3,19,6
+JOUA02H3,ACMSC,Introduction to Journalism II JOUA02H3-S-LEC01,Winter,2018,Majeed,Zeelaf,3.5,3.1,3.7,3.5,3.5,3.1,3.3,3.2,3.1,51,16
+JOUB24H3,ACMSC,Jou in Age of Digital Media JOUB24H3-S-LEC01,Winter,2018,Majeed,Zeelaf,2.7,2.7,2.8,2.7,3.1,2.5,2.8,3.1,2.9,40,17
+VPSB77H3,ACMSC,Performance Art VPSB77H3-S-LEC01,Winter,2018,Mars,Tanya,3.6,3.8,3.8,4.4,4.2,3.8,3.6,3.6,4.2,10,5
+VPSC56H3,ACMSC,Studio Practice VPSC56H3-S-LEC01,Winter,2018,Mars,Tanya,3.8,3.5,3.5,3.8,3.3,3.5,3,4.5,3.8,16,5
+ACMB01H3,ACMSC,Critical Read Think & Write ACMB01H3-S-LEC30,Winter,2018,Mcgillivray,Michele,4.4,4.6,4.8,4.4,4.6,4.4,4.3,3.6,4.2,20,15
+ACMB02H3,ACMSC,Inquiry & Investigatn for ACM ACMB02H3-S-LEC01,Winter,2018,Mcgillivray,Michele,3.4,3.8,3.8,3.9,3.9,3.3,3.3,3.4,3.3,120,56
+VPMB82H3,ACMSC,Music Modern & Contmpry World VPMB82H3-S-LEC01,Winter,2018,McLeod,Kenneth,3,3.3,2.7,3,2.7,2.3,3.3,3.2,2.2,36,6
+VPDB02H3,ACMSC,Interm Workshop in Perform II VPDB02H3-S-LEC01,Winter,2018,Mealey,Scott,4.9,4.9,5,4.7,4.7,5,4.9,3.1,4.9,10,7
+VPAA06H3,ACMSC,Vis&Per Arts Mgt in Digtl Age VPAA06H3-S-LEC01,Winter,2018,Momeni,Mina,3.4,3.7,4.2,4.2,4.2,3.8,3.6,2.5,4.1,34,10
+MDSB05H3,ACMSC,Media and Globalization MDSB05H3-S-LEC01,Winter,2018,Nieborg,David,3.8,4.1,4.2,3.9,3.9,3.7,4.1,3.3,3.8,117,27
+MDSC65H3,ACMSC,Online Games & Virtual Worlds MDSC65H3-S-LEC01,Winter,2018,Nieborg,David,4,3.9,4.1,3.6,3.6,4,4,2.7,4.3,29,7
+VPSB58H3,ACMSC,Video I VPSB58H3-S-LEC01,Winter,2018,Onodera,Midi,2.8,2.7,3,2.7,3,2.3,2.5,4.3,1.8,13,6
+VPHB73H3,ACMSC,Visualizing Asia VPHB73H3-S-LEC01,Winter,2018,Osenton,Sara,4.4,4.6,4.8,3.8,4,4.4,4.6,3,4.2,26,5
+NMED01H3,ACMSC,New Media Senior Project NMED01H3-S-LEC01,Winter,2018,Papagiannis,Danny,4.7,4.8,4.9,4.9,4.9,4.3,4.7,3.2,4.7,21,10
+MDSB09H3,ACMSC,Kids: Youth Language and Media MDSB09H3-S-LEC01,Winter,2018,Paz,Alejandro,3.8,3.9,4,3.8,4,3.8,3.5,3,3.9,73,56
+MDSC53H3,ACMSC,Ant of Media and Publics MDSC53H3-S-LEC01,Winter,2018,Paz,Alejandro,4.4,4.5,4.6,4.3,4.2,4.1,3.8,2.9,3.9,28,14
+MDSA02H3,ACMSC,History of Media MDSA02H3-S-LEC01,Winter,2018,Petit,Michael,3.9,4.1,4.2,4.1,4.1,4,4,3.2,3.8,188,33
+MDSA02H3,ACMSC,History of Media MDSA02H3-S-LEC60,Winter,2018,Petit,Michael,3.7,3.9,4,3.6,3.6,3.5,3.5,3.4,3.5,226,29
+VPSA62H3,ACMSC,Foundation Studies in Studio VPSA62H3-S-LEC02,Winter,2018,Pivato,Juliana,4,4,4.7,3.8,3.9,3.9,4,3.5,3.9,17,15
+VPSC66H3,ACMSC,Theory & Pract: 2-dimensional VPSC66H3-S-LEC01,Winter,2018,Pivato,Juliana,4.4,4.4,4.2,3.6,3.8,3.4,4,3.6,3.6,10,5
+VPMB88H3,ACMSC,Materials of Music I VPMB88H3-S-LEC01,Winter,2018,Rapoport,Alexander,4.2,4,3.8,3.7,3.5,3.8,3.9,3.1,3.4,31,11
+MDSB62H3,ACMSC,Visual Culture & Communication MDSB62H3-S-LEC01,Winter,2018,Saeedi,Pouneh,3.4,3.3,3.4,3.4,3.4,3.2,3.4,3.2,3.3,98,21
+MDSC64H3,ACMSC,Media and Technology MDSC64H3-S-LEC30,Winter,2018,Saeedi,Pouneh,3.5,3.7,3.7,3.7,3.7,3.5,3.5,2.9,3.4,49,16
+ACMB01H3,ACMSC,Critical Read Think & Write ACMB01H3-S-LEC03,Winter,2018,Scheffer,Erin,3.5,3.3,4.3,2.8,3.3,3.2,3.3,3.5,2.8,27,6
+MDSD02H3,ACMSC,Topics in Media and Society MDSD02H3-S-LEC01,Winter,2018,Shin,Dale,4.7,4.5,4.8,4.3,4.2,4.5,4.6,2.8,4.5,23,10
+VPMC94H3,ACMSC,Jazz VPMC94H3-S-LEC01,Winter,2018,Stanbridge,Alan,4.3,4.6,4.6,4.4,4.5,4.4,4.1,3,4.4,8,8
+VPMA74H3,ACMSC,Concert Band Ib VPMA74H3-S-LEC30,Winter,2018,Tucker,Lynn,4.2,5,4.8,4.2,4.6,4.6,4.8,2.4,5,12,5
+MDSC01H3,ACMSC,Theories in Media Studies MDSC01H3-S-LEC01,Winter,2018,Visan,Laura,4.3,4.3,4.8,4.4,4.6,4.1,4.1,3.1,4.6,46,16
+VPHB64H3,ACMSC,Baroque Visions VPHB64H3-S-LEC01,Winter,2018,Webster,Erin,4.4,4.3,4.7,4.1,4.1,4.1,4.1,3.2,4,17,11
+VPHC63H3,ACMSC,Explorations in Early Mod Art VPHC63H3-S-LEC01,Winter,2018,Webster,Erin,4.7,4.8,4.8,4.8,4.8,4.6,4.3,3.8,4.2,22,12
+VPMA70H3,ACMSC,Concert Choir Ia VPMA70H3-S-LEC30,Winter,2018,Whiting,Lenard,3.4,3.4,3.9,3.1,3.4,3.7,3,2,3.7,14,7
+ACMB01H3,ACMSC,Critical Read Think & Write ACMB01H3-S-LEC02,Winter,2018,Wilkerson,Dylan,4.1,4.5,4.8,4.3,4.5,4.3,3.9,3.5,4,21,15
+ACMB01H3,ACMSC,Critical Read Think & Write ACMB01H3-F-LEC01,Fall,2017,Fry,Katherine,4.1,4.1,4.4,4.3,4.4,4.1,4.1,3.8,4.3,23,16
+ACMB01H3,ACMSC,Critical Read Think & Write ACMB01H3-F-LEC02,Fall,2017,Scheffer,Erin,3.2,3.9,4.1,3.9,4.2,3,3.1,4,2.9,29,10
+ACMB01H3,ACMSC,Critical Read Think & Write ACMB01H3-F-LEC03,Fall,2017,Thacker,Vanessa,4,4,4.2,3.9,3.7,3.4,3.8,4,3.3,32,9
+ACMB01H3,ACMSC,Critical Read Think & Write ACMB01H3-F-LEC04,Fall,2017,Wilkerson,Dylan,4.1,4.3,4.6,4.1,4.2,4.2,4.1,3.8,3.6,32,14
+ACMB01H3,ACMSC,Critical Read Think & Write ACMB01H3-F-LEC30,Fall,2017,Kleeb,Sarah,4.4,4.2,4.4,4.6,4.6,3.4,4,3.2,3.6,25,5
+ACMB01H3,ACMSC,Critical Read Think & Write ACMB01H3-F-LEC31,Fall,2017,Mcgillivray,Michele,3.9,4.1,4.8,4.4,4.4,4.1,4.1,3,4,24,8
+CRTD44H3,ACMSC,Curating Historical Art CRTD44H3-F-LEC01,Fall,2017,Webster,Erin,4.7,4.7,5,5,5,4.9,5,3.4,4.7,9,7
+JOUA01H3,ACMSC,Introduction to Journalism I JOUA01H3-F-LEC01,Fall,2017,Valpy,Michael,3.5,3.7,3.9,3.7,3.7,3.3,3.7,3.3,3.5,125,73
+MDSA01H3,ACMSC,Introduction to Media Studies MDSA01H3-F-LEC01,Fall,2017,Petit,Michael,3.4,3.6,3.7,3.3,3.5,3.2,3.3,2.8,3.6,301,96
+MDSA01H3,ACMSC,Introduction to Media Studies MDSA01H3-F-LEC60,Fall,2017,Petit,Michael,3.8,4,4.1,3.9,3.9,3.7,3.8,2.9,4,767,167
+MDSB01H3,ACMSC,Human Animal Machine MDSB01H3-F-LEC01,Fall,2017,Taylor,Jessica,3.9,4.1,4.4,4.3,4,3.9,4,3.1,4,81,21
+MDSB25H3,ACMSC,Political Economy of Media MDSB25H3-F-LEC01,Fall,2017,Nieborg,David,4.3,4.4,4.4,4.2,4.3,3.9,4.1,3.4,3.9,59,20
+MDSB61H3,ACMSC,Mapping New Media MDSB61H3-F-LEC01,Fall,2017,Kaye,Lewis,3.7,3.6,3.5,3.4,3.8,3.3,3.5,3.1,3.5,68,25
+MDSB61H3,ACMSC,Mapping New Media MDSB61H3-F-LEC02,Fall,2017,Kaye,Lewis,3.1,3.3,3.6,3.6,3.6,2.9,3.5,3.2,3.3,47,11
+MDSC01H3,ACMSC,Theories in Media Studies MDSC01H3-F-LEC01,Fall,2017,Visan,Laura,4.1,4.1,4,3.8,4.1,3.9,3.6,2.9,3.9,48,17
+MDSC21H3,ACMSC,Anthroplgy of Language & Media MDSC21H3-F-LEC01,Fall,2017,Paz,Alejandro,4.4,4.4,4,4.3,4.7,3.7,3.7,2.9,3.7,18,7
+MDSC40H3,ACMSC,Chinese Media and Politics MDSC40H3-F-LEC01,Fall,2017,Bai,Ruoyun,4.3,4.3,4.3,4.3,4.1,3.8,4.2,2.9,4.3,51,9
+MDSC61H3,ACMSC,Alternative Media MDSC61H3-F-LEC01,Fall,2017,Kaye,Lewis,4.1,3.8,3.6,4,4,3.6,3.4,3.5,3.5,41,11
+MDSC62H3,ACMSC,Media Jou and World of Work MDSC62H3-F-LEC01,Fall,2017,Cowan,Theresa,4.3,4.5,4.6,4.6,4.6,4.2,4.3,3.2,4.5,21,11
+MDSC63H3,ACMSC,Media Ethics MDSC63H3-F-LEC01,Fall,2017,Cowan,Theresa,4.6,4.7,4.7,4.8,4.8,4.6,4.6,3.4,4.7,45,19
+MDSC85H3,ACMSC,Movies Music and Meaning MDSC85H3-F-LEC01,Fall,2017,Stanbridge,Alan,4.1,4.3,4.4,4.3,4.3,4.1,4.3,3,4.5,38,20
+MDSD01H3,ACMSC,Topics in Media and Arts MDSD01H3-F-LEC01,Fall,2017,Smith,Sean,4.8,4.9,4.9,4.7,4.7,4.7,4.7,3.1,4.7,31,15
+MDSD02H3,ACMSC,Topics in Media and Society MDSD02H3-F-LEC01,Fall,2017,Visan,Laura,4.4,4.5,4.6,4.3,4.4,4.1,4.3,3.3,4.3,22,9
+MDSD02H3,ACMSC,Topics in Media and Society MDSD02H3-F-LEC02,Fall,2017,Bai,Ruoyun,4,4.2,4.2,4.4,4,4,4,3.4,4,15,5
+VPAB07H3,ACMSC,Equity & Diversity in Arts Org VPAB07H3-F-LEC01,Fall,2017,Cooper,Ella,2.4,2.3,1.9,2.1,2.2,1.9,2.6,4.2,1.9,29,13
+VPDA10H3,ACMSC,Introduction to Theatre VPDA10H3-F-LEC01,Fall,2017,Thompson,Caitlin,4.4,4.4,4.8,4.2,4.3,4.2,3.9,2.8,4.5,74,27
+VPDB04H3,ACMSC,Experiencing the Live Theatre VPDB04H3-F-LEC30,Fall,2017,Lamie,Patricia,3.7,3.3,4.2,3.5,3.5,3.8,3.7,3,3.8,19,6
+VPHB74H3,ACMSC,Early Mod Europe:Outside Italy VPHB74H3-F-LEC01,Fall,2017,Webster,Erin,4,4.3,4.3,3.9,3.9,3.9,3.3,3.1,3.8,25,18
+VPHB78H3,ACMSC,Local Collections I VPHB78H3-F-LEC01,Fall,2017,Durayappah,Sudharshan,3.6,3.8,4,3.8,3.6,3.8,3.8,3,3.4,16,5
+VPHC45H3,ACMSC,Seminar: Modern & Contemp Art VPHC45H3-F-LEC01,Fall,2017,Harney,Elizabeth,4.3,4.3,4.4,4.1,4.1,4.3,4.3,3.3,4.4,17,8
+VPHC53H3,ACMSC,The Silk Routes VPHC53H3-F-LEC01,Fall,2017,Durayappah,Sudharshan,3.7,3.9,3.9,4,4.1,3.8,3.6,3.5,3.8,24,9
+VPMA68H3,ACMSC,Small Ensemble Ia VPMA68H3-F-LEC30,Fall,2017,Kingsbury,Brett,4.2,4.2,5,4.3,4.8,4.3,4.7,3,4.7,22,6
+VPMA70H3,ACMSC,Concert Choir Ia VPMA70H3-F-LEC30,Fall,2017,Whiting,Lenard,3.3,3.3,3.5,3.3,3.3,3.3,3.5,1.8,3.7,26,8
+VPMA93H3,ACMSC,Listening to Music VPMA93H3-F-LEC01,Fall,2017,King,Rosanne,3.3,3.5,3.6,3.6,3.6,3.4,3.1,2.6,3.5,256,56
+VPMA93H3,ACMSC,Listening to Music VPMA93H3-F-LEC01,Fall,2017,Kingsbury,Brett,3.3,3.5,3.6,3.6,3.6,3.4,3.1,2.6,3.5,256,56
+VPMA93H3,ACMSC,Listening to Music VPMA93H3-F-LEC60,Fall,2017,King,Rosanne,3.7,3.8,4.1,3.9,4,3.8,3.6,2.8,3.9,329,90
+VPMA93H3,ACMSC,Listening to Music VPMA93H3-F-LEC60,Fall,2017,Kingsbury,Brett,3.7,3.8,4,3.9,4,3.8,3.6,2.8,3.9,329,90
+VPMA95H3,ACMSC,Elementary Musicianship I VPMA95H3-F-LEC01,Fall,2017,Lemish,Noam,3.9,4.2,4.7,4.3,4.6,4.2,3.6,2.2,4.3,45,17
+VPMB01H3,ACMSC,Intro to Community Music VPMB01H3-F-LEC01,Fall,2017,Tucker,Lynn,4.2,4.3,4.2,3.8,4,3.8,4,3.5,3.7,15,6
+VPMB84H3,ACMSC,Music of the World's Peoples VPMB84H3-F-LEC01,Fall,2017,Sanger,Annette,4.1,4.2,4.5,3.9,3.7,3.8,3.5,3,4,28,11
+VPMB90H3,ACMSC,Materials of Music II VPMB90H3-F-LEC01,Fall,2017,Lemish,Noam,3.6,4.2,5,4,4.4,4.2,3.6,3.2,4,16,5
+VPMB91H3,ACMSC,Music and Technology VPMB91H3-F-LEC01,Fall,2017,Kaye,Lewis,4.1,3.8,4,4.1,3.8,3.8,3.8,3.1,3.7,20,9
+VPMC85H3,ACMSC,Movies Music and Meaning VPMC85H3-F-LEC01,Fall,2017,Stanbridge,Alan,4.5,4.5,4.8,5,4.7,5,4.5,2.8,4.7,10,6
+VPMC88H3,ACMSC,Topics in Music and Culture VPMC88H3-F-LEC01,Fall,2017,Stanbridge,Alan,4.4,4.6,4.9,4.3,4.4,4.4,4.3,3.2,4.2,20,13
+VPSA62H3,ACMSC,Foundation Studies in Studio VPSA62H3-F-LEC03,Fall,2017,Kwan,Will,4.3,4.2,4.1,4,3.9,3.9,3.9,3.5,3.8,13,12
+VPSA63H3,ACMSC,But Why Is It Art? VPSA63H3-F-LEC01,Fall,2017,Brown,Adam,3.7,3.9,4.2,3.9,3.9,3.6,3.5,3,3.7,144,53
+VPSB56H3,ACMSC,Digital Studio I VPSB56H3-F-LEC01,Fall,2017,Hlynsky,David,4.2,4,4,4.3,4.8,4.2,4.3,3,4,20,6
+VPSB56H3,ACMSC,Digital Studio I VPSB56H3-F-LEC02,Fall,2017,Hlynsky,David,3.7,4.3,3.8,4.5,4.3,3.8,3.7,3.3,4.2,17,6
+VPSB61H3,ACMSC,Painting I VPSB61H3-F-LEC01,Fall,2017,Leach,Angela,4.4,4.5,4.9,4.3,4.4,4.1,3.9,3.3,3.8,11,9
+VPSB70H3,ACMSC,Drawing I VPSB70H3-F-LEC01,Fall,2017,Hein,Jessica,3.8,4.3,4.5,4.2,4.2,4.2,4.3,3.5,3.6,12,10
+VPSB75H3,ACMSC,Photo II VPSB75H3-F-LEC01,Fall,2017,Hlynsky,David,4.2,4.2,4,4.2,4.2,4,3.8,2.4,4.2,16,6
+VPSB80H3,ACMSC,Digital Studio II VPSB80H3-F-LEC01,Fall,2017,Koroshegyi,Arnold,4.5,4.5,4.5,4.3,4.5,4.5,4.3,3.4,4.3,21,8
+VPSB88H3,ACMSC,Sound Art VPSB88H3-F-LEC01,Fall,2017,Arnold,Martin,4.2,4.4,4.2,4.4,4.6,4.2,4.2,3.2,4.2,11,5
+VPSB89H3,ACMSC,Digital Animation I VPSB89H3-F-LEC01,Fall,2017,Tapper,Evan,3.9,3.9,3.6,3.9,3.6,3.4,4.1,4,3.4,13,8
+VPSC56H3,ACMSC,Studio Practice VPSC56H3-F-LEC01,Fall,2017,Mars,Tanya,3.8,3.4,3.4,3.8,3.4,3.6,3.8,3.6,3.4,7,5
+VPSC68H3,ACMSC,Theory & Pract:Time-Based Work VPSC68H3-F-LEC01,Fall,2017,Onodera,Midi,3.4,3.2,3.4,3.2,3.4,3,3.6,4.6,3,9,5
+VPSD55H3,ACMSC,Advanced Special Topics:Studio VPSD55H3-F-LEC01,Fall,2017,Telford-Keogh,Catherine,4.7,4.2,4.8,4.2,4.7,4.3,4.3,3.2,4.8,15,6
+VPSD58H3,ACMSC,Adv Seminar:2-Dimensional Work VPSD58H3-F-LEC01,Fall,2017,Pivato,Juliana,4.2,4.1,4.6,4.2,4.4,4.1,4.2,3.6,4.4,20,10
+VPDD50H3,ACMSC,Adv Sem in Theatre & Perform VPDD50H3-S-LEC01,Winter,2017,Jones,Matthew,3.5,3.7,3.6,3.2,3.4,3.1,3.2,3.8,3.3,13,12
+VPSD56H3,ACMSC,Advanced Studio Practice VPSD56H3-S-LEC01,Winter,2017,Pivato,Juliana,4.3,4.2,4.7,4.3,4.5,4.3,4.2,3.6,4.3,16,11
+MDSC61H3,ACMSC,Alternative Media MDSC61H3-S-LEC01,Winter,2017,Kaye,Lewis,4.1,4.1,4.2,4,4.1,3.9,3.8,3.1,3.8,45,17
+VPHC72H3,ACMSC,Art the Museum & the Gallery VPHC72H3-S-LEC01,Winter,2017,Webster,Erin,4.9,4.9,4.9,4.6,4.7,4.9,4.8,3.3,4.9,13,9
+VPAA12H3,ACMSC,Audience & Resource DevelopmenVPAA12H3-S-LEC01,Winter,2017,Frost,Tamasine,4.3,4.4,4.6,4.6,4.6,4.3,4.1,3,4.1,15,7
+VPMA70H3,ACMSC,Concert Choir Ia VPMA70H3-S-LEC30,Winter,2017,Ramsay,Brendon,4,4.4,4.8,4.2,3.8,4.4,4,2.2,4.8,18,5
+VPMA71H3,ACMSC,Concert Choir Ib VPMA71H3-S-LEC30,Winter,2017,Ramsay,Brendon,4.7,4.7,5,4.1,4.3,4.7,4.6,2.4,5,17,8
+VPMD90H3,ACMSC,Critical Issues in Music & SocVPMD90H3-S-LEC01,Winter,2017,Stanbridge,Alan,4.6,4.6,5,4.4,4.4,4.4,4.4,3.2,4.2,9,6
+JOUB02H3,ACMSC,Critical Journalism JOUB02H3-S-LEC01,Winter,2017,Valpy,Michael,4,3.8,4.5,4,4,4.1,4.1,3,4.3,30,23
+ACMB01H3,ACMSC,Critical Read Think & Write ACMB01H3-S-LEC01,Winter,2017,Kleeb,Sarah,3.5,3.5,3.7,3.5,3.8,3.2,3.8,3.5,3.3,25,6
+ACMB01H3,ACMSC,Critical Read Think & Write ACMB01H3-S-LEC02,Winter,2017,Mcgillivray,Michele,4.2,4.6,4.9,4.4,4.5,4.2,4.1,3.4,4.2,22,16
+ACMB01H3,ACMSC,Critical Read Think & Write ACMB01H3-S-LEC03,Winter,2017,Freedman Stapleton,Rachel,3.8,3.3,3.9,3.6,3.3,3.2,3.3,3.9,2.9,21,10
+ACMB01H3,ACMSC,Critical Read Think & Write ACMB01H3-S-LEC04,Winter,2017,Thacker,Vanessa,3.7,3.9,4.3,4,4,3.9,3.7,3.7,4,23,7
+ACMB01H3,ACMSC,Critical Read Think & Write ACMB01H3-S-LEC30,Winter,2017,Lamaison,Catherine,3.9,4,4.6,4.2,4.3,3.9,3.9,3.9,3.4,23,16
+VPSC89H3,ACMSC,Digital Animation 2 VPSC89H3-S-LEC01,Winter,2017,Tapper,Evan,4.4,4.4,4.4,4.6,4.6,4.6,5,4.4,4,16,5
+VPSA70H3,ACMSC,Drawing I VPSA70H3-S-LEC01,Winter,2017,Hein,Jessica,3.8,3.8,4.4,3.9,3.9,3.7,3.6,3.4,3.4,19,16
+VPSB74H3,ACMSC,Drawing II VPSB74H3-S-LEC01,Winter,2017,Brotman,Yael,3.6,3.6,4.4,3.9,3.8,3.5,3.3,4.4,3.9,19,8
+VPSC55H3,ACMSC,Drawing III VPSC55H3-S-LEC01,Winter,2017,Brotman,Yael,3.9,3.9,4.3,3.8,3.9,4.4,4.1,3.5,4.1,20,8
+CRTB02H3,ACMSC,Exhibiting Art CRTB02H3-S-LEC01,Winter,2017,Webster,Erin,4.6,4.6,4.8,4.3,4.3,4.6,4.8,3,4.5,9,8
+VPSA62H3,ACMSC,Foundation Studies in Studio VPSA62H3-S-LEC01,Winter,2017,Goreas,Lee,4.5,4.5,4.7,4.5,4.7,4.3,4.7,3,4.5,22,6
+VPSA62H3,ACMSC,Foundation Studies in Studio VPSA62H3-S-LEC03,Winter,2017,Marotta,Laura,4.2,4.4,4.6,4.8,4.6,4,4,3.2,3.8,16,5
+VPAB17H3,ACMSC,From Principles to Practices VPAB17H3-S-LEC01,Winter,2017,Cooper,Ella,2.7,3,2.8,2.3,3,2.3,2.2,3.3,2,12,6
+VPAC18H3,ACMSC,Fundraising & Develop in Arts VPAC18H3-S-LEC01,Winter,2017,Frost,Tamasine,3.3,3.4,3.9,4,3.9,3.4,3.8,3,3.4,35,9
+VPHC42H3,ACMSC,Gothic Art and Architecture VPHC42H3-S-LEC01,Winter,2017,Webster,Erin,4.6,4.6,4.9,4.6,4.6,4.6,4.8,3.5,4.7,17,11
+MDSA02H3,ACMSC,History of Media MDSA02H3-S-LEC01,Winter,2017,Petit,Michael,3.3,3.4,3.6,3.4,3.3,3,3.2,3.1,3.1,186,39
+MDSA02H3,ACMSC,History of Media MDSA02H3-S-LEC60,Winter,2017,Petit,Michael,3.2,3.3,3.6,3.3,3.2,3.1,3.2,2.9,3.2,193,36
+ACMB02H3,ACMSC,Inquiry & Investigatn for ACM ACMB02H3-S-LEC01,Winter,2017,Burchell,Kenzie,2.8,3.1,3.1,3.5,3.6,3,3,3.5,3.3,20,9
+JOUA02H3,ACMSC,Introduction to Journalism II JOUA02H3-S-LEC01,Winter,2017,Dvorkin,Jeffrey,4,4.1,4.5,3.9,3.9,3.8,4.1,2.8,4.1,74,23
+VPDA11H3,ACMSC,Introduction to Performance VPDA11H3-S-LEC01,Winter,2017,Lamie,Patricia,4.1,4,4.4,4.3,4.1,4.1,4.1,3,4.6,15,8
+JOUB24H3,ACMSC,Journalism Age of New Media JOUB24H3-S-LEC01,Winter,2017,Burchell,Kenzie,3.4,3.4,3.3,3.4,3.4,3.1,3.3,3.1,2.9,32,14
+VPMB88H3,ACMSC,Materials of Music I VPMB88H3-S-LEC01,Winter,2017,Rapoport,Alexander,3.7,4,4,3.8,4.2,3.5,3.8,2.5,3.8,29,6
+VPMC90H3,ACMSC,Materials of Music III VPMC90H3-S-LEC01,Winter,2017,Rapoport,Alexander,4.8,4.8,5,4.2,4.6,4.8,4.6,2.6,4.6,15,5
+MDSC41H3,ACMSC,Media & Pop Culture in E Asia MDSC41H3-S-LEC01,Winter,2017,Bai,Ruoyun,4.3,4.2,4.4,4.4,4.2,4.2,4.2,2.9,4.4,64,27
+MDSB05H3,ACMSC,Media and Globalization MDSB05H3-S-LEC01,Winter,2017,Nieborg,David,3.6,3.5,3.6,3.5,3.4,3.3,3.4,3.1,3.5,123,32
+MDSC64H3,ACMSC,Media and Technology MDSC64H3-S-LEC30,Winter,2017,Petit,Michael,4.2,4.2,4.4,4.3,4.3,4.3,3.9,3,4.4,50,13
+MDSC63H3,ACMSC,Media Ethics MDSC63H3-S-LEC01,Winter,2017,Visan,Laura,3.8,4.1,4.1,3.8,4.1,3.9,3.8,3,3.8,71,20
+MDSC02H3,ACMSC,Media Identities and PoliticsMDSC02H3-S-LEC01,Winter,2017,Ashby,James,2,1.9,1.8,2.2,2.2,1.7,1.7,3.5,1.6,61,27
+VPHB77H3,ACMSC,Modern Asian Art VPHB77H3-S-LEC01,Winter,2017,Gu,Yi,4.4,4.6,4.4,4.3,4.4,4.4,4.2,3.4,4.4,17,5
+VPMB82H3,ACMSC,Music Modern & Contmpry World VPMB82H3-S-LEC01,Winter,2017,McLeod,Kenneth,3.1,3.2,3,3.2,3.4,2.7,2.9,3.6,2.9,35,13
+VPSA61H3,ACMSC,Painting I VPSA61H3-S-LEC01,Winter,2017,Leach,Angela,3.7,3.6,3.6,3.8,4,3.5,3.6,3.6,3.4,19,11
+VPSC54H3,ACMSC,Painting III VPSC54H3-S-LEC01,Winter,2017,Irving,Stephen,4.2,4.6,4.6,4.6,4.4,4.4,4.2,3.2,4.4,14,5
+JOUD10H3,ACMSC,Senior Seminar in Journalism JOUD10H3-S-LEC01,Winter,2017,Dvorkin,Jeffrey,3,2.7,3.6,3.1,3.4,3,3,2.2,2.9,27,9
+VPAD12H3,ACMSC,Senior Seminar:Arts ManagementVPAD12H3-S-LEC01,Winter,2017,Israel,Blanche,4.5,4.5,4.5,4.5,4.6,4.4,4.4,4.2,4,20,10
+VPAD12H3,ACMSC,Senior Seminar:Arts ManagementVPAD12H3-S-LEC01,Winter,2017,Watson,Ashley,4.5,4.5,4.5,4.5,4.6,4.4,4.4,4.2,4,20,10
+VPMA69H3,ACMSC,Small Ensemble Ib VPMA69H3-S-LEC30,Winter,2017,Kingsbury,Brett,4.5,4.5,4.8,4.3,4.5,4.2,4.5,3.2,4.8,13,6
+VPDC03H3,ACMSC,Technical Production II VPDC03H3-S-LEC01,Winter,2017,Wright,Kevin,4.8,4.8,4.8,5,5,4.4,4.6,3.2,4.6,9,5
+VPHB39H3,ACMSC,Ten Key Words in Art History VPHB39H3-S-LEC01,Winter,2017,Gu,Yi,4.2,4.1,4.3,4,3.9,3.7,4,3.4,3.8,31,10
+VPDB10H3,ACMSC,Theatre HIS I:Ritual-RenaissncVPDB10H3-S-LEC01,Winter,2017,Thompson,Caitlin,4.2,4.5,5,4.5,4.6,4.4,3.9,2.7,4.5,21,11
+MDSC01H3,ACMSC,Theories in Media Studies MDSC01H3-S-LEC01,Winter,2017,Nieborg,David,4.3,4.2,4.8,4.5,4.3,4.5,4,3.7,4.5,28,6
+VPSC66H3,ACMSC,Theory & Pract: 2-dimensional VPSC66H3-S-LEC02,Winter,2017,Pivato,Juliana,3.9,4.1,4.4,4,4.1,4,4.1,3.1,4,18,7
+NMED20H3,ACMSC,Theory & Practice of New MediaNMED20H3-S-LEC01,Winter,2017,Kaye,Lewis,3.9,4.1,4.1,3.6,3.6,4.1,3.8,3.6,3.7,24,11
+VPSC70H3,ACMSC,Theory and Practice: New MediaVPSC70H3-S-LEC01,Winter,2017,Koroshegyi,Arnold,4.2,4.2,4.8,4,4.5,4.3,4.2,3.5,4.5,20,6
+MDSD01H3,ACMSC,Topics in Media and Arts MDSD01H3-S-LEC02,Winter,2017,Cowan,T.L.,4.5,4.3,5,4.8,4.7,4.8,4.5,3.8,4.7,15,6
+VPSA73H3,ACMSC,Video I VPSA73H3-S-LEC01,Winter,2017,Onodera,Midi,4.6,4.4,4.6,4.1,4.4,4.1,4.4,4.3,4.3,15,7
+VPAA06H3,ACMSC,Vis&Per Arts Mgt in Digtl Age VPAA06H3-S-LEC01,Winter,2017,Momeni,Mina,4,4,4.2,4.3,4.3,4.1,3.8,2.8,4,26,12
+MDSB62H3,ACMSC,Visual Culture & CommunicationMDSB62H3-S-LEC01,Winter,2017,LeBel,Sabine,3.7,3.5,3.8,3.4,3.5,3.5,3.2,3,3.6,102,27
+MDSB02H3,ACMSC,Anthroplgy of Language & Media MDSB02H3-F-LEC01,Fall,2016,Paz,Alejandro,4.4,4.6,4.6,4.1,4.1,4.3,4.2,3.1,3.9,26,12
+VPHB63H3,ACMSC,14th-16th Century Art in Italy VPHB63H3-F-LEC01,Fall,2016,Webster,Erin,4.7,4.6,5,4.4,4.4,4.7,4.7,3,4.6,15,7
+VPSD58H3,ACMSC,Adv Seminar:2-Dimensional Work VPSD58H3-F-LEC01,Fall,2016,Irving,Stephen,4.4,4.6,4.6,4.4,4.7,4.3,4.7,3.3,4.2,21,9
+MDSC53H3,ACMSC,Ant of Media and Publics MDSC53H3-F-LEC01,Fall,2016,Riskedahl,Diane,4.1,4.1,4.5,3.9,4.1,4.1,4.2,3.5,3.9,27,11
+VPHC54H3,ACMSC,Art Writing VPHC54H3-F-LEC01,Fall,2016,Harney,Elizabeth,4,3.6,4.2,4,3.4,3.2,3.8,3.4,4.2,13,6
+VPHB64H3,ACMSC,Baroque Visions VPHB64H3-F-LEC01,Fall,2016,Webster,Erin,5,5,4.8,4.3,4.3,4.8,4.8,3.2,4.8,13,6
+VPSA63H3,ACMSC,But Why Is It Art? VPSA63H3-F-LEC01,Fall,2016,Kwan,Will,3.3,3.6,3.5,3.6,3.6,3.1,3.2,3.1,3.1,109,58
+MDSC40H3,ACMSC,Chinese Media and Politics MDSC40H3-F-LEC01,Fall,2016,Bai,Ruoyun,3.9,4.4,4.3,4.1,4.1,4.1,4,2.8,4.1,50,18
+VPMA70H3,ACMSC,Concert Choir Ia VPMA70H3-F-LEC30,Fall,2016,Ramsay,Brendon,3.9,3.7,4.7,3.6,3.7,3.9,3.6,2.3,4.2,22,11
+VPHC74H3,ACMSC,Contemporary Art in China VPHC74H3-F-LEC01,Fall,2016,Gu,Yi,4.1,3.9,3.9,4,3.8,3.7,3.8,3.3,4.1,18,10
+JOUB01H3,ACMSC,Covering Immigration and Trans JOUB01H3-F-LEC01,Fall,2016,Burchell,Kenzie,3.3,3.2,3.3,3.3,3.8,2.9,2.9,2.8,2.8,29,13
+ACMB01H3,ACMSC,Critical Read Think & Write ACMB01H3-F-LEC01,Fall,2016,Kleeb,Sarah,3.8,3.9,4.3,3.6,4,3.3,3.2,4.6,2.8,18,10
+ACMB01H3,ACMSC,Critical Read Think & Write ACMB01H3-F-LEC02,Fall,2016,Mcgillivray,Michele,4.6,4.7,5,4.4,4.6,4.5,4.6,4,4.5,17,11
+ACMB01H3,ACMSC,Critical Read Think & Write ACMB01H3-F-LEC03,Fall,2016,Freedman Stapleton,Rachel,3.9,4.5,4.8,3.9,4,3.6,3.9,4,3,14,8
+ACMB01H3,ACMSC,Critical Read Think & Write ACMB01H3-F-LEC30,Fall,2016,Lamaison,Catherine,1.7,2.2,1.7,2.2,2.2,1.7,2.2,3.7,1.5,17,6
+VPAC15H3,ACMSC,Cultural Policy VPAC15H3-F-LEC01,Fall,2016,Litzenberger,Shannon,2.7,2.3,2.1,2.6,2.7,1.7,2.5,3.9,1.9,36,15
+VPSB89H3,ACMSC,Digital Animation I VPSB89H3-F-LEC01,Fall,2016,Tapper,Evan,4,4.2,4,3.3,3.7,3.7,4,4.5,3.2,11,6
+VPSA74H3,ACMSC,Digital Studio I VPSA74H3-F-LEC01,Fall,2016,Hlynsky,David,3.3,3.6,3.3,3.9,4.1,3.3,3.4,2.9,3.9,18,8
+VPSA74H3,ACMSC,Digital Studio I VPSA74H3-F-LEC02,Fall,2016,Koroshegyi,Arnold,4.7,4.8,4.8,4.5,4.5,4.5,4.7,3.3,4.7,18,6
+VPSA70H3,ACMSC,Drawing I VPSA70H3-F-LEC01,Fall,2016,Brotman,Yael,4.3,4.5,4.8,4.5,4.5,4.5,4.3,3.7,4,17,6
+VPSA70H3,ACMSC,Drawing I VPSA70H3-F-LEC02,Fall,2016,Irving,Stephen,3.8,3.9,3.9,3.8,3.9,3.6,3.1,3.4,3.8,14,8
+VPSB74H3,ACMSC,Drawing II VPSB74H3-F-LEC01,Fall,2016,Goreas,Lee,3,3.2,3.3,3.3,3.3,3.3,3,4,3.2,19,6
+VPMA95H3,ACMSC,Elementary Musicianship I VPMA95H3-F-LEC01,Fall,2016,Lemish,Noam,4.4,4.3,4.8,4.2,4.4,4.5,4.1,2.6,4.7,75,21
+VPDB04H3,ACMSC,Experiencing the Live Theatre VPDB04H3-F-LEC30,Fall,2016,Lamie,Patricia,3.9,4.1,4.3,3.7,3.6,3.7,3.9,3.4,4,17,7
+VPSA62H3,ACMSC,Foundation Studies in Studio VPSA62H3-F-LEC01,Fall,2016,Mars,Tanya,2.8,3.2,3,3,3.6,3,3.2,3,3.2,15,5
+VPSA62H3,ACMSC,Foundation Studies in Studio VPSA62H3-F-LEC03,Fall,2016,Pivato,Juliana,4.5,4.5,4.8,4.3,4.3,4.3,3.9,3.6,4.1,17,8
+JOUB39H3,ACMSC,Fundamntls of Journal Writing JOUB39H3-F-LEC01,Fall,2016,Dvorkin,Jeffrey,4.7,4.6,4.9,4.6,4.7,4.6,4.7,3.3,4.8,31,15
+MDSB01H3,ACMSC,Human Animal Machine MDSB01H3-F-LEC01,Fall,2016,Taylor,Jessica,3.8,4.1,4.3,4.2,4.1,3.8,3.9,3.1,3.9,89,30
+VPSC73H3,ACMSC,Interdiscipl Drawing Concepts VPSC73H3-F-LEC01,Fall,2016,Brotman,Yael,3.7,4,4.3,3.4,3.7,4,3.8,4,3.3,19,9
+VPDB01H3,ACMSC,Interm Workshop in Perform I VPDB01H3-F-LEC01,Fall,2016,Liebembuk,Shelley,4,3.7,4.2,4,4.2,3.7,3.8,3.2,3.8,10,6
+VPAA10H3,ACMSC,Intro to Arts Management VPAA10H3-F-LEC01,Fall,2016,Israel,Blanche,4,4.3,4.5,4.1,4.3,3.7,4.1,3.8,3.8,28,15
+VPAA10H3,ACMSC,Intro to Arts Management VPAA10H3-F-LEC01,Fall,2016,Watson,Ashley,4,4.3,4.7,4.1,4.3,3.7,4.1,3.8,3.8,28,15
+CRTB01H3,ACMSC,Introduction to Curating Art CRTB01H3-F-LEC01,Fall,2016,Webster,Erin,4.4,4.2,4.8,3.8,3.6,4.2,4.8,2.8,4.2,10,5
+JOUA01H3,ACMSC,Introduction to Journalism I JOUA01H3-F-LEC01,Fall,2016,Dvorkin,Jeffrey,4.1,4.3,4.5,4,4.2,4.1,4.2,2.8,4.1,130,43
+MDSA01H3,ACMSC,Introduction to Media Studies MDSA01H3-F-LEC01,Fall,2016,Kaye,Lewis,2.8,3,3.1,3,3.1,2.6,2.6,2.7,2.7,282,70
+MDSA01H3,ACMSC,Introduction to Media Studies MDSA01H3-F-LEC60,Fall,2016,Kaye,Lewis,2.7,3,2.8,3,3,2.6,2.7,2.9,2.7,936,256
+VPDA10H3,ACMSC,Introduction to Theatre VPDA10H3-F-LEC01,Fall,2016,Lamie,Patricia,3.6,4.1,4.6,3.8,3.9,3.9,3.5,2.8,4.2,60,18
+VPMC94H3,ACMSC,Jazz VPMC94H3-F-LEC01,Fall,2016,Stanbridge,Alan,4.7,4.9,4.9,4.9,4.8,4.7,4.4,3.1,4.7,24,14
+VPMA93H3,ACMSC,Listening to Music VPMA93H3-F-LEC01,Fall,2016,King,Rosanne,3.2,3.4,3.7,3.3,3.4,3.2,3.1,2.7,3.3,277,69
+VPMA93H3,ACMSC,Listening to Music VPMA93H3-F-LEC01,Fall,2016,Kingsbury,Brett,3.2,3.4,3.6,3.3,3.4,3.2,3.1,2.7,3.3,277,69
+VPMA93H3,ACMSC,Listening to Music VPMA93H3-F-LEC60,Fall,2016,King,Rosanne,3.7,4,4.2,3.8,3.9,3.5,3.5,2.6,3.9,307,57
+VPMA93H3,ACMSC,Listening to Music VPMA93H3-F-LEC60,Fall,2016,Kingsbury,Brett,3.7,4,3.9,3.8,3.9,3.5,3.5,2.6,3.9,307,57
+VPAB16H3,ACMSC,Managing & Leading Cultur Orgs VPAB16H3-F-LEC01,Fall,2016,Cooper,Ella,3.8,3.6,4.6,3.8,4,3.8,4,3,3.8,10,5
+MDSB61H3,ACMSC,Mapping New Media MDSB61H3-F-LEC01,Fall,2016,Kaye,Lewis,4.4,4.5,4.2,4.2,4.1,4.1,4.2,3.5,4.3,53,13
+MDSC62H3,ACMSC,Media and the World of Work MDSC62H3-F-LEC01,Fall,2016,Ashby,James,2.7,3,2.7,2.9,2.9,2.5,2.8,3.1,2.7,54,31
+VPHB58H3,ACMSC,Modern Art and Culture VPHB58H3-F-LEC01,Fall,2016,Harney,Elizabeth,4.3,4.4,4.3,4.5,4.3,4.3,4.1,3.5,4,20,8
+MDSC85H3,ACMSC,Movies Music and Meaning MDSC85H3-F-LEC01,Fall,2016,Stanbridge,Alan,4.5,4.6,4.8,4.5,4.5,4.4,4.5,3,4.7,37,17
+VPMC85H3,ACMSC,Movies Music and Meaning VPMC85H3-F-LEC01,Fall,2016,Stanbridge,Alan,4.4,4.2,4.4,4,4.4,3.8,4.2,3.4,4.4,9,5
+VPMB84H3,ACMSC,Music of the World's Peoples VPMB84H3-F-LEC01,Fall,2016,Sanger,Annette,3.3,3.8,3.9,3.8,3.6,3.3,3.9,2.7,3.6,31,14
+NMED01H3,ACMSC,New Media Senior Project NMED01H3-F-LEC01,Fall,2016,Kaye,Lewis,4.1,3.9,4,4.1,3.6,3.8,4.3,3.4,4,26,9
+MDSC65H3,ACMSC,Online Games & Virtual Worlds MDSC65H3-F-LEC01,Fall,2016,Graffam,Gray,4.6,4.7,4.7,3.8,4.2,4.3,4.3,3.1,4.5,29,10
+VPAC13H3,ACMSC,Planning & Proj Mgt in Arts VPAC13H3-F-LEC01,Fall,2016,Cooper,Ella,3.6,3.6,3.8,3.8,4,3.4,4.1,3.2,3.7,19,9
+VPMA68H3,ACMSC,Small Ensemble Ia VPMA68H3-F-LEC30,Fall,2016,Kingsbury,Brett,4.4,4.4,4.7,4,4,4,3.7,3,4.7,16,7
+MDSB63H3,ACMSC,Sound and Visual Media MDSB63H3-F-LEC01,Fall,2016,Kaye,Lewis,3.8,3.8,3.9,3.7,3.8,3.7,3.5,3.3,3.5,91,26
+VPSC56H3,ACMSC,Studio Practice VPSC56H3-F-LEC01,Fall,2016,Mars,Tanya,4.5,4.5,4.3,4.3,4.5,4.3,4.4,3.3,4.1,21,8
+VPDB03H3,ACMSC,Technical Production I VPDB03H3-F-LEC01,Fall,2016,Wright,Kevin,4.5,4.9,4.9,4.5,4.8,4.4,4.3,2.4,4.5,15,8
+VPDB12H3,ACMSC,Theatre His III: Modrn Global VPDB12H3-F-LEC01,Fall,2016,Gagnon,Jeffrey,4.4,4.5,4.6,4.3,4.4,4.1,3.9,3.5,4.2,16,11
+MDSC01H3,ACMSC,Theories in Media Studies MDSC01H3-F-LEC01,Fall,2016,Visan,Laura,3.5,3.7,4.1,3.8,3.9,3.6,3.5,2.9,3.6,50,16
+VPSC66H3,ACMSC,Theory & Pract: 2-dimensional VPSC66H3-F-LEC01,Fall,2016,Hlynsky,David,3.9,3.9,3.8,3.8,3.8,3.8,3.8,3.3,4.1,22,8
+VPSC59H3,ACMSC,Three-Dimensional Work VPSC59H3-F-LEC01,Fall,2016,Hlady,Marla,4.4,4.6,4.8,4.3,4.6,4.6,4.6,3.4,4,13,9
+MDSD02H3,ACMSC,Topics in Media and Society MDSD02H3-F-LEC01,Fall,2016,Petit,Michael,4.4,4.2,4.4,4.4,4,4.2,4.2,3,4.6,21,5
+VPSB76H3,ACMSC,Video II VPSB76H3-F-LEC01,Fall,2016,Mars,Tanya,4.5,4,4.5,4.5,4.5,3.7,4.5,4.2,3.5,11,6
+VPHA46H3,ACMSC,Ways of Seeing: Intro Art Hist VPHA46H3-F-LEC01,Fall,2016,Gu,Yi,3.5,3.9,3.9,3.6,3.7,3.6,3.5,3.6,3.5,160,49
+MDSA01H3,ACMSC,Introduction to Media Studies MDSA01H3-Y-LEC01,Summer,2016,Graffam,Gray,3.5,3.6,3.6,3.4,3.4,3.1,3.4,2.8,3.8,253,47
+MDSB03H3,ACMSC,Advertising and Consumer Cult MDSB03H3-Y-LEC01,Summer,2016,Heydon,Jeff,3,2.8,2.2,1.7,2.5,2,2,3.3,1.8,27,6
+MDSB10H3,ACMSC,Technology Culture & Society MDSB10H3-Y-LEC01,Summer,2016,Ashby,James,3,3,3.6,3.3,3.1,3.3,3,3.1,3.4,30,8
+MDSC02H3,ACMSC,Media Identities and Politics MDSC02H3-Y-LEC01,Summer,2016,Ashby,James,3,2.9,3.3,3.1,3.3,2.9,3.4,3.4,3,36,12
+VPMA93H3,ACMSC,Listening to Music VPMA93H3-F-LEC01,Summer,2016,King,Rosanne,3.7,4,4.1,3.7,3.8,3.6,3.5,3,3.9,258,48
+VPMA93H3,ACMSC,Listening to Music VPMA93H3-F-LEC01,Summer,2016,Kingsbury,Brett,3.7,4,4.1,3.7,3.8,3.6,3.5,3,3.9,258,48
+VPMA93H3,ACMSC,Listening to Music VPMA93H3-F-LEC60,Summer,2016,King,Rosanne,3.2,3.7,3.8,3.6,3.6,3.2,3,2.9,3.4,185,36
+VPMA93H3,ACMSC,Listening to Music VPMA93H3-F-LEC60,Summer,2016,Kingsbury,Brett,3.2,3.7,3.6,3.6,3.6,3.2,3,2.9,3.4,185,36
+VPMA95H3,ACMSC,Elementary Musicianship I VPMA95H3-Y-LEC01,Summer,2016,Lemish,Noam,4.3,4.9,4.8,4.8,4.9,4.6,4.5,3.3,4.8,34,11
+VPMC78H3,ACMSC,Balinese Gamelan: Performance VPMC78H3-S-LEC01,Summer,2016,Sanger,Annette,5,5,4.8,5,5,4.8,4.8,3,4.6,22,5
+VPSA70H3,ACMSC,Drawing I VPSA70H3-Y-LEC01,Summer,2016,Lyle,Katie,4.6,4.8,4.4,4.6,4.4,4.4,4.4,3,4,15,5
+VPSA74H3,ACMSC,Digital Studio I VPSA74H3-Y-LEC01,Summer,2016,Koroshegyi,Arnold,4.2,3.8,4.4,4.4,4.4,4.2,4.8,2.6,4.4,16,5
+ACMA01H3,ACMSC,Exploring Key Questions in HUM ACMA01H3-S-LEC01,Winter,2016,Kleeb,Sarah,3.8,4,4,3.9,4,3.6,3.8,3.9,3.5,195,45
+ACMA02H3,ACMSC,Inquiry and Reasoning in Hum. ACMA02H3-S-LEC01,Winter,2016,Burchell,Kenzie,2.5,2.9,3,2.8,2.9,2.3,2.3,3.7,2.1,55,16
+JOUA02H3,ACMSC,Introduction to Journalism II JOUA02H3-S-LEC01,Winter,2016,Dvorkin,Jeffrey,4.4,4.5,4.7,4.7,4.7,4.5,4.6,2.9,4.5,51,12
+JOUB01H3,ACMSC,Covering Immigration and Trans JOUB01H3-S-LEC01,Winter,2016,Burchell,Kenzie,3.6,4.1,3.9,3.8,3.4,3.5,3.7,3.2,3.6,36,13
+JOUB02H3,ACMSC,Critical Journalism JOUB02H3-S-LEC01,Winter,2016,Green,Datejie,2.3,2.2,2.4,1.9,2.1,2.1,2.5,3.1,2.1,38,16
+JOUB24H3,ACMSC,Journalism Age of New Media JOUB24H3-S-LEC01,Winter,2016,Burchell,Kenzie,3.4,3.8,3.7,4,4.2,3.6,3.6,3.8,3.5,32,12
+JOUD10H3,ACMSC,Senior Seminar in Journalism JOUD10H3-S-LEC01,Winter,2016,Dvorkin,Jeffrey,2.2,2,3.6,2,2,2.6,2.6,2.4,2.6,25,5
+MDSA02H3,ACMSC,History of Media MDSA02H3-S-LEC01,Winter,2016,LeBel,Sabine,2.9,3.1,3.1,2.7,2.7,2.5,2.5,3,2.6,159,32
+MDSA02H3,ACMSC,History of Media MDSA02H3-S-LEC60,Winter,2016,LeBel,Sabine,2.8,3,3,2.8,2.7,2.5,2.6,3,2.4,162,32
+MDSB05H3,ACMSC,Media and Globalization MDSB05H3-S-LEC01,Winter,2016,Kaye,Lewis,3,3.2,3,3.2,3.1,2.6,3,3.5,2.4,121,28
+MDSB62H3,ACMSC,Visual Culture & Communication MDSB62H3-S-LEC01,Winter,2016,LeBel,Sabine,3.6,3.4,3.7,3.6,3.4,3.3,3.3,3.1,3.4,56,11
+MDSC01H3,ACMSC,Theories in Media Studies MDSC01H3-S-LEC01,Winter,2016,Visan,Laura,3.5,3.6,3.8,3.7,3.7,3.3,3.5,3.1,3.4,50,13
+MDSC02H3,ACMSC,Media Identities and Politics MDSC02H3-S-LEC01,Winter,2016,Thompson,Cheryl,4.6,4.5,4.8,4.4,4.4,4.5,4.4,3.2,4.4,81,34
+MDSC41H3,ACMSC,Media & Pop Cult in E &SE Asia MDSC41H3-S-LEC01,Winter,2016,Bai,Ruoyun,4,3.9,3.8,3.8,4,3.7,3.9,3.1,3.8,51,17
+MDSC61H3,ACMSC,Alternative Media MDSC61H3-S-LEC01,Winter,2016,Kaye,Lewis,4.1,4.2,4.2,4.1,4,3.8,3.8,3.3,3.7,47,17
+MDSC63H3,ACMSC,Media Ethics MDSC63H3-S-LEC01,Winter,2016,Basen,Ira,3.7,3.9,3.9,3.7,3.5,3.5,4,2.9,3.7,54,15
+MDSC71H3,ACMSC,Media and Religion MDSC71H3-S-LEC01,Winter,2016,Kleeb,Sarah,4,3.9,4.2,3.7,4.1,3.9,4.2,3.3,3.8,43,13
+MDSC85H3,ACMSC,Movies Music and Meaning MDSC85H3-S-LEC01,Winter,2016,Stanbridge,Alan,3.8,3.9,4.6,4.1,3.9,3.8,3.6,2.7,4.2,41,18
+MDSD02H3,ACMSC,Topics in Media and Society MDSD02H3-S-LEC01,Winter,2016,Couillard,Paul,4.2,4.3,4.1,4.1,4.1,3.9,4.1,3.3,3.9,21,9
+NMED20H3,ACMSC,Theory & Practice of New Media NMED20H3-S-LEC01,Winter,2016,Akiyama,Mitchell,3.6,3.6,3.4,3.5,3.6,3.3,3.8,3.1,3.7,36,25
+VPAA06H3,ACMSC,Vis&Per Arts Mgt in Digtl Age VPAA06H3-S-LEC01,Winter,2016,Clarfield,Stuart,2.8,2.8,2.7,2.8,3.3,2.4,2.8,3.1,2.5,25,13
+VPAA12H3,ACMSC,Audience & Resource Developmen VPAA12H3-S-LEC01,Winter,2016,Frost,Tamasine,4.3,4.5,5,4.8,4.8,4.3,3.3,2.5,4.3,16,5
+VPAB13H3,ACMSC,Financial Mgt for Arts Manager VPAB13H3-S-LEC01,Winter,2016,Young,Heather,4.3,4.5,4.4,4.4,4.4,4.3,4.1,2.9,4.6,20,8
+VPAC22H3,ACMSC,Special Topics in Arts Mgt II VPAC22H3-S-LEC30,Winter,2016,Sirman,Robert,4.2,4.3,4.8,4,4.5,4.5,4.7,2.5,4.7,16,7
+VPDA11H3,ACMSC,Introduction to Performance VPDA11H3-S-LEC02,Winter,2016,Lamie,Patricia,4,4.4,5,4.8,4.8,4.6,4.6,2.6,4,14,5
+VPDB02H3,ACMSC,Interm Workshop in Perform II VPDB02H3-S-LEC01,Winter,2016,Sperdakos,Paula,2.8,2.5,2.3,2.8,2.5,2,2.3,3.8,2.5,12,5
+VPDB11H3,ACMSC,Theatre His II: ErlyModrnPop VPDB11H3-S-LEC01,Winter,2016,Jones,Matthew,4.3,4.3,4.4,4.4,4.4,4.1,4,3.6,4.4,20,7
+VPDB13H3,ACMSC,Theatre in Canada VPDB13H3-S-LEC01,Winter,2016,Lamie,Patricia,3.5,3.9,4.2,3.9,4.1,3.7,3.4,2.9,3.6,31,14
+VPDC08H3,ACMSC,Physical Theatre VPDC08H3-S-LEC01,Winter,2016,Markus,Noam,4.3,4.6,4.7,4.1,4.4,4.7,4.4,2.6,4.7,20,7
+VPHB52H3,ACMSC,Ancient Art and Architecture VPHB52H3-S-LEC01,Winter,2016,Kulick,Rachel,4.2,4.6,4.2,4.3,4.3,4.1,4.1,2.9,3.8,31,11
+VPHB72H3,ACMSC,Museum & Curatorial Practice VPHB72H3-S-LEC01,Winter,2016,Webster,Erin,4.7,4.9,5,4.1,4.6,4.3,4.3,3.3,4.4,11,7
+VPHB73H3,ACMSC,Visualizing Asia VPHB73H3-S-LEC01,Winter,2016,Gu,Yi,4,4,4,4,3.9,3.9,3.7,3,3.9,23,7
+VPHB74H3,ACMSC,Early Mod Europe:Outside Italy VPHB74H3-S-LEC01,Winter,2016,Webster,Erin,4.2,4.5,4.8,4.6,4.2,4.2,4,2.7,4.3,16,10
+VPHB75H3,ACMSC,Arts:Hinduism and Jainism VPHB75H3-S-LEC01,Winter,2016,Durayappah,Sudharshan,4.2,4.6,4.6,4.6,4.6,4.4,4.2,2.6,4.2,17,5
+VPHC63H3,ACMSC,Explorations in Early Mod Art VPHC63H3-S-LEC01,Winter,2016,Webster,Erin,4.3,4.7,4.6,4.5,4.6,4.7,4.4,3.3,4.4,17,10
+VPMA90H3,ACMSC,Materials of Music I VPMA90H3-S-LEC01,Winter,2016,Rapoport,Alexander,4.3,4.3,4.7,4.4,4.4,4.2,3.9,2.9,4,21,7
+VPMA99H3,ACMSC,Music of the World's Peoples VPMA99H3-S-LEC30,Winter,2016,Sanger,Annette,3.6,4.1,4,3.6,3.8,3.5,3.4,2.8,3.8,145,41
+VPMB82H3,ACMSC,Art Music Modern & Contmp Eras VPMB82H3-S-LEC01,Winter,2016,Strachan,Jeremy,4,4,4.2,3.6,3.7,3.8,3.7,3,3.3,22,9
+VPMC95H3,ACMSC,Musical Diasporas Canada & USA VPMC95H3-S-LEC01,Winter,2016,Sanger,Annette,4.2,4.6,4.4,4,4.4,4.2,3.6,3,4,11,5
+VPMD90H3,ACMSC,Critical Issues in Music & Soc VPMD90H3-S-LEC01,Winter,2016,Stanbridge,Alan,4.5,4.2,4.7,4,4.2,4.5,4.3,3.3,4.5,8,6
+VPSA62H3,ACMSC,Foundation Studies in Studio VPSA62H3-S-LEC01,Winter,2016,Mars,Tanya,3.8,3.8,4,4.2,4.2,3.6,3.8,2.6,4.2,16,5
+VPSA62H3,ACMSC,Foundation Studies in Studio VPSA62H3-S-LEC03,Winter,2016,Brotman,Yael,4.4,4.1,4.6,4.3,4.1,4.4,4.4,3.6,4.3,14,7
+VPSA70H3,ACMSC,Drawing I VPSA70H3-S-LEC01,Winter,2016,Goreas,Lee,4.3,4.5,4.4,4.4,4.1,4,4,3.5,4.1,19,8
+VPSA71H3,ACMSC,Introduction to Sculpture VPSA71H3-S-LEC01,Winter,2016,Goreas,Lee,4,4.3,3.8,4.5,4.2,3.8,3.8,4.2,3.7,14,6
+VPSA73H3,ACMSC,Video I VPSA73H3-S-LEC01,Winter,2016,Kwan,Will,4,3.7,4.5,4.2,4.3,3.7,4.2,3.2,4,12,6
+VPSA74H3,ACMSC,Digital Studio I VPSA74H3-S-LEC02,Winter,2016,Hlynsky,David,3.7,4.2,4.2,4,4,3.5,4,3.3,3.7,20,7
+VPSB73H3,ACMSC,Curatorial Perspectives I VPSB73H3-S-LEC01,Winter,2016,MacDonald,Ann,4.6,4.8,5,4.6,4.8,4.8,4.6,2.6,4.8,17,5
+VPSB74H3,ACMSC,Drawing II VPSB74H3-S-LEC01,Winter,2016,Irving,Stephen,4.3,4,3.8,4,4.3,3.5,4,3.3,3.5,19,5
+VPSB80H3,ACMSC,Digital Studio II VPSB80H3-S-LEC01,Winter,2016,Hlynsky,David,3.8,3.8,3.3,4.2,4,3.7,4,2.8,3.5,20,6
+VPSB88H3,ACMSC,Sound Art VPSB88H3-S-LEC01,Winter,2016,Arnold,Martin,4.8,4.8,4.8,4.8,4.8,4.6,4.6,3,4.8,17,6
+VPSC55H3,ACMSC,Drawing III VPSC55H3-S-LEC01,Winter,2016,Brotman,Yael,4.3,4.5,4.7,4.5,4.7,4.7,4.2,3.8,4.5,21,6
+VPSC58H3,ACMSC,Photo III VPSC58H3-S-LEC01,Winter,2016,Hlynsky,David,4.3,4.8,4.5,4.7,4.8,4.2,4.5,3.3,4.5,10,6
+VPSC66H3,ACMSC,Theory & Pract: 2-dimensional VPSC66H3-S-LEC01,Winter,2016,Irving,Stephen,2.9,2.7,3.1,3.1,3.1,2.6,2.6,3,2.7,24,8
+VPSC68H3,ACMSC,Theory & Pract:Time-Based Work VPSC68H3-S-LEC01,Winter,2016,Mars,Tanya,4.5,4.3,4.5,4.3,4.5,4.2,4.3,3.3,4.3,20,12
+VPSD56H3,ACMSC,Advanced Studio Practice VPSD56H3-S-LEC01,Winter,2016,Hlady,Marla,4.5,4.4,4.5,4.4,4.5,4.1,4.4,4,4.5,15,13
+VPSD57H3,ACMSC,Adv Seminar:Interdisc Practice VPSD57H3-S-LEC01,Winter,2016,Kwan,Will,4.4,4.4,4.5,4.3,4.4,3.9,4.2,3.8,4.2,16,10
+ACMA01H3,ACMSC,Exploring Key Questions in HUM ACMA01H3-F-LEC01,Fall,2015,Kleeb,Sarah,4,4.1,4.4,3.5,3.8,3.6,3.8,4.4,3.3,178,52
+JOUA01H3,ACMSC,Introduction to Journalism I JOUA01H3-F-LEC01,Fall,2015,Dvorkin,Jeffrey,4,4.3,4.4,3.7,3.9,3.8,4.3,3.1,3.8,98,33
+JOUB39H3,ACMSC,Fundamntls of Journal Writing JOUB39H3-F-LEC01,Fall,2015,Dvorkin,Jeffrey,4.4,4.6,4.6,4.1,4.2,4.4,4.6,2.8,4.4,35,11
+MDSA01H3,ACMSC,Introduction to Media Studies MDSA01H3-F-LEC01,Fall,2015,Kleeb,Sarah,3.9,4.1,4.3,3.8,3.8,3.9,3.9,2.8,4.1,280,79
+MDSA01H3,ACMSC,Introduction to Media Studies MDSA01H3-F-LEC60,Fall,2015,Kleeb,Sarah,3.8,4,4,3.6,3.8,3.7,3.7,3,3.9,519,95
+MDSB01H3,ACMSC,Human Animal Machine MDSB01H3-F-LEC01,Fall,2015,Kleeb,Sarah,4,4.2,4.5,4.2,4.2,4,4,2.9,4.3,83,25
+MDSB10H3,ACMSC,Technology Culture & Society MDSB10H3-F-LEC01,Fall,2015,Couillard,Paul,3.2,3.2,3,3.3,3.4,2.7,3,3.3,2.6,48,11
+MDSB25H3,ACMSC,Political Economy of Media MDSB25H3-F-LEC01,Fall,2015,Kaye,Lewis,3.8,3.6,4,3.8,3.9,3.5,3.6,3.3,3.5,51,9
+MDSB61H3,ACMSC,Mapping New Media MDSB61H3-F-LEC01,Fall,2015,Kaye,Lewis,3.4,3.4,3.5,3.4,3.2,3,3.3,3.1,3.3,61,10
+MDSB62H3,ACMSC,Visual Culture & Communication MDSB62H3-F-LEC01,Fall,2015,LeBel,Sabine,3.7,4.1,4.3,4.3,4.2,3.9,4,3,4.1,36,13
+MDSB63H3,ACMSC,Sound and Visual Media MDSB63H3-F-LEC01,Fall,2015,Kaye,Lewis,4.5,4.5,4.7,4.3,4.4,4.2,4.2,3.2,4.4,61,19
+MDSC01H3,ACMSC,Theories in Media Studies MDSC01H3-F-LEC01,Fall,2015,Visan,Laura,3.4,3.3,3.5,3.7,3.9,3.1,3.1,3.3,3.1,52,15
+MDSC40H3,ACMSC,Chinese Media and Politics MDSC40H3-F-LEC01,Fall,2015,Bai,Ruoyun,3.3,3.7,3.4,3.7,3.9,3.4,3.4,3,3.6,46,14
+MDSC62H3,ACMSC,Media and the World of Work MDSC62H3-F-LEC01,Fall,2015,Salutin,Rick,3.9,4.2,4.3,3.9,3.9,3.6,3.8,2.4,4.4,49,15
+MDSC65H3,ACMSC,Online Games & Virtual Worlds MDSC65H3-F-LEC01,Fall,2015,Graffam,Gray,4.7,4.8,5,4.3,4.6,4.6,4.7,3,4.8,28,9
+MDSD02H3,ACMSC,Topics in Media and Society MDSD02H3-F-LEC01,Fall,2015,LeBel,Sabine,4,4.4,4.2,3.6,3.9,3.7,4,3.5,3.4,28,13
+NMED01H3,ACMSC,New Media Senior Project NMED01H3-F-LEC01,Fall,2015,Papagiannis,Danny,4.3,4.5,4.7,4.4,4.2,4.3,4.4,3,4.6,34,17
+VPAC13H3,ACMSC,Planning & Proj Mgt in Arts VPAC13H3-F-LEC01,Fall,2015,Marcus,Mitchell,4,4.3,4.8,4.6,4.4,3.9,4.3,3.2,4,20,12
+VPDA10H3,ACMSC,Introduction to Theatre VPDA10H3-F-LEC01,Fall,2015,Lamie,Patricia,3.7,3.9,4.5,4,4,3.8,3.5,2.7,4.1,65,21
+VPDB01H3,ACMSC,Interm Workshop in Perform I VPDB01H3-F-LEC01,Fall,2015,Lamie,Patricia,3.8,3.8,4.6,4,4.2,4.4,4.4,3,4.2,14,6
+VPDB03H3,ACMSC,Technical Production I VPDB03H3-F-LEC01,Fall,2015,Wright,Kevin,3.4,3.8,4,3.8,3.8,3.4,3.8,3,3.6,14,5
+VPDB04H3,ACMSC,Experiencing the Live Theatre VPDB04H3-F-LEC30,Fall,2015,Lamie,Patricia,3.7,4.1,4.4,3.8,3.9,3.6,3.8,3.1,4.2,27,9
+VPDB10H3,ACMSC,Theatre HIS I:Ritual-Renaissnc VPDB10H3-F-LEC01,Fall,2015,Leadley,Allison,2,2.6,2.3,2.4,2.7,1.9,1.8,3.4,1.8,26,12
+VPDB15H3,ACMSC,The Actor and the Script VPDB15H3-F-LEC01,Fall,2015,Sperdakos,Paula,3.6,3.6,3.8,3.7,3.6,3.4,3.7,3.8,3.6,14,10
+VPDC01H3,ACMSC,Advanced Workshop: Performance VPDC01H3-F-LEC01,Fall,2015,Freeman,Barry,4.3,4.7,4.8,4.1,4.1,4.2,4.1,3.2,4.2,18,9
+VPDC20H3,ACMSC,Special Topics in Performance VPDC20H3-F-LEC01,Fall,2015,Sperdakos,Paula,3.8,4,3,3.6,3.6,3.2,3.4,4.8,3.4,11,5
+VPHA46H3,ACMSC,Ways of Seeing: Intro Art Hist VPHA46H3-F-LEC01,Fall,2015,Harney,Elizabeth,3.8,3.7,4,3.7,3.9,3.7,3.6,2.9,3.6,148,29
+VPHB71H3,ACMSC,Exhibiting Art VPHB71H3-F-LEC01,Fall,2015,Webster,Erin,4.4,4.5,4.5,4.6,4.6,4,4.1,3,4.1,19,10
+VPHB76H3,ACMSC,Arts:Judeo-Christian Tradition VPHB76H3-F-LEC01,Fall,2015,Webster,Erin,4.3,4.5,4.8,4.5,4.5,4.3,3.8,3,4.2,9,6
+VPHC45H3,ACMSC,Seminar: Modern & Contemp Art VPHC45H3-F-LEC01,Fall,2015,Harney,Elizabeth,4.4,4.4,4.6,4.6,4.9,4.6,4.4,3.1,4.7,18,8
+VPHC68H3,ACMSC,Art in Global Cities VPHC68H3-F-LEC01,Fall,2015,Harney,Elizabeth,4.6,4.6,4.4,4.6,4.7,4.6,4.6,3.3,4.7,21,9
+VPMA93H3,ACMSC,Listening to Music VPMA93H3-F-LEC01,Fall,2015,King,Rosanne,3.4,3.6,3.6,3.7,3.7,3.4,3.3,2.6,3.6,276,65
+VPMA93H3,ACMSC,Listening to Music VPMA93H3-F-LEC60,Fall,2015,King,Rosanne,3.7,3.9,3.8,3.8,3.9,3.7,3.6,2.7,3.8,226,55
+VPMA93H3,ACMSC,Listening to Music VPMA93H3-F-LEC01,Fall,2015,Kingsbury,Brett,3.4,3.6,3.6,3.7,3.7,3.4,3.3,2.6,3.6,276,65
+VPMA93H3,ACMSC,Listening to Music VPMA93H3-F-LEC60,Fall,2015,Kingsbury,Brett,3.7,3.9,3.8,3.8,3.9,3.7,3.6,2.7,3.8,226,55
+VPMB79H3,ACMSC,Performing Arts of Asia VPMB79H3-F-LEC01,Fall,2015,Sanger,Annette,4.2,4.5,4.5,4.5,4.3,4.5,3.7,3.3,4.5,18,7
+VPMB83H3,ACMSC,Modern and Contemporary Eras VPMB83H3-F-LEC01,Fall,2015,McLeod,Kenneth,3.9,4,3.3,2.9,3.4,3.6,3.5,3,3.6,23,8
+VPSA62H3,ACMSC,Foundation Studies in Studio VPSA62H3-F-LEC02,Fall,2015,Hlady,Marla,4.5,4.6,4.8,4.8,4.8,4.7,4.5,3.8,4.3,20,10
+VPSA63H3,ACMSC,But Why Is It Art? VPSA63H3-F-LEC01,Fall,2015,Kwan,Will,3.3,3.8,3.7,3.8,3.8,3.2,3.2,3.2,3.2,122,33
+VPSA74H3,ACMSC,Digital Studio I VPSA74H3-F-LEC01,Fall,2015,Koroshegyi,Arnold,4.4,4.3,4.1,4.1,4.5,4.1,4.1,3.1,4.3,21,8
+VPSB74H3,ACMSC,Drawing II VPSB74H3-F-LEC01,Fall,2015,Goreas,Lee,3.6,3.7,4,3.6,4,3.7,4,3.7,3.1,19,7
+VPSB75H3,ACMSC,Photo II VPSB75H3-F-LEC01,Fall,2015,Lum,Morris,4,4,3.7,4,4,4,4.3,3.1,4.1,16,8
+VPSB89H3,ACMSC,Digital Animation I VPSB89H3-F-LEC01,Fall,2015,Tapper,Evan,4,4.1,4,3.9,3.6,3.9,4.1,3.9,3.9,19,8
+VPSC51H3,ACMSC,Curatorial Perspectives II VPSC51H3-F-LEC01,Fall,2015,MacDonald,Ann,4.2,4.2,4.4,4.4,4.4,4.2,4.4,2.8,4.8,7,5
+VPSC56H3,ACMSC,Studio Practice VPSC56H3-F-LEC01,Fall,2015,Mars,Tanya,4.7,4.7,4.3,4.7,4.7,4.3,4.8,3.8,4.3,11,6
+VPSC69H3,ACMSC,Art in a Globalizing World VPSC69H3-F-LEC01,Fall,2015,Granados,Francisco-Fernando,3.3,2.8,2.6,3.3,3.6,2.5,2.9,3.3,2.5,21,8
+VPSC73H3,ACMSC,Interdiscipl Drawing Concepts VPSC73H3-F-LEC01,Fall,2015,Brotman,Yael,3.7,3.6,4.1,3.8,3.8,3.7,3.4,4,3.3,20,9
+VPSD58H3,ACMSC,Adv Seminar:2-Dimensional Work VPSD58H3-F-LEC01,Fall,2015,Irving,Stephen,4.2,3.8,4.2,4.2,4.5,4.2,4.7,3.2,4.5,18,6
+VPSA70H3,ACMSC,Drawing I VPSA70H3-Y-LEC01,Summer,2015,Hein,Jessica,3.5,3.5,3.8,3.3,2.7,2.7,3.8,4.8,2.5,19,7
+VPSA74H3,ACMSC,Foundations in Digital Studio VPSA74H3-Y-LEC01,Summer,2015,McLellan,Caralee,4.1,4,3.7,3.9,3.9,3.7,3.9,2.7,4.3,20,7
+MDSA01H3,ACMSC,Introduction to Media Studies MDSA01H3-Y-LEC01,Summer,2015,Graffam,Gray,3.6,3.8,4.1,3.7,3.6,3.4,3.5,2.9,3.7,241,34
+VPMA93H3,ACMSC,Listening to Music VPMA93H3-F -LEC01,Summer,2015,King,Rosanne,3.4,3.9,3.9,3.7,3.8,3.5,3.8,2.7,3.6,196,33
+VPMA93H3,ACMSC,Listening to Music VPMA93H3-F -LEC01,Summer,2015,Kingsbury,Brett,3.4,3.9,4,3.7,3.8,3.5,3.8,2.7,3.6,196,33
+VPMA93H3,ACMSC,Listening to Music VPMA93H3-F-LEC60,Summer,2015,King,Rosanne,3.3,3.6,3.5,3.4,3.6,3,3.2,2.9,3.2,175,22
+VPMA93H3,ACMSC,Listening to Music VPMA93H3-F-LEC60,Summer,2015,Kingsbury,Brett,3.3,3.6,3.4,3.4,3.6,3,3.2,2.9,3.2,175,22
+VPSB67H3,ACMSC,Photo I VPSB67H3-Y-LEC01,Summer,2015,McLellan,Caralee,3.6,4.2,4.2,4.2,4.2,4,4.4,3,4.2,21,5
+MDSC63H3,ACMSC,Media Ethics MDSC63H3-S-LEC01,Winter,2015,Basen,Ira,2.9,3.1,3.1,2.8,3.1,2.8,2.9,2.5,3.1,68,14
+VPDC20H3,ACMSC,Special Topics in Performance VPDC20H3-S-LEC01,Winter,2015,Bennett,Melanie,3.9,4.6,4.6,4.4,4.3,4.2,4,3.1,4.7,16,9
+VPSC55H3,ACMSC,Drawing III VPSC55H3-S-LEC01,Winter,2015,Brotman,Yael,3.8,4,4.5,4,4.2,4,4,4,3.8,19,6
+ACMA02H3,ACMSC,Inquiry and Reasoning in Hum. ACMA02H3-S-LEC01,Winter,2015,Burchell,Kenzie,2.4,2.5,2.7,2.6,2.9,2.2,2,3.7,1.9,75,15
+JOUB01H3,ACMSC,Covering Immigration and Trans JOUB01H3-S-LEC01,Winter,2015,Burchell,Kenzie,3,3.2,3.7,3.2,3.8,2.8,2.8,3.2,2.6,31,6
+VPHB59H3,ACMSC,Current Art Practices VPHB59H3-S-LEC01,Winter,2015,Carroll,Leanne,3.9,3.9,4.5,4,4.1,4,4,2.5,4.1,34,15
+NMED20H3,ACMSC,Theory & Practice of New Media NMED20H3-S-LEC01,Winter,2015,Couillard,Paul,1.9,2.1,2.1,2,2.1,1.8,2.3,2.8,1.4,20,10
+JOUA02H3,ACMSC,Introduction to Journalism II JOUA02H3-S-LEC01,Winter,2015,Dvorkin,Jeffrey,4.6,4.3,5,4.6,4.3,4.8,4.8,2.9,4.9,56,9
+JOUB24H3,ACMSC,Journalism Age of New Media JOUB24H3-S-LEC01,Winter,2015,Dvorkin,Jeffrey,3.6,3.8,4.4,4,4.8,3.6,3.2,2.4,3.8,29,5
+VPDB12H3,ACMSC,Theatre His III: Modrn Global VPDB12H3-S-LEC01,Winter,2015,Freeman,Barry,4.3,4.3,4.6,4.1,4.3,4.2,3.8,3.4,4,29,19
+VPDD50H3,ACMSC,Adv Sem in Theatre & Perform VPDD50H3-S-LEC01,Winter,2015,Freeman,Barry,4.8,4.7,4.9,4.1,4.1,4.4,4.3,4.1,3.9,16,9
+VPAA12H3,ACMSC,Audience & Resource Developmen VPAA12H3-S-LEC01,Winter,2015,Frost,Tamisine,4.1,4.1,4.4,4.2,4.2,4.1,4.2,3.2,4,25,11
+VPSB85H3,ACMSC,Text as Image/Language as Art VPSB85H3-S-LEC01,Winter,2015,Goreas,Lee,3.7,3.9,3.3,3.6,3.6,3.3,3.1,3.7,3.1,16,7
+VPHB50H3,ACMSC,Africa Through the Photo Lens VPHB50H3-S-LEC01,Winter,2015,Harney,Elizabeth,4.1,4.5,4.4,4,4.2,3.9,4.2,2.9,4,32,11
+VPSA74H3,ACMSC,Foundations in Digital Studio VPSA74H3-S-LEC01,Winter,2015,Hlynsky,David,3.3,3.5,2.7,3.5,4.2,3,4,2.8,3.5,23,6
+VPSC58H3,ACMSC,Photo III VPSC58H3-S-LEC01,Winter,2015,Hlynsky,David,3.2,3,3.3,3,3.3,3,3.5,3.2,2.8,17,6
+MDSB25H3,ACMSC,Political Economy of Media MDSB25H3-S-LEC01,Winter,2015,Kaye,Lewis,3.5,3.4,3.6,3.4,3.5,3.3,3.3,3.5,3.4,106,26
+ACMA01H3,ACMSC,Exploring Key Questions in HUM ACMA01H3-S-LEC01,Winter,2015,Kleeb,Sarah,3.3,3.4,3.7,3.4,3.2,3,3.2,4.2,2.8,198,56
+VPSB71H3,ACMSC,Books and Multiples VPSB71H3-S-LEC01,Winter,2015,Krepakevich,Shane,4.6,4.7,4.3,4.9,4.9,4.6,4.6,3,4.7,18,7
+VPSA73H3,ACMSC,Video I VPSA73H3-S-LEC01,Winter,2015,Kwan,Will,3.5,3.8,4.2,4,4.2,3.8,4.2,3.5,4.5,15,6
+VPSC69H3,ACMSC,Art in a Globalizing World VPSC69H3-S-LEC01,Winter,2015,Kwan,Will,4.1,4.3,4.3,3.8,3.6,3.6,4.3,3.9,4,20,9
+VPSD57H3,ACMSC,Adv Seminar:Interdisc Practice VPSD57H3-S-LEC01,Winter,2015,Kwan,Will,4.3,4.3,4.5,4.3,4.3,4.3,4.2,3.8,4.3,20,8
+VPSA61H3,ACMSC,Painting I VPSA61H3-S-LEC01,Winter,2015,Leach,Angela,3.8,3.8,4.2,4.2,4.2,3.5,4,4,3.8,15,6
+VPSC54H3,ACMSC,Painting III VPSC54H3-S-LEC01,Winter,2015,Leach,Angela,3.3,3.8,4.2,3.8,4,4,3.7,3.8,3.2,11,6
+MDSB62H3,ACMSC,Visual Culture MDSB62H3-S-LEC01,Winter,2015,LeBel,Sabine,3.5,3.5,3.9,3.5,3.7,3.6,3.3,3.3,3.4,68,18
+VPSB73H3,ACMSC,Curatorial Perspectives I VPSB73H3-S-LEC01,Winter,2015,MacDonald,Ann,4.4,4.1,4.5,4,4.1,4.2,4.5,2.8,4.3,16,11
+VPAB16H3,ACMSC,Managing & Leading Cultur Orgs VPAB16H3-S-LEC01,Winter,2015,Marcus,Mitchell,4.4,4.7,4.2,4.3,4.5,4.1,4.4,3.3,4.3,23,10
+VPDC08H3,ACMSC,Physical Theatre VPDC08H3-S-LEC01,Winter,2015,Markus,Noam,4.5,4.5,5,3.7,4.2,4.5,3.7,2.7,4.7,15,6
+VPSA71H3,ACMSC,Introduction to Sculpture VPSA71H3-S-LEC01,Winter,2015,Marotta,Laura,4.6,4.7,4.7,4.7,4.4,4.7,4.6,3.6,4.9,12,7
+VPSB77H3,ACMSC,Intro to Performance Art VPSB77H3-S-LEC01,Winter,2015,Mars,Tanya,4.4,4.2,4.2,4.4,4.8,4.2,4.4,3.2,4.2,14,5
+VPHC74H3,ACMSC,Contemporary Art in China VPHC74H3-S-LEC01,Winter,2015,Parke,Elizabeth,4.8,4.8,5,4.4,4.4,4.6,4.6,3.4,4.4,21,7
+MDSC53H3,ACMSC,Ant of Media and Publics MDSC53H3-S-LEC01,Winter,2015,Paz,Alejandro,3.5,3.8,3.8,3.6,3.8,3.4,2.7,3.3,2.7,30,16
+MDSA02H3,ACMSC,History of Media and Tech. MDSA02H3-S-LEC01,Winter,2015,Petit,Michael,3.2,3.5,3.4,3.3,3.3,2.7,3.2,3.2,3.2,203,33
+MDSA02H3,ACMSC,History of Media and Tech. MDSA02H3-S-LEC60,Winter,2015,Petit,Michael,3.5,3.6,3.9,3.5,3.5,3.4,3.2,3.6,3.5,146,36
+MDSB01H3,ACMSC,Human Animal Machine MDSB01H3-S-LEC01,Winter,2015,Petit,Michael,4.1,4,4.1,3.7,3.8,3.7,4.1,3.5,4.1,128,24
+MDSC64H3,ACMSC,Old MediaNew Media: Film& Tec MDSC64H3-S-LEC01,Winter,2015,Petit,Michael,4.1,4.4,4.6,4.2,4.4,4.1,4.2,2.7,4.6,73,23
+VPSC66H3,ACMSC,Theory & Pract: 2-dimensional VPSC66H3-S-LEC01,Winter,2015,Pivato,Juliana,4.7,4.8,4.8,4.7,4.7,4.5,4.5,3.5,4.6,17,6
+VPMA90H3,ACMSC,Materials of Music I VPMA90H3-S-LEC01,Winter,2015,Rapoport,Alexander,4.6,4.6,4.8,4.6,4.8,4.4,4.8,3.4,4.4,21,5
+VPMC90H3,ACMSC,Materials of Music III VPMC90H3-S-LEC01,Winter,2015,Rapoport,Alexander,4.6,4.4,5,4.4,4.8,4.6,5,3.2,5,13,5
+VPMA99H3,ACMSC,Music of the World's Peoples VPMA99H3-S-LEC30,Winter,2015,Sanger,Annette,3.7,4,3.7,3.7,3.8,3.5,3.4,3,3.7,153,46
+VPMB65H3,ACMSC,Music and Healing VPMB65H3-S-LEC01,Winter,2015,Sanger,Annette,3.6,4.2,3.6,3.9,4.1,3.8,4,3.1,4,32,11
+MDSD01H3,ACMSC,Topics in Media and Arts MDSD01H3-S-LEC01,Winter,2015,Stanbridge,Alan,4,4.4,4.8,4.3,4.3,4.1,4.3,2.9,4.4,20,10
+MDSD01H3,ACMSC,Topics in Media and Arts MDSD01H3-S-LEC02,Winter,2015,Stanbridge,Alan,4.9,4.8,4.9,3.9,4.2,4.4,4.4,2.9,4.7,27,12
+VPHB64H3,ACMSC,Baroque Visions VPHB64H3-S-LEC01,Winter,2015,Webster,Erin,4.1,4.6,4.1,3.9,4,4,4.4,3.4,3.9,16,8
+VPHB72H3,ACMSC,Museum & Curatorial Practice VPHB72H3-S-LEC01,Winter,2015,Webster,Erin,3.6,3.6,4,3.6,3.6,3.3,3.6,2.9,3.4,14,7
+VPHC72H3,ACMSC,Art the Museum & the Gallery VPHC72H3-S-LEC01,Winter,2015,Webster,Erin,4.9,4.9,4.7,4.7,4.9,4.9,5,3.4,5,9,8
+VPHD44H3,ACMSC,Curating Historical Art VPHD44H3-S-LEC01,Winter,2015,Webster,Erin,4.1,4.1,4.6,4.6,4.6,4.3,4.1,3.3,4.4,13,7
+VPMA95H3,ACMSC,Elementary Musicianship I VPMA95H3-S-LEC01,Winter,2015,Whiting,Lenard,3.8,3.8,3.9,3.7,3.4,2.7,3.5,4.1,3,54,13
+VPMB95H3,ACMSC,Elementary Musicianship II VPMB95H3-S-LEC01,Winter,2015,Whiting,Lenard,4.4,4.6,4.8,4.8,4.8,4.8,4.8,2.6,5,8,5
+VPDC03H3,ACMSC,Technical Production II VPDC03H3-S-LEC01,Winter,2015,Wright,Kevin,4.2,4.4,5,4.4,4.2,4.2,4.4,3.2,4.6,10,5
+VPSB76H3,ACMSC,Video II VPSB76H3-F-LEC01,Fall,2014,Bowen,Deanna,4.2,4.4,4.8,4.2,4.4,4,3.8,3.6,4.2,10,5
+VPMA93H3,ACMSC,Listening to Music VPMA93H3-F-LEC01,Fall,2014,Bowen,William,3.7,3.8,4,3.7,3.8,3.6,3.8,2.8,3.6,271,77
+VPMA93H3,ACMSC,Listening to Music VPMA93H3-F-LEC60,Fall,2014,Bowen,William,3.4,3.6,3.9,3.8,3.8,3.4,3.6,2.7,3.8,263,48
+VPSA62H3,ACMSC,Foundation Studies in Studio VPSA62H3-F-LEC04,Fall,2014,Brotman,Yael,4,4.2,4.7,4.5,4.7,4.2,4.3,3.2,3.5,17,6
+VPSC73H3,ACMSC,Interdiscipl Drawing Concepts VPSC73H3-F-LEC01,Fall,2014,Brotman,Yael,4.3,4.2,4.3,4.2,4,4.3,4.2,3.3,3.8,15,6
+VPSB62H3,ACMSC,Painting II VPSB62H3-F-LEC01,Fall,2014,Cale,Sarah,3.7,3.2,3.7,3.6,3.7,3.1,3.2,3.9,3.3,17,9
+NMED01H3,ACMSC,New Media Senior Project NMED01H3-F-LEC01,Fall,2014,Couillard,Paul,2.6,2.6,3,2.6,3,2.9,3.1,2.7,3,19,7
+JOUA01H3,ACMSC,Introduction to Journalism I JOUA01H3-F-LEC01,Fall,2014,Dvorkin,Jeffrey,4.1,4,4.2,4,4,3.8,4.2,3,3.9,74,21
+JOUB39H3,ACMSC,Fundamntls of Journal Writing JOUB39H3-F-LEC01,Fall,2014,Dvorkin,Jeffrey,3.9,4.3,4.7,4.2,4.1,4.2,3.9,2.9,4.1,35,12
+VPDB11H3,ACMSC,Theatre His II: ErlyModrnPop VPDB11H3-F-LEC01,Fall,2014,Freeman,Barry,3.9,4.2,4.4,4.2,4.4,4.5,3.6,3.4,4,26,13
+VPAC18H3,ACMSC,Fundraising & Develop in Arts VPAC18H3-F-LEC01,Fall,2014,Frost,Tamisine,3.2,3.5,4.2,4.2,4.3,3.3,3.4,2.8,3.7,21,10
+VPHB53H3,ACMSC,Medieval Art VPHB53H3-F-LEC01,Fall,2014,Gervers,Michael,3.8,4,4.2,3.2,3.2,3.6,3.8,3.4,3.4,12,5
+VPSA62H3,ACMSC,Foundation Studies in Studio VPSA62H3-F-LEC02,Fall,2014,Goreas,Lee,4.2,4.3,4.3,4,4,3.7,4.3,3.2,4.2,17,7
+MDSC65H3,ACMSC,Online Games & Virtual Worlds MDSC65H3-F-LEC01,Fall,2014,Graffam,Gray,3.5,3.6,4.1,3.6,3.6,3.3,3.6,2.7,3.8,22,11
+VPSA70H3,ACMSC,Drawing I VPSA70H3-F-LEC02,Fall,2014,Granados,Francisco-Fernando,4.4,4.4,4.6,4.6,4.6,4.4,4.2,3.6,3.8,16,5
+VPHA46H3,ACMSC,Ways of Seeing: Intro Art Hist VPHA46H3-F-LEC01,Fall,2014,Harney,Elizabeth,3.3,3.4,3.7,3.5,3.7,3.2,3.3,3.2,3.3,151,65
+VPSB75H3,ACMSC,Photo II VPSB75H3-F-LEC01,Fall,2014,Hlynsky,David,3.4,3.4,2.9,3,3,3,3.6,3,3.4,11,7
+VPSB80H3,ACMSC,Digital Studio Projects VPSB80H3-F-LEC01,Fall,2014,Hlynsky,David,2.9,2.9,3,2.9,3.4,2.9,2.7,2.7,2.9,13,7
+MDSB05H3,ACMSC,Media and Globalization MDSB05H3-F-LEC01,Fall,2014,Kaye,Lewis,3.7,3.6,3.9,3.6,3.7,3.5,3.5,3.4,3.5,137,28
+VPMB69H3,ACMSC,Small Ensemble IIb VPMB69H3-F-LEC30,Fall,2014,Kingsbury,Brett,4.2,4,4.2,4,4,4,4,3.2,4.4,6,5
+ACMA01H3,ACMSC,Exploring Key Questions in HUM ACMA01H3-F-LEC01,Fall,2014,Kleeb,Sarah,4,4,4.1,4,4.1,3.7,3.7,4.1,3.7,160,47
+MDSD02H3,ACMSC,Topics in Media and Society MDSD02H3-F-LEC01,Fall,2014,Kleeb,Sarah,4.4,4.5,4.8,4.2,4.2,4.2,4.4,3.4,4.4,21,14
+VPHB58H3,ACMSC,Modern Art and Culture VPHB58H3-F-LEC01,Fall,2014,Kucherova,Darya,4.7,4.5,4.5,4.7,4.8,4.2,4.5,3.3,4.3,19,6
+VPSA61H3,ACMSC,Painting I VPSA61H3-F-LEC01,Fall,2014,Leach,Angela,4.2,4.3,4.3,4.5,4.2,4.1,3.9,3.8,4.1,19,11
+MDSC02H3,ACMSC,Topics MediaIdentitiesPolit MDSC02H3-F-LEC01,Fall,2014,Lesk,Andrew,3.6,3.4,3.7,3.5,3.5,3.3,3.7,3.1,3.3,52,16
+VPDA10H3,ACMSC,Introduction to Theatre VPDA10H3-F-LEC01,Fall,2014,Liebembuk,Shelley,4,4.2,4.4,4.2,4.1,4,3.8,3.3,4,54,22
+VPSD55H3,ACMSC,Advanced Special Topics:Studio VPSD55H3-F-LEC01,Fall,2014,Lum,Morris,3.1,3.1,2.9,3.1,3.3,2.6,3.6,2.9,2.9,14,7
+JOUB02H3,ACMSC,Critical Journalism JOUB02H3-F-LEC01,Fall,2014,Mahtani,Minelle,4.8,4.6,4.8,4.6,4.8,4.5,4.3,3.5,4.5,29,12
+VPSC56H3,ACMSC,Studio Practice VPSC56H3-F-LEC01,Fall,2014,Mars,Tanya,3.8,3.6,3.2,3.8,3.8,3.3,3.6,3.8,3.1,14,9
+VPSA74H3,ACMSC,Foundations in Digital Studio VPSA74H3-F-LEC01,Fall,2014,McLellan,Caralee,3,3.6,3.6,3.6,4,3,3.4,3.1,3.3,18,7
+VPMC84H3,ACMSC,Popular Music:Issues App Exc VPMC84H3-F-LEC01,Fall,2014,McLeod,Kenneth,3.6,3.6,3.6,3.4,3.8,3.2,3.6,2.8,3.4,13,5
+MDSB02H3,ACMSC,Anthroplgy of Language & Media MDSB02H3-F-LEC01,Fall,2014,Paz,Alejandro,4,4,3.8,3.7,3.8,3.6,3.7,3.2,3.3,31,12
+MDSA01H3,ACMSC,Introduction to Media Studies MDSA01H3-F-LEC01,Fall,2014,Petit,Michael,3.7,3.8,4,3.5,3.5,3.5,3.7,3.1,3.7,270,71
+MDSA01H3,ACMSC,Introduction to Media Studies MDSA01H3-F-LEC60,Fall,2014,Petit,Michael,3.9,4.1,4.3,3.9,4.2,3.8,3.8,3.1,4,443,98
+MDSB61H3,ACMSC,Mapping New Media MDSB61H3-F-LEC01,Fall,2014,Petit,Michael,3.9,4.1,4.4,3.8,4,3.8,4.2,3.3,4.1,71,21
+VPSD58H3,ACMSC,Adv Seminar:2-Dimensional Work VPSD58H3-F-LEC01,Fall,2014,Pivato,Juliana,4.2,4.3,4.6,4.3,4.4,4.1,4.2,3.9,4.4,17,13
+MDSC62H3,ACMSC,Media and the World of Work MDSC62H3-F-LEC01,Fall,2014,Salutin,Rick,3.8,4,4.2,4.1,4.2,3.7,3.6,2.5,4.3,40,13
+VPDB15H3,ACMSC,The Actor and the Script VPDB15H3-F-LEC01,Fall,2014,Sperdakos,Paula,3.4,3.6,2.6,3.6,3.6,3.1,3.7,3.6,3,20,7
+VPAB05H3,ACMSC,Intro Contemp Cultural Theory VPAB05H3-F-LEC01,Fall,2014,Stanbridge,Alan,4.5,4.7,4.5,4.3,4.4,4.2,4.3,3.3,3.9,15,12
+VPMB94H3,ACMSC,Jazz VPMB94H3-F-LEC01,Fall,2014,Stanbridge,Alan,5,4.9,4.9,4.6,4.7,4.9,4.9,3.4,4.8,23,14
+MDSC01H3,ACMSC,Theories & Methods in Media St MDSC01H3-F-LEC01,Fall,2014,Visan,Laura,3.6,3.5,3.7,3.6,3.9,3.4,3.4,3.2,3.7,44,18
+VPHB71H3,ACMSC,Exhibiting Art VPHB71H3-F-LEC01,Fall,2014,Webster,Erin,4.3,4.3,4.7,4,4.4,4.1,4,3.1,4,12,7
+VPHC42H3,ACMSC,Gothic Architecture VPHC42H3-F-LEC01,Fall,2014,Webster,Erin,3.8,4.3,4.5,3.8,4.3,4.2,3.8,3.3,3.7,13,6
+VPMA95H3,ACMSC,Elementary Musicianship I VPMA95H3-F-LEC01,Fall,2014,Whiting,Lenard,3.8,4.1,4.4,4,3.9,3.6,3.5,3.5,3.9,36,12
+VPDB03H3,ACMSC,Technical Production I VPDB03H3-F-LEC01,Fall,2014,Wright,Kevin,3.9,4.1,4.3,4,4,4,3.7,2.8,3.9,19,11
+VPAB13H3,ACMSC,Financial Mgt for Arts Manager VPAB13H3-F-LEC01,Fall,2014,Young,Heather,3.9,3.9,4.2,4.1,4.4,3.9,3.7,3.2,3.8,19,13

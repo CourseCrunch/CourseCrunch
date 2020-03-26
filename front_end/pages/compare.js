@@ -8,22 +8,19 @@ class Comparison extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            data:"temp data"
+            data: 'temp data',
         };
     }
 
-    buttonClickHandler (){
+    buttonClickHandler() {
         fetch('http://localhost:3007/')
-        .then((out) => out.json())
-        .then((result) => {
-
-
-
-            this.setState( { data: courses } );
-        }).catch((error) => {
-            console.log(error);
-            console.log('promise failed');
-        });
+            .then((out) => out.json())
+            .then((result) => {
+                this.setState({ data: courses });
+            }).catch((error) => {
+                console.log(error);
+                console.log('promise failed');
+            });
     }
 
     render() {
@@ -31,7 +28,7 @@ class Comparison extends React.Component {
             <NavBar isLoggedIn = {false}/>
             <div className = "container">
                 <input type="text" placeholder="Course code "/>
-                <button onClick={()=>this.buttonClickHandler()}>
+                <button onClick={() => this.buttonClickHandler()}>
                     search
                 </button>
                 <p>{this.state.data}</p>

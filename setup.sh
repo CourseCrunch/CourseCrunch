@@ -23,14 +23,6 @@ do
     npm i
     check_arg $log;
     if [ $? == 1 ]; then 
-        npm i -S semantic-ui-react/event-stack
-        npm i -S stardust-ui/react-component-event-listener
-        npm i -S stardust-ui/react-component-ref
-        npm i -S create-react-context
-        npm i -S react-dom
-        npm i -S react-popper
-        npm i -S semantic-ui-react
-        npm i -S nodemailer
         echo "dev mode for $log"
         cd ..
         npx eslint --fix $log

@@ -19,9 +19,12 @@ router.get('/rmp/:campus', (req, response) => {
     }
     rmp.searchInstructor(rCampus, iName).then((r) => {
         if (r) {
-            rmp.findInstructor(r[0].item.pk_id).then((result) => {
-                response.json(result);
-            });
+            if (r[0].score > 0.4) response.status(404).end();
+            else {
+                rmp.findInstructor(r[0].item.pk_id).then((result) => {
+                    response.json(result);
+                });
+            }
         } else {
             response.status(404).end();
         }
@@ -65,7 +68,12 @@ router.get('/eval/:campus', (req, response) => {
                 evalsCampuses[rCampus].map((campus) => campus.prof_scores(first, last)
                     .then((res) => res.map((each) => campus.convert(each)))),
             ).then((res) => {
-                response.json(ObjectAverage(res));
+                const jsonResult = ObjectAverage(res);
+                // jsonResult.First_Name = first;
+                // jsonResult.Last_Name = last;
+                delete jsonResult['Number Invited'];
+                delete jsonResult['Number of Responses'];
+                response.json(jsonResult);
             });
         } else {
             response.status(404).end();

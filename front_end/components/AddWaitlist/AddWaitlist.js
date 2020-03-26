@@ -2,7 +2,7 @@ import React from 'react';
 import {
     Form, Button, Alert,
 } from 'react-bootstrap';
-import './WaitlistInput.css';
+import './AddWaitlist.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import { Alert } from 'reactstrap';
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import NavBar from '../components/NavBar/NavBar';
 import VertNavBar from '../components/UserProfile/VertNavBar';
-import WaitlistInput from '../components/WaitlistInput/WaitlistInput';
+import AddWaitlist from '../components/AddWaitlist/AddWaitlist';
 
 import './index.css';
 import './hover.css';
@@ -24,7 +24,7 @@ class WaitlistComp extends React.Component {
 
     // eslint-disable-next-line class-methods-use-this
     displayState() {
-        return <WaitlistInput/>;
+        return <AddWaitlist/>;
     }
 
     render() {

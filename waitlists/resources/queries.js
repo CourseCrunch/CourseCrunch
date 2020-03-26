@@ -59,12 +59,11 @@ function getUserEmail(userID) {
 
 
 function removeUser(userID, courseCode, year, term) {
-    try {
-        pool.query('DELETE FROM CC_USER_WAITLIST WHERE ID = $1 AND courseCode = $2 AND year=$3 AND term=$4', [userID, courseCode, year, term]);
-    } catch (e) {
-        // eslint-disable-next-line no-console
-        console.log(e);
-    }
+    return new Promise(((resolve, reject) => {
+        pool.query('DELETE FROM CC_USER_WAITLIST WHERE ID = $1 AND CourseCode = $2 AND CCYear=$3 AND Term=$4', [userID, courseCode, year, term]).then((results) => {
+            resolve(results);
+        }).catch((e) => { reject(e); });
+    }));
 }
 
 

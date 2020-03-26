@@ -11,10 +11,10 @@ const pool = new pgDb.Pool({
 });
 
 function getWaitlists() {
-    const waitlists = {};
     return new Promise(((resolve, reject) => {
         try {
             pool.query('SELECT * FROM CC_USER_WAITLIST', []).then((results) => {
+                const waitlists = {};
                 results.rows.forEach((result) => {
                     const course = result.coursecode;
                     const year = result.ccyear;
@@ -28,14 +28,14 @@ function getWaitlists() {
                         waitlists[course][year] = {};
                     }
 
-                    if (!Object.prototype.hasOwnProperty.call(waitlists[course][year].term)) {
+                    if (!Object.prototype.hasOwnProperty.call(waitlists[course][year], term)) {
                         waitlists[course][year][term] = [];
                     }
 
                     waitlists[course][year][term].push(userID);
                 });
                 resolve(waitlists);
-            });
+            }).catch((e) => { console.log(e); });
         } catch (e) {
             reject(e);
         }
@@ -56,7 +56,6 @@ function getUserEmail(userID) {
         }
     }));
 }
-
 
 function removeUser(userID, courseCode, year, term) {
     return new Promise(((resolve, reject) => {

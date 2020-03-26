@@ -9,6 +9,7 @@ class TransporterSingleton {
         if (!this.transporter) {
             this.transporter = mailer.createTransport({
                 service: process.env.EMAIL_SERVICE,
+                port: 465,
                 auth: {
                     user: process.env.EMAILUSER,
                     pass: process.env.EMAILPWD,

@@ -2,7 +2,7 @@
 /* eslint-disable no-console */
 import React from 'react';
 import {
-    Form, Button, Alert,
+    Form, Button, ButtonGroup,
 } from 'react-bootstrap';
 import './ViewWaitlist.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -93,19 +93,22 @@ class ViewWaitlist extends React.Component {
     }
 
     render() {
+        this.reloadWaitlist();
         const { waitlists, removeCourse } = this.state;
+        console.log(waitlists.length < 1);
+        console.log(waitlists.length);
         const waitlistButtons = [];
-        const waitlistVariant = removeCourse ? 'danger' : 'light';
-        console.log(waitlists);
+        const waitlistVariant = removeCourse ? 'danger' : 'primary';
         const toggleRemove = !removeCourse;
         const toggleButton = <Button
-            variant={removeCourse ? 'light' : 'danger'}
+            variant={removeCourse ? 'outline-primary' : 'outline-danger'}
             onClick={() => {
                 this.setState({ removeCourse: toggleRemove });
             }}
         >
             { removeCourse ? 'Cancel' : 'Remove Courses' }
         </Button>;
+        console.log(toggleButton);
         waitlists.forEach((waitlist) => {
             waitlistButtons.push(
                 <Button
@@ -118,18 +121,12 @@ class ViewWaitlist extends React.Component {
             );
         });
 
-        return <header className ="viewWaitlist">
-            <div className = "panel_container">
-                <div className = "pInfo_title_panel">
-                    <h2>Your waitlists</h2>
-                </div>
-                <div className = "form_panel">
-                    <Form>
-                        { waitlistButtons }
-                    </Form>
-                </div>
-            </div>
-        </header>;
+        return <Form>
+            {(waitlists.length >= 1) ? (<ButtonGroup class = "waitlistPanel">
+                { toggleButton }
+                { waitlistButtons }
+            </ButtonGroup>) : (<label> No courses in waitlist </label>)}
+        </Form>;
     }
 }
 

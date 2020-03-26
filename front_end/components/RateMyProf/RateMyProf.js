@@ -49,7 +49,7 @@ class RateMyProf extends React.Component {
                     </Table.Row>
                 </Table.Body>
             </Table>
-            {this.props.rmp.tag_s_mv !== null
+            {('tag_s_mv' in this.props.rmp)
                 && <h2 style={ { fontSize: 25, textAlign: 'center' } }>Students Say</h2>}
             <div className="tag-container">
                 <ReviewCard tags={this.props.rmp.tag_s_mv}></ReviewCard>

@@ -18,7 +18,7 @@ class Instructor extends React.Component {
         return (
             <div>
                 <NavBar isLoggedIn = {false}></NavBar>
-                <InstructorHeader name={this.props.name}></InstructorHeader>
+                <InstructorHeader name={this.props.name} img={this.props.img}></InstructorHeader>
                 <div className="instructorColumn">
                     <RateMyProf rmp={this.props.rmp}></RateMyProf>
                     <CourseEval evals={this.props.evals}></CourseEval>
@@ -39,7 +39,11 @@ const Content = (props) => {
     const router = useRouter();
     return (
         <>
-            <Instructor campus={router.query.campus} name={router.query.fullname} evals={props.evals} rmp={props.rmp}></Instructor>
+            <Instructor img={props.img}
+                campus={router.query.campus}
+                name={router.query.fullname}
+                evals={props.evals}
+                rmp={props.rmp}></Instructor>
         </>
     );
 };
@@ -47,6 +51,7 @@ const Content = (props) => {
 Content.getInitialProps = async function(ctx) {
     let rmpData = null;
     let evalsData = null;
+    let imgUrl = null;
     const params = new URLSearchParams({
         instructor: ctx.query.fullname,
     });
@@ -56,9 +61,13 @@ Content.getInitialProps = async function(ctx) {
     const rmpRes = await fetch(`http://localhost:${process.env.EVALSPORT}/instructors/rmp/${ctx.query.campus}?${params.toString()}`);
     if (rmpRes.status === 200) rmpData = await rmpRes.json();
 
+    const imgRes = await fetch(`http://localhost:${process.env.EVALSPORT}/instructors/pfp/${ctx.query.campus}?${params.toString()}`);
+    if (imgRes.status === 200) imgUrl = await imgRes.json();
+
     return {
         evals: evalsData,
         rmp: rmpData,
+        img: imgUrl,
     };
 };
 

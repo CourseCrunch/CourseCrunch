@@ -116,9 +116,32 @@ export class TableItem extends Component {
                     accessor: 'Item_6',
                 },
                 {
-                    Header: 'Course Workload',
-                    accessor: 'Course_Workload',
-                    style: { 'whiteSpace': 'unset' }
+                    Header: 'Item_7',
+                    accessor: 'Item_7',
+                },
+                {
+                    Header: 'Item_8',
+                    accessor: 'Item_8',
+                },
+                {
+                    Header: 'Item_9',
+                    accessor: 'Item_9',
+                },
+                {
+                    Header: 'Item_10',
+                    accessor: 'Item_10',
+                },
+                {
+                    Header: 'Item_11',
+                    accessor: 'Item_11',
+                },
+                {
+                    Header: 'Item_12',
+                    accessor: 'Item_12',
+                },
+                {
+                    Header: 'Department',
+                    accessor: 'Department',
                 },
             ]}
             showPagination={this.props.data.data.length > 10}

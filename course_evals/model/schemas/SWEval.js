@@ -43,7 +43,7 @@ SWSchema.statics.find_by_name = function (FirstName, LastName) {
     return this.find({ First_Name: FirstName, Last_Name: LastName });
 };
 
-SWSchema.statics.aggregate_professor = function (FirstName, LastName) {
+SWSchema.statics.prof_scores = function (FirstName, LastName) {
     return this.aggregate([
         { $match: { First_Name: FirstName, Last_Name: LastName } },
         {

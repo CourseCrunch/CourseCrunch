@@ -29,17 +29,24 @@ router.get('/rmp/:campus', (req, response) => {
 });
 
 function ObjectAverage(data) {
-    return Array.from(data.reduce(
-        (acc, obj) => Object.keys(obj).reduce((acc, key) => {
-            typeof obj[key] === 'number'
-                ? acc.set(key, (acc.get(key) || []).concat(obj[key]))
-                : acc,
-            },
-        acc),
-    new Map()), 
-        ([name, values]) =>
-            ({ name, average: values.reduce( (a,b) => a+b ) / values.length })
-    );
+    const avg = {};
+    let count = 0;
+    data.forEach((e) => {
+        const first = e[0];
+        Object.keys(first).forEach((key) => {
+            if (key in avg) {
+                avg[key] += first[key];
+            } else {
+                avg[key] = first[key];
+            }
+        });
+        count += 1;
+    });
+    Object.keys(avg).forEach((key) => {
+        avg[key] /= count;
+        if (avg[key] === 0) avg[key] = null;
+    });
+    return avg;
 }
 
 
@@ -50,18 +57,15 @@ router.get('/eval/:campus', (req, response) => {
         response.status(400).end();
         return;
     }
-    evals.searchInstructor(rCampus, iName).then((r) => {
-        if (r) {
-            // rmp.findInstructor(r[0].item.pk_id).then((result) => {
-            //     response.json(result);
-            // });
-            const first = r[0].item.First_Name;
-            const last = r[0].item.Last_Name;
+    evals.searchInstructor(rCampus, iName).then((result) => {
+        if (result) {
+            const first = result[0].item.First_Name;
+            const last = result[0].item.Last_Name;
             Promise.all(
-                evalsCampuses[rCampus].map((campus) => campus.aggregate_professor(first, last)),
+                evalsCampuses[rCampus].map((campus) => campus.prof_scores(first, last)
+                    .then((res) => res.map((each) => campus.convert(each)))),
             ).then((res) => {
-                
-                response.status(200).end();
+                response.json(ObjectAverage(res));
             });
         } else {
             response.status(404).end();

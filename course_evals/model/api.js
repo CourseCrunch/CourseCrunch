@@ -14,6 +14,7 @@ function getSchools() {
         utsg: [AANDS, ASANDE],
         grad: [ASANDEGRAD, SW, INFO],
         utsc: [UTSC],
+        rotman: [],
     };
 }
 
@@ -83,7 +84,7 @@ getFuse().then(() => console.log('built course eval fuse'));
 //     });
 // });
 
-// UTM.aggregate_professor('Furkan', 'Alaca').then((res) => {
+// UTM.prof_scores('Furkan', 'Alaca').then((res) => {
 //     console.log(res);
 // });
 

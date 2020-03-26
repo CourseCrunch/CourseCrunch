@@ -75,9 +75,26 @@ function addUser(userID, courseCode, year, term) {
     }));
 }
 
+function getWaitlistsForUser(userID) {
+    return new Promise(((resolve, reject) => {
+        pool.query('SELECT CCYear AS year, CourseCode AS course, Term AS term FROM CC_USER_WAITLIST WHERE ID=$1', [userID]).then((results) => {
+            const waitlists = [];
+            results.rows.forEach((result) => {
+                const waitlist = {};
+                waitlist.course = result.course;
+                waitlist.year = result.year;
+                waitlist.term = result.term;
+                waitlists.push(waitlist);
+            });
+            resolve(waitlists);
+        }).catch((e) => { reject(e); });
+    }));
+}
+
 module.exports = {
     getWaitlists,
     removeUser,
     addUser,
     getUserEmail,
+    getWaitlistsForUser,
 };

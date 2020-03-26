@@ -90,16 +90,40 @@ router.delete('/deleteWaitlist', (req, res) => {
             } else {
                 dbReq.removeUser(uuid, sanCourse, sanYear, sanTerm).then(() => {
                     res.status(200).send('Removed');
-                }).catch((e)=> {
+                }).catch((e) => {
                     res.status(409).send('An error occured while handling your request. Are you sure you waitlisted this course?');
                     console.log(e);
                 });
             }
         }
     } catch (e) {
-        console.log(e);
         res.status(500).send('Something went wrong on the server side');
+        console.log(e);
     }
 });
 
+router.get('/getWaitlists', (req, res) => {
+    try {
+        if (false && typeof window === 'undefined') {
+            res.status(403).send('Unauthorized to access resource');
+        } else {
+            // sanitize all inputs!
+            const userID = '2e905a7e-567b-40db-b181-72c5132e09e0';
+            const uuid = emptyString(validator.trim(userID));
+            if (uuid === '') {
+                res.status(400).send('Empty fetch');
+            } else {
+                dbReq.getWaitlistsForUser(uuid).then((waitlists) => {
+                    res.status(200).send(waitlists);
+                }).catch((e) => {
+                    res.status(409).send("Something went while getting your response");
+                    console.log(e);
+                });
+            }
+        }
+    } catch (e) {
+        res.status(500).send('Something went wrong on the server side');
+        console.log(e);
+    }
+});
 module.exports = router;

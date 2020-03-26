@@ -1,5 +1,5 @@
 const express = require('express');
-const {google} = require('googleapis');
+const { google } = require('googleapis');
 
 
 const rmp = require('../../rmp_api/api');
@@ -71,8 +71,6 @@ router.get('/eval/:campus', (req, response) => {
                     .then((res) => res.map((each) => campus.convert(each)))),
             ).then((res) => {
                 const jsonResult = ObjectAverage(res);
-                // jsonResult.First_Name = first;
-                // jsonResult.Last_Name = last;
                 delete jsonResult['Number Invited'];
                 delete jsonResult['Number of Responses'];
                 response.json(jsonResult);
@@ -92,8 +90,8 @@ router.get('/pfp/:campus', async (req, response) => {
     }
     const res = await customsearch.cse.list({
         cx: process.env.GOOGLECSE,
-        // q: `${iName} ${rCampus}`,
-        q: `${iName}`,
+        q: `${iName} ${rCampus}`,
+        // q: `${iName}`,
         auth: process.env.GOOGLEIMAGES,
         searchType: 'image',
         num: 1,

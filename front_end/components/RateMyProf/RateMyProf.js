@@ -1,20 +1,38 @@
 import React from 'react';
 import { Table } from 'semantic-ui-react';
 
-import ReviewCard from '../../components/ReviewCard/ReviewCard';
+import ReviewCard from '../ReviewCard/ReviewCard';
 import './RateMyProf.css';
 
 class RateMyProf extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = { rmp: {} };
+    }
+
     // eslint-disable-next-line class-methods-use-this
     getProperty(propName) {
-        if (propName in this.props.rmp) {
-            return this.props.rmp[propName];
+        if (propName in this.state.rmp) {
+            return this.state.rmp[propName];
         }
         return 'N/A';
     }
 
+    componentDidMount() {
+        const params = new URLSearchParams({
+            instructor: this.props.name,
+        });
+        fetch(`http://localhost:${process.env.EVALSPORT}/instructors/rmp/${this.props.campus}?${params.toString()}`)
+            .then((out) => out.json())
+            .then((result) => {
+                this.setState({ rmp: result });
+            }).catch(() => {
+                this.setState({ rmp: null });
+            });
+    }
+
     render() {
-        if (!('rmp' in this.props) || this.props.rmp == null) {
+        if (!('rmp' in this.state) || this.state.rmp == null) {
             return <h2 style={ { fontSize: 50 } }>No RateMyProf Data Found :(</h2>;
         }
         return <div className="rmp-container">
@@ -49,10 +67,10 @@ class RateMyProf extends React.Component {
                     </Table.Row>
                 </Table.Body>
             </Table>
-            {('tag_s_mv' in this.props.rmp)
+            {('tag_s_mv' in this.state.rmp)
                 && <h2 style={ { fontSize: 25, textAlign: 'center' } }>Students Say</h2>}
             <div className="tag-container">
-                <ReviewCard tags={this.props.rmp.tag_s_mv}></ReviewCard>
+                <ReviewCard tags={this.state.rmp.tag_s_mv}></ReviewCard>
             </div>
         </div>;
     }

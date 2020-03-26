@@ -17,8 +17,4 @@ const indexRouter = require('./routes/index');
 
 app.use('/', indexRouter);
 
-<<<<<<< HEAD
-app.listen(3001, () => console.log('App listening on port 3001'));
-=======
 app.listen(process.env.DVIZPORT, () => console.log("App listening on port "+process.env.DVIZPORT));
->>>>>>> master

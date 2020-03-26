@@ -4,7 +4,7 @@ const mongo = require('mongoose');
 const { Schema } = mongo;
 
 // mongo.set('useCreateIndex', true);
-mongo.connect(process.env.CONNECTSTR, { useNewUrlParser: true, useUnifiedTopology: true });
+mongo.connect(process.env.MONGOEVALSTR, { useNewUrlParser: true, useUnifiedTopology: true });
 
 const CourseSchema = new Schema({
     Code: String,

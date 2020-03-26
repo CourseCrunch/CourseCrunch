@@ -11,7 +11,7 @@ export class AddData extends Component {
 
     onSubmit = (e) => {
         e.preventDefault();
-        axios.get('http://localhost:3001/viz/cours/' + this.state.title)
+        axios.get('http://localhost:'+ process.env.DVIZPORT +'/viz/cours/' + this.state.title)
           .then(res => {
             this.setState({labels: res.data.labels});
             this.setState({data: res.data.data});

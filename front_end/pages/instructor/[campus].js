@@ -49,7 +49,6 @@ Content.getInitialProps = async function(ctx) {
     const params = new URLSearchParams({
         instructor: ctx.query.fullname,
     });
-
     const imgRes = await fetch(`http://localhost:${process.env.EVALSPORT}/instructors/pfp/${ctx.query.campus}?${params.toString()}`);
     if (imgRes.status === 200) imgUrl = await imgRes.json();
 

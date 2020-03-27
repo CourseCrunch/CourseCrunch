@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "./setup.sh",
-    "stop": "pgrep node | xargs kill"
+    "stop": "pkill -SIGINT -f \"sh -c next build; next start -p $FRONTENDPORT\";pkill -SIGINT node"
   },
   "repository": {
     "type": "git",

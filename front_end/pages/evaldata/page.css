@@ -1,12 +1,12 @@
-* {
+  #dviz_body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-  }
-  
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.4;
+    left: 15%;
+    width: 75%;
+    background: #e5e5e5;
+    position: relative;
+    top: 60px;
   }
   
   a {

@@ -32,7 +32,7 @@ class Page extends React.Component {
 
   render() {
       return (
-          <div className="App">
+          <div className="Page" id="dviz_body">
               <NavBar isLoggedIn = {false}/>
               <div className="container">
                   <AddData addData={this.addData} />

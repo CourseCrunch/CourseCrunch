@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import ReactTable from 'react-table-6'
+import  "./del.css"
 import "react-table-6/react-table.css";
 import withDraggableColumns from 'react-table-hoc-draggable-columns';
 import 'react-table-hoc-draggable-columns/dist/styles.css';
@@ -44,11 +45,15 @@ export class TableItem extends Component {
         return this.props.data.data.length;
     }
 
+    getHeaderProps() {
+        return { whiteSpace: 'normal !important', overflow: 'unset'};
+    }
+
     render () {
         return (
         <div style={ this.getStyle() }>
             {this.props.title}
-            <button onClick={this.props.delItem.bind(this, this.state.id)} style={btnStyle}>x</button><br/><br/>
+            <button id='delbut' onClick={this.props.delItem.bind(this, this.state.id)}>x</button><br/><br/>
             <ReactTableDraggableColumns
             defaultPageSize={this.sizeLimit()}
             draggableColumns= {{
@@ -56,87 +61,99 @@ export class TableItem extends Component {
                 draggable: ['Code', 'Dept', 'Course', 'First_Name', 'Last_Name', 'Term'],
                 enableColumnWideDrag: false
             }}
-            style={{width: '98vw'}}
+            style={{width: '100%'}}
             data={this.props.data.data}
             columns={[
                 {
-                    Header: 'Code',
+                    Header:() => <div>Code</div>,
                     accessor: 'Code',
                     style: { 'whiteSpace': 'unset' }
                 },
                 {
-                    Header: 'Department',
+                    Header:() => <div>Department</div>,
                     accessor: 'Dept',
                     style: { 'whiteSpace': 'unset' }
                 },
                 {
-                    Header: 'Course',
+                    Header:() => <div>Course</div>,
                     accessor: 'Course',
                 },
                 {
-                    Header: 'L.Name',
+                    Header:() => <div>L. Name</div>,
                     accessor: 'Last_Name',
                 },
                 {
-                    Header: 'F.Name',
+                    Header:() => <div>F. Name</div>,
                     accessor: 'First_Name',
                 },
                 {
-                    Header: 'Term',
+                    Header:() => <div>Term</div>,
                     accessor: 'Term',
+                    minWidth: 80,
                 },
                 {
-                    Header: 'Year',
+                    Header:() => <div>Year</div>,
                     accessor: 'Year',
+                    minWidth: 50,
                 },
                 {
-                    Header: 'Intellectually Stimulating',
+                    Header:() => <div>Intellectually <br/>Stimulating</div>,
                     accessor: 'Item_1',
-                    style: { 'whiteSpace': 'normal !important','overflow': 'unset'},
-                    maxWidth: 250,
+                    minWidth: 120,
                 },
                 {
-                    Header: 'Item_2',
+                    Header:() => <div>Depth</div>,
+                    minWidth: 60,
                     accessor: 'Item_2',
                 },
                 {
-                    Header: 'Item_3',
+                    Header:() => <div>Learning <br/>Atmosphere</div>,
+                    minWidth: 100,
                     accessor: 'Item_3',
                 },
                 {
-                    Header: 'Item_4',
+                    Header:() => <div>Course Work<br/>Improved Learning</div>,
+                    minWidth: 140,
                     accessor: 'Item_5',
                 },
                 {
-                    Header: 'Item_5',
+                    Header:() => <div>Course Work<br/>Relevance</div>,
+                    minWidth: 100,
                     accessor: 'Item_5',
                 },
                 {
-                    Header: 'Item_6',
+                    Header:() => <div>Course<br/>Quality</div>,
+                    minWidth: 80,
                     accessor: 'Item_6',
                 },
                 {
-                    Header: 'Item_7',
+                    Header:() => <div>Course<br/>Workload</div>,
+                    minWidth: 80,
                     accessor: 'Item_7',
                 },
                 {
-                    Header: 'Item_8',
+                    Header:() => <div>Recommendation<br/>Score</div>,
+                    minWidth: 80,
                     accessor: 'Item_8',
                 },
                 {
-                    Header: 'Item_9',
+                    Header:() => <div>Attendance</div>,
+                    minWidth: 80,
                     accessor: 'Item_9',
                 },
                 {
-                    Header: 'Item_10',
+                    Header:() => <div>Learning<br/>Incentive</div>,
+                    minWidth: 80,
                     accessor: 'Item_10',
                 },
                 {
-                    Header: 'Item_11',
+                    Header:() => <div>Number<br/>Invited</div>,
+                    minWidth: 80,
                     accessor: 'Item_11',
                 },
                 {
-                    Header: 'Item_12',
+                    Header:() => <div>Number of<br/>Survey Responses</div>,
+                    minWidth: 120,
                     accessor: 'Item_12',
                 },
                 {
@@ -154,16 +171,6 @@ export class TableItem extends Component {
 // PropTypes
 TableItem.propTypes = {
     data: PropTypes.object.isRequired
-}
-
-const btnStyle = {
-    background: '#ff0000',
-    color: '#fff',
-    border: 'none',
-    padding: '5px 9px',
-    borderRadius: '50%',
-    cursor: 'pointer',
-    float: 'right'
 }
 
 export default TableItem;

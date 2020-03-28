@@ -14,7 +14,7 @@ class SettingsInput extends React.Component {
             error: null,
             isLoaded: false,
             submitErr: false,
-            uuid: 'b17f1135-501f-4397-b257-653897375000',
+            uuid: '',
             firstYrCourses: [],
             seconYrCourses: [],
             thirdYrCourses: [],
@@ -26,7 +26,10 @@ class SettingsInput extends React.Component {
 
     // init component and make call to backend for default page data
     componentDidMount() {
-        const data = { unsanUuid: this.state.uuid };
+        var data = { unsanUuid: this.state.uuid };
+        if (typeof window !== 'undefined') {
+            data = { unsanUuid: localStorage.getItem('userid') }
+        }
 
         fetch(`http://localhost:${PORT}/edit_Completed_Courses`, {
             method: 'POST',
@@ -48,11 +51,21 @@ class SettingsInput extends React.Component {
                         thirdYrCourses: thirdYear,
                         fourtYrCoursesPlus: fourYear,
                     });
+                    if (typeof window !== 'undefined') {
+                        this.setState({
+                            uuid: localStorage.getItem('userid'),
+                        });
+                    }
                 }, (error) => {
                     this.setState({
                         isLoaded: true,
                         error,
                     });
+                    if (typeof window !== 'undefined') {
+                        this.setState({
+                            uuid: localStorage.getItem('userid'),
+                        });
+                    }
                 },
             );
     }

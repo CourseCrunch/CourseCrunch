@@ -44,7 +44,7 @@ const Content = (props) => {
     );
 };
 
-Content.getInitialProps = async function(ctx) {
+Content.getInitialProps = async function (ctx) {
     let imgUrl = null;
     const params = new URLSearchParams({
         instructor: ctx.query.fullname,

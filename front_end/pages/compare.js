@@ -3,20 +3,28 @@ import './index.css';
 import './hover.css';
 import NavBar from '../components/NavBar/NavBar';
 
+import InstructorTable from '../components/InstructorTable/InstructorTable';
+
 
 class Comparison extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            data: 'temp data',
+            searchText: '',
         };
+        this.buttonClickHandler = this.buttonClickHandler.bind(this);
+        this.searchChangeHandler = this.searchChangeHandler.bind(this);
+    }
+
+    searchChangeHandler(event) {
+        this.setState({ searchText: event.target.value });
     }
 
     buttonClickHandler() {
-        fetch('http://localhost:3007/')
+        fetch(`http://localhost:3007/compare/instructors/${this.state.searchText}`)
             .then((out) => out.json())
             .then((result) => {
-                this.setState({ data: courses });
+                this.setState({ data: result });
             }).catch((error) => {
                 console.log(error);
                 console.log('promise failed');
@@ -27,15 +35,13 @@ class Comparison extends React.Component {
         return (<div>
             <NavBar isLoggedIn = {false}/>
             <div className = "container">
-                <input type="text" placeholder="Course code "/>
-                <button onClick={() => this.buttonClickHandler()}>
+                <input type="text" onInput={this.searchChangeHandler} placeholder="Course code"/>
+                <button onClick={this.buttonClickHandler}>
                     search
                 </button>
-                <p>{this.state.data}</p>
-
+                <InstructorTable data={this.state.data}/>
             </div>
         </div>
-
         );
     }
 }

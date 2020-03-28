@@ -1,5 +1,6 @@
 import _ from 'lodash';
 import React from 'react';
+import Head from 'next/head';
 
 import { Dropdown } from 'semantic-ui-react';
 
@@ -12,11 +13,6 @@ class Filter extends React.Component {
     }
 
     componentDidMount() {
-        const styleLink = document.createElement('link');
-        styleLink.rel = 'stylesheet';
-        styleLink.href = 'https://cdn.jsdelivr.net/npm/semantic-ui/dist/semantic.min.css';
-        document.head.appendChild(styleLink);
-
         fetch('http://localhost:3007/courses')
             .then((out) => out.json())
             .then((result) => {
@@ -41,6 +37,10 @@ class Filter extends React.Component {
 
     render() {
         return <>
+            <Head>
+                <title>{this.props.campus}</title>
+                <link href="https://cdn.jsdelivr.net/npm/semantic-ui/dist/semantic.min.css" rel="stylesheet" key="test"/>
+            </Head>
             <Dropdown
                 placeholder='Filtered Courses'
                 fluid

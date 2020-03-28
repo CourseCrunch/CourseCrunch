@@ -1,4 +1,6 @@
 const express = require('express');
+const { google } = require('googleapis');
+
 
 const rmp = require('../../rmp_api/api');
 const evals = require('../model/api');
@@ -6,8 +8,8 @@ const evals = require('../model/api');
 
 const rmpCampuses = rmp.getSchools();
 const evalsCampuses = evals.getSchools();
-
 const router = express.Router();
+const customsearch = google.customsearch('v1');
 
 
 router.get('/rmp/:campus', (req, response) => {
@@ -67,18 +69,39 @@ router.get('/eval/:campus', (req, response) => {
             Promise.all(
                 evalsCampuses[rCampus].map((campus) => campus.prof_scores(first, last)
                     .then((res) => res.map((each) => campus.convert(each)))),
-            ).then((res) => {
-                const jsonResult = ObjectAverage(res);
-                // jsonResult.First_Name = first;
-                // jsonResult.Last_Name = last;
-                delete jsonResult['Number Invited'];
-                delete jsonResult['Number of Responses'];
-                response.json(jsonResult);
-            });
+            )
+                .then((res) => {
+                    const jsonResult = ObjectAverage(res);
+                    delete jsonResult['Number Invited'];
+                    delete jsonResult['Number of Responses'];
+                    response.json(jsonResult);
+                });
         } else {
             response.status(404).end();
         }
     });
+});
+
+router.get('/pfp/:campus', async (req, response) => {
+    const rCampus = req.params.campus;
+    const iName = req.query.instructor;
+    if (!(rCampus in evalsCampuses) || iName == null) {
+        response.status(400).end();
+        return;
+    }
+    const res = await customsearch.cse.list({
+        cx: process.env.GOOGLECSE,
+        q: `${iName} ${rCampus}`,
+        // q: `${iName}`,
+        auth: process.env.GOOGLEIMAGES,
+        searchType: 'image',
+        num: 1,
+    });
+    if (res.data.items.length) {
+        response.json(res.data.items[0].link);
+    } else {
+        response.status(404).end();
+    }
 });
 
 

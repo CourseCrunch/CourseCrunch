@@ -1,4 +1,17 @@
-Code,Dept,Course,Term,Year,Last Name,First Name,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Inspired thinking about subject matter,Course Workload,I would recommend this course,Number Invited,Number of Survey Responses
+Code,Dept,Course,Term,Year,Last_Name,First_Name,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Item_7,Item_8,Item_9,Item_10,Item_11
+SOCD44H3,SOCSC,Adv Sem: Issues in Contemp Soc SOCD44H3-F-LEC30,Fall,2019,Williams,Lawrence,4.9,4.9,5.0,4.9,4.9,4.9,4.9,3.1,4.9,12,12
+SOCB42H3,SOCSC,Classic Sociological Theory I SOCB42H3-F-LEC01,Fall,2019,Albert,Katelin,3.8,4.1,4.3,4.1,3.9,3.8,3.6,3.4,3.9,82,37
+SOCC47H3,SOCSC,Creative Industries SOCC47H3-F-LEC01,Fall,2019,Childress,Christopher,4.4,4.4,4.6,3.9,4.0,4.3,4.2,3.3,4.6,32,11
+SOCC30H3,SOCSC,Criminal Behaviour SOCC30H3-F-LEC01,Fall,2019,Tanner,Julian,4.1,4.1,3.7,3.7,3.7,3.4,3.9,3.2,3.5,55,17
+SOCC37H3,SOCSC,Environment and Society SOCC37H3-F-LEC01,Fall,2019,Hannigan,John,3.4,3.5,3.3,3.4,3.5,3.3,3.2,2.9,3.4,44,12
+SOCB05H3,SOCSC,Logic of Social Inquiry SOCB05H3-F-LEC01,Fall,2019,Salem,Rania,2.9,3.4,3.1,3.4,3.6,2.8,2.8,3.8,3.0,97,33
+SOCB28H3,SOCSC,Soc Evidence for Everyday Life SOCB28H3-F-LEC01,Fall,2019,Childress,Christopher,3.9,4.3,4.3,3.8,3.9,4.0,4.1,2.8,4.1,24,12
+SOCB70H3,SOCSC,Social Change SOCB70H3-F-LEC01,Fall,2019,Fosse,Ethan,3.7,4.3,3.7,3.9,4.1,3.6,3.7,3.1,3.7,26,15
+SOCB47H3,SOCSC,Social Inequality SOCB47H3-F-LEC01,Fall,2019,Knezevic,Ivanka,3.5,3.5,3.7,3.5,3.7,3.3,3.7,3.2,3.4,47,15
+SOCB49H3,SOCSC,Sociology of Family SOCB49H3-F-LEC01,Fall,2019,Hsiung,Ping-Chun,2.9,3.1,2.8,2.8,2.9,2.7,3.1,3.1,2.6,50,18
+SOCC24H3,SOCSC,Spe Topics In Gender & Family SOCC24H3-F-LEC01,Fall,2019,Salem,Rania,4.2,4.4,4.2,4.3,4.5,3.9,4.0,3.2,3.9,36,13
+SOCC27H3,SOCSC,Suburbs and Suburbanization SOCC27H3-F-LEC01,Fall,2019,Hannigan,John,3.6,3.9,3.7,3.6,3.8,3.6,3.5,2.7,3.6,30,11
+SOCC15H3,SOCSC,Work  Employment and Society SOCC15H3-F-LEC01,Fall,2019,Tanner,Julian,3.3,3.6,3.2,3.9,3.6,3.3,3.3,2.9,3.3,33,11
 SOCC25H3,SOCSC,Ethnicity  Race and Migration SOCC25H3-F-LEC01,Summer,2019,Bogovic,Rene,4.7,4.6,4.7,4.5,4.5,4.6,4.5,3.5,4.5,18,12
 SOCB42H3,SOCSC,Classic Sociological Theory I SOCB42H3-F-LEC01,Summer,2019,Albert,Katelin,4.3,4.5,4.8,4.2,4.4,4.2,3.9,3.5,4.2,34,21
 SOCB43H3,SOCSC,Classic Sociological Theory II SOCB43H3-S-LEC01,Summer,2019,Albert,Katelin,4.6,4.8,4.8,4.3,4.4,4.5,4.6,3.5,4.3,30,12

@@ -1,4 +1,4 @@
-Code,Dept,Division,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Instructor generated enthusiasm,Course Workload,I would recommend this course,Number of Students Invited,Number of Respondents
+Code,Dept,Division,Course,Last_Name,First_Name,Term,Year,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Item_7,Item_8,Item_9,Item_10,Item_11
 GGR360H1,GGR,ARTSC,Cul Hist & Landscape GGR360H1-S-LEC0101,Merrill,Andrew,Summer,2018,3.1,3,3.5,3,3.1,2.9,3.7,3.3,2.8,48,15
 GGR329H1,GGR,ARTSC,Global Food System GGR329H1-S-LEC0101,Weiler,Anelyse,Summer,2018,4.4,4.4,4.8,4.3,3.9,4.1,4.8,3.4,4.4,62,14
 GGR217H1,GGR,ARTSC,Urban Landscape Plan GGR217H1-S-LEC0101,Mah,Julie,Summer,2018,3.9,4.3,4.3,3.8,4,3.9,4.2,3.3,3.7,60,31

@@ -1,4 +1,4 @@
-Code,Dept,Division,Course,Term,Year,Last Name,First Name,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Overall rating of instructor teaching,Number Invited,Number of Survey Responses
+Code,Dept,Division,Course,Term,Year,Last_Name,First_Name,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Item_7,Item_8,Item_9
 ECE1521H,ECE,SGS,DETECTION & ESTIMATION THEORY ECE1521H-F-LEC0101,Fall,2019,Adve,Raviraj,4.3,4.6,4.6,4.5,4.6,4.4,4.6,10,8
 ECE1783H,ECE,SGS,DESIGN TRADEOFFS IN DIG. SYS. ECE1783H-F-LEC0101,Fall,2019,Amer,Ihab,3.8,3.8,3.9,4.1,3.9,3.3,3.9,22,16
 ECE1387H,ECE,SGS,CAD-DIGITAL CIR&LAY. ECE1387H-F-LEC0101,Fall,2019,Anderson,Jason,4.3,4.6,4.7,4.9,4.7,4.3,4.7,10,7

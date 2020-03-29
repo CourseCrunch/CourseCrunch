@@ -15,7 +15,7 @@ router.use(bodyParser.urlencoded({
 /* GET courses that a course code is a prerequisite to. */
 router.get('/prereqTo', (req, res) => {
     try {
-        // retrieve uuid from request
+        console.log(req.body);
         const reqCourses = req.body.courses;
 
         dbReq.getPrereqTo(reqCourses).then((courses) => {

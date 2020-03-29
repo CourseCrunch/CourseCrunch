@@ -1,0 +1,14 @@
+button, input[type="button"], input[type="submit"] { 
+    position: relative;
+    margin:5px;
+} 
+.waitlistPanel {
+    position: relative;
+    left: 5%;
+}
+
+label {
+    position: relative;
+    left: 5%;
+    display: inline-block;
+}

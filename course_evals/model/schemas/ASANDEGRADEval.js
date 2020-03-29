@@ -112,4 +112,22 @@ ASANDEGRADSchema.statics.category_code_average = function (courseId, category) {
     ]);
 };
 
+ASANDEGRADSchema.statics.get_professors = function () {
+    return this.aggregate([
+        { $group:
+            {
+                _id: { FirstName: '$First_Name', LastName: '$Last_Name' },
+            },
+        }, { $project:
+            {
+                _id: 0, title: { $concat: ['$_id.FirstName', ' ', '$_id.LastName'] }, school: 'grad',
+            },
+        },
+    ]).exec();
+};
+
+ASANDEGRADSchema.statics.schema_name = function () {
+    return 'Engineering (Graduate)';
+};
+
 module.exports = database.mongo.model('asande_grad_evals', ASANDEGRADSchema);

@@ -125,4 +125,22 @@ UTMSchema.statics.category_code_average = function (courseId, category) {
     ]).exec();
 };
 
+UTMSchema.statics.get_professors = function () {
+    return this.aggregate([
+        { $group:
+            {
+                _id: { FirstName: '$First_Name', LastName: '$Last_Name' },
+            },
+        }, { $project:
+            {
+                _id: 0, title: { $concat: ['$_id.FirstName', ' ', '$_id.LastName'] }, school: 'utm',
+            },
+        },
+    ]).exec();
+};
+
+UTMSchema.statics.schema_name = function () {
+    return 'UTM';
+};
+
 module.exports = database.mongo.model('utm_evals', UTMSchema);

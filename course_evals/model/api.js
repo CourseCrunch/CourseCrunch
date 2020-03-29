@@ -88,8 +88,40 @@ getFuse().then(() => console.log('built course eval fuse'));
 //     console.log(res);
 // });
 
+function getAll(schoolKey) {
+    const schools = getSchools();
+    const schoolPromises = [];
+    const schemas = [];
+    if (schoolKey === 'all') {
+        Object.keys(schools).forEach((key) => {
+            schools[key].forEach((school) => {
+                schoolPromises.push(school.get_professors());
+                schemas.push(school);
+            });
+        });
+    } else {
+        schools[schoolKey].forEach((school) => {
+            schoolPromises.push(school.get_professors());
+            schemas.push(school);
+        });
+    }
+
+    return Promise.all(schoolPromises).then((data) => {
+        const final = {};
+        for (let index = 0; index < data.length; index += 1) {
+            const schoolSchema = schemas[index];
+            const schoolName = schoolSchema.schema_name();
+            final[schoolName] = {};
+            final[schoolName].name = schoolName;
+            final[schoolName].results = data[index];
+        }
+        return final;
+    });
+}
+
 module.exports = {
     getFuse,
     searchInstructor: fuzzySearch,
     getSchools,
+    allInstructors: getAll,
 };

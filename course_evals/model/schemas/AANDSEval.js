@@ -122,4 +122,22 @@ AANDSchema.statics.category_code_average = function (courseId, category) {
     ]);
 };
 
+AANDSchema.statics.get_professors = function () {
+    return this.aggregate([
+        { $group:
+            {
+                _id: { FirstName: '$First_Name', LastName: '$Last_Name' },
+            },
+        }, { $project:
+            {
+                _id: 0, title: { $concat: ['$_id.FirstName', ' ', '$_id.LastName'] }, school: 'utsg',
+            },
+        },
+    ]).exec();
+};
+
+AANDSchema.statics.schema_name = function () {
+    return 'Arts & Science';
+};
+
 module.exports = database.mongo.model('aands_evals', AANDSchema);

@@ -5,6 +5,7 @@ import {
 import './AddCourse.css';
 
 class SettingsInput extends React.Component {
+    // eslint-disable-next-line class-methods-use-this
     render() {
         return <header className ="courseInput">
             <div className = "panel_container">

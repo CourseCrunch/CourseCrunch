@@ -35,6 +35,7 @@ const options = {
 const fuseGlobal = {};
 const promiseMap = {};
 const promises = [];
+
 function generatePromises() {
     const schools = getSchools();
     const keys = Object.keys(schools);

@@ -1,13 +1,13 @@
-import { Pool } from 'pg';
+const pgDb = require('pg');
 
 require('dotenv').config();
 
-const pool = new Pool({
-    user: process.env.PGUSER,
-    host: process.env.PGHOST,
-    database: process.env.PGDATABASE,
-    password: process.env.PGPASSWORD,
-    port: process.env.PGPORT,
+const pool = new pgDb.Pool({
+    user: 'me', // process.env.PGUSER,
+    host: 'localhost', // process.env.PGHOST,
+    database: 'bb', // process.env.PGDATABASE,
+    password: 'boundless', // process.env.PGPASSWORD,
+    port: '5432', // process.env.PGPORT,
 });
 
 function getWaitlists() {
@@ -70,15 +70,13 @@ function removeUser(userID, courseCode, year, term) {
 
 function addUser(userID, courseCode, year, term) {
     return new Promise(((resolve, reject) => {
-        try {
-            pool.query('INSERT INTO CC_USER_WAITLIST(ID, CourseCode, CCYear, Term) VALUES ($1, $2, $3, $4)', [userID, courseCode, year, term]);
-        } catch (e) {
-            reject(e);
-        }
+        pool.query('INSERT INTO CC_USER_WAITLIST(ID, CourseCode, CCYear, Term) VALUES ($1, $2, $3, $4)', [userID, courseCode, year, term]).then((results) => {
+            resolve(results);
+        }).catch((e) => { reject(e); });
     }));
 }
 
-export default {
+module.exports = {
     getWaitlists,
     removeUser,
     addUser,

@@ -118,6 +118,29 @@ UTMSchema.statics.codes = function () {
     return this.aggregate([{ $group: { _id: '$Code' } }]).exec();
 };
 
+UTMSchema.statics.compareCourses = function (courseId) {
+    return this.aggregate([{ $match: { Code: courseId } },
+        {
+            $group: {
+                _id: { $concat: ['$First_Name', ' ', '$Last_Name'] },
+                lectures_taught: { $sum: 1 },
+
+                Item_1: { $avg: { $convert: { input: '$Item_1', to: 'double', onError: null, onNull: null } } },
+                Item_2: { $avg: { $convert: { input: '$Item_2', to: 'double', onError: null, onNull: null } } },
+                Item_3: { $avg: { $convert: { input: '$Item_3', to: 'double', onError: null, onNull: null } } },
+                Item_4: { $avg: { $convert: { input: '$Item_4', to: 'double', onError: null, onNull: null } } },
+                Item_5: { $avg: { $convert: { input: '$Item_5', to: 'double', onError: null, onNull: null } } },
+                Item_6: { $avg: { $convert: { input: '$Item_6', to: 'double', onError: null, onNull: null } } },
+
+                workload: { $avg: { $convert: { input: '$Item_7', to: 'double', onError: null, onNull: null } } },
+                recommendation: { $avg: { $convert: { input: '$Item_8', to: 'double', onError: null, onNull: null } } },
+                number_invited: { $sum: { $convert: { input: '$Item_11', to: 'double', onError: null, onNull: null } } },
+                responses: { $sum: { $convert: { input: '$Item_12', to: 'double', onError: null, onNull: null } } },
+            },
+        },
+    ]).exec();
+};
+
 UTMSchema.statics.category_code_average = function (courseId, category) {
     return this.aggregate([
         { $match: { Code: courseId } },

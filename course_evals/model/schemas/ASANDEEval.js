@@ -146,4 +146,22 @@ ASANDESchema.statics.category_code_average = function (courseId, category) {
     ]);
 };
 
+ASANDESchema.statics.get_professors = function () {
+    return this.aggregate([
+        { $group:
+            {
+                _id: { FirstName: '$First_Name', LastName: '$Last_Name' },
+            },
+        }, { $project:
+            {
+                _id: 0, title: { $concat: ['$_id.FirstName', ' ', '$_id.LastName'] }, school: 'utsg',
+            },
+        },
+    ]).exec();
+};
+
+ASANDESchema.statics.schema_name = function () {
+    return 'Engineering';
+};
+
 module.exports = database.mongo.model('asande_evals', ASANDESchema);

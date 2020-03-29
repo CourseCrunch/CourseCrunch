@@ -10,7 +10,6 @@ class RateMyProf extends React.Component {
         this.state = { rmp: {} };
     }
 
-    // eslint-disable-next-line class-methods-use-this
     getProperty(propName) {
         if (propName in this.state.rmp) {
             return this.state.rmp[propName];
@@ -33,7 +32,7 @@ class RateMyProf extends React.Component {
 
     render() {
         if (!('rmp' in this.state) || this.state.rmp == null) {
-            return <h2 style={ { fontSize: 50 } }>No RateMyProf Data Found :(</h2>;
+            return <h2 style={ { fontSize: 50 } }>No RateMyProf Data Found 😢</h2>;
         }
         return <div className="rmp-container">
             <h2 style={ { fontSize: 30, textAlign: 'center' } }>RateMyProf Ratings</h2>

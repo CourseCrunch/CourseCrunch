@@ -121,4 +121,22 @@ UTSCSchema.statics.category_code_average = function (courseId, category) {
     ]);
 };
 
+UTSCSchema.statics.get_professors = function () {
+    return this.aggregate([
+        { $group:
+            {
+                _id: { FirstName: '$First_Name', LastName: '$Last_Name' },
+            },
+        }, { $project:
+            {
+                _id: 0, title: { $concat: ['$_id.FirstName', ' ', '$_id.LastName'] }, school: 'utsc',
+            },
+        },
+    ]).exec();
+};
+
+UTSCSchema.statics.schema_name = function () {
+    return 'UTSC';
+};
+
 module.exports = database.mongo.model('utsc_evals', UTSCSchema);

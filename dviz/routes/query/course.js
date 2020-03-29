@@ -1,11 +1,19 @@
+require('dotenv').config('../../.env');
+const mongo = require('mongoose');
 
-function getData (name) {
-    // Currently uses static data
-    console.log("Getting and Returning data for: " + name);
+const { Schema } = mongo;
 
-    var dates = "\"Fall 2016\",\"Fall 2016\",\"Fall 2016\",\"Fall 2016\",\"Fall 2016\",\"Summer 2016\",\"Winter 2016\",\"Winter 2016\",\"Winter 2016\",\"Fall 2015\",\"Fall 2015\",\"Fall 2015\",\"Fall 2015\",\"Fall 2015\"";
-    var scores = "4,4.3,4.1,4.3,4.1,3.9,3.9,4.3,4.4,4,4.2,4,4.4,4.3";
-    return [dates, scores];
-}
+// mongo.set('useCreateIndex', true);
+mongo.connect(process.env.MONGOEVALSTR, { useNewUrlParser: true, useUnifiedTopology: true });
 
-module.exports = getData;
+const CourseSchema = new Schema({
+    Code: String,
+});
+
+const faculties = ['aands', 'asande', 'asande_grad', 'info', 'sw', 'utm', 'utsc'];
+faculties.forEach((faculty) => {
+    const collectionName = `${faculty}_evals`;
+    mongo.model(collectionName, CourseSchema);
+});
+
+module.exports = mongo;

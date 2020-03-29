@@ -1,6 +1,6 @@
 /* NavBar CSS */
 .NavBar{
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     width: 100%;
@@ -50,7 +50,6 @@
 .spacer{
     flex:1;
 }
-
 /* General CSS */
 .container{
     top: 0;

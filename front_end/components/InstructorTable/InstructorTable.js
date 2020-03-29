@@ -75,24 +75,3 @@ class InstructorTable extends React.Component {
 }
 
 export default InstructorTable;
-
-{ /* <Table.Row>
-    <Table.Cell>Overall Score</Table.Cell>
-    <Table.Cell>1</Table.Cell>
-</Table.Row>
-<Table.Row>
-    <Table.Cell>How Helpful is this Professor</Table.Cell>
-    <Table.Cell>2</Table.Cell>
-</Table.Row>
-<Table.Row>
-    <Table.Cell>How Easy is this Professor</Table.Cell>
-    <Table.Cell>2</Table.Cell>
-</Table.Row>
-<Table.Row>
-    <Table.Cell>How Clear is this Professor</Table.Cell>
-    <Table.Cell>3</Table.Cell>
-</Table.Row>
-<Table.Row>
-    <Table.Cell>Total Number of Reviews</Table.Cell>
-    <Table.Cell>5</Table.Cell>
-</Table.Row> */ }

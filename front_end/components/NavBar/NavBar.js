@@ -1,8 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
-import './NavBar.css';
 
 class NavBar extends React.Component {
+    // eslint-disable-next-line class-methods-use-this
     logout() {
         if (typeof window !== 'undefined') {
             localStorage.removeItem('loggedIn');
@@ -18,6 +18,7 @@ class NavBar extends React.Component {
             return <><li><Link href = "/editProfile"><a>User Profile</a></Link></li>
                 <li><Link href='/'><a onClick={this.logout}>Logout</a></Link></li></>;
         }
+        return null;
     }
 
     render() {

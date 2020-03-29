@@ -18,6 +18,7 @@ class NavBar extends React.Component {
             return <><li><Link href = "/editProfile"><a>User Profile</a></Link></li>
                 <li><Link href='/'><a onClick={this.logout}>Logout</a></Link></li></>;
         }
+        return null;
     }
 
     render() {

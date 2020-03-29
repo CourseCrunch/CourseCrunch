@@ -1,39 +1,66 @@
-Code,Dept,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Course Workload,I would recommend this course,I attended class,Inspired to learn subject matter,Number Invited,Number of Survey Responses
+Code,Dept,Course,Last_Name,First_Name,Term,Year,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Item_7,Item_8,Item_9,Item_10,Item_11,Item_12
 ECO302H5,UMECO,World Eco Hist Prior to 1914 ECO302H5-F-LEC0101,Zammit,Nicholas,Fall,2019,3.9,4.1,4.6,4.2,4.4,4.1,3.1,3.9,N/A,3.8,34,14
-ECO326H5,UMECO,Adv Eco Theory-Micro ECO326H5-F-LEC0101,Pitchik,Carolyn,Fall,2019,4.8,4.7,4.8,4.3,4.4,4.6,3.8,4.0,N/A,4.1,23,9
-ECO343H5,UMECO,Labour ECO & Public Policy ECO343H5-F-LEC0101,Oreopoulos,Philip,Fall,2019,3.2,3.5,3.6,2.9,3.1,2.9,3.0,3.2,N/A,3.1,26,10
-ECO345H5,UMECO,Macroeconomics and Labour Mrkt ECO345H5-F-LEC0101,Wolthoff,Ronald,Fall,2019,4.3,4.8,4.5,4.5,4.2,4.3,3.0,3.8,N/A,4.0,24,6
-ECO349H5,UMECO,Money Banking & Fin Mark ECO349H5-F-LEC0101,Zhao,Yingnan,Fall,2019,4.0,4.0,4.3,4.4,4.4,4.2,2.9,4.2,N/A,4.2,101,29
-ECO349H5,UMECO,Money Banking & Fin Mark ECO349H5-F-LEC0102,Zhao,Yingnan,Fall,2019,4.0,4.2,4.0,4.0,3.9,3.9,2.9,4.1,N/A,3.9,79,22
-ECO358H5,UMECO,Financial Economics I ECO358H5-F-LEC0101,Tian,Xu,Fall,2019,3.7,4.1,3.9,4.0,4.1,3.9,2.6,4.0,N/A,4.0,50,11
-ECO365H5,UMECO,Internat'nl Monetary Economics ECO365H5-F-LEC0101,Gagnon,Gregory,Fall,2019,3.7,4.0,4.2,3.9,4.0,3.7,3.0,3.6,N/A,3.5,125,27
-ECO375H5,UMECO,Applied Econometrics I ECO375H5-F-LEC0101,Souza Rodrigues,Eduardo,Fall,2019,3.7,3.8,4.4,4.0,4.0,3.4,3.9,3.2,N/A,3.1,72,24
+ECO326H5,UMECO,Adv Eco Theory-Micro ECO326H5-F-LEC0101,Pitchik,Carolyn,Fall,2019,4.8,4.7,4.8,4.3,4.4,4.6,3.8,4,N/A,4.1,23,9
+ECO343H5,UMECO,Labour ECO & Public Policy ECO343H5-F-LEC0101,Oreopoulos,Philip,Fall,2019,3.2,3.5,3.6,2.9,3.1,2.9,3,3.2,N/A,3.1,26,10
+ECO345H5,UMECO,Macroeconomics and Labour Mrkt ECO345H5-F-LEC0101,Wolthoff,Ronald,Fall,2019,4.3,4.8,4.5,4.5,4.2,4.3,3,3.8,N/A,4,24,6
+ECO349H5,UMECO,Money Banking & Fin Mark ECO349H5-F-LEC0101,Zhao,Yingnan,Fall,2019,4,4,4.3,4.4,4.4,4.2,2.9,4.2,N/A,4.2,101,29
+ECO349H5,UMECO,Money Banking & Fin Mark ECO349H5-F-LEC0102,Zhao,Yingnan,Fall,2019,4,4.2,4,4,3.9,3.9,2.9,4.1,N/A,3.9,79,22
+ECO358H5,UMECO,Financial Economics I ECO358H5-F-LEC0101,Tian,Xu,Fall,2019,3.7,4.1,3.9,4,4.1,3.9,2.6,4,N/A,4,50,11
+ECO365H5,UMECO,Internat'nl Monetary Economics ECO365H5-F-LEC0101,Gagnon,Gregory,Fall,2019,3.7,4,4.2,3.9,4,3.7,3,3.6,N/A,3.5,125,27
+ECO375H5,UMECO,Applied Econometrics I ECO375H5-F-LEC0101,Souza Rodrigues,Eduardo,Fall,2019,3.7,3.8,4.4,4,4,3.4,3.9,3.2,N/A,3.1,72,24
 ECO375H5,UMECO,Applied Econometrics I ECO375H5-F-LEC0102,Price,David,Fall,2019,3.5,3.7,3.8,3.8,3.9,3.3,3.8,3.4,N/A,3.1,70,21
 ECO383H5,UMECO,Intro Empirical Mthds of Micro ECO383H5-F-LEC0101,McMillan,Robert,Fall,2019,4.5,4.7,4.5,4.8,4.9,4.6,2.9,3.9,N/A,3.8,11,10
-ECO436H5,UMECO,Measuring Well Being ECO436H5-F-LEC0101,Anderson,Gordon,Fall,2019,4.1,4.6,4.4,4.1,4.3,4.0,3.1,4.4,N/A,4.1,50,7
-ECO456H5,UMECO,Public Policy Analysis ECO456H5-F-LEC0101,Oreopoulos,Philip,Fall,2019,4.2,4.2,4.2,4.8,4.6,4.2,3.6,3.8,N/A,4.0,9,5
+ECO436H5,UMECO,Measuring Well Being ECO436H5-F-LEC0101,Anderson,Gordon,Fall,2019,4.1,4.6,4.4,4.1,4.3,4,3.1,4.4,N/A,4.1,50,7
+ECO456H5,UMECO,Public Policy Analysis ECO456H5-F-LEC0101,Oreopoulos,Philip,Fall,2019,4.2,4.2,4.2,4.8,4.6,4.2,3.6,3.8,N/A,4,9,5
+ECO320Y5,UMECO,Eco Analysis of Law ECO320Y5-Y-LEC0101,Barber,Robert,Summer,2019,3.8,4.2,4.5,4.1,4.2,3.9,3.4,3.7,N/A,3.7,59,13
+ECO370Y5,UMECO,Eco of Organizations ECO370Y5-Y-LEC0101,Barber,Robert,Summer,2019,4.1,4.3,4.0,4.5,4.1,4.0,2.9,3.6,N/A,3.6,35,8
+ECO100Y5,UMECO,Introduction to Economics ECO100Y5-Y-LEC0101,Bailey,W,Summer,2019,3.2,3.1,2.7,3.0,2.8,2.4,4.2,2.2,N/A,2.9,91,27
+ECO202Y5,UMECO,Macroec Theory & Policy ECO202Y5-Y-LEC0101,Ho,Ho,Summer,2019,3.7,3.7,3.7,3.5,3.4,3.1,3.1,3.4,N/A,3.3,83,22
+ECO200Y5,UMECO,Microeconomic Theory ECO200Y5-Y-LEC0101,Bailey,W,Summer,2019,3.3,3.4,3.0,3.1,2.9,2.6,4.0,2.4,N/A,3.0,78,28
+ECO220Y5,UMECO,Quant Methods in Eco ECO220Y5-Y-LEC0101,Zammit,Nicholas,Summer,2019,3.6,3.8,3.8,3.4,3.5,3.1,3.7,2.8,N/A,2.9,77,29
+ECO365H5,UMECO,Internat'nl Monetary Economics ECO365H5-F-LEC0101,Gagnon,Gregory,Summer,2019,4.2,4.1,4.5,4.5,4.4,4.1,2.9,4.0,N/A,3.9,94,15
+ECO349H5,UMECO,Money Banking & Fin Mark ECO349H5-F-LEC0101,Ho,Ho,Summer,2019,4.0,4.1,4.3,4.1,4.1,3.8,2.9,3.7,N/A,3.4,84,15
+ECO440H5,UMECO,Adv. Topics in Financial Econ. ECO440H5-S-LEC0101,Aivazian,Varouj,Winter,2019,4.7,4.8,4.9,4.7,4.8,4.7,3.0,4.6,N/A,4.3,17,10
+ECO100Y5,UMECO,Introduction to Economics ECO100Y5-Y-LEC0101,Bailey,W,Winter,2019,3.8,3.8,3.4,3.6,3.7,3.2,3.9,3.0,N/A,3.3,113,35
+ECO100Y5,UMECO,Introduction to Economics ECO100Y5-Y-LEC0102,Bailey,W,Winter,2019,3.8,4.0,3.3,3.6,3.6,3.3,3.9,3.2,N/A,3.5,105,33
+ECO100Y5,UMECO,Introduction to Economics ECO100Y5-Y-LEC0103,Bailey,W,Winter,2019,3.9,3.7,3.0,3.2,3.1,2.8,4.0,2.7,N/A,3.2,187,41
+ECO200Y5,UMECO,Microeconomic Theory ECO200Y5-Y-LEC0101,Bailey,W,Winter,2019,3.3,3.3,2.8,2.9,2.9,2.8,3.7,2.5,N/A,3.3,83,31
+ECO200Y5,UMECO,Microeconomic Theory ECO200Y5-Y-LEC0201,Bailey,W,Winter,2019,3.6,3.5,3.9,3.2,3.5,3.4,3.6,3.1,N/A,3.3,77,15
+ECO320Y5,UMECO,Eco Analysis of Law ECO320Y5-Y-LEC0101,Barber,Robert,Winter,2019,3.1,3.5,3.4,3.3,3.4,3.2,3.3,3.2,N/A,3.1,86,25
+ECO370Y5,UMECO,Eco of Organizations ECO370Y5-Y-LEC0101,Barber,Robert,Winter,2019,3.7,3.9,3.9,4.1,4.1,3.9,3.4,3.9,N/A,3.9,49,10
+ECO370Y5,UMECO,Eco of Organizations ECO370Y5-Y-LEC0102,Barber,Robert,Winter,2019,3.4,3.6,3.6,3.6,3.6,3.5,3.3,3.5,N/A,3.5,48,12
+ECO352H5,UMECO,Special Topics in Economics ECO352H5-S-LEC0301,Deb,Rahul,Winter,2019,4.8,4.7,5.0,4.8,4.8,4.8,3.0,4.7,N/A,4.3,12,6
+ECO352H5,UMECO,Special Topics in Economics ECO352H5-S-LEC0201,D'Souza,Christopher,Winter,2019,4.0,4.6,3.9,4.0,4.1,3.6,4.3,3.4,N/A,3.5,11,8
+ECO208Y5,UMECO,Macroeconomic Theory ECO208Y5-Y-LEC0101,Dyrda,Sebastian,Winter,2019,3.2,3.4,2.9,3.1,3.3,2.6,3.4,2.8,N/A,3.2,28,19
+ECO348H5,UMECO,Foundations of Money  Banking ECO348H5-S-LEC0101,Faig,Miquel,Winter,2019,4.3,4.6,4.7,4.7,4.6,4.4,3.1,4.1,N/A,4.1,16,7
+ECO209Y5,UMECO,Macroeconomic Theory & Policy ECO209Y5-Y-LEC0101,Fernandez Blanco,Javier,Winter,2019,3.4,3.5,3.4,3.7,3.6,3.1,2.9,3.1,N/A,3.2,98,38
+ECO209Y5,UMECO,Macroeconomic Theory & Policy ECO209Y5-Y-LEC0201,Fernandez Blanco,Javier,Winter,2019,3.2,3.2,3.1,3.2,3.1,2.8,3.3,2.6,N/A,2.9,108,36
+ECO205Y5,UMECO,Microecon Theory & Apps (MGM) ECO205Y5-Y-LEC0101,Ho,Ho,Winter,2019,3.0,3.3,3.1,2.9,2.9,2.9,3.1,2.9,N/A,2.6,55,14
+ECO315H5,UMECO,Economics of Poverty ECO315H5-S-LEC0101,Li,Nicholas,Winter,2019,3.6,3.9,3.7,3.3,3.0,3.6,2.7,3.1,N/A,3.3,20,8
+ECO364H5,UMECO,Interntl Trade Theory ECO364H5-S-LEC0101,Li,Nicholas,Winter,2019,3.8,3.9,3.8,3.6,3.6,3.4,3.3,3.5,N/A,3.1,74,19
+ECO364H5,UMECO,Interntl Trade Theory ECO364H5-S-LEC0102,Li,Nicholas,Winter,2019,3.3,3.4,3.4,3.4,3.4,3.2,2.6,3.3,N/A,3.1,62,19
 ECO336Y5,UMECO,Public Economics ECO336Y5-Y-LEC0101,McMillan,Robert,Winter,2019,4.4,4.6,4.5,4.4,4.5,4.3,3.1,4.3,N/A,4.4,26,18
 ECO227Y5,UMECO,Quant Methods in Eco ECO227Y5-S-LEC0101,Oztunc,Hakan,Winter,2019,3.1,2.6,2.3,2.7,2.7,1.9,4.1,1.8,N/A,2.8,35,16
 ECO475H5,UMECO,Applied Econometrics II ECO475H5-S-LEC0101,Souza Rodrigues,Eduardo,Winter,2019,4.8,4.7,4.9,4.6,4.6,4.6,4.1,4.2,N/A,4.3,23,9
 ECO359H5,UMECO,Financial Economics II ECO359H5-S-LEC0101,Tian,Xu,Winter,2019,4.4,4.6,4.6,4.4,4.4,4.3,2.9,4.3,N/A,4.2,56,28
 ECO433H5,UMECO,Family Economics ECO433H5-S-LEC0101,Turner,Laura,Winter,2019,3.8,3.8,3.6,3.7,3.6,3.4,3.3,3.3,N/A,3.3,23,12
 ECO322Y5,UMECO,His Econ Thought ECO322Y5-Y-LEC0101,Turner,Laura,Winter,2019,3.9,4.2,3.8,4.1,4.1,3.4,2.7,3.7,N/A,3.8,17,9
-ECO352H5,UMECO,Special Topics in Economics ECO352H5-S-LEC0101,Wolthoff,Ronald,Winter,2019,3.9,3.9,4.5,4.1,4.1,4.1,2.9,4,N/A,3.2,20,11
-ECO202Y5,UMECO,Macroec Theory & Policy ECO202Y5-Y-LEC0101,Yu,Kathleen,Winter,2019,4.1,4.2,4.3,4.1,4.1,4,3.1,3.9,N/A,3.9,115,38
-ECO202Y5,UMECO,Macroec Theory & Policy ECO202Y5-Y-LEC0201,Yu,Kathleen,Winter,2019,3.8,4.2,4.4,4.2,4.3,3.9,3.2,4,N/A,3.8,91,32
-ECO204Y5,UMECO,Microecon Theory & Apps (COM) ECO204Y5-Y-LEC0101,Yu,Kathleen,Winter,2019,3.9,4.1,4.3,4.1,4,3.8,3.3,3.8,N/A,3.6,141,58
+ECO352H5,UMECO,Special Topics in Economics ECO352H5-S-LEC0101,Wolthoff,Ronald,Winter,2019,3.9,3.9,4.5,4.1,4.1,4.1,2.9,4.0,N/A,3.2,20,11
+ECO202Y5,UMECO,Macroec Theory & Policy ECO202Y5-Y-LEC0101,Yu,Kathleen,Winter,2019,4.1,4.2,4.3,4.1,4.1,4.0,3.1,3.9,N/A,3.9,115,38
+ECO202Y5,UMECO,Macroec Theory & Policy ECO202Y5-Y-LEC0201,Yu,Kathleen,Winter,2019,3.8,4.2,4.4,4.2,4.3,3.9,3.2,4.0,N/A,3.8,91,32
+ECO204Y5,UMECO,Microecon Theory & Apps (COM) ECO204Y5-Y-LEC0101,Yu,Kathleen,Winter,2019,3.9,4.1,4.3,4.1,4.0,3.8,3.3,3.8,N/A,3.6,141,58
 ECO204Y5,UMECO,Microecon Theory & Apps (COM) ECO204Y5-Y-LEC0102,Yu,Kathleen,Winter,2019,4.2,4.4,4.6,4.2,4.3,4.1,3.5,3.9,N/A,3.8,147,50
 ECO100Y5,UMECO,Introduction to Economics ECO100Y5-Y-LEC0201,Yindok,Tenzin,Winter,2019,3.4,3.6,3.4,3.5,3.5,3.1,3.5,3.1,N/A,3.3,275,81
-ECO100Y5,UMECO,Introduction to Economics ECO100Y5-Y-LEC0202,Yindok,Tenzin,Winter,2019,3.5,3.7,3.3,3.5,3.2,2.9,3.5,3,N/A,3.1,276,64
+ECO100Y5,UMECO,Introduction to Economics ECO100Y5-Y-LEC0202,Yindok,Tenzin,Winter,2019,3.5,3.7,3.3,3.5,3.2,2.9,3.5,3.0,N/A,3.1,276,64
 ECO100Y5,UMECO,Introduction to Economics ECO100Y5-Y-LEC0203,Yindok,Tenzin,Winter,2019,3.6,3.7,3.5,3.6,3.6,3.2,3.5,3.1,N/A,3.3,289,99
-ECO461H5,UMECO,Economics of Financ. Risk Mgt ECO461H5-S-LEC0101,Yung,Otto,Winter,2019,4.2,4.1,4.2,4.3,4.1,3.8,4,3.6,N/A,3.8,19,11
-ECO400Y5,UMECO,Economics Internship ECO400Y5-Y-LEC0101,Zammit,Nicholas,Winter,2019,4.2,4,4.8,4.1,4.1,4.2,2.9,4.7,N/A,4.2,27,13
+ECO461H5,UMECO,Economics of Financ. Risk Mgt ECO461H5-S-LEC0101,Yung,Otto,Winter,2019,4.2,4.1,4.2,4.3,4.1,3.8,4.0,3.6,N/A,3.8,19,11
+ECO400Y5,UMECO,Economics Internship ECO400Y5-Y-LEC0101,Zammit,Nicholas,Winter,2019,4.2,4.0,4.8,4.1,4.1,4.2,2.9,4.7,N/A,4.2,27,13
 ECO220Y5,UMECO,Quant Methods in Eco ECO220Y5-Y-LEC0101,Zammit,Nicholas,Winter,2019,3.3,3.4,3.3,3.1,3.2,2.8,3.8,2.7,N/A,2.8,101,34
-ECO220Y5,UMECO,Quant Methods in Eco ECO220Y5-Y-LEC0102,Zammit,Nicholas,Winter,2019,3,2.8,3,2.6,2.6,2.2,4,2.2,N/A,2.4,128,52
-ECO220Y5,UMECO,Quant Methods in Eco ECO220Y5-Y-LEC0103,Zammit,Nicholas,Winter,2019,3.2,3,3,3,3,2.7,3.7,2.4,N/A,2.8,100,30
-ECO303H5,UMECO,World Eco History After 1914 ECO303H5-S-LEC0101,Zammit,Nicholas,Winter,2019,4.3,4.5,4.6,4.4,4.2,4.1,3,4.3,N/A,4.1,37,19
-ECO325H5,UMECO,Adv Eco Theory-Macro ECO325H5-S-LEC0101,Zhao,Yingnan,Winter,2019,3.8,4,4.1,4.2,3.9,3.7,3.9,3.3,N/A,3.6,38,24
-ECO435H5,UMECO,Growth & Devlmt Chinese Eco ECO435H5-S-LEC0101,Zhu,Xiaodong,Winter,2019,4.4,4.7,4.6,4.3,4.7,4.4,3,4.6,N/A,4.4,40,7
+ECO220Y5,UMECO,Quant Methods in Eco ECO220Y5-Y-LEC0102,Zammit,Nicholas,Winter,2019,3.0,2.8,3.0,2.6,2.6,2.2,4.0,2.2,N/A,2.4,128,52
+ECO220Y5,UMECO,Quant Methods in Eco ECO220Y5-Y-LEC0103,Zammit,Nicholas,Winter,2019,3.2,3.0,3.0,3.0,3.0,2.7,3.7,2.4,N/A,2.8,100,30
+ECO303H5,UMECO,World Eco History After 1914 ECO303H5-S-LEC0101,Zammit,Nicholas,Winter,2019,4.3,4.5,4.6,4.4,4.2,4.1,3.0,4.3,N/A,4.1,37,19
+ECO325H5,UMECO,Adv Eco Theory-Macro ECO325H5-S-LEC0101,Zhao,Yingnan,Winter,2019,3.8,4.0,4.1,4.2,3.9,3.7,3.9,3.3,N/A,3.6,38,24
+ECO435H5,UMECO,Growth & Devlmt Chinese Eco ECO435H5-S-LEC0101,Zhu,Xiaodong,Winter,2019,4.4,4.7,4.6,4.3,4.7,4.4,3.0,4.6,N/A,4.4,40,7
 ECO436H5,UMECO,Measuring Well Being ECO436H5-F-LEC0101,Anderson,Gordon,Fall,2018,4.7,4.8,4.7,4.6,4.8,4.2,2.7,4,N/A,4,48,11
 ECO365H5,UMECO,Internat'nl Monetary Economics ECO365H5-F-LEC0101,Duarte,Margarida,Fall,2018,3.8,3.9,4.3,4.2,4.1,3.9,2.9,3.7,N/A,3.4,68,20
 ECO365H5,UMECO,Internat'nl Monetary Economics ECO365H5-F-LEC0201,Gagnon,Gregory,Fall,2018,4.1,4.2,4.3,4.3,4.4,4.1,3.2,4.1,N/A,4,114,29

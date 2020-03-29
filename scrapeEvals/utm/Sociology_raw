@@ -1,57 +1,100 @@
-Code,Dept,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Course Workload,I would recommend this course,I attended class,Inspired to learn subject matter,Number Invited,Number of Survey Responses
-SOC100H5,UMSOC,Introduction to Sociology SOC100H5-F-LEC0101,Liu,Sida,Fall,2019,3.8,4.1,4.0,3.7,3.8,3.6,2.8,3.9,N/A,3.7,479,169
+Code,Dept,Course,Last_Name,First_Name,Term,Year,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Item_7,Item_8,Item_9,Item_10,Item_11,Item_12
+SOC100H5,UMSOC,Introduction to Sociology SOC100H5-F-LEC0101,Liu,Sida,Fall,2019,3.8,4.1,4,3.7,3.8,3.6,2.8,3.9,N/A,3.7,479,169
 SOC100H5,UMSOC,Introduction to Sociology SOC100H5-F-LEC0102,Liu,Sida,Fall,2019,3.7,3.9,3.9,3.7,3.7,3.5,2.9,3.7,N/A,3.5,401,138
-SOC205H5,UMSOC,Theories in Criminology SOC205H5-F-LEC0101,Goodman,Philip,Fall,2019,2.9,3.1,3.0,3.0,3.1,2.5,4.3,2.2,N/A,2.7,107,35
-SOC205H5,UMSOC,Theories in Criminology SOC205H5-F-LEC0201,Goodman,Philip,Fall,2019,3.5,4.1,4.0,3.8,3.8,3.7,3.9,3.6,N/A,3.8,117,32
-SOC208H5,UMSOC,Crime & Organizations SOC208H5-F-LEC0101,Valentine,Grant,Fall,2019,4.0,4.3,4.3,3.8,4.2,3.9,2.9,4.0,N/A,3.8,173,88
-SOC209H5,UMSOC,Intro to Crim  Law & Society SOC209H5-F-LEC0101,Owusu-Bempah,Akwasi,Fall,2019,4.3,4.2,4.4,4.1,3.9,3.8,3.0,3.9,N/A,3.8,114,32
-SOC209H5,UMSOC,Intro to Crim  Law & Society SOC209H5-F-LEC0201,Owusu-Bempah,Akwasi,Fall,2019,4.4,4.5,4.6,4.0,4.2,4.2,3.1,4.2,N/A,4.3,116,32
-SOC211H5,UMSOC,Law Punishment Social Control SOC211H5-F-LEC0101,Richer,Zachary,Fall,2019,4.1,4.2,4.3,4.0,4.1,3.8,3.2,3.9,N/A,3.6,171,69
-SOC216H5,UMSOC,Sociology of Law SOC216H5-F-LEC0101,Tanha,Robert,Fall,2019,2.7,2.7,2.5,3.0,2.9,2.5,3.4,2.5,N/A,2.5,100,28
-SOC221H5,UMSOC,The Logic of Social Inquiry SOC221H5-F-LEC0101,Maghbouleh,Neda,Fall,2019,3.5,3.9,4.5,3.7,3.7,3.8,3.2,3.2,N/A,3.0,123,33
-SOC227H5,UMSOC,Soc. of Work & Occupations SOC227H5-F-LEC0101,Kervin,John,Fall,2019,2.7,3.1,3.1,2.8,2.9,2.5,3.0,2.4,N/A,2.3,162,51
-SOC231H5,UMSOC,Classical Sociological Theory SOC231H5-F-LEC0101,Hoffman,Steven,Fall,2019,3.8,4.0,4.3,3.8,3.9,3.8,3.4,3.5,N/A,3.5,101,25
-SOC236H5,UMSOC,Globalization SOC236H5-F-LEC0101,Plys,Kristin,Fall,2019,3.5,3.8,3.8,4.0,4.0,3.3,3.3,3.4,N/A,3.5,73,22
-SOC244H5,UMSOC,Sociology of Families SOC244H5-F-LEC0101,Zhang,Weiguo,Fall,2019,3.0,3.4,2.9,3.0,3.2,2.7,3.0,3.1,N/A,2.9,187,50
+SOC205H5,UMSOC,Theories in Criminology SOC205H5-F-LEC0101,Goodman,Philip,Fall,2019,2.9,3.1,3,3,3.1,2.5,4.3,2.2,N/A,2.7,107,35
+SOC205H5,UMSOC,Theories in Criminology SOC205H5-F-LEC0201,Goodman,Philip,Fall,2019,3.5,4.1,4,3.8,3.8,3.7,3.9,3.6,N/A,3.8,117,32
+SOC208H5,UMSOC,Crime & Organizations SOC208H5-F-LEC0101,Valentine,Grant,Fall,2019,4,4.3,4.3,3.8,4.2,3.9,2.9,4,N/A,3.8,173,88
+SOC209H5,UMSOC,Intro to Crim  Law & Society SOC209H5-F-LEC0101,Owusu-Bempah,Akwasi,Fall,2019,4.3,4.2,4.4,4.1,3.9,3.8,3,3.9,N/A,3.8,114,32
+SOC209H5,UMSOC,Intro to Crim  Law & Society SOC209H5-F-LEC0201,Owusu-Bempah,Akwasi,Fall,2019,4.4,4.5,4.6,4,4.2,4.2,3.1,4.2,N/A,4.3,116,32
+SOC211H5,UMSOC,Law Punishment Social Control SOC211H5-F-LEC0101,Richer,Zachary,Fall,2019,4.1,4.2,4.3,4,4.1,3.8,3.2,3.9,N/A,3.6,171,69
+SOC216H5,UMSOC,Sociology of Law SOC216H5-F-LEC0101,Tanha,Robert,Fall,2019,2.7,2.7,2.5,3,2.9,2.5,3.4,2.5,N/A,2.5,100,28
+SOC221H5,UMSOC,The Logic of Social Inquiry SOC221H5-F-LEC0101,Maghbouleh,Neda,Fall,2019,3.5,3.9,4.5,3.7,3.7,3.8,3.2,3.2,N/A,3,123,33
+SOC227H5,UMSOC,Soc. of Work & Occupations SOC227H5-F-LEC0101,Kervin,John,Fall,2019,2.7,3.1,3.1,2.8,2.9,2.5,3,2.4,N/A,2.3,162,51
+SOC231H5,UMSOC,Classical Sociological Theory SOC231H5-F-LEC0101,Hoffman,Steven,Fall,2019,3.8,4,4.3,3.8,3.9,3.8,3.4,3.5,N/A,3.5,101,25
+SOC236H5,UMSOC,Globalization SOC236H5-F-LEC0101,Plys,Kristin,Fall,2019,3.5,3.8,3.8,4,4,3.3,3.3,3.4,N/A,3.5,73,22
+SOC244H5,UMSOC,Sociology of Families SOC244H5-F-LEC0101,Zhang,Weiguo,Fall,2019,3,3.4,2.9,3,3.2,2.7,3,3.1,N/A,2.9,187,50
 SOC301H5,UMSOC,Canadian Prisons SOC301H5-F-LEC0101,Laming,Erick,Fall,2019,4.4,4.5,4.6,4.4,4.4,4.2,3.1,4.3,N/A,4.1,143,70
 SOC302H5,UMSOC,Indigenous-Canada Relations SOC302H5-F-LEC0101,Adese,Jennifer,Fall,2019,4.3,4.5,4.5,4.4,4.2,4.1,3.1,4.4,N/A,4.3,31,13
 SOC310H5,UMSOC,Youth Justice SOC310H5-F-LEC0101,Salole,Abigail,Fall,2019,3.5,3.8,3.6,3.6,3.6,3.4,3.3,3.4,N/A,3.7,144,41
 SOC317H5,UMSOC,Shopping and Society SOC317H5-F-LEC0101,Johnston,Josee,Fall,2019,4.4,4.5,4.7,4.4,4.4,4.3,2.9,4.5,N/A,4.2,143,46
 SOC323H5,UMSOC,Law and Society SOC323H5-F-LEC0101,Berrey,Ellen,Fall,2019,4.1,4.2,4.3,3.8,3.8,3.8,3.9,3.5,N/A,3.7,51,18
-SOC325H5,UMSOC,Law and Social Theory SOC325H5-F-LEC0101,Super,Gail,Fall,2019,3.8,4.1,4.3,4.3,4.5,4.0,3.3,3.6,N/A,3.1,52,21
-SOC326H5,UMSOC,Policing SOC326H5-F-LEC0101,Haag,Julius,Fall,2019,4.1,4.4,4.4,4.2,4.5,4.1,3.0,3.9,N/A,3.9,138,50
+SOC325H5,UMSOC,Law and Social Theory SOC325H5-F-LEC0101,Super,Gail,Fall,2019,3.8,4.1,4.3,4.3,4.5,4,3.3,3.6,N/A,3.1,52,21
+SOC326H5,UMSOC,Policing SOC326H5-F-LEC0101,Haag,Julius,Fall,2019,4.1,4.4,4.4,4.2,4.5,4.1,3,3.9,N/A,3.9,138,50
 SOC327H5,UMSOC,Drugs and the Modern World SOC327H5-F-LEC0101,Farah Schwartzman,Luisa,Fall,2019,2.9,3.1,2.8,2.8,2.7,2.6,3.8,2.2,N/A,2.7,58,17
-SOC330H5,UMSOC,Criminology and Immigration SOC330H5-F-LEC0101,Flores,Jerry,Fall,2019,4.8,4.5,4.4,4.3,4.4,4.3,3.0,4.6,N/A,4.2,60,12
-SOC332H5,UMSOC,Race and Ethnicity in Canada SOC332H5-F-LEC0101,Adese,Jennifer,Fall,2019,4.6,4.9,4.7,4.2,4.2,4.2,3.0,4.6,N/A,4.9,38,9
+SOC330H5,UMSOC,Criminology and Immigration SOC330H5-F-LEC0101,Flores,Jerry,Fall,2019,4.8,4.5,4.4,4.3,4.4,4.3,3,4.6,N/A,4.2,60,12
+SOC332H5,UMSOC,Race and Ethnicity in Canada SOC332H5-F-LEC0101,Adese,Jennifer,Fall,2019,4.6,4.9,4.7,4.2,4.2,4.2,3,4.6,N/A,4.9,38,9
 SOC340H5,UMSOC,Social Change SOC340H5-F-LEC0101,Parker,Sebastien,Fall,2019,4.3,4.7,4.4,4.6,4.3,4.4,3.1,4.1,N/A,3.9,20,7
-SOC350H5,UMSOC,Quantitative Analysis SOC350H5-F-LEC0101,Pettinicchio,David,Fall,2019,3.5,3.6,4.0,3.8,4.0,3.5,3.5,3.5,N/A,2.9,40,13
-SOC351H5,UMSOC,Politics Violence Spot Diff SOC351H5-F-LEC0101,Super,Gail,Fall,2019,4.2,4.1,4.1,4.1,4.0,4.0,3.4,3.7,N/A,3.8,19,9
-SOC352H5,UMSOC,Gender and Care SOC352H5-F-LEC0101,Cranford,Cynthia,Fall,2019,3.1,3.8,3.2,3.0,3.4,2.8,3.0,2.6,N/A,2.4,89,20
+SOC350H5,UMSOC,Quantitative Analysis SOC350H5-F-LEC0101,Pettinicchio,David,Fall,2019,3.5,3.6,4,3.8,4,3.5,3.5,3.5,N/A,2.9,40,13
+SOC351H5,UMSOC,Politics Violence Spot Diff SOC351H5-F-LEC0101,Super,Gail,Fall,2019,4.2,4.1,4.1,4.1,4,4,3.4,3.7,N/A,3.8,19,9
+SOC352H5,UMSOC,Gender and Care SOC352H5-F-LEC0101,Cranford,Cynthia,Fall,2019,3.1,3.8,3.2,3,3.4,2.8,3,2.6,N/A,2.4,89,20
 SOC362H5,UMSOC,Sex  Gender and Work SOC362H5-F-LEC0101,Kervin,John,Fall,2019,3.2,3.8,3.5,3.7,3.8,3.3,2.8,3.1,N/A,2.9,54,17
 SOC371H5,UMSOC,Sociology of Punishment SOC371H5-F-LEC0101,Tanha,Robert,Fall,2019,2.5,2.9,3.1,3.1,3.2,2.6,2.9,2.7,N/A,2.7,52,16
-SOC375H5,UMSOC,Soc of International Migratn SOC375H5-F-LEC0101,Maghbouleh,Neda,Fall,2019,4.2,4.3,4.3,3.7,3.7,3.9,3.0,4.0,N/A,3.8,58,20
-SOC378H5,UMSOC,Law  Crime and Justice SOC378H5-F-LEC0101,Kaschuk,Nicholas,Fall,2019,4.5,4.4,4.4,4.3,4.2,4.0,3.4,4.2,N/A,4.3,34,12
-SOC379H5,UMSOC,Sociology of Crime SOC379H5-F-LEC0101,Haag,Julius,Fall,2019,4.3,4.4,4.7,3.9,4.1,4.0,3.1,4.2,N/A,4.0,56,27
-SOC420H5,UMSOC,Senior Seminar in Punishment SOC420H5-F-LEC0101,Richer,Zachary,Fall,2019,4.8,4.7,5.0,4.3,4.5,4.7,3.3,4.3,N/A,4.2,13,6
-SOC421H5,UMSOC,Senior Seminar in Criminology SOC421H5-F-LEC0101,Farah Schwartzman,Luisa,Fall,2019,3.8,3.6,3.8,3.8,3.8,3.8,4.0,3.6,N/A,3.4,9,5
-SOC425H5,UMSOC,Gender in Global Contexts SOC425H5-F-LEC0101,Choo,Hae,Fall,2019,4.3,4.6,4.8,4.8,4.6,4.1,3.9,4.0,N/A,4.4,39,8
+SOC375H5,UMSOC,Soc of International Migratn SOC375H5-F-LEC0101,Maghbouleh,Neda,Fall,2019,4.2,4.3,4.3,3.7,3.7,3.9,3,4,N/A,3.8,58,20
+SOC378H5,UMSOC,Law  Crime and Justice SOC378H5-F-LEC0101,Kaschuk,Nicholas,Fall,2019,4.5,4.4,4.4,4.3,4.2,4,3.4,4.2,N/A,4.3,34,12
+SOC379H5,UMSOC,Sociology of Crime SOC379H5-F-LEC0101,Haag,Julius,Fall,2019,4.3,4.4,4.7,3.9,4.1,4,3.1,4.2,N/A,4,56,27
+SOC420H5,UMSOC,Senior Seminar in Punishment SOC420H5-F-LEC0101,Richer,Zachary,Fall,2019,4.8,4.7,5,4.3,4.5,4.7,3.3,4.3,N/A,4.2,13,6
+SOC421H5,UMSOC,Senior Seminar in Criminology SOC421H5-F-LEC0101,Farah Schwartzman,Luisa,Fall,2019,3.8,3.6,3.8,3.8,3.8,3.8,4,3.6,N/A,3.4,9,5
+SOC425H5,UMSOC,Gender in Global Contexts SOC425H5-F-LEC0101,Choo,Hae,Fall,2019,4.3,4.6,4.8,4.8,4.6,4.1,3.9,4,N/A,4.4,39,8
 SOC429H5,UMSOC,Disability  Politics & Society SOC429H5-F-LEC0101,Pettinicchio,David,Fall,2019,4.6,4.8,4.9,4.5,4.8,4.6,2.5,4.7,N/A,4.4,38,16
-SOC448H5,UMSOC,Adv Topics Crim Law Society SOC448H5-F-LEC0101,Maurutto,Paula,Fall,2019,4.2,4.2,4.4,4.4,4.3,4.2,3.0,4.4,N/A,4.2,50,17
-SOC455H5,UMSOC,Comparative Indigenous Plitics SOC455H5-F-LEC0101,Gray,Robin,Fall,2019,5.0,5.0,5.0,5.0,5.0,4.8,3.2,5.0,N/A,5.0,13,5
+SOC448H5,UMSOC,Adv Topics Crim Law Society SOC448H5-F-LEC0101,Maurutto,Paula,Fall,2019,4.2,4.2,4.4,4.4,4.3,4.2,3,4.4,N/A,4.2,50,17
+SOC455H5,UMSOC,Comparative Indigenous Plitics SOC455H5-F-LEC0101,Gray,Robin,Fall,2019,5,5,5,5,5,4.8,3.2,5,N/A,5,13,5
+SOC425H5,UMSOC,Gender in Global Contexts SOC425H5-S-LEC0101,Hashemi,Bahar,Summer,2019,3.9,4.2,4.1,3.9,4.1,3.8,3.5,3.5,N/A,3.5,40,26
+SOC338H5,UMSOC,Legal Developments in Crim. SOC338H5-S-LEC0101,Josic,Christine,Summer,2019,3.8,4.0,4.1,4.0,4.2,3.7,3.6,3.6,N/A,3.9,48,10
+SOC222H5,UMSOC,Measuring the Social World SOC222H5-S-LEC0101,Miles,Andrew,Summer,2019,3.8,4.3,4.7,4.6,4.6,4.0,3.5,3.6,N/A,3.3,73,17
+SOC208H5,UMSOC,Crime & Organizations SOC208H5-F-LEC0101,Valentine,Grant,Summer,2019,4.2,4.4,4.6,4.2,4.3,4.3,3.0,4.2,N/A,4.2,93,26
+SOC423H5,UMSOC,Identity Crime SOC423H5-F-LEC0101,Innocente,Nathan,Summer,2019,4.3,4.5,4.5,4.7,4.5,4.3,3.0,4.7,N/A,4.3,37,6
+SOC209H5,UMSOC,Intro to Crim  Law & Society SOC209H5-F-LEC0101,Flores,Jerry,Summer,2019,4.4,4.4,4.8,4.0,4.0,4.2,3.1,4.5,N/A,4.2,98,46
+SOC224H5,UMSOC,Sociology of Education SOC224H5-F-LEC0101,Baker,Jayne,Summer,2019,3.8,4.0,3.9,3.8,3.7,3.6,3.1,3.8,N/A,3.5,148,34
+SOC371H5,UMSOC,Sociology of Punishment SOC371H5-F-LEC0101,Goodman,Philip,Summer,2019,4.3,4.3,4.6,4.2,4.4,4.1,3.8,3.9,N/A,3.8,38,16
+SOC303H5,UMSOC,White-collar & Corporate Crime SOC303H5-F-LEC0101,Innocente,Nathan,Summer,2019,4.2,4.6,4.7,4.5,4.5,4.3,3.2,4.3,N/A,4.4,47,13
+SOC332H5,UMSOC,Race and Ethnicity in Canada SOC332H5-S-LEC0101,Adese,Jennifer,Winter,2019,3.8,3.9,4.1,3.8,3.7,3.3,3.1,3.6,N/A,3.8,56,19
+SOC231H5,UMSOC,Classical Sociological Theory SOC231H5-S-LEC0101,Baber,Zaheer,Winter,2019,3.2,3.8,3.9,3.8,4.1,3.3,3.1,3.3,N/A,2.9,82,30
+SOC465H5,UMSOC,Climate Change and Society SOC465H5-S-LEC0101,Baber,Zaheer,Winter,2019,4.6,4.8,4.9,4.7,4.7,4.5,3.6,4.6,N/A,4.5,32,11
+SOC100H5,UMSOC,Introduction to Sociology SOC100H5-S-LEC0101,Baker,Jayne,Winter,2019,3.4,3.6,3.6,3.2,3.2,3.1,3.0,3.1,N/A,3.0,441,140
+SOC100H5,UMSOC,Introduction to Sociology SOC100H5-S-LEC0102,Baker,Jayne,Winter,2019,3.5,3.7,3.7,3.3,3.4,3.2,3.0,3.4,N/A,3.2,433,124
+SOC347H5,UMSOC,Sociology of Masculinities SOC347H5-S-LEC0101,Baker,Jayne,Winter,2019,4.1,4.1,4.4,4.1,4.1,4.1,3.4,4.1,N/A,3.9,58,16
+SOC322H5,UMSOC,Criminal Justice & Inequality SOC322H5-S-LEC0101,Owusu-Bempah,Akwasi,Winter,2019,4.0,4.4,4.4,3.8,4.0,3.8,3.0,3.9,N/A,3.9,59,20
+SOC209H5,UMSOC,Intro to Crim  Law & Society SOC209H5-S-LEC0101,Owusu-Bempah,Akwasi,Winter,2019,4.0,4.1,4.1,3.6,3.7,3.7,3.3,3.6,N/A,3.8,181,60
+SOC323H5,UMSOC,Law and Society SOC323H5-S-LEC0101,Berrey,Ellen,Winter,2019,3.4,3.3,3.7,2.9,2.8,2.9,4.0,2.7,N/A,3.4,41,15
+SOC387H5,UMSOC,Qualitative Analysis SOC387H5-S-LEC0101,Cranford,Cynthia,Winter,2019,2.2,2.5,2.2,2.2,2.2,1.9,4.0,1.6,N/A,1.9,35,15
+SOC216H5,UMSOC,Sociology of Law SOC216H5-S-LEC0101,Dinovitzer,Ronit,Winter,2019,3.8,4.1,4.1,3.6,3.8,3.6,2.9,3.8,N/A,3.7,178,51
+SOC342H5,UMSOC,Sociology of Scandals SOC342H5-S-LEC0101,Dinovitzer,Ronit,Winter,2019,4.3,4.4,4.2,4.2,4.3,4.2,3.0,4.2,N/A,3.9,55,14
+SOC300H5,UMSOC,Special Topics in Criminology SOC300H5-S-LEC0102,Farah Schwartzman,Luisa,Winter,2019,3.1,3.1,2.8,3.1,3.0,2.6,4.1,2.3,N/A,2.7,34,9
+SOC300H5,UMSOC,Special Topics in Criminology SOC300H5-S-LEC0101,Flores,Jerry,Winter,2019,4.2,4.2,4.5,4.3,4.4,4.1,2.8,4.4,N/A,3.8,42,25
+SOC450H5,UMSOC,Carceral Seminar SOC450H5-S-LEC0101,Goodman,Philip,Winter,2019,5.0,4.9,5.0,4.3,4.6,4.9,3.3,5.0,N/A,5.0,15,9
+SOC202H5,UMSOC,Cultural Sociology SOC202H5-S-LEC0101,Gray,Robin,Winter,2019,2.8,2.9,3.1,2.9,3.0,2.6,3.1,2.7,N/A,2.8,158,53
+SOC447H5,UMSOC,Advanced Topics in Criminology SOC447H5-S-LEC0101,Gurusami,Susila,Winter,2019,4.6,4.6,4.6,4.3,4.7,4.3,3.3,4.1,N/A,4.1,19,9
+SOC219H5,UMSOC,Gender  Crime and Justice SOC219H5-S-LEC0101,Gurusami,Susila,Winter,2019,4.0,4.2,4.2,4.1,4.1,3.9,2.9,4.0,N/A,3.8,191,71
+SOC459H5,UMSOC,Science  Technology & Society SOC459H5-S-LEC0101,Hoffman,Steven,Winter,2019,3.9,3.7,4.6,4.0,4.0,3.4,3.1,3.9,N/A,2.9,37,7
+SOC411H5,UMSOC,Seminar in Social Institutions SOC411H5-S-LEC0101,Hoffman,Steven,Winter,2019,4.6,4.4,5.0,5.0,5.0,4.2,4.2,4.4,N/A,4.6,12,5
+SOC423H5,UMSOC,Identity Crime SOC423H5-S-LEC0101,Innocente,Nathan,Winter,2019,4.3,4.0,3.7,3.5,4.2,3.5,2.5,3.8,N/A,3.8,40,7
+SOC303H5,UMSOC,White-collar & Corporate Crime SOC303H5-S-LEC0101,Innocente,Nathan,Winter,2019,4.5,4.4,4.7,4.4,4.5,4.6,3.0,4.4,N/A,4.3,58,12
+SOC349H5,UMSOC,Sociology of Food SOC349H5-S-LEC0101,Johnston,Josee,Winter,2019,4.1,4.4,4.4,4.0,4.2,4.3,3.1,4.3,N/A,4.4,58,11
+SOC378H5,UMSOC,Law  Crime and Justice SOC378H5-S-LEC0101,Kaschuk,Nicholas,Winter,2019,4.3,4.3,4.4,3.9,3.9,4.2,3.2,4.3,N/A,4.2,42,10
+SOC361H5,UMSOC,Sociology of Organizations SOC361H5-S-LEC0101,Kervin,John,Winter,2019,3.5,3.7,3.8,3.7,3.7,3.5,3.1,3.6,N/A,3.4,143,35
+SOC301H5,UMSOC,Canadian Prisons SOC301H5-S-LEC0101,Klassen,Amy,Winter,2019,4.5,4.7,4.6,4.4,4.5,4.4,3.3,4.4,N/A,4.4,122,57
+SOC371H5,UMSOC,Sociology of Punishment SOC371H5-S-LEC0101,Klassen,Amy,Winter,2019,4.5,4.6,4.4,4.5,4.6,4.3,3.2,4.3,N/A,4.3,52,18
+SOC384H5,UMSOC,Media Ethcs Poliy Cntrvrs Com SOC384H5-S-LEC0101,Knezevic,Ivanka,Winter,2019,3.3,3.3,3.5,2.9,3.0,3.0,2.9,3.5,N/A,3.3,20,8
+SOC375H5,UMSOC,Soc of International Migratn SOC375H5-S-LEC0101,Korteweg,Anna,Winter,2019,4.1,4.3,4.0,4.1,4.3,3.9,2.8,4.0,N/A,4.1,53,14
+SOC221H5,UMSOC,The Logic of Social Inquiry SOC221H5-S-LEC0101,Lannigan,James,Winter,2019,3.0,4.0,4.1,4.1,4.3,3.6,2.9,3.2,N/A,2.9,116,51
+SOC326H5,UMSOC,Policing SOC326H5-S-LEC0101,Levinsky,Zachary,Winter,2019,4.1,4.2,4.2,4.3,4.3,4.0,3.3,4.1,N/A,3.9,128,28
+SOC379H5,UMSOC,Sociology of Crime SOC379H5-S-LEC0101,Levinsky,Zachary,Winter,2019,4.2,4.2,4.2,3.9,3.9,3.8,3.2,3.8,N/A,3.7,54,13
+SOC440H5,UMSOC,Research Project Crim Law Soc SOC440H5-Y-LEC0101,Liu,Sida,Winter,2019,5.0,5.0,5.0,4.8,5.0,5.0,3.8,4.8,N/A,5.0,8,5
+SOC475H5,UMSOC,Sociology of Law and Lawyers SOC475H5-S-LEC0101,Liu,Sida,Winter,2019,4.5,4.7,4.5,4.2,4.3,4.1,3.6,4.2,N/A,4.0,40,13
 SOC316H5,UMSOC,Crime Prevention and Security SOC316H5-S-LEC0101,Maurutto,Paula,Winter,2019,3.7,4.1,4.3,3.8,3.9,3.8,3.2,3.8,N/A,3.5,59,13
-SOC222H5,UMSOC,Measuring the Social World SOC222H5-S-LEC0101,Miles,Andrew,Winter,2019,3.8,4.2,4.5,4.5,4.5,4,3.6,3.4,N/A,2.9,119,37
-SOC222H5,UMSOC,Measuring the Social World SOC222H5-S-LEC0201,Pettinicchio,David,Winter,2019,3.7,4,4.4,4.2,4.2,3.7,3.8,3.3,N/A,3.1,99,40
-SOC350H5,UMSOC,Quantitative Analysis SOC350H5-S-LEC0101,Pettinicchio,David,Winter,2019,3.3,3.8,3.6,4.2,4,3.2,3.5,2.8,N/A,3.1,42,20
+SOC222H5,UMSOC,Measuring the Social World SOC222H5-S-LEC0101,Miles,Andrew,Winter,2019,3.8,4.2,4.5,4.5,4.5,4.0,3.6,3.4,N/A,2.9,119,37
+SOC222H5,UMSOC,Measuring the Social World SOC222H5-S-LEC0201,Pettinicchio,David,Winter,2019,3.7,4.0,4.4,4.2,4.2,3.7,3.8,3.3,N/A,3.1,99,40
+SOC350H5,UMSOC,Quantitative Analysis SOC350H5-S-LEC0101,Pettinicchio,David,Winter,2019,3.3,3.8,3.6,4.2,4.0,3.2,3.5,2.8,N/A,3.1,42,20
 SOC445H5,UMSOC,Advanced Topics in Sociology SOC445H5-S-LEC0101,Rault,Jasmine,Winter,2019,3.8,3.5,3.8,3.7,3.8,3.5,3.2,3.7,N/A,3.7,34,6
-SOC311H5,UMSOC,Special Topics in Law SOC311H5-S-LEC0101,Rozad,Katherine,Winter,2019,4.7,4.6,4.7,4.5,4.6,4.4,3,4.5,N/A,4.5,57,32
+SOC311H5,UMSOC,Special Topics in Law SOC311H5-S-LEC0101,Rozad,Katherine,Winter,2019,4.7,4.6,4.7,4.5,4.6,4.4,3.0,4.5,N/A,4.5,57,32
 SOC211H5,UMSOC,Law Punishment Social Control SOC211H5-S-LEC0101,Rubin,Ashley,Winter,2019,3.1,3.4,3.4,3.4,3.3,3.1,3.2,2.9,N/A,2.9,157,37
 SOC310H5,UMSOC,Youth Justice SOC310H5-S-LEC0101,Salole,Abigail,Winter,2019,3.5,3.8,3.9,3.6,3.5,3.5,3.4,3.2,N/A,3.2,134,26
-SOC263H5,UMSOC,Social Inequality SOC263H5-S-LEC0101,Samuel,Lina,Winter,2019,3.8,4,3.9,3.8,4,3.6,2.9,3.8,N/A,3.5,177,47
-SOC275H5,UMSOC,Sociology of Gender SOC275H5-S-LEC0101,Samuel,Lina,Winter,2019,4,4.2,4.3,4.2,4.2,4,2.8,4.1,N/A,3.7,179,59
-SOC432H5,UMSOC,Sociology of Genocide SOC432H5-S-LEC0101,Schneiderhan,Erik,Winter,2019,4.7,4.9,4.7,4.6,5,4.6,3.6,4.6,N/A,4.6,35,11
-SOC205H5,UMSOC,Theories in Criminology SOC205H5-S-LEC0101,Super,Gail,Winter,2019,3,3.4,2.9,3.2,3.3,2.7,4,2.6,N/A,2.7,55,26
-SOC346H5,UMSOC,Topics in Crime and Law SOC346H5-S-LEC0101,Super,Gail,Winter,2019,3.9,4.3,3.9,4.3,4,3.6,3,3.8,N/A,3.3,21,11
-SOC208H5,UMSOC,Crime & Organizations SOC208H5-S-LEC0101,Tatham,Christopher,Winter,2019,4,4.2,4.6,4,4.2,4.1,2.9,3.9,N/A,3.6,189,55
+SOC263H5,UMSOC,Social Inequality SOC263H5-S-LEC0101,Samuel,Lina,Winter,2019,3.8,4.0,3.9,3.8,4.0,3.6,2.9,3.8,N/A,3.5,177,47
+SOC275H5,UMSOC,Sociology of Gender SOC275H5-S-LEC0101,Samuel,Lina,Winter,2019,4.0,4.2,4.3,4.2,4.2,4.0,2.8,4.1,N/A,3.7,179,59
+SOC432H5,UMSOC,Sociology of Genocide SOC432H5-S-LEC0101,Schneiderhan,Erik,Winter,2019,4.7,4.9,4.7,4.6,5.0,4.6,3.6,4.6,N/A,4.6,35,11
+SOC205H5,UMSOC,Theories in Criminology SOC205H5-S-LEC0101,Super,Gail,Winter,2019,3.0,3.4,2.9,3.2,3.3,2.7,4.0,2.6,N/A,2.7,55,26
+SOC346H5,UMSOC,Topics in Crime and Law SOC346H5-S-LEC0101,Super,Gail,Winter,2019,3.9,4.3,3.9,4.3,4.0,3.6,3.0,3.8,N/A,3.3,21,11
+SOC208H5,UMSOC,Crime & Organizations SOC208H5-S-LEC0101,Tatham,Christopher,Winter,2019,4.0,4.2,4.6,4.0,4.2,4.1,2.9,3.9,N/A,3.6,189,55
 SOC356H5,UMSOC,Population and Society SOC356H5-S-LEC0101,Zhang,Weiguo,Winter,2019,2.8,3.5,2.7,3.1,2.9,2.6,2.6,2.6,N/A,2.6,27,11
 SOC244H5,UMSOC,Sociology of Families SOC244H5-S-LEC0101,Zhang,Weiguo,Winter,2019,3.5,3.6,3.3,3.6,3.8,3.4,2.7,3.9,N/A,3.4,187,58
 SOC345H5,UMSOC,Special Topics in Sociology SOC345H5-F-LEC0101,Adese,Jennifer,Fall,2018,4.4,4.8,4.9,4.4,4.4,4.5,3,4.5,N/A,4.8,14,8

@@ -56,47 +56,44 @@ router.patch('/', (req, res) => {
 
         if (uuid === '') {
             res.status(400).send();
-        } else {
-            // validate that all sanitized inputs follow DB constraints
-            if (!((validator.isEmail(sanEmail) || validator.isEmpty(sanEmail))
+        } else if (!((validator.isEmail(sanEmail) || validator.isEmpty(sanEmail))
                     && sanEmail.length < 26)) {
-                res.status(406).send();
-            } else {
-                // verify correct password has been entered
-                const promiseValidatePassword = dbReq.validatePW(uuid, sanPassword);
-                promiseValidatePassword.then((validateResult) => {
-                    // If valid password, check if the new email already is an existing user
-                    if (validateResult === 'Valid') {
-                        const promiseCheckUser = dbReq.checkUserExists(sanEmail);
-                        promiseCheckUser.then((checkUserResult) => {
-                            // If no email pre-exists, change email for user
-                            if (checkUserResult.rows[0] === undefined) {
-                                if (!(validator.isEmpty(sanEmail))) {
-                                    const promiseUpdateEmail = 						dbReq.updateUserEmail(uuid, sanEmail);
-                                    promiseUpdateEmail.then(() => {
-                                        res.status(200).send();
-                                    }).catch((updateError) => {
-                                        console.log(updateError);
-                                        res.status(500).send();
-                                    });
-                                } else {
+            res.status(406).send();
+        } else {
+            // verify correct password has been entered
+            const promiseValidatePassword = dbReq.validatePW(uuid, sanPassword);
+            promiseValidatePassword.then((validateResult) => {
+                // If valid password, check if the new email already is an existing user
+                if (validateResult === 'Valid') {
+                    const promiseCheckUser = dbReq.checkUserExists(sanEmail);
+                    promiseCheckUser.then((checkUserResult) => {
+                        // If no email pre-exists, change email for user
+                        if (checkUserResult.rows[0] === undefined) {
+                            if (!(validator.isEmpty(sanEmail))) {
+                                const promiseUpdateEmail = dbReq.updateUserEmail(uuid, sanEmail);
+                                promiseUpdateEmail.then(() => {
                                     res.status(200).send();
-                                }
+                                }).catch((updateError) => {
+                                    console.log(updateError);
+                                    res.status(500).send();
+                                });
                             } else {
-                                res.status(409).send();
+                                res.status(200).send();
                             }
-                        }).catch((checkUserError) => {
-                            console.log(checkUserError);
-                            res.status(500).send();
-                        });
-                    } else {
-                        res.status(406).send();
-                    }
-                }).catch((validateError) => {
-                    console.log(validateError);
-                    res.status(500).send();
-                });
-            }
+                        } else {
+                            res.status(409).send();
+                        }
+                    }).catch((checkUserError) => {
+                        console.log(checkUserError);
+                        res.status(500).send();
+                    });
+                } else {
+                    res.status(406).send();
+                }
+            }).catch((validateError) => {
+                console.log(validateError);
+                res.status(500).send();
+            });
         }
     } catch (e) {
         console.log(e);

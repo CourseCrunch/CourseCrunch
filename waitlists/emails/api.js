@@ -1,4 +1,4 @@
-const dbReq = require('../resources/queries');
+const dbReq = require('../resources/queries').default;
 const timetableApi = require('../../timetable_api/api.js');
 require('dotenv').config();
 const TransporterSingleton = require('./transporter.js');
@@ -14,37 +14,35 @@ function sendEmail(userEmail, course) {
         text: `Good news! We just found out that there isn't a waitlist anymore for ${course}.`,
     };
 
-    return new Promise((resolve, reject) => {
-        try {
-            transporter.sendMail(mailOptions);
-            resolve(true);
-        } catch (e) {
-            console.log(e);
-            reject(e);
+    transporter.sendMail(mailOptions, (error, info) => {
+        if (error) {
+            // eslint-disable-next-line no-console
+            console.log(error);
+            return false;
         }
-    }).catch((e) => {
-        console.log(e);
+        // eslint-disable-next-line no-console
+        console.log(`Email sent: ${info.response}`);
+        return true;
     });
 }
 
 function checkUserWaitlist(waitlist, course, term, year) {
     timetableApi.waitListSpace(course, term, year).then((result) => {
-        // TODO: REMOVE THE CSC209H5 CONDITION THIS IS JUST FOR TESTING
-        if ((result && result.space) || course === 'CSC209H5') {
+        if (result && result.space) {
             waitlist[course][year][term].forEach((userID) => {
                 dbReq.getUserEmail(userID).then((userEmail) => {
-                    sendEmail(userEmail, course).then((sent) => {
-                        if (sent) {
-                            dbReq.removeUser(userID, course, year, term).then(() => { console.log('User removed from waitlist'); }).catch((e) => {
-                                // eslint-disable-next-line no-console
-                                console.log(e);
-                            });
-                        }
-                    }).catch((e) => console.log(e)); // }
-                });
+                    if (sendEmail(userEmail, course)) {
+                        dbReq.removeUser(userEmail, course, year, term).then(() => { console.log('User removed from waitlist'); }).catch((e) => {
+                            // eslint-disable-next-line no-console
+                            console.log(e);
+                        });
+                    }
+                // eslint-disable-next-line no-console
+                }).catch((e) => console.log(e)); // }
             });
         }
-    });
+    // eslint-disable-next-line no-console
+    }).catch((e) => { console.log(e); });
 }
 
 function checkWaitlists() {
@@ -62,8 +60,4 @@ function checkWaitlists() {
     }).catch((e) => { console.log(e); });
 }
 
-module.exports = {
-    checkWaitlists,
-    checkUserWaitlist,
-    sendEmail,
-};
+checkWaitlists();

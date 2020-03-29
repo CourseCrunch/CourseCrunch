@@ -1,8 +1,7 @@
 import React from 'react';
 import NavBar from '../components/NavBar/NavBar';
 import VertNavBar from '../components/UserProfile/VertNavBar';
-import AddWaitlist from '../components/AddWaitlist/AddWaitlist';
-
+import WaitlistInput from '../components/WaitlistInput/WaitlistInput';
 
 import './index.css';
 import './hover.css';
@@ -25,18 +24,17 @@ class WaitlistComp extends React.Component {
 
     // eslint-disable-next-line class-methods-use-this
     displayState() {
-        return [<AddWaitlist/>];
+        return <WaitlistInput/>;
     }
 
     render() {
-        const state = this.displayState();
         return (
             <div>
                 <NavBar isLoggedIn = {true}/>
                 <VertNavBar onButtonPress={this.updState}/>
                 <div className = "waitlistSettingCont">
                     <div className = "waitlistSettingsInputPanel">
-                        {state[0]}
+                        {this.displayState()}
                     </div>
                 </div>
             </div>

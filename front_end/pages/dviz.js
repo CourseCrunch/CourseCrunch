@@ -1,11 +1,11 @@
 import React from 'react';
-import './page.css';
-import '../index.css';
-import '../hover.css';
+import './dviz.css';
+import './index.css';
+import './hover.css';
 import { v4 } from 'uuid';
-import Display from './components/Display';
-import AddData from './components/AddData';
-import NavBar from '../../components/NavBar/NavBar';
+import Display from '../components/evaldata/Display';
+import AddData from '../components/evaldata/AddData';
+import NavBar from '../components/NavBar/NavBar';
 
 
 class Page extends React.Component {

@@ -33,7 +33,7 @@ class NavBar extends React.Component {
                         <li><label>CGPA Calculator</label></li>
                         <li><label>Course Review</label></li>
                         <li><Link href = "/recommendations"><a>Course Recommendation</a></Link></li>
-                        <li><Link href = "/evaldata/page"><a>Course Evaluations</a></Link></li>
+                        <li><Link href = "/dviz"><a>Course Evaluations</a></Link></li>
                         {this.Greeting(this.props)}
                     </ul>
                 </div>

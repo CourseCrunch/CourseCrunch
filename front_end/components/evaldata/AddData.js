@@ -28,7 +28,7 @@ class AddData extends Component {
                 type="text"
                 name="title"
                 style={{ flex: '10', padding: '5px' }}
-                placeholder="Ex. CSC108 ..."
+                placeholder="Enter a Course Code"
                 value={this.state.title}
                 onChange={this.onChange}
                 />

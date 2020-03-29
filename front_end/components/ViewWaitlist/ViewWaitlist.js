@@ -95,8 +95,6 @@ class ViewWaitlist extends React.Component {
     render() {
         this.reloadWaitlist();
         const { waitlists, removeCourse } = this.state;
-        console.log(waitlists.length < 1);
-        console.log(waitlists.length);
         const waitlistButtons = [];
         const waitlistVariant = removeCourse ? 'danger' : 'primary';
         const toggleRemove = !removeCourse;
@@ -108,7 +106,6 @@ class ViewWaitlist extends React.Component {
         >
             { removeCourse ? 'Cancel' : 'Remove Courses' }
         </Button>;
-        console.log(toggleButton);
         waitlists.forEach((waitlist) => {
             waitlistButtons.push(
                 <Button

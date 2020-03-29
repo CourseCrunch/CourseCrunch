@@ -6,7 +6,7 @@ import {
 } from 'react-bootstrap';
 import './ViewWaitlist.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import { Alert } from 'reactstrap';
+
 
 class ViewWaitlist extends React.Component {
     constructor(props) {

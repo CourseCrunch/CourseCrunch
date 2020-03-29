@@ -16,9 +16,9 @@ const Index = () => (
             <h1>Course Crunch</h1>
             <div className = "buttonPanel">
                 <ul className="buttonList">
-                    <li><Link href="/recommendations"><button className ="hvr-grow">Course Recommendations</button></Link></li>
-                    <li><Link href="#"><button className ="hvr-grow">PLACE HOLDER</button></Link></li>
-                    <li><Link href="/instructor"><button className ="hvr-grow">View Instructors</button></Link></li>
+                    <li><Link href="/recommendations"><a><button className ="hvr-grow">Course Recommendations</button></a></Link></li>
+                    <li><Link href="#"><a><button className ="hvr-grow">PLACE HOLDER</button></a></Link></li>
+                    <li><Link href="/instructor"><a><button className ="hvr-grow">View Instructors</button></a></Link></li>
                     <li><button className ="hvr-grow"> PLACE HOLDER</button></li>
                     <li><button className ="hvr-grow">PLACE HOLDER</button></li>
                 </ul>

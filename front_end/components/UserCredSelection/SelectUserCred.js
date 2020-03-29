@@ -21,9 +21,9 @@ class CredSelection extends React.Component {
 
 
     componentDidMount() {
-        var data = { unsanUuid: this.state.uuid };
+        let data = { unsanUuid: this.state.uuid };
         if (typeof window !== 'undefined') {
-            data = { unsanUuid: localStorage.getItem('userid') }
+            data = { unsanUuid: localStorage.getItem('userid') };
         }
         fetch(`http://localhost:${PORT}/change_email`, {
             method: 'POST',

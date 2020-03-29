@@ -35,8 +35,7 @@ class NavBar extends React.Component {
                 <div className = "spacer"/>
                 <div className = "NavBar_navigation-items">
                     <ul>
-                        <li><label>CGPA Calculator</label></li>
-                        <li><label>Course Review</label></li>
+                        <li><Link href = "#"><a>Course Reviews</a></Link></li>
                         <li><Link href = "/compare"><a>Compare Courses</a></Link></li>
                         <li><Link href = "/recommendations"><a>Course Recommendation</a></Link></li>
                         <li><Link href = "/dviz"><a>Course Evaluations</a></Link></li>

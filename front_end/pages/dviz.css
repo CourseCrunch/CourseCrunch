@@ -2,11 +2,9 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    left: 15%;
-    width: 75%;
+    width: 100%;
     background: #e5e5e5;
     position: relative;
-    top: 60px;
   }
   
   a {
@@ -14,6 +12,9 @@
     text-decoration: none;
   }
   
+  body {
+      margin: 0px
+  }
 
   
   .btn {

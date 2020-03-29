@@ -24,6 +24,7 @@ class Comparison extends React.Component {
         fetch(`http://localhost:3007/compare/instructors/${this.state.searchText}`)
             .then((out) => out.json())
             .then((result) => {
+                console.log(result);
                 this.setState({ data: result });
             }).catch((error) => {
                 console.log(error);

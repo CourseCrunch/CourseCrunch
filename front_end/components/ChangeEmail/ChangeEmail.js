@@ -5,6 +5,8 @@ import {
 import './ChangeEmail.css';
 import { Message } from 'semantic-ui-react';
 
+const PORT = process.env.PROFILEPORT;
+
 class SettingsInput extends React.Component {
     constructor(props) {
         super(props);
@@ -19,18 +21,28 @@ class SettingsInput extends React.Component {
     }
 
     componentDidMount() {
-        fetch('http://localhost:3008/change_email', { method: 'GET' })
+        fetch(`http://localhost:${PORT}/change_email`, { method: 'GET' })
             .then((res) => res.json())
             .then(
                 () => {
                     this.setState({
                         isLoaded: true,
                     });
+                    if (typeof window !== 'undefined') {
+                        this.setState({
+                            uuid: localStorage.getItem('userid'),
+                        });
+                    }
                 }, (error) => {
                     this.setState({
                         isLoaded: true,
                         error,
                     });
+                    if (typeof window !== 'undefined') {
+                        this.setState({
+                            uuid: localStorage.getItem('userid'),
+                        });
+                    }
                 },
             );
     }
@@ -56,7 +68,7 @@ class SettingsInput extends React.Component {
             this.props.onButtonPress({ screen: 'Sec' });
         } else {
             const data = {
-                unsanUuid: 'b17f1135-501f-4397-b257-653897375000',
+                unsanUuid: this.state.uuid,
                 email: this.state.newEmail,
                 password: this.state.password,
             };
@@ -101,6 +113,7 @@ class SettingsInput extends React.Component {
                 list={['An Error Occurred Try Again Later']}
             /> </div>;
         }
+        return <></>;
     }
 
     render() {

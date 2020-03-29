@@ -16,4 +16,4 @@ app.use('/edit_profile', editProfRouter);
 app.use('/change_email', changeEmailRouter);
 app.use('/change_password', changePassRouter);
 
-app.listen(process.env.PROFILEPORT, () => console.log('App listening on port '+process.env.PROFILEPORT));
+app.listen(process.env.PROFILEPORT, () => console.log(`App listening on port ${process.env.PROFILEPORT}`));

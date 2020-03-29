@@ -6,6 +6,7 @@ function getSchools() {
     return {
         utm: ['4928'],
         utsg: ['1484', '5281'],
+        grad: ['1484', '5281'],
         utsc: '4919',
     };
 }

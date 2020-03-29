@@ -107,5 +107,17 @@ router.get('/pfp/:campus', async (req, response) => {
     });
 });
 
+router.post('/allInstructors', async (req, res) => {
+    const rCampus = req.body.campus;
+    if (!(rCampus in evalsCampuses) && rCampus !== 'all') {
+        res.status(400).end();
+        return;
+    }
+    evals.allInstructors(rCampus).then((result) => {
+        res.json(result);
+    }).catch(() => {
+        res.status(500).end();
+    });
+});
 
 module.exports = router;

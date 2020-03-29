@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import axios from 'axios';
 
-export class AddData extends Component {
+class AddData extends Component {
     state = {
         title: '',
         labels: [],

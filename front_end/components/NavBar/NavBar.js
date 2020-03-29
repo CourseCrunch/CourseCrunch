@@ -2,16 +2,26 @@ import React from 'react';
 import Link from 'next/link';
 import './NavBar.css';
 
-function Greeting() {
-    if (typeof window !== 'undefined') {
-        if (localStorage.getItem('loggedIn') === null) {
-            return <li><Link href='/login'><a>Login</a></Link></li>;
-        }
-        return <><li><Link href = "/editProfile"><a>User Profile</a></Link></li>
-            <li><label>Logout</label></li></>;
-    }
-}
 class NavBar extends React.Component {
+    // eslint-disable-next-line class-methods-use-this
+    logout() {
+        if (typeof window !== 'undefined') {
+            localStorage.removeItem('loggedIn');
+            localStorage.removeItem('userid');
+        }
+    }
+
+    Greeting() {
+        if (typeof window !== 'undefined') {
+            if (localStorage.getItem('loggedIn') === null) {
+                return <li><Link href='/login'><a>Login</a></Link></li>;
+            }
+            return <><li><Link href = "/editProfile"><a>User Profile</a></Link></li>
+                <li><Link href='/'><a onClick={this.logout}>Logout</a></Link></li></>;
+        }
+        return null;
+    }
+
     render() {
         return <header className ="NavBar">
             <nav className = "NavBar_navigation">
@@ -24,7 +34,7 @@ class NavBar extends React.Component {
                         <li><label>Course Review</label></li>
                         <li><Link href = "/recommendations"><a>Course Recommendation</a></Link></li>
                         <li><Link href = "/evaldata/page"><a>Course Evaluations</a></Link></li>
-                        {Greeting(this.props)}
+                        {this.Greeting(this.props)}
                     </ul>
                 </div>
             </nav>

@@ -25,7 +25,7 @@ do
 done
 
 
-folders=("authentication" "course_calendar" "dviz" "front_end" "profile_conf" "waitlists" "course_evals");
+folders=("front_end" "authentication" "course_calendar" "dviz" "profile_conf" "waitlists" "course_evals");
 
 for i in ${!folders[@]};
 do

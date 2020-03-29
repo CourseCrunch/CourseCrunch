@@ -1,4 +1,4 @@
-.settingsInput{
+.waitlistInput{
     position: relative;
     top: 60px;
     left: 15%;
@@ -7,6 +7,7 @@
     height: 100%;
     z-index:999;
 }
+
 
 .panel_container{
     box-shadow: 2px 2px 40px #a6a6a6;
@@ -61,7 +62,7 @@ form Label{
     clear: both;
 }
 
-#form_firstName, #form_lastName, #form_program{
+#form_courseCode, #form_courseYear, #form_courseTerm{
     position: relative;
     padding: 0 20px;
     height: 40px;

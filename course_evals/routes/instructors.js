@@ -69,12 +69,13 @@ router.get('/eval/:campus', (req, response) => {
             Promise.all(
                 evalsCampuses[rCampus].map((campus) => campus.prof_scores(first, last)
                     .then((res) => res.map((each) => campus.convert(each)))),
-            ).then((res) => {
-                const jsonResult = ObjectAverage(res);
-                delete jsonResult['Number Invited'];
-                delete jsonResult['Number of Responses'];
-                response.json(jsonResult);
-            });
+            )
+                .then((res) => {
+                    const jsonResult = ObjectAverage(res);
+                    delete jsonResult['Number Invited'];
+                    delete jsonResult['Number of Responses'];
+                    response.json(jsonResult);
+                });
         } else {
             response.status(404).end();
         }

@@ -14,6 +14,8 @@ function getDay(day) {
     case 'WE': return 'Wednesday';
     case 'TH': return 'Thursday';
     case 'FR': return 'Friday';
+    default:
+        return null;
     }
 }
 
@@ -31,7 +33,7 @@ async function isInBetween(data, timings) {
         // check to see if a lecture works, every section for that lecture must be non-conflicting
         const { sections } = lecture;
         const AvailableSections = sections.map((section) => {
-            if (section.day == '' || section.start == '' || section.end == '') {
+            if (section.day === '' || section.start === '' || section.end === '') {
                 // Online courses;
                 return true;
             }
@@ -44,17 +46,18 @@ async function isInBetween(data, timings) {
                 const d2 = moment(timing.end);
                 return !(s1.isBetween(d1, d2) || d1.isBetween(s1, s2));
             });
-            return availableTimings.every((value) => value == true);
+            return availableTimings.every((value) => value === true);
         });
-        return AvailableSections.every((value) => value == true);
+        return AvailableSections.every((value) => value === true);
     });
-    return AvailableLecture.some((value) => value == true);
+    return AvailableLecture.some((value) => value === true);
 }
 
 async function filterCourses(res, data, timings) {
     const finalArray = await Promise.all(data.map(async (value) => {
+        // eslint-disable-next-line no-underscore-dangle
         const result = await timetableApi.queryCourse(value._id, 'winter', '2019');
-        if (timings == [] || result == null) {
+        if (timings === [] || result === null) {
             return result;
         }
         const IsConflicting = await isInBetween(result, timings);
@@ -82,7 +85,7 @@ router.post('/recommendation', (req, res) => {
                 const courses = result.courseList;
                 courseEvals.getCourseRecommendations('utm', courses, filteredCourse, limit)
                     .then((data) => {
-                        if (timings.length == 0) {
+                        if (timings.length === 0) {
                             res.status(200).send(data);
                         } else {
                             filterCourses(res, data, timings);

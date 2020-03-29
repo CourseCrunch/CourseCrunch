@@ -1,5 +1,4 @@
 const Fuse = require('fuse.js');
-const mongoose = require('mongoose');
 const UTM = require('./schemas/UTMEval');
 const AANDS = require('./schemas/AANDSEval');
 const ASANDE = require('./schemas/ASANDEEval');
@@ -8,24 +7,6 @@ const SW = require('./schemas/SWEval');
 const INFO = require('./schemas/INFOEval');
 const UTSC = require('./schemas/UTSCEval');
 
-mongoose.connect(process.env.MONGOEVALSTR, { useNewUrlParser: true });
-
-function getCourseRecommendations(school, courses, filteredCourse, limit) {
-    return new Promise((resolve, reject) => {
-        mongoose.model(`${school}_evals`).aggregate([
-            { $group: { _id: '$Code', Course_Workload: { $avg: { $toDecimal: '$Course_Workload' } }, Term: { $addToSet: { $concat: ['$Term', '$Year'] } } } },
-            { $match: { $and: [{ _id: { $nin: filteredCourse } }, { Term: { $in: ['Winter2019'] } }, { _id: { $in: courses } }] } },
-            { $sort: { Course_Workload: 1 } },
-            { $limit: limit },
-        ], (err, data) => {
-            if (err) {
-                reject('Errored');
-            } else {
-                resolve(data);
-            }
-        });
-    });
-}
 
 function getSchools() {
     return {
@@ -54,6 +35,7 @@ const options = {
 const fuseGlobal = {};
 const promiseMap = {};
 const promises = [];
+
 function generatePromises() {
     const schools = getSchools();
     const keys = Object.keys(schools);
@@ -91,6 +73,38 @@ function getFuse() {
 
 function fuzzySearch(schoolName, instructorName) {
     return getFuse().then((f) => f[schoolName].search(instructorName));
+}
+
+function getCourseRecommendations(school, courses, filteredCourse, limit) {
+    // return new Promise((resolve, reject) => {
+    //     mongoose.model(`${school}_evals`).aggregate([
+    //         { $group: { _id: '$Code', Course_Workload: { $avg: { $toDecimal: '$Course_Workload' } }, Term: { $addToSet: { $concat: ['$Term', '$Year'] } } } },
+    //         { $match: { $and: [{ _id: { $nin: filteredCourse } }, { Term: { $in: ['Winter2019'] } }, { _id: { $in: courses } }] } },
+    //         { $sort: { Course_Workload: 1 } },
+    //         { $limit: limit },
+    //     ], (err, data) => {
+    //         if (err) {
+    //             reject('Errored');
+    //         } else {
+    //             resolve(data);
+    //         }
+    //     });
+    // });
+    const promisesArray = [];
+    const schools = getSchools();
+    schools[school].forEach((campusSchema) => {
+        promisesArray.push(campusSchema.getReccomendations(courses, filteredCourse, limit));
+    });
+    return Promise.all(promisesArray).then((result) => {
+        let final = [];
+        if (result.length === 1) {
+            return result[0];
+        }
+        result.forEach((array) => {
+            final = final.concat(array);
+        });
+        return final;
+    });
 }
 
 getFuse().then(() => console.log('built course eval fuse'));

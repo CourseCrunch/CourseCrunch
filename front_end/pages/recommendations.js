@@ -1,11 +1,11 @@
 import React from 'react';
+import WeekCalendar from 'react-week-calendar';
+import moment from 'moment';
 import NavBar from '../components/NavBar/NavBar';
 import Filter from '../components/Filter/Filter';
 import './index.css';
 import './hover.css';
 // import './recommendations.css';
-import WeekCalendar from 'react-week-calendar';
-import moment from 'moment';
 import CustomModal from '../components/CustomModal/CustomModal';
 import 'react-week-calendar/dist/style.css';
 
@@ -52,10 +52,11 @@ class Recommendations extends React.Component {
                 'Content-Type': 'application/json',
             },
             body: JSON.stringify(data),
-        }).then((response) => response.json()).then((result) => result.filter(Boolean)).then((response) => {
-            console.log(response);
-            this.setState({ results: response });
-        });
+        }).then((response) => response.json())
+            .then((result) => result.filter(Boolean)).then((response) => {
+                console.log(response);
+                this.setState({ results: response });
+            });
     }
 
 

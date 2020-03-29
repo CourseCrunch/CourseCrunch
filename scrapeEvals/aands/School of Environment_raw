@@ -1,4 +1,4 @@
-Code,Dept,Division,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Instructor generated enthusiasm,Course Workload,I would recommend this course,Number of Students Invited,Number of Respondents
+Code,Dept,Division,Course,Last_Name,First_Name,Term,Year,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Item_7,Item_8,Item_9,Item_10,Item_11
 ENV395Y0,ENVMT,ARTSC,Sp Topics Field Crs ENV395Y0-F-LEC3001,Havelka,Monika,Summer,2018,5,5,5,4.9,4.9,5,5,3,5,25,13
 ENV395Y0,ENVMT,ARTSC,Sp Topics Field Crs ENV395Y0-F-LEC3001,Murck,Barbara,Summer,2018,5,5,5,4.9,4.9,5,5,3,5,25,13
 ENV221H1,ENVMT,ARTSC,Multidiscpln Environ ENV221H1-S-LEC0101,Pond,David,Summer,2018,4.4,4.4,4.4,4.1,4.2,4.3,4.5,3.2,4.3,52,14

@@ -1,4 +1,4 @@
-Code,Dept,Division,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Instructor generated enthusiasm,Course Workload,I would recommend this course,Number of Students Invited,Number of Respondents
+Code,Dept,Division,Course,Last_Name,First_Name,Term,Year,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Item_7,Item_8,Item_9,Item_10,Item_11
 PHL210Y1,PHL,ARTSC,17-18th Cent Philsphy PHL210Y1-Y-LEC0101 (B),Doerksen,Lisa,Summer,2018,4.1,4.1,3.8,4.1,4.2,3.6,3.7,3.3,3.9,41,18
 PHL382H1,PHL,ARTSC,Death & Dying PHL382H1-S-LEC5101,Wurst,Matthew,Summer,2018,3.8,3.9,4.3,3.9,3.9,3.9,4.3,3.3,3.7,44,12
 PHL273H1,PHL,ARTSC,Environmental Ethics PHL273H1-S-LEC0101,Taylor,Evan,Summer,2018,4.2,4.2,4.4,3.9,4.4,4.2,4.4,2.8,4.3,62,20

@@ -5,6 +5,8 @@ import {
 } from 'react-bootstrap';
 import './SettingsInput.css';
 
+const PORT = process.env.PROFILEPORT;
+
 class SettingsInput extends React.Component {
     constructor(props) {
         super(props);
@@ -23,10 +25,11 @@ class SettingsInput extends React.Component {
     }
 
     componentDidMount() {
-        const uName = 'b17f1135-501f-4397-b257-653897375000';
-        const data = { unsanUuid: uName };
-
-        fetch('http://localhost:3008/edit_profile', {
+        var data = { unsanUuid: this.state.uuid };
+        if (typeof window !== 'undefined') {
+            data = { unsanUuid: localStorage.getItem('userid') }
+        }
+        fetch(`http://localhost:${PORT}/edit_profile`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -43,11 +46,21 @@ class SettingsInput extends React.Component {
                         oldLName: lNam,
                         oldProgram: prog,
                     });
+                    if (typeof window !== 'undefined') {
+                        this.setState({
+                            uuid: localStorage.getItem('userid'),
+                        });
+                    }
                 }, (error) => {
                     this.setState({
                         isLoaded: true,
                         error,
                     });
+                    if (typeof window !== 'undefined') {
+                        this.setState({
+                            uuid: localStorage.getItem('userid'),
+                        });
+                    }
                 },
             );
     }
@@ -70,12 +83,12 @@ class SettingsInput extends React.Component {
 
     handleSubmit() {
         const data = {
-            unsanUuid: 'b17f1135-501f-4397-b257-653897375000',
+            unsanUuid: this.state.uuid,
             unsanFname: this.state.newFName,
             unsanLname: this.state.newLName,
             unsanProgram: this.state.newProg,
         };
-        fetch('http://localhost:3008/edit_profile', {
+        fetch(`http://localhost:${PORT}/edit_profile`, {
             method: 'PATCH',
             headers: {
                 'Content-Type': 'application/json',

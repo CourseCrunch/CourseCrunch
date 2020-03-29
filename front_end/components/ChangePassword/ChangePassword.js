@@ -7,6 +7,8 @@ import './ChangePassword.css';
 import { Message } from 'semantic-ui-react';
 import SelectUserCred from '../UserCredSelection/SelectUserCred';
 
+const PORT = process.env.PROFILEPORT;
+
 class SettingsInput extends React.Component {
     constructor(props) {
         super(props);
@@ -21,18 +23,28 @@ class SettingsInput extends React.Component {
     }
 
     componentDidMount() {
-        fetch('http://localhost:3008/change_password', { method: 'GET' })
+        fetch(`http://localhost:${PORT}/change_password`, { method: 'GET' })
             .then((res) => res.json())
             .then(
                 (result) => {
                     this.setState({
                         isLoaded: true,
                     });
+                    if (typeof window !== 'undefined') {
+                        this.setState({
+                            uuid: localStorage.getItem('userid'),
+                        });
+                    }
                 }, (error) => {
                     this.setState({
                         isLoaded: true,
                         error,
                     });
+                    if (typeof window !== 'undefined') {
+                        this.setState({
+                            uuid: localStorage.getItem('userid'),
+                        });
+                    }
                 },
             );
     }
@@ -58,11 +70,11 @@ class SettingsInput extends React.Component {
             this.props.onButtonPress({ screen: 'Sec' });
         } else {
             const data = {
-                unsanUuid: 'b17f1135-501f-4397-b257-653897375000',
+                unsanUuid: this.state.uuid,
                 newPassword: this.state.newPassword,
                 oldPassword: this.state.oldPassword,
             };
-            fetch('http://localhost:3008/change_password', {
+            fetch(`http://localhost:${PORT}/change_password`, {
                 method: 'PATCH',
                 headers: {
                     'Content-Type': 'application/json',
@@ -103,6 +115,7 @@ class SettingsInput extends React.Component {
                 content="An Error Occurred Try Again Later"
             /> </div>;
         }
+        return <></>;
     }
 
     render() {

@@ -20,7 +20,6 @@ do
 
     cd $log;
     #echo `pwd`;
-    rm package-lock.json
     npm i
     check_arg $log;
     if [ $? == 1 ]; then 

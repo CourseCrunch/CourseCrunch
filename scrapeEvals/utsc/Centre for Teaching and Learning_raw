@@ -1,4 +1,6 @@
-Code,Dept,Course,Term,Year,Last Name,First Name,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Inspired thinking about subject matter,Course Workload,I would recommend this course,Number Invited,Number of Survey Responses
+Code,Dept,Course,Term,Year,Last_Name,First_Name,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Item_7,Item_8,Item_9,Item_10,Item_11
+CTLA01H3,CTLSC,Foundations in Communication CTLA01H3-F-LEC01,Fall,2019,Khoo,Suan,3.7,3.8,4.6,3.8,3.9,3.7,3.5,3.7,3.6,32,24
+CTLB03H3,CTLSC,Intro to Service Learning CTLB03H3-F-LEC01,Fall,2019,Persaud,Kamini,4.3,4.4,4.8,4.4,4.5,4.5,4.5,3.1,4.7,15,14
 CTLA01H3,CTLSC,Foundations in Communication CTLA01H3-S-LEC01,Winter,2019,Khoo,Suan,3.7,3.7,3.9,3.7,3.7,3.5,3.4,3.5,3.6,16,10
 CTLA10H3,CTLSC,Personal Health Optimal Lrning CTLA10H3-S-LEC01,Winter,2019,Stevenson,Sheryl,4.1,4.3,4,3.7,3.8,3.6,3.8,3.4,4,42,30
 CTLB03H3,CTLSC,Intro to Service Learning CTLB03H3-S-LEC01,Winter,2019,Bongard,Cynthia,3.4,3.2,4.2,2.4,2.6,3,3.4,3.4,3,14,5

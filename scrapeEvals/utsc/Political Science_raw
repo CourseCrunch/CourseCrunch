@@ -1,4 +1,32 @@
-Code,Dept,Course,Term,Year,Last Name,First Name,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Inspired thinking about subject matter,Course Workload,I would recommend this course,Number Invited,Number of Survey Responses
+Code,Dept,Course,Term,Year,Last_Name,First_Name,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Item_7,Item_8,Item_9,Item_10,Item_11
+POLD09H3,POLSC,Adv Tops in Int Security POLD09H3-F-LEC01,Fall,2019,Ahmad,Aisha,4.2,4.3,4.3,3.9,3.8,4.1,4.2,3.7,3.8,16,12
+POLB90H3,POLSC,Comp Develop: Internat'l Persp POLB90H3-F-LEC01,Fall,2019,Teichman,Judith,4.0,4.2,3.9,3.8,3.9,3.7,4.0,3.5,3.8,157,49
+POLC39H3,POLSC,Comparative Legal Systems POLC39H3-F-LEC01,Fall,2019,Kahraman,Filiz,4.6,4.7,4.8,4.4,4.4,4.2,4.3,3.8,4.4,48,10
+POLB92H3,POLSC,Comparative Pol: Revolution POLB92H3-F-LEC01,Fall,2019,Gordner,Matthew,3.3,3.1,2.6,3.0,3.2,2.4,2.8,4.0,2.1,54,14
+POLD45H3,POLSC,Constitutionalism POLD45H3-F-LEC01,Fall,2019,Acorn,Elizabeth,4.3,4.2,4.8,3.9,4.1,4.0,4.0,3.8,4.3,23,16
+POLC74H3,POLSC,Contemporary Political Thought POLC74H3-F-LEC30,Fall,2019,Shoikhedbrod,Igor,4.3,4.2,4.5,3.9,4.2,4.0,4.2,3.3,3.9,23,12
+POLA01H3,POLSC,Critical Issues in Politics I POLA01H3-F-LEC01,Fall,2019,Way,Lucan,4.3,4.3,4.5,4.3,4.4,4.3,4.1,3.4,4.2,166,50
+POLA01H3,POLSC,Critical Issues in Politics I POLA01H3-F-LEC02,Fall,2019,Triadafilopoulos,Triadafilos,4.2,4.3,4.1,3.9,3.8,3.7,4.0,3.3,3.9,223,97
+POLC37H3,POLSC,Global Justice POLC37H3-F-LEC01,Fall,2019,Kohn,Margaret,3.9,3.8,4.0,3.8,3.9,3.6,3.7,3.1,3.8,56,25
+POLD52H3,POLSC,Immigration & Can Pol Develop POLD52H3-F-LEC01,Fall,2019,Campisi,Julian,4.3,4.3,4.3,4.3,4.0,3.8,4.3,3.5,4.1,21,15
+POLC54H3,POLSC,Intergov't Relations in Canada POLC54H3-F-LEC01,Fall,2019,Skogstad,Grace,3.5,3.6,3.5,3.5,3.8,3.2,3.5,3.4,2.9,52,18
+POLC38H3,POLSC,International Law POLC38H3-F-LEC01,Fall,2019,Kahraman,Filiz,4.4,4.4,4.3,4.4,4.2,4.0,4.2,3.4,4.2,54,24
+POLC09H3,POLSC,Interntnl Security: Conflict POLC09H3-F-LEC01,Fall,2019,Ahmad,Aisha,4.4,4.5,4.5,3.7,3.9,3.9,4.2,3.5,3.9,47,35
+POLB80H3,POLSC,Intro to Interntnl Relations I POLB80H3-F-LEC01,Fall,2019,Hoffmann,Matthew,4.2,4.3,4.6,4.1,4.2,4.0,4.2,3.4,4.0,169,45
+POLB72H3,POLSC,Intro to Political Theory POLB72H3-F-LEC01,Fall,2019,Shanks,Torrey,3.8,3.8,3.4,3.1,3.3,3.1,3.0,3.2,2.9,124,30
+POLB30H3,POLSC,Law  Justice  and Rights POLB30H3-F-LEC01,Fall,2019,Kohn,Margaret,4.1,4.2,4.1,3.8,4.0,3.9,4.2,3.0,4.2,168,46
+POLD30H3,POLSC,Legal Reasoning POLD30H3-F-LEC01,Fall,2019,McDougall,Andrew,4.3,4.5,4.5,4.0,4.0,4.2,3.7,2.3,4.5,21,6
+POLD50H3,POLSC,Pol Interests Ident&Pub Policy POLD50H3-F-LEC30,Fall,2019,Beange,Pauline,2.9,2.8,3.1,2.9,2.8,2.6,2.9,3.8,2.7,24,9
+POLC78H3,POLSC,Political Analysis I POLC78H3-F-LEC01,Fall,2019,Wilder,Matthew,3.4,3.8,3.6,3.9,3.8,3.3,3.4,3.1,3.3,113,34
+POLD53H3,POLSC,Political Disagrmnt in Canada POLD53H3-F-LEC01,Fall,2019,Cochrane,Christopher,4.1,3.8,4.3,3.1,3.5,3.5,3.8,4.3,3.1,24,8
+POLC69H3,POLSC,Political Economy: Perspective POLC69H3-F-LEC01,Fall,2019,Renckens,Stefan,4.2,4.2,4.4,4.3,4.2,4.0,4.0,3.5,3.7,56,14
+POLD59H3,POLSC,Politics of Disability POLD59H3-F-LEC01,Fall,2019,Onley,David,3.9,4.0,3.9,4.0,4.1,2.9,4.4,2.7,4.1,23,7
+POLC97H3,POLSC,Protest Politics Middle East POLC97H3-F-LEC01,Fall,2019,Gordner,Matthew,3.5,3.7,3.3,3.7,3.8,3.0,3.3,3.5,3.3,30,12
+PPGC67H3,POLSC,Public Policy in Canada PPGC67H3-F-LEC01,Fall,2019,Campisi,Julian,4.1,4.1,4.6,4.1,4.1,4.0,4.0,2.9,4.4,34,25
+PPGC66H3,POLSC,Public Policy Making PPGC66H3-F-LEC01,Fall,2019,Renckens,Stefan,4.1,4.4,4.5,4.4,4.5,4.1,4.3,3.7,4.2,61,17
+POLD92H3,POLSC,Survival and Demise Dictator POLD92H3-F-LEC01,Fall,2019,Casey,Adam,4.6,4.6,4.4,4.4,4.5,4.4,4.4,3.5,4.6,23,9
+POLC32H3,POLSC,The Canadian Judicial System POLC32H3-F-LEC01,Fall,2019,Rosevear,Evan,3.3,3.7,3.2,3.5,3.5,2.9,3.4,3.8,3.0,75,21
+POLC88H3,POLSC,The New International Agenda POLC88H3-F-LEC01,Fall,2019,Hoffmann,Matthew,4.0,4.5,4.7,4.3,4.6,4.3,4.0,3.6,4.1,53,16
 POLC68H3,POLSC,The Constitution of Canada POLC68H3-Y-LEC01,Summer,2019,Campisi,Julian,3.8,4.1,4.1,3.7,3.7,3.5,3.6,3.3,3.5,30,17
 POLB50Y3,POLSC,Canadian Government & Politics POLB50Y3-Y-LEC01,Summer,2019,Cochrane,Christopher,4.5,4.5,4.5,4.4,4.4,4.2,4.1,3.5,4.3,83,17
 POLC42H3,POLSC,Topics in Comparative Politics POLC42H3-Y-LEC01,Summer,2019,Czuba,Maciej,4.2,4.3,4.4,4.3,4.3,4.3,4,3.2,4,36,19

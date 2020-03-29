@@ -141,13 +141,6 @@ UTMSchema.statics.compareCourses = function (courseId) {
     ]).exec();
 };
 
-
-// Item_7: { $avg: { $convert: { input: '$Item_7', to: 'double', onError: null, onNull: null } } },
-// Item_8: { $avg: { $convert: { input: '$Item_8', to: 'double', onError: null, onNull: null } } },
-// Item_11: { $avg: { $convert: { input: '$Item_11', to: 'double', onError: null, onNull: null } } },
-// Item_12: { $avg: { $convert: { input: '$Item_12', to: 'double', onError: null, onNull: null } } },
-
-
 UTMSchema.statics.category_code_average = function (courseId, category) {
     return this.aggregate([
         { $match: { Code: courseId } },
@@ -155,5 +148,22 @@ UTMSchema.statics.category_code_average = function (courseId, category) {
     ]).exec();
 };
 
+UTMSchema.statics.get_professors = function () {
+    return this.aggregate([
+        { $group:
+            {
+                _id: { FirstName: '$First_Name', LastName: '$Last_Name' },
+            },
+        }, { $project:
+            {
+                _id: 0, title: { $concat: ['$_id.FirstName', ' ', '$_id.LastName'] }, school: 'utm',
+            },
+        },
+    ]).exec();
+};
+
+UTMSchema.statics.schema_name = function () {
+    return 'UTM';
+};
 
 module.exports = database.mongo.model('utm_evals', UTMSchema);

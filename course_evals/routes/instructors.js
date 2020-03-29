@@ -89,20 +89,35 @@ router.get('/pfp/:campus', async (req, response) => {
         response.status(400).end();
         return;
     }
-    const res = await customsearch.cse.list({
+    customsearch.cse.list({
         cx: process.env.GOOGLECSE,
         q: `${iName} ${rCampus}`,
         // q: `${iName}`,
         auth: process.env.GOOGLEIMAGES,
         searchType: 'image',
         num: 1,
+    }).then((res) => {
+        if (res.data.items.length) {
+            response.json(res.data.items[0].link);
+        } else {
+            response.status(404).end();
+        }
+    }).catch(() => {
+        response.status(429).end();
     });
-    if (res.data.items.length) {
-        response.json(res.data.items[0].link);
-    } else {
-        response.status(404).end();
-    }
 });
 
+router.post('/allInstructors', async (req, res) => {
+    const rCampus = req.body.campus;
+    if (!(rCampus in evalsCampuses) && rCampus !== 'all') {
+        res.status(400).end();
+        return;
+    }
+    evals.allInstructors(rCampus).then((result) => {
+        res.json(result);
+    }).catch(() => {
+        res.status(500).end();
+    });
+});
 
 module.exports = router;

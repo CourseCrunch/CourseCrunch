@@ -12,6 +12,19 @@ check_arg() {
     return 0;
 }
 
+dependencies=("rmp_api" "timetable_api");
+
+for i in ${!folders[@]};
+do
+    log=${folders[$i]}
+
+    cd $log;
+    #echo `pwd`;
+    npm i
+    cd ..
+done
+
+
 folders=("authentication" "course_calendar" "dviz" "front_end" "profile_conf" "waitlists" "course_evals");
 
 for i in ${!folders[@]};
@@ -20,7 +33,6 @@ do
 
     cd $log;
     #echo `pwd`;
-    rm -f package-lock.json
     npm i
     check_arg $log;
     if [ $? == 1 ]; then 

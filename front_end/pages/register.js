@@ -1,8 +1,6 @@
 import React from 'react';
 import Router from 'next/router';
-import Button from '@material-ui/core/Button';
 import { Message } from 'semantic-ui-react';
-import TextField from '@material-ui/core/TextField';
 import NavBar from '../components/NavBar/NavBar';
 import Registration from '../components/Registration/Registration';
 

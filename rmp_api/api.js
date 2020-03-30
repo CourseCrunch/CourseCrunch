@@ -30,11 +30,11 @@ const fuseGlobal = {};
 const promises = [];
 function generatePromises() {
     const keys = Object.keys(cache.getSchools());
-    for (let i = 0; i < keys.length; i += 1) {
-        promises.push(mongo.Instruct.find({ school: keys[i] }).then(
-            (res) => ({ school: keys[i], fuse: new Fuse(res, options) }),
+    keys.forEach((key) => {
+        promises.push(mongo.Instruct.find({ school: key }).then(
+            (res) => ({ school: key, fuse: new Fuse(res, options) }),
         ).catch(() => null));
-    }
+    });
     return Promise.all(promises);
 }
 
@@ -58,12 +58,13 @@ function fuzzySearch(schoolName, instructorName) {
 
 // fuzzySearch('utm', 'Bailey Lee').then((r) => console.log(r[0]));
 
-getFuse().then(() => console.log('build fuzzy search'));
+getFuse().then(() => console.log('built fuzzy search'));
 
 module.exports = {
     findInstructor: queryInstructor,
     findAllInstructors: cache.queryAllInstructors,
-    allSchools: cache.getSchools,
+    getSchools: cache.getSchools,
     init: cache.updateInstructorCache,
     searchInstructor: fuzzySearch,
+    getFuse,
 };

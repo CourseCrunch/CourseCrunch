@@ -197,7 +197,7 @@ if __name__ == "__main__":
             courses_url = base + link["href"]
             break
     load_dotenv(os.getcwd() + "/config.env")
-    driver = GraphDatabase.driver("bolt://localhost:7687", auth=(os.environ.get("DBUSER"),  os.environ.get("DBPWD")))
+    driver = GraphDatabase.driver(os.environ.get("NEOURI"), auth=(os.environ.get("NEOUSER"),  os.environ.get("NEOPWD")))
     getAllDepartments()
     print("Got all departments")
     populate_courses()

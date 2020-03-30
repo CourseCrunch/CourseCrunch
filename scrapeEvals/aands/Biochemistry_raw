@@ -1,4 +1,4 @@
-Code,Dept,Division,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Instructor generated enthusiasm,Course Workload,I would recommend this course,Number of Students Invited,Number of Respondents
+Code,Dept,Division,Course,Last_Name,First_Name,Term,Year,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Item_7,Item_8,Item_9,Item_10,Item_11
 BCH210H1,BCH,ARTSC,Biochemistry I BCH210H1-F-LEC0101,Andreopoulos,Stavroula,Summer,2018,3.5,4,3.5,3.3,3.4,3.2,3.5,4,2.8,156,52
 BCH210H1,BCH,ARTSC,Biochemistry I BCH210H1-F-LEC0101,Patterson,Sian,Summer,2018,3.5,4,3.8,3.3,3.4,3.2,3.8,4,2.8,156,52
 BCB420H1,BCH,ARTSC,Systems Biology BCB420H1-S-LEC0101,Steipe,Boris,Winter,2018,2.4,2.1,2.4,2.6,2.4,2.1,3.1,3.5,1.9,22,8

@@ -1,0 +1,32 @@
+  #dviz_body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: #e5e5e5;
+    position: relative;
+  }
+  
+  a {
+    color: rgb(13, 12, 100);
+    text-decoration: none;
+  }
+  
+  body {
+      margin: 0px
+  }
+
+  
+  .btn {
+    display: inline-block;
+    border: none;
+    background: rgb(17, 6, 109);
+    color: #fff;
+    padding:7px 20px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background: rgb(26, 42, 184);
+  }
+  

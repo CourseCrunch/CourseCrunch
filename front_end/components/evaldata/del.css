@@ -1,0 +1,13 @@
+#delbut {
+    background: #ad2828;
+    color: #fff;
+    border: none;
+    padding: 5px 9px;
+    border-radius: 50%;
+    cursor: pointer;
+    float: right;
+}
+
+#delbut:hover {
+    background: #ff0000;
+}

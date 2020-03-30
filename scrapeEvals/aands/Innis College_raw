@@ -1,4 +1,4 @@
-Code,Dept,Division,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Instructor generated enthusiasm,Course Workload,I would recommend this course,Number of Students Invited,Number of Respondents
+Code,Dept,Division,Course,Last_Name,First_Name,Term,Year,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Item_7,Item_8,Item_9,Item_10,Item_11
 INI211H1,INNIS,ARTSC,Intro to Creative Writing INI211H1-F-LEC0101,Spafford,Roswell,Summer,2018,4.4,4.4,4.7,4.8,4.6,4.5,4.8,3.2,4.7,23,19
 INI300H1,INNIS,ARTSC,Strategic Writing INI300H1-F-LEC0101,Jovanovic-Krstic,Viktoria,Summer,2018,3.9,4.2,3.9,4.3,4.6,4,3.9,2.9,3.8,41,11
 INI101H1,INNIS,ARTSC,Blogging the Just City INI101H1-S-LEC0101,Micallef,Shawn,Winter,2018,4.2,4.8,4.6,4.2,4.8,4.4,5,2.4,4.4,16,5

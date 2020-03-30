@@ -1,4 +1,26 @@
-Code,Dept,Course,Term,Year,Last Name,First Name,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Inspired thinking about subject matter,Course Workload,I would recommend this course,Number Invited,Number of Survey Responses
+Code,Dept,Course,Term,Year,Last_Name,First_Name,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Item_7,Item_8,Item_9,Item_10,Item_11
+GGRC30H3,GGRSC,Advanced GIS GGRC30H3-F-LEC01,Fall,2019,Higgins,Christopher,4.7,4.5,4.5,4.8,4.8,4.3,4.5,3.8,3.8,14,6
+CITD01H3,GGRSC,City Issues and Strategies CITD01H3-F-LEC01,Fall,2019,Biggar,Jeffrey,4.2,4.6,4.6,4.4,4.8,4.3,4.4,3.3,4.5,27,12
+CITB04H3,GGRSC,City Politics CITB04H3-F-LEC01,Fall,2019,Karmali,Sean,3.6,4.0,3.9,3.9,4.0,3.5,3.7,3.6,3.5,102,38
+CITD06H3,GGRSC,City Studies Workshop II CITD06H3-F-LEC01,Fall,2019,Swerhun,Nicole,5.0,4.9,5.0,4.9,4.9,4.9,5.0,3.0,5.0,21,9
+CITC17H3,GGRSC,Civic Engagement in Urban Pol CITC17H3-F-LEC01,Fall,2019,Biggar,Jeffrey,4.1,4.4,4.4,4.3,4.3,4.0,3.8,3.3,4.1,49,16
+GGRC34H3,GGRSC,Crowd-sourced Urban Geography GGRC34H3-F-LEC01,Fall,2019,Brauen,Glenn,4.6,4.3,5.0,4.3,4.4,4.6,4.1,3.3,3.9,9,7
+GGRC44H3,GGRSC,Environmental Conservation GGRC44H3-F-LEC30,Fall,2019,Tessaro-Spence,Danielle,3.9,4.0,4.2,3.8,4.0,3.8,4.1,2.9,4.1,77,58
+CITB02H3,GGRSC,Foundations of City Studies CITB02H3-F-LEC01,Fall,2019,Allahwala,M.,4.1,4.3,4.6,4.1,4.0,3.9,4.0,3.5,4.0,162,65
+GGRB30H3,GGRSC,Fundamentals of GIS I GGRB30H3-F-LEC01,Fall,2019,Brauen,Glenn,3.8,4.1,4.0,4.3,4.2,3.6,3.7,3.5,3.5,52,20
+GGRC50H3,GGRSC,Geographies of Education GGRC50H3-F-LEC01,Fall,2019,Hunter,Mark,4.7,4.8,4.8,4.6,4.7,4.7,4.7,3.1,4.7,44,31
+GGRA02H3,GGRSC,Geography of Global Processes GGRA02H3-F-LEC01,Fall,2019,Tessaro-Spence,Danielle,4.2,4.4,4.4,4.2,4.3,4.1,4.1,3.1,4.2,169,71
+GGRD10H3,GGRSC,Health and Sexuality GGRD10H3-F-LEC01,Fall,2019,Hunter,Mark,4.6,4.6,4.6,4.4,4.6,4.6,4.4,3.4,4.6,17,9
+CITC09H3,GGRSC,Intro to Plan HIS: TO Region CITC09H3-F-LEC01,Fall,2019,White,Richard,3.4,3.7,3.7,4.0,3.8,3.4,3.4,2.9,3.6,54,14
+GGRB02H3,GGRSC,Logic of Geographical Thought GGRB02H3-F-LEC01,Fall,2019,Narayanareddy,Rajyashree,3.0,3.3,3.2,3.1,3.0,2.6,2.9,4.0,2.4,60,28
+GGRC40H3,GGRSC,Megacities & Glbl Urbanization GGRC40H3-F-LEC01,Fall,2019,Ches,Aurel,3.5,3.6,3.4,3.7,3.9,3.1,3.6,3.4,3.4,55,21
+CITC04H3,GGRSC,Municipal and Planning Toronto CITC04H3-F-LEC30,Fall,2019,Snow,Kelly,3.7,4.2,3.9,3.7,3.8,3.7,3.9,2.6,4.1,54,10
+GGRB21H3,GGRSC,Political Eco: Nature  Society GGRB21H3-F-LEC01,Fall,2019,Kepe,Thembela,4.5,4.6,4.8,4.3,4.2,4.4,4.4,2.8,4.6,76,67
+CITC03H3,GGRSC,Real Estate and the City CITC03H3-F-LEC01,Fall,2019,Miron,John,3.6,3.6,3.3,3.4,3.4,3.2,3.7,3.7,3.2,35,9
+GGRD25H3,GGRSC,Research Seminar Urban Spaces GGRD25H3-F-LEC30,Fall,2019,Higgins,Christopher,4.8,4.9,5.0,4.8,4.9,4.9,4.8,3.3,4.6,9,8
+GGRB13H3,GGRSC,Social Geography GGRB13H3-F-LEC01,Fall,2019,Goffe,Rachel,3.1,2.8,3.2,3.0,3.0,3.0,2.8,3.0,3.1,65,25
+GGRB05H3,GGRSC,Urban Geography GGRB05H3-F-LEC01,Fall,2019,Tenney,Matthew,3.5,3.4,3.4,3.4,3.4,3.0,3.5,3.5,3.0,89,31
+GGRC13H3,GGRSC,Urban Political Geography GGRC13H3-F-LEC01,Fall,2019,Buckley,Michelle,4.5,4.7,4.8,4.6,4.5,4.4,4.5,3.1,4.5,57,30
 CITC17H3,GGRSC,Civic Engagement in Urban Pol CITC17H3-Y-LEC30,Summer,2019,Ahmed,Israt,3.2,3.4,3,3.9,3.8,3,3.5,3,3.3,47,11
 CITC08H3,GGRSC,Cities & Community Development CITC08H3-Y-LEC01,Summer,2019,Cerda-Llanos,Ewa,4.5,4.6,4.4,4.3,4.4,4.4,4.6,3.2,4.6,22,11
 GGRB28H3,GGRSC,Geographies of Disease GGRB28H3-Y-LEC01,Summer,2019,Majeed,Michelle,3.6,3.9,4,3.8,3.9,3.4,3.5,2.9,3.9,39,13

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "./setup.sh",
-    "stop": "pgrep node | xargs kill"
+    "stop": "pkill -SIGINT -f \"sh -c next build; next start -p $FRONTENDPORT\";pkill -SIGINT node"
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,7 @@
     "semantic-ui-react": "^0.88.2"
   },
   "devDependencies": {
+    "eslint-plugin-react": "^7.18.3",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.0.0",

@@ -2,9 +2,8 @@ import React from 'react';
 import {
     Form, Button, Alert,
 } from 'react-bootstrap';
-import './AddWaitlist.css';
+import './WaitlistInput.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ViewWaitlist from '../ViewWaitlist/ViewWaitlist';
 // import { Alert } from 'reactstrap';
 
 class WaitlistInput extends React.Component {
@@ -87,10 +86,6 @@ class WaitlistInput extends React.Component {
             <div className = "panel_container">
                 <div className = "pInfo_title_panel">
                     <h2>Waitlist Editor</h2>
-                </div>
-                <div className="currentWaitlist">
-                    <label className = "form_label">Your current waitlists</label>
-                    <ViewWaitlist></ViewWaitlist>
                 </div>
                 <div className = "form_panel">
                     <label className = "form_label">Add a course to waitlist</label>

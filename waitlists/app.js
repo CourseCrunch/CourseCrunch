@@ -2,7 +2,10 @@ const express = require('express');
 const cors = require('cors');
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
+<<<<<<< HEAD
 const waitlistRouter = require('./routes/waitlist.js');
+=======
+>>>>>>> parent of 2bb2dc7... Add working front end for waitlists
 
 const app = express();
 

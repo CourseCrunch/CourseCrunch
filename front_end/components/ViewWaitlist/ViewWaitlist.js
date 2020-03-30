@@ -2,7 +2,7 @@
 /* eslint-disable no-console */
 import React from 'react';
 import {
-    Form, Button, ButtonGroup,
+    Form, Button, Alert,
 } from 'react-bootstrap';
 import './ViewWaitlist.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -93,13 +93,13 @@ class ViewWaitlist extends React.Component {
     }
 
     render() {
-        this.reloadWaitlist();
         const { waitlists, removeCourse } = this.state;
         const waitlistButtons = [];
-        const waitlistVariant = removeCourse ? 'danger' : 'primary';
+        const waitlistVariant = removeCourse ? 'danger' : 'light';
+        console.log(waitlists);
         const toggleRemove = !removeCourse;
         const toggleButton = <Button
-            variant={removeCourse ? 'outline-primary' : 'outline-danger'}
+            variant={removeCourse ? 'light' : 'danger'}
             onClick={() => {
                 this.setState({ removeCourse: toggleRemove });
             }}
@@ -118,12 +118,18 @@ class ViewWaitlist extends React.Component {
             );
         });
 
-        return <Form>
-            {(waitlists.length >= 1) ? (<ButtonGroup class = "waitlistPanel">
-                { toggleButton }
-                { waitlistButtons }
-            </ButtonGroup>) : (<label> No courses in waitlist </label>)}
-        </Form>;
+        return <header className ="viewWaitlist">
+            <div className = "panel_container">
+                <div className = "pInfo_title_panel">
+                    <h2>Your waitlists</h2>
+                </div>
+                <div className = "form_panel">
+                    <Form>
+                        { waitlistButtons }
+                    </Form>
+                </div>
+            </div>
+        </header>;
     }
 }
 

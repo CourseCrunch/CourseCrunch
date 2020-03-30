@@ -43,10 +43,10 @@ class ViewWaitlist extends React.Component {
                     });
                 }
             }).catch((e) => {
-                console.log(e);
+                console.log('Could not fetch');
             });
         } catch (e) {
-            console.log(e);
+            console.log('Could not fetch');
         }
     }
 

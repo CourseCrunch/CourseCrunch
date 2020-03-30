@@ -1,4 +1,4 @@
-Code,Dept,Division,Course,Term,Year,Last Name,First Name,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Overall rating of instructor teaching,Number Invited,Number of Survey Responses
+Code,Dept,Division,Course,Term,Year,Last_Name,First_Name,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Item_7,Item_8,Item_9
 CIV1532H,CIVIL,SGS,ITS & TRAFFIC CONTROL CIV1532H-F-LEC0101,Fall,2019,Abdulhai,Baher,4.2,4.1,4.2,3.8,3.9,3.9,4.2,33,21
 CIV1319H,CIVIL,SGS,CHM ANLY WATER&WASTE CIV1319H-F-LEC0101,Fall,2019,Andrews,Susan,3.6,3.6,3.9,3.7,3.7,3.6,4.0,15,11
 CIV1508H,CIVIL,SGS,AIRPORT PLANNING&ENG CIV1508H-F-LEC0101,Fall,2019,Doshi,Narendra,4.0,4.3,3.0,4.1,4.0,3.2,3.0,14,9

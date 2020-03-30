@@ -25,8 +25,11 @@ class SettingsInput extends React.Component {
     }
 
     componentDidMount() {
-        const uName = 'b17f1135-501f-4397-b257-653897375000';
-        const data = { unsanUuid: uName };
+
+        let data = { unsanUuid: this.state.uuid };
+        if (typeof window !== 'undefined') {
+            data = { unsanUuid: localStorage.getItem('userid') };
+        }
 
         fetch(`http://localhost:${PORT}/edit_profile`, {
             method: 'POST',
@@ -45,11 +48,21 @@ class SettingsInput extends React.Component {
                         oldLName: lNam,
                         oldProgram: prog,
                     });
+                    if (typeof window !== 'undefined') {
+                        this.setState({
+                            uuid: localStorage.getItem('userid'),
+                        });
+                    }
                 }, (error) => {
                     this.setState({
                         isLoaded: true,
                         error,
                     });
+                    if (typeof window !== 'undefined') {
+                        this.setState({
+                            uuid: localStorage.getItem('userid'),
+                        });
+                    }
                 },
             );
     }
@@ -72,7 +85,7 @@ class SettingsInput extends React.Component {
 
     handleSubmit() {
         const data = {
-            unsanUuid: 'b17f1135-501f-4397-b257-653897375000',
+            unsanUuid: this.state.uuid,
             unsanFname: this.state.newFName,
             unsanLname: this.state.newLName,
             unsanProgram: this.state.newProg,

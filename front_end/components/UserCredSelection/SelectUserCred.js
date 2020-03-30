@@ -21,9 +21,10 @@ class CredSelection extends React.Component {
 
 
     componentDidMount() {
-        const uName = 'b17f1135-501f-4397-b257-653897375000';
-        const data = { unsanUuid: uName };
-
+        let data = { unsanUuid: this.state.uuid };
+        if (typeof window !== 'undefined') {
+            data = { unsanUuid: localStorage.getItem('userid') };
+        }
         fetch(`http://localhost:${PORT}/change_email`, {
             method: 'POST',
             headers: {
@@ -39,11 +40,21 @@ class CredSelection extends React.Component {
                         isLoaded: true,
                         oldEmail: eMail,
                     });
+                    if (typeof window !== 'undefined') {
+                        this.setState({
+                            uuid: localStorage.getItem('userid'),
+                        });
+                    }
                 }, (error) => {
                     this.setState({
                         isLoaded: true,
                         error,
                     });
+                    if (typeof window !== 'undefined') {
+                        this.setState({
+                            uuid: localStorage.getItem('userid'),
+                        });
+                    }
                 },
             );
     }

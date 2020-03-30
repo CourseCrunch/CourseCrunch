@@ -23,5 +23,4 @@ app.use('/edit_Completed_Courses', courseRouter);
 // router for getting all courses taken by a user
 app.use('/completed_Courses', getCoursesRouter);
 
-
 app.listen(process.env.PROFILEPORT, () => console.log(`App listening on port ${process.env.PROFILEPORT}`));

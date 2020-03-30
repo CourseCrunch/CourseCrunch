@@ -1,4 +1,47 @@
-Code,Dept,Course,Term,Year,Last Name,First Name,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Inspired thinking about subject matter,Course Workload,I would recommend this course,Number Invited,Number of Survey Responses
+Code,Dept,Course,Term,Year,Last_Name,First_Name,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Item_7,Item_8,Item_9,Item_10,Item_11
+CPS2902H,PSYSC,CONSULT & PROG DEVELOP & EVAL CPS2902H-F-LEC0101,Fall,2019,Kidd,Sean,3.0,2.8,4.4,2.4,2.4,3.0,2.8,1.2,3.2,10,5
+PSYC24H3,PSYSC,Childhood and Adolescence PSYC24H3-F-LEC01,Fall,2019,Danielson,Donald,4.6,4.7,4.9,4.5,4.5,4.6,4.6,3.2,4.6,92,28
+PSYD39H3,PSYSC,Cognitive Behavioural Therapy PSYD39H3-F-LEC01,Fall,2019,Cooper,Andrew,4.3,4.3,4.7,4.1,4.3,4.1,4.4,3.8,4.4,12,12
+PSYC52H3,PSYSC,Cognitive Neuro of Attention PSYC52H3-F-LEC01,Fall,2019,Niemeier,Matthias,4.0,3.6,3.3,3.3,3.1,2.9,3.3,3.9,3.1,20,8
+PSYC75H3,PSYSC,Cognitive Psychology Lab PSYC75H3-F-LEC01,Fall,2019,Cant,Jonathan,3.7,3.6,4.2,2.9,3.0,2.7,3.1,4.2,2.4,22,20
+PSYD16H3,PSYSC,Critical Analysis Social Psych PSYD16H3-F-LEC01,Fall,2019,Cupchik,Gerald,5.0,5.0,4.8,4.6,4.8,4.4,4.8,3.8,4.3,16,8
+PSYC14H3,PSYSC,Cross-Cultural Social Psych PSYC14H3-F-LEC01,Fall,2019,Tran,Sisi,4.3,4.4,4.5,4.0,4.2,4.0,4.2,3.2,4.0,86,29
+PSYD31H3,PSYSC,Cultural-Clinical Psychology PSYD31H3-F-LEC01,Fall,2019,Dere,Jessica,4.8,4.8,5.0,4.9,4.9,4.5,4.8,3.3,4.7,22,14
+PSYD20H3,PSYSC,Curr Topics Developmental Psyc PSYD20H3-F-LEC01,Fall,2019,Danielson,Donald,4.8,4.9,5.0,4.9,4.9,4.8,5.0,3.7,4.8,21,9
+PSYD33H3,PSYSC,Current Topics in Clinical Psy PSYD33H3-F-LEC02,Fall,2019,Dhillon,Sonya,4.4,4.4,4.4,3.8,4.0,3.8,3.9,3.2,4.0,24,10
+PSYD33H3,PSYSC,Current Topics in Clinical Psy PSYD33H3-F-LEC02,Fall,2019,Dinh-Williams,Laurence,4.4,4.4,4.4,3.8,4.0,3.8,3.9,3.2,4.0,24,10
+PSYD15H3,PSYSC,Current Topics in Social Psych PSYD15H3-F-LEC01,Fall,2019,Bramesfeld,Kosha,3.9,4.2,4.5,4.3,4.2,4.1,3.7,3.7,3.8,21,19
+PSYD15H3,PSYSC,Current Topics in Social Psych PSYD15H3-F-LEC02,Fall,2019,Francis,Zoe,4.6,4.9,4.9,4.6,4.7,4.6,4.5,3.3,4.7,23,16
+PSYB07H3,PSYSC,Data Analysis in Psychology PSYB07H3-F-LEC01,Fall,2019,Lewandowska,Olivia,4.0,4.1,4.3,3.9,3.9,3.8,3.5,3.6,3.5,147,88
+PSYC50H3,PSYSC,Higher-Level Cognition PSYC50H3-F-LEC01,Fall,2019,Souza,Michael,4.5,4.4,4.6,4.1,4.2,4.1,4.2,3.8,3.8,75,62
+PSYC85H3,PSYSC,History of Psychology PSYC85H3-F-LEC01,Fall,2019,Joordens,Steve,3.0,3.2,3.4,2.8,2.8,2.9,2.6,3.3,2.6,109,36
+PSYA01H3,PSYSC,Intro Bio Cog Psych PSYA01H3-F-LEC01,Fall,2019,Joordens,Steve,4.5,4.5,4.5,4.0,4.0,4.0,4.3,3.3,4.2,490,187
+PSYA01H3,PSYSC,Intro Bio Cog Psych PSYA01H3-F-LEC60,Fall,2019,Joordens,Steve,3.9,4.0,4.1,3.7,3.8,3.6,3.8,3.4,3.9,1024,298
+PSYB55H3,PSYSC,Intro Cognitive Neuroscience PSYB55H3-F-LEC01,Fall,2019,Souza,Michael,4.7,4.7,4.8,3.8,3.9,4.3,4.3,3.5,4.0,189,155
+PSYB55H3,PSYSC,Intro Cognitive Neuroscience PSYB55H3-F-LEC60,Fall,2019,Souza,Michael,4.4,4.5,4.6,3.7,3.8,4.0,4.1,3.6,3.9,240,174
+PSYB20H3,PSYSC,Intro Developmental Psychology PSYB20H3-F-LEC01,Fall,2019,Boudens,Connie,2.7,2.7,2.3,2.3,2.5,2.1,2.5,2.8,2.4,284,130
+PSYB20H3,PSYSC,Intro Developmental Psychology PSYB20H3-F-LEC60,Fall,2019,Boudens,Connie,3.1,3.2,2.7,2.8,3.0,2.5,2.9,2.9,2.8,179,63
+PSYB64H3,PSYSC,Intro Physiological Psychology PSYB64H3-F-LEC01,Fall,2019,Leboutillier,Janelle,3.7,3.9,3.6,3.7,3.6,3.3,3.4,3.5,3.2,183,72
+PSYB57H3,PSYSC,Intro to Cognitive Psychology PSYB57H3-F-LEC01,Fall,2019,Souza,Michael,4.4,4.5,4.7,3.9,3.8,4.1,4.2,3.3,4.1,189,150
+PSYB57H3,PSYSC,Intro to Cognitive Psychology PSYB57H3-F-LEC60,Fall,2019,Souza,Michael,4.4,4.4,4.6,3.7,3.8,4.1,4.1,3.2,4.1,186,149
+PSYB10H3,PSYSC,Intro to Social Psychology PSYB10H3-F-LEC01,Fall,2019,Inbar,Yoel,4.0,4.2,4.2,3.5,3.7,3.8,3.9,2.6,4.2,474,222
+PSYC10H3,PSYSC,Judgment and Decision Making PSYC10H3-F-LEC01,Fall,2019,Inbar,Yoel,4.3,4.2,4.4,4.0,3.8,3.7,4.1,3.1,3.7,91,23
+NROC61H3,PSYSC,Learning and Motivation NROC61H3-F-LEC01,Fall,2019,Gadziola,Marie,4.1,4.1,4.2,3.6,3.7,3.6,3.8,4.2,3.4,94,71
+PSYB70H3,PSYSC,Methods in Psychological Sci PSYB70H3-F-LEC01,Fall,2019,Bramesfeld,Kosha,3.4,3.7,4.0,3.9,3.8,3.3,3.2,3.5,3.4,315,254
+PSYB70H3,PSYSC,Methods in Psychological Sci PSYB70H3-F-LEC60,Fall,2019,Bramesfeld,Kosha,3.3,3.6,3.9,3.7,3.7,3.2,3.1,3.6,3.2,347,263
+NROB60H3,PSYSC,Neuroanatomy Laboratory NROB60H3-F-LEC01,Fall,2019,Leboutillier,Janelle,4.1,4.2,3.4,4.0,4.0,3.7,4.0,3.8,3.6,141,47
+PSYD32H3,PSYSC,Personality Disorders PSYD32H3-F-LEC01,Fall,2019,Ruocco,Anthony,4.1,4.2,4.3,4.1,4.2,4.2,3.8,3.6,4.2,20,11
+PSYD11H3,PSYSC,Psy of Intrprsnl Relationships PSYD11H3-F-LEC01,Fall,2019,Tran,Sisi,4.9,4.8,4.6,4.6,4.8,4.7,4.6,3.5,4.5,22,10
+PSYC37H3,PSYSC,Psychological Assessment PSYC37H3-F-LEC01,Fall,2019,Dere,Jessica,3.3,3.8,4.0,3.9,4.0,3.5,3.4,3.0,3.7,121,35
+PSYC16H3,PSYSC,Psychology of Imagination PSYC16H3-F-LEC01,Fall,2019,Cupchik,Gerald,3.7,3.2,3.8,3.1,3.1,3.2,3.5,3.5,2.8,81,24
+PSYC36H3,PSYSC,Psychotherapy PSYC36H3-F-LEC01,Fall,2019,Uliaszek,Amanda,4.3,4.2,4.3,3.2,3.1,3.7,4.1,2.9,4.0,94,29
+PSYC02H3,PSYSC,Scientific Communication Psych PSYC02H3-F-LEC01,Fall,2019,Dere,Jessica,3.1,3.7,4.3,4.0,4.1,3.7,3.2,3.4,3.2,57,25
+PSYC71H3,PSYSC,Social Psychology Laboratory PSYC71H3-F-LEC01,Fall,2019,Bramesfeld,Kosha,3.7,3.8,4.3,3.7,3.7,3.3,3.3,4.1,3.5,18,18
+PSYC18H3,PSYSC,The Psychology of Emotion PSYC18H3-F-LEC01,Fall,2019,Ford,Brett,4.3,4.5,4.8,4.3,4.4,4.2,4.0,3.5,4.2,76,45
+PSYC18H3,PSYSC,The Psychology of Emotion PSYC18H3-F-LEC02,Fall,2019,Ford,Brett,4.3,4.3,4.6,4.4,4.3,4.1,4.0,3.6,4.2,90,54
+PSYC12H3,PSYSC,The Psychology of Prejudice PSYC12H3-F-LEC01,Fall,2019,Tritt,Shona,3.9,4.2,4.0,3.4,3.7,3.6,3.9,3.1,3.9,114,35
+PSYC12H3,PSYSC,The Psychology of Prejudice PSYC12H3-F-LEC02,Fall,2019,Tritt,Shona,4.1,4.3,4.3,3.7,3.9,3.9,4.2,3.0,3.9,117,31
+PSYD66H3,PSYSC,Topics: Human Brain &Behaviour PSYD66H3-F-LEC01,Fall,2019,Gadziola,Marie,4.5,4.8,4.9,4.4,4.6,4.4,4.6,3.8,3.9,23,14
 PSYC85H3,PSYSC,History of Psychology PSYC85H3-Y-LEC01,Summer,2019,Boudens,Connie,2.6,3.6,2.9,3,3,2.9,2.2,2.9,2.4,58,12
 PSYB04H3,PSYSC,Foundations in Psy Research PSYB04H3-Y-LEC99,Summer,2019,Bramesfeld,Kosha,3.3,3.6,3.7,3.5,3.5,3.1,2.9,3.8,3,145,113
 PSYC11H3,PSYSC,Social Psychology Laboratory PSYC11H3-Y-LEC01,Summer,2019,Bramesfeld,Kosha,3.8,3.7,4.2,3.2,3.3,3.3,3.2,4,3,26,22

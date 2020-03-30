@@ -30,11 +30,21 @@ class SettingsInput extends React.Component {
                     this.setState({
                         isLoaded: true,
                     });
+                    if (typeof window !== 'undefined') {
+                        this.setState({
+                            uuid: localStorage.getItem('userid'),
+                        });
+                    }
                 }, (error) => {
                     this.setState({
                         isLoaded: true,
                         error,
                     });
+                    if (typeof window !== 'undefined') {
+                        this.setState({
+                            uuid: localStorage.getItem('userid'),
+                        });
+                    }
                 },
             );
     }
@@ -60,7 +70,7 @@ class SettingsInput extends React.Component {
             this.props.onButtonPress({ screen: 'Sec' });
         } else {
             const data = {
-                unsanUuid: 'b17f1135-501f-4397-b257-653897375000',
+                unsanUuid: this.state.uuid,
                 newPassword: this.state.newPassword,
                 oldPassword: this.state.oldPassword,
             };

@@ -95,7 +95,8 @@ router.patch('/', (req, res) => {
                     }
 
                     if (columnList.length > 0) {
-                        const promiseConstructQuery = utils.constructQuery(columnList, paramList, uuid);
+                        const promiseConstructQuery = utils
+                            .constructQuery(columnList, paramList, uuid);
                         promiseConstructQuery.then((query) => {
                             const promiseUpdateUser = dbReq.updateUser(query);
                             promiseUpdateUser.then(() => {

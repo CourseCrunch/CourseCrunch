@@ -1,24 +1,40 @@
-Code,Dept,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Course Workload,I would recommend this course,I attended class,Inspired to learn subject matter,Number Invited,Number of Survey Responses
-PHL103H5,UMPHL,Knowledge and Reality PHL103H5-F-LEC0101,Henry,Aaron,Fall,2019,3.5,3.8,3.5,3.7,3.8,3.1,2.9,3.2,N/A,3.0,156,73
-PHL113H5,UMPHL,Persons and Value PHL113H5-F-LEC0101,Sepielli,Andrew,Fall,2019,3.4,3.6,3.5,3.5,3.8,3.2,3.1,3.0,N/A,2.9,220,70
+Code,Dept,Course,Last_Name,First_Name,Term,Year,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Item_7,Item_8,Item_9,Item_10,Item_11,Item_12
+PHL103H5,UMPHL,Knowledge and Reality PHL103H5-F-LEC0101,Henry,Aaron,Fall,2019,3.5,3.8,3.5,3.7,3.8,3.1,2.9,3.2,N/A,3,156,73
+PHL113H5,UMPHL,Persons and Value PHL113H5-F-LEC0101,Sepielli,Andrew,Fall,2019,3.4,3.6,3.5,3.5,3.8,3.2,3.1,3,N/A,2.9,220,70
 PHL200H5,UMPHL,Ancient Philosophy PHL200H5-F-LEC0101,Costello,Willie,Fall,2019,4.3,4.5,4.7,4.4,4.3,4.3,2.9,4.4,N/A,4.3,84,49
-PHL220H5,UMPHL,Existentialism PHL220H5-F-LEC0101,Ware,Owen,Fall,2019,4.2,4.2,4.4,4.0,4.1,4.1,2.2,4.4,N/A,4.0,92,41
+PHL220H5,UMPHL,Existentialism PHL220H5-F-LEC0101,Ware,Owen,Fall,2019,4.2,4.2,4.4,4,4.1,4.1,2.2,4.4,N/A,4,92,41
 PHL240H5,UMPHL,Minds and Machines PHL240H5-F-LEC0101,Matthen,Mohan,Fall,2019,3.9,3.6,3.4,3.6,3.6,3.4,2.8,3.3,N/A,3.6,53,15
 PHL245H5,UMPHL,Mod Symbolic Logic PHL245H5-F-LEC0101,Koo,Alexander,Fall,2019,4.3,4.2,4.5,4.3,4.4,4.1,2.9,3.9,N/A,3.5,326,83
 PHL246H5,UMPHL,Probab & Inductive Logic PHL246H5-F-LEC0101,Weisberg,Jonathan,Fall,2019,3.6,3.7,3.8,3.7,3.7,3.4,2.8,3.6,N/A,3.2,137,112
 PHL247H5,UMPHL,Critical Reasoning PHL247H5-F-LEC0101,Mullin,Amy,Fall,2019,3.8,4.1,4.3,3.7,3.8,3.5,2.9,3.8,N/A,3.6,205,45
-PHL255H5,UMPHL,Philosophy of Science PHL255H5-F-LEC0101,Matthen,Mohan,Fall,2019,4.1,4.2,4.4,3.9,4.1,4.0,2.9,3.7,N/A,3.6,47,15
-PHL265H5,UMPHL,Social and Political Philosphy PHL265H5-F-LEC0101,Clark,Philip,Fall,2019,4.0,4.1,4.2,3.9,4.2,3.5,3.2,3.7,N/A,4.0,113,36
-PHL273H5,UMPHL,Environmental Ethics PHL273H5-F-LEC0101,Henry,Aaron,Fall,2019,3.8,4.0,4.3,3.8,3.8,3.6,2.9,3.7,N/A,3.8,78,42
-PHL302H5,UMPHL,The Philosophy of Aristotle PHL302H5-F-LEC0101,Pineros,Juan,Fall,2019,4.2,4.5,4.5,4.2,4.4,4.0,3.1,3.9,N/A,3.5,26,17
-PHL333H5,UMPHL,Epistemology PHL333H5-F-LEC0101,Charlow,Nathan,Fall,2019,4.0,4.4,4.1,4.2,4.2,4.1,3.6,3.8,N/A,3.9,48,13
-PHL367H5,UMPHL,Issues in Phil. & Feminism PHL367H5-F-LEC0101,Mullin,Amy,Fall,2019,3.8,4.1,4.0,4.1,3.9,3.8,3.3,3.6,N/A,3.4,41,15
-PHL247H5,UMPHL,Critical Reasoning PHL247H5-S-LEC0101,Mullin,Amy,Winter,2019,3.8,4.2,4.3,3.8,4,3.7,2.9,3.8,N/A,3.6,179,43
-PHL210Y5,UMPHL,17-18 Cen Philosophy PHL210Y5-Y-LEC0101,Pikkert,Owen,Winter,2019,4.5,4.8,4.8,4.3,4.3,4.5,3.1,4.3,N/A,4,67,24
+PHL255H5,UMPHL,Philosophy of Science PHL255H5-F-LEC0101,Matthen,Mohan,Fall,2019,4.1,4.2,4.4,3.9,4.1,4,2.9,3.7,N/A,3.6,47,15
+PHL265H5,UMPHL,Social and Political Philosphy PHL265H5-F-LEC0101,Clark,Philip,Fall,2019,4,4.1,4.2,3.9,4.2,3.5,3.2,3.7,N/A,4,113,36
+PHL273H5,UMPHL,Environmental Ethics PHL273H5-F-LEC0101,Henry,Aaron,Fall,2019,3.8,4,4.3,3.8,3.8,3.6,2.9,3.7,N/A,3.8,78,42
+PHL302H5,UMPHL,The Philosophy of Aristotle PHL302H5-F-LEC0101,Pineros,Juan,Fall,2019,4.2,4.5,4.5,4.2,4.4,4,3.1,3.9,N/A,3.5,26,17
+PHL333H5,UMPHL,Epistemology PHL333H5-F-LEC0101,Charlow,Nathan,Fall,2019,4,4.4,4.1,4.2,4.2,4.1,3.6,3.8,N/A,3.9,48,13
+PHL367H5,UMPHL,Issues in Phil. & Feminism PHL367H5-F-LEC0101,Mullin,Amy,Fall,2019,3.8,4.1,4,4.1,3.9,3.8,3.3,3.6,N/A,3.4,41,15
+PHL247H5,UMPHL,Critical Reasoning PHL247H5-S-LEC0101,Dragos,Ioan,Summer,2019,4.0,4.1,4.4,4.0,4.2,3.9,2.8,4.0,N/A,3.7,113,32
+PHL374H5,UMPHL,Issues in Normative Ethics PHL374H5-S-LEC0101,Bryant,Rachel,Summer,2019,4.9,4.9,4.9,4.8,4.7,4.8,3.3,4.8,N/A,4.7,14,10
+PHL370H5,UMPHL,Issues in Philosophy of Law PHL370H5-S-LEC0101,Sepielli,Andrew,Summer,2019,4.3,4.2,4.2,3.6,3.9,4.3,3.7,3.9,N/A,4.1,39,9
+PHL103H5,UMPHL,Knowledge and Reality PHL103H5-F-LEC0101,Diehl,Catharine,Summer,2019,3.8,3.9,3.7,3.7,3.9,3.3,2.7,3.6,N/A,3.2,50,28
+PHL243H5,UMPHL,Phil Human Sexuality PHL243H5-F-LEC0101,Fortney,Mark,Summer,2019,4.1,3.9,4.3,4.0,3.8,3.9,3.1,4.0,N/A,3.9,27,8
+PHL221H5,UMPHL,Philosophy at the Movies PHL221H5-F-LEC0101,Costello,Willie,Summer,2019,4.3,4.3,4.6,4.4,4.3,4.3,3.2,4.4,N/A,4.0,54,28
+PHL300H5,UMPHL,Topics in Ancient Phil PHL300H5-S-LEC0101,Allen,James,Winter,2019,3.4,3.4,3.0,3.2,3.2,2.6,3.4,2.4,N/A,2.4,35,5
+PHL275H5,UMPHL,Ethics and Moral Philosophy PHL275H5-S-LEC0101,Bryant,Rachel,Winter,2019,4.1,4.4,4.5,4.3,4.5,4.1,2.9,4.0,N/A,3.8,113,38
+PHL374H5,UMPHL,Issues in Normative Ethics PHL374H5-S-LEC0101,Bryant,Rachel,Winter,2019,4.4,4.4,4.6,4.2,4.3,4.0,3.1,3.9,N/A,4.0,52,28
+PHL113H5,UMPHL,Persons and Value PHL113H5-S-LEC0101,Davies,James,Winter,2019,4.0,4.2,4.3,3.7,3.9,3.6,2.8,3.7,N/A,3.4,223,57
+PHL340H5,UMPHL,Philosophy of Mind PHL340H5-S-LEC0101,Davies,James,Winter,2019,3.6,3.8,4.2,3.9,3.7,3.4,3.3,3.0,N/A,3.0,44,11
+PHL345H5,UMPHL,Intermediate Logic PHL345H5-S-LEC0101,Katz,Bernard,Winter,2019,4.3,4.3,5.0,4.6,4.4,4.8,3.0,3.9,N/A,3.8,24,8
+PHL332H5,UMPHL,Metaphysics PHL332H5-S-LEC0101,Katz,Bernard,Winter,2019,4.1,4.4,4.2,4.2,4.2,3.8,2.9,3.8,N/A,3.8,32,10
+PHL103H5,UMPHL,Knowledge and Reality PHL103H5-S-LEC0101,Koo,Alexander,Winter,2019,4.6,4.6,4.8,4.3,4.4,4.3,2.7,4.5,N/A,4.2,248,75
+PHL245H5,UMPHL,Mod Symbolic Logic PHL245H5-S-LEC0101,Koo,Alexander,Winter,2019,4.2,4.3,4.5,4.3,4.3,4.2,3.0,4.0,N/A,3.6,364,85
+PHL220H5,UMPHL,Existentialism PHL220H5-S-LEC0101,Larsen,Rasmus,Winter,2019,4.6,4.7,4.8,4.6,4.7,4.6,2.9,4.8,N/A,4.6,82,39
+PHL247H5,UMPHL,Critical Reasoning PHL247H5-S-LEC0101,Mullin,Amy,Winter,2019,3.8,4.2,4.3,3.8,4.0,3.7,2.9,3.8,N/A,3.6,179,43
+PHL210Y5,UMPHL,17-18 Cen Philosophy PHL210Y5-Y-LEC0101,Pikkert,Owen,Winter,2019,4.5,4.8,4.8,4.3,4.3,4.5,3.1,4.3,N/A,4.0,67,24
 PHL204H5,UMPHL,Philosophy in Everyday Life PHL204H5-S-LEC0101,Pikkert,Owen,Winter,2019,4.2,4.4,4.5,4.2,4.2,4.2,2.5,4.1,N/A,3.8,91,30
 PHL314H5,UMPHL,kant PHL314H5-S-LEC0101,Ware,Owen,Winter,2019,4.9,4.8,4.1,4.5,4.3,4.5,3.6,4.4,N/A,4.1,20,8
-PHL246H5,UMPHL,Probab & Inductive Logic PHL246H5-S-LEC0101,Weisberg,Jonathan,Winter,2019,3.7,3.8,3.7,3.9,4,3.7,2.7,3.7,N/A,3.5,140,44
-PHL350H5,UMPHL,Philosophy of Language PHL350H5-S-LEC0101,Yi,Byeong-Uk,Winter,2019,3.2,3.4,3.2,2.8,3.4,3.4,3,3,N/A,3,15,6
+PHL246H5,UMPHL,Probab & Inductive Logic PHL246H5-S-LEC0101,Weisberg,Jonathan,Winter,2019,3.7,3.8,3.7,3.9,4.0,3.7,2.7,3.7,N/A,3.5,140,44
+PHL350H5,UMPHL,Philosophy of Language PHL350H5-S-LEC0101,Yi,Byeong-Uk,Winter,2019,3.2,3.4,3.2,2.8,3.4,3.4,3.0,3.0,N/A,3.0,15,6
 PHL202H5,UMPHL,Ancient Philosophy PHL202H5-F-LEC0101,Allen,James,Fall,2018,2.9,2.9,2.6,2.9,3,2.4,3,2.3,N/A,2.7,69,15
 PHL283H5,UMPHL,Bioethics PHL283H5-F-LEC0101,Bryant,Rachel,Fall,2018,3.8,4.1,3.9,4,4.1,3.6,3.1,3.5,N/A,3.6,62,41
 PHL341H5,UMPHL,Prac Reason & Human Action PHL341H5-F-LEC0101,Clark,Philip,Fall,2018,4.2,4,4.4,3.7,3.9,4.1,2.7,3.8,N/A,3.6,51,22

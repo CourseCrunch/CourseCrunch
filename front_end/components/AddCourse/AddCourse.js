@@ -243,7 +243,6 @@ class SettingsInput extends React.Component {
         return <></>;
     }
 
-
     render() {
         return <header className ="courseInput">
             <div className = "panel_container">

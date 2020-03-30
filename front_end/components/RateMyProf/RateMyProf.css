@@ -1,0 +1,10 @@
+.rmp-container {
+    width: 45%;
+}
+
+.tag-container {
+    display: flex;
+    width:100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

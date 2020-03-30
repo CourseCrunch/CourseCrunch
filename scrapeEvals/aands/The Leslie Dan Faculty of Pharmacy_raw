@@ -1,4 +1,4 @@
-Code,Dept,Division,Course,Last Name,First Name,Term,Year,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Instructor generated enthusiasm,Course Workload,I would recommend this course,Number of Students Invited,Number of Respondents
+Code,Dept,Division,Course,Last_Name,First_Name,Term,Year,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Item_7,Item_8,Item_9,Item_10,Item_11
 PHC230H1,PHM,ARTSC,Pharmaceutics 1 PHC230H1-S-LEC0101,Chalikian,Tigran,Winter,2018,4.1,4,3.6,3.7,3.7,3.4,3.7,3.1,3.3,25,8
 PHC230H1,PHM,ARTSC,Pharmaceutics 1 PHC230H1-S-LEC0101,Macgregor,Robert,Winter,2018,4.1,4,4.1,3.7,3.7,3.4,4.3,3.1,3.3,25,8
 PHC300H1,PHM,ARTSC,Molecular Pharm 1 PHC300H1-F-LEC0101,Angers,Stephane,Fall,2017,3.8,4.2,4.5,3.5,3.5,3.3,4,3.3,3.8,29,6

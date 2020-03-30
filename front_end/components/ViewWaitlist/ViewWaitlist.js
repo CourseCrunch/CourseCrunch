@@ -2,11 +2,11 @@
 /* eslint-disable no-console */
 import React from 'react';
 import {
-    Form, Button, Alert,
+    Form, Button, ButtonGroup,
 } from 'react-bootstrap';
 import './ViewWaitlist.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+// import { Alert } from 'reactstrap';
 
 class ViewWaitlist extends React.Component {
     constructor(props) {
@@ -26,20 +26,23 @@ class ViewWaitlist extends React.Component {
 
     reloadWaitlist() {
         try {
-            fetch(`http://localhost:${process.env.WAITLISTPORT}/getWaitlists`).then(
-                (res) => {
-                    if (res.ok) {
-                    // eslint-disable-next-line no-unused-vars
-                        res.json().then((data) => {
-                            this.setState({
-                                waitlists: data,
-                            });
-                        }).catch((e) => {
-                            console.log(e);
-                        });
-                    }
+            fetch(`http://localhost:${process.env.WAITLISTPORT}/getWaitlists`, {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json',
                 },
-            ).catch((e) => {
+            }).then((res) => {
+                if (res.ok) {
+                    // eslint-disable-next-line no-unused-vars
+                    res.json().then((data) => {
+                        this.setState({
+                            waitlists: data,
+                        });
+                    }).catch((e) => {
+                        console.log(e);
+                    });
+                }
+            }).catch((e) => {
                 console.log(e);
             });
         } catch (e) {
@@ -93,13 +96,13 @@ class ViewWaitlist extends React.Component {
     }
 
     render() {
+        this.reloadWaitlist();
         const { waitlists, removeCourse } = this.state;
         const waitlistButtons = [];
-        const waitlistVariant = removeCourse ? 'danger' : 'light';
-        console.log(waitlists);
+        const waitlistVariant = removeCourse ? 'danger' : 'primary';
         const toggleRemove = !removeCourse;
         const toggleButton = <Button
-            variant={removeCourse ? 'light' : 'danger'}
+            variant={removeCourse ? 'outline-primary' : 'outline-danger'}
             onClick={() => {
                 this.setState({ removeCourse: toggleRemove });
             }}
@@ -118,18 +121,12 @@ class ViewWaitlist extends React.Component {
             );
         });
 
-        return <header className ="viewWaitlist">
-            <div className = "panel_container">
-                <div className = "pInfo_title_panel">
-                    <h2>Your waitlists</h2>
-                </div>
-                <div className = "form_panel">
-                    <Form>
-                        { waitlistButtons }
-                    </Form>
-                </div>
-            </div>
-        </header>;
+        return <Form>
+            {(waitlists.length >= 1) ? (<ButtonGroup class = "waitlistPanel">
+                { toggleButton }
+                { waitlistButtons }
+            </ButtonGroup>) : (<label> No courses in waitlist </label>)}
+        </Form>;
     }
 }
 

@@ -6,7 +6,7 @@ import {
 } from 'react-bootstrap';
 import './ViewWaitlist.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+// import { Alert } from 'reactstrap';
 
 class ViewWaitlist extends React.Component {
     constructor(props) {
@@ -26,20 +26,23 @@ class ViewWaitlist extends React.Component {
 
     reloadWaitlist() {
         try {
-            fetch(`http://localhost:${process.env.WAITLISTPORT}/getWaitlists`).then(
-                (res) => {
-                    if (res.ok) {
-                    // eslint-disable-next-line no-unused-vars
-                        res.json().then((data) => {
-                            this.setState({
-                                waitlists: data,
-                            });
-                        }).catch((e) => {
-                            console.log(e);
-                        });
-                    }
+            fetch(`http://localhost:${process.env.WAITLISTPORT}/getWaitlists`, {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json',
                 },
-            ).catch((e) => {
+            }).then((res) => {
+                if (res.ok) {
+                    // eslint-disable-next-line no-unused-vars
+                    res.json().then((data) => {
+                        this.setState({
+                            waitlists: data,
+                        });
+                    }).catch((e) => {
+                        console.log(e);
+                    });
+                }
+            }).catch((e) => {
                 console.log(e);
             });
         } catch (e) {

@@ -3,18 +3,18 @@ const pgDb = require('pg');
 require('dotenv').config();
 
 const pool = new pgDb.Pool({
-    user: 'me', // process.env.PGUSER,
-    host: 'localhost', // process.env.PGHOST,
-    database: 'bb', // process.env.PGDATABASE,
-    password: 'boundless', // process.env.PGPASSWORD,
-    port: '5432', // process.env.PGPORT,
+    user: process.env.PGUSER,
+    host: process.env.PGHOST,
+    database: process.env.PGDATABASE,
+    password: process.env.PGPASSWORD,
+    port: process.env.PGPORT,
 });
 
 function getWaitlists() {
-    const waitlists = {};
     return new Promise(((resolve, reject) => {
         try {
             pool.query('SELECT * FROM CC_USER_WAITLIST', []).then((results) => {
+                const waitlists = {};
                 results.rows.forEach((result) => {
                     const course = result.coursecode;
                     const year = result.ccyear;
@@ -28,14 +28,14 @@ function getWaitlists() {
                         waitlists[course][year] = {};
                     }
 
-                    if (!Object.prototype.hasOwnProperty.call(waitlists[course][year].term)) {
+                    if (!Object.prototype.hasOwnProperty.call(waitlists[course][year], term)) {
                         waitlists[course][year][term] = [];
                     }
 
                     waitlists[course][year][term].push(userID);
                 });
                 resolve(waitlists);
-            });
+            }).catch((e) => { console.log(e); });
         } catch (e) {
             reject(e);
         }
@@ -57,14 +57,12 @@ function getUserEmail(userID) {
     }));
 }
 
-
 function removeUser(userID, courseCode, year, term) {
-    try {
-        pool.query('DELETE FROM CC_USER_WAITLIST WHERE ID = $1 AND courseCode = $2 AND year=$3 AND term=$4', [userID, courseCode, year, term]);
-    } catch (e) {
-        // eslint-disable-next-line no-console
-        console.log(e);
-    }
+    return new Promise(((resolve, reject) => {
+        pool.query('DELETE FROM CC_USER_WAITLIST WHERE ID = $1 AND CourseCode = $2 AND CCYear=$3 AND Term=$4', [userID, courseCode, year, term]).then((results) => {
+            resolve(results);
+        }).catch((e) => { reject(e); });
+    }));
 }
 
 
@@ -76,9 +74,26 @@ function addUser(userID, courseCode, year, term) {
     }));
 }
 
+function getWaitlistsForUser(userID) {
+    return new Promise(((resolve, reject) => {
+        pool.query('SELECT CCYear AS year, CourseCode AS course, Term AS term FROM CC_USER_WAITLIST WHERE ID=$1', [userID]).then((results) => {
+            const waitlists = [];
+            results.rows.forEach((result) => {
+                const waitlist = {};
+                waitlist.course = result.course;
+                waitlist.year = result.year;
+                waitlist.term = result.term;
+                waitlists.push(waitlist);
+            });
+            resolve(waitlists);
+        }).catch((e) => { reject(e); });
+    }));
+}
+
 module.exports = {
     getWaitlists,
     removeUser,
     addUser,
     getUserEmail,
+    getWaitlistsForUser,
 };

@@ -1,4 +1,3 @@
-
 const bodyParser = require('body-parser');
 const validator = require('validator');
 const express = require('express');
@@ -29,7 +28,7 @@ router.post('/addWaitlist', (req, res) => {
             res.status(403).send('Unauthorized to access resource');
         } else {
             // sanitize all inputs!
-            const userID = '2e905a7e-567b-40db-b181-72c5132e09e0'; // localStorage.getItem('userID');
+            const userID = localStorage.getItem('userID');
             const uuid = emptyString(validator.trim(userID));
             const sanCourse = emptyString(validator.trim(`${course}`));
             const sanTerm = emptyString(validator.trim(`${term}`));

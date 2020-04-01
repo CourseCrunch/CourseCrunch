@@ -99,7 +99,6 @@ def scrape_school(school, department, dump_s, header):
 
 
 def scrape_helper(school):
-    print(school, os.getppid)
     departments = getsubjects(school)
     helper = scrape_header(school, departments[0])
     processes = []

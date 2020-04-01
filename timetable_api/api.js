@@ -81,6 +81,7 @@ function fullCourse(code, term, year) {
             const body = response.data.trim();
             const parsed = parser.parse(body);
             return {
+                _id: code,
                 description: getDescription(parsed),
                 courses: getCourses(parsed),
             };

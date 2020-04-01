@@ -122,6 +122,15 @@ AANDSchema.statics.category_code_average = function (courseId, category) {
     ]);
 };
 
+AANDSchema.statics.getReccomendations = function (courses, filteredCourse, limit) {
+    return this.aggregate([
+        { $group: { _id: '$Code', Course_Workload: { $avg: { $toDecimal: '$Item_8' } }, Term: { $addToSet: { $concat: ['$Term', '$Year'] } } } },
+        { $match: { $and: [{ _id: { $nin: filteredCourse } }, { Term: { $in: ['Winter2019'] } }, { _id: { $in: courses } }] } },
+        { $sort: { Course_Workload: 1 } },
+        { $limit: limit },
+    ]).exec();
+};
+
 AANDSchema.statics.get_professors = function () {
     return this.aggregate([
         { $group:

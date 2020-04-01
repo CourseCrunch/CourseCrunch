@@ -12,6 +12,4 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cors());
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
-
-process.env.WAITLISTPORT = 3006;
 app.listen(process.env.WAITLISTPORT, () => console.log(`App listening on port ${process.env.WAITLISTPORT}`));

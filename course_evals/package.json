@@ -15,8 +15,10 @@
     "fuse.js": "^5.0.5-beta",
     "googleapis": "^48.0.0",
     "http-errors": "~1.6.3",
-    "mongoose": "^5.9.5",
+    "moment": "^2.24.0",
+    "mongoose": "^5.9.6",
     "morgan": "~1.9.1",
+    "node-fetch": "^2.6.0",
     "nodemon": "^2.0.2"
   }
 }

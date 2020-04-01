@@ -1,0 +1,125 @@
+.registerInput{
+    position: relative;
+    top: 120px;
+    left: 25%;
+    width: 50%;
+    background: #e5e5e5;
+    height: 100%;
+    z-index:999;
+}
+
+.panel_container{
+    box-shadow: 2px 2px 40px #a6a6a6;
+    border-radius: 7px;
+    border: 1px solid #cdcdcd;
+    background: #ffffff;
+    padding-bottom: 50px;
+}
+
+.pInfo_title_panel{
+    position: relative;
+    border-bottom: 1px solid #cdcdcd;
+}
+
+.pInfo_title_panel h2{
+    display: relative;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-left: 10px;
+    padding: 5px;
+    padding-top: 10px;
+}
+
+.regForm_panel{
+    position: relative;
+    display: block;
+    margin-bottom: 0;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.regForm_panel form{
+    position: relative;
+    width: 95%;
+    margin: 10px auto;   
+}
+
+.form_label{
+    position: relative;
+    display: block;
+    margin-bottom: 60px;
+    top: 2vh;
+    left: 1.5%;
+}
+
+form Label{
+    display: inline-block;
+    font-weight:bold;
+    width: 100px;
+    margin: 0;
+    clear: both;
+}
+
+#form_email, #form_fName, #form_lName, #form_program, #form_password, #form_confPassword{
+    position: relative;
+    padding: 0 20px;
+    height: 40px;
+    font-size: 20px;
+    left: 7%;
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+.regErrorPanel{
+    background-color: #FFF6F6;
+    padding: 9px 0;
+    border-top: 2px solid #912D2B;
+    border-bottom: 2px solid #912D2B;
+}
+
+.regErrorPanel .header{
+    position: relative;
+    padding: 0 20px;
+    left: 35%;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    font-weight: 700;
+    color: #912D2B;
+}
+
+.errorPanel .content{
+    position: relative;
+    padding: 0 20px;
+    left: 10%;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+}
+
+.regForm_panel form button {
+    position: relative;
+    display: inline-block;
+    width: 125px;
+    margin: 10px;
+    left: 15%;
+    margin-top: 60px;
+    padding: 5px 10px;
+    border: 0px;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #3dcad2;
+}
+
+.regForm_panel form button:hover {
+    background-color: #3295ae;
+}
+
+#login {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    left: 25%;
+}
+
+#login:visited{
+    color:#38a7c0;
+}

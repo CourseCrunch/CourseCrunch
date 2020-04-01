@@ -3,6 +3,7 @@ const cors = require('cors');
 
 const averageRouter = require('./routes/average');
 const courseCodesRouter = require('./routes/courseCodes');
+const recommendationsRouter = require('./routes/recommendations');
 const compareRouter = require('./routes/compare');
 const instructorRouter = require('./routes/instructors');
 
@@ -18,5 +19,7 @@ app.use('/', averageRouter);
 
 app.use('/', courseCodesRouter);
 app.use('/instructors', instructorRouter);
+
+app.use('/', recommendationsRouter);
 
 app.listen(process.env.EVALSPORT, () => console.log(`App listening on port ${process.env.EVALSPORT}`));

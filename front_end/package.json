@@ -28,7 +28,7 @@
     "moment": "^2.24.0",
     "mongoose": "^5.9.4",
     "morgan": "~1.9.1",
-    "next": "^9.2.1",
+    "next": "^9.3.2",
     "next-compose-plugins": "^2.2.0",
     "react-avatar": "^3.9.2",
     "react": "^16.13.0",

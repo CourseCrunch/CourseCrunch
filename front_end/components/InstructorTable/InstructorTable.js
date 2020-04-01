@@ -43,34 +43,28 @@ class InstructorTable extends React.Component {
             );
         }
 
-        return <>
-            <Head>
-                <link href="https://cdn.jsdelivr.net/npm/semantic-ui/dist/semantic.min.css" rel="stylesheet" key="instructortable"/>
-            </Head>
+        return <Table>
+            <Table.Header>
+                <Table.Row>
+                    <Table.HeaderCell>Name</Table.HeaderCell>
+                    <Table.HeaderCell>Lectures Taught</Table.HeaderCell>
+                    <Table.HeaderCell>Workload</Table.HeaderCell>
+                    <Table.HeaderCell>Would Recommend</Table.HeaderCell>
 
-            <Table>
-                <Table.Header>
-                    <Table.Row>
-                        <Table.HeaderCell>Name</Table.HeaderCell>
-                        <Table.HeaderCell>Lectures Taught</Table.HeaderCell>
-                        <Table.HeaderCell>Workload</Table.HeaderCell>
-                        <Table.HeaderCell>Would Recommend</Table.HeaderCell>
-
-                        <Table.HeaderCell>Intellectually Stimulating</Table.HeaderCell>
-                        <Table.HeaderCell>Deeper Understanding</Table.HeaderCell>
-                        <Table.HeaderCell>Good Atmosphere</Table.HeaderCell>
-                        <Table.HeaderCell>Good Assessments</Table.HeaderCell>
-                        <Table.HeaderCell>Accurate Assessments</Table.HeaderCell>
-                        <Table.HeaderCell>Quality of Learning</Table.HeaderCell>
-                        <Table.HeaderCell>Number Invited</Table.HeaderCell>
-                        <Table.HeaderCell>Number Responses</Table.HeaderCell>
-                    </Table.Row>
-                </Table.Header>
-                <Table.Body>
-                    {rows}
-                </Table.Body>
-            </Table>
-        </>;
+                    <Table.HeaderCell>Intellectually Stimulating</Table.HeaderCell>
+                    <Table.HeaderCell>Deeper Understanding</Table.HeaderCell>
+                    <Table.HeaderCell>Good Atmosphere</Table.HeaderCell>
+                    <Table.HeaderCell>Good Assessments</Table.HeaderCell>
+                    <Table.HeaderCell>Accurate Assessments</Table.HeaderCell>
+                    <Table.HeaderCell>Quality of Learning</Table.HeaderCell>
+                    <Table.HeaderCell>Number Invited</Table.HeaderCell>
+                    <Table.HeaderCell>Number Responses</Table.HeaderCell>
+                </Table.Row>
+            </Table.Header>
+            <Table.Body>
+                {rows}
+            </Table.Body>
+        </Table>;
     }
 }
 

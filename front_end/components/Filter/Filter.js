@@ -39,7 +39,6 @@ class Filter extends React.Component {
         return <>
             <Head>
                 <title>{this.props.campus}</title>
-                <link href="https://cdn.jsdelivr.net/npm/semantic-ui/dist/semantic.min.css" rel="stylesheet" key="test"/>
             </Head>
             <Dropdown
                 placeholder='Filtered Courses'

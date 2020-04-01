@@ -37,16 +37,23 @@ class ViewWaitlist extends React.Component {
                     res.json().then((data) => {
                         this.setState({
                             waitlists: data,
+                            error: false,
                         });
                     }).catch((e) => {
-                        console.log(e);
+                        this.setState({
+                            error: true,
+                        });
                     });
                 }
             }).catch((e) => {
-                console.log('Could not fetch');
+                this.setState({
+                    error: true,
+                });
             });
         } catch (e) {
-            console.log('Could not fetch');
+            this.setState({
+                error: true,
+            });
         }
     }
 

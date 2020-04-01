@@ -46,6 +46,7 @@ class WaitlistInput extends React.Component {
         }
     }
 
+
     handleSubmit() {
         const data = {
             course: this.state.waitlistCourse,
@@ -70,14 +71,16 @@ class WaitlistInput extends React.Component {
                         submitErr: true,
                     });
                 }
+            // eslint-disable-next-line no-unused-vars
             }).catch((e) => {
-                console.log(e);
                 this.setState({
                     submitErr: true,
                 });
             });
         } catch (e) {
-            console.log(e);
+            this.setState({
+                submitErr: true,
+            });
         }
     }
 

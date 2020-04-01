@@ -27,7 +27,7 @@ navigation_list = soup.find_all("a", class_="bodyLink")
 
 
 def getAllDepartments():
-    pattern = r"newdep_detail.pl\?Depart=(\d+)";
+    pattern = r"newdep_detail.pl\?Depart=(\d+)"
     page = requests.get(courses_url)
     soup = BeautifulSoup(page.content, 'html.parser')
     tables = soup.findChildren("table", class_="normaltext")
@@ -70,8 +70,8 @@ def getCourseData(courseurl):
     soup = BeautifulSoup(page.content, 'html.parser')
     content = soup.find("div", class_="contentpos")
     c = content.contents[2]
-    prereq_index = -1;
-    excl_index = -1;
+    prereq_index = -1
+    excl_index = -1
     for i in range(len(c.contents)):
         if type(c.contents[i]) == NavigableString:
             continue
@@ -110,7 +110,7 @@ def clean_list(lst):
     alt = 0
     for element in lst:
         if type(element) == Tag:
-            continue;
+            continue
         element = element.replace('(', "")
         element = element.replace(')', "")
         if "and" in element:
@@ -197,7 +197,7 @@ if __name__ == "__main__":
             courses_url = base + link["href"]
             break
     load_dotenv(os.getcwd() + "/config.env")
-    driver = GraphDatabase.driver("bolt://localhost:7687", auth=(os.environ.get("DBUSER"),  os.environ.get("DBPWD")))
+    driver = GraphDatabase.driver(os.environ.get("NEOURI"), auth=(os.environ.get("NEOUSER"),  os.environ.get("NEOPWD")))
     getAllDepartments()
     print("Got all departments")
     populate_courses()

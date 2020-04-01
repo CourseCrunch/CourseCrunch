@@ -1,3 +1,5 @@
+import Link from 'next/link';
+import Head from 'next/head';
 import NavBar from '../components/NavBar/NavBar';
 import Router from 'next/router';
 

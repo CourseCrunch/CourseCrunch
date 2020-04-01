@@ -4,11 +4,10 @@ const mongo = require('./Instruct');
 
 function getSchools() {
     return {
-        utm: '4928',
-        utsg: '1484',
+        utm: ['4928'],
+        utsg: ['1484', '5281'],
+        grad: ['1484', '5281'],
         utsc: '4919',
-        uoft: '12184',
-        rotman: '5281',
     };
 }
 
@@ -29,16 +28,18 @@ function queryAllInstructors(schoolId) {
 function updateInstructorCache() {
     const schools = getSchools();
     Object.keys(schools).forEach((key) => {
-        queryAllInstructors(schools[key]).then((res) => {
-            for (let i = 0; i < res.length; i += 1) {
-                const row = res[i];
-                row.fullname = `${row.teacherfirstname_t} ${row.teacherlastname_t}`;
-                row.school = key;
-                const doc = mongo.Instruct(row);
-                doc.save(() => null);
-            }
-            console.log('updated');
-        }).catch(() => null);
+        schools[key].forEach((school) => {
+            queryAllInstructors(school).then((res) => {
+                for (let i = 0; i < res.length; i += 1) {
+                    const row = res[i];
+                    row.fullname = `${row.teacherfirstname_t} ${row.teacherlastname_t}`;
+                    row.school = key;
+                    const doc = mongo.Instruct(row);
+                    doc.save(() => null);
+                }
+                console.log('updated');
+            }).catch(() => null);
+        });
     });
 }
 

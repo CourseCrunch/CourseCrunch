@@ -1,16 +1,17 @@
 import React from 'react';
+import WeekCalendar from 'react-week-calendar';
+import moment from 'moment';
+import NavBar from '../components/NavBar/NavBar';
+import Filter from '../components/Filter/Filter';
 import './index.css';
 import './hover.css';
 // import './recommendations.css';
-import WeekCalendar from 'react-week-calendar';
-import moment from 'moment';
 import CustomModal from '../components/CustomModal/CustomModal';
 import 'react-week-calendar/dist/style.css';
 import NavBar from '../components/NavBar/NavBar';
 import Router from 'next/router';
-
-
 import Filter from '../components/Filter/Filter';
+
 
 
 class Recommendations extends React.Component {
@@ -20,8 +21,8 @@ class Recommendations extends React.Component {
             results: [],
             lastUid: -1,
             selectedIntervals: [],
-            randomJson: [],
             selectedFilters: [],
+            selectedCourses: [],
         };
 
         if (typeof window !== 'undefined') {
@@ -50,8 +51,22 @@ class Recommendations extends React.Component {
     }
 
     handleClick = () => {
-        alert(this.state.selectedCourses);
-        alert(this.state.selectedIntervals);
+        const data = {
+            courses: this.state.selectedCourses,
+            limit: 25,
+            timings: this.state.selectedIntervals,
+        };
+        fetch('http://localhost:3007/recommendation', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(data),
+        }).then((response) => response.json())
+            .then((result) => result.filter(Boolean)).then((response) => {
+                console.log(response);
+                this.setState({ results: response });
+            });
     }
 
 
@@ -88,14 +103,14 @@ class Recommendations extends React.Component {
                     onIntervalUpdate = {this.handleEventUpdate}
                     onIntervalRemove = {this.handleEventRemove}
                     dayFormat = {'dddd'}
-                    firstDay = {moment().day('Monday')}
+                    firstDay = {moment().day('Monday').year('2020')}
                     modalComponent = {CustomModal}
                 />
                 <button onClick={this.handleClick}>Send Schedule</button>
-                <ul>
-                    {this.state.randomJson.map((results) => <li>{results.name.first}</li>)}
-                </ul>
                 <Filter onChange = {this.onChange} />
+                <ul>
+                    {this.state.results.map((results) => <li key={results._id} >{results._id}</li>)}
+                </ul>
 
             </div>
         </div>

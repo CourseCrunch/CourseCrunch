@@ -4,8 +4,7 @@ const { Schema } = mongo;
 
 mongo.set('useCreateIndex', true);
 
-
-mongo.connect(process.env.CONNECTSTR, { useNewUrlParser: true, useUnifiedTopology: true });
+mongo.connect(process.env.MONGOINSTRUCTORSTR, { useNewUrlParser: true, useUnifiedTopology: true });
 
 const InstructorSchema = new Schema({
     pk_id: String,

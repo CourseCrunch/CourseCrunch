@@ -1,4 +1,49 @@
-Code,Dept,Course,Term,Year,Last Name,First Name,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Inspired thinking about subject matter,Course Workload,I would recommend this course,Number Invited,Number of Survey Responses
+Code,Dept,Course,Term,Year,Last_Name,First_Name,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Item_7,Item_8,Item_9,Item_10,Item_11
+FREB18H3,CFLSC,Business French FREB18H3-F-LEC30,Fall,2019,Sonina,Snejina,4.5,4.6,4.8,4.7,4.6,4.8,4.6,3.1,4.8,16,10
+FREB70H3,CFLSC,Cinema of FRE-Speaking World FREB70H3-F-LEC01,Fall,2019,English,Jeri,4.5,4.5,4.7,4.5,4.4,4.5,4.3,2.5,4.7,33,15
+LINB60H3,CFLSC,Comp Study of Eng and Chinese LINB60H3-F-LEC01,Fall,2019,Wang,Rui,4.4,4.6,4.7,4.6,4.6,4.3,4.5,3.3,4.5,39,24
+LGGC62H3,CFLSC,Cultures in the East and West LGGC62H3-F-LEC01,Fall,2019,Dong,Alice,3.3,3.9,3.7,3.6,3.7,3.4,3.5,3.4,3.5,34,15
+ECTB61H3,CFLSC,English & Chinese Translation ECTB61H3-F-LEC01,Fall,2019,Ma,Jingsong,3.6,4.1,4.0,4.3,4.4,4.0,4.0,2.8,4.4,32,12
+ECTB61H3,CFLSC,English & Chinese Translation ECTB61H3-F-LEC02,Fall,2019,Ma,Jingsong,4.2,4.2,4.1,4.2,4.2,4.1,4.1,2.9,4.2,35,17
+ECTB61H3,CFLSC,English & Chinese Translation ECTB61H3-F-LEC03,Fall,2019,Ma,Jingsong,3.7,3.7,4.0,3.8,3.8,3.8,3.6,3.0,3.6,39,19
+ECTB61H3,CFLSC,English & Chinese Translation ECTB61H3-F-LEC04,Fall,2019,Ma,Jingsong,3.4,3.7,3.8,3.7,3.6,3.5,3.7,2.7,3.5,38,18
+PLIC24H3,CFLSC,First Language Acquisition PLIC24H3-F-LEC01,Fall,2019,Helms-Park,Rena,4.2,4.2,4.2,3.9,3.9,4.1,3.9,2.9,4.1,28,16
+FREC57H3,CFLSC,French Fiction: 19th Century FREC57H3-F-LEC01,Fall,2019,Riendeau,Pascal,4.3,4.3,4.3,4.5,4.7,4.0,3.7,3.0,4.2,12,6
+FREB45H3,CFLSC,French Morphology and Syntax FREB45H3-F-LEC01,Fall,2019,Messi Bekamenga,Evard,4.0,4.2,4.1,4.1,4.1,3.6,3.0,2.8,3.6,18,16
+FREB44H3,CFLSC,French Phonetics and Phonology FREB44H3-F-LEC01,Fall,2019,Sonina,Snejina,4.1,4.4,4.2,3.8,4.1,4.0,3.8,3.2,3.8,34,20
+LGGB60H3,CFLSC,Intermediate Chinese I LGGB60H3-F-LEC30,Fall,2019,Dong,Alice,3.7,3.9,3.7,3.7,4.0,3.6,3.5,3.1,3.9,26,18
+FREA98H3,CFLSC,Intermediate French I FREA98H3-F-LEC30,Fall,2019,Gaughan,Catherine,4.3,4.0,4.7,4.6,4.5,4.2,4.0,2.7,4.4,36,11
+FREB50H3,CFLSC,Intro to French Literature I FREB50H3-F-LEC01,Fall,2019,Pillet,Maud,3.9,4.1,4.4,3.8,3.9,3.7,3.2,3.5,3.4,39,18
+LGGA60H3,CFLSC,Introd Standard Chinese I LGGA60H3-F-LEC01,Fall,2019,Dong,Alice,3.7,3.8,3.3,4.0,3.9,3.1,3.6,2.6,3.6,42,13
+FREA96H3,CFLSC,Introductory French I FREA96H3-F-LEC30,Fall,2019,Cote,Stephanie,4.1,4.3,4.5,4.4,4.5,4.0,3.7,3.1,4.1,88,58
+FREA96H3,CFLSC,Introductory French I FREA96H3-F-LEC31,Fall,2019,Cote,Stephanie,4.3,4.4,4.6,4.4,4.4,4.0,4.1,3.5,3.8,76,33
+LGGA74H3,CFLSC,Introductory Tamil I LGGA74H3-F-LEC30,Fall,2019,Vivekanandan,Ponniah,4.6,4.9,4.8,4.6,4.5,4.5,4.5,2.9,4.8,27,16
+LINC28H3,CFLSC,Language and Gender LINC28H3-F-LEC01,Fall,2019,Hachimi,Atiqa,3.9,4.0,3.8,3.8,3.9,3.6,3.9,3.9,3.1,26,15
+FREA01H3,CFLSC,Language Practice I FREA01H3-F-LEC01,Fall,2019,Tsimenis,Malama,3.9,4.0,4.5,3.8,4.2,3.8,3.2,2.5,4.2,26,25
+FREA01H3,CFLSC,Language Practice I FREA01H3-F-LEC02,Fall,2019,Tsimenis,Malama,4.5,4.4,4.8,4.3,4.4,4.2,4.1,2.7,4.4,24,23
+FREA01H3,CFLSC,Language Practice I FREA01H3-F-LEC03,Fall,2019,Tsimenis,Malama,3.8,4.1,4.4,4.0,4.0,3.9,3.7,2.3,4.1,23,23
+FREA01H3,CFLSC,Language Practice I FREA01H3-F-LEC30,Fall,2019,Ballin,Marie-Therese,3.9,4.1,4.5,3.8,4.1,4.0,3.8,2.9,4.1,29,17
+FREA01H3,CFLSC,Language Practice I FREA01H3-F-LEC31,Fall,2019,Bakaeva,Natalia,3.6,3.6,3.7,3.6,3.8,3.5,3.6,2.1,3.6,26,19
+FREB01H3,CFLSC,Language Practice III FREB01H3-F-LEC01,Fall,2019,Peric,Katarzyna,4.3,4.4,4.7,4.1,4.1,4.3,3.6,2.7,4.3,29,12
+FREB01H3,CFLSC,Language Practice III FREB01H3-F-LEC02,Fall,2019,Pillet,Maud,4.3,4.2,4.7,4.0,4.3,4.6,4.0,2.7,4.3,31,12
+FREB01H3,CFLSC,Language Practice III FREB01H3-F-LEC30,Fall,2019,Pillet,Maud,4.4,4.5,4.9,4.5,4.6,4.6,4.4,2.7,4.5,24,14
+FREC01H3,CFLSC,Language Practice V FREC01H3-F-LEC01,Fall,2019,English,Jeri,4.1,4.2,4.6,3.9,4.0,4.2,3.5,2.9,4.2,27,13
+FREC01H3,CFLSC,Language Practice V FREC01H3-F-LEC02,Fall,2019,Chung Siong Fah,Christina,3.9,4.1,4.8,4.4,4.4,4.3,3.7,2.6,4.2,20,14
+FREC01H3,CFLSC,Language Practice V FREC01H3-F-LEC30,Fall,2019,Pillet,Maud,4.1,4.3,4.9,4.4,4.4,4.2,4.0,3.1,3.9,18,9
+FRED01H3,CFLSC,Language Practice VII: Written FRED01H3-F-LEC01,Fall,2019,Tsimenis,Malama,3.9,3.9,4.6,3.9,4.0,3.8,3.4,2.6,4.1,33,29
+LINB09H3,CFLSC,Phonetics: Study Speech Sounds LINB09H3-F-LEC01,Fall,2019,Chociej,Joanna,3.9,4.2,3.7,3.9,3.8,3.6,3.7,3.3,3.5,104,53
+FREB08H3,CFLSC,Practical Translation I FREB08H3-F-LEC30,Fall,2019,Mittler,Sylvia,2.8,3.2,3.3,2.8,3.0,2.6,2.7,2.7,3.0,27,12
+PLID34H3,CFLSC,Psycholinguistics of Reading PLID34H3-F-LEC01,Fall,2019,Helms-Park,Rena,4.6,4.6,4.6,4.4,4.5,4.4,4.5,2.8,4.6,27,11
+LGGC65H3,CFLSC,Read Chinese and English: GP LGGC65H3-F-LEC30,Fall,2019,Yan,Yan,4.0,4.0,4.0,4.0,4.0,3.7,4.1,3.1,4.1,37,11
+LGGC64H3,CFLSC,Reading Chi and En: Inside Out LGGC64H3-F-LEC01,Fall,2019,Wang,Rui,3.9,4.6,4.7,4.4,4.4,3.7,4.1,3.0,4.1,31,8
+LGGC64H3,CFLSC,Reading Chi and En: Inside Out LGGC64H3-F-LEC02,Fall,2019,Wang,Rui,4.0,4.2,4.3,4.3,4.2,3.8,4.2,3.1,4.4,36,11
+LGGC64H3,CFLSC,Reading Chi and En: Inside Out LGGC64H3-F-LEC03,Fall,2019,Wang,Rui,4.1,4.5,4.5,4.5,4.6,4.4,4.3,3.1,4.7,36,13
+PLID50H3,CFLSC,Speech Perception PLID50H3-F-LEC01,Fall,2019,Monahan,Philip,4.3,4.6,4.7,4.7,4.8,4.4,4.1,3.3,4.4,14,9
+PLIC54H3,CFLSC,Speech Physlgy & Disorders PLIC54H3-F-LEC01,Fall,2019,Sanjeevan,Teenu,4.4,4.7,4.9,4.4,4.6,4.5,4.0,3.2,4.4,37,17
+FREB36H3,CFLSC,The 20th Century Quebec Novel FREB36H3-F-LEC01,Fall,2019,Chevrette,Eric,3.2,3.1,3.0,3.1,3.6,3.0,2.7,4.0,2.9,14,8
+ECTD68H3,CFLSC,Transltn for Business & Media ECTD68H3-F-LEC01,Fall,2019,Wang,Rui,4.5,4.6,4.7,4.6,4.6,4.6,4.6,3.2,4.7,37,14
+ECTD69H3,CFLSC,Transltn for Gov & Public Admn ECTD69H3-F-LEC30,Fall,2019,Ma,Jingsong,4.5,4.6,4.5,4.6,4.8,4.4,4.6,2.9,4.8,37,17
+FREC63H3,CFLSC,Travel Writing in French FREC63H3-F-LEC01,Fall,2019,Mittler,Sylvia,2.4,2.8,2.6,2.8,3.0,2.2,2.4,3.2,2.2,15,5
 LGGC62H3,CFLSC,Advanced Mandarin: E & W Cult LGGC62H3-F-LEC01,Summer,2019,Dong,Alice,4.1,4.2,4.2,4.2,4.2,4,4,3.4,4,35,28
 FREA90Y3,CFLSC,Intensive Introductory French FREA90Y3-F-LEC01,Summer,2019,English,Jeri,4.6,4.7,5,4.7,4.8,4.4,4.2,4.3,4.1,34,20
 LGGA90Y3,CFLSC,Intensive Introductory Spanish LGGA90Y3-Y-LEC30,Summer,2019,Hamlyn,Erin,4.6,4.2,4.8,4.4,4.6,4.4,4.2,4,4.2,24,5

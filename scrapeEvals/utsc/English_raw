@@ -1,4 +1,31 @@
-Code,Dept,Course,Term,Year,Last Name,First Name,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Inspired thinking about subject matter,Course Workload,I would recommend this course,Number Invited,Number of Survey Responses
+Code,Dept,Course,Term,Year,Last_Name,First_Name,Item_1,Item_2,Item_3,Item_4,Item_5,Item_6,Item_7,Item_8,Item_9,Item_10,Item_11
+ENGB06H3,ENGSC,Canadian Literature to 1900 ENGB06H3-F-LEC01,Fall,2019,Vernon,Karina,4.5,4.7,4.9,4.8,4.8,4.6,4.5,3.1,4.7,39,20
+ENGD84H3,ENGSC,Canadian Writing 21st CE ENGD84H3-F-LEC01,Fall,2019,Sathiyaseelan,Sinduja,4.6,4.3,4.3,4.4,4.7,4.4,4.3,3.4,4.4,20,9
+ENGB27H3,ENGSC,Charting Literary History I ENGB27H3-F-LEC30,Fall,2019,Chakravarty,Urvashi,3.7,3.9,3.8,3.8,4.0,3.5,3.0,3.6,3.2,80,32
+ENGC29H3,ENGSC,Chaucer ENGC29H3-F-LEC01,Fall,2019,Gaston,Kara,4.6,4.6,4.9,4.7,4.9,4.7,4.5,3.1,4.8,18,11
+ENGB35H3,ENGSC,Children's Literature ENGB35H3-F-LEC01,Fall,2019,Bolus-Reichert,Christine,4.0,4.3,4.5,3.9,4.1,3.8,3.9,3.2,4.1,88,36
+ENGB30H3,ENGSC,Classical Myth and Literature ENGB30H3-F-LEC01,Fall,2019,Wey,Laura,4.4,4.4,4.5,4.0,4.1,4.2,4.1,3.1,4.3,88,26
+ENGB17H3,ENGSC,Comtemp Lit from the Caribbean ENGB17H3-F-LEC01,Fall,2019,Kortenaar,Neil,4.0,4.2,3.8,3.8,4.8,4.0,4.6,3.2,4.0,14,5
+ENGB61H3,ENGSC,Creative Writing: Fiction I ENGB61H3-F-LEC01,Fall,2019,Sathiyaseelan,Sinduja,4.1,4.3,3.9,4.5,4.4,4.0,4.1,3.9,3.8,20,10
+ENGB60H3,ENGSC,Creative Writing: Poetry I ENGB60H3-F-LEC01,Fall,2019,Tysdal,Daniel,4.5,4.7,4.6,4.5,4.5,4.6,4.5,3.4,4.7,21,10
+ENGC04H3,ENGSC,Creative Writing:Screenwriting ENGC04H3-F-LEC01,Fall,2019,Tysdal,Daniel,4.5,4.5,4.7,4.3,4.3,4.2,4.7,3.0,4.7,14,6
+ENGA02H3,ENGSC,Critical Writing About Lit ENGA02H3-F-LEC02,Fall,2019,Assif,Maria,4.7,5.0,4.9,4.6,4.8,4.6,4.3,3.9,4.6,22,11
+ENGA02H3,ENGSC,Critical Writing About Lit ENGA02H3-F-LEC03,Fall,2019,Keyzad,Niyosha,3.9,4.0,4.3,3.3,3.6,3.3,3.6,3.7,3.1,24,20
+ENGA02H3,ENGSC,Critical Writing About Lit ENGA02H3-F-LEC04,Fall,2019,Assif,Maria,4.7,4.7,4.9,4.8,4.8,4.8,4.4,3.9,4.8,23,13
+ENGA02H3,ENGSC,Critical Writing About Lit ENGA02H3-F-LEC05,Fall,2019,Rodgers,Joel,4.5,4.7,4.9,4.7,4.7,4.4,4.2,3.5,4.6,21,18
+ENGC26H3,ENGSC,Drama: Tragedy ENGC26H3-F-LEC01,Fall,2019,Wey,Laura,4.3,4.3,4.5,4.3,4.4,4.1,4.1,3.3,4.1,27,11
+ENGC75H3,ENGSC,Freaks and Geeks: ENGC75H3-F-LEC01,Fall,2019,Maurice,Alice,4.1,4.2,4.6,4.2,4.4,4.3,3.9,2.8,4.6,47,18
+ENGC59H3,ENGSC,Geography & Regionalism in Lit ENGC59H3-F-LEC01,Fall,2019,Milne,Anne,4.5,4.7,5.0,4.8,4.7,4.5,5.0,2.8,4.3,7,6
+ENGB70H3,ENGSC,How to Read a Film ENGB70H3-F-LEC01,Fall,2019,Maurice,Alice,4.6,4.8,4.7,4.5,4.6,4.3,4.5,2.8,4.6,81,23
+ENGC56H3,ENGSC,Lit & Media: Page to Screen ENGC56H3-F-LEC01,Fall,2019,Flynn,Deirdre,4.5,4.5,4.1,3.9,4.3,3.8,4.5,3.0,3.9,37,11
+ENGA10H3,ENGSC,Lit and Film for our Time: VR ENGA10H3-F-LEC01,Fall,2019,Leonard,Garry,3.8,3.7,3.8,3.4,3.6,3.5,3.7,3.0,3.7,239,63
+ENGD62H3,ENGSC,Postcolonial Literature & Film ENGD62H3-F-LEC01,Fall,2019,Saljoughi,Sara,4.6,4.7,4.6,4.0,4.6,4.3,4.4,3.2,4.2,15,11
+ENGC42H3,ENGSC,Romanticism ENGC42H3-F-LEC01,Fall,2019,Milne,Anne,4.7,4.7,4.7,4.5,4.3,4.5,4.5,3.0,4.5,14,6
+ENGC10H3,ENGSC,Studies in Shakespeare ENGC10H3-F-LEC01,Fall,2019,Wey,Laura,4.5,4.5,4.6,4.8,4.6,4.3,3.8,3.4,4.4,22,9
+ENGB74H3,ENGSC,The Body in Literature & Film ENGB74H3-F-LEC30,Fall,2019,Leonard,Garry,3.9,4.3,3.9,3.9,4.1,3.5,3.9,3.4,3.5,48,15
+ENGB25H3,ENGSC,The Canadian Short Story ENGB25H3-F-LEC01,Fall,2019,Goldman,Marlene,3.6,3.9,4.3,4.0,4.3,3.5,3.7,3.4,3.4,30,12
+ENGC25H3,ENGSC,Victorian Poetry and Prose ENGC25H3-F-LEC01,Fall,2019,Bolus-Reichert,Christine,4.3,4.7,4.8,4.8,4.8,4.6,4.0,3.2,4.6,16,11
+ENGA01H3,ENGSC,What Is Literature? ENGA01H3-F-LEC01,Fall,2019,Nikkila,Sonja,4.0,4.1,4.6,4.0,4.1,3.9,3.8,3.5,3.9,210,161
 ENGD71H3,ENGSC,Arab North American Literature ENGD71H3-F-LEC01,Summer,2019,Assif,Maria,4.7,4.7,4.7,4.7,4.5,4.3,4.3,3.8,4.3,12,6
 ENGA02H3,ENGSC,Critical Writing About Lit ENGA02H3-F-LEC01,Summer,2019,Assif,Maria,4.8,4.9,5,4.7,4.8,4.9,4.7,3.7,4.9,19,11
 ENGB50H3,ENGSC,Women & Lit: Forging a Tradit ENGB50H3-Y-LEC01,Summer,2019,Gagne,Ann,4.5,4.7,4.9,4.6,4.8,4.6,4.5,2.8,4.7,34,17

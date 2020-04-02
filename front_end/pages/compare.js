@@ -2,6 +2,7 @@ import React from 'react';
 import './index.css';
 import './hover.css';
 import NavBar from '../components/NavBar/NavBar';
+import Router from 'next/router';
 
 import InstructorTable from '../components/InstructorTable/InstructorTable';
 
@@ -14,6 +15,12 @@ class Comparison extends React.Component {
         };
         this.buttonClickHandler = this.buttonClickHandler.bind(this);
         this.searchChangeHandler = this.searchChangeHandler.bind(this);
+
+        if (typeof window !== 'undefined') {
+            if (localStorage.getItem('loggedIn') === null) {
+                Router.push('/login');
+            }
+        }
     }
 
     searchChangeHandler(event) {

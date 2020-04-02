@@ -7,6 +7,8 @@ import SelectUserCred from '../components/UserCredSelection/SelectUserCred';
 import AddCourse from '../components/AddCourse/AddCourse';
 import ChangeEmail from '../components/ChangeEmail/ChangeEmail';
 import ChangePassword from '../components/ChangePassword/ChangePassword';
+import Router from 'next/router';
+
 
 import './index.css';
 import './hover.css';
@@ -17,7 +19,15 @@ class EditProf extends React.Component {
         this.state = {
             screen: 'None',
         };
+
+        if (typeof window !== 'undefined') {
+            if (localStorage.getItem('loggedIn') === null) {
+                Router.push('/login');
+            }
+        }
     }
+
+    
 
     updState = (state) => {
         this.setState(state);

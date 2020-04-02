@@ -17,7 +17,6 @@ class ViewWaitlist extends React.Component {
             errorMessage: '',
             removeCourse: false,
             waitlists: [],
-            userid: '',
         };
     }
 
@@ -92,13 +91,21 @@ class ViewWaitlist extends React.Component {
 
     handleCourseRemoval(waitlist) {
         if (!this.state.removeCourse) return;
+        let userid = '';
+        if (typeof window !== 'undefined') {
+            userid = localStorage.getItem('userid');
+        }
+        const data = {};
+        Object.assign(data, waitlist);
+        data.userid = userid;
+        console.log(data);
         try {
             fetch(`http://localhost:${process.env.WAITLISTPORT}/deleteWaitlist`, {
                 method: 'DELETE',
                 headers: {
                     'Content-Type': 'application/json',
                 },
-                body: JSON.stringify(waitlist),
+                body: JSON.stringify(data),
             }).then(() => {
                 this.setState({
                     removeCourse: false,

@@ -7,16 +7,22 @@ class NavBar extends React.Component {
         this.state = { loaded: false };
     }
 
+    logout() {
+        if (typeof window !== 'undefined') {
+            localStorage.removeItem('loggedIn');
+            localStorage.removeItem('userid');
+        }
+    }
+
     Greeting() {
         if (this.state.loaded) {
             if (typeof window !== 'undefined') {
                 if (localStorage.getItem('loggedIn') === null) {
                     return <li><Link href='/login'><a>Login</a></Link></li>;
                 }
-            } else {
                 return <>
                     <li><Link href = "/editProfile"><a>User Profile</a></Link></li>
-                    <li><label>Logout</label></li>
+                    <li><Link href='/'><a onClick={this.logout}>Logout</a></Link></li>
                 </>;
             }
         }

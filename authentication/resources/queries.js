@@ -51,7 +51,7 @@ function validatePW(email, password) {
     }));
 }
 
-// Naaz's get user ID from mail. It doesn't use a promise so I'm sorry.
+// Naaz's get user ID from mail. It does use a promise so I'm not sorry.
 function getUserIDFromMail(email) {
     return new Promise(((resolve, reject) => {
         try {
@@ -67,35 +67,35 @@ function getUserIDFromMail(email) {
     }));
 }
 
-const createUser = (fname, lname, email, program, password, callBack) => {
-    try {
-        bcrypt.hash(password, 10, (bcryptErr, hash) => {
-            if (bcryptErr) {
-                console.log(bcryptErr);
-                return callBack('error');
-            }
-
-            const uuid = uuidv4();
-            UserDB.query('INSERT INTO CC_CREDENTIALS (ID, EMAIL, HASH) VALUES ($1, $2, $3)',
-                [uuid, email, hash], (credErr, result) => {
-                    if (credErr) {
-                        console.log(credErr);
-                        return callBack('error');
-                    }
-                    UserDB.query('INSERT INTO CC_USER_INFO (ID, ROLE, FNAME, LNAME, PROGRAM) VALUES ($1, $2, $3, $4, $5)',
-                        [uuid, 'USER', fname, lname, program], (info_err, resultt) => {
-                            if (info_err) {
-                                console.log(info_err);
-                            } else {
-                                return callBack('User Registered!');
-                            }
-                        });
+function createUser(fname, lname, email, program, password) {
+    return new Promise(((resolve, reject) => {
+        try {
+            const promiseHashPass = bcrypt.hash(password, 10);
+            promiseHashPass.then((hash) => {
+                const uuid = uuidv4();
+                const promiseCreateUser = UserDB
+                    .query('INSERT INTO CC_CREDENTIALS (ID, EMAIL, HASH) VALUES ($1, $2, $3)',
+                        [uuid, email, hash]);
+                promiseCreateUser.then(() => {
+                    const promiseAddInfo = UserDB
+                        .query('INSERT INTO CC_USER_INFO (ID, ROLE, FNAME, LNAME, PROGRAM)'
+                            + 'VALUES ($1, $2, $3, $4, $5)', [uuid, 'USER', fname, lname, program]);
+                    promiseAddInfo.then(() => {
+                        resolve(uuid);
+                    }).catch((addInfoError) => {
+                        reject(addInfoError);
+                    });
+                }).catch((createUserError) => {
+                    reject(createUserError);
                 });
-        });
-    } catch (e) {
-        console.log(e);
-    }
-};
+            }).catch((hashError) => {
+                reject(hashError);
+            });
+        } catch (e) {
+            console.log(e);
+        }
+    }));
+}
 
 module.exports = {
     checkUserExists,

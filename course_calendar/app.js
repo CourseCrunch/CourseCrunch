@@ -1,9 +1,11 @@
-var express = require('express');
+const express = require('express');
 
-var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
+const indexRouter = require('./routes/index');
+const usersRouter = require('./routes/users');
+const recommendationsRouter = require('./routes/getRecommendations');
+const apiRouter = require('./routes/api');
 
-var app = express();
+const app = express();
 
 // view engine setup
 
@@ -12,5 +14,6 @@ app.use(express.urlencoded({ extended: false }));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
-
-app.listen(process.env.CALENDARPORT, () => console.log("App listening on port "+process.env.CALENDARPORT));
+app.use('/recommendations', recommendationsRouter);
+app.use('/api', apiRouter);
+app.listen(process.env.CALENDARPORT, () => console.log(`App listening on port ${process.env.CALENDARPORT}`));

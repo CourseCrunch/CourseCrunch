@@ -13,7 +13,7 @@ router.use(bodyParser.urlencoded({
 }));
 
 /* GET courses that a course code is a prerequisite to. */
-router.get('/prereqTo', (req, res) => {
+router.post('/prereqTo', (req, res) => {
     try {
         console.log(req.body);
         const reqCourses = req.body.courses;

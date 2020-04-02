@@ -27,7 +27,7 @@ navigation_list = soup.find_all("a", class_="bodyLink")
 
 
 def getAllDepartments():
-    pattern = r"newdep_detail.pl\?Depart=(\d+)";
+    pattern = r"newdep_detail.pl\?Depart=(\d+)"
     page = requests.get(courses_url)
     soup = BeautifulSoup(page.content, 'html.parser')
     tables = soup.findChildren("table", class_="normaltext")
@@ -70,8 +70,8 @@ def getCourseData(courseurl):
     soup = BeautifulSoup(page.content, 'html.parser')
     content = soup.find("div", class_="contentpos")
     c = content.contents[2]
-    prereq_index = -1;
-    excl_index = -1;
+    prereq_index = -1
+    excl_index = -1
     for i in range(len(c.contents)):
         if type(c.contents[i]) == NavigableString:
             continue
@@ -110,7 +110,7 @@ def clean_list(lst):
     alt = 0
     for element in lst:
         if type(element) == Tag:
-            continue;
+            continue
         element = element.replace('(', "")
         element = element.replace(')', "")
         if "and" in element:

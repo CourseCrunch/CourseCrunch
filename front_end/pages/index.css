@@ -6,6 +6,7 @@
     width: 100%;
     background: #013a6f;
     height: 60px;
+    z-index: 21;
 }
 
 .NavBar_navigation{

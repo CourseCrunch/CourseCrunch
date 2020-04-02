@@ -2,12 +2,11 @@
 const express = require('express');
 
 const router = express.Router();
-const app = express();
 const bodyParser = require('body-parser');
 const validator = require('validator');
 const dbReq = require('../resources/queries');
 
-const emptyString = function (input) { if (input == 'undefined') { return ''; } return input; };
+const emptyString = function (input) { if (input === 'undefined') { return ''; } return input; };
 
 router.use(bodyParser.json());
 router.use(bodyParser.urlencoded({

@@ -5,7 +5,6 @@ const fetch = require('node-fetch');
 const moment = require('moment');
 const courseEvals = require('../model/api');
 const timetableApi = require('../../timetable_api/api');
-// mongoose.connect(process.env.MONGOEVALSTR, { useNewUrlParser: true });
 
 function getDay(day) {
     switch (day) {

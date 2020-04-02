@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from 'next/link';
 import Head from 'next/head';
 import logo from './logo2.png';
 
@@ -13,11 +12,11 @@ class NavBar extends React.Component {
         if (this.state.loaded) {
             if (typeof window !== 'undefined') {
                 if (localStorage.getItem('loggedIn') === null) {
-                    return <li><Link href='/login'><a>Login</a></Link></li>;
+                    return <li><a href='/login'>Login</a></li>;
                 }
             } else {
                 return <>
-                    <li><Link href = "/editProfile"><a>User Profile</a></Link></li>
+                    <li><a href="/editProfile">User Profile</a></li>
                     <li><label>Logout</label></li>
                 </>;
             }
@@ -42,11 +41,11 @@ class NavBar extends React.Component {
                     <div className = "spacer"/>
                     <div className = "NavBar_navigation-items">
                         <ul>
-                            <li><Link href = "#"><a>Course Reviews</a></Link></li>
-                            <li><Link href = "/compare"><a>Compare Courses</a></Link></li>
-                            <li><Link href = "/recommendations"><a>Course Recommendation</a></Link></li>
-                            <li><Link href = "/dviz"><a>Course Evaluations</a></Link></li>
-                            <li><Link href = "/instructor"><a>Instructor Search</a></Link></li>
+                            <li><a href="#">Course Reviews</a></li>
+                            <li><a href="/compare">Compare Courses</a></li>
+                            <li><a href="/recommendations">Course Recommendation</a></li>
+                            <li><a href="/dviz">Course Evaluations</a></li>
+                            <li><a href="/instructor">Instructor Search</a></li>
                             {this.Greeting()}
                         </ul>
                     </div>

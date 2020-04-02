@@ -1,6 +1,7 @@
 import React from 'react';
 import WeekCalendar from 'react-week-calendar';
 import moment from 'moment';
+import Router from 'next/router';
 import NavBar from '../components/NavBar/NavBar';
 import Filter from '../components/Filter/Filter';
 import './index.css';
@@ -8,10 +9,6 @@ import './hover.css';
 // import './recommendations.css';
 import CustomModal from '../components/CustomModal/CustomModal';
 import 'react-week-calendar/dist/style.css';
-import NavBar from '../components/NavBar/NavBar';
-import Router from 'next/router';
-import Filter from '../components/Filter/Filter';
-
 
 
 class Recommendations extends React.Component {

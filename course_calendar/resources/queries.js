@@ -94,7 +94,6 @@ function getExclusionTo(courses) {
     });
 }
 
-
 module.exports = {
     getPrereqTo,
     getPrerequisites,

@@ -1,8 +1,7 @@
 import React from 'react';
 import {
-    Form, Button, FormGroup, FormControl, ControlLabel,
+    Button,
 } from 'react-bootstrap';
-import Link from 'next/link';
 import './SelectUserCred.css';
 
 const PORT = process.env.PROFILEPORT;

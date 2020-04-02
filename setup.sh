@@ -14,10 +14,9 @@ check_arg() {
 
 dependencies=("rmp_api" "timetable_api");
 
-for i in ${!folders[@]};
+for i in ${!dependencies[@]};
 do
-    log=${folders[$i]}
-
+    log=${dependencies[$i]}
     cd $log;
     #echo `pwd`;
     npm i

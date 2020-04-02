@@ -28,8 +28,8 @@ router.post('/addWaitlist', (req, res) => {
             res.status(403).send('Unauthorized to access resource');
         } else {
             // sanitize all inputs!
-            const userID = localStorage.getItem('userID');
-            const uuid = emptyString(validator.trim(userID));
+            const userid = localStorage.getItem('userid');
+            const uuid = emptyString(validator.trim(userid));
             const sanCourse = emptyString(validator.trim(`${course}`));
             const sanTerm = emptyString(validator.trim(`${term}`));
             const sanYear = emptyString(validator.trim(`${year}`));
@@ -79,8 +79,8 @@ router.delete('/deleteWaitlist', (req, res) => {
             res.status(403).send('Unauthorized to access resource');
         } else {
             // sanitize all inputs!
-            const userID = localStorage.getItem('userID');
-            const uuid = emptyString(validator.trim(userID));
+            const userid = localStorage.getItem('userid');
+            const uuid = emptyString(validator.trim(userid));
             const sanCourse = emptyString(validator.trim(`${course}`));
             const sanTerm = emptyString(validator.trim(`${term}`));
             const sanYear = emptyString(validator.trim(`${year}`));
@@ -108,8 +108,8 @@ router.get('/getWaitlists', (req, res) => {
             res.status(403).send('Unauthorized to access resource');
         } else {
             // sanitize all inputs!
-            const userID = localStorage.getItem('userID');
-            const uuid = emptyString(validator.trim(userID));
+            const userid = localStorage.getItem('userid');
+            const uuid = emptyString(validator.trim(userid));
             if (uuid === '') {
                 res.status(400).send('Empty fetch');
             } else {

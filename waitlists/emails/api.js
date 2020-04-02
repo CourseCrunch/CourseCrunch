@@ -1,4 +1,4 @@
-const dbReq = require('../resources/queries').default;
+const dbReq = require('../resources/queries');
 const timetableApi = require('../../timetable_api/api.js');
 require('dotenv').config();
 const TransporterSingleton = require('./transporter.js');
@@ -14,35 +14,31 @@ function sendEmail(userEmail, course) {
         text: `Good news! We just found out that there isn't a waitlist anymore for ${course}.`,
     };
 
-    transporter.sendMail(mailOptions, (error, info) => {
-        if (error) {
-            // eslint-disable-next-line no-console
-            console.log(error);
-            return false;
-        }
+    return transporter.sendMail(mailOptions).then(() => true).catch((e) => {
         // eslint-disable-next-line no-console
-        console.log(`Email sent: ${info.response}`);
-        return true;
+        console.log(e);
+        return false;
     });
 }
 
 function checkUserWaitlist(waitlist, course, term, year) {
     timetableApi.waitListSpace(course, term, year).then((result) => {
-        if (result && result.space) {
+        // TODO: REMOVE THE CSC209H5 CONDITION THIS IS JUST FOR TESTING
+        if ((result && result.space) || course === 'CSC209H5') {
             waitlist[course][year][term].forEach((userID) => {
                 dbReq.getUserEmail(userID).then((userEmail) => {
-                    if (sendEmail(userEmail, course)) {
-                        dbReq.removeUser(userEmail, course, year, term).then(() => { console.log('User removed from waitlist'); }).catch((e) => {
-                            // eslint-disable-next-line no-console
-                            console.log(e);
-                        });
-                    }
-                // eslint-disable-next-line no-console
-                }).catch((e) => console.log(e)); // }
+                    sendEmail(userEmail, course).then((sent) => {
+                        if (sent) {
+                            dbReq.removeUser(userID, course, year, term).then(() => { console.log('User removed from waitlist'); }).catch((e) => {
+                                // eslint-disable-next-line no-console
+                                console.log(e);
+                            });
+                        }
+                    }).catch((e) => console.log(e)); // }
+                });
             });
         }
-    // eslint-disable-next-line no-console
-    }).catch((e) => { console.log(e); });
+    });
 }
 
 function checkWaitlists() {
@@ -60,4 +56,8 @@ function checkWaitlists() {
     }).catch((e) => { console.log(e); });
 }
 
-checkWaitlists();
+module.exports = {
+    checkWaitlists,
+    checkUserWaitlist,
+    sendEmail,
+};

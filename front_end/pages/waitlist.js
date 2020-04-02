@@ -4,6 +4,7 @@ import VertNavBar from '../components/UserProfile/VertNavBar';
 import WaitlistInput from '../components/WaitlistInput/WaitlistInput';
 import Router from 'next/router';
 
+
 import './index.css';
 import './hover.css';
 
@@ -35,6 +36,7 @@ class WaitlistComp extends React.Component {
     }
 
     render() {
+        const state = this.displayState();
         return (
             <div>
                 <NavBar isLoggedIn = {true}/>

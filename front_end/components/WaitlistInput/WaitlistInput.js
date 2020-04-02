@@ -4,6 +4,7 @@ import {
 } from 'react-bootstrap';
 import './WaitlistInput.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import ViewWaitlist from '../ViewWaitlist/ViewWaitlist';
 // import { Alert } from 'reactstrap';
 
 class WaitlistInput extends React.Component {
@@ -45,6 +46,7 @@ class WaitlistInput extends React.Component {
         }
     }
 
+
     handleSubmit() {
         const data = {
             course: this.state.waitlistCourse,
@@ -69,14 +71,16 @@ class WaitlistInput extends React.Component {
                         submitErr: true,
                     });
                 }
+            // eslint-disable-next-line no-unused-vars
             }).catch((e) => {
-                console.log(e);
                 this.setState({
                     submitErr: true,
                 });
             });
         } catch (e) {
-            console.log(e);
+            this.setState({
+                submitErr: true,
+            });
         }
     }
 
@@ -86,6 +90,10 @@ class WaitlistInput extends React.Component {
             <div className = "panel_container">
                 <div className = "pInfo_title_panel">
                     <h2>Waitlist Editor</h2>
+                </div>
+                <div className="currentWaitlist">
+                    <label className = "form_label">Your current waitlists</label>
+                    <ViewWaitlist></ViewWaitlist>
                 </div>
                 <div className = "form_panel">
                     <label className = "form_label">Add a course to waitlist</label>

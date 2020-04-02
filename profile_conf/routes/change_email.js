@@ -29,8 +29,7 @@ router.post('/', (req, res) => {
         if (uuid === '') {
             res.status(400).send();
         } else {
-            const promiseGetUserEmail = dbReq.getUserEmail(uuid);
-            promiseGetUserEmail.then((queryResult) => {
+            dbReq.getUserEmail(uuid).then((queryResult) => {
                 const { email } = queryResult.rows[0];
                 res.status(200).json({ eMail: email });
             }).catch((constructError) => {

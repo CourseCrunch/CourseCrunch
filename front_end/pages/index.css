@@ -15,10 +15,11 @@
     align-items: center;
 }
 
-.NavBar_logo a{
+.NavBar_logo img {
     color: white;
     text-decoration: wavy;
     font-size: 2rem;
+    height: 60px;
 }
 
 .NavBar_navigation-items ul{

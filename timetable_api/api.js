@@ -24,6 +24,10 @@ function getDescription(parsed) {
     return parsed.querySelector('.infoCourseDetails').childNodes[0].rawText.trim();
 }
 
+function getName(parsed) {
+    return parsed.querySelector('.course').querySelector('span').childNodes[0].rawText.trim();
+}
+
 function makeLectures(rows) {
     const l = rows[0].length;
     const array = [];

@@ -72,7 +72,7 @@ class SettingsInput extends React.Component {
                 email: this.state.newEmail,
                 password: this.state.password,
             };
-            fetch('http://localhost:3008/change_email', {
+            fetch(`http://localhost:${PORT}/change_email`, {
                 method: 'PATCH',
                 headers: {
                     'Content-Type': 'application/json',

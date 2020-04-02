@@ -5,7 +5,6 @@ import {
 } from 'react-bootstrap';
 import './Registration.css';
 import { Message } from 'semantic-ui-react';
-import Link from 'next/link';
 
 const PORT = process.env.AUTHPORT;
 

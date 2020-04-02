@@ -1,11 +1,9 @@
 import React from 'react';
 import {
-    Form, Button, FormGroup, FormControl, ControlLabel,
+    Form, Button,
 } from 'react-bootstrap';
-import Link from 'next/link';
 import './ChangePassword.css';
 import { Message } from 'semantic-ui-react';
-import SelectUserCred from '../UserCredSelection/SelectUserCred';
 
 const PORT = process.env.PROFILEPORT;
 

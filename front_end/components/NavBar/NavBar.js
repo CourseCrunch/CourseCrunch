@@ -25,7 +25,7 @@ class NavBar extends React.Component {
                 }
                 return <>
                     <li><a href="/editProfile">User Profile</a></li>
-                    <li><a onClick={this.logout}>Logout</a></li>
+                    <li><Link href='/'><a onClick={this.logout}>Logout</a></Link></li>
                 </>;
             }
         }

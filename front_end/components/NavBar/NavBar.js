@@ -37,7 +37,7 @@ class NavBar extends React.Component {
             </Head>
             <header className ="NavBar">
                 <nav className = "NavBar_navigation">
-                    <div className = "NavBar_logo"><Link href = '/'><a><img src={logo} alt="Logo"/></a></Link></div>
+                    <div className = "NavBar_logo"><a href = '/'><img src={logo} alt="Logo"/></a></div>
                     <div className = "spacer"/>
                     <div className = "NavBar_navigation-items">
                         <ul>

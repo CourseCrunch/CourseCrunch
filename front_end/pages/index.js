@@ -24,6 +24,7 @@ class Index extends React.Component {
             <Head>
                 <style>{'body,html { height:100% }'}</style>
                 <link href="https://cdn.jsdelivr.net/npm/semantic-ui/dist/semantic.min.css" rel="stylesheet" key="test"/>
+                <title>Course Crunch</title>
             </Head>
             <NavBar isLoggedIn = {true}/>
             <div className = "container">
@@ -32,10 +33,9 @@ class Index extends React.Component {
                 <div className = "buttonPanel">
                     <ul className="buttonList">
                         <li><a href='/recommendations'><Button className ="hvr-grow">Course Recommendations</Button></a></li>
-                        <li><a href="#"><Button className ="hvr-grow">PLACE HOLDER</Button></a></li>
                         <li><a href="/instructor"><Button className ="hvr-grow">View Instructors</Button></a></li>
-                        <li><Button className ="hvr-grow"> PLACE HOLDER</Button></li>
-                        <li><Button className ="hvr-grow">PLACE HOLDER</Button></li>
+                        <li><a href="/compare"><Button className ="hvr-grow"> Compare Courses</Button></a></li>
+                        <li><a href="/dviz"><Button className ="hvr-grow">Course Evaluations</Button></a></li>
                     </ul>
                 </div>
             </div>

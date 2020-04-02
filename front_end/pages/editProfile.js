@@ -1,5 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
+import Router from 'next/router';
 import NavBar from '../components/NavBar/NavBar';
 import VertNavBar from '../components/UserProfile/VertNavBar';
 import SettingsInput from '../components/UserSettingsInput/SettingsInput';
@@ -7,7 +8,6 @@ import SelectUserCred from '../components/UserCredSelection/SelectUserCred';
 import AddCourse from '../components/AddCourse/AddCourse';
 import ChangeEmail from '../components/ChangeEmail/ChangeEmail';
 import ChangePassword from '../components/ChangePassword/ChangePassword';
-import Router from 'next/router';
 
 
 import './index.css';
@@ -27,7 +27,6 @@ class EditProf extends React.Component {
         }
     }
 
-    
 
     updState = (state) => {
         this.setState(state);

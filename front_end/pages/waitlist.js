@@ -1,8 +1,8 @@
 import React from 'react';
+import Router from 'next/router';
 import NavBar from '../components/NavBar/NavBar';
 import VertNavBar from '../components/UserProfile/VertNavBar';
 import WaitlistInput from '../components/WaitlistInput/WaitlistInput';
-import Router from 'next/router';
 
 
 import './index.css';

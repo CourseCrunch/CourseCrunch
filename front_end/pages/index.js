@@ -23,8 +23,8 @@ class Index extends React.Component {
         return (<div>
             <Head>
                 <style>{'body,html { height:100% }'}</style>
-                <link href="https://cdn.jsdelivr.net/npm/semantic-ui/dist/semantic.min.css" rel="stylesheet" key="test"/>
                 <title>Course Crunch</title>
+                <link href="https://cdn.jsdelivr.net/npm/semantic-ui/dist/semantic.min.css" rel="stylesheet" key="test"/>
             </Head>
             <NavBar isLoggedIn = {true}/>
             <div className = "container">

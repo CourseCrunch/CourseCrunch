@@ -78,6 +78,8 @@ class Login extends React.Component {
         return (<div>
             <Head>
                 <style>{'body,html { height:100% }'}</style>
+                <link rel="shortcut icon" href="/static/favicon.ico" />
+                <title>Login</title>
                 <link href="https://cdn.jsdelivr.net/npm/semantic-ui/dist/semantic.min.css" rel="stylesheet" key="test"/>
             </Head>
             <NavBar/>

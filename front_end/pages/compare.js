@@ -1,8 +1,8 @@
 import React from 'react';
 import './index.css';
 import './hover.css';
-import NavBar from '../components/NavBar/NavBar';
 import Router from 'next/router';
+import NavBar from '../components/NavBar/NavBar';
 
 import InstructorTable from '../components/InstructorTable/InstructorTable';
 

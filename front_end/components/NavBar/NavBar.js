@@ -8,6 +8,7 @@ class NavBar extends React.Component {
         this.state = { loaded: false };
     }
 
+    // eslint-disable-next-line class-methods-use-this
     logout() {
         if (typeof window !== 'undefined') {
             localStorage.removeItem('loggedIn');
@@ -22,8 +23,8 @@ class NavBar extends React.Component {
                     return <li><a href='/login'>Login</a></li>;
                 }
                 return <>
-                    <li><Link href = "/editProfile"><a>User Profile</a></Link></li>
-                    <li><Link href='/'><a onClick={this.logout}>Logout</a></Link></li>
+                    <li><a href="/editProfile">User Profile</a></li>
+                    <li><a onClick={this.logout}>Logout</a></li>
                 </>;
             }
         }
@@ -47,7 +48,6 @@ class NavBar extends React.Component {
                     <div className = "spacer"/>
                     <div className = "NavBar_navigation-items">
                         <ul>
-                            <li><a href="#">Course Reviews</a></li>
                             <li><a href="/compare">Compare Courses</a></li>
                             <li><a href="/recommendations">Course Recommendation</a></li>
                             <li><a href="/dviz">Course Evaluations</a></li>

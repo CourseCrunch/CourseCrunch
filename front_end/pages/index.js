@@ -35,6 +35,7 @@ class Index extends React.Component {
                         <li><a href='/recommendations'><Button className ="hvr-grow">Course Recommendations</Button></a></li>
                         <li><a href="/instructor"><Button className ="hvr-grow">View Instructors</Button></a></li>
                         <li><a href="/compare"><Button className ="hvr-grow"> Compare Courses</Button></a></li>
+                        <li><a href="/waitlist"><Button className ="hvr-grow"> Waitlist Courses </Button></a></li>
                         <li><a href="/dviz"><Button className ="hvr-grow">Course Evaluations</Button></a></li>
                     </ul>
                 </div>

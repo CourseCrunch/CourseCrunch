@@ -17,6 +17,7 @@ class ViewWaitlist extends React.Component {
             errorMessage: '',
             removeCourse: false,
             waitlists: [],
+            userid: '',
         };
     }
 
@@ -25,12 +26,20 @@ class ViewWaitlist extends React.Component {
     }
 
     reloadWaitlist() {
+        let userid = '';
+        if (typeof window !== 'undefined') {
+            userid = localStorage.getItem('userid');
+        }
+        const data = {
+            userid,
+        };
         try {
             fetch(`http://localhost:${process.env.WAITLISTPORT}/getWaitlists`, {
-                method: 'GET',
+                method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
                 },
+                body: JSON.stringify(data),
             }).then((res) => {
                 if (res.ok) {
                     // eslint-disable-next-line no-unused-vars
@@ -39,18 +48,18 @@ class ViewWaitlist extends React.Component {
                             waitlists: data,
                             error: false,
                         });
-                    }).catch((e) => {
+                    }).catch(() => {
                         this.setState({
                             error: true,
                         });
                     });
                 }
-            }).catch((e) => {
+            }).catch(() => {
                 this.setState({
                     error: true,
                 });
             });
-        } catch (e) {
+        } catch {
             this.setState({
                 error: true,
             });

@@ -8,7 +8,6 @@ const Index = () => (
     <div>
         <Head>
             <title>Search Instructors</title>
-            <link href="https://cdn.jsdelivr.net/npm/semantic-ui/dist/semantic.min.css" rel="stylesheet" key="test"/>
         </Head>
         <NavBar/>
         <SearchParent/>

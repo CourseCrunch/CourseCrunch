@@ -14,16 +14,10 @@ function sendEmail(userEmail, course) {
         text: `Good news! We just found out that there isn't a waitlist anymore for ${course}.`,
     };
 
-    return new Promise((resolve, reject) => {
-        try {
-            transporter.sendMail(mailOptions);
-            resolve(true);
-        } catch (e) {
-            console.log(e);
-            reject(e);
-        }
-    }).catch((e) => {
+    return transporter.sendMail(mailOptions).then(() => true).catch((e) => {
+        // eslint-disable-next-line no-console
         console.log(e);
+        return false;
     });
 }
 
@@ -67,4 +61,3 @@ module.exports = {
     checkUserWaitlist,
     sendEmail,
 };
-© 2020 GitHub, Inc.

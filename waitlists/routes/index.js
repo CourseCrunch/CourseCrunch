@@ -114,7 +114,11 @@ router.get('/getWaitlists', (req, res) => {
                 res.status(400).send('Empty fetch');
             } else {
                 dbReq.getWaitlistsForUser(uuid).then((waitlists) => {
-                    res.status(200).send(waitlists);
+                    if (waitlists != null) {
+                        res.status(200).send(waitlists);
+                    } else {
+                        res.status(500).send('Something went wrong on the server side');
+                    }
                 }).catch((e) => {
                     res.status(409).send('Something went while getting your response');
                     console.log(e);

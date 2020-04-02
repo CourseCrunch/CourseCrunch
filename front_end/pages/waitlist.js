@@ -2,6 +2,7 @@ import React from 'react';
 import NavBar from '../components/NavBar/NavBar';
 import VertNavBar from '../components/UserProfile/VertNavBar';
 import WaitlistInput from '../components/WaitlistInput/WaitlistInput';
+import Router from 'next/router';
 
 import './index.css';
 import './hover.css';
@@ -12,6 +13,12 @@ class WaitlistComp extends React.Component {
         this.state = {
             screen: 'None',
         };
+
+        if (typeof window !== 'undefined') {
+            if (localStorage.getItem('loggedIn') === null) {
+                Router.push('/login');
+            }
+        }
     }
 
     updState = (state) => {

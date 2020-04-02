@@ -1,5 +1,6 @@
 import React from 'react';
 import Router from 'next/router';
+import Head from 'next/head';
 import Button from '@material-ui/core/Button';
 import { Message } from 'semantic-ui-react';
 import TextField from '@material-ui/core/TextField';
@@ -75,6 +76,10 @@ class Login extends React.Component {
 
     render() {
         return (<div>
+            <Head>
+                <style>{'body,html { height:100% }'}</style>
+                <link href="https://cdn.jsdelivr.net/npm/semantic-ui/dist/semantic.min.css" rel="stylesheet" key="test"/>
+            </Head>
             <NavBar/>
             <div className="loginform">
                 <h2>Login</h2>

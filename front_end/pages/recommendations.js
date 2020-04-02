@@ -8,6 +8,10 @@ import './hover.css';
 // import './recommendations.css';
 import CustomModal from '../components/CustomModal/CustomModal';
 import 'react-week-calendar/dist/style.css';
+import NavBar from '../components/NavBar/NavBar';
+import Router from 'next/router';
+import Filter from '../components/Filter/Filter';
+
 
 
 class Recommendations extends React.Component {
@@ -20,6 +24,12 @@ class Recommendations extends React.Component {
             selectedFilters: [],
             selectedCourses: [],
         };
+
+        if (typeof window !== 'undefined') {
+            if (localStorage.getItem('loggedIn') === null) {
+                Router.push('/login');
+            }
+        }
     }
 
     handleEventRemove = (event) => {

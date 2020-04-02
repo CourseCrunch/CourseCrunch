@@ -42,22 +42,18 @@ function getUserEmail(userID) {
             return null;
         }
         return results.rows[0].email;
-    }).catch((e) => {
-        console.log(e);
-        return null;
     });
 }
 
 function removeUser(userID, courseCode, year, term) {
-    return pool.query('DELETE FROM CC_USER_WAITLIST WHERE ID = $1 AND CourseCode = $2 AND CCYear=$3 AND Term=$4', [userID, courseCode, year, term]).then((results) => results).catch((e) => {
-        console.log(e);
-        return null;
-    });
+    return pool.query('DELETE FROM CC_USER_WAITLIST WHERE ID = $1 AND CourseCode = $2 AND CCYear=$3 AND Term=$4', [userID, courseCode, year, term])
+        .then((results) => results);
 }
 
 
 function addUser(userID, courseCode, year, term) {
-    return pool.query('INSERT INTO CC_USER_WAITLIST(ID, CourseCode, CCYear, Term) VALUES ($1, $2, $3, $4)', [userID, courseCode, year, term]).then((results) => results).catch((e) => { reject(e); });
+    return pool.query('INSERT INTO CC_USER_WAITLIST(ID, CourseCode, CCYear, Term) VALUES ($1, $2, $3, $4)', [userID, courseCode, year, term])
+        .then((results) => results);
 }
 
 function getWaitlistsForUser(userID) {

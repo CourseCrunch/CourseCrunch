@@ -1,5 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
+import Link from 'next/link';
 import logo from './logo2.png';
 
 class NavBar extends React.Component {

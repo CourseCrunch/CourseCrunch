@@ -93,6 +93,8 @@ class Login extends React.Component {
                         required={true} onChange ={(e) => this.setState({ password: e.target.value })}/>
                     <br/><br/><br/>
                     <Button variant="contained" color="primary" size="large" onClick={this.handleClick}>Login</Button>
+                    <br/><br/>
+                    <a id="register" href="/register"> Don't Have An Account? Sign Up Here! </a>
                 </form>
                 {this.dispSubmitErr()}
             </div>

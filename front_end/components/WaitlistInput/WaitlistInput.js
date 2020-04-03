@@ -17,16 +17,22 @@ class WaitlistInput extends React.Component {
             waitlistCourse: '',
             waitlistTerm: '',
             waitlistYear: '',
+            userid: '',
             submitted: false, // TODO: CHANGE THIS TO FALSE
             errorMessage: '',
         };
     }
 
     resetFields() {
+        let userid = '';
+        if (typeof window !== 'undefined') {
+            userid = localStorage.getItem('userid');
+        }
         this.setState({
             waitlistCourse: '',
             waitlistTerm: '',
             waitlistYear: '',
+            userid,
         });
     }
 
@@ -48,10 +54,15 @@ class WaitlistInput extends React.Component {
 
 
     handleSubmit() {
+        let userid = '';
+        if (typeof window !== 'undefined') {
+            userid = localStorage.getItem('userid');
+        }
         const data = {
             course: this.state.waitlistCourse,
             term: this.state.waitlistTerm,
             year: this.state.waitlistYear,
+            userid,
         };
         try {
             fetch(`http://localhost:${process.env.WAITLISTPORT}/addWaitlist`, {

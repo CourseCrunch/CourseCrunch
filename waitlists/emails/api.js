@@ -28,6 +28,7 @@ function checkUserWaitlist(waitlist, course, term, year) {
             waitlist[course][year][term].forEach((userID) => {
                 dbReq.getUserEmail(userID).then((userEmail) => {
                     sendEmail(userEmail, course).then((sent) => {
+                        console.log(`sending an email to ${userEmail}`);
                         if (sent) {
                             dbReq.removeUser(userID, course, year, term).then(() => { console.log('User removed from waitlist'); }).catch((e) => {
                                 // eslint-disable-next-line no-console

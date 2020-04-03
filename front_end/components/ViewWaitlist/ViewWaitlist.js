@@ -25,12 +25,20 @@ class ViewWaitlist extends React.Component {
     }
 
     reloadWaitlist() {
+        let userid = '';
+        if (typeof window !== 'undefined') {
+            userid = localStorage.getItem('userid');
+        }
+        const data = {
+            userid,
+        };
         try {
             fetch(`http://localhost:${process.env.WAITLISTPORT}/getWaitlists`, {
-                method: 'GET',
+                method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
                 },
+                body: JSON.stringify(data),
             }).then((res) => {
                 if (res.ok) {
                     // eslint-disable-next-line no-unused-vars
@@ -39,18 +47,18 @@ class ViewWaitlist extends React.Component {
                             waitlists: data,
                             error: false,
                         });
-                    }).catch((e) => {
+                    }).catch(() => {
                         this.setState({
                             error: true,
                         });
                     });
                 }
-            }).catch((e) => {
+            }).catch(() => {
                 this.setState({
                     error: true,
                 });
             });
-        } catch (e) {
+        } catch {
             this.setState({
                 error: true,
             });
@@ -83,13 +91,21 @@ class ViewWaitlist extends React.Component {
 
     handleCourseRemoval(waitlist) {
         if (!this.state.removeCourse) return;
+        let userid = '';
+        if (typeof window !== 'undefined') {
+            userid = localStorage.getItem('userid');
+        }
+        const data = {};
+        Object.assign(data, waitlist);
+        data.userid = userid;
+        console.log(data);
         try {
             fetch(`http://localhost:${process.env.WAITLISTPORT}/deleteWaitlist`, {
                 method: 'DELETE',
                 headers: {
                     'Content-Type': 'application/json',
                 },
-                body: JSON.stringify(waitlist),
+                body: JSON.stringify(data),
             }).then(() => {
                 this.setState({
                     removeCourse: false,

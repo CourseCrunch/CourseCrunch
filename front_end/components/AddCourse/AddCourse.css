@@ -1,3 +1,4 @@
+/*main component css*/
 .courseInput{
     position: relative;
     top: 60px;
@@ -8,11 +9,23 @@
     z-index:999;
 }
 
-.wordwrap {
-    white-space: pre-line !important;
-    word-wrap: break-word;
-  }
+/*main container for form*/
+.course_form_panel{
+    position: relative;
+    display: block;
+    margin-bottom: 0;
+    overflow: auto;
+    overflow-x: hidden;
+}
 
+/*form position*/
+.course_form_panel form{
+    position: relative;
+    width: 95%;
+    margin: 10px auto;   
+}
+
+/*label above the tip*/
 .form_instruct{
     position: relative;
     display: block;
@@ -21,6 +34,7 @@
     left: 1.5%;
 }
 
+/*light grey tip*/
 .hint{
     position: relative;
     display: block;
@@ -30,11 +44,28 @@
     color: #868686
 }
 
+/*Input Box Label*/
 .inpLabel{
     width: 170px;
     font-size: 20px;
 }
 
+/*add button*/
+.course_form_panel form button  {
+    position: relative;
+    display: inline-block;
+    width: 90px;
+    margin: 10px;
+    margin-left: 0;
+    padding: 10px 10px;
+    border: 0px;
+    font-weight:bold;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #013a6f;
+}
+
+/*input box*/
 #form_course{
     position: relative;
     padding: 0 20px;
@@ -45,11 +76,99 @@
     margin-bottom: 20px;
 }
 
-#add_button{
+/*course list container*/
+.course_panel{
+    position: relative;
+    display: block;
+    margin-bottom: 0;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+/*course list position*/
+.course_panel div{
+    position: relative;
+    width: 95%;
+    margin: 10px auto;   
+}
+
+/*1st yr course code list"*/
+.firstCourseCode_panel label{
     position: relative;
     display: inline-block;
-    color: #ffffff;
-    background-color: #013a6f;
-    width: 90px;
-    font-size: 20px;
+    border: solid 1px;
+    background-color: #78e890;
+    margin-left: 8px;
+    padding-left:5px;
 }
+
+/*1st yr course code list button"*/
+.firstCourseCode_panel label button{
+    height: 100%;
+    padding-left: 7px;
+    border: 0;
+    color: #6c6c6c;
+    background-color: #78e890;
+    
+}
+
+/*2nd yr course code list"*/
+.secondCourseCode_panel label{
+    position: relative;
+    display: inline-block;
+    border: solid 1px;
+    background-color: #9f7ce7;
+    margin-left: 8px;
+    padding-left:5px;
+}
+
+/*2nd yr course code list button"*/
+.secondCourseCode_panel label button{
+    height: 100%;
+    padding-left: 7px;
+    border: 0;
+    color: #6c6c6c;
+    background-color: #9f7ce7;
+    
+}
+
+/*3rd yr course code list"*/
+.thirdCourseCode_panel label{
+    position: relative;
+    display: inline-block;
+    border: solid 1px;
+    background-color: #dbb970;
+    margin-left: 8px;
+    padding-left:5px;
+}
+
+/*3rd yr course code list button"*/
+.thirdCourseCode_panel label button{
+    height: 100%;
+    padding-left: 7px;
+    border: 0;
+    color: #6c6c6c;
+    background-color: #dbb970;
+    
+}
+
+/*4th yr course code list"*/
+.fourthCourseCode_panel label{
+    position: relative;
+    display: inline-block;
+    border: solid 1px;
+    background-color: #70acdb;
+    margin-left: 8px;
+    padding-left:5px;
+}
+
+/*4th yr course code list button"*/
+.fourthCourseCode_panel label button{
+    height: 100%;
+    padding-left: 7px;
+    border: 0;
+    color: #6c6c6c;
+    background-color: #70acdb;
+    
+}
+

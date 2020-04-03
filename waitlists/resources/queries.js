@@ -66,7 +66,6 @@ function getWaitlistsForUser(userID) {
             waitlist.term = result.term;
             waitlists.push(waitlist);
         });
-        console.log(waitlists);
         return waitlists;
     }).catch((e) => {
         console.log(e);

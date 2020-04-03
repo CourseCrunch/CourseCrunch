@@ -25,10 +25,12 @@ class SettingsInput extends React.Component {
     }
 
     componentDidMount() {
+
         let data = { unsanUuid: this.state.uuid };
         if (typeof window !== 'undefined') {
             data = { unsanUuid: localStorage.getItem('userid') };
         }
+
         fetch(`http://localhost:${PORT}/edit_profile`, {
             method: 'POST',
             headers: {

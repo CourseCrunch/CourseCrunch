@@ -36,7 +36,6 @@ class WaitlistComp extends React.Component {
     }
 
     render() {
-        const state = this.displayState();
         return (
             <div>
                 <NavBar isLoggedIn = {true}/>

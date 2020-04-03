@@ -32,6 +32,7 @@ class Login extends React.Component {
                 content="An Error Occurred Try Again Later"
             /> </div>;
         }
+        return <></>;
     }
 
     handleClick = () => {

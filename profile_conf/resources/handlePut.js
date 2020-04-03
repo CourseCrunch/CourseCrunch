@@ -11,32 +11,31 @@ function addCourse(uuid, courseCode) {
                 if (checkCourseResult.rows[0] === undefined) {
                     const year = (new Date().getFullYear() - 1);
                     const promiseTimeTableFall = timetableApi
-                        .queryCourse(courseCode.substring(0, courseCode.length - 2), 
+                        .queryCourse(courseCode.substring(0, courseCode.length - 2),
                             'fall', year.toString());
                     promiseTimeTableFall.then((res) => {
-                        if(res === null) {
-                            const promiseTimeTableWinter = timetableApi
-                                .queryCourse(courseCode.substring(0, courseCode.length - 2), 
-                                    'winter', (year + 1).toString());
+                        if (res === null) {
+                            // const promiseTimeTableWinter = timetableApi
+                            //     .queryCourse(courseCode.substring(0, courseCode.length - 2),
+                            //         'winter', (year + 1).toString());
                             promiseTimeTableFall.then((res) => {
-                                if(res === null) {
+                                if (res === null) {
                                     resolve(406);
                                 } else {
                                     const courseDesc = res.full_name.split('-')[1];
-                                        const promiseInsCourse = dbReq.insertCourse(courseCode, 
-                                            courseDesc.substring(1, courseDesc.length - 6), 'UTM');
-                                        promiseInsCourse.then(() => {
-                                            const promiseAddCourse = dbReq.addCompletedCourse(uuid, courseCode);
-                                            promiseAddCourse.then(() => {
-                                                resolve('SUCCESS');
-                                            }).catch((queryError) => {
-                                                console.log(queryError);
-                                                reject(queryError);
-                                            });
+                                    const promiseInsCourse = dbReq.insertCourse(courseCode,
+                                        courseDesc.substring(1, courseDesc.length - 6), 'UTM');
+                                    promiseInsCourse.then(() => {
+                                        const promiseAddCourse = dbReq.addCompletedCourse(uuid, courseCode);
+                                        promiseAddCourse.then(() => {
+                                            resolve('SUCCESS');
+                                        }).catch((queryError) => {
+                                            console.log(queryError);
+                                            reject(queryError);
                                         });
+                                    });
                                 }
                             });
-
                         } else {
                             const courseDesc = res.full_name.split('-')[1];
                             const promiseInsCourse = dbReq.insertCourse(courseCode, courseDesc.substring(1, courseDesc.length - 6), 'UTM');

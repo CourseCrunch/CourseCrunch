@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-    Form, Button, FormGroup, FormControl, ControlLabel,
+    Form, Button,
 } from 'react-bootstrap';
 import './ChangeEmail.css';
 import { Message } from 'semantic-ui-react';
@@ -128,7 +128,10 @@ class SettingsInput extends React.Component {
                         <Form.Group controlId="form_newEmail">
                             <Form.Label className ="inpL">New Email</Form.Label>
                             <Form.Control
-                                ref={(input) => this.email = input}
+                                ref={(input) => {
+                                    this.email = input;
+                                }
+                                }
                                 onChange={() => this.handleInputChange('email')}
                                 type="email" placeholder="bob@example.com" />
                         </Form.Group>
@@ -136,7 +139,10 @@ class SettingsInput extends React.Component {
                         <Form.Group controlId="form_password">
                             <Form.Label className ="inpL">Password</Form.Label>
                             <Form.Control
-                                ref={(input) => this.password = input}
+                                ref={(input) => {
+                                    this.password = input;
+                                }
+                                }
                                 onChange={() => this.handleInputChange('password')}
                                 autoComplete="new-password"
                                 type="password" placeholder="*******" />

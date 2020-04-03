@@ -24,7 +24,7 @@ class SettingsInput extends React.Component {
         fetch(`http://localhost:${PORT}/change_password`, { method: 'GET' })
             .then((res) => res.json())
             .then(
-                (result) => {
+                () => {
                     this.setState({
                         isLoaded: true,
                     });
@@ -128,7 +128,10 @@ class SettingsInput extends React.Component {
                         <Form.Group controlId="form_newPassword">
                             <Form.Label className ="inpL">New Password</Form.Label>
                             <Form.Control
-                                ref={(input) => this.newPass = input}
+                                ref={(input) => {
+                                    this.newPass = input;
+                                }
+                                }
                                 onChange={() => this.handleInputChange('newPassword')}
                                 autoComplete="new-password"
                                 type="Password" placeholder="Password" />
@@ -137,7 +140,10 @@ class SettingsInput extends React.Component {
                         <Form.Group controlId="form_password">
                             <Form.Label className ="inpL">Old Password</Form.Label>
                             <Form.Control
-                                ref={(input) => this.oldPass = input}
+                                ref={(input) => {
+                                    this.oldPass = input;
+                                }
+                                }
                                 onChange={() => this.handleInputChange('oldPass')}
                                 autoComplete="new-password"
                                 type="Password" placeholder="*******" />

@@ -1,16 +1,8 @@
-import _ from 'lodash';
 import React from 'react';
-import Head from 'next/head';
 
 import { Table } from 'semantic-ui-react';
 
 class InstructorTable extends React.Component {
-    constructor(props) {
-        super(props);
-        const { data } = props;
-    }
-
-
     render() {
         if (this.props.data == null) {
             return null;
@@ -24,7 +16,7 @@ class InstructorTable extends React.Component {
 
         const roundDecimal = (x) => Math.round(x * 100) / 100;
 
-        for (let i = 0; i < this.props.data.length; i++) {
+        for (let i = 0; i < this.props.data.length; i += 1) {
             rows.push(
                 <Table.Row>
                     <Table.Cell>{this.props.data[i]._id}</Table.Cell>

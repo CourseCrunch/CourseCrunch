@@ -12,11 +12,11 @@ const Courses = [
 
 function removeExcludedCourses(courses, excludedCourses) {
     const newCourses = [];
-    for (course in courses) {
+    Object.keys(courses).forEach((course) => {
         if (!(excludedCourses.includes(courses[course].name))) {
             newCourses.push(courses[course]);
         }
-    }
+    });
     return newCourses;
 }
 
@@ -44,7 +44,7 @@ function removeExcludedTimings(courses, excludedTimings) {
     return newCourses;
 }
 /* GET users listing. */
-router.post('/', (req, res, next) => {
+router.post('/', (req, res) => {
     const reqCourses = req.body.courses;
     const reqTimings = req.body.timing;
     const newCourses = removeExcludedCourses(Courses, reqCourses);

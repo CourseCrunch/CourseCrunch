@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-    Form, Button, FormGroup, FormControl, ControlLabel,
+    Form, Button,
 } from 'react-bootstrap';
 import './AddCourse.css';
 
@@ -256,7 +256,10 @@ class SettingsInput extends React.Component {
                         <Form.Group controlId="form_course">
                             <Form.Label className ="inpLabel">Enter Course</Form.Label>
                             <Form.Control
-                                ref={(input) => this.course = input}
+                                ref={(input) => {
+                                    this.course = input;
+                                }
+                                }
                                 onChange={() => this.handleInputChange('course')}
                                 onSubmit={() => this.handleSubmit()}
                                 autoComplete="new-password"

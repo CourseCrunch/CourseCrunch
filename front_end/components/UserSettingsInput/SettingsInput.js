@@ -1,7 +1,6 @@
 import React from 'react';
-import { render } from 'react-dom';
 import {
-    Form, Button, FormGroup, FormControl, ControlLabel,
+    Form, Button,
 } from 'react-bootstrap';
 import './SettingsInput.css';
 
@@ -126,7 +125,10 @@ class SettingsInput extends React.Component {
                         <Form.Group controlId="form_firstName">
                             <Form.Label className ="inpL">First Name</Form.Label>
                             <Form.Control
-                                ref={(input) => this.firstName = input}
+                                ref={(input) => {
+                                    this.firstName = input;
+                                }
+                                }
                                 onChange={() => this.handleInputChange('firstName')}
                                 autoComplete="no"
                                 type="text" placeholder={this.state.oldFName}/>
@@ -135,7 +137,10 @@ class SettingsInput extends React.Component {
                         <Form.Group controlId="form_lastName">
                             <Form.Label className ="inpL">Last Name</Form.Label>
                             <Form.Control
-                                ref={(input) => this.lastName = input}
+                                ref={(input) => {
+                                    this.lastName = input;
+                                }
+                                }
                                 onChange={() => this.handleInputChange('lastName')}
                                 autoComplete="new-password"
                                 type="text" placeholder={this.state.oldLName} />
@@ -144,7 +149,10 @@ class SettingsInput extends React.Component {
                         <Form.Group controlId="form_program">
                             <Form.Label className ="inpL">Program</Form.Label>
                             <Form.Control
-                                ref={(input) => this.prog = input}
+                                ref={(input) => {
+                                    this.prog = input;
+                                }
+                                }
                                 onChange={() => this.handleInputChange('program')}
                                 autoComplete="new-password"
                                 type="text" placeholder={this.state.oldProgram} />

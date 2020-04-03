@@ -61,62 +61,62 @@ router.patch('/', (req, res) => {
 
         if (uuid === '') {
             res.status(400).send();
-        } else {
-            // validate that all sanitized inputs follow DB constraints
-            if (!((valid(sanFname) || valid2(sanFname) || validator.isEmpty(sanFname))
+            return;
+        }
+        // validate that all sanitized inputs follow DB constraints
+        if (!((valid(sanFname) || valid2(sanFname) || validator.isEmpty(sanFname))
                     && sanFname.length < 26)) {
-                res.status(406).send();
-            } else if (!((valid(sanLname) || valid2(sanLname) || validator.isEmpty(sanLname))
+            res.status(406).send();
+        } else if (!((valid(sanLname) || valid2(sanLname) || validator.isEmpty(sanLname))
                     && sanLname.length < 41)) {
-                res.status(406).send();
-            } else if (!((valid(sanProgram) || valid2(sanProgram) || validator.isEmpty(sanProgram))
+            res.status(406).send();
+        } else if (!((valid(sanProgram) || valid2(sanProgram) || validator.isEmpty(sanProgram))
                     && sanProgram.length < 256)) {
-                res.status(406).send();
-            } else {
-                // If the any of the fields are not empty, update them
-                const promiseGetUserInfo = dbReq.getUserInfo(uuid);
-                promiseGetUserInfo.then((queryResult) => {
-                    const { fname, lname, program } = queryResult.rows[0];
-                    const columnList = [];
-                    const paramList = [];
-                    if ((!(validator.isEmpty(sanFname))) && fname !== sanFname) {
-                        columnList.push('FNAME');
-                        paramList.push(sanFname);
-                    }
+            res.status(406).send();
+        } else {
+            // If the any of the fields are not empty, update them
+            const promiseGetUserInfo = dbReq.getUserInfo(uuid);
+            promiseGetUserInfo.then((queryResult) => {
+                const { fname, lname, program } = queryResult.rows[0];
+                const columnList = [];
+                const paramList = [];
+                if ((!(validator.isEmpty(sanFname))) && fname !== sanFname) {
+                    columnList.push('FNAME');
+                    paramList.push(sanFname);
+                }
 
-                    if ((!(validator.isEmpty(sanLname))) && lname !== sanLname) {
-                        columnList.push('LNAME');
-                        paramList.push(sanLname);
-                    }
+                if ((!(validator.isEmpty(sanLname))) && lname !== sanLname) {
+                    columnList.push('LNAME');
+                    paramList.push(sanLname);
+                }
 
-                    if ((!(validator.isEmpty(sanProgram))) && program !== sanProgram) {
-                        columnList.push('PROGRAM');
-                        paramList.push(sanProgram);
-                    }
+                if ((!(validator.isEmpty(sanProgram))) && program !== sanProgram) {
+                    columnList.push('PROGRAM');
+                    paramList.push(sanProgram);
+                }
 
-                    if (columnList.length > 0) {
-                        const promiseConstructQuery = utils
-                            .constructQuery(columnList, paramList, uuid);
-                        promiseConstructQuery.then((query) => {
-                            const promiseUpdateUser = dbReq.updateUser(query);
-                            promiseUpdateUser.then(() => {
-                                res.status(200).send();
-                            }).catch((queryError) => {
-                                console.log(queryError);
-                                res.status(500).send();
-                            });
-                        }).catch((constructError) => {
-                            console.log(constructError);
+                if (columnList.length > 0) {
+                    const promiseConstructQuery = utils
+                        .constructQuery(columnList, paramList, uuid);
+                    promiseConstructQuery.then((query) => {
+                        const promiseUpdateUser = dbReq.updateUser(query);
+                        promiseUpdateUser.then(() => {
+                            res.status(200).send();
+                        }).catch((queryError) => {
+                            console.log(queryError);
                             res.status(500).send();
                         });
-                    } else {
-                        res.status(200).send();
-                    }
-                }).catch((userInfoError) => {
-                    console.log(userInfoError);
-                    res.status(500).send();
-                });
-            }
+                    }).catch((constructError) => {
+                        console.log(constructError);
+                        res.status(500).send();
+                    });
+                } else {
+                    res.status(200).send();
+                }
+            }).catch((userInfoError) => {
+                console.log(userInfoError);
+                res.status(500).send();
+            });
         }
     } catch (e) {
         console.log(e);

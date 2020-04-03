@@ -88,6 +88,7 @@ function fullCourse(code, term, year) {
                 _id: code,
                 description: getDescription(parsed),
                 courses: getCourses(parsed),
+                full_name: getName(parsed),
             };
         } catch (e) {
             return null;

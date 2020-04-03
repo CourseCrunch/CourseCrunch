@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 import ReactTable from 'react-table-6';
 import './del.css';
@@ -8,7 +8,7 @@ import 'react-table-hoc-draggable-columns/dist/styles.css';
 
 const ReactTableDraggableColumns = withDraggableColumns(ReactTable);
 
-export class TableItem extends Component {
+export class TableItem extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -29,13 +29,6 @@ export class TableItem extends Component {
         borderBottom: '1px #ccc dotted',
     })
 
-    toColumns(labels) {
-        let i;
-        const columns = [];
-        for (i = 0; i < labels.length; i++) {
-        }
-    }
-
     sizeLimit() {
         if (this.props.data.data.length > 10) {
             return 10;
@@ -43,6 +36,7 @@ export class TableItem extends Component {
         return this.props.data.data.length;
     }
 
+    // eslint-disable-next-line class-methods-use-this
     getHeaderProps() {
         return { whiteSpace: 'normal !important', overflow: 'unset' };
     }

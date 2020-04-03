@@ -1,7 +1,7 @@
 import React from 'react';
 import Router from 'next/router';
 import {
-    Form, Button, FormGroup, FormControl, ControlLabel,
+    Form, Button,
 } from 'react-bootstrap';
 import './Registration.css';
 import { Message } from 'semantic-ui-react';
@@ -148,6 +148,7 @@ class SettingsInput extends React.Component {
                 header="Uh Oh! An Error Occurred! Try Again Later"
             /> </div>;
         }
+        return <></>;
     }
 
     render() {
@@ -162,7 +163,10 @@ class SettingsInput extends React.Component {
                         <Form.Group controlId="form_email">
                             <Form.Label className ="inpL">Email*</Form.Label>
                             <Form.Control
-                                ref={(input) => this.email = input}
+                                ref={(input) => {
+                                    this.email = input;
+                                }
+                                }
                                 onChange={() => this.handleInputChange('email')}
                                 type="email" placeholder="bob@example.com" />
                         </Form.Group>
@@ -170,7 +174,10 @@ class SettingsInput extends React.Component {
                         <Form.Group controlId="form_fName">
                             <Form.Label className ="inpL">First Name*</Form.Label>
                             <Form.Control
-                                ref={(input) => this.fName = input}
+                                ref={(input) => {
+                                    this.fName = input;
+                                }
+                                }
                                 onChange={() => this.handleInputChange('firstName')}
                                 autoComplete="yes"
                                 type="text" placeholder="Bob" />
@@ -179,7 +186,10 @@ class SettingsInput extends React.Component {
                         <Form.Group controlId="form_lName">
                             <Form.Label className ="inpL">Last Name</Form.Label>
                             <Form.Control
-                                ref={(input) => this.lName = input}
+                                ref={(input) => {
+                                    this.lName = input;
+                                }
+                                }
                                 onChange={() => this.handleInputChange('lastName')}
                                 autoComplete="yes"
                                 type="text" placeholder="Smith" />
@@ -188,7 +198,10 @@ class SettingsInput extends React.Component {
                         <Form.Group controlId="form_program">
                             <Form.Label className ="inpL">Program</Form.Label>
                             <Form.Control
-                                ref={(input) => this.program = input}
+                                ref={(input) => {
+                                    this.program = input;
+                                }
+                                }
                                 onChange={() => this.handleInputChange('program')}
                                 autoComplete="yes"
                                 type="text" placeholder="Computer Science" />
@@ -197,7 +210,10 @@ class SettingsInput extends React.Component {
                         <Form.Group controlId="form_password">
                             <Form.Label className ="inpL">Password*</Form.Label>
                             <Form.Control
-                                ref={(input) => this.password = input}
+                                ref={(input) => {
+                                    this.password = input;
+                                }
+                                }
                                 onChange={() => this.handleInputChange('password')}
                                 autoComplete="new-password"
                                 type="password" placeholder="***********" />
@@ -206,7 +222,10 @@ class SettingsInput extends React.Component {
                         <Form.Group controlId="form_confPassword">
                             <Form.Label className ="inpL">Confirm Password*</Form.Label>
                             <Form.Control
-                                ref={(input) => this.confPassword = input}
+                                ref={(input) => {
+                                    this.confPassword = input;
+                                }
+                                }
                                 onChange={() => this.handleInputChange('confPassword')}
                                 autoComplete="new-password"
                                 type="password" placeholder="***********" />

@@ -34,11 +34,13 @@ do
     #echo `pwd`;
     npm i
     check_arg $log;
+    NODE_ENV=production;
     if [ $? == 1 ]; then 
         echo "dev mode for $log"
         cd ..
         npx eslint --fix $log
         cd $log
+        NODE_ENV=development;
         npm run dev&
     else 
         npm run prod&

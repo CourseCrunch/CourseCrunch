@@ -78,6 +78,8 @@ class Login extends React.Component {
         return (<div>
             <Head>
                 <style>{'body,html { height:100% }'}</style>
+                <link rel="shortcut icon" href="/static/favicon.ico" />
+                <title>Login</title>
                 <link href="https://cdn.jsdelivr.net/npm/semantic-ui/dist/semantic.min.css" rel="stylesheet" key="test"/>
             </Head>
             <NavBar/>
@@ -91,6 +93,8 @@ class Login extends React.Component {
                         required={true} onChange ={(e) => this.setState({ password: e.target.value })}/>
                     <br/><br/><br/>
                     <Button variant="contained" color="primary" size="large" onClick={this.handleClick}>Login</Button>
+                    <br/><br/>
+                    <a id="register" href="/register"> Don't Have An Account? Sign Up Here! </a>
                 </form>
                 {this.dispSubmitErr()}
             </div>

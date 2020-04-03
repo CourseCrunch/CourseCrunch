@@ -9,16 +9,23 @@ class NavBar extends React.Component {
         this.state = { loaded: false };
     }
 
+    // eslint-disable-next-line class-methods-use-this
+    logout() {
+        if (typeof window !== 'undefined') {
+            localStorage.removeItem('loggedIn');
+            localStorage.removeItem('userid');
+        }
+    }
+
     Greeting() {
         if (this.state.loaded) {
             if (typeof window !== 'undefined') {
                 if (localStorage.getItem('loggedIn') === null) {
                     return <li><a href='/login'>Login</a></li>;
                 }
-            } else {
                 return <>
                     <li><a href="/editProfile">User Profile</a></li>
-                    <li><label>Logout</label></li>
+                    <li><Link href='/'><a onClick={this.logout}>Logout</a></Link></li>
                 </>;
             }
         }

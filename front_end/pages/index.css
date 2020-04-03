@@ -108,12 +108,13 @@
 }
 
 .buttonList button{
-    font-size: 20px;
-    width: 20vh;
-    height: 10vh;
+    font-size: 20px !important;
+    width: 12vw !important;
+    height: 10vh !important;
     border: 4px solid white;
-    background-color: rgba(0,0,0, .75);
-    color: white;
+    background-color: rgba(0,0,0, .75) !important;
+    color: white !important;
+    padding: 5px !important;
 }
 
 .loginform h2{

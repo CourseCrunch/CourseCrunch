@@ -15,7 +15,7 @@ class InstructorHeader extends React.Component {
         const params = new URLSearchParams({
             instructor: this.props.name,
         });
-        fetch(`${process.env.BASE}:${process.env.EVALSPORT}/instructors/pfp/${this.props.campus}?${params.toString()}`)
+        fetch(`${process.env.BASE}${process.env.EVALSPORT}/instructors/pfp/${this.props.campus}?${params.toString()}`)
             .then((out) => out.json())
             .then((result) => {
                 this.setState({ isLoading: false, img: result });

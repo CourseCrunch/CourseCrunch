@@ -16,7 +16,7 @@ module.exports = withPlugins(
             PROFILEPORT: 3005,
             WAITLISTPORT: 3006,
             EVALSPORT: 3007,
-            BASE: 'http://krishchow.me',
+            BASE: 'http://krishchow.me:',
         },
     },
 );

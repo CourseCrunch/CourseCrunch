@@ -13,7 +13,7 @@ class Filter extends React.Component {
     }
 
     componentDidMount() {
-        fetch(`${process.env.BASE}:${process.env.EVALSPORT}/courses`)
+        fetch(`${process.env.BASE}${process.env.EVALSPORT}/courses`)
             .then((out) => out.json())
             .then((result) => {
                 let courses = [];

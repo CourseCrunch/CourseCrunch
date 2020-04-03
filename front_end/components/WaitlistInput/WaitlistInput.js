@@ -65,7 +65,7 @@ class WaitlistInput extends React.Component {
             userid,
         };
         try {
-            fetch(`${process.env.BASE}:${process.env.WAITLISTPORT}/addWaitlist`, {
+            fetch(`${process.env.BASE}${process.env.WAITLISTPORT}/addWaitlist`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

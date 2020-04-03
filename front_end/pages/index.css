@@ -115,6 +115,7 @@
     background-color: rgba(0,0,0, .75) !important;
     color: white !important;
     padding: 5px !important;
+    word-wrap: break-word !important;
 }
 
 .loginform h2{

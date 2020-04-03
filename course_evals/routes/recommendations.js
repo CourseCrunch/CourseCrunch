@@ -73,7 +73,7 @@ router.post('/recommendation', (req, res) => {
     const { limit, timings } = req.body;
     // console.log(someFunction2(res,"4",timings));
     try {
-        fetch(`${process.env.BASE}:${process.env.CALENDARPORT}/api/prereqTo`, {
+        fetch(`${process.env.BASE}${process.env.CALENDARPORT}/api/prereqTo`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

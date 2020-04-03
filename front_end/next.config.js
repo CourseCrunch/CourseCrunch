@@ -12,10 +12,11 @@ module.exports = withPlugins(
             AUTHPORT: 3001,
             CALENDARPORT: 3002,
             DVIZPORT: 3003,
-            FRONTENDPORT: 3000,
+            FRONTENDPORT: 80,
             PROFILEPORT: 3005,
             WAITLISTPORT: 3006,
             EVALSPORT: 3007,
+            BASE: 'http://krishchow.me',
         },
     },
 );

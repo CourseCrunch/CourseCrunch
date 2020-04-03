@@ -21,7 +21,7 @@ class SettingsInput extends React.Component {
     }
 
     componentDidMount() {
-        fetch(`http://localhost:${PORT}/change_email`, { method: 'GET' })
+        fetch(`${process.env.BASE}:${PORT}/change_email`, { method: 'GET' })
             .then((res) => res.json())
             .then(
                 () => {
@@ -72,7 +72,7 @@ class SettingsInput extends React.Component {
                 email: this.state.newEmail,
                 password: this.state.password,
             };
-            fetch(`http://localhost:${PORT}/change_email`, {
+            fetch(`${process.env.BASE}:${PORT}/change_email`, {
                 method: 'PATCH',
                 headers: {
                     'Content-Type': 'application/json',

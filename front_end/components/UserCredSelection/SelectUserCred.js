@@ -24,7 +24,7 @@ class CredSelection extends React.Component {
         if (typeof window !== 'undefined') {
             data = { unsanUuid: localStorage.getItem('userid') };
         }
-        fetch(`http://localhost:${PORT}/change_email`, {
+        fetch(`${process.env.BASE}:${PORT}/change_email`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

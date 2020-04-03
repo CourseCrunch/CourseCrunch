@@ -27,7 +27,7 @@ class SettingsInput extends React.Component {
     }
 
     componentDidMount() {
-        fetch(`http://localhost:${PORT}/register`, { method: 'GET' })
+        fetch(`${process.env.BASE}:${PORT}/register`, { method: 'GET' })
             .then((res) => res.json())
             .then(
                 () => {
@@ -94,7 +94,7 @@ class SettingsInput extends React.Component {
                 program: this.state.program,
                 password: this.state.password,
             };
-            fetch(`http://localhost:${PORT}/register`, {
+            fetch(`${process.env.BASE}:${PORT}/register`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

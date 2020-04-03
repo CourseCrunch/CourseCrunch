@@ -25,7 +25,6 @@ class SettingsInput extends React.Component {
     }
 
     componentDidMount() {
-
         let data = { unsanUuid: this.state.uuid };
         if (typeof window !== 'undefined') {
             data = { unsanUuid: localStorage.getItem('userid') };

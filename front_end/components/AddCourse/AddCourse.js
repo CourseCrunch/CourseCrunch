@@ -26,9 +26,9 @@ class SettingsInput extends React.Component {
 
     // init component and make call to backend for default page data
     componentDidMount() {
-        var data = { unsanUuid: this.state.uuid };
+        let data = { unsanUuid: this.state.uuid };
         if (typeof window !== 'undefined') {
-            data = { unsanUuid: localStorage.getItem('userid') }
+            data = { unsanUuid: localStorage.getItem('userid') };
         }
 
         fetch(`http://localhost:${PORT}/edit_Completed_Courses`, {

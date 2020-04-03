@@ -1,8 +1,8 @@
 const express = require('express');
 const cors = require('cors');
 const indexRouter = require('./routes/index');
-const usersRouter = require('./routes/users');
 const emailer = require('./emails/api.js');
+
 const app = express();
 
 // view engine setup

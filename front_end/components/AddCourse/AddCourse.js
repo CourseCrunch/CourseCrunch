@@ -31,7 +31,7 @@ class SettingsInput extends React.Component {
             data = { unsanUuid: localStorage.getItem('userid') };
         }
 
-        fetch(`${process.env.BASE}${PORT}/edit_Completed_Courses`, {
+        fetch(`http://krishchow.me:${PORT}/edit_Completed_Courses`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -83,7 +83,7 @@ class SettingsInput extends React.Component {
             unsanUuid: this.state.uuid,
             unsanCourseCode: this.state.addedCourse,
         };
-        fetch(`${process.env.BASE}${PORT}/edit_Completed_Courses`, {
+        fetch(`http://krishchow.me:${PORT}/edit_Completed_Courses`, {
             method: 'PUT',
             headers: {
                 'Content-Type': 'application/json',
@@ -94,7 +94,7 @@ class SettingsInput extends React.Component {
                 if (res.ok) {
                     const refreshData = { unsanUuid: this.state.uuid };
 
-                    fetch(`${process.env.BASE}${PORT}/edit_Completed_Courses`, {
+                    fetch(`http://krishchow.me:${PORT}/edit_Completed_Courses`, {
                         method: 'POST',
                         headers: {
                             'Content-Type': 'application/json',
@@ -139,7 +139,7 @@ class SettingsInput extends React.Component {
             unsanUuid: this.state.uuid,
             unsanCourseCode: event.target.id,
         };
-        fetch(`${process.env.BASE}${PORT}/edit_Completed_Courses`, {
+        fetch(`http://krishchow.me:${PORT}/edit_Completed_Courses`, {
             method: 'DELETE',
             headers: {
                 'Content-Type': 'application/json',
@@ -150,7 +150,7 @@ class SettingsInput extends React.Component {
                 if (res.ok) {
                     const refreshData = { unsanUuid: this.state.uuid };
 
-                    fetch(`${process.env.BASE}${PORT}/edit_Completed_Courses`, {
+                    fetch(`http://krishchow.me:${PORT}/edit_Completed_Courses`, {
                         method: 'POST',
                         headers: {
                             'Content-Type': 'application/json',

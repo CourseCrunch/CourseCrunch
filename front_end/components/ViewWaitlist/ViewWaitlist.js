@@ -33,7 +33,7 @@ class ViewWaitlist extends React.Component {
             userid,
         };
         try {
-            fetch(`${process.env.BASE}${process.env.WAITLISTPORT}/getWaitlists`, {
+            fetch(`http://krishchow.me:${process.env.WAITLISTPORT}/getWaitlists`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -100,7 +100,7 @@ class ViewWaitlist extends React.Component {
         data.userid = userid;
         console.log(data);
         try {
-            fetch(`${process.env.BASE}${process.env.WAITLISTPORT}/deleteWaitlist`, {
+            fetch(`http://krishchow.me:${process.env.WAITLISTPORT}/deleteWaitlist`, {
                 method: 'DELETE',
                 headers: {
                     'Content-Type': 'application/json',

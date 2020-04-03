@@ -28,7 +28,7 @@ class Comparison extends React.Component {
     }
 
     buttonClickHandler() {
-        fetch(`${process.env.BASE}${process.env.EVALSPORT}/compare/instructors/${this.state.searchText}`)
+        fetch(`http://krishchow.me:${process.env.EVALSPORT}/compare/instructors/${this.state.searchText}`)
             .then((out) => out.json())
             .then((result) => {
                 console.log(result);

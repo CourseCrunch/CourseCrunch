@@ -53,7 +53,7 @@ class Recommendations extends React.Component {
             limit: 25,
             timings: this.state.selectedIntervals,
         };
-        fetch(`${process.env.BASE}${process.env.EVALSPORT}/recommendation`, {
+        fetch(`http://krishchow.me:${process.env.EVALSPORT}/recommendation`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

@@ -40,7 +40,7 @@ class Login extends React.Component {
             email: this.state.email,
             password: this.state.password,
         };
-        fetch(`${process.env.BASE}${process.env.AUTHPORT}/login`, {
+        fetch(`http://krishchow.me:${process.env.AUTHPORT}/login`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

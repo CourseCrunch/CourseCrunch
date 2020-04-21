@@ -13,7 +13,7 @@ class Filter extends React.Component {
     }
 
     componentDidMount() {
-        fetch('http://localhost:3007/courses')
+        fetch(`http://${process.env.BASE}:${process.env.EVALSPORT}/courses`)
             .then((out) => out.json())
             .then((result) => {
                 let courses = [];

@@ -29,7 +29,7 @@ class SettingsInput extends React.Component {
             data = { unsanUuid: localStorage.getItem('userid') };
         }
 
-        fetch(`http://localhost:${PORT}/edit_profile`, {
+        fetch(`http://${process.env.BASE}:${PORT}/edit_profile`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -88,7 +88,7 @@ class SettingsInput extends React.Component {
             unsanLname: this.state.newLName,
             unsanProgram: this.state.newProg,
         };
-        fetch(`http://localhost:${PORT}/edit_profile`, {
+        fetch(`http://${process.env.BASE}:${PORT}/edit_profile`, {
             method: 'PATCH',
             headers: {
                 'Content-Type': 'application/json',

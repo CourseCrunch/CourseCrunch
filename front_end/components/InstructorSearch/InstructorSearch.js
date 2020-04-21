@@ -17,7 +17,7 @@ class InstructorSearch extends React.Component {
     componentDidUpdate(prevProps) {
         if (prevProps.campus !== this.props.campus) {
             this.setState({ isLoading: true });
-            fetch('http://localhost:3007/instructors/allInstructors',
+            fetch(`http://${process.env.BASE}:${process.env.EVALSPORT}/instructors/allInstructors`,
                 {
                     method: 'POST',
                     headers: {

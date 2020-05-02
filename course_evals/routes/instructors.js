@@ -1,12 +1,20 @@
+/* eslint-disable global-require */
 const express = require('express');
 const { google } = require('googleapis');
 
+let rmp = null;
+try {
+    rmp = require('../../rmp_api/api');
+} catch (err) {
+    console.log('failed to load rate my prof API');
+}
 
-const rmp = require('../../rmp_api/api');
 const evals = require('../model/api');
 
-
-const rmpCampuses = rmp.getSchools();
+let rmpCampuses = null;
+if (rmp) {
+    rmpCampuses = rmp.getSchools();
+}
 const evalsCampuses = evals.getSchools();
 const router = express.Router();
 const customsearch = google.customsearch('v1');
@@ -15,6 +23,10 @@ const customsearch = google.customsearch('v1');
 router.get('/rmp/:campus', (req, response) => {
     const rCampus = req.params.campus;
     const iName = req.query.instructor;
+    if (!rmp || !rmpCampuses) {
+        response.status(501).end();
+        return;
+    }
     if (!(rCampus in rmpCampuses) || iName == null) {
         response.status(400).end();
         return;

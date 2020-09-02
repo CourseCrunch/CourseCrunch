@@ -1,4 +1,4 @@
-# project-boundlessbytes
+# CourseCrunch
 A web application that allows students at the University of Toronto to plan their courses by looking an information about course difficulty,
 Professor reviews, and space-availability.
 
@@ -7,13 +7,13 @@ Professor reviews, and space-availability.
 `Step 1`: Clone our repo:
 
 ```bash
-git clone https://github.com/UTMCSC301/project-boundlessbytes.git
+git clone https://github.com/CourseCrunch/CourseCrunch.git
 ```
 
 `Step 2`: cd in the repo:
 
 ```bash
-cd project-boundlessbytes
+cd CourseCrunch
 ```
 
 `Step 3`: run our setup script which will run all our microservices after using `npm install` in all the subdirectories

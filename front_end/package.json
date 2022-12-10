@@ -18,7 +18,7 @@
     "css-loader": "^3.4.2",
     "daypilot-pro-react": "https://npm.daypilot.org/daypilot-pro-react/trial/2019.3.4012.tar.gz",
     "debug": "~2.6.9",
-    "express": "~4.16.1",
+    "express": "~4.17.3",
     "faker": "^4.1.0",
     "file-loader": "^6.0.0",
     "http-errors": "~1.6.3",

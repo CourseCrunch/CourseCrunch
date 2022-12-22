@@ -29,7 +29,7 @@
     "moment": "^2.24.0",
     "mongoose": "^5.9.4",
     "morgan": "~1.9.1",
-    "next": "^9.3.2",
+    "next": "^9.5.5",
     "next-compose-plugins": "^2.2.0",
     "next-images": "^1.4.0",
     "prop-types": "^15.7.2",
